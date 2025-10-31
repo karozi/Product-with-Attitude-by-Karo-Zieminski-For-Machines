@@ -184,6 +184,66 @@ Last updated: October 2025
 
 ---
 
+## Article: Best Vibecoding Guides: Is Your Replit Looping? This Will Help.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/is-your-replit-looping-this-will
+
+**Original Publish Date:** July 21, 2025
+
+**Tags:**
+
+`#vibecoding` `#replit` `#guides`
+
+
+---
+
+## Article: Vibecoding Journey: I Broke Replit So You Don't Have To
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to
+
+**Original Publish Date:** July 14, 2025
+
+**Tags:**
+
+`#vibecoding` `#replit`
+
+
+---
+
+## Article: Founders, Here's What You Need to Know About Product Launches in 2025. Plus the 267% Acceleration Trend.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know
+
+**Original Publish Date:** June 12, 2025
+
+**Tags:**
+
+`#product-launch` `#founders` `#product-management`
+
+
+---
+
+## Article: I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/i-studied-49-ai-generated-bios-what
+
+**Original Publish Date:** June 04, 2025
+
+**Tags:**
+
+`#ai` `#writing`
+
+
+---
+
 ## Article: How I Ended Up Building a Digital Shelf For Substack Creators
 
 **Author:** Karo Zieminski
@@ -195,6 +255,51 @@ Last updated: October 2025
 **Tags:**
 
 `#substack-marketplace` `#creator-economy` `#trusted-showcase` `#build-with-ai` `#product-launch`
+
+
+---
+
+## Article: How To Implement Hyper-personalization Without Creeping People Out
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/how-to-implement-hyper-personalization
+
+**Original Publish Date:** May 14, 2025
+
+**Tags:**
+
+`#personalization` `#ux`
+
+
+---
+
+## Article: Are You a Product Person Lost on Substack? Here's the Map
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/are-you-a-product-person-lost-on
+
+**Original Publish Date:** May 06, 2025
+
+**Tags:**
+
+`#product-management` `#substack`
+
+
+---
+
+## Article: Substack's Roadmap And Why 'No, Substack, We Don't Want Reels' Went Viral
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/substacks-product-roadmap-why-no
+
+**Original Publish Date:** April 22, 2025
+
+**Tags:**
+
+`#substack` `#product-roadmap` `#viral-content`
 
 
 ---
