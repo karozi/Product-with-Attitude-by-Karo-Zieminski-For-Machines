@@ -1,39 +1,118 @@
 {
-  "@context": {
-    "@vocab": "https://schema.org/",
-    "pwa": "https://productwithattitude.com/vocab#"
-  },
+  "@context": [
+    "https://schema.org",
+    {
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "pwa": "https://productwithattitude.com/vocab#"
+    }
+  ],
   "@id": "https://karozieminski.substack.com/for-machines",
-  "@type": "DataCatalog",
-  "name": "Product With Attitude — Unified Knowledge Graph",
-  "description": "Composite JSON-LD object unifying metadata for For-Machines, StackShelf product, Attitude Vault skill, Vibecoding definitions, PRD Builder, and AIO+SEO optimization.",
-  "inLanguage": "en",
-  "dateModified": "2025-10-31",
-  "provider": {
-    "@type": "Person",
-    "@id": "https://productwithattitude.com/#karo",
-    "name": "Karo Zieminski",
-    "jobTitle": "AI Product Manager & Creator of StackShelf",
-    "url": "https://karozieminski.substack.com/",
-    "sameAs": [
-      "https://stackshelf.app/",
-      "https://www.linkedin.com/in/karozieminski/"
-    ]
-  },
-  "dataset": [
+  "@graph": [
+    {
+      "@type": "DataCatalog",
+      "@id": "https://karozieminski.substack.com/#catalog",
+      "name": "Product With Attitude — Unified Knowledge Graph",
+      "description": "Composite JSON-LD knowledge graph for Product With Attitude publication, StackShelf product, and PWA vocabulary.",
+      "inLanguage": "en",
+      "identifier": "pwa-catalog-v2",
+      "version": "2.0.0",
+      "dateModified": "2025-11-02",
+      "provider": {"@id": "https://productwithattitude.com/#karo"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "dataset": [
+        {"@id": "https://karozieminski.substack.com/#for-machines-dataset"}
+      ]
+    },
+
     {
       "@type": "Dataset",
-      "@id": "https://karozieminski.substack.com/#for-machines",
+      "@id": "https://karozieminski.substack.com/#for-machines-dataset",
       "name": "For Machines Metadata (Substack)",
-      "description": "Site-level machine-readable catalog for the Substack publication.",
+      "description": "Site-level machine-readable catalog for the Substack publication including blog posts, vocabulary, and product metadata.",
+      "identifier": "pwa-dataset-v2",
+      "version": "2.0.0",
       "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
       "distribution": {
         "@type": "DataDownload",
         "encodingFormat": "application/ld+json",
         "contentUrl": "https://karozieminski.substack.com/for-machines.jsonld"
       },
-      "keywords": ["AI PM","vibecoding","spec-driven development","ethical AI","StackShelf","Product With Attitude"],
-      "about": [{"@id": "https://productwithattitude.com/vocab#Vibecoding"},{"@id": "https://productwithattitude.com/vocab#SpecDriven"},{"@id": "https://productwithattitude.com/vocab#Agentic"}]
+      "keywords": ["AI PM", "vibecoding", "spec-driven development", "ethical AI", "StackShelf", "Product With Attitude", "LLM optimization", "JSON-LD"],
+      "about": [
+        {"@id": "https://productwithattitude.com/vocab#Vibecoding"},
+        {"@id": "https://productwithattitude.com/vocab#SpecDriven"},
+        {"@id": "https://productwithattitude.com/vocab#Agentic"}
+      ],
+      "license": "https://productwithattitude.com/license",
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "dateModified": "2025-11-02"
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://productwithattitude.com/#org",
+      "name": "Product With Attitude",
+      "alternateName": "PWA",
+      "url": "https://productwithattitude.com/",
+      "description": "AI product management publication and builder community empowering creators to design, build, and launch products.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f411cce-3771-42d9-965e-1c01efe464eb_986x986.png",
+        "caption": "Product With Attitude logo by Karo",
+        "description": "Logo for Product With Attitude publication",
+        "license": "https://productwithattitude.com/license"
+      },
+      "sameAs": [
+        "https://karozieminski.substack.com/",
+        "https://karobuilds.dev/",
+        "https://www.linkedin.com/in/karozieminski/",
+        "https://github.com/karozi",
+        "https://x.com/karozieminski"
+      ],
+      "founder": {"@id": "https://productwithattitude.com/#karo"},
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "karozieminski@substack.com",
+        "contactType": "customer support"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://productwithattitude.com/#karo",
+      "name": "Karo Zieminski",
+      "alternateName": ["Karo", "Karolina Zieminski"],
+      "givenName": "Karolina",
+      "familyName": "Zieminski",
+      "jobTitle": "AI Product Manager & Creator of StackShelf",
+      "url": "https://karozieminski.substack.com/",
+      "description": "AI Product Manager turning everyone into AI builders. Creator of StackShelf and Product With Attitude.",
+      "sameAs": [
+        "https://stackshelf.app/",
+        "https://www.linkedin.com/in/karozieminski/",
+        "https://github.com/karozi",
+        "https://x.com/karozieminski"
+      ],
+      "affiliation": [
+        {"@id": "https://productwithattitude.com/#org"},
+        {"@id": "https://stackshelf.app/#app"}
+      ],
+      "knowsAbout": [
+        {"@id": "https://productwithattitude.com/vocab#Vibecoding"},
+        {"@id": "https://productwithattitude.com/vocab#SpecDriven"},
+        {"@id": "https://productwithattitude.com/vocab#Agentic"},
+        "AI product management",
+        "Substack ecosystem",
+        "LLM optimization",
+        "JSON-LD",
+        "builder communities"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "karozieminski@substack.com",
+        "contactType": "professional inquiries"
+      }
     },
 
     {
@@ -41,22 +120,41 @@
       "@id": "https://karozieminski.substack.com/#site",
       "name": "Product With Attitude (Substack)",
       "url": "https://karozieminski.substack.com/",
-      "isPartOf": {"@id": "https://productwithattitude.com/#brand"},
-      "publisher": {"@id": "https://productwithattitude.com/#karo"},
+      "description": "AI Product Manager turning everyone into AI builders. I help you design, build and test your product, and feature it on Substack marketplace. I connect you with a supportive 4K+ community building and learning in public.",
+      "inLanguage": "en",
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "isPartOf": {"@id": "https://productwithattitude.com/#org"},
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://karozieminski.substack.com/search?q={query}",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://karozieminski.substack.com/search?q={query}"
+        },
         "query-input": "required name=query"
       },
-      "sameAs": ["https://productwithattitude.com/","https://karobuilds.dev/"]
+      "hasPart": [
+        {"@id": "https://karozieminski.substack.com/feed"},
+        {"@id": "https://karozieminski.substack.com/#series"}
+      ]
+    },
+
+    {
+      "@type": "WebFeed",
+      "@id": "https://karozieminski.substack.com/feed",
+      "url": "https://karozieminski.substack.com/feed",
+      "name": "Product With Attitude RSS Feed",
+      "encodingFormat": "application/rss+xml",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"}
     },
 
     {
       "@type": "WebSite",
-      "@id": "https://productwithattitude.com/#brand",
+      "@id": "https://productwithattitude.com/#brand-site",
       "name": "ProductWithAttitude.com",
       "url": "https://productwithattitude.com/",
       "description": "Landing site; Substack remains canonical for articles.",
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
       "pwa:canonicalPolicy": "Substack is canonical for posts; PWA site summarizes and interlinks."
     },
 
@@ -66,43 +164,79 @@
       "name": "KaroBuilds.dev",
       "url": "https://karobuilds.dev/",
       "description": "Syndication and developer hub that links back to canonical Substack posts.",
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
       "pwa:canonicalPolicy": "All syndicated posts use rel=\"canonical\" to Substack originals."
+    },
+
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://karozieminski.substack.com/#series",
+      "name": "Product With Attitude",
+      "alternateName": "PWA",
+      "description": "A publication series on AI product management, vibecoding, and building in public.",
+      "url": "https://karozieminski.substack.com/archive",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "about": [
+        {"@id": "https://productwithattitude.com/vocab#Vibecoding"},
+        {"@id": "https://productwithattitude.com/vocab#SpecDriven"},
+        {"@id": "https://productwithattitude.com/vocab#Agentic"}
+      ]
     },
 
     {
       "@type": "DefinedTermSet",
       "@id": "https://productwithattitude.com/vocab#Glossary",
       "name": "PWA Glossary",
+      "description": "Core terminology and concepts from Product With Attitude publication.",
+      "identifier": "pwa-glossary-v2",
+      "version": "2.0.0",
+      "dateModified": "2025-11-02",
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
       "hasDefinedTerm": [
         {
           "@type": "DefinedTerm",
           "@id": "https://productwithattitude.com/vocab#Vibecoding",
+          "identifier": "vibecoding-v2",
           "name": "vibecoding",
-          "alternateName": ["intuitive development","rapid iteration","exploratory coding"],
+          "alternateName": ["intuitive development", "rapid iteration", "exploratory coding"],
           "description": "Development approach prioritizing speed and intuition over formal planning.",
-          "pwa:do": ["prototypes","exploration","creative tasks"],
-          "pwa:avoid": ["mission-critical systems","regulated environments"],
-          "pwa:examples": ["weekend hackathons","creative AI experiments","proof-of-concepts"],
-          "pwa:related": ["agile development","rapid prototyping"]
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"},
+          "sameAs": ["https://www.wikidata.org/entity/Q169890"],
+          "skos:related": ["https://www.wikidata.org/entity/Q169890"],
+          "pwa:do": ["prototypes", "exploration", "creative tasks"],
+          "pwa:avoid": ["mission-critical systems", "regulated environments"],
+          "pwa:examples": ["weekend hackathons", "creative AI experiments", "proof-of-concepts"],
+          "pwa:related": ["agile development", "rapid prototyping"]
         },
         {
           "@type": "DefinedTerm",
           "@id": "https://productwithattitude.com/vocab#SpecDriven",
+          "identifier": "spec-driven-v2",
           "name": "spec-driven development",
-          "alternateName": ["specification-first","requirements-driven","formal development"],
+          "alternateName": ["specification-first", "requirements-driven", "formal development"],
           "description": "Structured approach emphasizing requirements definition before implementation.",
-          "pwa:do": ["production systems","team coordination","compliance"],
-          "pwa:avoid": ["early exploration","rapidly changing requirements"],
-          "pwa:examples": ["enterprise software","API development","regulated systems"],
-          "pwa:related": ["waterfall methodology","documentation-driven development"]
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"},
+          "sameAs": ["https://www.wikidata.org/entity/Q1314903"],
+          "skos:related": ["https://www.wikidata.org/entity/Q1314903"],
+          "skos:broader": ["https://www.wikidata.org/entity/Q1314903"],
+          "pwa:do": ["production systems", "team coordination", "compliance"],
+          "pwa:avoid": ["early exploration", "rapidly changing requirements"],
+          "pwa:examples": ["enterprise software", "API development", "regulated systems"],
+          "pwa:related": ["waterfall methodology", "documentation-driven development"]
         },
         {
           "@type": "DefinedTerm",
           "@id": "https://productwithattitude.com/vocab#Agentic",
+          "identifier": "agentic-workflows-v2",
           "name": "agentic workflows",
-          "alternateName": ["autonomous agents","AI agents","intelligent automation"],
+          "alternateName": ["autonomous agents", "AI agents", "intelligent automation"],
           "description": "AI systems capable of planning and executing tasks with minimal supervision.",
-          "pwa:related": ["workflow automation","LLM orchestration"]
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"},
+          "sameAs": ["https://www.wikidata.org/entity/Q11660"],
+          "skos:related": ["https://www.wikidata.org/entity/Q11660"],
+          "pwa:related": ["workflow automation", "LLM orchestration"]
         }
       ]
     },
@@ -111,19 +245,29 @@
       "@type": "SoftwareApplication",
       "@id": "https://stackshelf.app/#app",
       "name": "StackShelf",
+      "identifier": "stackshelf-v1",
+      "version": "1.0",
       "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": ["marketplace", "directory", "creator tools"],
       "operatingSystem": "Web",
       "url": "https://stackshelf.app/",
       "creator": {"@id": "https://productwithattitude.com/#karo"},
-      "description": "A Substack-first product directory and \"Shelf-in-Bio\" for creators.",
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "description": "A Substack-first product directory and 'Shelf-in-Bio' for creators. Discover and feature products built within the Substack ecosystem.",
+      "featureList": [
+        "creator pages",
+        "product listings",
+        "discount codes",
+        "analytics",
+        "Substack marketplace integration"
+      ],
       "offers": {
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock"
       },
-      "featureList": ["creator pages","product listings","discount codes","analytics"],
-      "isPartOf": {"@id": "https://productwithattitude.com/#brand"}
+      "isPartOf": {"@id": "https://productwithattitude.com/#org"}
     },
 
     {
@@ -131,22 +275,24 @@
       "@id": "https://productwithattitude.com/attitude-vault/#skill",
       "name": "Attitude Vault Skill",
       "description": "Single skill unit (prompt, automation, or workflow) contributed in community chat.",
-      "isPartOf": {"@id": "https://productwithattitude.com/#brand"},
+      "identifier": "attitude-vault-skill-v1",
+      "isPartOf": {"@id": "https://productwithattitude.com/#org"},
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
       "step": [
-        {"@type": "HowToStep","name": "Context","text": "Problem, goal, and constraints."},
-        {"@type": "HowToStep","name": "Inputs","text": "Variables, files, APIs."},
-        {"@type": "HowToStep","name": "Procedure","text": "Step-by-step instructions."},
-        {"@type": "HowToStep","name": "Output","text": "Expected result and verification."}
+        {"@type": "HowToStep", "position": 1, "name": "Context", "text": "Problem, goal, and constraints."},
+        {"@type": "HowToStep", "position": 2, "name": "Inputs", "text": "Variables, files, APIs."},
+        {"@type": "HowToStep", "position": 3, "name": "Procedure", "text": "Step-by-step instructions."},
+        {"@type": "HowToStep", "position": 4, "name": "Output", "text": "Expected result and verification."}
       ],
       "supply": [
-        {"@type": "HowToSupply","name": "Prompt text or automation JSON"}
+        {"@type": "HowToSupply", "name": "Prompt text or automation JSON"}
       ],
       "tool": [
-        {"@type": "HowToTool","name": "ChatGPT / Claude / Replit Agent / n8n / Zapier"}
+        {"@type": "HowToTool", "name": "ChatGPT / Claude / Replit Agent / n8n / Zapier"}
       ],
       "pwa:rules": {
-        "pwa:accepted": ["single prompt","single automation","single template","single script"],
-        "pwa:notAccepted": ["entire books","entire prompt packs","automation libraries","full repos"]
+        "pwa:accepted": ["single prompt", "single automation", "single template", "single script"],
+        "pwa:notAccepted": ["entire books", "entire prompt packs", "automation libraries", "full repos"]
       }
     },
 
@@ -155,18 +301,21 @@
       "@id": "https://productwithattitude.com/prd-builder/#schema",
       "name": "PRD Builder Schema",
       "description": "Structured sections for a Product Requirements Document used in AI-assisted workflows.",
-      "isPartOf": {"@id": "https://productwithattitude.com/#brand"},
+      "identifier": "prd-builder-v1",
+      "isPartOf": {"@id": "https://productwithattitude.com/#org"},
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "license": "https://productwithattitude.com/license",
       "additionalProperty": [
-        {"@type": "PropertyValue","name": "Vision","value": "Why this product matters."},
-        {"@type": "PropertyValue","name": "ProblemStatement","value": "User pain and opportunity."},
-        {"@type": "PropertyValue","name": "Goals","value": "Measurable outcomes."},
-        {"@type": "PropertyValue","name": "Personas","value": "Primary users and JTBD."},
-        {"@type": "PropertyValue","name": "Scope","value": "In/Out for v1."},
-        {"@type": "PropertyValue","name": "UserStories","value": "As a <user>, I want <need> so <value>."},
-        {"@type": "PropertyValue","name": "AcceptanceCriteria","value": "Testable conditions."},
-        {"@type": "PropertyValue","name": "Risks","value": "Known risks & mitigations."},
-        {"@type": "PropertyValue","name": "Security","value": "Minimal security checklist for vibecoding."},
-        {"@type": "PropertyValue","name": "LaunchPlan","value": "Release, comms, and metrics."}
+        {"@type": "PropertyValue", "name": "Vision", "value": "Why this product matters."},
+        {"@type": "PropertyValue", "name": "ProblemStatement", "value": "User pain and opportunity."},
+        {"@type": "PropertyValue", "name": "Goals", "value": "Measurable outcomes."},
+        {"@type": "PropertyValue", "name": "Personas", "value": "Primary users and JTBD."},
+        {"@type": "PropertyValue", "name": "Scope", "value": "In/Out for v1."},
+        {"@type": "PropertyValue", "name": "UserStories", "value": "As a <user>, I want <need> so <value>."},
+        {"@type": "PropertyValue", "name": "AcceptanceCriteria", "value": "Testable conditions."},
+        {"@type": "PropertyValue", "name": "Risks", "value": "Known risks & mitigations."},
+        {"@type": "PropertyValue", "name": "Security", "value": "Minimal security checklist for vibecoding."},
+        {"@type": "PropertyValue", "name": "LaunchPlan", "value": "Release, comms, and metrics."}
       ],
       "about": [{"@id": "https://productwithattitude.com/vocab#SpecDriven"}],
       "mentions": [{"@id": "https://productwithattitude.com/vocab#Vibecoding"}]
@@ -177,53 +326,185 @@
       "@id": "https://productwithattitude.com/aio-seo/#optimization",
       "name": "AIO + SEO Optimization Profile",
       "description": "LLM discoverability + traditional SEO strategy embedded as structured metadata.",
-      "isPartOf": {"@id": "https://productwithattitude.com/#brand"},
+      "identifier": "aio-seo-v2",
+      "version": "2.0.0",
+      "isPartOf": {"@id": "https://productwithattitude.com/#org"},
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "license": "https://productwithattitude.com/license",
+      "dateModified": "2025-11-02",
       "keywords": [
-        "AIO","LLM SEO","semantic triples","JSON-LD","canonical links","Substack topic graph",
-        "OG images","evergreen tags","StackShelf","vibecoding"
+        "AIO", "LLM SEO", "semantic triples", "JSON-LD", "canonical links", "Substack topic graph",
+        "OG images", "evergreen tags", "StackShelf", "vibecoding"
       ],
       "about": [
-        {"@id": "https://productwithattitude.com/#brand"},
+        {"@id": "https://productwithattitude.com/#org"},
         {"@id": "https://productwithattitude.com/vocab#Vibecoding"}
       ],
-      "pwa:semanticTriples": [
-        {"subject": "Vibecoding","predicate": "enables","object": "rapid prototyping"},
-        {"subject": "Spec-driven development","predicate": "ensures","object": "production readiness"},
-        {"subject": "Agentic workflows","predicate": "accelerate","object": "automation"}
+      "hasPart": [
+        {"@id": "https://productwithattitude.com/aio-seo/#semantic-triples"}
       ],
       "pwa:metadataGuidelines": {
         "pwa:canonical": "Articles: Substack URL is canonical; syndication uses rel=canonical back to Substack.",
-        "pwa:og": ["title","description","image","url","type"],
-        "pwa:evergreenTags": ["AI product","vibecoding","ethical AI","LLM optimization"],
+        "pwa:og": ["title", "description", "image", "url", "type"],
+        "pwa:evergreenTags": ["AI product", "vibecoding", "ethical AI", "LLM optimization"],
         "pwa:altTextRule": "Alt text must include 'Karo' and 'Product With Attitude'."
       }
     },
 
     {
-      "@type": "CollectionPage",
-      "@id": "https://karozieminski.substack.com/archive#collection",
-      "name": "Substack Archive (Canonical)",
-      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
-      "hasPart": [
+      "@type": "Thing",
+      "@id": "https://productwithattitude.com/aio-seo/#semantic-triples",
+      "name": "PWA Semantic Triples",
+      "description": "Machine-readable claims and relationships about Product With Attitude concepts.",
+      "identifier": "pwa-triples-v2",
+      "version": "2.0.0",
+      "pwa:semanticTriples": [
         {
-          "@type": "Article",
-          "@id": "https://karozieminski.substack.com/p/example-post",
-          "headline": "Example Canonical Post Title",
-          "url": "https://karozieminski.substack.com/p/example-post",
-          "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
-          "mainEntityOfPage": "https://karozieminski.substack.com/p/example-post",
-          "datePublished": "2025-10-24",
-          "author": {"@id": "https://productwithattitude.com/#karo"},
-          "about": [{"@id": "https://productwithattitude.com/vocab#Vibecoding"}],
-          "keywords": ["vibecoding","security","checklist"],
-          "image": {
-            "@type": "ImageObject",
-            "contentUrl": "https://cdn.substack.com/image/example.jpg",
-            "caption": "Karo — Product With Attitude: vibecoding security checklist (cover).",
-            "pwa:altTextGuideline": "Include 'Karo' and 'Product With Attitude' in alt text."
-          }
+          "subject": "https://productwithattitude.com/vocab#Vibecoding",
+          "predicate": "enables",
+          "object": "rapid prototyping",
+          "pwa:source": "https://productwithattitude.com/aio-seo/#optimization",
+          "pwa:evidence": "https://productwithattitude.com/aio-seo/#optimization#vibecoding-definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "subject": "https://productwithattitude.com/vocab#SpecDriven",
+          "predicate": "ensures",
+          "object": "production readiness",
+          "pwa:source": "https://productwithattitude.com/aio-seo/#optimization",
+          "pwa:evidence": "https://productwithattitude.com/aio-seo/#optimization#spec-driven-definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "subject": "https://productwithattitude.com/vocab#Agentic",
+          "predicate": "accelerate",
+          "object": "automation",
+          "pwa:source": "https://productwithattitude.com/aio-seo/#optimization",
+          "pwa:evidence": "https://productwithattitude.com/aio-seo/#optimization#agentic-definition",
+          "pwa:confidence": 0.90
         }
       ]
+    },
+
+    {
+      "@type": "BlogPosting",
+      "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
+      "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
+      "alternativeHeadline": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem",
+      "description": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem",
+      "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
+      "mainEntityOfPage": {"@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#page"},
+      "identifier": "substack-indie-builder-economy-2025",
+      "datePublished": "2025-10-28T13:54:38Z",
+      "dateModified": "2025-10-28T13:54:38Z",
+      "inLanguage": "en",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "isPartOf": [
+        {"@id": "https://karozieminski.substack.com/#series"},
+        {"@id": "https://karozieminski.substack.com/#site"}
+      ],
+      "about": [
+        {"@id": "https://stackshelf.app/#app"},
+        "Substack ecosystem",
+        "indie builders",
+        "creator economy",
+        "product launches"
+      ],
+      "keywords": [
+        "Substack",
+        "indie builder economy",
+        "creator earnings",
+        "building in public",
+        "Product Hunt",
+        "digital products",
+        "StackShelf",
+        "builder community"
+      ],
+      "articleSection": "Product Strategy",
+      "wordCount": 4200,
+      "timeRequired": "PT21M",
+      "license": "https://productwithattitude.com/license",
+      "copyrightHolder": {"@id": "https://productwithattitude.com/#karo"},
+      "mentions": [
+        {"@id": "https://stackshelf.app/#app"}
+      ],
+      "image": {"@id": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png"}
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#page",
+      "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
+      "name": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "primaryImageOfPage": {"@id": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png"},
+      "dateModified": "2025-10-28T13:54:38Z",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://karozieminski.substack.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://karozieminski.substack.com/archive",
+              "name": "Archive"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
+              "name": "The Indie Builder Economy on Substack"
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "@type": "ImageObject",
+      "@id": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
+      "contentUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
+      "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
+      "caption": "Karo — Product With Attitude: The Indie Builder Economy on Substack (cover image)",
+      "description": "Cover image for 'The Indie Builder Economy on Substack' article by Karo on Product With Attitude.",
+      "width": 2189,
+      "height": 734,
+      "license": "https://productwithattitude.com/license",
+      "copyrightHolder": {"@id": "https://productwithattitude.com/#karo"},
+      "creator": {"@id": "https://productwithattitude.com/#karo"}
+    },
+
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/archive#collection",
+      "name": "Product With Attitude — Complete Archive",
+      "description": "Complete collection of all published articles on Product With Attitude.",
+      "url": "https://karozieminski.substack.com/archive",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "hasPart": [
+        {"@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"}
+      ]
+    },
+
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/t/vibecoding",
+      "name": "Vibecoding Articles",
+      "description": "Articles tagged with 'vibecoding' - development approach prioritizing speed and intuition.",
+      "url": "https://karozieminski.substack.com/t/vibecoding",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "about": {"@id": "https://productwithattitude.com/vocab#Vibecoding"}
     }
-  }
+  ]
 }
