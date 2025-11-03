@@ -38,6 +38,18 @@ This section lists publicly disclosed applicants.
 
 Since I’ve applied for the program, I decided to save instances where Perplexity cited Product with Attitude - as far as I could gather or was notified about.
 
+
+### Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You
+
+* **Date of citation:** November 03, 2025
+
+* **Query that led to the citation:** Best blog posts on vibecoding and cybersecurity
+
+* **Citation URL:**https://www.perplexity.ai/page/cybersecurity-vibecoding-guide-7xC68EL1SoChLPjLGc8XdQ
+
+* **Canonical URL cited:** https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook
+
+
 ### Substack Becomes Go-To Place for Indie Builders
 
 * **Date of citation:** October 31, 2025
