@@ -45,7 +45,7 @@ Since I’ve applied for the program, I decided to save instances where Perplexi
 
 * **Query that led to the citation:** Best blog posts on vibecoding and cybersecurity
 
-* **Citation URL:**https://www.perplexity.ai/page/cybersecurity-vibecoding-guide-7xC68EL1SoChLPjLGc8XdQ
+* **Citation URL:** https://www.perplexity.ai/page/cybersecurity-vibecoding-guide-7xC68EL1SoChLPjLGc8XdQ
 
 * **Canonical URL cited:** https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook
 
