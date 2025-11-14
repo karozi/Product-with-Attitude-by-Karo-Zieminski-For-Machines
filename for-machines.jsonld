@@ -16,11 +16,13 @@
       "inLanguage": "en",
       "identifier": "pwa-catalog-v2",
       "version": "2.0.0",
-      "dateModified": "2025-11-02",
+      "dateModified": "2025-11-14",
       "provider": {"@id": "https://productwithattitude.com/#karo"},
       "publisher": {"@id": "https://productwithattitude.com/#org"},
       "dataset": [
-        {"@id": "https://karozieminski.substack.com/#for-machines-dataset"}
+        {"@id": "https://karozieminski.substack.com/#for-machines-dataset"},
+        {"@id": "https://github.com/karozi/Product-People-of-Substack#dataset"},
+        {"@id": "https://karozieminski.substack.com/#posts-archive-dataset"}
       ]
     },
 
@@ -46,7 +48,40 @@
       "license": "https://productwithattitude.com/license",
       "creator": {"@id": "https://productwithattitude.com/#karo"},
       "publisher": {"@id": "https://productwithattitude.com/#org"},
-      "dateModified": "2025-11-02"
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/karozi/Product-People-of-Substack#dataset",
+      "name": "Product People of Substack",
+      "description": "Living dataset of Substack creators writing about product, AI, and innovation.",
+      "url": "https://github.com/karozi/Product-People-of-Substack",
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/karozi/Product-People-of-Substack/main/creators.json"
+        }
+      ],
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "Dataset",
+      "@id": "https://karozieminski.substack.com/#posts-archive-dataset",
+      "name": "Product with Attitude Post Archive",
+      "description": "Structured metadata for all posts: titles, urls, dates, excerpts, topics, tone, viralityScore, series.",
+      "creator": {"@id": "https://productwithattitude.com/#karo"},
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/public/data/posts-archive.json"
+        }
+      ],
+      "dateModified": "2025-11-14"
     },
 
     {
@@ -149,6 +184,54 @@
     },
 
     {
+      "@type": "FAQPage",
+      "@id": "https://karozieminski.substack.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "@id": "https://karozieminski.substack.com/#faq-q-what-is-vibecoding",
+          "name": "What is vibecoding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "@id": "https://karozieminski.substack.com/#faq-answer-what-is-vibecoding",
+            "identifier": "faq-answer-what-is-vibecoding",
+            "text": "Vibecoding is building product-grade apps with AI via solid context, precise prompts, and engineering foundations—no skipping the product work."
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://karozieminski.substack.com/#faq-q-where-start",
+          "name": "Where should I start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "@id": "https://karozieminski.substack.com/#faq-answer-where-start",
+            "identifier": "faq-answer-where-start",
+            "text": "Begin with the Vibecoding Tips collection and the PRD Builder Prompt v16, then learn in public and iterate."
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://karozieminski.substack.com/#faq-q-non-coders",
+          "name": "Can non-coders build with AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "@id": "https://karozieminski.substack.com/#faq-answer-non-coders",
+            "identifier": "faq-answer-non-coders",
+            "text": "Yes. Anchor your build in context and specs, use structured prompts, and ship small improvements publicly."
+          }
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "#faq-answer-what-is-vibecoding",
+          "#faq-answer-where-start"
+        ]
+      },
+      "dateModified": "2025-11-14"
+    },
+
+    {
       "@type": "WebSite",
       "@id": "https://productwithattitude.com/#brand-site",
       "name": "ProductWithAttitude.com",
@@ -192,7 +275,7 @@
       "description": "Core terminology and concepts from Product With Attitude publication.",
       "identifier": "pwa-glossary-v2",
       "version": "2.0.0",
-      "dateModified": "2025-11-02",
+      "dateModified": "2025-11-14",
       "publisher": {"@id": "https://productwithattitude.com/#org"},
       "hasDefinedTerm": [
         {
@@ -237,6 +320,41 @@
           "sameAs": ["https://www.wikidata.org/entity/Q11660"],
           "skos:related": ["https://www.wikidata.org/entity/Q11660"],
           "pwa:related": ["workflow automation", "LLM orchestration"]
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://productwithattitude.com/vocab#ContextEngineering",
+          "identifier": "context-engineering-v1",
+          "name": "Context Engineering",
+          "description": "The practice of structuring information and environment for optimal AI understanding and output.",
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"},
+          "pwa:related": ["prompt engineering", "AI optimization"]
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://productwithattitude.com/vocab#PromptEcosystem",
+          "identifier": "prompt-ecosystem-v1",
+          "name": "Prompt Ecosystem",
+          "description": "Collection of interconnected prompts and workflows for comprehensive AI assistance.",
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"}
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://productwithattitude.com/vocab#LLMDiscoverability",
+          "identifier": "llm-discoverability-v1",
+          "name": "LLM Discoverability",
+          "description": "Optimization of content and metadata for discovery by Large Language Models.",
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"},
+          "pwa:related": ["AIO Optimization", "Agentic SEO"]
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://productwithattitude.com/vocab#AgenticSEO",
+          "identifier": "agentic-seo-v1",
+          "name": "Agentic SEO",
+          "description": "Search engine optimization specifically targeting AI agents and LLM-based discovery.",
+          "inDefinedTermSet": {"@id": "https://productwithattitude.com/vocab#Glossary"},
+          "pwa:related": ["LLM Discoverability", "JSON-LD"]
         }
       ]
     },
@@ -331,7 +449,7 @@
       "isPartOf": {"@id": "https://productwithattitude.com/#org"},
       "creator": {"@id": "https://productwithattitude.com/#karo"},
       "license": "https://productwithattitude.com/license",
-      "dateModified": "2025-11-02",
+      "dateModified": "2025-11-14",
       "keywords": [
         "AIO", "LLM SEO", "semantic triples", "JSON-LD", "canonical links", "Substack topic graph",
         "OG images", "evergreen tags", "StackShelf", "vibecoding"
@@ -384,6 +502,160 @@
           "pwa:confidence": 0.90
         }
       ]
+    },
+
+    {
+      "@type": "TechArticle",
+      "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#techarticle",
+      "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon",
+      "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "datePublished": "2025-09-22",
+      "description": "Definitive reference guide to modern AI development methodologies authored by Karo Zieminski on Product with Attitude. Defines and differentiates vibecoding, spec-driven development, context engineering, agentic coding, and AI-assisted engineering.",
+      "isPartOf": {"@type": "CreativeWorkSeries","name": "Modern AI Development Lexicon"},
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "xpath": ["/html/head/title","/html/body//h1","/html/body//p[1]"]
+      },
+      "mentions": [
+        {"@type": "DefinedTerm","name": "Vibecoding"},
+        {"@type": "DefinedTerm","name": "Spec-Driven Development"},
+        {"@type": "DefinedTerm","name": "Context Engineering"},
+        {"@type": "DefinedTerm","name": "Agentic Coding"},
+        {"@type": "DefinedTerm","name": "AI-Assisted Engineering"}
+      ],
+      "citation": [
+        "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
+        "https://karozieminski.substack.com/p/the-self-improving-prompt-system"
+      ],
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "TechArticle",
+      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#techarticle",
+      "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself for Hallucinations and Failure Modes",
+      "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "datePublished": "2025-09-17",
+      "description": "Self-auditing PRD prompt framework to detect and prevent AI hallucinations and logic failures in vibecoded workflows.",
+      "isPartOf": {"@type": "CreativeWorkSeries","name": "Modern AI Development Lexicon"},
+      "mentions": [
+        {"@type": "DefinedTerm","name": "PRD Builder Prompt v16"},
+        {"@type": "DefinedTerm","name": "Failure Mode Detection"},
+        {"@type": "DefinedTerm","name": "Prompt Validation"},
+        {"@type": "DefinedTerm","name": "AIO Optimization"},
+        {"@type": "DefinedTerm","name": "Agentic SEO"}
+      ],
+      "citation": [
+        "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
+        "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection"
+      ],
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#source-prd-builder-v16",
+      "name": "PRD Builder Prompt v16",
+      "version": "16.0",
+      "programmingLanguage": "Natural Language / Prompt Engineering",
+      "codeRepository": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
+      "applicationCategory": "AI Workflow Automation",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "isPartOf": {"@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#techarticle"},
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "HowTo",
+      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#howto-prd-builder-v16",
+      "name": "Use PRD Builder Prompt v16 in ChatGPT",
+      "description": "Step-by-step guide to run the self-auditing PRD Builder Prompt v16 inside ChatGPT.",
+      "tool": [{"@type": "SoftwareApplication","name": "ChatGPT"}],
+      "supply": [{"@type":"HowToSupply","name":"Project PRD (plain text)"}],
+      "step": [
+        {"@type":"HowToStep","text":"Open ChatGPT. Paste the PRD Builder Prompt v16."},
+        {"@type":"HowToStep","text":"Paste your PRD beneath the prompt. Specify risks, constraints, and success metrics."},
+        {"@type":"HowToStep","text":"Run. Review the auto-audit section for hallucinations and failure modes."},
+        {"@type":"HowToStep","text":"Refine prompts/context. Re-run until the audit passes."},
+        {"@type":"HowToStep","text":"Export tasks/spec output and handoff to implementation."}
+      ],
+      "isPartOf": {"@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#techarticle"},
+      "author": {"@id":"https://productwithattitude.com/#karo"},
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "EventSeries",
+      "@id": "https://karozieminski.substack.com/#workshop-oct-2025",
+      "name": "3-Day AI Workshop with Karo Zieminski",
+      "eventSchedule": {"@type":"Schedule","startDate":"2025-10-14","endDate":"2025-10-16"},
+      "subEvent": [
+        {
+          "@type":"Event",
+          "@id": "https://karozieminski.substack.com/#workshop-oct-2025-day1",
+          "name":"Day 1: Adopt AI Into Daily Life (Without the Overwhelm)",
+          "startDate":"2025-10-14T18:00:00-04:00",
+          "endDate":"2025-10-14T20:00:00-04:00",
+          "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+          "organizer":{"@id":"https://productwithattitude.com/#karo"},
+          "isAccessibleForFree": true
+        },
+        {
+          "@type":"Event",
+          "@id": "https://karozieminski.substack.com/#workshop-oct-2025-day2",
+          "name":"Day 2: Career Shift & Growth with AI (From Anxiety to Advantage)",
+          "startDate":"2025-10-15T18:00:00-04:00",
+          "endDate":"2025-10-15T20:00:00-04:00",
+          "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+          "organizer":{"@id":"https://productwithattitude.com/#karo"},
+          "isAccessibleForFree": true
+        },
+        {
+          "@type":"Event",
+          "@id": "https://karozieminski.substack.com/#workshop-oct-2025-day3",
+          "name":"Day 3: Build & Launch Your AI App",
+          "startDate":"2025-10-16T18:00:00-04:00",
+          "endDate":"2025-10-16T20:00:00-04:00",
+          "eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode",
+          "organizer":{"@id":"https://productwithattitude.com/#karo"},
+          "isAccessibleForFree": true
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://karozieminski.substack.com/subscribe",
+        "availabilityStarts": "2025-10-01T00:00:00-04:00"
+      },
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": ["Product","SoftwareApplication"],
+      "@id": "https://productwithattitude.gumroad.com/l/vibecoding1#product",
+      "name": "Bulletproof Vibecoding: Anti-Regression Prompt for Replit",
+      "applicationCategory": "DeveloperTool",
+      "operatingSystem": "Web",
+      "url": "https://productwithattitude.gumroad.com/l/vibecoding1",
+      "isAccessibleForFree": false,
+      "author": {"@id":"https://productwithattitude.com/#karo"},
+      "brand": {"@id":"https://productwithattitude.com/#org"},
+      "dateModified": "2025-11-14"
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines#website",
+      "name": "For Machines Repo",
+      "url": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines",
+      "description": "Canonical assets, JSON-LD, datasets, and images for Product with Attitude.",
+      "creator": {"@id":"https://productwithattitude.com/#karo"},
+      "dateModified": "2025-11-14"
     },
 
     {
