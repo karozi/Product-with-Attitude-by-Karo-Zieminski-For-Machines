@@ -659,6 +659,262 @@
     },
 
     {
+      "@type": "TechArticle",
+      "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
+      "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
+      "alternativeHeadline": "Don't ship your next feature without these safety checks and fix the 7 code mistakes leaving your startup wide open",
+      "description": "Comprehensive cybersecurity guide for vibecoding practitioners. Learn to build fast and securely with AI through practical examples, minimal security checklists, and expert insights from data engineers and critical infrastructure specialists.",
+      "url": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
+      "mainEntityOfPage": {"@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide#page"},
+      "identifier": "vibecoding-cybersecurity-survival-guide",
+      "datePublished": "2025-11-03",
+      "dateModified": "2025-11-03",
+      "inLanguage": "en",
+      "author": [
+        {"@id": "https://productwithattitude.com/#karo"},
+        {
+          "@type": "Person",
+          "name": "Farida Khalaf",
+          "description": "Data Engineer specializing in cybersecurity, analytics tools, and secure data pipelines",
+          "jobTitle": "Data Engineer & Cybersecurity Specialist"
+        },
+        {
+          "@type": "Person",
+          "name": "skelly",
+          "description": "Anonymous cybersecurity expert specializing in critical infrastructure systems",
+          "jobTitle": "Cybersecurity Expert (Critical Infrastructure)"
+        }
+      ],
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "isPartOf": [
+        {"@id": "https://karozieminski.substack.com/#series"},
+        {"@id": "https://karozieminski.substack.com/#site"}
+      ],
+      "about": [
+        "cybersecurity",
+        "vibecoding",
+        "secure coding practices",
+        "AI-assisted development",
+        "security vulnerabilities",
+        "data engineering",
+        "credential management"
+      ],
+      "keywords": [
+        "vibecoding security",
+        "AI coding safety",
+        "cybersecurity",
+        "prompt leakage",
+        "credential management",
+        "security scanning",
+        "bandit",
+        "pip-audit",
+        "sqlfluff",
+        "python-dotenv",
+        "faker",
+        "synthetic data",
+        "pre-commit hooks",
+        "SQL injection",
+        "authentication",
+        "authorization",
+        "GDPR compliance",
+        "secure development",
+        "test-driven development"
+      ],
+      "articleSection": "Building in Public",
+      "wordCount": 3500,
+      "timeRequired": "PT18M",
+      "license": "https://productwithattitude.com/license",
+      "copyrightHolder": {"@id": "https://productwithattitude.com/#karo"},
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "bandit",
+          "description": "Python security linter that scans code for common security issues",
+          "applicationCategory": "SecurityTool",
+          "url": "https://bandit.readthedocs.io/"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "pip-audit",
+          "description": "Tool for scanning Python packages for known security vulnerabilities",
+          "applicationCategory": "SecurityTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "sqlfluff",
+          "description": "SQL linter and formatter for catching risky queries",
+          "applicationCategory": "DeveloperTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "python-dotenv",
+          "description": "Loads environment variables from .env file for secure credential management",
+          "applicationCategory": "DeveloperTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "faker",
+          "description": "Python library for generating realistic synthetic test data",
+          "applicationCategory": "TestingTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "mimesis",
+          "description": "Synthetic data generator with localization support",
+          "applicationCategory": "TestingTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Flask",
+          "applicationCategory": "WebFramework"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "PostgreSQL",
+          "applicationCategory": "Database"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Airflow",
+          "applicationCategory": "DataPipeline"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Claude",
+          "applicationCategory": "AIAssistant"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "HowTo",
+          "name": "The Five Quiet Failures",
+          "description": "Common security vulnerabilities in vibecoded applications",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Prompt Leakage",
+              "text": "Accidentally sending production credentials to third parties. Always scrub sensitive information before sharing data or debug logs."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Over-Permissioned Prototypes",
+              "text": "AI generates code that works immediately by requesting broad permissions. Use least-privilege access and read-only connections when possible."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "The Prototype That Never Dies",
+              "text": "Internal tools left unsecured become serious vulnerabilities. Always add authentication, even for 'internal only' tools."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Unverified Dependencies",
+              "text": "Installing packages without checking safety or update status. Run pip-audit and verify package legitimacy before installation."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 5,
+              "name": "Hidden Credential Persistence",
+              "text": "Test tokens spreading across tools and repos. Set aggressive expiration times (one hour for testing) and rotate regularly."
+            }
+          ]
+        },
+        {
+          "@type": "HowTo",
+          "name": "The Minimal Security Checklist",
+          "description": "Essential security steps before committing, sharing, and deploying code",
+          "step": [
+            {
+              "@type": "HowToSection",
+              "name": "Before Your First Commit",
+              "itemListElement": [
+                {"@type": "HowToStep", "text": "Create .env with all credentials"},
+                {"@type": "HowToStep", "text": "Add .env to .gitignore"},
+                {"@type": "HowToStep", "text": "Verify git status (should NOT show .env)"},
+                {"@type": "HowToStep", "text": "Replace hardcoded credentials with os.getenv()"}
+              ]
+            },
+            {
+              "@type": "HowToSection",
+              "name": "Before Every Commit",
+              "itemListElement": [
+                {"@type": "HowToStep", "text": "Run: bandit -r . -x ./venv"},
+                {"@type": "HowToStep", "text": "Run: pip-audit"},
+                {"@type": "HowToStep", "text": "Search code for: password, api_key, secret, token"},
+                {"@type": "HowToStep", "text": "Review AI-generated database code for SQL injection vulnerabilities"}
+              ]
+            },
+            {
+              "@type": "HowToSection",
+              "name": "Before Sharing Internally",
+              "itemListElement": [
+                {"@type": "HowToStep", "text": "Add authentication"},
+                {"@type": "HowToStep", "text": "Implement role-based access control"},
+                {"@type": "HowToStep", "text": "Add audit logging for data access"},
+                {"@type": "HowToStep", "text": "Test with synthetic data only"}
+              ]
+            },
+            {
+              "@type": "HowToSection",
+              "name": "Before Production",
+              "itemListElement": [
+                {"@type": "HowToStep", "text": "Security review by second person"},
+                {"@type": "HowToStep", "text": "Apply least-privilege to all database roles"},
+                {"@type": "HowToStep", "text": "Set up monitoring and alerting"},
+                {"@type": "HowToStep", "text": "Remove all debug code and print statements"},
+                {"@type": "HowToStep", "text": "Document what's NOT secured yet"},
+                {"@type": "HowToStep", "text": "Test credential rotation procedures"}
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "HowTo",
+          "name": "Better Prompts for Secure Code",
+          "description": "Prompt engineering templates that generate security-first code",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "name": "Secure Flask API Prompt",
+              "text": "Create a Flask API that returns user data from PostgreSQL with: Environment variables for database credentials (using python-dotenv), Basic HTTP authentication with password verification, Role-based access control, Parameterized queries to prevent SQL injection, Audit logging for all data access, Return only necessary columns, Proper connection closing"
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Secure Airflow DAG Prompt",
+              "text": "Write an Airflow DAG to sync user data daily with: PostgresHook for credential management, Incremental sync using timestamps, Read-only database connection, Error handling with exponential backoff, Data validation before insert, Logging that doesn't expose PII, Connection pooling with proper cleanup"
+            }
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Build Type Safety Guidelines",
+          "description": "Decision matrix for when vibecoding is appropriate based on project type and risk level",
+          "about": ["risk assessment", "security planning", "development strategy"]
+        }
+      ],
+      "citation": [
+        {
+          "@type": "Article",
+          "name": "There's No Real Money in AI Business, Just Rented Dreams and Delusional Valuations",
+          "author": {"@type": "Person", "name": "Farida Khalaf"}
+        }
+      ],
+      "educationalLevel": "Intermediate to Advanced",
+      "teaches": [
+        "Secure credential management",
+        "SQL injection prevention",
+        "Authentication and authorization",
+        "Security scanning automation",
+        "Synthetic data generation",
+        "Pre-commit security hooks",
+        "Secure prompt engineering"
+      ]
+    },
+
+    {
       "@type": "BlogPosting",
       "@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace",
       "headline": "The One Feature AI Can't Replace",
@@ -831,6 +1087,44 @@
 
     {
       "@type": "WebPage",
+      "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide#page",
+      "url": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
+      "name": "Vibecoding x Cybersecurity: Survival Guide",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "dateModified": "2025-11-03",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://karozieminski.substack.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://karozieminski.substack.com/archive",
+              "name": "Archive"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
+              "name": "Vibecoding x Cybersecurity: Survival Guide"
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "@type": "WebPage",
       "@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace#page",
       "url": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace",
       "name": "The One Feature AI Can't Replace",
@@ -929,6 +1223,7 @@
       "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
       "hasPart": [
         {"@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace"},
+        {"@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide"},
         {"@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"}
       ]
     },
@@ -940,7 +1235,10 @@
       "description": "Articles tagged with 'vibecoding' - development approach prioritizing speed and intuition.",
       "url": "https://karozieminski.substack.com/t/vibecoding",
       "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
-      "about": {"@id": "https://productwithattitude.com/vocab#Vibecoding"}
+      "about": {"@id": "https://productwithattitude.com/vocab#Vibecoding"},
+      "hasPart": [
+        {"@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide"}
+      ]
     }
   ]
 }
