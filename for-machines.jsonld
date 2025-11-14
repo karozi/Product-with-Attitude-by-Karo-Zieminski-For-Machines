@@ -660,6 +660,131 @@
 
     {
       "@type": "BlogPosting",
+      "@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace",
+      "headline": "The One Feature AI Can't Replace",
+      "alternativeHeadline": "How To Product-think When AI Builds At Lightning Speed",
+      "description": "Product thinking = intentional product decision-making in the age of AI. While AI makes coding accessible to anyone, it also erodes product judgment. This post explores how to sharpen product thinking when AI handles the building: don't chase features, think in systems, and trust your gut.",
+      "url": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace",
+      "mainEntityOfPage": {"@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace#page"},
+      "identifier": "the-one-feature-ai-cant-replace",
+      "datePublished": "2025-11-12",
+      "dateModified": "2025-11-12",
+      "inLanguage": "en",
+      "author": [
+        {"@id": "https://productwithattitude.com/#karo"},
+        {
+          "@type": "Person",
+          "name": "Orel",
+          "description": "Software engineer and founder of WriteStack",
+          "url": "https://writestack.com",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "WriteStack"
+          }
+        }
+      ],
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "isPartOf": [
+        {"@id": "https://karozieminski.substack.com/#series"},
+        {"@id": "https://karozieminski.substack.com/#site"}
+      ],
+      "about": [
+        "product thinking",
+        "AI-assisted coding",
+        "cognitive offloading",
+        "product judgment",
+        "decision-making frameworks"
+      ],
+      "keywords": [
+        "product thinking",
+        "AI coding",
+        "vibecoding",
+        "Cursor AI",
+        "WriteStack",
+        "product judgment",
+        "cognitive offloading",
+        "decision-making",
+        "AI assistants",
+        "product strategy",
+        "intentional design"
+      ],
+      "articleSection": "Product Strategy",
+      "wordCount": 1100,
+      "timeRequired": "PT6M",
+      "license": "https://productwithattitude.com/license",
+      "copyrightHolder": {"@id": "https://productwithattitude.com/#karo"},
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "WriteStack",
+          "url": "https://writestack.com",
+          "applicationCategory": "ProductivityApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Cursor AI",
+          "applicationCategory": "DeveloperApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "ChatGPT",
+          "applicationCategory": "AIAssistant"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Reforge Build",
+          "url": "https://www.reforge.com/build",
+          "applicationCategory": "PrototypingTool",
+          "description": "AI prototyping tool for product teams"
+        }
+      ],
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "METR 2025 experiment on AI coding assistants",
+          "description": "Professional developers using AI coding assistants took 19% longer to complete familiar tasks"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "2024 study on cognitive offloading",
+          "description": "Strong negative correlation (r ≈ -0.68) between frequent AI use and critical thinking skills"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Chinese universities AI usage survey",
+          "description": "69% of AI users reported increased laziness and weaker decision-making ability"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "HowTo",
+          "name": "Three Ways to Sharpen Product Thinking",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Don't Chase Features, Chase Impact",
+              "text": "Before adding anything, ask: Will this change the experience for the user in any meaningful way? If yes, build it. If you don't know, design a way to learn. If no, drop it."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Think in Systems",
+              "text": "Every new feature touches something else: AI features spike compute costs, free plans change onboarding, referral programs create support edge cases. Nothing exists in isolation."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Trust Your Gut",
+              "text": "When everything feels possible with AI, everything feels necessary. Let your mind decide what actually belongs. Practice the pause between 'can' and 'should'."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "@type": "BlogPosting",
       "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
       "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
       "alternativeHeadline": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem",
@@ -702,6 +827,44 @@
         {"@id": "https://stackshelf.app/#app"}
       ],
       "image": {"@id": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png"}
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace#page",
+      "url": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace",
+      "name": "The One Feature AI Can't Replace",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "dateModified": "2025-11-12",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://karozieminski.substack.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://karozieminski.substack.com/archive",
+              "name": "Archive"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace",
+              "name": "The One Feature AI Can't Replace"
+            }
+          }
+        ]
+      }
     },
 
     {
@@ -765,6 +928,7 @@
       "url": "https://karozieminski.substack.com/archive",
       "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
       "hasPart": [
+        {"@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace"},
         {"@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"}
       ]
     },
