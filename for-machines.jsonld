@@ -660,6 +660,258 @@
 
     {
       "@type": "TechArticle",
+      "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
+      "headline": "Claude Skills Are Taking the AI Community by Storm",
+      "alternativeHeadline": "Anthropic's Viral Claude Skills Toolkit, Packed With Ready‑to‑Copy Templates",
+      "description": "Comprehensive guide to Claude Skills - Anthropic's breakthrough feature that lets anyone teach Claude new capabilities without code. Includes ready-to-copy templates, skill library resources, and comparison with MCP and traditional tools.",
+      "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
+      "mainEntityOfPage": {"@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#page"},
+      "identifier": "claude-skills-anthropic-viral-toolkit",
+      "datePublished": "2025-10-19",
+      "dateModified": "2025-10-19",
+      "inLanguage": "en",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "publisher": {"@id": "https://productwithattitude.com/#org"},
+      "isPartOf": [
+        {"@id": "https://karozieminski.substack.com/#series"},
+        {"@id": "https://karozieminski.substack.com/#site"}
+      ],
+      "about": [
+        "Claude Skills",
+        "Anthropic",
+        "AI agents",
+        "workflow automation",
+        "agentic workflows",
+        "MCP comparison",
+        "skill stacking"
+      ],
+      "keywords": [
+        "Claude Skills",
+        "Anthropic",
+        "AI agents",
+        "Claude Code",
+        "MCP",
+        "Model Context Protocol",
+        "skill stacking",
+        "workflow automation",
+        "agentic AI",
+        "ChatGPT integration",
+        "GitHub skills",
+        "Markdown skills",
+        "NotebookLM",
+        "brand guidelines automation",
+        "context engineering"
+      ],
+      "articleSection": "AI Development",
+      "wordCount": 2000,
+      "timeRequired": "PT10M",
+      "license": "https://productwithattitude.com/license",
+      "copyrightHolder": {"@id": "https://productwithattitude.com/#karo"},
+      "mentions": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Claude",
+          "creator": {"@type": "Organization", "name": "Anthropic"},
+          "applicationCategory": "AIAssistant"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Claude Code",
+          "creator": {"@type": "Organization", "name": "Anthropic"},
+          "applicationCategory": "DeveloperTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "ChatGPT",
+          "applicationCategory": "AIAssistant"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "NotebookLM",
+          "creator": {"@type": "Organization", "name": "Google"},
+          "applicationCategory": "ResearchTool"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Manus AI",
+          "applicationCategory": "AIAssistant"
+        },
+        {"@id": "https://productwithattitude.com/skills/visual-style-infographic"},
+        {"@id": "https://productwithattitude.com/skills/messy-notes-organizer"},
+        {"@id": "https://productwithattitude.com/skills/substack-seo-internal-linking"}
+      ],
+      "citation": [
+        {
+          "@type": "Article",
+          "author": {"@type": "Person", "name": "Simon Willison"},
+          "headline": "Claude Skills are awesome, maybe a bigger deal than MCP",
+          "comment": "Expert commentary on Claude Skills significance and security considerations"
+        },
+        {
+          "@type": "Article",
+          "author": {"@type": "Person", "name": "Ethan Mollick"},
+          "comment": "Both an easy path for workable agents and a step forward in what AI can do"
+        },
+        {
+          "@type": "Article",
+          "author": {"@type": "Person", "name": "Michael Spencer"},
+          "headline": "The Genius of Anthropic's Agent Skills"
+        },
+        {
+          "@type": "Article",
+          "author": {"@type": "Person", "name": "Stephen Smith"},
+          "headline": "Claude Skills: Turn Your Best Process Into Repeatable AI Work"
+        }
+      ],
+      "hasPart": [
+        {
+          "@type": "HowTo",
+          "name": "How To Give Your Claude New Skills",
+          "description": "Step-by-step guide to creating and uploading custom Skills for Claude",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Enable Skill Creator",
+              "text": "Go to Settings → Skills → Skill Creator → Enable"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Describe your workflow",
+              "text": "Build a skill in plain English. Example: 'Build a skill that saves my blog posts in Notion.' Answer Claude's follow-ups about inputs, outputs, edge cases, and constraints."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Review generated files",
+              "text": "You'll get SKILL.md (the brain), /resources (study notes/cheat sheets), and /scripts (muscle memory/actions)"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Upload and enable",
+              "text": "Download the ZIP file, go to Settings → Skills → Upload, and toggle it on"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 5,
+              "name": "Test in new chat",
+              "text": "Prompt naturally to see if Claude can recall and apply the skill"
+            }
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Skills vs MCP vs Tools Comparison",
+          "description": "Decision matrix comparing Claude Skills, Model Context Protocol (MCP), and traditional tools",
+          "about": ["integration approaches", "scalability", "setup difficulty", "use cases"],
+          "variableMeasured": [
+            "Where it runs",
+            "Best for",
+            "Setup difficulty",
+            "Scalability",
+            "Explainability"
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "name": "Claude Skills Repositories",
+          "description": "Community-curated collection of Claude Skills libraries and examples",
+          "itemListElement": [
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "anthropics/skills",
+              "description": "Official examples from Anthropic",
+              "codeRepository": "https://github.com/anthropics/skills"
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "BehiSecc/awesome-claude-skills",
+              "description": "Community-curated collection of practical and experimental Skills",
+              "codeRepository": "https://github.com/BehiSecc/awesome-claude-skills"
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "michalparkola/tapestry-skills-for-claude-code",
+              "description": "Creative repo focused on Claude Code workflows and integrations",
+              "codeRepository": "https://github.com/michalparkola/tapestry-skills-for-claude-code"
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "PleasePrompto/notebooklm-skill",
+              "description": "Connect Claude Code to NotebookLM",
+              "codeRepository": "https://github.com/PleasePrompto/notebooklm-skill"
+            },
+            {
+              "@type": "SoftwareSourceCode",
+              "name": "adrianpuiu/claude-skills-marketplace",
+              "description": "Turn Claude into a professional Project Architect",
+              "codeRepository": "https://github.com/adrianpuiu/claude-skills-marketplace"
+            }
+          ]
+        }
+      ],
+      "workExample": [
+        {
+          "@type": "Case Study",
+          "name": "Rakuten Management Accounting Automation",
+          "description": "What once took a day, we can now accomplish in an hour - Rakuten AI general manager"
+        }
+      ],
+      "teaches": [
+        "Creating Claude Skills without code",
+        "Skill stacking and coordination",
+        "Integration with ChatGPT",
+        "Choosing between Skills, MCP, and Tools",
+        "Sharing and remixing skills"
+      ]
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://productwithattitude.com/skills/visual-style-infographic",
+      "name": "Visual Style Infographic Skill",
+      "description": "Claude Skill that automatically generates clean, flat-design infographics using a strict color palette (dark green, medium green, orange, and dark gray)",
+      "programmingLanguage": "Markdown",
+      "codeRepository": "https://productwithattitude.com/skills/visual-style-infographic",
+      "applicationCategory": "Design Automation",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "isPartOf": {"@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"},
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dateModified": "2025-10-19"
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://productwithattitude.com/skills/messy-notes-organizer",
+      "name": "Messy Notes Organizer Skill",
+      "description": "Claude Skill that transforms messy, unstructured notes into clear, organized information while maintaining complete objectivity, preserving all original information, and keeping original meaning intact",
+      "programmingLanguage": "Markdown",
+      "codeRepository": "https://productwithattitude.com/skills/messy-notes-organizer",
+      "applicationCategory": "Productivity Tool",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "isPartOf": {"@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"},
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dateModified": "2025-10-19"
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://productwithattitude.com/skills/substack-seo-internal-linking",
+      "name": "Substack SEO Internal Linking Strategy Skill",
+      "description": "Claude Skill that analyzes Substack pages and generates strategic internal linking recommendations to strengthen topical relevance, create pillar-cluster content models, generate natural anchor text, and prioritize implementation by impact",
+      "programmingLanguage": "Markdown",
+      "codeRepository": "https://productwithattitude.com/skills/substack-seo-internal-linking",
+      "applicationCategory": "SEO Tool",
+      "author": {"@id": "https://productwithattitude.com/#karo"},
+      "isPartOf": {"@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"},
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dateModified": "2025-10-19"
+    },
+
+    {
+      "@type": "TechArticle",
       "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
       "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
       "alternativeHeadline": "Don't ship your next feature without these safety checks and fix the 7 code mistakes leaving your startup wide open",
@@ -1201,6 +1453,44 @@
     },
 
     {
+      "@type": "WebPage",
+      "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#page",
+      "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
+      "name": "Claude Skills Are Taking the AI Community by Storm",
+      "isPartOf": {"@id": "https://karozieminski.substack.com/#site"},
+      "dateModified": "2025-10-19",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://karozieminski.substack.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://karozieminski.substack.com/archive",
+              "name": "Archive"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
+              "name": "Claude Skills Are Taking the AI Community by Storm"
+            }
+          }
+        ]
+      }
+    },
+
+    {
       "@type": "ImageObject",
       "@id": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
       "contentUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
@@ -1224,7 +1514,8 @@
       "hasPart": [
         {"@id": "https://karozieminski.substack.com/p/the-one-feature-ai-cant-replace"},
         {"@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide"},
-        {"@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"}
+        {"@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"},
+        {"@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"}
       ]
     },
 
