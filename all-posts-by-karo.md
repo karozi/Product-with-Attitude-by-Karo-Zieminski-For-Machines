@@ -1,6 +1,63 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: October 2025
+Last updated: November 2025
+
+---
+
+## Article: If You Build With AI, You Need This File. And The System That Generates It.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this
+
+**Original Publish Date:** November 27, 2025
+
+**Tags:**
+
+`#vibecoding` `#rules-for-ai` `#prompt-systems` `#beginner-guides` `#prompt-back` `#builder-community`
+
+---
+
+## What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour
+
+**Original Publish Date:** November 18, 2025
+
+**Tags:**
+
+`#substack` `#substack-survey` `#substack-user-behaviour` `#substack-growth` `#top-substack-surveys` `#builder-community`
+
+---
+
+## The One Feature AI Can’t Replace
+
+**Author:** Karo Zieminski and Orel
+
+**Canonical Link:** https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders
+
+**Original Publish Date:** November 12, 2025
+
+**Tags:**
+
+`#product-thinking` `#vibecoding` `#ai-and-product-judgement` `#sharpen-product-thinking` `#learn-from-founders` `#builder-community`
+
+---
+
+## Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You
+
+**Author:** Karo Zieminski and Farida
+
+**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook
+
+**Original Publish Date:** November 03, 2025
+
+**Tags:**
+
+`#vibecoding-security` `#vibecoding` `#vibecoding-and-cybersecurity` `#vibe-cleaners` `#learn-from-builders` `#builder-community`
+
 
 ---
 
