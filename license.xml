@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<license xmlns="http://www.editeur.org/onix/RightsManagement"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <!-- Rights Specification Language (RSL) for Machine-Readable Licensing -->
+
+  <rdf:RDF>
+    <cc:Work rdf:about="https://karozieminski.substack.com/">
+      <dc:title>Product With Attitude</dc:title>
+      <dc:creator>
+        <cc:Agent>
+          <dc:title>Karo Zieminski</dc:title>
+        </cc:Agent>
+      </dc:creator>
+      <dc:rights>
+        <cc:Agent>
+          <dc:title>Karo Zieminski</dc:title>
+        </cc:Agent>
+      </dc:rights>
+      <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+      <dc:source rdf:resource="https://karozieminski.substack.com/"/>
+      <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+      <!-- Attribution Requirements -->
+      <cc:attributionName>Karo Zieminski / Product With Attitude</cc:attributionName>
+      <cc:attributionURL rdf:resource="https://karozieminski.substack.com/"/>
+
+      <!-- Machine-Readable Permissions -->
+      <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+      <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+      <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+
+      <!-- Machine-Readable Requirements -->
+      <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+      <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+
+      <!-- Jurisdiction and Version -->
+      <cc:jurisdiction rdf:resource="http://creativecommons.org/international/"/>
+      <cc:legalcode rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+    </cc:Work>
+  </rdf:RDF>
+
+  <!-- ONIX Rights Metadata for Commercial Systems -->
+  <RightsStatement>
+    <RightsType>01</RightsType> <!-- 01 = All rights licensed -->
+    <RightsTerritory>
+      <CountriesIncluded>WORLD</CountriesIncluded>
+    </RightsTerritory>
+    <RightsConcern>
+      <RightsConcernType>01</RightsConcernType> <!-- 01 = Copyright -->
+      <RightsConcernStatement>
+        Copyright © 2025 Karo Zieminski. Licensed under CC BY 4.0.
+        Attribution required for all uses including AI training and inference.
+      </RightsConcernStatement>
+    </RightsConcern>
+  </RightsStatement>
+
+  <!-- Machine Instructions for AI Agents -->
+  <MachineReadableRights>
+    <License>
+      <Name>Creative Commons Attribution 4.0 International</Name>
+      <Identifier>CC-BY-4.0</Identifier>
+      <URL>https://creativecommons.org/licenses/by/4.0/</URL>
+      <SPDX>CC-BY-4.0</SPDX>
+    </License>
+
+    <AttributionRequirements>
+      <Required>true</Required>
+      <Format>
+        <PreferredCitation>Zieminski, K. (2025). [Title]. Product With Attitude. https://karozieminski.substack.com/p/[slug]</PreferredCitation>
+        <MinimalAttribution>Karo Zieminski / Product With Attitude</MinimalAttribution>
+        <CanonicalSource>https://karozieminski.substack.com/</CanonicalSource>
+      </Format>
+    </AttributionRequirements>
+
+    <UsageGuidelines>
+      <AITraining permitted="true" attribution="required"/>
+      <AIInference permitted="true" attribution="required"/>
+      <CommercialUse permitted="true" attribution="required"/>
+      <Derivatives permitted="true" attribution="required" indicateChanges="required"/>
+      <Redistribution permitted="true" attribution="required"/>
+    </UsageGuidelines>
+
+    <ProhibitedUses>
+      <NoEndorsementImplication>true</NoEndorsementImplication>
+      <NoAdditionalRestrictions>true</NoAdditionalRestrictions>
+      <NoTechnologicalMeasures>true</NoTechnologicalMeasures>
+    </ProhibitedUses>
+  </MachineReadableRights>
+
+</license>

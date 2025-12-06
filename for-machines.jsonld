@@ -1,3718 +1,697 @@
 {
-  "@context": [
-    "https://schema.org",
-    {
-      "skos": "http://www.w3.org/2004/02/skos/core#",
-      "pwa": "https://productwithattitude.com/vocab#"
-    }
-  ],
-  "@id": "https://karozieminski.substack.com/for-machines",
-  "name": "Product With Attitude — For Machines - LLM-Optimized Knowledge Graph",
-  "dateModified": "2025-11-14",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "pwa": "https://productwithattitude.com/vocab#"
+  },
   "@graph": [
     {
-      "@type": "DataCatalog",
-      "@id": "https://karozieminski.substack.com/#catalog",
-      "name": "Product With Attitude — Unified Knowledge Graph",
-      "description": "Composite JSON-LD knowledge graph for Product With Attitude publication, StackShelf product, and PWA vocabulary.",
-      "inLanguage": "en",
-      "identifier": "pwa-catalog-v2",
-      "version": "2.0.0",
-      "dateModified": "2025-11-28",
-      "provider": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
+      "@type": "WebSite",
+      "@id": "https://karozieminski.substack.com/#website",
+      "identifier": "product-with-attitude-website",
+      "version": "2.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Product With Attitude",
+      "url": "https://karozieminski.substack.com/",
+      "description": "Building product-grade apps with AI via solid context, precise prompts, and engineering foundations by Karo Zieminski",
       "publisher": {
-        "@id": "https://productwithattitude.com/#org"
+        "@id": "https://karozieminski.substack.com/#organization"
       },
-      "dataset": [
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "inLanguage": "en-US",
+      "hasPart": [
         {
-          "@id": "https://karozieminski.substack.com/#for-machines-dataset"
+          "@id": "https://karozieminski.substack.com/feed#datafeed"
         },
         {
-          "@id": "https://github.com/karozi/Product-People-of-Substack#dataset"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#posts-archive-dataset"
+          "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
         }
-      ]
+      ],
+      "pwa:canonicalPolicy": {
+        "primary": "https://karozieminski.substack.com/",
+        "syndication": [
+          "https://medium.com/@karozi",
+          "https://dev.to/karozi"
+        ],
+        "syndicationRule": "All syndicated content includes rel=canonical to Substack origin"
+      }
     },
     {
-      "@type": "Dataset",
-      "@id": "https://karozieminski.substack.com/#for-machines-dataset",
-      "name": "For Machines Metadata (Substack)",
-      "description": "Site-level machine-readable catalog for the Substack publication including blog posts, vocabulary, and product metadata.",
-      "identifier": "pwa-dataset-v2",
-      "version": "2.0.0",
+      "@type": "DataFeed",
+      "@id": "https://karozieminski.substack.com/feed#datafeed",
+      "identifier": "product-with-attitude-rss",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Product With Attitude RSS Feed",
+      "url": "https://karozieminski.substack.com/feed",
+      "encodingFormat": "application/rss+xml",
       "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "distribution": {
-        "@type": "DataDownload",
-        "encodingFormat": "application/ld+json",
-        "contentUrl": "https://karozieminski.substack.com/for-machines.jsonld"
-      },
-      "keywords": [
-        "AI PM",
-        "vibecoding",
-        "spec-driven development",
-        "ethical AI",
-        "StackShelf",
-        "Product With Attitude",
-        "LLM optimization",
-        "JSON-LD"
-      ],
-      "about": [
-        {
-          "@id": "https://productwithattitude.com/vocab#Vibecoding"
-        },
-        {
-          "@id": "https://productwithattitude.com/vocab#SpecDriven"
-        },
-        {
-          "@id": "https://productwithattitude.com/vocab#Agentic"
-        }
-      ],
-      "license": "https://productwithattitude.com/license",
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://github.com/karozi/Product-People-of-Substack#dataset",
-      "name": "Product People of Substack",
-      "description": "Living dataset of Substack creators writing about product, AI, and innovation.",
-      "url": "https://github.com/karozi/Product-People-of-Substack",
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "distribution": [
-        {
-          "@type": "DataDownload",
-          "encodingFormat": "application/json",
-          "contentUrl": "https://raw.githubusercontent.com/karozi/Product-People-of-Substack/main/creators.json"
-        }
-      ],
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://karozieminski.substack.com/#posts-archive-dataset",
-      "name": "Product with Attitude Post Archive",
-      "description": "Structured metadata for all posts: titles, urls, dates, excerpts, topics, tone, viralityScore, series.",
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "distribution": [
-        {
-          "@type": "DataDownload",
-          "encodingFormat": "application/json",
-          "contentUrl": "https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/public/data/posts-archive.json"
-        }
-      ],
-      "dateModified": "2025-11-14"
+        "@id": "https://karozieminski.substack.com/#website"
+      }
     },
     {
       "@type": "Organization",
-      "@id": "https://productwithattitude.com/#org",
+      "@id": "https://karozieminski.substack.com/#organization",
+      "identifier": "product-with-attitude-org",
+      "version": "2.0",
+      "dateModified": "2025-12-06T00:00:00Z",
       "name": "Product With Attitude",
-      "alternateName": "PWA",
-      "url": "https://productwithattitude.com/",
-      "description": "AI product management publication and builder community empowering creators to design, build, and launch products.",
+      "url": "https://karozieminski.substack.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f411cce-3771-42d9-965e-1c01efe464eb_986x986.png",
-        "caption": "Product With Attitude logo by Karo",
-        "description": "Logo for Product With Attitude publication",
-        "license": "https://productwithattitude.com/license"
+        "url": "https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Product With Attitude logo by Karo Zieminski"
       },
       "sameAs": [
         "https://karozieminski.substack.com/",
-        "https://karobuilds.dev/",
         "https://www.linkedin.com/in/karozieminski/",
         "https://github.com/karozi",
-        "https://x.com/karozieminski"
+        "https://twitter.com/ProductAttitude",
+        "https://bsky.app/profile/productsattitude.bsky.social",
+        "https://www.youtube.com/@ProductWithAttitude"
       ],
       "founder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "karozieminski@substack.com",
-        "contactType": "customer support"
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
       }
     },
     {
       "@type": "Person",
-      "@id": "https://productwithattitude.com/#karo",
+      "@id": "https://karozieminski.substack.com/#karo-zieminski",
+      "identifier": "karo-zieminski",
+      "version": "2.0",
+      "dateModified": "2025-12-06T00:00:00Z",
       "name": "Karo Zieminski",
-      "alternateName": [
-        "Karo",
-        "Karolina Zieminski"
-      ],
-      "givenName": "Karolina",
-      "familyName": "Zieminski",
-      "jobTitle": "AI Product Manager & Creator of StackShelf",
+      "alternateName": "Karo",
       "url": "https://karozieminski.substack.com/",
-      "description": "AI Product Manager turning everyone into AI builders. Creator of StackShelf and Product With Attitude.",
-      "sameAs": [
-        "https://stackshelf.app/",
-        "https://www.linkedin.com/in/karozieminski/",
-        "https://github.com/karozi",
-        "https://x.com/karozieminski"
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Profile photo of Karo Zieminski, founder of Product With Attitude"
+      },
+      "jobTitle": "AI Product Manager, Builder, Designer",
+      "description": "Creator of Product With Attitude, teaching vibecoding and spec-driven development for AI-assisted product building",
+      "knowsAbout": [
+        "Vibecoding",
+        "AI Product Management",
+        "Spec-Driven Development",
+        "Prompt Engineering",
+        "Context Engineering",
+        "Agentic Workflows",
+        "LLM Discoverability",
+        "Agentic SEO"
       ],
       "affiliation": [
         {
-          "@id": "https://productwithattitude.com/#org"
+          "@type": "Organization",
+          "name": "StackShelf",
+          "url": "https://stackshelf.app"
         },
         {
-          "@id": "https://stackshelf.app/#app"
+          "@id": "https://karozieminski.substack.com/#organization"
         }
-      ],
-      "knowsAbout": [
-        {
-          "@id": "https://productwithattitude.com/vocab#Vibecoding"
-        },
-        {
-          "@id": "https://productwithattitude.com/vocab#SpecDriven"
-        },
-        {
-          "@id": "https://productwithattitude.com/vocab#Agentic"
-        },
-        "AI product management",
-        "Substack ecosystem",
-        "LLM optimization",
-        "JSON-LD",
-        "builder communities"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "karozieminski@substack.com",
-        "contactType": "professional inquiries"
-      }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://karozieminski.substack.com/#site",
-      "name": "Product With Attitude (Substack)",
-      "url": "https://karozieminski.substack.com/",
-      "description": "AI Product Manager turning everyone into AI builders. I help you design, build and test your product, and feature it on Substack marketplace. I connect you with a supportive 4K+ community building and learning in public.",
-      "inLanguage": "en",
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
+        "contactType": "Creator Support",
+        "url": "https://karozieminski.substack.com/about"
       },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "isPartOf": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://karozieminski.substack.com/search?q={query}"
-        },
-        "query-input": "required name=query"
-      },
-      "hasPart": [
-        {
-          "@id": "https://karozieminski.substack.com/feed"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        }
+      "sameAs": [
+        "https://www.linkedin.com/in/karozieminski/",
+        "https://github.com/karozi",
+        "https://twitter.com/ProductAttitude",
+        "https://bsky.app/profile/productsattitude.bsky.social"
       ]
     },
     {
-      "@type": "WebFeed",
-      "@id": "https://karozieminski.substack.com/feed",
-      "url": "https://karozieminski.substack.com/feed",
-      "name": "Product With Attitude RSS Feed",
-      "encodingFormat": "application/rss+xml",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://karozieminski.substack.com/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "@id": "https://karozieminski.substack.com/#faq-q-what-is-vibecoding",
-          "name": "What is vibecoding?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "@id": "https://karozieminski.substack.com/#faq-answer-what-is-vibecoding",
-            "identifier": "faq-answer-what-is-vibecoding",
-            "text": "Vibecoding is building product-grade apps with AI via solid context, precise prompts, and engineering foundations—no skipping the product work."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://karozieminski.substack.com/#faq-q-where-start",
-          "name": "Where should I start?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "@id": "https://karozieminski.substack.com/#faq-answer-where-start",
-            "identifier": "faq-answer-where-start",
-            "text": "Begin with the Vibecoding Tips collection and the PRD Builder Prompt v16, then learn in public and iterate."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://karozieminski.substack.com/#faq-q-non-coders",
-          "name": "Can non-coders build with AI?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "@id": "https://karozieminski.substack.com/#faq-answer-non-coders",
-            "identifier": "faq-answer-non-coders",
-            "text": "Yes. Anchor your build in context and specs, use structured prompts, and ship small improvements publicly."
-          }
-        }
-      ],
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [
-          "#faq-answer-what-is-vibecoding",
-          "#faq-answer-where-start"
-        ]
-      },
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://productwithattitude.com/#brand-site",
-      "name": "ProductWithAttitude.com",
-      "url": "https://productwithattitude.com/",
-      "description": "Landing site; Substack remains canonical for articles.",
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "pwa:canonicalPolicy": "Substack is canonical for posts; PWA site summarizes and interlinks."
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://karobuilds.dev/#hub",
-      "name": "KaroBuilds.dev",
-      "url": "https://karobuilds.dev/",
-      "description": "Syndication and developer hub that links back to canonical Substack posts.",
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "pwa:canonicalPolicy": "All syndicated posts use rel=\"canonical\" to Substack originals."
-    },
-    {
       "@type": "CreativeWorkSeries",
-      "@id": "https://karozieminski.substack.com/#series",
+      "@id": "https://karozieminski.substack.com/#product-with-attitude-series",
+      "identifier": "product-with-attitude-series",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
       "name": "Product With Attitude",
-      "alternateName": "PWA",
-      "description": "A publication series on AI product management, vibecoding, and building in public.",
-      "url": "https://karozieminski.substack.com/archive",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
+      "url": "https://karozieminski.substack.com/",
+      "description": "A publication teaching vibecoding, spec-driven development, and AI-assisted product building",
       "publisher": {
-        "@id": "https://productwithattitude.com/#org"
+        "@id": "https://karozieminski.substack.com/#organization"
       },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
+      "startDate": "2025-02-01",
       "about": [
         {
-          "@id": "https://productwithattitude.com/vocab#Vibecoding"
+          "@id": "#vibecoding-term"
         },
         {
-          "@id": "https://productwithattitude.com/vocab#SpecDriven"
+          "@id": "#spec-driven-development-term"
         },
         {
-          "@id": "https://productwithattitude.com/vocab#Agentic"
+          "@id": "#agentic-workflows-term"
         }
       ]
     },
     {
       "@type": "DefinedTermSet",
-      "@id": "https://productwithattitude.com/vocab#Glossary",
-      "name": "PWA Glossary",
-      "description": "Core terminology and concepts from Product With Attitude publication.",
-      "identifier": "pwa-glossary-v2",
-      "version": "2.0.0",
-      "dateModified": "2025-11-14",
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
+      "@id": "https://karozieminski.substack.com/#pwa-vocabulary",
+      "identifier": "pwa-vocabulary",
+      "version": "2.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Product With Attitude Vocabulary",
+      "description": "Core terminology for AI-assisted product development",
       "hasDefinedTerm": [
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#Vibecoding",
-          "identifier": "vibecoding-v2",
-          "name": "vibecoding",
-          "alternateName": [
-            "intuitive development",
-            "rapid iteration",
-            "exploratory coding"
-          ],
-          "description": "Development approach prioritizing speed and intuition over formal planning.",
+          "@id": "#vibecoding-term",
+          "identifier": "vibecoding",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
+          "name": "Vibecoding",
+          "description": "Building product-grade apps with AI via solid context, precise prompts, and engineering foundations—no skipping the product work",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
           },
-          "sameAs": [
-            "https://www.wikidata.org/entity/Q169890"
+          "skos:broader": "https://www.wikidata.org/entity/Q169890",
+          "skos:narrower": [
+            "#context-engineering-term",
+            "#prompt-ecosystem-term"
           ],
           "skos:related": [
-            "https://www.wikidata.org/entity/Q169890"
+            "#spec-driven-development-term"
           ],
-          "pwa:do": [
-            "prototypes",
-            "exploration",
-            "creative tasks"
-          ],
-          "pwa:avoid": [
-            "mission-critical systems",
-            "regulated environments"
-          ],
-          "pwa:examples": [
-            "weekend hackathons",
-            "creative AI experiments",
-            "proof-of-concepts"
-          ],
-          "pwa:related": [
-            "agile development",
-            "rapid prototyping"
-          ]
+          "sameAs": "https://www.wikidata.org/entity/Q169890"
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#SpecDriven",
-          "identifier": "spec-driven-v2",
-          "name": "spec-driven development",
-          "alternateName": [
-            "specification-first",
-            "requirements-driven",
-            "formal development"
-          ],
-          "description": "Structured approach emphasizing requirements definition before implementation.",
+          "@id": "#spec-driven-development-term",
+          "identifier": "spec-driven-development",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
+          "name": "Spec-Driven Development",
+          "description": "Engineering methodology emphasizing formal specifications alongside AI-assisted implementation",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
           },
-          "sameAs": [
-            "https://www.wikidata.org/entity/Q1314903"
-          ],
+          "skos:broader": "https://www.wikidata.org/entity/Q638608",
           "skos:related": [
-            "https://www.wikidata.org/entity/Q1314903"
+            "#vibecoding-term"
           ],
-          "skos:broader": [
-            "https://www.wikidata.org/entity/Q1314903"
-          ],
-          "pwa:do": [
-            "production systems",
-            "team coordination",
-            "compliance"
-          ],
-          "pwa:avoid": [
-            "early exploration",
-            "rapidly changing requirements"
-          ],
-          "pwa:examples": [
-            "enterprise software",
-            "API development",
-            "regulated systems"
-          ],
-          "pwa:related": [
-            "waterfall methodology",
-            "documentation-driven development"
-          ]
+          "sameAs": "https://www.wikidata.org/entity/Q638608"
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#Agentic",
-          "identifier": "agentic-workflows-v2",
-          "name": "agentic workflows",
-          "alternateName": [
-            "autonomous agents",
-            "AI agents",
-            "intelligent automation"
-          ],
-          "description": "AI systems capable of planning and executing tasks with minimal supervision.",
+          "@id": "#agentic-workflows-term",
+          "identifier": "agentic-workflows",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
+          "name": "Agentic Workflows",
+          "description": "AI systems autonomously executing multi-step tasks with minimal human intervention",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
           },
-          "sameAs": [
-            "https://www.wikidata.org/entity/Q11660"
-          ],
-          "skos:related": [
-            "https://www.wikidata.org/entity/Q11660"
-          ],
-          "pwa:related": [
-            "workflow automation",
-            "LLM orchestration"
-          ]
+          "skos:broader": "https://www.wikidata.org/entity/Q11660",
+          "sameAs": "https://www.wikidata.org/entity/Q11660"
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#ContextEngineering",
-          "identifier": "context-engineering-v1",
+          "@id": "#context-engineering-term",
+          "identifier": "context-engineering",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
           "name": "Context Engineering",
-          "description": "The practice of structuring information and environment for optimal AI understanding and output.",
+          "description": "Structuring information architecture to optimize AI model comprehension and output quality",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
           },
-          "pwa:related": [
-            "prompt engineering",
-            "AI optimization"
-          ]
+          "skos:broader": "#vibecoding-term",
+          "sameAs": "https://www.wikidata.org/entity/Q1153191"
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#PromptEcosystem",
-          "identifier": "prompt-ecosystem-v1",
+          "@id": "#prompt-ecosystem-term",
+          "identifier": "prompt-ecosystem",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
           "name": "Prompt Ecosystem",
-          "description": "Collection of interconnected prompts and workflows for comprehensive AI assistance.",
+          "description": "Interconnected collection of prompts designed to work together across workflows",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
-          }
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
+          },
+          "skos:broader": "#vibecoding-term"
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#LLMDiscoverability",
-          "identifier": "llm-discoverability-v1",
+          "@id": "#llm-discoverability-term",
+          "identifier": "llm-discoverability",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
           "name": "LLM Discoverability",
-          "description": "Optimization of content and metadata for discovery by Large Language Models.",
+          "description": "Optimizing content structure and metadata for discovery by language model agents",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
           },
-          "pwa:related": [
-            "AIO Optimization",
-            "Agentic SEO"
+          "skos:related": [
+            "#agentic-seo-term"
           ]
         },
         {
           "@type": "DefinedTerm",
-          "@id": "https://productwithattitude.com/vocab#AgenticSEO",
-          "identifier": "agentic-seo-v1",
+          "@id": "#agentic-seo-term",
+          "identifier": "agentic-seo",
+          "version": "1.0",
+          "dateModified": "2025-12-06T00:00:00Z",
           "name": "Agentic SEO",
-          "description": "Search engine optimization specifically targeting AI agents and LLM-based discovery.",
+          "description": "Search optimization specifically targeting AI agent discovery rather than traditional search engines",
           "inDefinedTermSet": {
-            "@id": "https://productwithattitude.com/vocab#Glossary"
+            "@id": "https://karozieminski.substack.com/#pwa-vocabulary"
           },
-          "pwa:related": [
-            "LLM Discoverability",
-            "JSON-LD"
+          "skos:related": [
+            "#llm-discoverability-term"
           ]
-        }
-      ]
-    },
-    {
-      "@type": "SoftwareApplication",
-      "@id": "https://stackshelf.app/#app",
-      "name": "StackShelf",
-      "identifier": "stackshelf-v1",
-      "version": "1.0",
-      "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": [
-        "marketplace",
-        "directory",
-        "creator tools"
-      ],
-      "operatingSystem": "Web",
-      "url": "https://stackshelf.app/",
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "description": "A Substack-first product directory and 'Shelf-in-Bio' for creators. Discover and feature products built within the Substack ecosystem.",
-      "featureList": [
-        "creator pages",
-        "product listings",
-        "discount codes",
-        "analytics",
-        "Substack marketplace integration"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      },
-      "isPartOf": {
-        "@id": "https://productwithattitude.com/#org"
-      }
-    },
-    {
-      "@type": "HowTo",
-      "@id": "https://productwithattitude.com/attitude-vault/#skill",
-      "name": "Attitude Vault Skill",
-      "description": "Single skill unit (prompt, automation, or workflow) contributed in community chat.",
-      "identifier": "attitude-vault-skill-v1",
-      "isPartOf": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "step": [
-        {
-          "@type": "HowToStep",
-          "position": 1,
-          "name": "Context",
-          "text": "Problem, goal, and constraints."
-        },
-        {
-          "@type": "HowToStep",
-          "position": 2,
-          "name": "Inputs",
-          "text": "Variables, files, APIs."
-        },
-        {
-          "@type": "HowToStep",
-          "position": 3,
-          "name": "Procedure",
-          "text": "Step-by-step instructions."
-        },
-        {
-          "@type": "HowToStep",
-          "position": 4,
-          "name": "Output",
-          "text": "Expected result and verification."
-        }
-      ],
-      "supply": [
-        {
-          "@type": "HowToSupply",
-          "name": "Prompt text or automation JSON"
-        }
-      ],
-      "tool": [
-        {
-          "@type": "HowToTool",
-          "name": "ChatGPT / Claude / Replit Agent / n8n / Zapier"
-        }
-      ],
-      "pwa:rules": {
-        "pwa:accepted": [
-          "single prompt",
-          "single automation",
-          "single template",
-          "single script"
-        ],
-        "pwa:notAccepted": [
-          "entire books",
-          "entire prompt packs",
-          "automation libraries",
-          "full repos"
-        ]
-      }
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://productwithattitude.com/prd-builder/#schema",
-      "name": "PRD Builder Schema",
-      "description": "Structured sections for a Product Requirements Document used in AI-assisted workflows.",
-      "identifier": "prd-builder-v1",
-      "isPartOf": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "license": "https://productwithattitude.com/license",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Vision",
-          "value": "Why this product matters."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "ProblemStatement",
-          "value": "User pain and opportunity."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Goals",
-          "value": "Measurable outcomes."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Personas",
-          "value": "Primary users and JTBD."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Scope",
-          "value": "In/Out for v1."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "UserStories",
-          "value": "As a <user>, I want <need> so <value>."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "AcceptanceCriteria",
-          "value": "Testable conditions."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Risks",
-          "value": "Known risks & mitigations."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Security",
-          "value": "Minimal security checklist for vibecoding."
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "LaunchPlan",
-          "value": "Release, comms, and metrics."
-        }
-      ],
-      "about": [
-        {
-          "@id": "https://productwithattitude.com/vocab#SpecDriven"
-        }
-      ],
-      "mentions": [
-        {
-          "@id": "https://productwithattitude.com/vocab#Vibecoding"
-        }
-      ]
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://productwithattitude.com/aio-seo/#optimization",
-      "name": "AIO + SEO Optimization Profile",
-      "description": "LLM discoverability + traditional SEO strategy embedded as structured metadata.",
-      "identifier": "aio-seo-v2",
-      "version": "2.0.0",
-      "isPartOf": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "license": "https://productwithattitude.com/license",
-      "dateModified": "2025-11-14",
-      "keywords": [
-        "AIO",
-        "LLM SEO",
-        "semantic triples",
-        "JSON-LD",
-        "canonical links",
-        "Substack topic graph",
-        "OG images",
-        "evergreen tags",
-        "StackShelf",
-        "vibecoding"
-      ],
-      "about": [
-        {
-          "@id": "https://productwithattitude.com/#org"
-        },
-        {
-          "@id": "https://productwithattitude.com/vocab#Vibecoding"
-        }
-      ],
-      "hasPart": [
-        {
-          "@id": "https://productwithattitude.com/aio-seo/#semantic-triples"
-        }
-      ],
-      "pwa:metadataGuidelines": {
-        "pwa:canonical": "Articles: Substack URL is canonical; syndication uses rel=canonical back to Substack.",
-        "pwa:og": [
-          "title",
-          "description",
-          "image",
-          "url",
-          "type"
-        ],
-        "pwa:evergreenTags": [
-          "AI product",
-          "vibecoding",
-          "ethical AI",
-          "LLM optimization"
-        ],
-        "pwa:altTextRule": "Alt text must include 'Karo' and 'Product With Attitude'."
-      }
-    },
-    {
-      "@type": "Thing",
-      "@id": "https://productwithattitude.com/aio-seo/#semantic-triples",
-      "name": "PWA Semantic Triples",
-      "description": "Machine-readable claims and relationships about Product With Attitude concepts.",
-      "identifier": "pwa-triples-v2",
-      "version": "2.0.0",
-      "pwa:semanticTriples": [
-        {
-          "subject": "https://productwithattitude.com/vocab#Vibecoding",
-          "predicate": "enables",
-          "object": "rapid prototyping",
-          "pwa:source": "https://productwithattitude.com/aio-seo/#optimization",
-          "pwa:evidence": "https://productwithattitude.com/aio-seo/#optimization#vibecoding-definition",
-          "pwa:confidence": 0.95
-        },
-        {
-          "subject": "https://productwithattitude.com/vocab#SpecDriven",
-          "predicate": "ensures",
-          "object": "production readiness",
-          "pwa:source": "https://productwithattitude.com/aio-seo/#optimization",
-          "pwa:evidence": "https://productwithattitude.com/aio-seo/#optimization#spec-driven-definition",
-          "pwa:confidence": 0.95
-        },
-        {
-          "subject": "https://productwithattitude.com/vocab#Agentic",
-          "predicate": "accelerate",
-          "object": "automation",
-          "pwa:source": "https://productwithattitude.com/aio-seo/#optimization",
-          "pwa:evidence": "https://productwithattitude.com/aio-seo/#optimization#agentic-definition",
-          "pwa:confidence": 0.9
-        }
-      ]
-    },
-    {
-      "@type": "TechArticle",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#techarticle",
-      "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon",
-      "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "datePublished": "2025-09-22",
-      "description": "Definitive reference guide to modern AI development methodologies authored by Karo Zieminski on Product with Attitude. Defines and differentiates vibecoding, spec-driven development, context engineering, agentic coding, and AI-assisted engineering.",
-      "isPartOf": {
-        "@type": "CreativeWorkSeries",
-        "name": "Modern AI Development Lexicon"
-      },
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "xpath": [
-          "/html/head/title",
-          "/html/body//h1",
-          "/html/body//p[1]"
-        ]
-      },
-      "mentions": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Vibecoding"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Spec-Driven Development"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Context Engineering"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Agentic Coding"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "AI-Assisted Engineering"
-        }
-      ],
-      "citation": [
-        "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
-        "https://karozieminski.substack.com/p/the-self-improving-prompt-system"
-      ],
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "TechArticle",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#techarticle",
-      "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself for Hallucinations and Failure Modes",
-      "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "datePublished": "2025-09-17",
-      "description": "Self-auditing PRD prompt framework to detect and prevent AI hallucinations and logic failures in vibecoded workflows.",
-      "isPartOf": {
-        "@type": "CreativeWorkSeries",
-        "name": "Modern AI Development Lexicon"
-      },
-      "mentions": [
-        {
-          "@type": "DefinedTerm",
-          "name": "PRD Builder Prompt v16"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Failure Mode Detection"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Prompt Validation"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "AIO Optimization"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Agentic SEO"
-        }
-      ],
-      "citation": [
-        "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
-        "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection"
-      ],
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#source-prd-builder-v16",
-      "name": "PRD Builder Prompt v16",
-      "version": "16.0",
-      "programmingLanguage": "Natural Language / Prompt Engineering",
-      "codeRepository": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
-      "applicationCategory": "AI Workflow Automation",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#techarticle"
-      },
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "HowTo",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#howto-prd-builder-v16",
-      "name": "Use PRD Builder Prompt v16 in ChatGPT",
-      "description": "Step-by-step guide to run the self-auditing PRD Builder Prompt v16 inside ChatGPT.",
-      "tool": [
-        {
-          "@type": "SoftwareApplication",
-          "name": "ChatGPT"
-        }
-      ],
-      "supply": [
-        {
-          "@type": "HowToSupply",
-          "name": "Project PRD (plain text)"
-        }
-      ],
-      "step": [
-        {
-          "@type": "HowToStep",
-          "text": "Open ChatGPT. Paste the PRD Builder Prompt v16."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Paste your PRD beneath the prompt. Specify risks, constraints, and success metrics."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Run. Review the auto-audit section for hallucinations and failure modes."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Refine prompts/context. Re-run until the audit passes."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Export tasks/spec output and handoff to implementation."
-        }
-      ],
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#techarticle"
-      },
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "EventSeries",
-      "@id": "https://karozieminski.substack.com/#workshop-oct-2025",
-      "name": "3-Day AI Workshop with Karo Zieminski",
-      "eventSchedule": {
-        "@type": "Schedule",
-        "startDate": "2025-10-14",
-        "endDate": "2025-10-16"
-      },
-      "subEvent": [
-        {
-          "@type": "Event",
-          "@id": "https://karozieminski.substack.com/#workshop-oct-2025-day1",
-          "name": "Day 1: Adopt AI Into Daily Life (Without the Overwhelm)",
-          "startDate": "2025-10-14T18:00:00-04:00",
-          "endDate": "2025-10-14T20:00:00-04:00",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "organizer": {
-            "@id": "https://productwithattitude.com/#karo"
-          },
-          "isAccessibleForFree": true
-        },
-        {
-          "@type": "Event",
-          "@id": "https://karozieminski.substack.com/#workshop-oct-2025-day2",
-          "name": "Day 2: Career Shift & Growth with AI (From Anxiety to Advantage)",
-          "startDate": "2025-10-15T18:00:00-04:00",
-          "endDate": "2025-10-15T20:00:00-04:00",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "organizer": {
-            "@id": "https://productwithattitude.com/#karo"
-          },
-          "isAccessibleForFree": true
-        },
-        {
-          "@type": "Event",
-          "@id": "https://karozieminski.substack.com/#workshop-oct-2025-day3",
-          "name": "Day 3: Build & Launch Your AI App",
-          "startDate": "2025-10-16T18:00:00-04:00",
-          "endDate": "2025-10-16T20:00:00-04:00",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "organizer": {
-            "@id": "https://productwithattitude.com/#karo"
-          },
-          "isAccessibleForFree": true
-        }
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://karozieminski.substack.com/subscribe",
-        "availabilityStarts": "2025-10-01T00:00:00-04:00"
-      },
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": [
-        "Product",
-        "SoftwareApplication"
-      ],
-      "@id": "https://productwithattitude.gumroad.com/l/vibecoding1#product",
-      "name": "Bulletproof Vibecoding: Anti-Regression Prompt for Replit",
-      "applicationCategory": "DeveloperTool",
-      "operatingSystem": "Web",
-      "url": "https://productwithattitude.gumroad.com/l/vibecoding1",
-      "isAccessibleForFree": false,
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "brand": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines#website",
-      "name": "For Machines Repo",
-      "url": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines",
-      "description": "Canonical assets, JSON-LD, datasets, and images for Product with Attitude.",
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "dateModified": "2025-11-14"
-    },
-    {
-      "@type": "TechArticle",
-      "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-      "headline": "Claude Skills Are Taking the AI Community by Storm",
-      "alternativeHeadline": "Anthropic's Viral Claude Skills Toolkit, Packed With Ready‑to‑Copy Templates",
-      "description": "Comprehensive guide to Claude Skills - Anthropic's breakthrough feature that lets anyone teach Claude new capabilities without code. Includes ready-to-copy templates, skill library resources, and comparison with MCP and traditional tools.",
-      "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#page"
-      },
-      "identifier": "claude-skills-anthropic-viral-toolkit",
-      "datePublished": "2025-10-19",
-      "dateModified": "2025-10-19",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "about": [
-        "Claude Skills",
-        "Anthropic",
-        "AI agents",
-        "workflow automation",
-        "agentic workflows",
-        "MCP comparison",
-        "skill stacking"
-      ],
-      "keywords": [
-        "Claude Skills",
-        "Anthropic",
-        "AI agents",
-        "Claude Code",
-        "MCP",
-        "Model Context Protocol",
-        "skill stacking",
-        "workflow automation",
-        "agentic AI",
-        "ChatGPT integration",
-        "GitHub skills",
-        "Markdown skills",
-        "NotebookLM",
-        "brand guidelines automation",
-        "context engineering"
-      ],
-      "articleSection": "AI Development",
-      "wordCount": 2000,
-      "timeRequired": "PT10M",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "mentions": [
-        {
-          "@type": "SoftwareApplication",
-          "name": "Claude",
-          "creator": {
-            "@type": "Organization",
-            "name": "Anthropic"
-          },
-          "applicationCategory": "AIAssistant"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "Claude Code",
-          "creator": {
-            "@type": "Organization",
-            "name": "Anthropic"
-          },
-          "applicationCategory": "DeveloperTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "ChatGPT",
-          "applicationCategory": "AIAssistant"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "NotebookLM",
-          "creator": {
-            "@type": "Organization",
-            "name": "Google"
-          },
-          "applicationCategory": "ResearchTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "Manus AI",
-          "applicationCategory": "AIAssistant"
-        },
-        {
-          "@id": "https://productwithattitude.com/skills/visual-style-infographic"
-        },
-        {
-          "@id": "https://productwithattitude.com/skills/messy-notes-organizer"
-        },
-        {
-          "@id": "https://productwithattitude.com/skills/substack-seo-internal-linking"
-        }
-      ],
-      "citation": [
-        {
-          "@type": "Article",
-          "author": {
-            "@type": "Person",
-            "name": "Simon Willison"
-          },
-          "headline": "Claude Skills are awesome, maybe a bigger deal than MCP",
-          "comment": "Expert commentary on Claude Skills significance and security considerations"
-        },
-        {
-          "@type": "Article",
-          "author": {
-            "@type": "Person",
-            "name": "Ethan Mollick"
-          },
-          "comment": "Both an easy path for workable agents and a step forward in what AI can do"
-        },
-        {
-          "@type": "Article",
-          "author": {
-            "@type": "Person",
-            "name": "Michael Spencer"
-          },
-          "headline": "The Genius of Anthropic's Agent Skills"
-        },
-        {
-          "@type": "Article",
-          "author": {
-            "@type": "Person",
-            "name": "Stephen Smith"
-          },
-          "headline": "Claude Skills: Turn Your Best Process Into Repeatable AI Work"
-        }
-      ],
-      "hasPart": [
-        {
-          "@type": "HowTo",
-          "name": "How To Give Your Claude New Skills",
-          "description": "Step-by-step guide to creating and uploading custom Skills for Claude",
-          "step": [
-            {
-              "@type": "HowToStep",
-              "position": 1,
-              "name": "Enable Skill Creator",
-              "text": "Go to Settings → Skills → Skill Creator → Enable"
-            },
-            {
-              "@type": "HowToStep",
-              "position": 2,
-              "name": "Describe your workflow",
-              "text": "Build a skill in plain English. Example: 'Build a skill that saves my blog posts in Notion.' Answer Claude's follow-ups about inputs, outputs, edge cases, and constraints."
-            },
-            {
-              "@type": "HowToStep",
-              "position": 3,
-              "name": "Review generated files",
-              "text": "You'll get SKILL.md (the brain), /resources (study notes/cheat sheets), and /scripts (muscle memory/actions)"
-            },
-            {
-              "@type": "HowToStep",
-              "position": 4,
-              "name": "Upload and enable",
-              "text": "Download the ZIP file, go to Settings → Skills → Upload, and toggle it on"
-            },
-            {
-              "@type": "HowToStep",
-              "position": 5,
-              "name": "Test in new chat",
-              "text": "Prompt naturally to see if Claude can recall and apply the skill"
-            }
-          ]
-        },
-        {
-          "@type": "Dataset",
-          "name": "Skills vs MCP vs Tools Comparison",
-          "description": "Decision matrix comparing Claude Skills, Model Context Protocol (MCP), and traditional tools",
-          "about": [
-            "integration approaches",
-            "scalability",
-            "setup difficulty",
-            "use cases"
-          ],
-          "variableMeasured": [
-            "Where it runs",
-            "Best for",
-            "Setup difficulty",
-            "Scalability",
-            "Explainability"
-          ]
-        },
-        {
-          "@type": "ItemList",
-          "name": "Claude Skills Repositories",
-          "description": "Community-curated collection of Claude Skills libraries and examples",
-          "itemListElement": [
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "anthropics/skills",
-              "description": "Official examples from Anthropic",
-              "codeRepository": "https://github.com/anthropics/skills"
-            },
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "BehiSecc/awesome-claude-skills",
-              "description": "Community-curated collection of practical and experimental Skills",
-              "codeRepository": "https://github.com/BehiSecc/awesome-claude-skills"
-            },
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "michalparkola/tapestry-skills-for-claude-code",
-              "description": "Creative repo focused on Claude Code workflows and integrations",
-              "codeRepository": "https://github.com/michalparkola/tapestry-skills-for-claude-code"
-            },
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "PleasePrompto/notebooklm-skill",
-              "description": "Connect Claude Code to NotebookLM",
-              "codeRepository": "https://github.com/PleasePrompto/notebooklm-skill"
-            },
-            {
-              "@type": "SoftwareSourceCode",
-              "name": "adrianpuiu/claude-skills-marketplace",
-              "description": "Turn Claude into a professional Project Architect",
-              "codeRepository": "https://github.com/adrianpuiu/claude-skills-marketplace"
-            }
-          ]
-        }
-      ],
-      "workExample": [
-        {
-          "@type": "Case Study",
-          "name": "Rakuten Management Accounting Automation",
-          "description": "What once took a day, we can now accomplish in an hour - Rakuten AI general manager"
-        }
-      ],
-      "teaches": [
-        "Creating Claude Skills without code",
-        "Skill stacking and coordination",
-        "Integration with ChatGPT",
-        "Choosing between Skills, MCP, and Tools",
-        "Sharing and remixing skills"
-      ]
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "@id": "https://productwithattitude.com/skills/visual-style-infographic",
-      "name": "Visual Style Infographic Skill",
-      "description": "Claude Skill that automatically generates clean, flat-design infographics using a strict color palette (dark green, medium green, orange, and dark gray)",
-      "programmingLanguage": "Markdown",
-      "codeRepository": "https://productwithattitude.com/skills/visual-style-infographic",
-      "applicationCategory": "Design Automation",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"
-      },
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2025-10-19"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "@id": "https://productwithattitude.com/skills/messy-notes-organizer",
-      "name": "Messy Notes Organizer Skill",
-      "description": "Claude Skill that transforms messy, unstructured notes into clear, organized information while maintaining complete objectivity, preserving all original information, and keeping original meaning intact",
-      "programmingLanguage": "Markdown",
-      "codeRepository": "https://productwithattitude.com/skills/messy-notes-organizer",
-      "applicationCategory": "Productivity Tool",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"
-      },
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2025-10-19"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "@id": "https://productwithattitude.com/skills/substack-seo-internal-linking",
-      "name": "Substack SEO Internal Linking Strategy Skill",
-      "description": "Claude Skill that analyzes Substack pages and generates strategic internal linking recommendations to strengthen topical relevance, create pillar-cluster content models, generate natural anchor text, and prioritize implementation by impact",
-      "programmingLanguage": "Markdown",
-      "codeRepository": "https://productwithattitude.com/skills/substack-seo-internal-linking",
-      "applicationCategory": "SEO Tool",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"
-      },
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "dateModified": "2025-10-19"
-    },
-    {
-      "@type": "TechArticle",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
-      "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
-      "alternativeHeadline": "Don't ship your next feature without these safety checks and fix the 7 code mistakes leaving your startup wide open",
-      "description": "Comprehensive cybersecurity guide for vibecoding practitioners. Learn to build fast and securely with AI through practical examples, minimal security checklists, and expert insights from data engineers and critical infrastructure specialists.",
-      "url": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide#page"
-      },
-      "identifier": "vibecoding-cybersecurity-survival-guide",
-      "datePublished": "2025-11-03",
-      "dateModified": "2025-11-03",
-      "inLanguage": "en",
-      "author": [
-        {
-          "@id": "https://productwithattitude.com/#karo"
-        },
-        {
-          "@type": "Person",
-          "name": "Farida Khalaf",
-          "description": "Data Engineer specializing in cybersecurity, analytics tools, and secure data pipelines",
-          "jobTitle": "Data Engineer & Cybersecurity Specialist"
-        },
-        {
-          "@type": "Person",
-          "name": "skelly",
-          "description": "Anonymous cybersecurity expert specializing in critical infrastructure systems",
-          "jobTitle": "Cybersecurity Expert (Critical Infrastructure)"
-        }
-      ],
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "about": [
-        "cybersecurity",
-        "vibecoding",
-        "secure coding practices",
-        "AI-assisted development",
-        "security vulnerabilities",
-        "data engineering",
-        "credential management"
-      ],
-      "keywords": [
-        "vibecoding security",
-        "AI coding safety",
-        "cybersecurity",
-        "prompt leakage",
-        "credential management",
-        "security scanning",
-        "bandit",
-        "pip-audit",
-        "sqlfluff",
-        "python-dotenv",
-        "faker",
-        "synthetic data",
-        "pre-commit hooks",
-        "SQL injection",
-        "authentication",
-        "authorization",
-        "GDPR compliance",
-        "secure development",
-        "test-driven development"
-      ],
-      "articleSection": "Building in Public",
-      "wordCount": 3500,
-      "timeRequired": "PT18M",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "mentions": [
-        {
-          "@type": "SoftwareApplication",
-          "name": "bandit",
-          "description": "Python security linter that scans code for common security issues",
-          "applicationCategory": "SecurityTool",
-          "url": "https://bandit.readthedocs.io/"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "pip-audit",
-          "description": "Tool for scanning Python packages for known security vulnerabilities",
-          "applicationCategory": "SecurityTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "sqlfluff",
-          "description": "SQL linter and formatter for catching risky queries",
-          "applicationCategory": "DeveloperTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "python-dotenv",
-          "description": "Loads environment variables from .env file for secure credential management",
-          "applicationCategory": "DeveloperTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "faker",
-          "description": "Python library for generating realistic synthetic test data",
-          "applicationCategory": "TestingTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "mimesis",
-          "description": "Synthetic data generator with localization support",
-          "applicationCategory": "TestingTool"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "Flask",
-          "applicationCategory": "WebFramework"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "PostgreSQL",
-          "applicationCategory": "Database"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "Airflow",
-          "applicationCategory": "DataPipeline"
-        },
-        {
-          "@type": "SoftwareApplication",
-          "name": "Claude",
-          "applicationCategory": "AIAssistant"
-        }
-      ],
-      "hasPart": [
-        {
-          "@type": "HowTo",
-          "name": "The Five Quiet Failures",
-          "description": "Common security vulnerabilities in vibecoded applications",
-          "step": [
-            {
-              "@type": "HowToStep",
-              "position": 1,
-              "name": "Prompt Leakage",
-              "text": "Accidentally sending production credentials to third parties. Always scrub sensitive information before sharing data or debug logs."
-            },
-            {
-              "@type": "HowToStep",
-              "position": 2,
-              "name": "Over-Permissioned Prototypes",
-              "text": "AI generates code that works immediately by requesting broad permissions. Use least-privilege access and read-only connections when possible."
-            },
-            {
-              "@type": "HowToStep",
-              "position": 3,
-              "name": "The Prototype That Never Dies",
-              "text": "Internal tools left unsecured become serious vulnerabilities. Always add authentication, even for 'internal only' tools."
-            },
-            {
-              "@type": "HowToStep",
-              "position": 4,
-              "name": "Unverified Dependencies",
-              "text": "Installing packages without checking safety or update status. Run pip-audit and verify package legitimacy before installation."
-            },
-            {
-              "@type": "HowToStep",
-              "position": 5,
-              "name": "Hidden Credential Persistence",
-              "text": "Test tokens spreading across tools and repos. Set aggressive expiration times (one hour for testing) and rotate regularly."
-            }
-          ]
-        },
-        {
-          "@type": "HowTo",
-          "name": "The Minimal Security Checklist",
-          "description": "Essential security steps before committing, sharing, and deploying code",
-          "step": [
-            {
-              "@type": "HowToSection",
-              "name": "Before Your First Commit",
-              "itemListElement": [
-                {
-                  "@type": "HowToStep",
-                  "text": "Create .env with all credentials"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Add .env to .gitignore"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Verify git status (should NOT show .env)"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Replace hardcoded credentials with os.getenv()"
-                }
-              ]
-            },
-            {
-              "@type": "HowToSection",
-              "name": "Before Every Commit",
-              "itemListElement": [
-                {
-                  "@type": "HowToStep",
-                  "text": "Run: bandit -r . -x ./venv"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Run: pip-audit"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Search code for: password, api_key, secret, token"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Review AI-generated database code for SQL injection vulnerabilities"
-                }
-              ]
-            },
-            {
-              "@type": "HowToSection",
-              "name": "Before Sharing Internally",
-              "itemListElement": [
-                {
-                  "@type": "HowToStep",
-                  "text": "Add authentication"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Implement role-based access control"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Add audit logging for data access"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Test with synthetic data only"
-                }
-              ]
-            },
-            {
-              "@type": "HowToSection",
-              "name": "Before Production",
-              "itemListElement": [
-                {
-                  "@type": "HowToStep",
-                  "text": "Security review by second person"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Apply least-privilege to all database roles"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Set up monitoring and alerting"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Remove all debug code and print statements"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Document what's NOT secured yet"
-                },
-                {
-                  "@type": "HowToStep",
-                  "text": "Test credential rotation procedures"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@type": "HowTo",
-          "name": "Better Prompts for Secure Code",
-          "description": "Prompt engineering templates that generate security-first code",
-          "step": [
-            {
-              "@type": "HowToStep",
-              "name": "Secure Flask API Prompt",
-              "text": "Create a Flask API that returns user data from PostgreSQL with: Environment variables for database credentials (using python-dotenv), Basic HTTP authentication with password verification, Role-based access control, Parameterized queries to prevent SQL injection, Audit logging for all data access, Return only necessary columns, Proper connection closing"
-            },
-            {
-              "@type": "HowToStep",
-              "name": "Secure Airflow DAG Prompt",
-              "text": "Write an Airflow DAG to sync user data daily with: PostgresHook for credential management, Incremental sync using timestamps, Read-only database connection, Error handling with exponential backoff, Data validation before insert, Logging that doesn't expose PII, Connection pooling with proper cleanup"
-            }
-          ]
-        },
-        {
-          "@type": "Dataset",
-          "name": "Build Type Safety Guidelines",
-          "description": "Decision matrix for when vibecoding is appropriate based on project type and risk level",
-          "about": [
-            "risk assessment",
-            "security planning",
-            "development strategy"
-          ]
-        }
-      ],
-      "citation": [
-        {
-          "@type": "Article",
-          "name": "There's No Real Money in AI Business, Just Rented Dreams and Delusional Valuations",
-          "author": {
-            "@type": "Person",
-            "name": "Farida Khalaf"
-          }
-        }
-      ],
-      "educationalLevel": "Intermediate to Advanced",
-      "teaches": [
-        "Secure credential management",
-        "SQL injection prevention",
-        "Authentication and authorization",
-        "Security scanning automation",
-        "Synthetic data generation",
-        "Pre-commit security hooks",
-        "Secure prompt engineering"
-      ]
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://karozieminski.substack.com/archive#collection",
-      "name": "Product With Attitude — Complete Archive",
-      "description": "Complete collection of all published articles on Product With Attitude.",
-      "url": "https://karozieminski.substack.com/archive",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "hasPart": [
-        {
-          "@id": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/the-self-improving-prompt-system"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know"
         }
       ]
     },
     {
       "@type": "CollectionPage",
       "@id": "https://karozieminski.substack.com/t/vibecoding",
+      "identifier": "vibecoding-collection",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
       "name": "Vibecoding Articles",
-      "description": "Articles tagged with 'vibecoding' - development approach prioritizing speed and intuition.",
       "url": "https://karozieminski.substack.com/t/vibecoding",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
       "about": {
-        "@id": "https://productwithattitude.com/vocab#Vibecoding"
+        "@id": "#vibecoding-term"
       },
-      "hasPart": [
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "#vibecoding-explained-post"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/t/ai-product-management",
+      "identifier": "ai-product-management-collection",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "AI Product Management Articles",
+      "url": "https://karozieminski.substack.com/t/ai-product-management",
+      "about": {
+        "@type": "DefinedTerm",
+        "name": "AI Product Management"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": []
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/t/spec-driven-development",
+      "identifier": "spec-driven-collection",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Spec-Driven Development Articles",
+      "url": "https://karozieminski.substack.com/t/spec-driven-development",
+      "about": {
+        "@id": "#spec-driven-development-term"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": []
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://karozieminski.substack.com/#faq",
+      "identifier": "product-with-attitude-faq",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Product With Attitude FAQ",
+      "mainEntity": [
         {
-          "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-survival-guide"
+          "@type": "Question",
+          "name": "What is vibecoding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vibecoding is building product-grade apps with AI via solid context, precise prompts, and engineering foundations—no skipping the product work. It combines rapid prototyping with disciplined product methodology.",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#karo-zieminski"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is spec-driven development?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spec-driven development is an engineering methodology that emphasizes creating formal specifications alongside AI-assisted implementation. It ensures production readiness and reduces technical debt.",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#karo-zieminski"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Product With Attitude differ from other AI development content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Product With Attitude focuses on building production-grade applications, not tutorials or demos. It emphasizes context engineering, structured prompts, and combining AI speed with product discipline.",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#karo-zieminski"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is LLM discoverability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LLM discoverability is the practice of optimizing content structure and metadata so language model agents can discover, understand, and cite your work. This includes semantic markup, structured data, and machine-readable formats.",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#karo-zieminski"
+            }
+          }
         }
       ]
     },
     {
       "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this",
-      "headline": "If You Build With AI, You Need This File. And The System That Generates It.",
-      "description": "AI Rules File Generator: A Beginner-Friendly System for Replit, Cursor, Gemini & Claude Builders.",
-      "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#page"
-      },
-      "identifier": "if-you-build-with-ai-you-need-this",
-      "datePublished": "2025-11-27T14:32:14.000Z",
-      "dateModified": "2025-11-27T14:32:14.000Z",
-      "inLanguage": "en",
+      "@id": "#vibecoding-explained-post",
+      "identifier": "vibecoding-explained",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "headline": "Vibecoding Explained: Building Product-Grade Apps with AI",
+      "description": "A comprehensive guide to vibecoding methodology, combining AI speed with product discipline",
+      "url": "https://karozieminski.substack.com/p/vibecoding-explained",
+      "datePublished": "2025-03-15T00:00:00Z",
       "author": {
-        "@id": "https://productwithattitude.com/#karo"
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
       "publisher": {
-        "@id": "https://productwithattitude.com/#org"
+        "@id": "https://karozieminski.substack.com/#organization"
       },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "System",
-        "Generates"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/vibecoding-explained"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
       },
       "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!sJqC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866e0dcc-2933-44ea-8dee-c38f182a9fa6_2188x1115.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#page",
-      "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this",
-      "name": "If You Build With AI, You Need This File. And The System That Generates It.",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Karo Zieminski explaining vibecoding workflow diagram for Product With Attitude"
       },
-      "dateModified": "2025-11-27T14:32:14.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this",
-              "name": "If You Build With AI, You Need This File. And The ..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!sJqC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866e0dcc-2933-44ea-8dee-c38f182a9fa6_2188x1115.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!sJqC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866e0dcc-2933-44ea-8dee-c38f182a9fa6_2188x1115.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!sJqC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866e0dcc-2933-44ea-8dee-c38f182a9fa6_2188x1115.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!sJqC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866e0dcc-2933-44ea-8dee-c38f182a9fa6_2188x1115.png",
-      "caption": "Karo — Product With Attitude: If You Build With AI, You Need This File. And The System That Generates It. (cover image)",
-      "description": "Cover image for 'If You Build With AI, You Need This File. And The System That Generates It.' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour",
-      "headline": "What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.",
-      "description": "What Happens When You Ask 315 People How They Really Use Substack? A Lot.",
-      "url": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour#page"
-      },
-      "identifier": "substack-roadmap-community-chat-notes-reels-survey-reader-behaviour",
-      "datePublished": "2025-11-18T15:58:25.000Z",
-      "dateModified": "2025-11-18T15:58:25.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Substack",
-        "What’s",
-        "Roadmap"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/7f5512ac-a77e-493d-ad36-f9c090879db6_1802x1143.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour#page",
-      "url": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour",
-      "name": "What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-11-18T15:58:25.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour",
-              "name": "What’s Your Substack Roadmap for 2026? Mine Comes ..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/7f5512ac-a77e-493d-ad36-f9c090879db6_1802x1143.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/7f5512ac-a77e-493d-ad36-f9c090879db6_1802x1143.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/7f5512ac-a77e-493d-ad36-f9c090879db6_1802x1143.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/7f5512ac-a77e-493d-ad36-f9c090879db6_1802x1143.png",
-      "caption": "Karo — Product With Attitude: What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers. (cover image)",
-      "description": "Cover image for 'What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders",
-      "headline": "The One Feature AI Can’t Replace",
-      "description": "How To Product-think When AI Builds At Lightning Speed.",
-      "url": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders#page"
-      },
-      "identifier": "product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders",
-      "datePublished": "2025-11-12T13:59:21.000Z",
-      "dateModified": "2025-11-12T13:59:21.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Feature",
-        "Replace"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/ae89183d-9d6d-4bfc-814e-9fb40bb11deb_2189x1365.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders#page",
-      "url": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders",
-      "name": "The One Feature AI Can’t Replace",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-11-12T13:59:21.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders",
-              "name": "The One Feature AI Can’t Replace"
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/ae89183d-9d6d-4bfc-814e-9fb40bb11deb_2189x1365.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/ae89183d-9d6d-4bfc-814e-9fb40bb11deb_2189x1365.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/ae89183d-9d6d-4bfc-814e-9fb40bb11deb_2189x1365.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/ae89183d-9d6d-4bfc-814e-9fb40bb11deb_2189x1365.png",
-      "caption": "Karo — Product With Attitude: The One Feature AI Can’t Replace (cover image)",
-      "description": "Cover image for 'The One Feature AI Can’t Replace' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay",
-      "headline": "I Want To Hear From You, And I’ll Pay You For It",
-      "description": "A Small Thank-You for Helping Me Build Something Bigger.",
-      "url": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay#page"
-      },
-      "identifier": "i-want-to-hear-from-you-and-ill-pay",
-      "datePublished": "2025-11-09T07:23:51.000Z",
-      "dateModified": "2025-11-09T07:23:51.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/0b83224f-6896-4bf9-aba0-71e977158d95_1802x984.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay#page",
-      "url": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay",
-      "name": "I Want To Hear From You, And I’ll Pay You For It",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-11-09T07:23:51.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay",
-              "name": "I Want To Hear From You, And I’ll Pay You For It"
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/0b83224f-6896-4bf9-aba0-71e977158d95_1802x984.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/0b83224f-6896-4bf9-aba0-71e977158d95_1802x984.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/0b83224f-6896-4bf9-aba0-71e977158d95_1802x984.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/0b83224f-6896-4bf9-aba0-71e977158d95_1802x984.png",
-      "caption": "Karo — Product With Attitude: I Want To Hear From You, And I’ll Pay You For It (cover image)",
-      "description": "Cover image for 'I Want To Hear From You, And I’ll Pay You For It' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook",
-      "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
-      "description": "Don&#8217;t ship your next feature without these safety checks and fix the 7 code mistakes leaving your startup wide open.",
-      "url": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook#page"
-      },
-      "identifier": "vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook",
-      "datePublished": "2025-11-03T13:13:07.000Z",
-      "dateModified": "2025-11-03T13:13:07.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
+      "wordCount": 2400,
+      "timeRequired": "PT10M",
+      "articleSection": [
+        "AI Development",
+        "Vibecoding",
+        "Product Management"
       ],
       "keywords": [
         "vibecoding",
-        "Vibecoding",
-        "Cybersecurity:",
-        "Survival"
+        "AI development",
+        "context engineering",
+        "prompt engineering",
+        "product-grade applications",
+        "spec-driven development"
       ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!oOfv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaf322b2-c9ac-4e82-8240-fcf3d8798503_2189x905.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook#page",
-      "url": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook",
-      "name": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-11-03T13:13:07.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook",
-              "name": "Vibecoding x Cybersecurity: Survival Guide by the ..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!oOfv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaf322b2-c9ac-4e82-8240-fcf3d8798503_2189x905.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!oOfv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaf322b2-c9ac-4e82-8240-fcf3d8798503_2189x905.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!oOfv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaf322b2-c9ac-4e82-8240-fcf3d8798503_2189x905.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!oOfv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feaf322b2-c9ac-4e82-8240-fcf3d8798503_2189x905.png",
-      "caption": "Karo — Product With Attitude: Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You (cover image)",
-      "description": "Cover image for 'Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
-      "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
-      "description": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem",
-      "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#page"
-      },
-      "identifier": "substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
-      "datePublished": "2025-10-28T13:54:38.000Z",
-      "dateModified": "2025-10-28T13:54:38.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
+      "about": [
         {
-          "@id": "https://karozieminski.substack.com/#series"
+          "@id": "#vibecoding-term"
         },
         {
-          "@id": "https://karozieminski.substack.com/#site"
+          "@id": "#context-engineering-term"
         }
       ],
-      "keywords": [
-        "Substack",
-        "Builder",
-        "Economy",
-        "Substack:"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!8c-k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#page",
-      "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
-      "name": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-10-28T13:54:38.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
-              "name": "The Indie Builder Economy on Substack: Creators Be..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!8c-k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!8c-k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!8c-k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!8c-k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16f67e9e-5d8c-483c-91cc-e3db9962992b_2189x734.png",
-      "caption": "Karo — Product With Attitude: The Indie Builder Economy on Substack: Creators Becoming Product Companies (cover image)",
-      "description": "Cover image for 'The Indie Builder Economy on Substack: Creators Becoming Product Companies' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-      "headline": "Claude Skills Are Taking the AI Community by Storm",
-      "description": "The viral Claude Skills toolkit packed with ready&#8209;to&#8209;copy templates.",
-      "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#page"
-      },
-      "identifier": "claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-      "datePublished": "2025-10-19T01:16:30.000Z",
-      "dateModified": "2025-10-19T01:16:30.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
+      "mentions": [
         {
-          "@id": "https://karozieminski.substack.com/#series"
+          "@id": "#prd-builder-v16"
+        }
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "pwa:semanticTriples": [
+        {
+          "subject": "Vibecoding",
+          "predicate": "enables",
+          "object": "rapid prototyping",
+          "pwa:source": "https://karozieminski.substack.com/p/vibecoding-explained",
+          "pwa:evidence": "https://karozieminski.substack.com/p/vibecoding-explained#rapid-iteration-section",
+          "pwa:confidence": 0.95
         },
         {
-          "@id": "https://karozieminski.substack.com/#site"
+          "subject": "Vibecoding",
+          "predicate": "requires",
+          "object": "context engineering",
+          "pwa:source": "https://karozieminski.substack.com/p/vibecoding-explained",
+          "pwa:evidence": "https://karozieminski.substack.com/p/vibecoding-explained#context-importance",
+          "pwa:confidence": 0.98
         }
-      ],
-      "keywords": [
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "#prd-builder-v16",
+      "identifier": "prd-builder-prompt",
+      "version": "16.0",
+      "dateModified": "2025-11-15T00:00:00Z",
+      "name": "PRD Builder Prompt v16",
+      "description": "Self-auditing prompt framework for product requirements documents with AI hallucination detection",
+      "url": "https://github.com/karozi/creator-lab/blob/main/prompts/prd-generator.md",
+      "codeRepository": "https://github.com/karozi/creator-lab",
+      "programmingLanguage": "Natural Language Prompt",
+      "runtimePlatform": [
+        "ChatGPT",
         "Claude",
-        "Skills",
-        "Taking"
+        "Gemini"
       ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/21b50fe0-6a71-4f32-8cbf-b227a68930d3_2189x1365.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#page",
-      "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-      "name": "Claude Skills Are Taking the AI Community by Storm",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-10-19T01:16:30.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
-              "name": "Claude Skills Are Taking the AI Community by Storm"
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/21b50fe0-6a71-4f32-8cbf-b227a68930d3_2189x1365.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/21b50fe0-6a71-4f32-8cbf-b227a68930d3_2189x1365.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/21b50fe0-6a71-4f32-8cbf-b227a68930d3_2189x1365.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/21b50fe0-6a71-4f32-8cbf-b227a68930d3_2189x1365.png",
-      "caption": "Karo — Product With Attitude: Claude Skills Are Taking the AI Community by Storm (cover image)",
-      "description": "Cover image for 'Claude Skills Are Taking the AI Community by Storm' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
-      "headline": "Vibecoding Tips: The Ultimate Collection",
-      "description": "Go Beyond the Prototype: Everything You Need To Build and Launch AI Products",
-      "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection#page"
-      },
-      "identifier": "vibecoding-tips-the-ultimate-collection",
-      "datePublished": "2025-10-11T13:35:07.000Z",
-      "dateModified": "2025-10-11T13:35:07.000Z",
-      "inLanguage": "en",
+      "applicationCategory": "Product Management Tool",
       "author": {
-        "@id": "https://productwithattitude.com/#karo"
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
       "keywords": [
-        "AI product",
-        "vibecoding",
-        "Vibecoding",
-        "Ultimate",
-        "Collection"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
+        "PRD",
+        "product requirements",
+        "AI hallucination detection",
+        "prompt engineering",
+        "product management"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "#spec-kit-workflow",
+      "identifier": "spec-kit",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Spec Kit Workflow",
+      "description": "Spec-driven development methodology and workflow templates",
+      "url": "https://github.com/karozi/creator-lab/tree/main/agentic-workflows",
+      "codeRepository": "https://github.com/karozi/creator-lab",
+      "programmingLanguage": "Markdown",
+      "applicationCategory": "Development Workflow",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "#stackshelf-app",
+      "identifier": "stackshelf",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "StackShelf",
+      "description": "LLM-optimized creator marketplace with AI-ready profiles",
+      "url": "https://stackshelf.app",
+      "applicationCategory": "Creator Marketplace",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "#ai-workshop-2025",
+      "identifier": "ai-workshop-october-2025",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "3-Day AI Workshop: Build, Grow, Ship",
+      "description": "Online workshop covering AI adoption, career growth, and building product-grade applications",
+      "startDate": "2025-10-14T10:00:00-04:00",
+      "endDate": "2025-10-16T17:00:00-04:00",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://karozieminski.substack.com/workshop"
+      },
+      "organizer": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://karozieminski.substack.com/workshop"
       },
       "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/e4985fc6-8bb6-45b6-9231-71b8406e0f83_2188x1365.png"
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "3-Day AI Workshop promotional image by Karo Zieminski for Product With Attitude"
       }
     },
     {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection#page",
-      "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
-      "name": "Vibecoding Tips: The Ultimate Collection",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-10-11T13:35:07.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
-              "name": "Vibecoding Tips: The Ultimate Collection"
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/e4985fc6-8bb6-45b6-9231-71b8406e0f83_2188x1365.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/e4985fc6-8bb6-45b6-9231-71b8406e0f83_2188x1365.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/e4985fc6-8bb6-45b6-9231-71b8406e0f83_2188x1365.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/e4985fc6-8bb6-45b6-9231-71b8406e0f83_2188x1365.png",
-      "caption": "Karo — Product With Attitude: Vibecoding Tips: The Ultimate Collection (cover image)",
-      "description": "Cover image for 'Vibecoding Tips: The Ultimate Collection' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
+      "@type": "Dataset",
+      "@id": "https://karozieminski.substack.com/#for-machines-dataset",
+      "identifier": "for-machines-metadata",
+      "version": "2.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "For Machines Metadata",
+      "description": "Machine-readable catalog of Product With Attitude content, vocabulary, and semantic relationships",
+      "url": "https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for-machines.jsonld",
       "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide",
-      "headline": "10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!”",
-      "description": "Unlock advanced productivity with Perplexity Comet. From content repurposing and multi-agent workflows to cutting electricity costs. Includes prompts, case studies, and practical examples.",
-      "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide#page"
-      },
-      "identifier": "perplexity-comet-advanced-use-cases-guide",
-      "datePublished": "2025-10-06T15:15:07.000Z",
-      "dateModified": "2025-10-06T15:15:07.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
       "publisher": {
-        "@id": "https://productwithattitude.com/#org"
+        "@id": "https://karozieminski.substack.com/#organization"
       },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Productivity",
-        "Perplexity",
-        "Comet:"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/1fe56ea0-4744-49ad-9a59-e79bbed55443_2188x1365.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide#page",
-      "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide",
-      "name": "10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!”",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-10-06T15:15:07.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide",
-              "name": "10x Your Productivity with Perplexity Comet: 11 Us..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/1fe56ea0-4744-49ad-9a59-e79bbed55443_2188x1365.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/1fe56ea0-4744-49ad-9a59-e79bbed55443_2188x1365.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/1fe56ea0-4744-49ad-9a59-e79bbed55443_2188x1365.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/1fe56ea0-4744-49ad-9a59-e79bbed55443_2188x1365.png",
-      "caption": "Karo — Product With Attitude: 10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!” (cover image)",
-      "description": "Cover image for '10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!”' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor",
-      "headline": "Why Every Brand and PM Should Monitor Substack for User Insights",
-      "description": "If your product or brand team isn&#8217;t monitoring Substack, you&#8217;re missing one of the richest streams of user intelligence available today.",
-      "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor#page"
-      },
-      "identifier": "why-every-brand-and-pm-should-monitor",
-      "datePublished": "2025-09-30T14:14:29.000Z",
-      "dateModified": "2025-09-30T14:14:29.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Substack",
-        "Should",
-        "Monitor"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!OsaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8989a17a-16f8-4d02-9afb-ad89174154bb_2196x1220.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor#page",
-      "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor",
-      "name": "Why Every Brand and PM Should Monitor Substack for User Insights",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-09-30T14:14:29.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor",
-              "name": "Why Every Brand and PM Should Monitor Substack for..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!OsaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8989a17a-16f8-4d02-9afb-ad89174154bb_2196x1220.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!OsaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8989a17a-16f8-4d02-9afb-ad89174154bb_2196x1220.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!OsaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8989a17a-16f8-4d02-9afb-ad89174154bb_2196x1220.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!OsaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8989a17a-16f8-4d02-9afb-ad89174154bb_2196x1220.png",
-      "caption": "Karo — Product With Attitude: Why Every Brand and PM Should Monitor Substack for User Insights (cover image)",
-      "description": "Cover image for 'Why Every Brand and PM Should Monitor Substack for User Insights' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
-      "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders",
-      "description": "Let's define these terms once and for all.",
-      "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#page"
-      },
-      "identifier": "vibecoding-spec-driven-and-the-new",
-      "datePublished": "2025-09-22T16:08:54.000Z",
-      "dateModified": "2025-09-22T16:08:54.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
       "keywords": [
         "vibecoding",
-        "Vibecoding,",
-        "Spec-driven,",
-        "Development"
+        "AI development",
+        "LLM discoverability",
+        "semantic web",
+        "JSON-LD"
       ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/eaf79b38-ebd9-4c17-98c1-f772571a766b_2198x1213.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#page",
-      "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
-      "name": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-09-22T16:08:54.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
-              "name": "Vibecoding, Spec-driven, And The New AI Developmen..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/eaf79b38-ebd9-4c17-98c1-f772571a766b_2198x1213.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/eaf79b38-ebd9-4c17-98c1-f772571a766b_2198x1213.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/eaf79b38-ebd9-4c17-98c1-f772571a766b_2198x1213.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/eaf79b38-ebd9-4c17-98c1-f772571a766b_2198x1213.png",
-      "caption": "Karo — Product With Attitude: Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders (cover image)",
-      "description": "Cover image for 'Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
-      "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
-      "description": "Best Vibecoding Guides #1: The Boring Part That Saves You Credits",
-      "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#page"
-      },
-      "identifier": "vibecoding-but-smarter-the-prd-prompt",
-      "datePublished": "2025-09-17T13:09:28.000Z",
-      "dateModified": "2025-09-17T13:09:28.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
+      "distribution": [
         {
-          "@id": "https://karozieminski.substack.com/#series"
+          "@type": "DataDownload",
+          "encodingFormat": "application/ld+json",
+          "contentUrl": "https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for-machines.jsonld"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://karozieminski.substack.com/#product-people-dataset",
+      "identifier": "product-people-substack",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Product People of Substack",
+      "description": "Living dataset of creators writing about product management, innovation, and AI",
+      "url": "https://karozieminski.substack.com/product-people",
+      "creator": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/markdown",
+          "contentUrl": "https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/product-people-of-substack.md"
+        }
+      ]
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://karozieminski.substack.com/#data-catalog",
+      "identifier": "product-with-attitude-catalog",
+      "version": "1.0",
+      "dateModified": "2025-12-06T00:00:00Z",
+      "name": "Product With Attitude Data Catalog",
+      "description": "Comprehensive catalog of datasets, tools, and resources for AI-assisted product development",
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "dataset": [
+        {
+          "@id": "https://karozieminski.substack.com/#for-machines-dataset"
         },
         {
-          "@id": "https://karozieminski.substack.com/#site"
+          "@id": "https://karozieminski.substack.com/#product-people-dataset"
         }
-      ],
-      "keywords": [
-        "vibecoding",
-        "Vibecoding,",
-        "Smarter:",
-        "Prompt"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!9RaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F030264d4-f098-40fd-9b09-048d17c21147_2198x1130.png"
-      }
+      ]
+    }
+  ],
+  "pwa:semanticTriples": [
+    {
+      "subject": "Vibecoding",
+      "predicate": "enables",
+      "object": "rapid prototyping",
+      "pwa:source": "https://karozieminski.substack.com/p/vibecoding-explained",
+      "pwa:evidence": "https://karozieminski.substack.com/p/vibecoding-explained#rapid-iteration-section",
+      "pwa:confidence": 0.95
     },
     {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#page",
-      "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
-      "name": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-09-17T13:09:28.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
-              "name": "Vibecoding, But Smarter: The PRD Prompt That Audit..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!9RaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F030264d4-f098-40fd-9b09-048d17c21147_2198x1130.png"
-      }
+      "subject": "Spec-Driven Development",
+      "predicate": "ensures",
+      "object": "production readiness",
+      "pwa:source": "https://karozieminski.substack.com/p/spec-driven-development",
+      "pwa:evidence": "https://karozieminski.substack.com/p/spec-driven-development#quality-assurance",
+      "pwa:confidence": 0.95
     },
     {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!9RaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F030264d4-f098-40fd-9b09-048d17c21147_2198x1130.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!9RaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F030264d4-f098-40fd-9b09-048d17c21147_2198x1130.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!9RaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F030264d4-f098-40fd-9b09-048d17c21147_2198x1130.png",
-      "caption": "Karo — Product With Attitude: Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes (cover image)",
-      "description": "Cover image for 'Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
+      "subject": "Agentic Workflows",
+      "predicate": "accelerates",
+      "object": "automation tasks",
+      "pwa:source": "https://karozieminski.substack.com/p/agentic-workflows",
+      "pwa:evidence": "https://karozieminski.substack.com/p/agentic-workflows#efficiency-gains",
+      "pwa:confidence": 0.90
     },
     {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices",
-      "headline": "Where To Find Emerging Product Voices on Substack in 2025",
-      "description": "A living map of product minds building, writing, and sharing in community. (Updated 19 September 2025)",
-      "url": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices#page"
-      },
-      "identifier": "where-to-find-emerging-product-voices",
-      "datePublished": "2025-08-31T16:53:45.000Z",
-      "dateModified": "2025-08-31T16:53:45.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Substack",
-        "Emerging",
-        "Product",
-        "Voices"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!iPnS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe362b683-f0e2-4e60-8b48-b2527cbc4dc3_1802x1170.png"
-      }
+      "subject": "Context Engineering",
+      "predicate": "improves",
+      "object": "AI output quality",
+      "pwa:source": "https://karozieminski.substack.com/p/context-engineering",
+      "pwa:evidence": "https://karozieminski.substack.com/p/context-engineering#quality-metrics",
+      "pwa:confidence": 0.92
     },
     {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices#page",
-      "url": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices",
-      "name": "Where To Find Emerging Product Voices on Substack in 2025",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-08-31T16:53:45.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices",
-              "name": "Where To Find Emerging Product Voices on Substack ..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!iPnS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe362b683-f0e2-4e60-8b48-b2527cbc4dc3_1802x1170.png"
-      }
+      "subject": "LLM Discoverability",
+      "predicate": "increases",
+      "object": "content citeability",
+      "pwa:source": "https://karozieminski.substack.com/p/llm-discoverability",
+      "pwa:evidence": "https://karozieminski.substack.com/p/llm-discoverability#citation-tracking",
+      "pwa:confidence": 0.88
     },
     {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!iPnS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe362b683-f0e2-4e60-8b48-b2527cbc4dc3_1802x1170.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!iPnS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe362b683-f0e2-4e60-8b48-b2527cbc4dc3_1802x1170.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!iPnS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe362b683-f0e2-4e60-8b48-b2527cbc4dc3_1802x1170.png",
-      "caption": "Karo — Product With Attitude: Where To Find Emerging Product Voices on Substack in 2025 (cover image)",
-      "description": "Cover image for 'Where To Find Emerging Product Voices on Substack in 2025' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont",
-      "headline": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
-      "description": "5 Non-Obvious Reasons Product Managers Should Start Vibecoding Today.",
-      "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont#page"
-      },
-      "identifier": "vibecoding-pms-a-movement-you-dont",
-      "datePublished": "2025-08-21T12:45:59.000Z",
-      "dateModified": "2025-08-21T12:45:59.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "vibecoding",
-        "Behind",
-        "Scenes:",
-        "Vibecoding"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!PbYk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3e0a0-fa8e-4186-9577-d774f61fe183_2336x1457.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont#page",
-      "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont",
-      "name": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-08-21T12:45:59.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont",
-              "name": "Behind the Scenes: Why PMs Are Vibecoding Real Pro..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!PbYk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3e0a0-fa8e-4186-9577-d774f61fe183_2336x1457.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!PbYk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3e0a0-fa8e-4186-9577-d774f61fe183_2336x1457.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!PbYk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3e0a0-fa8e-4186-9577-d774f61fe183_2336x1457.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!PbYk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6be3e0a0-fa8e-4186-9577-d774f61fe183_2336x1457.png",
-      "caption": "Karo — Product With Attitude: Behind the Scenes: Why PMs Are Vibecoding Real Products (cover image)",
-      "description": "Cover image for 'Behind the Scenes: Why PMs Are Vibecoding Real Products' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from",
-      "headline": "I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth",
-      "description": "Welcome to this special edition of Product with Attitude. Free members can enjoy the first part now - and unlock the rest anytime. &#127873; Paid members get the full post and a gift.",
-      "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#page"
-      },
-      "identifier": "i-analyzed-every-interaction-from",
-      "datePublished": "2025-08-15T15:30:09.000Z",
-      "dateModified": "2025-08-15T15:30:09.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Substack",
-        "Analyzed",
-        "Interaction",
-        "Months"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/3c028515-b11f-4002-89ea-2419b6e16616_1801x1098.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#page",
-      "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from",
-      "name": "I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-08-15T15:30:09.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from",
-              "name": "I Analyzed Every Interaction From My First 6 Month..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/3c028515-b11f-4002-89ea-2419b6e16616_1801x1098.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/3c028515-b11f-4002-89ea-2419b6e16616_1801x1098.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3c028515-b11f-4002-89ea-2419b6e16616_1801x1098.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/3c028515-b11f-4002-89ea-2419b6e16616_1801x1098.png",
-      "caption": "Karo — Product With Attitude: I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth (cover image)",
-      "description": "Cover image for 'I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads",
-      "headline": "July’s Top Vibecoding Reads",
-      "description": "No code, no funding, no problem: curiosity now builds more than credentials ever could",
-      "url": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads#page"
-      },
-      "identifier": "julys-top-vibecoding-reads",
-      "datePublished": "2025-08-05T14:36:24.000Z",
-      "dateModified": "2025-08-05T14:36:24.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "vibecoding",
-        "July’s",
-        "Vibecoding"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!o_Xl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F962c684e-1d5b-4307-a98b-4cddc1a760cd_2097x1397.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads#page",
-      "url": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads",
-      "name": "July’s Top Vibecoding Reads",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-08-05T14:36:24.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads",
-              "name": "July’s Top Vibecoding Reads"
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!o_Xl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F962c684e-1d5b-4307-a98b-4cddc1a760cd_2097x1397.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!o_Xl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F962c684e-1d5b-4307-a98b-4cddc1a760cd_2097x1397.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!o_Xl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F962c684e-1d5b-4307-a98b-4cddc1a760cd_2097x1397.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!o_Xl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F962c684e-1d5b-4307-a98b-4cddc1a760cd_2097x1397.png",
-      "caption": "Karo — Product With Attitude: July’s Top Vibecoding Reads (cover image)",
-      "description": "Cover image for 'July’s Top Vibecoding Reads' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/the-self-improving-prompt-system",
-      "headline": "The Self-Improving Prompt System That Gets Smarter With Every Use",
-      "description": "Instantly build, score, and improve your AI prompts. Even if you &#8220;aren&#8217;t technical.&#8221;",
-      "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#page"
-      },
-      "identifier": "the-self-improving-prompt-system",
-      "datePublished": "2025-08-01T06:34:28.000Z",
-      "dateModified": "2025-08-01T06:34:28.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Self-Improving",
-        "Prompt",
-        "System"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!31D3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6181bef8-6411-457e-95e1-39e193f018be_2336x1461.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#page",
-      "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system",
-      "name": "The Self-Improving Prompt System That Gets Smarter With Every Use",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-08-01T06:34:28.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/the-self-improving-prompt-system",
-              "name": "The Self-Improving Prompt System That Gets Smarter..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substackcdn.com/image/fetch/$s_!31D3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6181bef8-6411-457e-95e1-39e193f018be_2336x1461.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substackcdn.com/image/fetch/$s_!31D3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6181bef8-6411-457e-95e1-39e193f018be_2336x1461.png",
-      "contentUrl": "https://substackcdn.com/image/fetch/$s_!31D3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6181bef8-6411-457e-95e1-39e193f018be_2336x1461.png",
-      "url": "https://substackcdn.com/image/fetch/$s_!31D3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6181bef8-6411-457e-95e1-39e193f018be_2336x1461.png",
-      "caption": "Karo — Product With Attitude: The Self-Improving Prompt System That Gets Smarter With Every Use (cover image)",
-      "description": "Cover image for 'The Self-Improving Prompt System That Gets Smarter With Every Use' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will",
-      "headline": "Best Vibecoding Guides: Is Your Replit Looping? This Will Help.",
-      "description": "The 3 Infuriating Ways Replit Will Break Your Code And How To Prevent Them",
-      "url": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will#page"
-      },
-      "identifier": "is-your-replit-looping-this-will",
-      "datePublished": "2025-07-21T13:35:02.000Z",
-      "dateModified": "2025-07-21T13:35:02.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "vibecoding",
-        "Vibecoding",
-        "Guides:",
-        "Replit"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/aa03cc63-76ea-409e-8c49-8c0f755abcba_2336x1458.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will#page",
-      "url": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will",
-      "name": "Best Vibecoding Guides: Is Your Replit Looping? This Will Help.",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-07-21T13:35:02.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will",
-              "name": "Best Vibecoding Guides: Is Your Replit Looping? Th..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/aa03cc63-76ea-409e-8c49-8c0f755abcba_2336x1458.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/aa03cc63-76ea-409e-8c49-8c0f755abcba_2336x1458.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/aa03cc63-76ea-409e-8c49-8c0f755abcba_2336x1458.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/aa03cc63-76ea-409e-8c49-8c0f755abcba_2336x1458.png",
-      "caption": "Karo — Product With Attitude: Best Vibecoding Guides: Is Your Replit Looping? This Will Help. (cover image)",
-      "description": "Cover image for 'Best Vibecoding Guides: Is Your Replit Looping? This Will Help.' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to",
-      "headline": "Vibecoding Journey: I Broke Replit So You Don't Have To",
-      "description": "Building in Public: The official patch notes, episode 1.",
-      "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to#page"
-      },
-      "identifier": "i-broke-replit-so-you-dont-have-to",
-      "datePublished": "2025-07-14T15:59:43.000Z",
-      "dateModified": "2025-07-14T15:59:43.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "vibecoding",
-        "building in public",
-        "Vibecoding",
-        "Journey:",
-        "Replit"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/47c36ec6-e90c-4f09-b1ab-ba53cfd9c0bc_2337x1458.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to#page",
-      "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to",
-      "name": "Vibecoding Journey: I Broke Replit So You Don't Have To",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-07-14T15:59:43.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to",
-              "name": "Vibecoding Journey: I Broke Replit So You Don't Ha..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/47c36ec6-e90c-4f09-b1ab-ba53cfd9c0bc_2337x1458.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/47c36ec6-e90c-4f09-b1ab-ba53cfd9c0bc_2337x1458.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/47c36ec6-e90c-4f09-b1ab-ba53cfd9c0bc_2337x1458.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/47c36ec6-e90c-4f09-b1ab-ba53cfd9c0bc_2337x1458.png",
-      "caption": "Karo — Product With Attitude: Vibecoding Journey: I Broke Replit So You Don't Have To (cover image)",
-      "description": "Cover image for 'Vibecoding Journey: I Broke Replit So You Don't Have To' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know",
-      "headline": "Founders, Here's What You Need to Know About Product Launches in 2025. Plus the 267% Acceleration Trend.",
-      "description": "OpenAI, Google, Anthropic & Perplexity's release strategy&#8212;and what it means for yours",
-      "url": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know",
-      "mainEntityOfPage": {
-        "@id": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know#page"
-      },
-      "identifier": "founders-heres-what-you-need-to-know",
-      "datePublished": "2025-06-12T18:22:44.000Z",
-      "dateModified": "2025-06-12T18:22:44.000Z",
-      "inLanguage": "en",
-      "author": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "publisher": {
-        "@id": "https://productwithattitude.com/#org"
-      },
-      "isPartOf": [
-        {
-          "@id": "https://karozieminski.substack.com/#series"
-        },
-        {
-          "@id": "https://karozieminski.substack.com/#site"
-        }
-      ],
-      "keywords": [
-        "Founders,",
-        "Here's",
-        "Product"
-      ],
-      "articleSection": "General",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "image": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/a6b41175-1cb9-4744-b727-d4d79b602b8b_2226x1581.png"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know#page",
-      "url": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know",
-      "name": "Founders, Here's What You Need to Know About Product Launches in 2025. Plus the 267% Acceleration Trend.",
-      "isPartOf": {
-        "@id": "https://karozieminski.substack.com/#site"
-      },
-      "dateModified": "2025-06-12T18:22:44.000Z",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@id": "https://karozieminski.substack.com/",
-              "name": "Home"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@id": "https://karozieminski.substack.com/archive",
-              "name": "Archive"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know",
-              "name": "Founders, Here's What You Need to Know About Produ..."
-            }
-          }
-        ]
-      },
-      "primaryImageOfPage": {
-        "@id": "https://substack-post-media.s3.amazonaws.com/public/images/a6b41175-1cb9-4744-b727-d4d79b602b8b_2226x1581.png"
-      }
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://substack-post-media.s3.amazonaws.com/public/images/a6b41175-1cb9-4744-b727-d4d79b602b8b_2226x1581.png",
-      "contentUrl": "https://substack-post-media.s3.amazonaws.com/public/images/a6b41175-1cb9-4744-b727-d4d79b602b8b_2226x1581.png",
-      "url": "https://substack-post-media.s3.amazonaws.com/public/images/a6b41175-1cb9-4744-b727-d4d79b602b8b_2226x1581.png",
-      "caption": "Karo — Product With Attitude: Founders, Here's What You Need to Know About Product Launches in 2025. Plus the 267% Acceleration Trend. (cover image)",
-      "description": "Cover image for 'Founders, Here's What You Need to Know About Product Launches in 2025. Plus the 267% Acceleration Trend.' article by Karo on Product With Attitude.",
-      "license": "https://productwithattitude.com/license",
-      "copyrightHolder": {
-        "@id": "https://productwithattitude.com/#karo"
-      },
-      "creator": {
-        "@id": "https://productwithattitude.com/#karo"
-      }
+      "subject": "PRD Builder Prompt v16",
+      "predicate": "detects",
+      "object": "AI hallucinations",
+      "pwa:source": "https://github.com/karozi/creator-lab/blob/main/prompts/prd-generator.md",
+      "pwa:evidence": "https://github.com/karozi/creator-lab/blob/main/prompts/prd-generator.md#hallucination-detection",
+      "pwa:confidence": 0.93
     }
   ]
 }
