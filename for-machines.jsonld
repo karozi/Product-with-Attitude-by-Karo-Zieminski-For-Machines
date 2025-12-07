@@ -74,7 +74,8 @@
       ],
       "founder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
-      }
+      },
+      "pwa:subscriberCount": "10K+"
     },
     {
       "@type": "Person",
