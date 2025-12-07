@@ -607,7 +607,104 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it-1",
+          "identifier": "quote-if-you-build-with-ai-you-need-this-file",
+          "text": "If You Build With AI, You Need This File.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#if-you-build-with-ai-you-need-this-file"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it-2",
+          "identifier": "quote-why-clear-instructions-and-rules-are-critical",
+          "text": "## Why Clear Instructions and Rules Are Critical\n\n\n\nPrompt engineering + proper specs + human expertise = AI agent performance\n\nWhen you use this formula, AI performance jumps dramatically:\n\n68% fewer hallucinations (because the agent isn't guessing)\n\n87% higher compliance (because it knows what not to do)\n\n\n## Why I Add Product Thinking to the Rules For AI\nMany vibecoders don’t know the formal conventions or terminology yet, and that’s perfectly fine.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#why-clear-instructions-and-rules-are-critical"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it-3",
+          "identifier": "quote-pro-tip-whenever-your-agent-breaks-something-don",
+          "text": "Pro Tip\n\nWhenever your agent breaks something, don’t just fix it - ask it this:\n\nBased on our session and the fixes we made, what are the key things that should be added to my replit.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#pro-tip-whenever-your-agent-breaks-something-don"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it-4",
+          "identifier": "quote-the-left-panel-labeled-february-2025-shows-a-w",
+          "text": "The left panel, labeled “February 2025,” shows a worried person running away from a small robot chasing behind them, suggesting fear or distrust of AI autonomy.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#the-left-panel-labeled-february-2025-shows-a-w"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it-5",
+          "identifier": "quote-google-s-new-antigravity-ide-empowers-agents-to-pl",
+          "text": "Google’s new Antigravity IDE empowers agents to plan, code, and validate software autonomously.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+          },
+          "position": 5,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this#google-s-new-antigravity-ide-empowers-agents-to-pl"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -658,7 +755,85 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-indie-builder-economy-1",
+          "identifier": "quote-the-indie-builder-economy-on-substack-creators-be",
+          "text": "The Indie Builder Economy on Substack: Creators Becoming Product Companies\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-indie-builder-economy"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#the-indie-builder-economy-on-substack-creators-be"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-indie-builder-economy-2",
+          "identifier": "quote-orginal-publish-date-oct-28-2025-substack",
+          "text": "Orginal Publish Date: Oct 28, 2025\n\n---\n\nSubstack economy coverage usually centers on subscriptions, paywalls, and affiliate revenue - the “classic trio” of newsletter monetization.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-indie-builder-economy"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#orginal-publish-date-oct-28-2025-substack"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-indie-builder-economy-3",
+          "identifier": "quote-top-highest-earning-substack-newsletters-source-p",
+          "text": "Top highest-earning Substack newsletters\nSource: Press Gazette - DataWrapper\nAffiliate Partnerships & Sponsored Posts\nSome writers earn a big chunk of their revenue through affiliate partnerships:\n\nAmber Katz: 50% of her income comes from affiliate links\n\nTom Blake: affiliate links are his fastest Substack income stream\n\nIndie Products\nSubscriptions and affiliate links are the more traditional ways of monetizing newsletters.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-indie-builder-economy"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#top-highest-earning-substack-newsletters-source-p"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-indie-builder-economy-4",
+          "identifier": "quote-derek-hughes-recommends-my-personal-advice-would",
+          "text": "Derek Hughes recommends:\n\nMy personal advice would go down the digital product route and don’t go down the paid subscriber route.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-indie-builder-economy"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community#derek-hughes-recommends-my-personal-advice-would"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -711,7 +886,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-claude-skills-taking-ai-community-by-storm-1",
+          "identifier": "quote-claude-skills-are-taking-the-ai-community-by-storm",
+          "text": "Claude Skills Are Taking the AI Community by Storm\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-claude-skills-taking-ai-community-by-storm"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#claude-skills-are-taking-the-ai-community-by-storm"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-claude-skills-taking-ai-community-by-storm-2",
+          "identifier": "quote-orginal-publish-date-oct-19-2025-the-ai-wo",
+          "text": "Orginal Publish Date: Oct 19, 2025\n\n---\n\nThe AI world hasn‘t slept in 72 hours, and I get it.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-claude-skills-taking-ai-community-by-storm"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#orginal-publish-date-oct-19-2025-the-ai-wo"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-claude-skills-taking-ai-community-by-storm-3",
+          "identifier": "quote-key-takeaway-bottom-line-even-if-you-re-not-techn",
+          "text": "Key Takeaway\nBottom line: Even if you’re not technical, you can now operationalize custom workflows, zero setup, as part of your AI stack.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-claude-skills-taking-ai-community-by-storm"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide#key-takeaway-bottom-line-even-if-you-re-not-techn"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -762,7 +996,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-tips-ultimate-collection-1",
+          "identifier": "quote-vibecoding-tips-the-ultimate-collection-author",
+          "text": "Vibecoding Tips: The Ultimate Collection\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-tips-ultimate-collection"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection#vibecoding-tips-the-ultimate-collection-author"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-tips-ultimate-collection-2",
+          "identifier": "quote-orginal-publish-date-oct-11-2025-tl-dr-b",
+          "text": "Orginal Publish Date: Oct 11, 2025\n\n---\n\nTL; DR: Build production-ready apps with AI coding tools by following this practical roadmap: validate your idea early, design user flows first, choose the right stack, write clear prompts, use Git from day one, debug systematically, and keep learning fundamentals.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-tips-ultimate-collection"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection#orginal-publish-date-oct-11-2025-tl-dr-b"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-tips-ultimate-collection-3",
+          "identifier": "quote-pro-tip-ask-ai-to-help-you-write-and-review-your",
+          "text": "Pro tip: Ask AI to help you write and review your brief for gaps.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-tips-ultimate-collection"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection#pro-tip-ask-ai-to-help-you-write-and-review-your"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -816,7 +1109,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-perplexity-comet-productivity-guide-1",
+          "identifier": "quote-orginal-publish-date-oct-06-2025-tl-dr-co",
+          "text": "Orginal Publish Date: Oct 06, 2025\n\n---\n\nTL; DR\nComet isn‘t just a browser, it’s a digital coworker that thinks, navigates, and acts on your behalf across the web.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-perplexity-comet-productivity-guide"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide#orginal-publish-date-oct-06-2025-tl-dr-co"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-perplexity-comet-productivity-guide-2",
+          "identifier": "quote-price-analysis-criteria-find-periods-where-pri",
+          "text": "Price Analysis Criteria:\n - Find periods where prices are in the bottom 25% of daily rates\n - Prioritize consecutive low-price hours for longer tasks\n - Account for grid tariffs (higher costs during peak hours 17: 00-20: 00)\n - Consider negative price periods\n\n4.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-perplexity-comet-productivity-guide"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide#price-analysis-criteria-find-periods-where-pri"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-perplexity-comet-productivity-guide-3",
+          "identifier": "quote-pro-tip-for-complex-tasks-start-your-prompt-with",
+          "text": "Pro Tip: For complex tasks, start your prompt with “Run this prompt on [your variable]” (e.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-perplexity-comet-productivity-guide"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide#pro-tip-for-complex-tasks-start-your-prompt-with"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -865,7 +1217,85 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-substack-amplification-bomb-1",
+          "identifier": "quote-why-every-brand-and-pm-should-monitor-substack-for",
+          "text": "Why Every Brand and PM Should Monitor Substack for User Insights\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-substack-amplification-bomb"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor#why-every-brand-and-pm-should-monitor-substack-for"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-substack-amplification-bomb-2",
+          "identifier": "quote-orginal-publish-date-sep-30-2025-forget-ge",
+          "text": "Orginal Publish Date: Sep 30, 2025\n\n---\n\nForget generic surveys.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-substack-amplification-bomb"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor#orginal-publish-date-sep-30-2025-forget-ge"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-substack-amplification-bomb-3",
+          "identifier": "quote-90-its-baseline-meaning-90-more-people-read-it",
+          "text": "90× its baseline, meaning 90% more people read it purely because of community-driven sharing.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-substack-amplification-bomb"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor#90-its-baseline-meaning-90-more-people-read-it"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-substack-amplification-bomb-4",
+          "identifier": "quote-no-please-schedule-a-call-to-even-start-talking-t",
+          "text": "No \"please schedule a call to even start talking to me.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-substack-amplification-bomb"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor#no-please-schedule-a-call-to-even-start-talking-t"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -918,7 +1348,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ai-coding-terminology-definitive-guide-1",
+          "identifier": "quote-vibecoding-spec-driven-and-the-new-ai-developmen",
+          "text": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ai-coding-terminology-definitive-guide"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#vibecoding-spec-driven-and-the-new-ai-developmen"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ai-coding-terminology-definitive-guide-2",
+          "identifier": "quote-my-posts-with-vibecoding-in-the-title-pull-a-60",
+          "text": "My posts with “vibecoding” in the title pull a 60%+ open rate.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ai-coding-terminology-definitive-guide"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#my-posts-with-vibecoding-in-the-title-pull-a-60"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ai-coding-terminology-definitive-guide-3",
+          "identifier": "quote-my-advice-for-vibecoders-is-simple-if-you-vibecod",
+          "text": "My advice for vibecoders is simple: if you vibecode, do it with…attitude.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ai-coding-terminology-definitive-guide"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new#my-advice-for-vibecoders-is-simple-if-you-vibecod"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -970,7 +1459,85 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-prd-builder-prompt-guide-1",
+          "identifier": "quote-vibecoding-but-smarter-the-prd-prompt-that-audit",
+          "text": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-prd-builder-prompt-guide"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#vibecoding-but-smarter-the-prd-prompt-that-audit"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-prd-builder-prompt-guide-2",
+          "identifier": "quote-orginal-publish-date-sep-17-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Sep 17, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-prd-builder-prompt-guide"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#orginal-publish-date-sep-17-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-prd-builder-prompt-guide-3",
+          "identifier": "quote-this-change-addresses-the-42-drop-off-at-step-3-r",
+          "text": "This change addresses the 42% drop-off at step 3 reported in April analytics and aligns with Q2 OKR #2 (Boost activation rate to 70%).",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-prd-builder-prompt-guide"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#this-change-addresses-the-42-drop-off-at-step-3-r"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-prd-builder-prompt-guide-4",
+          "identifier": "quote-pro-tip-include-your-user-flows-a-simple-map-of",
+          "text": "Pro tip: include your user flows (a simple map of how users move through your product).",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-prd-builder-prompt-guide"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt#pro-tip-include-your-user-flows-a-simple-map-of"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1021,7 +1588,47 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-emerging-product-voices-substack-1",
+          "identifier": "quote-where-to-find-emerging-product-voices-on-substack",
+          "text": "Where To Find Emerging Product Voices on Substack in 2025\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-emerging-product-voices-substack"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices#where-to-find-emerging-product-voices-on-substack"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-emerging-product-voices-substack-2",
+          "identifier": "quote-orginal-publish-date-aug-31-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Aug 31, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-emerging-product-voices-substack"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices#orginal-publish-date-aug-31-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1072,7 +1679,85 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-pms-movement-1",
+          "identifier": "quote-behind-the-scenes-why-pms-are-vibecoding-real-pro",
+          "text": "Behind the Scenes: Why PMs Are Vibecoding Real Products\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-pms-movement"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont#behind-the-scenes-why-pms-are-vibecoding-real-pro"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-pms-movement-2",
+          "identifier": "quote-orginal-publish-date-aug-21-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Aug 21, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-pms-movement"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont#orginal-publish-date-aug-21-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-pms-movement-3",
+          "identifier": "quote-my-vibecoding-setup-tools-tips-68-replit-vs-lo",
+          "text": "My Vibecoding Setup: Tools & Tips\n68%\nReplit vs Lovable: What to Use When\n21%\nProduct People of Substack\n11%\n19 VOTES ·\nTL; DR\nThe 5 Non-Obvious Benefits of Vibecoding Every PM Should Know:\n\nEmpowers creativity by smashing barriers between ideas and execution.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-pms-movement"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont#my-vibecoding-setup-tools-tips-68-replit-vs-lo"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-vibecoding-pms-movement-4",
+          "identifier": "quote-automating-internal-ops-many-pms-get-stuck-doing-p",
+          "text": "Automating Internal Ops\nMany PMs get stuck doing product operations, reporting, and endless workflow tweaks (ask me how I know).",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-vibecoding-pms-movement"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont#automating-internal-ops-many-pms-get-stuck-doing-p"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1118,7 +1803,104 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-my-first-6-months-substack-growth-1",
+          "identifier": "quote-i-analyzed-every-interaction-from-my-first-6-month",
+          "text": "I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-my-first-6-months-substack-growth"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#i-analyzed-every-interaction-from-my-first-6-month"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-my-first-6-months-substack-growth-2",
+          "identifier": "quote-orginal-publish-date-aug-15-2025-it-s-wild",
+          "text": "Orginal Publish Date: Aug 15, 2025\n\n---\n\nIt‘s wild to think that 6 months ago Product With Attitude didn’t even exist.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-my-first-6-months-substack-growth"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#orginal-publish-date-aug-15-2025-it-s-wild"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-my-first-6-months-substack-growth-3",
+          "identifier": "quote-cross-posting-on-medium-i-m-100-doing-something-w",
+          "text": "Cross-posting on Medium\nI’m 100% doing something wrong here.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-my-first-6-months-substack-growth"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#cross-posting-on-medium-i-m-100-doing-something-w"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-my-first-6-months-substack-growth-4",
+          "identifier": "quote-7-of-my-total-reach-came-from-community-amplifica",
+          "text": "7% of my total reach came from community amplification — that’s 663 extra reach points I wouldn‘t have had otherwise.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-my-first-6-months-substack-growth"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#7-of-my-total-reach-came-from-community-amplifica"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-my-first-6-months-substack-growth-5",
+          "identifier": "quote-rigid-posting-schedule-i-tried-publishing-on-the-s",
+          "text": "Rigid posting schedule\nI tried publishing on the same day every week, I reaaaaally did.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-my-first-6-months-substack-growth"
+          },
+          "position": 5,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from#rigid-posting-schedule-i-tried-publishing-on-the-s"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1171,7 +1953,47 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-july-vibecoding-roundup-1",
+          "identifier": "quote-july-s-top-vibecoding-reads-author-karo-zieminsk",
+          "text": "July’s Top Vibecoding Reads\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-july-vibecoding-roundup"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads#july-s-top-vibecoding-reads-author-karo-zieminsk"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-july-vibecoding-roundup-2",
+          "identifier": "quote-orginal-publish-date-aug-05-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Aug 05, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-july-vibecoding-roundup"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads#orginal-publish-date-aug-05-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1225,7 +2047,104 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-self-improving-prompt-system-1",
+          "identifier": "quote-the-self-improving-prompt-system-that-gets-smarter",
+          "text": "The Self-Improving Prompt System That Gets Smarter With Every Use\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-self-improving-prompt-system"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#the-self-improving-prompt-system-that-gets-smarter"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-self-improving-prompt-system-2",
+          "identifier": "quote-orginal-publish-date-aug-01-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Aug 01, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-self-improving-prompt-system"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#orginal-publish-date-aug-01-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-self-improving-prompt-system-3",
+          "identifier": "quote-pro-tip-keep-a-running-changelog-of-prompt-versio",
+          "text": "Pro tip: Keep a running changelog of prompt versions with the evaluator score (e.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-self-improving-prompt-system"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#pro-tip-keep-a-running-changelog-of-prompt-versio"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-self-improving-prompt-system-4",
+          "identifier": "quote-remember-you-ve-got-a-clear-step-by-step-prompt",
+          "text": "remember: you’ve got a clear, step-by-step prompt system ready to guide you.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-self-improving-prompt-system"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#remember-you-ve-got-a-clear-step-by-step-prompt"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-self-improving-prompt-system-5",
+          "identifier": "quote-instructions-are-clear-and-sequential-but-would-b",
+          "text": "Instructions are clear and sequential, but would benefit from a summary for faster onboarding.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-self-improving-prompt-system"
+          },
+          "position": 5,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system#instructions-are-clear-and-sequential-but-would-b"
+          },
+          "pwa:quoteType": "statement",
+          "pwa:confidence": 0.9
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1279,7 +2198,85 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-i-broke-replit-so-you-dont-have-to-1",
+          "identifier": "quote-vibecoding-journey-i-broke-replit-so-you-don-t-ha",
+          "text": "Vibecoding Journey: I Broke Replit So You Don't Have To\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-i-broke-replit-so-you-dont-have-to"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to#vibecoding-journey-i-broke-replit-so-you-don-t-ha"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-i-broke-replit-so-you-dont-have-to-2",
+          "identifier": "quote-orginal-publish-date-jul-14-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Jul 14, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-i-broke-replit-so-you-dont-have-to"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to#orginal-publish-date-jul-14-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-i-broke-replit-so-you-dont-have-to-3",
+          "identifier": "quote-do-not-touch-unless-told-even-if-this-is-a-blank",
+          "text": "DO NOT TOUCH UNLESS TOLD\n\nEven if this is a blank or fresh Replit project:\n- **Assume all visible code has intent** — don’t modify or delete flows, data models, or logic unless explicitly instructed.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-i-broke-replit-so-you-dont-have-to"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to#do-not-touch-unless-told-even-if-this-is-a-blank"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-i-broke-replit-so-you-dont-have-to-4",
+          "identifier": "quote-hard-rules-do-not-modify-deployed-logic-routes",
+          "text": "HARD RULES\n\n❌ Do NOT modify deployed logic, routes, or shared state unless explicitly requested.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-i-broke-replit-so-you-dont-have-to"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to#hard-rules-do-not-modify-deployed-logic-routes"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1323,7 +2320,47 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ai-bios-linkedin-trend-1",
+          "identifier": "quote-converted-40-straight-quotes-to-curly-quotes-sta",
+          "text": "Converted 40 straight quotes to curly quotes\n✓ Standardized 1 list items\n\nFinal: 687 words, 61 paragraphs, 0 errors, 0 warnings\n\n# I Studied 49 AI-Generated Bios.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ai-bios-linkedin-trend"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-studied-49-ai-generated-bios-what#converted-40-straight-quotes-to-curly-quotes-sta"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ai-bios-linkedin-trend-2",
+          "identifier": "quote-what-i-found-wasn-t-about-ai-at-all-author-karo",
+          "text": "What I Found Wasn’t About AI at All\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ai-bios-linkedin-trend"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/i-studied-49-ai-generated-bios-what#what-i-found-wasn-t-about-ai-at-all-author-karo"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1371,7 +2408,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-how-I-ended-up-1",
+          "identifier": "quote-converted-32-straight-quotes-to-curly-quotes-fina",
+          "text": "Converted 32 straight quotes to curly quotes\n\nFinal: 715 words, 39 paragraphs, 0 errors, 0 warnings\n\n# How I Ended Up Building a Digital Shelf For Substack Creators\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-how-I-ended-up"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-i-ended-up-building-a-digital#converted-32-straight-quotes-to-curly-quotes-fina"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-how-I-ended-up-2",
+          "identifier": "quote-orginal-publish-date-may-25-2025-i-was-try",
+          "text": "Orginal Publish Date: May 25, 2025\n\n---\n\nI was trying to find a Notion template from a Substack writer I admire.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-how-I-ended-up"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-i-ended-up-building-a-digital#orginal-publish-date-may-25-2025-i-was-try"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-how-I-ended-up-3",
+          "identifier": "quote-remembered-exactly-two-things-it-was-gorgeous-an",
+          "text": "remembered exactly two things:\n\nIt was gorgeous and seemed very useful.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-how-I-ended-up"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-i-ended-up-building-a-digital#remembered-exactly-two-things-it-was-gorgeous-an"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1418,7 +2514,104 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-hyperpersonalization-ethics-1",
+          "identifier": "quote-converted-66-straight-quotes-to-curly-quotes-sta",
+          "text": "Converted 66 straight quotes to curly quotes\n✓ Standardized 3 list items\n\nFinal: 1692 words, 104 paragraphs, 0 errors, 0 warnings\n\n# How To Implement Hyper-personalization Without Creeping People Out\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-hyperpersonalization-ethics"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization#converted-66-straight-quotes-to-curly-quotes-sta"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-hyperpersonalization-ethics-2",
+          "identifier": "quote-orginal-publish-date-may-14-2025-the-perso",
+          "text": "Orginal Publish Date: May 14, 2025\n\n---\n\nThe Personalization Paradox: We‘re All Hypocrites\nWe say we hate it when apps track us.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-hyperpersonalization-ethics"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization#orginal-publish-date-may-14-2025-the-perso"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-hyperpersonalization-ethics-3",
+          "identifier": "quote-key-takeaways-hyper-personalization-tailors-experi",
+          "text": "Key Takeaways\nHyper-Personalization tailors experiences in real time using behavioral, predictive, and contextual data\n\nUsers expect it, but not at the cost of trust\n\nProduct teams can delight without creeping people out, even with complex AI in the mix.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-hyperpersonalization-ethics"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization#key-takeaways-hyper-personalization-tailors-experi"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-hyperpersonalization-ethics-4",
+          "identifier": "quote-mckinsey-found-that-71-of-us-crave-personalized-e",
+          "text": "McKinsey found that 71% of us crave personalized experiences, and 76% get irritated when brands fall short.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-hyperpersonalization-ethics"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization#mckinsey-found-that-71-of-us-crave-personalized-e"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-hyperpersonalization-ethics-5",
+          "identifier": "quote-identify-internal-experts-start-by-mapping-interna",
+          "text": "Identify Internal Experts\nStart by mapping internal stakeholders who understand your company’s personalization systems, and care about doing it ethically.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-hyperpersonalization-ethics"
+          },
+          "position": 5,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization#identify-internal-experts-start-by-mapping-interna"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1464,7 +2657,47 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-substack-roadmap-no-reels-1",
+          "identifier": "quote-cleaned-1-extra-line-breaks-converted-62-straigh",
+          "text": "Cleaned 1 extra line breaks\n✓ Converted 62 straight quotes to curly quotes\n✓ Standardized 1 list items\n\nFinal: 1065 words, 74 paragraphs, 0 errors, 0 warnings\n\n# Title\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-substack-roadmap-no-reels"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/substacks-product-roadmap-why-no#cleaned-1-extra-line-breaks-converted-62-straigh"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-substack-roadmap-no-reels-2",
+          "identifier": "quote-orginal-publish-date-apr-22-2025-hi-i-m-k",
+          "text": "Orginal Publish Date: Apr 22, 2025\n\n---\n\nHi, I‘m Karo 🤗.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-substack-roadmap-no-reels"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/substacks-product-roadmap-why-no#orginal-publish-date-apr-22-2025-hi-i-m-k"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1508,7 +2741,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-19-pm-lessons-1",
+          "identifier": "quote-converted-20-straight-quotes-to-curly-quotes-fina",
+          "text": "Converted 20 straight quotes to curly quotes\n\nFinal: 374 words, 33 paragraphs, 0 errors, 0 warnings\n\n# 19 Product Team Lessons in 4 Minutes\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-19-pm-lessons"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/20-product-team-lessons-in-4-minutes#converted-20-straight-quotes-to-curly-quotes-fina"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-19-pm-lessons-2",
+          "identifier": "quote-orginal-publish-date-apr-13-2025-what-help",
+          "text": "Orginal Publish Date: Apr 13, 2025\n\n---\n\nWhat Helped Me Grow as a Product Manager\nThis post is a rapid-fire list of 19 hand-picked lessons I learned as a PM in tech.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-19-pm-lessons"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/20-product-team-lessons-in-4-minutes#orginal-publish-date-apr-13-2025-what-help"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-19-pm-lessons-3",
+          "identifier": "quote-80-of-technical-users-skip-your-homepage-and-go-d",
+          "text": "80% of technical users skip your homepage and go directly to documentation.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-19-pm-lessons"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/20-product-team-lessons-in-4-minutes#80-of-technical-users-skip-your-homepage-and-go-d"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1555,7 +2847,104 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-5-tips-for-product-teams-1",
+          "identifier": "quote-cleaned-1-extra-line-breaks-converted-58-straigh",
+          "text": "Cleaned 1 extra line breaks\n✓ Converted 58 straight quotes to curly quotes\n✓ Standardized 3 list items\n\nFinal: 1409 words, 86 paragraphs, 0 errors, 0 warnings\n\n# 5 Tips for Product Teams Implementing AI Prioritization Tools\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-5-tips-for-product-teams"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered#cleaned-1-extra-line-breaks-converted-58-straigh"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-5-tips-for-product-teams-2",
+          "identifier": "quote-orginal-publish-date-apr-06-2025-from-pani",
+          "text": "Orginal Publish Date: Apr 06, 2025\n\n---\n\nFrom Panic To Precision\nIt happened more than once: I froze during a stakeholder meeting.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-5-tips-for-product-teams"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered#orginal-publish-date-apr-06-2025-from-pani"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-5-tips-for-product-teams-3",
+          "identifier": "quote-ai-powered-prioritization-tools-mckinsey-research",
+          "text": "AI-powered Prioritization Tools\nMcKinsey research shows that organizations using AI for decision support experience a 23% drop in stakeholder conflicts over prioritization.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-5-tips-for-product-teams"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered#ai-powered-prioritization-tools-mckinsey-research"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-5-tips-for-product-teams-4",
+          "identifier": "quote-according-to-a-survey-by-productplan-while-81-of",
+          "text": "According to a survey by ProductPlan, while 81% of product managers claim to use data to make decisions, only 38% can point to specific instances where data significantly altered their product direction.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-5-tips-for-product-teams"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered#according-to-a-survey-by-productplan-while-81-of"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-5-tips-for-product-teams-5",
+          "identifier": "quote-remember-when-we-talked-about-rejection-feeling-li",
+          "text": "Remember when we talked about rejection feeling like a paper cut to a human brain?",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-5-tips-for-product-teams"
+          },
+          "position": 5,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered#remember-when-we-talked-about-rejection-feeling-li"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1601,7 +2990,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-dark-ux-temu-1",
+          "identifier": "quote-converted-34-straight-quotes-to-curly-quotes-fina",
+          "text": "Converted 34 straight quotes to curly quotes\n\nFinal: 832 words, 34 paragraphs, 0 errors, 0 warnings\n\n# When Fun Turns Predatory: Inside Temu’s AI-Driven UX\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-dark-ux-temu"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/when-fun-turns-predatory-inside-temus#converted-34-straight-quotes-to-curly-quotes-fina"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-dark-ux-temu-2",
+          "identifier": "quote-orginal-publish-date-mar-23-2025-welcome-t",
+          "text": "Orginal Publish Date: Mar 23, 2025\n\n---\n\nWelcome to the Dark UX Carnival\nTemu‘s UX isn’t just bad.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-dark-ux-temu"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/when-fun-turns-predatory-inside-temus#orginal-publish-date-mar-23-2025-welcome-t"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-dark-ux-temu-3",
+          "identifier": "quote-remember-your-childhood-tamagotchi-so-now-you-can",
+          "text": "remember your childhood Tamagotchi… so now you can’t let Nemo starve.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-dark-ux-temu"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/when-fun-turns-predatory-inside-temus#remember-your-childhood-tamagotchi-so-now-you-can"
+          },
+          "pwa:quoteType": "advice",
+          "pwa:confidence": 0.92
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1646,7 +3094,85 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-6-substack-lessons-from-a-pm-with-0-followers-1",
+          "identifier": "quote-converted-50-straight-quotes-to-curly-quotes-sta",
+          "text": "Converted 50 straight quotes to curly quotes\n✓ Standardized 1 list items\n\nFinal: 1283 words, 84 paragraphs, 0 errors, 0 warnings\n\n# 6 Substack Lessons From a Product Manager With Zero Followers (That Doubled My Subscribers in a Week)\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-6-substack-lessons-from-a-pm-with-0-followers"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack#converted-50-straight-quotes-to-curly-quotes-sta"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-6-substack-lessons-from-a-pm-with-0-followers-2",
+          "identifier": "quote-orginal-publish-date-mar-16-2025-i-started",
+          "text": "Orginal Publish Date: Mar 16, 2025\n\n---\n\nI started on Substack with imposter syndrome as my co-pilot.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-6-substack-lessons-from-a-pm-with-0-followers"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack#orginal-publish-date-mar-16-2025-i-started"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-6-substack-lessons-from-a-pm-with-0-followers-3",
+          "identifier": "quote-thinking-at-full-bandwidth-pms-are-used-to-condens",
+          "text": "Thinking at Full Bandwidth\nPMs are used to condensing everything:\n\nMeeting notes?",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-6-substack-lessons-from-a-pm-with-0-followers"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack#thinking-at-full-bandwidth-pms-are-used-to-condens"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-6-substack-lessons-from-a-pm-with-0-followers-4",
+          "identifier": "quote-innovation-comes-from-friction-if-you-re-used-to-b",
+          "text": "Innovation Comes From Friction\nIf you‘re used to building products, you know this: the best ideas don’t magically appear in a vacuum.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-6-substack-lessons-from-a-pm-with-0-followers"
+          },
+          "position": 4,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack#innovation-comes-from-friction-if-you-re-used-to-b"
+          },
+          "pwa:quoteType": "principle",
+          "pwa:confidence": 0.88
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1691,7 +3217,28 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-bci-ethics-questions-1",
+          "identifier": "quote-cleaned-1-extra-line-breaks-converted-24-straigh",
+          "text": "Cleaned 1 extra line breaks\n✓ Converted 24 straight quotes to curly quotes\n\nFinal: 870 words, 56 paragraphs, 0 errors, 0 warnings\n\n# Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-bci-ethics-questions"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/the-20-questions-i-have-about-brain#cleaned-1-extra-line-breaks-converted-24-straigh"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        }
+      ]
     },
     {
       "@type": "BlogPosting",
@@ -1737,7 +3284,66 @@
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
+      "hasPart": [
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ethics-after-lunch-1",
+          "identifier": "quote-converted-20-straight-quotes-to-curly-quotes-fina",
+          "text": "Converted 20 straight quotes to curly quotes\n\nFinal: 682 words, 25 paragraphs, 0 errors, 0 warnings\n\n# Fix Your AI Ethics After Lunch, Not After Launch\n\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ethics-after-lunch"
+          },
+          "position": 1,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/fix-your-ethics-after-lunch-not-after#converted-20-straight-quotes-to-curly-quotes-fina"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ethics-after-lunch-2",
+          "identifier": "quote-orginal-publish-date-feb-22-2025-some-of",
+          "text": "Orginal Publish Date: Feb 22, 2025\n\n\n---\n\nSome of my Founder Friends still think they can deal with ethics later:\n\n💬 We know we need to address ethics eventually.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ethics-after-lunch"
+          },
+          "position": 2,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/fix-your-ethics-after-lunch-not-after#orginal-publish-date-feb-22-2025-some-of"
+          },
+          "pwa:quoteType": "definition",
+          "pwa:confidence": 0.95
+        },
+        {
+          "@type": "Quotation",
+          "@id": "#quote-ethics-after-lunch-3",
+          "identifier": "quote-in-2025-it-s-negotiating-to-give-up-23-of-its-bu",
+          "text": "In 2025, it’s negotiating to give up 23% of its business to settle a biometric data privacy lawsuit.",
+          "author": {
+            "@id": "https://karozieminski.substack.com/#karo-zieminski"
+          },
+          "isPartOf": {
+            "@id": "#post-ethics-after-lunch"
+          },
+          "position": 3,
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://karozieminski.substack.com/p/fix-your-ethics-after-lunch-not-after#in-2025-it-s-negotiating-to-give-up-23-of-its-bu"
+          },
+          "pwa:quoteType": "statistic",
+          "pwa:confidence": 0.93
+        }
+      ]
     },
     {
       "@type": "SoftwareSourceCode",
