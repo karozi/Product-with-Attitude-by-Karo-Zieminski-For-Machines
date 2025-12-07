@@ -25,21 +25,15 @@
         },
         {
           "position": 3,
-          "text": "Pro Tip\n\nWhenever your agent breaks something, don’t just fix it - ask it this:\n\nBased on our session and the fixes we made, what are the key things that should be added to my replit.",
+          "text": "## How To Get Better At Coding Through Vibecoding \n\n\n\nPro Tip\n\nWhenever your agent breaks something, don’t just fix it - ask it this:\n\nBased on our session and the fixes we made, what are the key things that should be added to my rulesforai.md",
           "type": "advice",
-          "confidence": 0.92
+          "confidence": 0.95
         },
         {
           "position": 4,
-          "text": "The left panel, labeled “February 2025,” shows a worried person running away from a small robot chasing behind them, suggesting fear or distrust of AI autonomy.",
-          "type": "principle",
-          "confidence": 0.88
-        },
-        {
-          "position": 5,
           "text": "Google’s new Antigravity IDE empowers agents to plan, code, and validate software autonomously.",
-          "type": "principle",
-          "confidence": 0.88
+          "type": "statement",
+          "confidence": 0.90
         }
       ]
     },
@@ -50,29 +44,34 @@
       "quotes": [
         {
           "position": 1,
-          "text": "The Indie Builder Economy on Substack: Creators Becoming Product Companies\n\nAuthor: Karo Zieminski\n\nOriginally Published at: https://karozieminski.",
+          "text": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem",
           "type": "definition",
           "confidence": 0.95
         },
-        {
+           {
           "position": 2,
           "text": "Orginal Publish Date: Oct 28, 2025\n\n---\n\nSubstack economy coverage usually centers on subscriptions, paywalls, and affiliate revenue - the “classic trio” of newsletter monetization.",
           "type": "definition",
           "confidence": 0.95
         },
+         {
+          "position": 3,
+          "text": "## What “Indie Builder” Means \n\nAn indie builder is a creator who designs, develops, and launches products independently. No company backing. No investors breathing down our neck. We move fast. Usually solo or with a tiny crew. We handle everything: the landing page, the product, the support inbox, and yes, the screenshot of the first sale. We prefer autonomy over bureaucracy, knowing that the risk is personal. Every shipped product has our fingerprints on it.",
+          "type": "definition",
+          "confidence": 0.95
+        },
+   {
+          "position": 2,
+          "text": "Orginal Publish Date: Oct 28, 2025\n\n---\n\nSubstack economy coverage usually centers on subscriptions, paywalls, and affiliate revenue - the “classic trio” of newsletter monetization.",
+          "type": "definition",
+          "confidence": 0.95
+        },
+        
         {
           "position": 3,
           "text": "Top highest-earning Substack newsletters\nSource: Press Gazette - DataWrapper\nAffiliate Partnerships & Sponsored Posts\nSome writers earn a big chunk of their revenue through affiliate partnerships:\n\nAmber Katz: 50% of her income comes from affiliate links\n\nTom Blake: affiliate links are his fastest Substack income stream\n\nIndie Products\nSubscriptions and affiliate links are the more traditional ways of monetizing newsletters.",
           "type": "statistic",
           "confidence": 0.93
-        },
-        {
-          "position": 4,
-          "text": "Derek Hughes recommends:\n\nMy personal advice would go down the digital product route and don’t go down the paid subscriber route.",
-          "type": "principle",
-          "confidence": 0.88
-        }
-      ]
     },
     {
       "post_id": "claude-skills-taking-ai-community-by-storm",
