@@ -293,7 +293,70 @@
             "@type": "ListItem",
             "position": 1,
             "item": {
-              "@id": "#vibecoding-explained-post"
+              "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "#post-indie-builder-economy"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "#post-claude-skills-taking-ai-community-by-storm"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@id": "#post-vibecoding-tips-ultimate-collection"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@id": "#post-perplexity-comet-productivity-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@id": "#post-ai-coding-terminology-definitive-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@id": "#post-prd-builder-prompt-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@id": "#post-emerging-product-voices-substack"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@id": "#post-vibecoding-pms-movement"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@id": "#post-july-vibecoding-roundup"
             }
           }
         ]
@@ -316,7 +379,78 @@
       },
       "mainEntity": {
         "@type": "ItemList",
-        "itemListElement": []
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "#post-perplexity-comet-productivity-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "#post-prd-builder-prompt-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "#post-emerging-product-voices-substack"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@id": "#post-vibecoding-pms-movement"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@id": "#post-july-vibecoding-roundup"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@id": "#post-self-improving-prompt-system"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@id": "#post-i-broke-replit-so-you-dont-have-to"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@id": "#post-substack-roadmap-no-reels"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@id": "#post-5-tips-for-product-teams"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@id": "#post-ethics-after-lunch"
+            }
+          }
+        ]
       }
     },
     {
@@ -335,7 +469,36 @@
       },
       "mainEntity": {
         "@type": "ItemList",
-        "itemListElement": []
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "#post-perplexity-comet-productivity-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "#post-ai-coding-terminology-definitive-guide"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@id": "#post-prd-builder-prompt-guide"
+            }
+          }
+        ]
       }
     },
     {
@@ -394,14 +557,14 @@
     },
     {
       "@type": "BlogPosting",
-      "@id": "#vibecoding-explained-post",
-      "identifier": "vibecoding-explained",
+      "@id": "#post-if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it",
+      "identifier": "if-you-build-with-AI-you-need-this-file-and-he-system-that-generates-it",
       "version": "1.0",
-      "dateModified": "2025-12-06T00:00:00Z",
-      "headline": "Vibecoding Explained: Building Product-Grade Apps with AI",
-      "description": "A comprehensive guide to vibecoding methodology, combining AI speed with product discipline",
-      "url": "https://karozieminski.substack.com/p/vibecoding-explained",
-      "datePublished": "2025-03-15T00:00:00Z",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "If You Build With AI, You Need This File. And The System That Generates It.",
+      "description": "If You Build With AI, You Need This File. And The System That Generates It. - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this",
+      "datePublished": "2025-11-27T00:00:00T00:00:00Z",
       "author": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
@@ -410,7 +573,7 @@
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://karozieminski.substack.com/p/vibecoding-explained"
+        "@id": "https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this"
       },
       "isPartOf": {
         "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
@@ -418,59 +581,1163 @@
       "image": {
         "@type": "ImageObject",
         "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
-        "description": "Karo Zieminski explaining vibecoding workflow diagram for Product With Attitude"
+        "description": "If You Build With AI, You Need This File. And The System That Generates It. - Article by Karo Zieminski for Product With Attitude"
       },
-      "wordCount": 2400,
-      "timeRequired": "PT10M",
+      "wordCount": 1815,
+      "timeRequired": "PT7M",
       "articleSection": [
         "AI Development",
-        "Vibecoding",
-        "Product Management"
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
       ],
       "keywords": [
+        "substack",
         "vibecoding",
-        "AI development",
-        "context engineering",
-        "prompt engineering",
-        "product-grade applications",
-        "spec-driven development"
-      ],
-      "about": [
-        {
-          "@id": "#vibecoding-term"
-        },
-        {
-          "@id": "#context-engineering-term"
-        }
-      ],
-      "mentions": [
-        {
-          "@id": "#prd-builder-v16"
-        }
+        "AI",
+        "workflow",
+        "spec-driven",
+        "Claude",
+        "Replit",
+        "prompt engineering"
       ],
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "copyrightHolder": {
         "@id": "https://karozieminski.substack.com/#karo-zieminski"
       },
-      "usageInfo": "https://karozieminski.substack.com/about#usage-policy",
-      "pwa:semanticTriples": [
-        {
-          "subject": "Vibecoding",
-          "predicate": "enables",
-          "object": "rapid prototyping",
-          "pwa:source": "https://karozieminski.substack.com/p/vibecoding-explained",
-          "pwa:evidence": "https://karozieminski.substack.com/p/vibecoding-explained#rapid-iteration-section",
-          "pwa:confidence": 0.95
-        },
-        {
-          "subject": "Vibecoding",
-          "predicate": "requires",
-          "object": "context engineering",
-          "pwa:source": "https://karozieminski.substack.com/p/vibecoding-explained",
-          "pwa:evidence": "https://karozieminski.substack.com/p/vibecoding-explained#context-importance",
-          "pwa:confidence": 0.98
-        }
-      ]
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-indie-builder-economy",
+      "identifier": "indie-builder-economy",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
+      "description": "The Indie Builder Economy on Substack: Creators Becoming Product Companies - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
+      "datePublished": "2025-10-28T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "The Indie Builder Economy on Substack: Creators Becoming Product Companies - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 2339,
+      "timeRequired": "PT9M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "Claude",
+        "automation"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-claude-skills-taking-ai-community-by-storm",
+      "identifier": "claude-skills-taking-ai-community-by-storm",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Claude Skills Are Taking the AI Community by Storm",
+      "description": "Claude Skills Are Taking the AI Community by Storm - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
+      "datePublished": "2025-10-19T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Claude Skills Are Taking the AI Community by Storm - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1693,
+      "timeRequired": "PT7M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "Claude",
+        "context engineering",
+        "agentic",
+        "automation"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-vibecoding-tips-ultimate-collection",
+      "identifier": "vibecoding-tips-ultimate-collection",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Vibecoding Tips: The Ultimate Collection",
+      "description": "Vibecoding Tips: The Ultimate Collection - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
+      "datePublished": "2025-10-11T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Vibecoding Tips: The Ultimate Collection - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 3162,
+      "timeRequired": "PT13M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "Claude",
+        "Replit",
+        "agentic"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-perplexity-comet-productivity-guide",
+      "identifier": "perplexity-comet-productivity-guide",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!”",
+      "description": "10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!” - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide",
+      "datePublished": "2025-10-06T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "10x Your Productivity with Perplexity Comet: 11 Use Cases from “Nice” to “Wow!” - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 3819,
+      "timeRequired": "PT15M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "spec-driven",
+        "Replit",
+        "agentic",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-substack-amplification-bomb",
+      "identifier": "substack-amplification-bomb",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Why Every Brand and PM Should Monitor Substack for User Insights",
+      "description": "Why Every Brand and PM Should Monitor Substack for User Insights - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor",
+      "datePublished": "2025-09-30T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Why Every Brand and PM Should Monitor Substack for User Insights - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1447,
+      "timeRequired": "PT6M",
+      "articleSection": [
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "Replit",
+        "Claude",
+        "AI"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-ai-coding-terminology-definitive-guide",
+      "identifier": "ai-coding-terminology-definitive-guide",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders",
+      "description": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
+      "datePublished": "2025-09-22T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide for Modern Product Builders - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 2243,
+      "timeRequired": "PT9M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "spec-driven",
+        "LLM",
+        "prompt engineering",
+        "context engineering"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-prd-builder-prompt-guide",
+      "identifier": "prd-builder-prompt-guide",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
+      "description": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
+      "datePublished": "2025-09-17T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 2022,
+      "timeRequired": "PT8M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "spec-driven",
+        "Replit",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-emerging-product-voices-substack",
+      "identifier": "emerging-product-voices-substack",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Where To Find Emerging Product Voices on Substack in 2025",
+      "description": "Where To Find Emerging Product Voices on Substack in 2025 - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices",
+      "datePublished": "2025-08-31T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Where To Find Emerging Product Voices on Substack in 2025 - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1321,
+      "timeRequired": "PT5M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "Replit",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-vibecoding-pms-movement",
+      "identifier": "vibecoding-pms-movement",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
+      "description": "Behind the Scenes: Why PMs Are Vibecoding Real Products - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont",
+      "datePublished": "2025-08-21T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Behind the Scenes: Why PMs Are Vibecoding Real Products - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1023,
+      "timeRequired": "PT4M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "Replit",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-my-first-6-months-substack-growth",
+      "identifier": "my-first-6-months-substack-growth",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth",
+      "description": "I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from",
+      "datePublished": "2025-08-15T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "I Analyzed Every Interaction From My First 6 Months on Substack - Here’s What Drove My Rapid Growth - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1187,
+      "timeRequired": "PT5M",
+      "articleSection": [
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-july-vibecoding-roundup",
+      "identifier": "july-vibecoding-roundup",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "July’s Top Vibecoding Reads",
+      "description": "July’s Top Vibecoding Reads - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads",
+      "datePublished": "2025-08-05T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "July’s Top Vibecoding Reads - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 734,
+      "timeRequired": "PT3M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "Replit",
+        "context engineering",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-self-improving-prompt-system",
+      "identifier": "self-improving-prompt-system",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "The Self-Improving Prompt System That Gets Smarter With Every Use",
+      "description": "The Self-Improving Prompt System That Gets Smarter With Every Use - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system",
+      "datePublished": "2025-08-01T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/the-self-improving-prompt-system"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "The Self-Improving Prompt System That Gets Smarter With Every Use - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 2405,
+      "timeRequired": "PT10M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "Claude",
+        "Replit",
+        "LLM",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-i-broke-replit-so-you-dont-have-to",
+      "identifier": "i-broke-replit-so-you-dont-have-to",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Vibecoding Journey: I Broke Replit So You Don't Have To",
+      "description": "Vibecoding Journey: I Broke Replit So You Don't Have To - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to",
+      "datePublished": "2025-07-14T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Vibecoding Journey: I Broke Replit So You Don't Have To - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1947,
+      "timeRequired": "PT8M",
+      "articleSection": [
+        "AI Development",
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "vibecoding",
+        "AI",
+        "workflow",
+        "Replit",
+        "LLM",
+        "product management",
+        "automation"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-ai-bios-linkedin-trend",
+      "identifier": "ai-bios-linkedin-trend",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "I Studied 49 AI-Generated Bios. What I Found Wasn’t About AI at All",
+      "description": "I Studied 49 AI-Generated Bios. What I Found Wasn’t About AI at All - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/i-studied-49-ai-generated-bios-what",
+      "datePublished": "2025-06-04T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/i-studied-49-ai-generated-bios-what"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "I Studied 49 AI-Generated Bios. What I Found Wasn’t About AI at All - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 723,
+      "timeRequired": "PT3M",
+      "articleSection": [
+        "Product Management",
+        "Creator Economy"
+      ],
+      "keywords": [
+        "substack",
+        "AI"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-how-I-ended-up",
+      "identifier": "how-I-ended-up",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "How I Ended Up Building a Digital Shelf For Substack Creators",
+      "description": "How I Ended Up Building a Digital Shelf For Substack Creators - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/how-i-ended-up-building-a-digital",
+      "datePublished": "2025-05-25T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/how-i-ended-up-building-a-digital"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "How I Ended Up Building a Digital Shelf For Substack Creators - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 743,
+      "timeRequired": "PT3M",
+      "articleSection": [
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Tools"
+      ],
+      "keywords": [
+        "substack",
+        "LLM",
+        "Claude",
+        "AI"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-hyperpersonalization-ethics",
+      "identifier": "hyperpersonalization-ethics",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "How To Implement Hyper-personalization Without Creeping People Out",
+      "description": "How To Implement Hyper-personalization Without Creeping People Out - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization",
+      "datePublished": "2025-05-14T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "How To Implement Hyper-personalization Without Creeping People Out - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1720,
+      "timeRequired": "PT7M",
+      "articleSection": [
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI",
+        "automation"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-substack-roadmap-no-reels",
+      "identifier": "substack-roadmap-no-reels",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Title",
+      "description": "Title - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/substacks-product-roadmap-why-no",
+      "datePublished": "2025-04-22T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/substacks-product-roadmap-why-no"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Title - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1108,
+      "timeRequired": "PT4M",
+      "articleSection": [
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-19-pm-lessons",
+      "identifier": "19-pm-lessons",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "19 Product Team Lessons in 4 Minutes",
+      "description": "19 Product Team Lessons in 4 Minutes - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/20-product-team-lessons-in-4-minutes",
+      "datePublished": "2025-04-13T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/20-product-team-lessons-in-4-minutes"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "19 Product Team Lessons in 4 Minutes - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 404,
+      "timeRequired": "PT2M",
+      "articleSection": [
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-5-tips-for-product-teams",
+      "identifier": "5-tips-for-product-teams",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "5 Tips for Product Teams Implementing AI Prioritization Tools",
+      "description": "5 Tips for Product Teams Implementing AI Prioritization Tools - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered",
+      "datePublished": "2025-04-06T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "5 Tips for Product Teams Implementing AI Prioritization Tools - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1451,
+      "timeRequired": "PT6M",
+      "articleSection": [
+        "AI Development",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-dark-ux-temu",
+      "identifier": "dark-ux-temu",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "When Fun Turns Predatory: Inside Temu’s AI-Driven UX",
+      "description": "When Fun Turns Predatory: Inside Temu’s AI-Driven UX - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/when-fun-turns-predatory-inside-temus",
+      "datePublished": "2025-03-23T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/when-fun-turns-predatory-inside-temus"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "When Fun Turns Predatory: Inside Temu’s AI-Driven UX - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 862,
+      "timeRequired": "PT3M",
+      "articleSection": [
+        "Prompt Engineering",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-6-substack-lessons-from-a-pm-with-0-followers",
+      "identifier": "6-substack-lessons-from-a-pm-with-0-followers",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "6 Substack Lessons From a Product Manager With Zero Followers (That Doubled My Subscribers in a Week)",
+      "description": "6 Substack Lessons From a Product Manager With Zero Followers (That Doubled My Subscribers in a Week) - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack",
+      "datePublished": "2025-03-16T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "6 Substack Lessons From a Product Manager With Zero Followers (That Doubled My Subscribers in a Week) - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 1322,
+      "timeRequired": "PT5M",
+      "articleSection": [
+        "AI Development",
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-bci-ethics-questions",
+      "identifier": "bci-ethics-questions",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
+      "description": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/the-20-questions-i-have-about-brain",
+      "datePublished": "2025-02-28T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/the-20-questions-i-have-about-brain"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 906,
+      "timeRequired": "PT4M",
+      "articleSection": [
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#post-ethics-after-lunch",
+      "identifier": "ethics-after-lunch",
+      "version": "1.0",
+      "dateModified": "2025-12-07T00:00:00Z",
+      "headline": "Fix Your AI Ethics After Lunch, Not After Launch",
+      "description": "Fix Your AI Ethics After Lunch, Not After Launch - Published on Product With Attitude",
+      "url": "https://karozieminski.substack.com/p/fix-your-ethics-after-lunch-not-after",
+      "datePublished": "2025-02-22T00:00:00T00:00:00Z",
+      "author": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karozieminski.substack.com/p/fix-your-ethics-after-lunch-not-after"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#product-with-attitude-series"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F",
+        "description": "Fix Your AI Ethics After Lunch, Not After Launch - Article by Karo Zieminski for Product With Attitude"
+      },
+      "wordCount": 712,
+      "timeRequired": "PT3M",
+      "articleSection": [
+        "Product Management",
+        "Creator Economy",
+        "AI Ethics"
+      ],
+      "keywords": [
+        "substack",
+        "AI",
+        "product management"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightHolder": {
+        "@id": "https://karozieminski.substack.com/#karo-zieminski"
+      },
+      "usageInfo": "https://karozieminski.substack.com/about#usage-policy"
     },
     {
       "@type": "SoftwareSourceCode",
@@ -667,7 +1934,7 @@
       "object": "automation tasks",
       "pwa:source": "https://karozieminski.substack.com/p/agentic-workflows",
       "pwa:evidence": "https://karozieminski.substack.com/p/agentic-workflows#efficiency-gains",
-      "pwa:confidence": 0.90
+      "pwa:confidence": 0.9
     },
     {
       "subject": "Context Engineering",
