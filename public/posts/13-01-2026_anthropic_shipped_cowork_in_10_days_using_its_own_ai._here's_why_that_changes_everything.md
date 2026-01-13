@@ -1,6 +1,9 @@
 # Anthropic Shipped Cowork in 10 Days Using Its Own AI. Here's Why That Changes Everything.
 
+
 A deep dive into the product decisions behind Claude Cowork for GitHub developers, product managers, and technical leaders watching AI velocity reshape software development timelines.
+
+Canonical link: https://karozieminski.substack.com/p/claude-cowork-anthropic-product-deep-dive
 
 ## User Behavior That Started Everything
 
