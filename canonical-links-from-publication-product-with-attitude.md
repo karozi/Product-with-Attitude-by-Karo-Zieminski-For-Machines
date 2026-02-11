@@ -1,6 +1,255 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: November 2025
+Last updated: February 2026
+
+
+## Article: 10 Tools I Use To Run A Bestselling Substack Publication in 2026
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/10-top-tools-bestselling-substack-2026
+
+**Original Publish Date:** February 10, 2026
+
+---
+
+## Article: I Refuse To Choose Between Ambition And Presence
+
+**Author:** Karo Zieminski, Casey Hemingway
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-vibe-coding-marketplace-shelved
+
+**Original Publish Date:** February 06, 2026
+
+---
+
+## Article: He Pays $10/Month for AI Music. Deletes Every Track.
+
+**Author:** Karo Zieminski, Alexander Kumar
+
+**Canonical Link:** https://karozieminski.substack.com/p/suno-ai-vocal-reference-tool-music-producers
+
+**Original Publish Date:** February 02, 2026
+
+---
+
+## Article: I Refuse To Amplify Hype That Ignores Who Pays The Price
+
+**Author:** Karo Zieminski, Dee McCrorey
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-leadership-tools-vibe-coding-corporate-transformation
+
+**Original Publish Date:** January 29, 2026
+
+---
+
+## Article: I Refuse To Ship Without Understanding Why It Makes Sense
+
+**Author:** Karo Zieminski, Jenny Ouyang
+
+**Canonical Link:** https://karozieminski.substack.com/p/refuse-ship-without-understanding-ai-why
+
+**Original Publish Date:** January 22, 2026
+
+---
+
+## Article: Anthropic Shipped Cowork in 10 Days Using Its Own AI. Here’s Why That Changes Everything.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-cowork-anthropic-product-deep-dive
+
+**Original Publish Date:** January 13, 2026
+
+---
+
+## Article: Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-skill-seo-alt-text-generator
+
+**Original Publish Date:** January 10, 2026
+
+---
+
+## Article: Choose Your Builder Track
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-skill-paths
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: The Complete Vibecoding & Speccoding Resource Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-resources-hub
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: Vibe Coding Prompt Packs Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-prompt-packs
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: Design with AI
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/how-to-design-with-ai
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: n8n AI Agent Builder for Claude Code
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/n8n-ai-agent-builder-for-claude-code
+
+**Original Publish Date:** January 04, 2026
+
+---
+
+## Article: Discounts for Premium Members — Q1 2026
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/discounts-for-premium-members-q1
+
+**Original Publish Date:** January 02, 2026
+
+---
+
+## Article: Everyday AI
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/practical-ai-workflows
+
+**Original Publish Date:** January 02, 2026
+
+---
+
+## Article: AI For Product Teams Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-product-teams-hub
+
+**Original Publish Date:** January 01, 2026
+
+---
+
+## Article: How Boris Cherny, Builder of Claude Code, Uses It — And Why That Should Change How You Think About AI
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/boris-cherny-claude-code-workflow
+
+**Original Publish Date:** January 07, 2026
+
+---
+
+## Article: Recraft 101: A Creator's Guide to Building a Reusable Visual System
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/recraft-ai-visual-identity-consistency-substack
+
+**Original Publish Date:** January 06, 2026
+
+---
+
+## Article: Testing-Led Sponsorship: How I Evaluate, Accept, and Write About Sponsored Tools
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/testing-led-sponsorship-how-i-evaluate-and-write-about-sponsored-tools
+
+**Original Publish Date:** January 06, 2026
+
+---
+
+## Article: Build With Attitude ✊ - An Open Invitation To Vibe Coders Who Care About Building Things That Matter
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/build-with-attitude-vibecoding-quality-over-ai-slop
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: 10 Mistakes I Won't Repeat On Substack In 2026
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/10-substack-mistakes-avoid-2026
+
+**Original Publish Date:** December 27, 2025
+
+---
+
+## Article: ChatGPT 5.2: What It Really Changed, And Why The Internet’s Take Is Mostly Wrong
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/openai-chatgpt-52-vs-51-reliability-what-changed-why-everyone-is-wrong
+
+**Original Publish Date:** December 13, 2025
+
+---
+
+## Article: 2025’s Most Absurd Product Decisions
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/2025s-most-absurd-product-decisions-grok-taco-bell-mcdonalds-checklist-premortem-framework
+
+**Original Publish Date:** December 10, 2025
+
+---
+
+## Article: Minimum Product Sanity: The Framework PMs Use to Spot Obvious Failures Before Launch
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/minimum-product-sanity-the-framework-for-product-teams-shipping-ai
+
+**Original Publish Date:** December 10, 2025
+
+---
+
+## Article: 👋 Start here
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/start-here-47c
+
+**Original Publish Date:** December 09, 2025
+
+---
+
+## Article: Visual ASMR: How to Make Oddly Satisfying Designs With Nano Banana
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/visual-asmr-how-to-make-oddly-satisfying-christmas-designs-prompts-nano-banana-hygge-christmas
+
+**Original Publish Date:** December 03, 2025
 
 ---
 
