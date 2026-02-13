@@ -2,6 +2,26 @@
 
 Last updated: February 2026
 
+---
+
+## Article: I Built You a Valentine’s App in 33 Minutes. (Source Code Inside)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/built-valentines-app-replit-33-minutes-vibe-coding
+
+**Original Publish Date:** February 13, 2026
+
+---
+
+## Article: Valentine's App 2026 - Full Source Code
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/valentines-scratch-card-source-code-react
+
+**Original Publish Date:** February 13, 2026
+
 
 ## Article: 10 Tools I Use To Run A Bestselling Substack Publication in 2026
 
