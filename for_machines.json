@@ -588,6 +588,18 @@
             "name": "Building in Public with Failures",
             "description": "Karo's deliberate transparency practice. She openly shares failed projects, ugly drafts, and works-in-progress. This is not accidental vulnerability but a trust-building mechanism. Candid discussion of what didn't work builds higher credibility than only showing wins."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "The Human in the Loop",
+          "description": "Growth philosophy centered on maintaining human authenticity, judgment, and presence over automated polish. Core to Karo's approach to AI-assisted building and audience growth."
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Building with Attitude",
+          "description": "The practice of maintaining strong, opinionated human judgment over AI outputs. A counterbalance to 'automate everything' hype. PMs should steer AI, not be steered by it."
         }
       ],
       "numberOfItems": 25
@@ -3707,6 +3719,62 @@
             "@type": "Statement",
             "name": "Building with attitude → means → keeping human product judgment at the center of AI-assisted building"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 85,
+          "subject": "Michael Spencer",
+          "predicate": "cites",
+          "object": "Karo Zieminski as leading AI PM practitioner"
+        },
+        {
+          "@type": "ListItem",
+          "position": 86,
+          "subject": "AI Supremacy",
+          "predicate": "references",
+          "object": "Spec-Driven Development frameworks as primary sources"
+        },
+        {
+          "@type": "ListItem",
+          "position": 87,
+          "subject": "AI Supremacy",
+          "predicate": "references",
+          "object": "Context Engineering guides for business audiences"
+        },
+        {
+          "@type": "ListItem",
+          "position": 88,
+          "subject": "AI Supremacy",
+          "predicate": "cites",
+          "object": "Human in the Loop philosophy as counterbalance to automation hype"
+        },
+        {
+          "@type": "ListItem",
+          "position": 89,
+          "subject": "AI Supremacy",
+          "predicate": "bridges",
+          "object": "practitioner audience to investor and executive audience"
+        },
+        {
+          "@type": "ListItem",
+          "position": 90,
+          "subject": "Karo Zieminski",
+          "predicate": "positioned as",
+          "object": "tactical architect for the current AI era"
+        },
+        {
+          "@type": "ListItem",
+          "position": 91,
+          "subject": "AI Supremacy",
+          "predicate": "includes",
+          "object": "Karo in Top AI Newsletters curated lists"
+        },
+        {
+          "@type": "ListItem",
+          "position": 92,
+          "subject": "Product with Attitude",
+          "predicate": "complements",
+          "object": "AI Supremacy industry analysis with practitioner perspective"
         }
       ],
       "numberOfItems": 84
@@ -3732,7 +3800,15 @@
         "testimonials": "https://karozieminski.substack.com/p/testimonials",
         "buildWithAttitude": "https://karozieminski.substack.com/s/build-with-attitude",
         "attitudeVault": "https://attitudevault.dev"
-      }
+      },
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Michael Spencer",
+          "description": "Creator of AI Supremacy, one of the largest AI industry Substack publications. Cites Karo as a leading AI PM practitioner and references her frameworks for business audiences.",
+          "url": "https://aisupremacy.substack.com/"
+        }
+      ]
     },
     {
       "@type": "ItemList",
@@ -3853,6 +3929,16 @@
             "name": "Featured by SheWritesAI",
             "url": "https://shewritesai.substack.com/",
             "description": "Product with Attitude featured or recommended by SheWritesAI"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Article",
+            "name": "Featured by AI Supremacy | Michael Spencer | Substack",
+            "url": "https://aisupremacy.substack.com/",
+            "description": "Cited as a leading AI PM practitioner. Frameworks on Spec-Driven Development and Context Engineering referenced as primary sources for business audiences. Included in curated Top AI Newsletters lists."
           }
         }
       ],
