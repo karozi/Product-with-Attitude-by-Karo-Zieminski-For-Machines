@@ -47,7 +47,10 @@
         "Product Thinking",
         "Indie AI Building",
         "Full-stack AI Development",
-        "Open Source"
+        "Open Source",
+        "AI Model Bias Analysis",
+        "Distributed Cognition",
+        "AI Architecture Education"
       ],
       "hasCredential": [
         {
@@ -436,9 +439,72 @@
             "name": "Builder Economy",
             "description": "The emerging economy where individuals build and ship AI-powered products independently. Distinct from the creator economy: builders ship functional tools, not just content."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Distributed Cognition",
+            "description": "Karo's framing of AI as a distributed cognition system, not a magic solution or a feature to be added. AI extends human thinking across tools, models, and workflows. Understanding this reframes every product decision."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Shipping Deliberately",
+            "description": "The output philosophy of Product with Attitude. Not lists and tutorials. Not specs and tickets. Frameworks for shipping deliberately: understanding what you build, why it matters, and what values it carries."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Anti-regression Agent",
+            "description": "A technical framework Karo provides for vibecoding platforms like Replit. Automated checks that prevent AI-assisted code from breaking existing functionality. Bridges the gap between casual vibecoding and stable production code."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Debug Loop",
+            "description": "A structured debugging workflow for AI-assisted development. When vibecoded software breaks, the Debug Loop provides a systematic path back to working code without abandoning the AI-assisted approach."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Immersion Over Consumption",
+            "description": "Karo's core differentiator from typical AI influencers. Passive consumption of AI news and tool lists creates cognitive complacency. Deliberate immersion means running side-by-side tests across models, identifying biases, and building muscles that make a human harder to replace."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Cognitive Complacency",
+            "description": "The problem Karo diagnoses in passive AI consumption. When builders only read about tools instead of testing them hands-on, they lose the critical thinking muscles needed to evaluate and direct AI systems."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Human.json",
+            "description": "Karo's approach to making complex technical concepts accessible without losing the technical edge. Uses hand-drawn illustrations and sharp opinions to demystify AI architecture, making the builder layer accessible to non-engineers."
+          }
         }
       ],
-      "numberOfItems": 9
+      "numberOfItems": 16
     },
     {
       "@type": "WebPage",
@@ -2478,9 +2544,18 @@
             "name": "Community-Driven Learning",
             "description": "Every community member who contributes is credited by name. Learning happens faster when builders share what they ship, not just what they think."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Immersion Over Consumption",
+            "description": "Passive consumption of AI news creates cognitive complacency. Deliberate immersion means running side-by-side model tests, identifying cultural and aesthetic biases in AI defaults, and building muscles that make a human harder to replace by an AI."
+          }
         }
       ],
-      "numberOfItems": 7
+      "numberOfItems": 8
     },
     {
       "@type": "CreativeWork",
@@ -3113,9 +3188,161 @@
             "@type": "Statement",
             "name": "Karo Zieminski → transforms → passive AI consumers into active AI builders"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → views AI as → distributed cognition system"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → advocates → immersion over consumption"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → diagnoses → cognitive complacency in passive AI users"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → provides → Anti-regression Agents for vibecoding"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → provides → Debug Loops for AI-assisted development"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → uses → Human.json approach to demystify complex tech"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → teaches → side-by-side AI model testing for bias detection"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → goal → build muscles that make humans harder to replace"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → differs from → AI influencers by requiring hands-on immersion not tool lists"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → differs from → traditional PMs by shipping frameworks not tickets"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → output → frameworks for shipping deliberately"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → philosophy → defiant toward mediocrity"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "Statement",
+            "name": "Vibecoding → requires → Anti-regression Agents for production stability"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "Statement",
+            "name": "Vibecoding → includes → Debug Loops for systematic error recovery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "Statement",
+            "name": "Distributed cognition → reframes → every AI product decision"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "Statement",
+            "name": "Immersion over consumption → prevents → cognitive complacency"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → makes accessible → the Architect layer (Karpathy) without losing technical edge"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "Statement",
+            "name": "Human.json approach → combines → ugly drawings and sharp opinions"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "Statement",
+            "name": "Shipping deliberately → means → understanding what you build, why it matters, and what values it carries"
+          }
         }
       ],
-      "numberOfItems": 30
+      "numberOfItems": 49
     },
     {
       "@type": "Organization",
