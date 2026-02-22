@@ -24,7 +24,7 @@
       "url": "https://karozieminski.substack.com/",
       "image": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/blob/main/public/images/karo-zieminski-headshot.png",
       "jobTitle": "AI Product Manager",
-      "description": "AI Product Manager, Substack Bestseller, illustrator, vibecoding pioneer, and critical AI thinker based in Denmark. Creator of Product with Attitude (12,000+ subscribers), StackShelf marketplace, AttitudeVault prompt library, and the Build with Attitude interview series. Named one of the best AI product blogs of 2025 by New Economies. Recognized by vibecoding.builders and The Slow AI. Teaches people to use AI to think deeper, and how to product-think while building with AI. Advocates for immersion over observation: building with AI, not just chatting with it.",
+      "description": "AI Product Manager smuggling ethics into tech since 2019 and turning everyone into AI builders and experimenters. I help you build with AI and bend it to your needs, not just use AI tools. I feature your work on StackShelf.app. I connect you with a supportive 12K+ community.",
       "knowsAbout": [
         "AI Product Management",
         "Vibecoding",
@@ -517,9 +517,9 @@
     {
       "@type": "ItemList",
       "@id": "#recent-articles",
-      "name": "Recent Articles (2026)",
+      "name": "All Published Articles",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 15,
+      "numberOfItems": 50,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -860,6 +860,1173 @@
               "development configuration",
               "vibecoding tools"
             ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Article",
+            "headline": "10 Mistakes I Won't Repeat On Substack In 2026",
+            "url": "https://karozieminski.substack.com/p/10-substack-mistakes-avoid-2026",
+            "datePublished": "2025-12-27",
+            "wordCount": 1083,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack mistakes",
+              "newsletter strategy",
+              "content creator lessons",
+              "Substack growth",
+              "creator economy"
+            ],
+            "pwa:keyConcepts": [
+              "Substack growth mistakes",
+              "Content strategy lessons",
+              "Creator platform pitfalls",
+              "Newsletter optimization"
+            ],
+            "pwa:keyQuotes": [
+              "10 months on Substack, 10 mistakes worth sharing.",
+              "I've talked about what worked. Today, let's cover what very much didn't."
+            ],
+            "alternativeHeadline": "After ten months on Substack, here are ten mistakes I wish I'd avoided."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "Article",
+            "headline": "2025's Most Absurd Product Decisions",
+            "url": "https://karozieminski.substack.com/p/2025s-most-absurd-product-decisions-grok-taco-bell-mcdonalds-checklist-premortem-framework",
+            "datePublished": "2025-12-10",
+            "wordCount": 1818,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI product decisions",
+              "product management",
+              "AI ethics",
+              "product failures",
+              "AI shipping"
+            ],
+            "pwa:keyConcepts": [
+              "AI product failures",
+              "Predictable AI scandals",
+              "Product team questions",
+              "Ethical AI shipping"
+            ],
+            "pwa:keyQuotes": [
+              "Every failure in this post was predictable. Not with hindsight - with the questions any competent product team should ask before shipping.",
+              "One year, multiple AI product scandals, zero surprises."
+            ],
+            "alternativeHeadline": "How Not to Ship AI And Lessons From Companies That Did It Anyway."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Article",
+            "headline": "AI Tools A-Z: Deep-Dives for Every Tool I've Tested (Claude, Perplexity, Replit & More)",
+            "url": "https://karozieminski.substack.com/p/ai-tools-reviews-claude-perplexity-replit-suno-deep-dives-2026",
+            "datePublished": "2025-12-08",
+            "wordCount": 1699,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI tools",
+              "Claude review",
+              "Perplexity",
+              "Replit",
+              "AI workflows"
+            ],
+            "pwa:keyConcepts": [
+              "AI tool reviews",
+              "Real workflow examples",
+              "Tool comparison library",
+              "Honest AI assessments"
+            ],
+            "pwa:keyQuotes": [
+              "A growing library of honest AI tool reviews and workflows by Karo Zieminski on Product with Attitude.",
+              "Each entry answers one question builders and creators ask about the tools they use daily."
+            ],
+            "alternativeHeadline": "Real reviews, real workflows."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "Article",
+            "headline": "Visual ASMR: How to Make Oddly Satisfying Designs With Nano Banana",
+            "url": "https://karozieminski.substack.com/p/visual-asmr-how-to-make-oddly-satisfying-christmas-designs-prompts-nano-banana-hygge-christmas",
+            "datePublished": "2025-12-03",
+            "wordCount": 1531,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "visual design",
+              "ASMR design",
+              "Nano Banana",
+              "image transformation",
+              "design framework"
+            ],
+            "pwa:keyConcepts": [
+              "Visual design framework",
+              "Sensory-rich visuals",
+              "Nano Banana tool",
+              "Image transformation"
+            ],
+            "pwa:keyQuotes": [
+              "A step-by-step framework to transform images into warm, sensory-rich Christmas visuals using Nano Banana."
+            ],
+            "alternativeHeadline": "A step-by-step framework to transform images into warm, sensory-rich Christmas visuals."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "Article",
+            "headline": "What's Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.",
+            "url": "https://karozieminski.substack.com/p/substack-roadmap-community-chat-notes-reels-survey-reader-behaviour",
+            "datePublished": "2025-11-18",
+            "wordCount": 1581,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack roadmap",
+              "user behavior",
+              "audience feedback",
+              "content strategy",
+              "reader insights"
+            ],
+            "pwa:keyConcepts": [
+              "Reader-driven roadmap",
+              "Substack user behavior",
+              "Audience feedback strategy",
+              "Data-driven planning"
+            ],
+            "pwa:keyQuotes": [
+              "My Substack roadmap for 2026 comes straight from 315 readers - understanding what users actually want drives better content strategy."
+            ],
+            "alternativeHeadline": "Understanding Substack User Behavior"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "Article",
+            "headline": "How To Product-think When AI Builds At Lightning Speed",
+            "url": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders",
+            "datePublished": "2025-11-12",
+            "wordCount": 1307,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "product thinking",
+              "AI development",
+              "product management",
+              "building with AI",
+              "product strategy"
+            ],
+            "pwa:keyConcepts": [
+              "Product thinking fundamentals",
+              "AI building speed",
+              "Irreplaceable product skills",
+              "Deliberate decision-making"
+            ],
+            "pwa:keyQuotes": [
+              "Ask ten people what product thinking means, and you'll get twelve definitions.",
+              "The best insight comes from founders who built things that survived contact with users."
+            ],
+            "alternativeHeadline": "The One Feature AI Can't Replace"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "Article",
+            "headline": "I Want To Hear From You, And I'll Pay You For It",
+            "url": "https://karozieminski.substack.com/p/i-want-to-hear-from-you-and-ill-pay",
+            "datePublished": "2025-11-09",
+            "wordCount": 228,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "feedback survey",
+              "reader engagement",
+              "community building",
+              "incentive alignment",
+              "Substack growth"
+            ],
+            "pwa:keyConcepts": [
+              "Honest feedback value",
+              "Aligned incentives experiment",
+              "Reader survey compensation",
+              "Community engagement"
+            ],
+            "pwa:keyQuotes": [
+              "There are few things as underrated as honest feedback.",
+              "Asking for your feedback is asking for your time, and I don't take that lightly."
+            ],
+            "alternativeHeadline": "A Small Thank-You for Helping Me Build Something Bigger."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "Article",
+            "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
+            "url": "https://karozieminski.substack.com/p/vibecoding-cybersecurity-fix-the-7-code-mistakes-leaving-your-startup-wide-open-and-vulnerable-playbook",
+            "datePublished": "2025-11-03",
+            "wordCount": 3033,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "cybersecurity",
+              "AI coding",
+              "secure development",
+              "engineering practices"
+            ],
+            "pwa:keyConcepts": [
+              "Responsible vibecoding",
+              "Cybersecurity in AI",
+              "Engineering foundations",
+              "Safe AI development"
+            ],
+            "pwa:keyQuotes": [
+              "The cybersecurity critics of vibecoding are right about the risks. They're just wrong about the solution.",
+              "The answer isn't 'don't vibecode at all.' It's 'vibecode responsibly, with solid engineering foundations.'"
+            ],
+            "alternativeHeadline": "Don't ship your next feature without these safety checks."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "Article",
+            "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
+            "url": "https://karozieminski.substack.com/p/substack-indie-builder-economy-2025-product-hunt-creator-earnings-building-in-public-builder-community",
+            "datePublished": "2025-10-28",
+            "wordCount": 2273,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "indie builders",
+              "Substack economy",
+              "creator products",
+              "platform monetization",
+              "product companies"
+            ],
+            "pwa:keyConcepts": [
+              "Indie builder economy",
+              "Substack product ecosystem",
+              "Creator monetization models",
+              "Platform-based building"
+            ],
+            "pwa:keyQuotes": [
+              "Substack economy coverage usually centers on subscriptions, paywalls, and affiliate revenue - the 'classic trio' of newsletter monetization. Here's what's overlooked: the growing market of products built on or for Substack.",
+              "Let's talk about how Substack fuels the indie builder economy."
+            ],
+            "alternativeHeadline": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "Article",
+            "headline": "Claude Skills Are Taking the AI Community by Storm",
+            "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
+            "datePublished": "2025-10-19",
+            "wordCount": 1619,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Claude Skills",
+              "Anthropic",
+              "AI agents",
+              "Claude toolkit",
+              "AI capabilities"
+            ],
+            "pwa:keyConcepts": [
+              "Claude Skills toolkit",
+              "AI agent capabilities",
+              "Skill stacking system",
+              "Viral AI feature"
+            ],
+            "pwa:keyQuotes": [
+              "The AI world hasn't slept in 72 hours, and I get it.",
+              "Simon Willison called it 'maybe a bigger deal than MCP.' Ethan Mollick said it's 'both an easy path for workable agents and a step forward in what AI can do.'"
+            ],
+            "alternativeHeadline": "Anthropic's Viral Claude Skills Toolkit"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "Article",
+            "headline": "The Ultimate Vibecoding Guide From Builders Who've Shipped",
+            "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection",
+            "datePublished": "2025-10-11",
+            "wordCount": 2881,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "AI coding tools",
+              "product development",
+              "build in public",
+              "app deployment"
+            ],
+            "pwa:keyConcepts": [
+              "AI coding tools",
+              "Production-ready apps",
+              "Practical development roadmap",
+              "Validate and deploy",
+              "Build in public"
+            ],
+            "pwa:keyQuotes": [
+              "Build production-ready apps with AI coding tools by following this practical roadmap: validate your idea early, design user flows first, choose the right stack, write clear prompts, use Git from day one, debug systematically, and keep learning fundamentals.",
+              "We share a playbook that's been tested, improved, and proven with real results."
+            ],
+            "alternativeHeadline": "Go Beyond the Prototype"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "Article",
+            "headline": "10x Your Productivity with Perplexity Comet: 11 Use Cases from 'Nice' to 'Wow!'",
+            "url": "https://karozieminski.substack.com/p/perplexity-comet-advanced-use-cases-guide",
+            "datePublished": "2025-10-06",
+            "wordCount": 3496,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Perplexity Comet",
+              "productivity",
+              "AI automation",
+              "workflows",
+              "digital assistant"
+            ],
+            "pwa:keyConcepts": [
+              "Perplexity Comet workflows",
+              "Digital coworker automation",
+              "Advanced productivity hacks",
+              "Multi-agent workflows",
+              "Content repurposing"
+            ],
+            "pwa:keyQuotes": [
+              "Comet isn't just a browser, it's a digital coworker that thinks, navigates, and acts on your behalf across the web.",
+              "11 ranked workflows, shortcut patterns, and power moves that turn Comet into your personal assistant."
+            ],
+            "alternativeHeadline": "Unlock advanced productivity with Perplexity Comet."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "Article",
+            "headline": "Why Every Brand and PM Should Monitor Substack for User Insights",
+            "url": "https://karozieminski.substack.com/p/why-every-brand-and-pm-should-monitor",
+            "datePublished": "2025-09-30",
+            "wordCount": 1384,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack",
+              "user research",
+              "market intelligence",
+              "product management",
+              "user insights"
+            ],
+            "pwa:keyConcepts": [
+              "Substack market research",
+              "User intelligence mining",
+              "Long-form user insights",
+              "Alternative to surveys",
+              "Product team intelligence"
+            ],
+            "pwa:keyQuotes": [
+              "If your product or brand team isn't monitoring Substack, you're missing one of the richest streams of user intelligence available today.",
+              "Substack is a criminally underrated market research tool. It's where users, builders, and domain experts go deep."
+            ],
+            "alternativeHeadline": "If your product or brand team isn't monitoring Substack, you're missing one of the richest streams of user intelligence."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "Article",
+            "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide",
+            "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new",
+            "datePublished": "2025-09-22",
+            "wordCount": 2199,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "AI development",
+              "spec-driven",
+              "product building",
+              "coding terminology"
+            ],
+            "pwa:keyConcepts": [
+              "AI development terminology",
+              "Vibecoding definition",
+              "Spec-driven development",
+              "Context engineering",
+              "AI coding lexicon"
+            ],
+            "pwa:keyQuotes": [
+              "Let's define these terms once and for all.",
+              "The definitive guide to the AI coding terminology, what actually works in practice, and why the right words matter if you want your product to ship."
+            ],
+            "alternativeHeadline": "Let's define these terms once and for all."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "Article",
+            "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
+            "url": "https://karozieminski.substack.com/p/vibecoding-but-smarter-the-prd-prompt",
+            "datePublished": "2025-09-17",
+            "wordCount": 1970,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "PRD prompt",
+              "AI hallucinations",
+              "product requirements",
+              "prompt engineering"
+            ],
+            "pwa:keyConcepts": [
+              "Self-auditing PRD prompt",
+              "Hallucination prevention",
+              "Failure mode detection",
+              "Smart vibecoding",
+              "Pre-coding validation"
+            ],
+            "pwa:keyQuotes": [
+              "The One Prompt You Need Before Touching Code",
+              "The PRD Prompt That Audits Itself For Hallucinations and Failure Modes"
+            ],
+            "alternativeHeadline": "Best Vibecoding Guides #1"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "Article",
+            "headline": "Where To Find Emerging Product Voices on Substack in 2025",
+            "url": "https://karozieminski.substack.com/p/where-to-find-emerging-product-voices",
+            "datePublished": "2025-08-31",
+            "wordCount": 1293,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack",
+              "product management",
+              "community",
+              "product voices",
+              "networking"
+            ],
+            "pwa:keyConcepts": [
+              "Product voices directory",
+              "Substack community mapping",
+              "Emerging product writers",
+              "Product management network",
+              "Living resource guide"
+            ],
+            "pwa:keyQuotes": [
+              "A living map of product minds building, writing, and sharing in community.",
+              "You join Substack to find your people."
+            ],
+            "alternativeHeadline": "A living map of product minds building, writing, and sharing in community."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "Article",
+            "headline": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
+            "url": "https://karozieminski.substack.com/p/vibecoding-pms-a-movement-you-dont",
+            "datePublished": "2025-08-21",
+            "wordCount": 1093,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "product managers",
+              "vibecoding",
+              "PM skills",
+              "build in public",
+              "product development"
+            ],
+            "pwa:keyConcepts": [
+              "PMs vibecoding products",
+              "Non-obvious PM benefits",
+              "Product manager coding",
+              "Practical vibecoding reasons",
+              "PM skill evolution"
+            ],
+            "pwa:keyQuotes": [
+              "5 Non-Obvious Reasons Product Managers Should Start Vibecoding Today.",
+              "Vibecoding isn't just a joke, easy to dismiss."
+            ],
+            "alternativeHeadline": "5 Non-Obvious Reasons Product Managers Should Start Vibecoding Today."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "Article",
+            "headline": "I Analyzed Every Interaction From My First 6 Months on Substack",
+            "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from",
+            "datePublished": "2025-08-15",
+            "wordCount": 1207,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack growth",
+              "content strategy",
+              "community building",
+              "analytics",
+              "audience growth"
+            ],
+            "pwa:keyConcepts": [
+              "Substack growth analysis",
+              "Six-month interaction data",
+              "Rapid growth drivers",
+              "Community building metrics",
+              "Content performance insights"
+            ],
+            "pwa:keyQuotes": [
+              "I Analyzed Every Interaction From My First 6 Months on Substack - Here's What Drove My Rapid Growth",
+              "I started at 0 followers - that was a blessing in disguise."
+            ],
+            "alternativeHeadline": "Special edition"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "Article",
+            "headline": "July's Top Vibecoding Reads",
+            "url": "https://karozieminski.substack.com/p/julys-top-vibecoding-reads",
+            "datePublished": "2025-08-05",
+            "wordCount": 734,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "no-code",
+              "AI tools",
+              "Replit",
+              "creative development"
+            ],
+            "pwa:keyConcepts": [
+              "Vibecoding resources roundup",
+              "No-code movement",
+              "Creativity over credentials",
+              "AI development tools",
+              "Democratized software building"
+            ],
+            "pwa:keyQuotes": [
+              "No code, no funding, no problem: curiosity now builds more than credentials ever could",
+              "Tools like Replit, Cursor, and Lovable are turning creativity into software - fast."
+            ],
+            "alternativeHeadline": "No code, no funding, no problem"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "Article",
+            "headline": "The Self-Improving Prompt System That Gets Smarter With Every Use",
+            "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system",
+            "datePublished": "2025-08-01",
+            "wordCount": 2523,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "prompt engineering",
+              "AI prompts",
+              "prompt optimization",
+              "prompt system",
+              "AI accuracy"
+            ],
+            "pwa:keyConcepts": [
+              "Self-improving prompt system",
+              "Prompt scoring framework",
+              "Two-step prompt loop",
+              "AI prompt optimization",
+              "Automated prompt evaluation"
+            ],
+            "pwa:keyQuotes": [
+              "The Self-Improving Prompt System That Gets Smarter With Every Use",
+              "A simple two-step loop (Prompt Builder → Prompt Evaluator) that scores your prompt across 35 criteria and suggests how to refactor it."
+            ],
+            "alternativeHeadline": "Instantly build, score, and improve your AI prompts."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "Article",
+            "headline": "Is Your Replit Looping? This Will Help.",
+            "url": "https://karozieminski.substack.com/p/is-your-replit-looping-this-will",
+            "datePublished": "2025-07-21",
+            "wordCount": 2124,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Replit",
+              "AI product management",
+              "coding errors",
+              "building in public",
+              "development tools"
+            ],
+            "pwa:keyConcepts": [
+              "Replit coding challenges",
+              "AI-assisted development barriers",
+              "Code breaking patterns",
+              "Building in public"
+            ],
+            "pwa:keyQuotes": [
+              "There's no longer any barrier between my ideas and reality, and that's a powerful, powerful feeling.",
+              "Replit is amazing when it works. But when it doesn't, you'll..."
+            ],
+            "alternativeHeadline": "The 3 Infuriating Ways Replit Will Break Your Code"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "Article",
+            "headline": "Vibecoding Journey: I Broke Replit So You Don't Have To",
+            "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have-to",
+            "datePublished": "2025-07-14",
+            "wordCount": 1517,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "Replit",
+              "building in public",
+              "product updates",
+              "StackShelf"
+            ],
+            "pwa:keyConcepts": [
+              "Vibecoding journey",
+              "Building in public",
+              "Product update transparency",
+              "Development patch notes"
+            ],
+            "pwa:keyQuotes": [
+              "There Are Two Types of Product Updates: The ones you proudly list in changelogs and marketing decks. The ones you bury deep under 'general improvements'.",
+              "I Broke Replit So You Don't Have To"
+            ],
+            "alternativeHeadline": "Building in Public: The official patch notes, episode 1."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "Article",
+            "headline": "Founders, Here's What You Need to Know About Product Launches in 2025",
+            "url": "https://karozieminski.substack.com/p/founders-heres-what-you-need-to-know",
+            "datePublished": "2025-06-12",
+            "wordCount": 1108,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "product launches",
+              "AI strategy",
+              "OpenAI",
+              "launch strategy",
+              "founders"
+            ],
+            "pwa:keyConcepts": [
+              "Product launch strategy",
+              "AI company launches",
+              "Launch acceleration trend",
+              "2025 product strategy"
+            ],
+            "pwa:keyQuotes": [
+              "Founders, Here's What You Need to Know About Product Launches in 2025",
+              "OpenAI, Google, Anthropic & Perplexity's launch strategy - and what it means for yours"
+            ],
+            "alternativeHeadline": "OpenAI, Google, Anthropic & Perplexity's launch strategy"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "Article",
+            "headline": "I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All",
+            "url": "https://karozieminski.substack.com/p/i-studied-49-ai-generated-bios-what",
+            "datePublished": "2025-06-04",
+            "wordCount": 573,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI bios",
+              "LinkedIn",
+              "personal branding",
+              "ChatGPT",
+              "self-perception"
+            ],
+            "pwa:keyConcepts": [
+              "AI-generated bios",
+              "LinkedIn personal branding",
+              "Self-perception through AI",
+              "Digital identity trends"
+            ],
+            "pwa:keyQuotes": [
+              "I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All",
+              "How an AI Trend Is Changing What We Measure Ourselves Against"
+            ],
+            "alternativeHeadline": "How an AI Trend Is Changing What We Measure Ourselves Against"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "Article",
+            "headline": "How I Ended Up Building a Peer-Peer Marketplace For Substack",
+            "url": "https://karozieminski.substack.com/p/how-i-ended-up-building-a-digital",
+            "datePublished": "2025-05-25",
+            "wordCount": 618,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack marketplace",
+              "creator economy",
+              "content discovery",
+              "peer-to-peer",
+              "Substack writers"
+            ],
+            "pwa:keyConcepts": [
+              "Peer-to-peer marketplace",
+              "Substack creator economy",
+              "Content discovery problem",
+              "Creator monetization"
+            ],
+            "pwa:keyQuotes": [
+              "Thirty minutes and four platforms later, I found myself shopping for soy candles on Etsy. Still no template.",
+              "Substack Writers Are Building Incredible Things. Let's Make It Easier for Everyone to Find Them."
+            ],
+            "alternativeHeadline": "Substack Writers Are Building Incredible Things."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "Article",
+            "headline": "How To Implement Hyper-personalization Without Creeping People Out",
+            "url": "https://karozieminski.substack.com/p/how-to-implement-hyper-personalization",
+            "datePublished": "2025-05-14",
+            "wordCount": 1576,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "hyper-personalization",
+              "AI personalization",
+              "user privacy",
+              "product strategy",
+              "data ethics"
+            ],
+            "pwa:keyConcepts": [
+              "Hyper-personalization strategy",
+              "Privacy versus personalization",
+              "AI-driven customization",
+              "User data ethics"
+            ],
+            "pwa:keyQuotes": [
+              "We say we hate it when apps track us. But we also get annoyed when Netflix forgets we don't enjoy documentaries about feet.",
+              "71% of us crave personalized experiences, and 76% get irritated when brands fall short."
+            ],
+            "alternativeHeadline": "A Practical Guide to AI-Driven Hyper-personalization"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "Article",
+            "headline": "Are You a Product Person Lost on Substack? Here's the Map",
+            "url": "https://karozieminski.substack.com/p/are-you-a-product-person-lost-on",
+            "datePublished": "2025-05-06",
+            "wordCount": 862,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack directory",
+              "product management",
+              "content curation",
+              "emerging writers",
+              "product voices"
+            ],
+            "pwa:keyConcepts": [
+              "Substack product writers",
+              "Emerging creator voices",
+              "Curated content directory",
+              "Product management community"
+            ],
+            "pwa:keyQuotes": [
+              "You open Substack. You type 'product manager' into the search bar. And this is what you find: World-famous newsletters you already know about.",
+              "Product People on Substack is a curated directory of active, emerging product writers."
+            ],
+            "alternativeHeadline": "Where To Find Emerging Product Voices in 2025"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "Article",
+            "headline": "Substack's Roadmap And Why 'No, Substack, We Don't Want Reels' Went Viral",
+            "url": "https://karozieminski.substack.com/p/substacks-product-roadmap-why-no",
+            "datePublished": "2025-04-22",
+            "wordCount": 1141,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack roadmap",
+              "product feedback",
+              "platform features",
+              "viral content",
+              "user requests"
+            ],
+            "pwa:keyConcepts": [
+              "Substack product roadmap",
+              "User feedback analysis",
+              "Platform feature requests",
+              "Community-driven development"
+            ],
+            "pwa:keyQuotes": [
+              "No, Substack, We Don't Want Reels",
+              "20.1K likes in 3 days. Since I'm a Product Manager - and..."
+            ],
+            "alternativeHeadline": "Compiled by a Product Manager for the Substack Team"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "Article",
+            "headline": "19 Product Team Lessons in 4 Minutes",
+            "url": "https://karozieminski.substack.com/p/20-product-team-lessons-in-4-minutes",
+            "datePublished": "2025-04-13",
+            "wordCount": 393,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "product management",
+              "PM lessons",
+              "product teams",
+              "practical advice",
+              "team collaboration"
+            ],
+            "pwa:keyConcepts": [
+              "Product management lessons",
+              "Practical PM advice",
+              "Team collaboration tactics",
+              "Operational product wisdom"
+            ],
+            "pwa:keyQuotes": [
+              "Not best practices. Just what actually works in product teams.",
+              "This list is not aspirational, it doesn't ask you to 'evangelize the vision' - it's operational."
+            ],
+            "alternativeHeadline": "Not best practices. Just what actually works in product teams."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "Article",
+            "headline": "User Personas are Dead: AI-Powered User Models for 2026 and Beyond",
+            "url": "https://karozieminski.substack.com/p/user-personas-are-dead-ai-powered",
+            "datePublished": "2025-04-06",
+            "wordCount": 1180,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "user personas",
+              "AI user models",
+              "product research",
+              "user behavior",
+              "dynamic personas"
+            ],
+            "pwa:keyConcepts": [
+              "Dynamic user models",
+              "AI-powered personas",
+              "Static personas obsolescence",
+              "Real-time user behavior"
+            ],
+            "pwa:keyQuotes": [
+              "User Personas are Dead: AI-Powered User Models for 2026 and Beyond",
+              "These static personas were built to humanize users, but with AI capturing real user behavior, they're about as relatable as commercial images on my dentist's brochure."
+            ],
+            "alternativeHeadline": "Why Static Personas Are No Longer Relevant"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "Article",
+            "headline": "The Unclickable Word That Can Save Your Career",
+            "url": "https://karozieminski.substack.com/p/help-me-name-this-post-theres-a-surprise",
+            "datePublished": "2025-03-30",
+            "wordCount": 850,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI ethics",
+              "product management",
+              "career development",
+              "ethical AI",
+              "product managers"
+            ],
+            "pwa:keyConcepts": [
+              "AI ethics for PMs",
+              "Product manager responsibility",
+              "Ethical product development",
+              "Career-saving principles"
+            ],
+            "pwa:keyQuotes": [
+              "The Unclickable Word That Can Save Your Career",
+              "AI Ethics: Why It Matters for PMs"
+            ],
+            "alternativeHeadline": "AI Ethics: Why It Matters for PMs."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "Article",
+            "headline": "When Fun Turns Predatory: Inside Temu's AI-Driven UX",
+            "url": "https://karozieminski.substack.com/p/when-fun-turns-predatory-inside-temus",
+            "datePublished": "2025-03-23",
+            "wordCount": 677,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "dark patterns",
+              "UX design",
+              "Temu",
+              "addictive design",
+              "product ethics"
+            ],
+            "pwa:keyConcepts": [
+              "Dark UX patterns",
+              "Dopamine-driven design",
+              "Predatory user experience",
+              "Gamified manipulation",
+              "Psychological warfare design"
+            ],
+            "pwa:keyQuotes": [
+              "Temu's UX isn't just bad. It's psychological warfare wrapped in confetti.",
+              "They've embraced every dark pattern in the book, all of them, shoved them into one app, and then said: You know what? Let's invent more."
+            ],
+            "alternativeHeadline": "Dark Patterns in Product, Ethics For Sale"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "Article",
+            "headline": "6 Substack Lessons From a Product Manager With Zero Followers",
+            "url": "https://karozieminski.substack.com/p/6-lessons-from-starting-on-substack",
+            "datePublished": "2025-03-16",
+            "wordCount": 1120,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack",
+              "content creation",
+              "product manager",
+              "audience growth",
+              "writing online"
+            ],
+            "pwa:keyConcepts": [
+              "Substack growth strategies",
+              "Zero-follower start",
+              "Content creation learning",
+              "PM approach to writing",
+              "Audience building tactics"
+            ],
+            "pwa:keyQuotes": [
+              "I started on Substack with imposter syndrome as my co-pilot.",
+              "Classic PM behavior: scan the field, detect patterns and only then consider making a move."
+            ],
+            "alternativeHeadline": "What I learned in my first month writing online with no audience."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "Article",
+            "headline": "5 Tips for Product Teams Implementing AI Prioritization Tools",
+            "url": "https://karozieminski.substack.com/p/5-tips-for-product-teams-to-implement",
+            "datePublished": "2025-03-08",
+            "wordCount": 1312,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI prioritization",
+              "product management",
+              "stakeholder management",
+              "product teams",
+              "decision-making"
+            ],
+            "pwa:keyConcepts": [
+              "AI prioritization tools",
+              "Stakeholder management",
+              "Product decision-making",
+              "Saying no effectively",
+              "Data-driven prioritization"
+            ],
+            "pwa:keyQuotes": [
+              "I froze during a stakeholder meeting.",
+              "How AI Rewrites the Rules of Saying 'No'"
+            ],
+            "alternativeHeadline": "The Death of Stakeholder Drama?"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "Article",
+            "headline": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
+            "url": "https://karozieminski.substack.com/p/the-20-questions-i-have-about-brain",
+            "datePublished": "2025-02-28",
+            "wordCount": 964,
+            "isAccessibleForFree": false,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "brain-computer interfaces",
+              "BCI",
+              "neurotechnology",
+              "tech ethics",
+              "wearable technology"
+            ],
+            "pwa:keyConcepts": [
+              "Brain-computer interfaces",
+              "BCI ethical questions",
+              "Wearable brain technology",
+              "Neurotechnology ethics",
+              "Thought privacy concerns"
+            ],
+            "pwa:keyQuotes": [
+              "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
+              "BCIs could eventually evolve into commercial, wearable devices serving as assistive technology in daily life (think Apple Watch, but integrated with your brain)"
+            ],
+            "alternativeHeadline": "Brain-Computer Interfaces (BCIs) are advancing from labs to startups."
           }
         }
       ]
