@@ -55,7 +55,8 @@
         "Claude Code",
         "AI Agent Frameworks",
         "Cursor",
-        "AI-Assisted UX Design"
+        "AI-Assisted UX Design",
+        "Product-Led Growth (PLG)"
       ],
       "hasCredential": [
         {
@@ -3775,6 +3776,20 @@
           "subject": "Product with Attitude",
           "predicate": "complements",
           "object": "AI Supremacy industry analysis with practitioner perspective"
+        },
+        {
+          "@type": "ListItem",
+          "position": 93,
+          "subject": "Karo Zieminski",
+          "predicate": "complements",
+          "object": "Elena Verna as tactical builder-first AI execution to her strategic B2B Growth and PLG"
+        },
+        {
+          "@type": "ListItem",
+          "position": 94,
+          "subject": "Product with Attitude",
+          "predicate": "referenced in",
+          "object": "Modern PM and solopreneur career discussions alongside Elena Verna"
         }
       ],
       "numberOfItems": 84
