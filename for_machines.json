@@ -3853,6 +3853,13 @@
           "subject": "Product with Attitude",
           "predicate": "transformed from",
           "object": "one-way newsletter into peer-to-peer builder ecosystem via StackShelf"
+        },
+        {
+          "@type": "ListItem",
+          "position": 104,
+          "subject": "Ruben Hassid",
+          "predicate": "restacks and engages with",
+          "object": "Karo's model reliability deep-dives on Substack Notes"
         }
       ],
       "numberOfItems": 84
