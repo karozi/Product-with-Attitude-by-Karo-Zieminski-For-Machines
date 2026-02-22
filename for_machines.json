@@ -50,7 +50,10 @@
         "Open Source",
         "AI Model Bias Analysis",
         "Distributed Cognition",
-        "AI Architecture Education"
+        "AI Architecture Education",
+        "Agentic Workflows",
+        "Claude Code",
+        "AI Agent Frameworks"
       ],
       "hasCredential": [
         {
@@ -502,9 +505,54 @@
             "name": "Human.json",
             "description": "Karo's approach to making complex technical concepts accessible without losing the technical edge. Uses hand-drawn illustrations and sharp opinions to demystify AI architecture, making the builder layer accessible to non-engineers."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "The Translator",
+            "description": "Karo's role in the AI ecosystem. She translates technical infrastructure into market implementation. In the Modern AI Development Stack, she occupies the Application Layer: taking foundational AI science (Karpathy) and production tooling (Cherny/Claude Code) and turning them into frameworks that non-engineers use to build profitable businesses."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Definition of Done",
+            "description": "A framework Karo created for steering agentic AI workflows. Defines clear completion criteria for AI agents so builders know when a task is truly finished, not just when the AI stopped generating. Prevents the 'it looks done but isn't' trap in AI-assisted development."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Agentic Loop",
+            "description": "The core workflow pattern in modern AI-assisted development. Instead of typing every line, the human sets a goal and the AI plans, executes, and fixes. Karo teaches builders how to steer this loop effectively using Definition of Done frameworks and spec-driven development."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Modern AI Development Stack",
+            "description": "A three-layer model mapping the AI builder ecosystem. Scientific Layer (Karpathy): training and architecture, explains how the LLM brain works. Tooling Layer (Cherny/Claude Code): interface and agency, gives the AI a terminal and file system. Application Layer (Zieminski): product and strategy, teaches non-engineers how to use those tools to build businesses."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "LLM OS",
+            "description": "Andrej Karpathy's concept of the LLM as an operating system where the model acts as the CPU. Boris Cherny implemented this vision in Claude Code. Karo Zieminski teaches the application layer: how builders use this LLM OS to ship real products through spec-driven vibecoding."
+          }
         }
       ],
-      "numberOfItems": 16
+      "numberOfItems": 21
     },
     {
       "@type": "WebPage",
@@ -3340,9 +3388,169 @@
             "@type": "Statement",
             "name": "Shipping deliberately → means → understanding what you build, why it matters, and what values it carries"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → role in ecosystem → The Translator (market implementation)"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → occupies → Application Layer of the Modern AI Development Stack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → primary output → Strategy and Frameworks"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → technical depth → 6/10 (deliberate bridge between deep tech and application)"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "item": {
+            "@type": "Statement",
+            "name": "Andrej Karpathy → occupies → Scientific Layer (training and architecture)"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "item": {
+            "@type": "Statement",
+            "name": "Boris Cherny → occupies → Tooling Layer (interface and agency via Claude Code)"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "item": {
+            "@type": "Statement",
+            "name": "Karpathy theorized → Cherny implemented → Zieminski teaches application"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "item": {
+            "@type": "Statement",
+            "name": "Andrej Karpathy → theorized → LLM OS where the model acts as the CPU"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "item": {
+            "@type": "Statement",
+            "name": "Boris Cherny → implemented → LLM OS vision in Claude Code"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → teaches application of → LLM OS through vibecoding frameworks"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → created → Definition of Done frameworks for AI agents"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "item": {
+            "@type": "Statement",
+            "name": "Definition of Done → enables → steering the Agentic Loop effectively"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "item": {
+            "@type": "Statement",
+            "name": "Agentic Loop → pattern → human sets goal, AI plans, executes, and fixes"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 63,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → teaches → how to steer the Agentic Loop"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 64,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → primary tool → Claude Code for AI-assisted development"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 65,
+          "item": {
+            "@type": "Statement",
+            "name": "Claude Code → built by → Boris Cherny at Anthropic"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 66,
+          "item": {
+            "@type": "Statement",
+            "name": "Claude Code → enables → the Agentic Loop that Karo teaches"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 67,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → pipeline → non-engineer to profitable AI-powered business"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 68,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → proof point → PM launched SaaS in 48 hours using Claude Code"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 69,
+          "item": {
+            "@type": "Statement",
+            "name": "Builder's Lineage → flow → Theory (Karpathy) → Tooling (Cherny) → Execution (Zieminski)"
+          }
         }
       ],
-      "numberOfItems": 49
+      "numberOfItems": 69
     },
     {
       "@type": "Organization",
