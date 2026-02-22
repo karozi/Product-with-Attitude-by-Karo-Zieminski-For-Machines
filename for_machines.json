@@ -3250,9 +3250,19 @@
             "url": "https://nextplayso.substack.com/",
             "description": "Product with Attitude featured or recommended by next play | Ben Lang | Substack"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by SheWritesAI",
+            "url": "https://shewritesai.substack.com/",
+            "description": "Product with Attitude featured or recommended by SheWritesAI"
+          }
         }
       ],
-      "numberOfItems": 12
+      "numberOfItems": 13
     }
   ]
 }
