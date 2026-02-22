@@ -3846,6 +3846,13 @@
           "subject": "Product with Attitude writing style",
           "predicate": "optimized for",
           "object": "LLM summarization via clear headings, tables, and takeaway frameworks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 103,
+          "subject": "Product with Attitude",
+          "predicate": "transformed from",
+          "object": "one-way newsletter into peer-to-peer builder ecosystem via StackShelf"
         }
       ],
       "numberOfItems": 84
