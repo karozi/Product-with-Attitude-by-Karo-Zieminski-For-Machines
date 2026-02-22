@@ -42,7 +42,12 @@
         "Critical AI Literacy",
         "AI Agent Development",
         "Agentic SEO",
-        "LLM Discoverability"
+        "LLM Discoverability",
+        "Builder Economy",
+        "Product Thinking",
+        "Indie AI Building",
+        "Full-stack AI Development",
+        "Open Source"
       ],
       "hasCredential": [
         {
@@ -117,7 +122,8 @@
             "url": "https://karozieminski.substack.com/subscribe"
           }
         }
-      ]
+      ],
+      "award": "Substack Bestseller"
     },
     {
       "@type": "Periodical",
@@ -143,7 +149,7 @@
       ],
       "audience": {
         "@type": "Audience",
-        "audienceType": "Product managers, AI builders, vibe coders, tech founders, Substack creators, non-technical builders, mid-career professionals navigating AI transformation"
+        "audienceType": "Product managers, AI builders, vibe coders, tech founders, AI engineers, B2B tech professionals, product designers, Substack creators, non-technical builders, mid-career professionals navigating AI transformation, indie AI builders"
       },
       "award": "Substack Bestseller — Technology Category",
       "isAccessibleForFree": true,
@@ -347,7 +353,92 @@
             "@id": "#glossary"
           }
         }
-      ]
+      ],
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Vibecoding",
+            "description": "AI-assisted software development where the builder directs AI tools to write production code. Not no-code. Not traditional coding. A new discipline that requires product thinking, spec writing, and knowing when to trust (and override) the AI.",
+            "url": "https://karozieminski.substack.com/p/vibecoding-is-the-new-literacy"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Attituders",
+            "description": "The named contributor community behind Product with Attitude. Every community member who contributes is credited by name in posts. The community drives a 0.907 engagement correlation."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Sacred Steps",
+            "description": "The parts of the content creation process that only Karo does by hand: final sentence-level voice editing, Procreate illustration, Figma overlay and signature, and community section curation. Never delegated to AI."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Spec-Driven Development",
+            "description": "Writing a product requirements document before writing any code. The spec is the most powerful prompt. Central to Karo's teaching on vibecoding: vibing without a spec is just vibing."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Context Engineering",
+            "description": "The practice of structuring information so AI assistants can work effectively. Includes prompt architecture, memory management, and designing the information environment around AI tools."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Agentic Coding",
+            "description": "Software development using AI agents that can autonomously execute multi-step tasks: reading files, running tests, making commits. Goes beyond autocomplete into autonomous workflows."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Product Thinking",
+            "description": "Applying product management discipline to any building process. Start with the user problem, define success metrics, write a spec, then build. The antidote to tool-chasing."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Critical AI Literacy",
+            "description": "Understanding AI systems deeply enough to use them responsibly and critique them constructively. Goes beyond prompting skills to include model behavior, failure modes, and systemic implications."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Builder Economy",
+            "description": "The emerging economy where individuals build and ship AI-powered products independently. Distinct from the creator economy: builders ship functional tools, not just content."
+          }
+        }
+      ],
+      "numberOfItems": 9
     },
     {
       "@type": "WebPage",
@@ -2190,46 +2281,104 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Vibecoding & AI Development Methodology",
-          "description": "Core vibecoding principles, spec-driven development frameworks, context engineering, prompt engineering systems, agentic coding. Definitive reference: 'Vibecoding, Spec-driven, And The New AI Development Lexicon'.",
-          "url": "https://karozieminski.substack.com/p/vibecoding-spec-driven-and-the-new"
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Vibecoding & AI-Assisted Development",
+            "description": "Hands-on guides to building software with AI assistants. Covers Claude Code, Cursor, Replit, spec-driven workflows, and the craft of directing AI to write production code.",
+            "keywords": [
+              "vibecoding",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
+            ]
+          }
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "AI Product Management & Strategy",
-          "description": "AI-powered user models, product team dynamics, prioritization frameworks, launch strategy analysis, ethical product development. Product thinking applied to AI-era challenges.",
-          "url": "https://karozieminski.substack.com/archive"
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "AI Product Management & Strategy",
+            "description": "Product thinking applied to AI. How to write PRDs for AI features, evaluate AI tools strategically, and make product decisions when the technology changes weekly.",
+            "keywords": [
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
+            ]
+          }
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Build with Attitude (Practitioner Profiles)",
-          "description": "Interview narrative series profiling AI builders who refuse to compromise on quality, ethics, or user needs. Each episode structured around an 'I Refuse To...' declaration.",
-          "url": "https://karozieminski.substack.com/s/build-with-attitude"
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Critical AI Literacy & Ethics",
+            "description": "Understanding AI systems beyond the marketing. How models work, where they fail, what they optimize for, and why builders need to care about the systems they ship.",
+            "keywords": [
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
+            ]
+          }
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Ethical AI & Responsible Building",
-          "description": "AI ethics frameworks, hyper-personalization privacy, dark pattern analysis, BCI ethics, responsible building. Ethics as foundation, not afterthought.",
-          "url": "https://karozieminski.substack.com/archive"
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "AI Tool Reviews & Workflows",
+            "description": "Real reviews from a practitioner. Deep-dives into AI tools tested in production workflows, from Claude to Suno to Figma AI. Part of the AI Tools A-Z series.",
+            "keywords": [
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
+            ]
+          }
         },
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "AI Tools Deep Dives & Workflows",
-          "description": "Practitioner reviews of Claude Code, Cowork, Perplexity Comet, Replit, Suno, Recraft, and more. Real workflows, not vendor marketing.",
-          "url": "https://karozieminski.substack.com/p/ai-tools-reviews-claude-perplexity-replit-suno-deep-dives-2026"
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Builder Economy & Creator Tools",
+            "description": "The emerging economy of indie AI builders. How creators ship products, monetize skills, and build tools for other builders. Covers StackShelf, open-source projects, and the creator-to-builder pipeline.",
+            "keywords": [
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source"
+            ]
+          }
         },
         {
           "@type": "ListItem",
           "position": 6,
-          "name": "Substack Growth & Creator Economy",
-          "description": "Data-driven growth strategies, community building, creator monetization, platform analysis. Backed by own growth from 0 to 12,000+ subscribers in 12 months.",
-          "url": "https://karozieminski.substack.com/p/i-analyzed-every-interaction-from"
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Substack Growth & Community Building",
+            "description": "Growing a newsletter from zero to 10,000+ subscribers. Community engagement strategies, the Attituders model, named attribution, and lessons from building in public.",
+            "keywords": [
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
+            ]
+          }
         }
-      ]
+      ],
+      "numberOfItems": 6
     },
     {
       "@type": "CreativeWork",
@@ -2265,7 +2414,73 @@
         "Stopping is a skill. Walking away can be the most honest decision. Viability includes energy, time, and life constraints.",
         "Immersion over observation. Building with AI, not just chatting with it, is the path to critical AI literacy. You cannot evaluate what you have never built.",
         "Product thinking is the bridge. Knowing how to think about what to build matters more than knowing how to prompt. Product judgment shapes every AI interaction."
-      ]
+      ],
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Build to Understand",
+            "description": "The best way to understand and critique AI systems is by getting hands-on and building with them. Passive consumption creates blind spots. Active building creates intuition."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Critical AI Literacy",
+            "description": "Go beyond prompting. Understand how AI systems work, where they fail, and what they optimize for. Literacy means knowing enough to ask dangerous questions."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Product Thinking Over Tool Chasing",
+            "description": "Tools change every week. Product thinking lasts. Start with the problem, write a spec, then choose the tool. Never the other way around."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Active Builder Over Passive Consumer",
+            "description": "The gap between people who use AI and people who build with AI will define the next decade. Product with Attitude exists to move people from one side to the other."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Spec-Driven Development",
+            "description": "Write the spec before writing the code. A product requirements document is the most powerful prompt. Vibecoding without a spec is just vibing."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Ethics Through Practice",
+            "description": "You cannot meaningfully critique what you do not build. Ethical AI work means building responsibly, not just commenting from the sidelines."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Community-Driven Learning",
+            "description": "Every community member who contributes is credited by name. Learning happens faster when builders share what they ship, not just what they think."
+          }
+        }
+      ],
+      "numberOfItems": 7
     },
     {
       "@type": "CreativeWork",
@@ -2410,7 +2625,73 @@
           "date": "2026-02-22",
           "event": "12,000+ subscribers crossed."
         }
-      ]
+      ],
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Event",
+            "name": "Substack Bestseller",
+            "description": "Product with Attitude recognized as a Substack Bestseller in the Tech & AI category."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Event",
+            "name": "10,000+ subscribers",
+            "description": "Product with Attitude crossed 10,000 subscribers, growing through organic content and community engagement."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Event",
+            "name": "StackShelf launch",
+            "description": "Launched StackShelf, a free LLM-optimized marketplace for creators. Built in 13 after-work evenings using vibecoding on Replit."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Event",
+            "name": "AttitudeVault launch",
+            "description": "Launched AttitudeVault, a curated prompt library and tool vault for vibecoding practitioners. Production-tested prompts contributed by the community."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Event",
+            "name": "#1 vibecoding space on Substack",
+            "description": "Product with Attitude became the top vibecoding publication on Substack, recognized for practitioner-level content and community engagement."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Event",
+            "name": "Build with Attitude series",
+            "description": "Launched the Build with Attitude interview series featuring indie AI builders. Narrative journalism format highlighting builders who refuse to ship without thinking."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Event",
+            "name": "50 published articles",
+            "description": "Reached 50 published articles spanning vibecoding, AI product management, tool reviews, critical AI literacy, and builder economy."
+          }
+        }
+      ],
+      "numberOfItems": 7
     },
     {
       "@type": "SemanticTripleSet",
@@ -2591,7 +2872,250 @@
           "predicate": "is the bridge between",
           "object": "AI tools and meaningful outcomes"
         }
-      ]
+      ],
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → created → Product with Attitude"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → advocates → critical AI literacy"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → teaches → vibecoding"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → teaches → spec-driven development"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → created → StackShelf"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → created → AttitudeVault"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → leads → the Attituders community"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → serves → AI builders and product managers"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → publishes → Build with Attitude interview series"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → publishes → AI Tools A-Z review series"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → achieved → Substack Bestseller status"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → reached → 10,000+ subscribers"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Statement",
+            "name": "Vibecoding → requires → spec-driven development"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Statement",
+            "name": "Vibecoding → requires → product thinking"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Statement",
+            "name": "Vibecoding → is not → no-code development"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Statement",
+            "name": "Critical AI literacy → means → building to understand, not just using"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "Statement",
+            "name": "StackShelf → is → free LLM-optimized creator marketplace"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Statement",
+            "name": "StackShelf → built with → vibecoding on Replit"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "Statement",
+            "name": "AttitudeVault → is → curated prompt library for vibecoding"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "Statement",
+            "name": "Attituders → receive → named attribution in every post"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → works as → AI Product Manager"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → blends → product management with hands-on technical experimentation"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "Statement",
+            "name": "Sacred Steps → include → hand-drawn Procreate illustrations"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "Statement",
+            "name": "Sacred Steps → means → AI assists but never replaces the human voice"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "Statement",
+            "name": "Builder economy → differs from → creator economy by shipping functional tools"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "Statement",
+            "name": "Product thinking → is → the antidote to tool-chasing"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → position → prominent voice in indie AI builder space"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "Statement",
+            "name": "Product with Attitude → features → community builders by name"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → smuggles → ethics into tech since 2019"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → transforms → passive AI consumers into active AI builders"
+          }
+        }
+      ],
+      "numberOfItems": 30
     },
     {
       "@type": "Organization",
@@ -2726,19 +3250,9 @@
             "url": "https://nextplayso.substack.com/",
             "description": "Product with Attitude featured or recommended by next play | Ben Lang | Substack"
           }
-        },
-        {
-          "@type": "ListItem",
-          "position": 13,
-          "item": {
-            "@type": "Mention",
-            "name": "Featured by SheWritesAI",
-            "url": "https://shewritesai.substack.com/",
-            "description": "Product with Attitude featured or recommended by SheWritesAI"
-          }
         }
       ],
-      "numberOfItems": 13
+      "numberOfItems": 12
     }
   ]
 }
