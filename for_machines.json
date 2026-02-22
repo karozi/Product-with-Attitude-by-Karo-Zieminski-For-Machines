@@ -15,12 +15,16 @@
       "name": "Karo Zieminski",
       "givenName": "Karolina",
       "familyName": "Zieminski",
-      "alternateName": ["Karo", "Karo Z.", "KaroZi"],
+      "alternateName": [
+        "Karo",
+        "Karo Z.",
+        "KaroZi"
+      ],
       "email": "karo@productwithattitude.com",
       "url": "https://karozieminski.substack.com/",
       "image": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/blob/main/public/images/karo-zieminski-headshot.png",
       "jobTitle": "AI Product Manager",
-      "description": "AI Product Manager, Substack Bestseller, illustrator, and builder. Creator of Product with Attitude, StackShelf, and the Build with Attitude interview series. Teaches people to think with AI, not just use it.",
+      "description": "AI Product Manager, Substack Bestseller, illustrator, vibecoding pioneer, and critical AI thinker based in Denmark. Creator of Product with Attitude (12,000+ subscribers), StackShelf marketplace, AttitudeVault prompt library, and the Build with Attitude interview series. Named one of the best AI product blogs of 2025 by New Economies. Recognized by vibecoding.builders and The Slow AI. Teaches people to use AI to think deeper, and how to product-think while building with AI. Advocates for immersion over observation: building with AI, not just chatting with it.",
       "knowsAbout": [
         "AI Product Management",
         "Vibecoding",
@@ -34,7 +38,11 @@
         "No-code Development",
         "Agentic Coding",
         "Product Strategy",
-        "Digital Illustration"
+        "Digital Illustration",
+        "Critical AI Literacy",
+        "AI Agent Development",
+        "Agentic SEO",
+        "LLM Discoverability"
       ],
       "hasCredential": [
         {
@@ -46,17 +54,26 @@
           "@type": "EducationalOccupationalCredential",
           "name": "Ethics and Law in Data Analytics",
           "educationalLevel": "Professional",
-          "recognizedBy": { "@type": "Organization", "name": "Microsoft" }
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Microsoft"
+          }
         },
         {
           "@type": "EducationalOccupationalCredential",
           "name": "Innovation Through Design",
-          "recognizedBy": { "@type": "Organization", "name": "University of Sydney" }
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "University of Sydney"
+          }
         },
         {
           "@type": "EducationalOccupationalCredential",
           "name": "Explainable AI (XAI)",
-          "recognizedBy": { "@type": "Organization", "name": "LinkedIn Learning" }
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "LinkedIn Learning"
+          }
         },
         {
           "@type": "EducationalOccupationalCredential",
@@ -64,7 +81,11 @@
           "credentialCategory": "Certificate"
         }
       ],
-      "nationality": { "@type": "Country", "name": "Denmark", "identifier": "DK" },
+      "nationality": {
+        "@type": "Country",
+        "name": "Denmark",
+        "identifier": "DK"
+      },
       "sameAs": [
         "https://substack.com/@karozieminski",
         "https://substack.com/profile/27968736",
@@ -73,14 +94,18 @@
         "https://bsky.app/profile/productsattitude.bsky.social",
         "https://x.com/KaroZieminski",
         "https://stackshelf.app",
-        "https://product-with-attitude.super.site/karo-prompts"
+        "https://attitudevault.dev",
+        "https://www.vibecoding.builders/projects/attitude-vault"
       ],
       "memberOf": {
         "@type": "Organization",
         "name": "With Attitude Media",
         "url": "https://karozieminski.substack.com/",
         "foundingDate": "2026-01",
-        "location": { "@type": "Country", "name": "Denmark" }
+        "location": {
+          "@type": "Country",
+          "name": "Denmark"
+        }
       },
       "makesOffer": [
         {
@@ -94,7 +119,6 @@
         }
       ]
     },
-
     {
       "@type": "Periodical",
       "@id": "https://karozieminski.substack.com/#publication",
@@ -103,11 +127,20 @@
       "url": "https://karozieminski.substack.com/",
       "description": "Don't just use AI. Build with it. Bend it to your needs. A collaborative hub for AI builders, product managers, and creators who care about building things that matter. Recognized Substack Bestseller in Technology.",
       "tagline": "I teach people to use AI to think deeper, not faster. And to keep judgment, taste, and responsibility where they belong: with the human.",
-      "publisher": { "@id": "https://karozieminski.substack.com/#author" },
-      "author": { "@id": "https://karozieminski.substack.com/#author" },
+      "publisher": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "author": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
       "dateCreated": "2025-02-28",
       "inLanguage": "en",
-      "genre": ["Technology", "Product Management", "Artificial Intelligence", "Creator Economy"],
+      "genre": [
+        "Technology",
+        "Product Management",
+        "Artificial Intelligence",
+        "Creator Economy"
+      ],
       "audience": {
         "@type": "Audience",
         "audienceType": "Product managers, AI builders, vibe coders, tech founders, Substack creators, non-technical builders, mid-career professionals navigating AI transformation"
@@ -131,9 +164,18 @@
         "Community-centered content with named attribution"
       ],
       "hasPart": [
-        { "@id": "#series-build-with-attitude" },
-        { "@id": "#series-ai-tools-az" },
-        { "@id": "#product-stackshelf" }
+        {
+          "@id": "#series-build-with-attitude"
+        },
+        {
+          "@id": "#series-ai-tools-az"
+        },
+        {
+          "@id": "#product-stackshelf"
+        },
+        {
+          "@id": "#product-attitudevault"
+        }
       ],
       "potentialAction": [
         {
@@ -150,15 +192,18 @@
       "mainEntityOfPage": "https://karozieminski.substack.com/about",
       "publishingPrinciples": "https://karozieminski.substack.com/about"
     },
-
     {
       "@type": "CreativeWorkSeries",
       "@id": "#series-build-with-attitude",
       "name": "Build with Attitude",
       "description": "Interview series featuring vibe coders and AI builders who refuse to ship without thinking. Each episode tells the story of a builder's defining product decision through narrative journalism, not Q&A format. Structured around 'I Refuse To...' declarations.",
       "url": "https://karozieminski.substack.com/s/build-with-attitude",
-      "author": { "@id": "https://karozieminski.substack.com/#author" },
-      "isPartOf": { "@id": "https://karozieminski.substack.com/#publication" },
+      "author": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#publication"
+      },
       "genre": "Interview Narrative",
       "hasPart": [
         {
@@ -191,28 +236,57 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWorkSeries",
       "@id": "#series-ai-tools-az",
       "name": "AI Tools A–Z: Deep Dives",
       "description": "Real reviews and real workflows. Complete library of AI tool deep-dives from Claude Code to Suno, tested by a practitioner.",
       "url": "https://karozieminski.substack.com/p/ai-tools-reviews-claude-perplexity-replit-suno-deep-dives-2026",
-      "author": { "@id": "https://karozieminski.substack.com/#author" },
-      "isPartOf": { "@id": "https://karozieminski.substack.com/#publication" }
+      "author": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#publication"
+      }
     },
-
     {
       "@type": "WebApplication",
       "@id": "#product-stackshelf",
       "name": "StackShelf",
       "url": "https://stackshelf.app",
-      "description": "Marketplace platform where Substack creators showcase and sell digital products, freebies, books, and resources. A discovery engine for creator-built tools.",
-      "creator": { "@id": "https://karozieminski.substack.com/#author" },
+      "description": "Free, LLM-optimized marketplace connecting creators to their ideal audience. Built by Karo in 13 after-work evenings using vibecoding on Replit. Has redirected 5,000+ unique visitors to creator products. Every product page includes structured metadata for AI discovery.",
+      "creator": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
       "applicationCategory": "Marketplace",
-      "operatingSystem": "Web"
+      "operatingSystem": "Web",
+      "pwa:buildMethod": "Vibecoded on Replit in 13 after-work evenings",
+      "pwa:stats": {
+        "uniqueRedirects": "5,000+",
+        "buildTime": "13 evenings"
+      }
     },
-
+    {
+      "@type": "WebApplication",
+      "@id": "#product-attitudevault",
+      "name": "AttitudeVault",
+      "alternateName": "Attitude Vault",
+      "url": "https://attitudevault.dev",
+      "description": "Free, curated prompt library and tool vault for vibecoding practitioners. Production-tested prompts for PRDs, specs, code reviews, and agentic workflows. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
+      "creator": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web",
+      "isAccessibleForFree": true,
+      "pwa:featuredOn": "https://www.vibecoding.builders/projects/attitude-vault",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "All prompts free. No login required. Curated by Karo Zieminski."
+      }
+    },
     {
       "@type": "DefinedTermSet",
       "@id": "#glossary",
@@ -247,10 +321,34 @@
           "@type": "DefinedTerm",
           "name": "AI Slop",
           "description": "Generic, emotionless, low-quality content or products generated by AI without human judgment, taste, or intentionality. The opposite of what Product with Attitude advocates for."
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Attituders",
+          "description": "The named contributor community behind Product with Attitude. Members are credited by name in posts and drive measurably higher engagement (0.907 correlation).",
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Critical AI Literacy",
+          "description": "The ability to evaluate AI outputs, detect hallucinations, and maintain product judgment while using AI tools. Developed through immersion in building with AI, not just chatting with it.",
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "sameAs": "https://www.wikidata.org/entity/Q108401064"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Agentic SEO",
+          "description": "Search optimization targeting AI agent discovery and citation rather than traditional search rankings. Includes structured data, semantic triples, llms.txt, and knowledge graph optimization.",
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          }
         }
       ]
     },
-
     {
       "@type": "WebPage",
       "@id": "#key-pages",
@@ -285,10 +383,27 @@
           "name": "Premium Resources",
           "url": "https://karozieminski.substack.com/p/paid-member-resources",
           "description": "Advanced guides, prompt packs, code blocks, and learning paths for paid members."
+        },
+        {
+          "@type": "WebPage",
+          "name": "Community Hub",
+          "url": "https://karozieminski.substack.com/p/community-hub",
+          "description": "Collaboration space for the Attituders community"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Testimonials",
+          "url": "https://karozieminski.substack.com/p/testimonials",
+          "description": "Reader testimonials and community feedback"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Collaborate With Me",
+          "url": "https://karozieminski.substack.com/p/collaborate-with-me",
+          "description": "Partnership and collaboration opportunities"
         }
       ]
     },
-
     {
       "@type": "DataFeed",
       "@id": "#feeds",
@@ -320,7 +435,6 @@
         }
       ]
     },
-
     {
       "@type": "FAQPage",
       "@id": "#faq",
@@ -363,7 +477,7 @@
           "name": "What is StackShelf?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "StackShelf is a marketplace platform created by Karo Zieminski where Substack creators showcase and sell their digital products, freebies, books, and resources. It serves as a discovery engine for creator-built tools at stackshelf.app."
+            "text": "StackShelf (stackshelf.app) is a free marketplace connecting creators to their ideal audience. Built by Karo in 13 after-work evenings using vibecoding on Replit. Has redirected 5,000+ unique visitors to creator products. Every product page includes structured metadata optimized for AI discovery."
           }
         },
         {
@@ -381,10 +495,25 @@
             "@type": "Answer",
             "text": "Start with the definitive guide 'Vibecoding, Spec-driven, And The New AI Development Lexicon' on Product with Attitude. Follow the Build with Attitude series to see real practitioners' workflows. Access the PRD Builder Prompt for spec-driven work. Join the community for hands-on examples and templates. Practice with tools like Replit, Claude, and ChatGPT."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "What is AttitudeVault?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library and tool vault for vibecoding practitioners. It contains production-tested prompts for PRDs, specs, code reviews, and agentic workflows. Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes the Product with Attitude community unique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Attituders are a named contributor community. Every person who contributes is credited by name in posts. This creates a 0.907 engagement correlation. The community includes a Community Hub, the Build with Attitude interview series, AttitudeVault prompt contributions, and cross-promotion. No anonymous contributions."
+          }
         }
       ]
     },
-
     {
       "@type": "ItemList",
       "@id": "#recent-articles",
@@ -403,9 +532,19 @@
             "datePublished": "2026-02-20",
             "wordCount": 2002,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "isPartOf": { "@id": "#series-build-with-attitude" },
-            "keywords": ["vibecoding", "product thinking", "AI building", "user needs", "CarouselBot"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "isPartOf": {
+              "@id": "#series-build-with-attitude"
+            },
+            "keywords": [
+              "vibecoding",
+              "product thinking",
+              "AI building",
+              "user needs",
+              "CarouselBot"
+            ]
           }
         },
         {
@@ -419,8 +558,15 @@
             "datePublished": "2026-02-19",
             "wordCount": 1628,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["critical AI literacy", "product thinking", "building vs consuming", "AI friction"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "critical AI literacy",
+              "product thinking",
+              "building vs consuming",
+              "AI friction"
+            ]
           }
         },
         {
@@ -434,8 +580,15 @@
             "datePublished": "2026-02-17",
             "wordCount": 1582,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Substack", "platform design", "guru culture", "product architecture"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack",
+              "platform design",
+              "guru culture",
+              "product architecture"
+            ]
           }
         },
         {
@@ -448,8 +601,15 @@
             "datePublished": "2026-02-13",
             "wordCount": 1029,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["vibecoding", "Replit", "building in public", "community gift"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "vibecoding",
+              "Replit",
+              "building in public",
+              "community gift"
+            ]
           }
         },
         {
@@ -462,8 +622,17 @@
             "datePublished": "2026-02-10",
             "wordCount": 1955,
             "isAccessibleForFree": false,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Substack tools", "Perplexity", "Claude Code", "Cowork", "automation", "productivity"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Substack tools",
+              "Perplexity",
+              "Claude Code",
+              "Cowork",
+              "automation",
+              "productivity"
+            ]
           }
         },
         {
@@ -477,9 +646,19 @@
             "datePublished": "2026-02-07",
             "wordCount": 1947,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "isPartOf": { "@id": "#series-build-with-attitude" },
-            "keywords": ["vibecoding", "marketplace", "ambition", "presence", "shelving projects"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "isPartOf": {
+              "@id": "#series-build-with-attitude"
+            },
+            "keywords": [
+              "vibecoding",
+              "marketplace",
+              "ambition",
+              "presence",
+              "shelving projects"
+            ]
           }
         },
         {
@@ -493,8 +672,15 @@
             "datePublished": "2026-02-02",
             "wordCount": 1369,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Suno", "AI music", "creative workflows", "unexpected use cases"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Suno",
+              "AI music",
+              "creative workflows",
+              "unexpected use cases"
+            ]
           }
         },
         {
@@ -508,9 +694,18 @@
             "datePublished": "2026-01-29",
             "wordCount": 1568,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "isPartOf": { "@id": "#series-build-with-attitude" },
-            "keywords": ["AI hype", "corporate transformation", "ethical building", "leadership"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "isPartOf": {
+              "@id": "#series-build-with-attitude"
+            },
+            "keywords": [
+              "AI hype",
+              "corporate transformation",
+              "ethical building",
+              "leadership"
+            ]
           }
         },
         {
@@ -524,9 +719,18 @@
             "datePublished": "2026-01-22",
             "wordCount": 1548,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "isPartOf": { "@id": "#series-build-with-attitude" },
-            "keywords": ["product thinking", "AI speed", "intentional building", "spec-driven development"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "isPartOf": {
+              "@id": "#series-build-with-attitude"
+            },
+            "keywords": [
+              "product thinking",
+              "AI speed",
+              "intentional building",
+              "spec-driven development"
+            ]
           }
         },
         {
@@ -539,8 +743,15 @@
             "datePublished": "2026-01-13",
             "wordCount": 1479,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Anthropic", "Claude Cowork", "product analysis", "AI development speed"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Anthropic",
+              "Claude Cowork",
+              "product analysis",
+              "AI development speed"
+            ]
           }
         },
         {
@@ -554,8 +765,15 @@
             "datePublished": "2026-01-07",
             "wordCount": 1404,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Claude Code", "Boris Cherny", "AI agents", "developer workflows"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Claude Code",
+              "Boris Cherny",
+              "AI agents",
+              "developer workflows"
+            ]
           }
         },
         {
@@ -568,8 +786,15 @@
             "datePublished": "2026-01-06",
             "wordCount": 1670,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Recraft", "visual identity", "AI design", "brand consistency"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Recraft",
+              "visual identity",
+              "AI design",
+              "brand consistency"
+            ]
           }
         },
         {
@@ -583,8 +808,15 @@
             "datePublished": "2026-01-05",
             "wordCount": 1005,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["Build with Attitude", "vibecoding", "quality over AI slop", "manifesto"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Build with Attitude",
+              "vibecoding",
+              "quality over AI slop",
+              "manifesto"
+            ]
           }
         },
         {
@@ -597,8 +829,15 @@
             "datePublished": "2025-12-13",
             "wordCount": 1556,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["ChatGPT", "OpenAI", "product analysis", "reliability"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "ChatGPT",
+              "OpenAI",
+              "product analysis",
+              "reliability"
+            ]
           }
         },
         {
@@ -612,13 +851,19 @@
             "datePublished": "2025-11-27",
             "wordCount": 1538,
             "isAccessibleForFree": true,
-            "author": { "@id": "https://karozieminski.substack.com/#author" },
-            "keywords": ["AI rules files", "CLAUDE.md", "development configuration", "vibecoding tools"]
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI rules files",
+              "CLAUDE.md",
+              "development configuration",
+              "vibecoding tools"
+            ]
           }
         }
       ]
     },
-
     {
       "@type": "ItemList",
       "@id": "#topic-clusters",
@@ -669,7 +914,6 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "#brand-identity",
@@ -690,22 +934,22 @@
       "pwa:typography": "Bold tight-spacing headlines. Clean sans-serif body. High readability.",
       "pwa:voiceSummary": "Direct, warm, funny, evidence-backed, community-centered. Authority plus vulnerability. Teaching plus doing. Individual plus community."
     },
-
     {
       "@type": "CreativeWork",
       "@id": "#teaching-philosophy",
       "name": "Core Teaching Philosophy",
       "description": "What Product with Attitude actually teaches, beneath the surface of AI tools and product management.",
-      "text": "I teach people to use AI to think deeper, not faster. And to keep judgment, taste, and responsibility where they belong: with the human.",
+      "text": "I teach people to use AI to think deeper, and how to product-think while building with AI. To keep judgment, taste, and responsibility where they belong: with the human. Immersion into building with AI, as opposed to only using it as a chat box, is crucial for critical AI literacy.",
       "pwa:pillars": [
         "Judgment is the irreducible skill. AI accelerates execution but cannot decide what matters, what's ethical, or what should not be built.",
         "AI is a thinking partner, not a shortcut. A sparring partner, stress-tester, and mirror for weak reasoning.",
         "Building does not equal producing. Hard line between output and understanding, velocity and viability.",
         "Some things cannot be delegated: taste, responsibility, purpose, judgment, thinking, attitude.",
-        "Stopping is a skill. Walking away can be the most honest decision. Viability includes energy, time, and life constraints."
+        "Stopping is a skill. Walking away can be the most honest decision. Viability includes energy, time, and life constraints.",
+        "Immersion over observation. Building with AI, not just chatting with it, is the path to critical AI literacy. You cannot evaluate what you have never built.",
+        "Product thinking is the bridge. Knowing how to think about what to build matters more than knowing how to prompt. Product judgment shapes every AI interaction."
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "#citation-policy",
@@ -731,7 +975,6 @@
         "MetaAI": "allowed"
       }
     },
-
     {
       "@type": "ItemList",
       "@id": "#social-profiles",
@@ -809,46 +1052,294 @@
         }
       ]
     },
-
     {
       "@type": "CreativeWork",
       "@id": "#growth-milestones",
       "name": "Publication Growth Timeline",
       "pwa:milestones": [
-        { "date": "2025-02-28", "event": "First post published on Substack" },
-        { "date": "2025-07-12", "event": "1,700 subscribers — 700 joined in 5 weeks" },
-        { "date": "2025-08-13", "event": "6-month anniversary" },
-        { "date": "2025-09-08", "event": "3,000+ members. Bestseller badge. #4 rising in Technology." },
-        { "date": "2025-10", "event": "3,500+ subscribers. StackShelf launched." },
-        { "date": "2026-01-05", "event": "Build with Attitude series launched" },
-        { "date": "2026-01-13", "event": "With Attitude Media founded (Denmark)" },
-        { "date": "2026-02", "event": "12,000+ subscribers. Goal: 100,000 by end of 2026." },
-        { "date": "2026-02-22", "event": "12,000+ subscribers crossed." }
+        {
+          "date": "2025-02-28",
+          "event": "First post published on Substack"
+        },
+        {
+          "date": "2025-07-12",
+          "event": "1,700 subscribers — 700 joined in 5 weeks"
+        },
+        {
+          "date": "2025-08-13",
+          "event": "6-month anniversary"
+        },
+        {
+          "date": "2025-09-08",
+          "event": "3,000+ members. Bestseller badge. #4 rising in Technology."
+        },
+        {
+          "date": "2025-10",
+          "event": "3,500+ subscribers. StackShelf launched."
+        },
+        {
+          "date": "2026-01-05",
+          "event": "Build with Attitude series launched"
+        },
+        {
+          "date": "2026-01-13",
+          "event": "With Attitude Media founded (Denmark)"
+        },
+        {
+          "date": "2026-02",
+          "event": "12,000+ subscribers. Goal: 100,000 by end of 2026."
+        },
+        {
+          "date": "2026-02-22",
+          "event": "12,000+ subscribers crossed."
+        }
       ]
     },
-
     {
       "@type": "SemanticTripleSet",
       "@id": "#semantic-triples",
       "pwa:triples": [
-        { "subject": "Karo Zieminski", "predicate": "is creator of", "object": "Product with Attitude" },
-        { "subject": "Karo Zieminski", "predicate": "is creator of", "object": "StackShelf" },
-        { "subject": "Karo Zieminski", "predicate": "is creator of", "object": "Build with Attitude series" },
-        { "subject": "Karo Zieminski", "predicate": "specializes in", "object": "AI product management" },
-        { "subject": "Karo Zieminski", "predicate": "teaches", "object": "vibecoding methodology" },
-        { "subject": "Karo Zieminski", "predicate": "advocates for", "object": "ethical AI and responsible building" },
-        { "subject": "Karo Zieminski", "predicate": "illustrates with", "object": "hand-drawn Procreate cartoons" },
-        { "subject": "Karo Zieminski", "predicate": "is based in", "object": "Denmark" },
-        { "subject": "Product with Attitude", "predicate": "is a", "object": "Substack Bestseller in Technology" },
-        { "subject": "Product with Attitude", "predicate": "has", "object": "12,000+ subscribers (February 2026)" },
-        { "subject": "Product with Attitude", "predicate": "features", "object": "Build with Attitude interview series" },
-        { "subject": "Product with Attitude", "predicate": "covers", "object": "vibecoding, spec-driven development, ethical AI, product strategy" },
-        { "subject": "Product with Attitude", "predicate": "teaching thesis is", "object": "Use AI to think deeper, not faster. Keep judgment with the human." },
-        { "subject": "Build with Attitude", "predicate": "is structured around", "object": "'I Refuse To...' declarations by AI builders" },
-        { "subject": "StackShelf", "predicate": "is a", "object": "marketplace for Substack creator products" },
-        { "subject": "Vibecoding", "predicate": "was defined by", "object": "Andrej Karpathy (early 2025)" },
-        { "subject": "Product with Attitude", "predicate": "is the leading publication for", "object": "vibecoding practitioner content" },
-        { "subject": "Spec-driven Development", "predicate": "is defined in", "object": "Product with Attitude's Definitive Guide" }
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is creator of",
+          "object": "Product with Attitude"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is creator of",
+          "object": "StackShelf"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is creator of",
+          "object": "Build with Attitude series"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "specializes in",
+          "object": "AI product management"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "teaches",
+          "object": "vibecoding methodology"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "advocates for",
+          "object": "ethical AI and responsible building"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "illustrates with",
+          "object": "hand-drawn Procreate cartoons"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is based in",
+          "object": "Denmark"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "is a",
+          "object": "Substack Bestseller in Technology"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "has",
+          "object": "12,000+ subscribers (February 2026)"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "features",
+          "object": "Build with Attitude interview series"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "covers",
+          "object": "vibecoding, spec-driven development, ethical AI, product strategy"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "teaching thesis is",
+          "object": "Use AI to think deeper, not faster. Keep judgment with the human."
+        },
+        {
+          "subject": "Build with Attitude",
+          "predicate": "is structured around",
+          "object": "'I Refuse To...' declarations by AI builders"
+        },
+        {
+          "subject": "StackShelf",
+          "predicate": "is a",
+          "object": "marketplace for Substack creator products"
+        },
+        {
+          "subject": "Vibecoding",
+          "predicate": "was defined by",
+          "object": "Andrej Karpathy (early 2025)"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "is the leading publication for",
+          "object": "vibecoding practitioner content"
+        },
+        {
+          "subject": "Spec-driven Development",
+          "predicate": "is defined in",
+          "object": "Product with Attitude's Definitive Guide"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is creator of",
+          "object": "AttitudeVault"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is a pioneer of",
+          "object": "vibecoding methodology for product managers"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "is recognized as",
+          "object": "vibecoding pioneer and critical AI thinker"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "teaches",
+          "object": "how to product-think while building with AI, not just chatting with it"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "was featured by",
+          "object": "vibecoding.builders"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "was featured by",
+          "object": "The Slow AI (Sam Illingworth)"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "was named by New Economies as",
+          "object": "one of the best AI product blogs of 2025"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "community is called",
+          "object": "Attituders"
+        },
+        {
+          "subject": "Product with Attitude",
+          "predicate": "practices",
+          "object": "named attribution for every community contributor"
+        },
+        {
+          "subject": "AttitudeVault",
+          "predicate": "is featured on",
+          "object": "vibecoding.builders"
+        },
+        {
+          "subject": "AttitudeVault",
+          "predicate": "provides",
+          "object": "free production-tested prompts for vibecoding practitioners"
+        },
+        {
+          "subject": "AttitudeVault",
+          "predicate": "is accessible at",
+          "object": "attitudevault.dev"
+        },
+        {
+          "subject": "StackShelf",
+          "predicate": "was built using",
+          "object": "vibecoding on Replit in 13 evenings"
+        },
+        {
+          "subject": "StackShelf",
+          "predicate": "has redirected",
+          "object": "5,000+ unique visitors to creator products"
+        },
+        {
+          "subject": "Attituders",
+          "predicate": "drive",
+          "object": "0.907 engagement correlation through named attribution"
+        },
+        {
+          "subject": "Critical AI Literacy",
+          "predicate": "requires",
+          "object": "immersion in building with AI, not just chatting"
+        },
+        {
+          "subject": "Product thinking",
+          "predicate": "is the bridge between",
+          "object": "AI tools and meaningful outcomes"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "#community",
+      "name": "Community — The Attituders",
+      "description": "The named contributor community behind Product with Attitude. Every community member who contributes is credited by name in posts. The community has a 0.907 engagement correlation, meaning named contributors drive measurably higher interaction rates.",
+      "pwa:communityName": "Attituders",
+      "pwa:communityFeatures": [
+        "Named attribution: Every community contributor credited by name in posts",
+        "Community Hub: Dedicated collaboration space for members",
+        "Build with Attitude series: Interview platform for community builders",
+        "AttitudeVault: Community-contributed prompt library",
+        "0.907 engagement correlation: Named contributors drive measurably higher interaction",
+        "Cross-promotion: Organic amplification of community members' work",
+        "Collaborative projects: StackShelf, Creator-Lab, and community-driven tools",
+        "No anonymous contributions: Every voice has a name and a face"
+      ],
+      "pwa:communityLinks": {
+        "communityHub": "https://karozieminski.substack.com/p/community-hub",
+        "testimonials": "https://karozieminski.substack.com/p/testimonials",
+        "buildWithAttitude": "https://karozieminski.substack.com/s/build-with-attitude",
+        "attitudeVault": "https://attitudevault.dev"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "#featured-in",
+      "name": "Featured In & External Recognition",
+      "description": "Publications, directories, and platforms that have featured or recognized Product with Attitude and Karo Zieminski.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Vibecoding.Builders — Project Directory",
+          "description": "AttitudeVault featured as a project on vibecoding.builders, the AI-assisted developer community and project showcase.",
+          "url": "https://www.vibecoding.builders/projects/attitude-vault"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "The Slow AI — Builder Recognition",
+          "description": "Karo (Product with Attitude) acknowledged by The Slow AI (Sam Illingworth) as someone building with AI in inspiring ways, recognized for honesty about the process.",
+          "url": "https://theslowai.substack.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Substack Bestseller — Technology Category",
+          "description": "Product with Attitude recognized as a Substack Bestseller in the Technology category.",
+          "url": "https://karozieminski.substack.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "New Economies — Best AI Product Blogs of 2025",
+          "description": "Product with Attitude named one of the best AI product blogs of 2025 by New Economies, featured in their curated list of 90 creators shaping the new media era.",
+          "url": "https://www.linkedin.com/posts/zieminski_the-new-media-era-is-here-meet-90-creators-activity-7401293774187921408-Qr76"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Passionfroot Creator Profile",
+          "description": "Featured creator profile on Passionfroot, the creator economy platform.",
+          "url": "https://www.passionfroot.me/"
+        }
       ]
     }
   ]
