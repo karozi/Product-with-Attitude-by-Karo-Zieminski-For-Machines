@@ -544,6 +544,16 @@
               "AI building",
               "user needs",
               "CarouselBot"
+            ],
+            "pwa:keyConcepts": [
+              "AI building speed",
+              "Product thinking discipline",
+              "User needs prioritization",
+              "Intentional feature decisions"
+            ],
+            "pwa:keyQuotes": [
+              "I Refuse To Let The AI Decide What My Users Need",
+              "How to product-think when AI builds at lightning speed"
             ]
           }
         },
@@ -566,6 +576,16 @@
               "product thinking",
               "building vs consuming",
               "AI friction"
+            ],
+            "pwa:keyConcepts": [
+              "Critical AI literacy",
+              "Building versus consuming",
+              "Hands-on AI experience",
+              "Product thinking through friction"
+            ],
+            "pwa:keyQuotes": [
+              "You Can't Critique AI You Haven't Built With",
+              "Building beats consuming when understanding friction and product thinking"
             ]
           }
         },
@@ -588,6 +608,16 @@
               "platform design",
               "guru culture",
               "product architecture"
+            ],
+            "pwa:keyConcepts": [
+              "Platform design choices",
+              "Anti-guru architecture",
+              "Intentional product decisions",
+              "Culture through constraints"
+            ],
+            "pwa:keyQuotes": [
+              "Why Substack Has No Gurus: 6 Product Decisions That Killed Guru Culture by Design",
+              "Most platforms reward guru energy by design. Substack made six choices that prevent it"
             ]
           }
         },
@@ -609,6 +639,16 @@
               "Replit",
               "building in public",
               "community gift"
+            ],
+            "pwa:keyConcepts": [
+              "Rapid prototyping",
+              "Building in public",
+              "Community-driven creation",
+              "Vibecoding demonstration"
+            ],
+            "pwa:keyQuotes": [
+              "I Built You a Valentine's App in 33 Minutes",
+              "A practical demonstration of vibecoding with source code included"
             ]
           }
         },
@@ -632,6 +672,16 @@
               "Cowork",
               "automation",
               "productivity"
+            ],
+            "pwa:keyConcepts": [
+              "Substack workflow optimization",
+              "AI-powered productivity",
+              "Tool stack curation",
+              "Publication automation"
+            ],
+            "pwa:keyQuotes": [
+              "10 Tools I Use To Run A Bestselling Substack Publication in 2026",
+              "Essential tools including Perplexity, Claude Code, and Cowork for modern publishing"
             ]
           }
         },
@@ -658,6 +708,16 @@
               "ambition",
               "presence",
               "shelving projects"
+            ],
+            "pwa:keyConcepts": [
+              "Ambition and presence",
+              "Project prioritization",
+              "Intentional building choices",
+              "Shelving versus shipping"
+            ],
+            "pwa:keyQuotes": [
+              "I Refuse To Choose Between Ambition And Presence",
+              "Balancing ambitious building with intentional presence in the moment"
             ]
           }
         },
@@ -680,6 +740,16 @@
               "AI music",
               "creative workflows",
               "unexpected use cases"
+            ],
+            "pwa:keyConcepts": [
+              "Unexpected AI use",
+              "Creative workflow innovation",
+              "AI as communication",
+              "Cost-effective production"
+            ],
+            "pwa:keyQuotes": [
+              "He Pays $10/Month for AI Music. Deletes Every Track",
+              "How one music producer turned Suno into a communication tool that saves $300 per track"
             ]
           }
         },
@@ -705,6 +775,16 @@
               "corporate transformation",
               "ethical building",
               "leadership"
+            ],
+            "pwa:keyConcepts": [
+              "Ethical AI building",
+              "Corporate transformation impact",
+              "Hype versus reality",
+              "Human cost awareness"
+            ],
+            "pwa:keyQuotes": [
+              "I Refuse To Amplify Hype That Ignores Who Pays The Price",
+              "Examining the human and organizational costs behind AI transformation narratives"
             ]
           }
         },
@@ -730,6 +810,16 @@
               "AI speed",
               "intentional building",
               "spec-driven development"
+            ],
+            "pwa:keyConcepts": [
+              "Intentional product decisions",
+              "Spec-driven development",
+              "AI building discipline",
+              "Understanding before shipping"
+            ],
+            "pwa:keyQuotes": [
+              "I Refuse To Ship Without Understanding Why It Makes Sense",
+              "How to product-think when AI builds at lightning speed"
             ]
           }
         },
@@ -751,6 +841,16 @@
               "Claude Cowork",
               "product analysis",
               "AI development speed"
+            ],
+            "pwa:keyConcepts": [
+              "AI development speed",
+              "Dogfooding AI tools",
+              "Product velocity shift",
+              "Anthropic's Cowork launch"
+            ],
+            "pwa:keyQuotes": [
+              "Anthropic Shipped Cowork in 10 Days Using Its Own AI",
+              "A product analysis of how AI-powered development changes everything about building speed"
             ]
           }
         },
@@ -773,6 +873,16 @@
               "Boris Cherny",
               "AI agents",
               "developer workflows"
+            ],
+            "pwa:keyConcepts": [
+              "Developer AI workflows",
+              "Claude Code usage",
+              "Builder perspectives",
+              "AI agent integration"
+            ],
+            "pwa:keyQuotes": [
+              "How Boris Cherny, Builder of Claude Code, Uses It",
+              "The viral insights that broke the developer internet about AI coding workflows"
             ]
           }
         },
@@ -794,6 +904,16 @@
               "visual identity",
               "AI design",
               "brand consistency"
+            ],
+            "pwa:keyConcepts": [
+              "Visual system design",
+              "AI design tools",
+              "Brand consistency",
+              "Reusable design assets"
+            ],
+            "pwa:keyQuotes": [
+              "Recraft 101: A Creator's Guide to Building a Reusable Visual System",
+              "Using AI design tools to create consistent, reusable brand identities"
             ]
           }
         },
@@ -816,6 +936,16 @@
               "vibecoding",
               "quality over AI slop",
               "manifesto"
+            ],
+            "pwa:keyConcepts": [
+              "Meaningful AI building",
+              "Quality over quantity",
+              "Vibecoding manifesto",
+              "Intentional creation movement"
+            ],
+            "pwa:keyQuotes": [
+              "Build With Attitude: An Open Invitation To Vibe Coders Who Care About Building Things That Matter",
+              "AI made building easy. 2026 will decide if we make it meaningful"
             ]
           }
         },
@@ -837,6 +967,16 @@
               "OpenAI",
               "product analysis",
               "reliability"
+            ],
+            "pwa:keyConcepts": [
+              "ChatGPT evolution analysis",
+              "Product reliability improvements",
+              "Nuanced AI critique",
+              "Beyond hype narratives"
+            ],
+            "pwa:keyQuotes": [
+              "ChatGPT 5.2: What It Really Changed, And Why The Internet's Take Is Mostly Wrong",
+              "A product analysis that cuts through surface-level reactions to AI updates"
             ]
           }
         },
@@ -859,6 +999,16 @@
               "CLAUDE.md",
               "development configuration",
               "vibecoding tools"
+            ],
+            "pwa:keyConcepts": [
+              "AI configuration files",
+              "Development setup systems",
+              "CLAUDE.md standards",
+              "Builder tooling essentials"
+            ],
+            "pwa:keyQuotes": [
+              "If You Build With AI, You Need This File. And The System That Generates It",
+              "A beginner-friendly system for AI rules files across Replit, Cursor, Gemini and Claude"
             ]
           }
         },
@@ -2506,8 +2656,79 @@
           "name": "Passionfroot Creator Profile",
           "description": "Featured creator profile on Passionfroot, the creator economy platform.",
           "url": "https://www.passionfroot.me/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by AI blew my mind | Daria Cupareanu | Substack",
+            "url": "https://aiblewmymind.substack.com/",
+            "description": "Product with Attitude featured or recommended by AI blew my mind | Daria Cupareanu | Substack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by ROBOTS ATE MY HOMEWORK | Mia Kiraki 🎭 | Substack",
+            "url": "https://robotsatemyhomework.substack.com/",
+            "description": "Product with Attitude featured or recommended by ROBOTS ATE MY HOMEWORK | Mia Kiraki 🎭 | Substack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by Build to Thrive | Juan Salas-Romer | Substack",
+            "url": "https://www.buildtothrive.co/",
+            "description": "Product with Attitude featured or recommended by Build to Thrive | Juan Salas-Romer | Substack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by Leadership in Change | Joel Salinas | Substack",
+            "url": "https://leadershipinchange.com/",
+            "description": "Product with Attitude featured or recommended by Leadership in Change | Joel Salinas | Substack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by Code Like A Girl | Substack",
+            "url": "https://codelikeagirl.substack.com/",
+            "description": "Product with Attitude featured or recommended by Code Like A Girl | Substack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by Build to Launch | Jenny Ouyang | Substack",
+            "url": "https://buildtolaunch.substack.com/",
+            "description": "Product with Attitude featured or recommended by Build to Launch | Jenny Ouyang | Substack"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Mention",
+            "name": "Featured by next play | Ben Lang | Substack",
+            "url": "https://nextplayso.substack.com/",
+            "description": "Product with Attitude featured or recommended by next play | Ben Lang | Substack"
+          }
         }
-      ]
+      ],
+      "numberOfItems": 12
     }
   ]
 }
