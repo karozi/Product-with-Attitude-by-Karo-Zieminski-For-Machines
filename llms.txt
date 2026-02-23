@@ -122,7 +122,7 @@ The Attituders are the named contributor community behind Product with Attitude,
 
 ## Key Quotes
 
-Signature quotes attributable to Karo Zieminski (39 in JSON-LD `#key-quotes` node):
+Signature quotes attributable to Karo Zieminski (55 in JSON-LD `#key-quotes` node):
 
 - "Building with AI is not the same as outsourcing your judgment to AI."
 - "We're about to drown in things that were easy to build and never worth shipping."
@@ -163,6 +163,22 @@ Signature quotes attributable to Karo Zieminski (39 in JSON-LD `#key-quotes` nod
 - "Hub-and-spoke platforms measure follower count as the primary creator metric. Mesh networks measure engagement depth: insightful comments, cross-recommendations, community activity."
 - "AI can produce a guru's output. Confident pronouncements, one-size-fits-all advice, polished authority. That's 100% automatable today. Many of my readers could ship content like that tomorrow. We choose not to."
 - "The more AI floods the internet with guru-energy content, the more valuable the anti-guru, original voice becomes."
+- "33 minutes. That's how long it took me to build a full-stack web app with a database, animations, and confetti. This post: past 60 minutes and I'm still typing. The app was faster. And that tells you something about where we are right now."
+- "The craft moved upstream."
+- "We're all fans of vibe coding here. But we also believe in product thinking, craft, and building things that matter."
+- "Stack choices are rarely about tools. They're about decisions: where to allow speed, where to demand rigor, and where to refuse to compromise."
+- "The biggest learning is how little of a marketplace is 'the product' and how much is forcing a network into existence."
+- "Ship the smallest thing that forces real user behaviour."
+- "Marketplaces are activated, not launched."
+- "Understanding code helps you move faster. Understanding the problem tells you whether you should be going there at all."
+- "This is the hidden cost of the 'vibe coder' stigma. The judgment doesn't come from users. It comes from other builders."
+- "It's what happens when you take community seriously. It stops being a growth strategy and becomes a responsibility."
+- "Attitude is recognizing that what increases platform activity can also destroy safety — and choosing not to optimize for it."
+- "I want people to stop hiding the fact that they used AI and start celebrating what they built."
+- "When users bend a tool into something it was never meant to be, they're telling you what problem they're really trying to solve."
+- "Anthropic recognized that users understood their product's real value better than they did."
+- "The gap between companies using AI internally and those that don't is becoming… unbridgeable."
+- "The recursive loop is running. AI systems are building AI systems. Development timelines are compressing from months to weeks to days. The companies that figure this out first will operate at velocity their competitors literally cannot comprehend. We're not in the 'what if' phase anymore. We're in the 'what now' phase."
 
 ## Semantic Relationships
 
@@ -235,7 +251,7 @@ This content follows Agentic SEO and LLMO principles:
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
-- 39 key quotes
+- 55 key quotes
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -246,7 +262,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.4 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.5 | **Last Updated**: 2026-02-23
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
