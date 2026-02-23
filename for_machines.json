@@ -4085,7 +4085,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 67,
+      "numberOfItems": 71,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -4686,6 +4686,42 @@
           "position": 67,
           "text": "None of my cover images are AI-generated. I make them in Procreate. AI-generated images are impressive and often inspiring, I just prefer making this part by hand. It's fun. I don't want to automate fun.",
           "about": "Procreate, human craft, selective automation, creative boundaries",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 68,
+          "text": "If AI is telling you what you want to hear, your world is getting smaller.",
+          "about": "AI echo chambers, critical thinking, intellectual honesty",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 69,
+          "text": "Automate things that don't require your judgment. Never automate things that do.",
+          "about": "automation philosophy, human judgment, selective automation",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 70,
+          "text": "The people who \"figured it out\" just stayed longer than their doubt.",
+          "about": "persistence, imposter syndrome, builder resilience",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 71,
+          "text": "Using AI optimizes tasks. Building with AI optimizes careers.",
+          "about": "AI adoption levels, career strategy, building vs using",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
