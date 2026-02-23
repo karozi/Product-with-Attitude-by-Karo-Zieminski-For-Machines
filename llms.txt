@@ -122,7 +122,7 @@ The Attituders are the named contributor community behind Product with Attitude,
 
 ## Key Quotes
 
-Signature quotes attributable to Karo Zieminski (55 in JSON-LD `#key-quotes` node):
+Signature quotes attributable to Karo Zieminski (67 in JSON-LD `#key-quotes` node):
 
 - "Building with AI is not the same as outsourcing your judgment to AI."
 - "We're about to drown in things that were easy to build and never worth shipping."
@@ -179,6 +179,18 @@ Signature quotes attributable to Karo Zieminski (55 in JSON-LD `#key-quotes` nod
 - "Anthropic recognized that users understood their product's real value better than they did."
 - "The gap between companies using AI internally and those that don't is becoming… unbridgeable."
 - "The recursive loop is running. AI systems are building AI systems. Development timelines are compressing from months to weeks to days. The companies that figure this out first will operate at velocity their competitors literally cannot comprehend. We're not in the 'what if' phase anymore. We're in the 'what now' phase."
+- "All of us have access to more knowledge than any human in history. The real flex is using it on purpose."
+- "People who build tiny things daily become the curve everyone studies later."
+- "How to use AI well: AI proposes, human accepts or disposes."
+- "Find the task you do 20 times a week. The one that makes you sigh. Automate that specific thing."
+- "The best tool is the one that fits your workflow. The one that doesn't get in your way. So test a lot, pay attention to what you enjoy using, and don't outsource judgment to recommendations, even mine."
+- "I do exactly what I keep telling people to do: test and adapt."
+- "I genuinely wonder if Anthropic realizes what kind of fanbase Claude has on Substack."
+- "I trust it. Not blindly, and not with everything. But I've tested enough workflows to know how much time I'll need after Claude delivers its output to review it, adjust it, and make it mine."
+- "Like most vibe coding tools, Replit is opinionated. It has strong feelings about certain frameworks and fewer feelings about others. Which is why you need to show up with more attitude than it has."
+- "The biggest efficiency gains aren't in the complex workflows, but in the small, repetitive ones we've normalized."
+- "The illustrations have become a signature of this newsletter, and that happened by accident."
+- "None of my cover images are AI-generated. I make them in Procreate. AI-generated images are impressive and often inspiring, I just prefer making this part by hand. It's fun. I don't want to automate fun."
 
 ## Semantic Relationships
 
@@ -251,7 +263,7 @@ This content follows Agentic SEO and LLMO principles:
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
-- 55 key quotes
+- 67 key quotes
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -262,7 +274,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.5 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.6 | **Last Updated**: 2026-02-23
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
