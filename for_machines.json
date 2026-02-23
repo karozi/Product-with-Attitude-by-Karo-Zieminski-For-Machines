@@ -4079,6 +4079,150 @@
         }
       ],
       "numberOfItems": 15
+    },
+    {
+      "@type": "ItemList",
+      "@id": "#key-quotes",
+      "name": "Key Quotes by Karo Zieminski",
+      "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
+      "numberOfItems": 15,
+      "itemListElement": [
+        {
+          "@type": "Quotation",
+          "position": 1,
+          "text": "Building with AI is not the same as outsourcing your judgment to AI.",
+          "about": "AI philosophy, human judgment",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 2,
+          "text": "We're about to drown in things that were easy to build and never worth shipping.",
+          "about": "AI slop, product quality",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 3,
+          "text": "AI made building easy. 2026 will decide if we make it meaningful.",
+          "about": "AI industry direction, builder responsibility",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 4,
+          "text": "Building with AI is getting easier, but thinking well is not.",
+          "about": "critical thinking, AI literacy",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 5,
+          "text": "If I do something annoying more than twice, I automate it.",
+          "about": "automation philosophy, builder mindset",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 6,
+          "text": "Community doesn't scale by accident.",
+          "about": "community building, growth strategy",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 7,
+          "text": "Curiosity is the only ticket in.",
+          "about": "community philosophy, inclusion",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 8,
+          "text": "Building great things with AI requires more than tools. It requires skills, taste, curiosity, and a little defiance toward mediocrity.",
+          "about": "product craft, AI building philosophy",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 9,
+          "text": "The people who 'figured it out' just stayed longer than their doubt.",
+          "about": "persistence, builder mindset",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 10,
+          "text": "'But I'm not a developer.' Neither is half of Substack, and look what they're building.",
+          "about": "democratization of building, no-code empowerment",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 11,
+          "text": "Using AI optimizes tasks. Building with AI optimizes careers.",
+          "about": "career strategy, AI adoption levels",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 12,
+          "text": "In 2026, credibility = expertise x clarity x stance.",
+          "about": "personal branding, thought leadership",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 13,
+          "text": "I like turning ugly drafts into beautiful things.",
+          "about": "creative process, craft",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 14,
+          "text": "AI slop is what happens when execution is automated but responsibility is not.",
+          "about": "AI quality, product responsibility",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 15,
+          "text": "Learn to build with AI. Not 'learn to use AI tools.' There's a difference. That difference is your career.",
+          "about": "career advice, building vs using, Product with Attitude mission",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        }
+      ]
     }
   ]
 }
