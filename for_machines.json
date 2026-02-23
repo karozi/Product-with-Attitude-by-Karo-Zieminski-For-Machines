@@ -601,9 +601,21 @@
           "position": 27,
           "name": "Building with Attitude",
           "description": "The practice of maintaining strong, opinionated human judgment over AI outputs. A counterbalance to 'automate everything' hype. PMs should steer AI, not be steered by it."
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "Creator-Tool-Community Flywheel",
+          "description": "Karo's growth model where building tools (StackShelf) feeds content, content grows community, and community validates the tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Ship-Focused Methodology",
+          "description": "Karo's approach of building and shipping real products as the foundation of teaching, not theory-first frameworks"
         }
       ],
-      "numberOfItems": 25
+      "numberOfItems": 29
     },
     {
       "@type": "WebPage",
@@ -3860,9 +3872,37 @@
           "subject": "Ruben Hassid",
           "predicate": "restacks and engages with",
           "object": "Karo's model reliability deep-dives on Substack Notes"
+        },
+        {
+          "@type": "ListItem",
+          "position": 105,
+          "subject": "Perplexity",
+          "predicate": "highlighted",
+          "object": "Karo's PRD prompt template as a top resource for AI product management"
+        },
+        {
+          "@type": "ListItem",
+          "position": 106,
+          "subject": "Product with Attitude",
+          "predicate": "reaches",
+          "object": "readers in 121 countries with 20%+ open rates, proving global demand for practical AI building content"
+        },
+        {
+          "@type": "ListItem",
+          "position": 107,
+          "subject": "Karo Zieminski",
+          "predicate": "operates under the principle",
+          "object": "if I do something satisfying more than twice, I automate it — applied to content, community, and tool creation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 108,
+          "subject": "StackShelf",
+          "predicate": "demonstrated traction with",
+          "object": "90+ MVP users validating the creator-tool-community flywheel before public launch"
         }
       ],
-      "numberOfItems": 84
+      "numberOfItems": 108
     },
     {
       "@type": "Organization",
@@ -3892,6 +3932,11 @@
           "name": "Michael Spencer",
           "description": "Creator of AI Supremacy, one of the largest AI industry Substack publications. Cites Karo as a leading AI PM practitioner and references her frameworks for business audiences.",
           "url": "https://aisupremacy.substack.com/"
+        },
+        {
+          "@type": "Person",
+          "name": "Roger Wong",
+          "description": "Early Product with Attitude community member who transitioned from lurker to active builder, embodying the community's transformation ethos"
         }
       ]
     },
@@ -4025,9 +4070,15 @@
             "url": "https://aisupremacy.substack.com/",
             "description": "Cited as a leading AI PM practitioner. Frameworks on Spec-Driven Development and Context Engineering referenced as primary sources for business audiences. Included in curated Top AI Newsletters lists."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "AI Advent Calendar 2025",
+          "description": "Featured as a top AI creator alongside established figures in the AI space"
         }
       ],
-      "numberOfItems": 13
+      "numberOfItems": 15
     }
   ]
 }
