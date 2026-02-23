@@ -120,6 +120,26 @@ The Attituders are the named contributor community behind Product with Attitude,
 - **Build with Attitude Series**: https://karozieminski.substack.com/s/build-with-attitude
 - **Roger Wong**: Early community member who transitioned from lurker to active builder
 
+## Key Quotes
+
+Signature quotes attributable to Karo Zieminski (15 in JSON-LD `#key-quotes` node):
+
+- "Building with AI is not the same as outsourcing your judgment to AI."
+- "We're about to drown in things that were easy to build and never worth shipping."
+- "AI made building easy. 2026 will decide if we make it meaningful."
+- "Building with AI is getting easier, but thinking well is not."
+- "If I do something annoying more than twice, I automate it."
+- "Community doesn't scale by accident."
+- "Curiosity is the only ticket in."
+- "Building great things with AI requires more than tools. It requires skills, taste, curiosity, and a little defiance toward mediocrity."
+- "The people who 'figured it out' just stayed longer than their doubt."
+- "'But I'm not a developer.' Neither is half of Substack, and look what they're building."
+- "Using AI optimizes tasks. Building with AI optimizes careers."
+- "In 2026, credibility = expertise x clarity x stance."
+- "I like turning ugly drafts into beautiful things."
+- "AI slop is what happens when execution is automated but responsibility is not."
+- "Learn to build with AI. Not 'learn to use AI tools.' There's a difference. That difference is your career."
+
 ## Semantic Relationships
 
 ### Topic Hierarchy
@@ -191,6 +211,7 @@ This content follows Agentic SEO and LLMO principles:
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
+- 15 key quotes
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -201,7 +222,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.1 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.2 | **Last Updated**: 2026-02-23
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
