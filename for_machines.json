@@ -4085,7 +4085,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 15,
+      "numberOfItems": 27,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -4218,6 +4218,114 @@
           "position": 15,
           "text": "Learn to build with AI. Not 'learn to use AI tools.' There's a difference. That difference is your career.",
           "about": "career advice, building vs using, Product with Attitude mission",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 16,
+          "text": "Understanding different AI systems and design philosophies contributes to critical AI literacy.",
+          "about": "critical AI literacy, comparative AI analysis",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 17,
+          "text": "Friction is where learning happens. And we've been engineering it out.",
+          "about": "learning philosophy, AI friction, cognitive development",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 18,
+          "text": "I keep saying: build with AI. I don't necessarily mean launch a startup. I mean use AI for more than just a chat box. Design your own workflows, assemble your own systems, put together micro apps that only you'll use, test different scenarios.",
+          "about": "building with AI, practical AI adoption, builder mindset",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 19,
+          "text": "Tools are never neutral. They carry the fingerprints of their creators. You can't separate a tool from the company that funds it.",
+          "about": "AI ethics, tool philosophy, critical thinking",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 20,
+          "text": "Values travel through code.",
+          "about": "AI ethics, technology philosophy",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 21,
+          "text": "Digital literacy, in the deepest sense, is pattern recognition.",
+          "about": "digital literacy, critical thinking",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 22,
+          "text": "When we use AI daily, we stop asking 'Which one is best?' and start asking 'Best for what?' That shift is not small. It's the difference between being a consumer and being a practitioner.",
+          "about": "AI practitioner mindset, consumer vs builder",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 23,
+          "text": "I encourage everyone to use multiple AI systems, as a discipline. Each one exposes blind spots the others protect. Navigating those differences forces decisions that no single tool demands of you.",
+          "about": "multi-model strategy, critical AI literacy",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 24,
+          "text": "We need a willingness to be early, to learn, and to share what we've learned. The tools will evolve. Our edge depends on evolving with them.",
+          "about": "early adoption, continuous learning, builder community",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 25,
+          "text": "Bigger models aren't automatically better futures.",
+          "about": "AI industry critique, model scaling",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 26,
+          "text": "The risk isn't that humans can't think, it's that we won't need to. If nothing pushes our reasoning, our reasoning stops pushing back. The most advanced era in history could also be the most cognitively complacent.",
+          "about": "cognitive complacency, AI risk, critical thinking",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 27,
+          "text": "Critical AI literacy doesn't begin with a course. It begins the moment you stop asking which AI is best and start asking what it was built to do, for whom, and at whose expense.",
+          "about": "critical AI literacy, AI ethics, education",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
