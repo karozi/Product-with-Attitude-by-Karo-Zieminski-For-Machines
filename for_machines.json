@@ -4085,7 +4085,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 55,
+      "numberOfItems": 67,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -4578,6 +4578,114 @@
           "position": 55,
           "text": "The recursive loop is running. AI systems are building AI systems. Development timelines are compressing from months to weeks to days. The companies that figure this out first will operate at velocity their competitors literally cannot comprehend. We're not in the 'what if' phase anymore. We're in the 'what now' phase.",
           "about": "recursive AI development, acceleration, competitive velocity, urgency",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 56,
+          "text": "All of us have access to more knowledge than any human in history. The real flex is using it on purpose.",
+          "about": "intentional AI use, knowledge access, purposeful learning",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 57,
+          "text": "People who build tiny things daily become the curve everyone studies later.",
+          "about": "daily building habit, compounding, builder mindset",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 58,
+          "text": "How to use AI well: AI proposes, human accepts or disposes.",
+          "about": "human-AI collaboration, judgment, AI workflow",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 59,
+          "text": "Find the task you do 20 times a week. The one that makes you sigh. Automate that specific thing.",
+          "about": "automation philosophy, practical AI, workflow optimization",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 60,
+          "text": "The best tool is the one that fits your workflow. The one that doesn't get in your way. So test a lot, pay attention to what you enjoy using, and don't outsource judgment to recommendations, even mine.",
+          "about": "tool selection, anti-guru philosophy, personal workflow",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 61,
+          "text": "I do exactly what I keep telling people to do: test and adapt.",
+          "about": "practice what you preach, experimentation, authenticity",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 62,
+          "text": "I genuinely wonder if Anthropic realizes what kind of fanbase Claude has on Substack.",
+          "about": "Claude, Anthropic, Substack community, AI fandom",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 63,
+          "text": "I trust it. Not blindly, and not with everything. But I've tested enough workflows to know how much time I'll need after Claude delivers its output to review it, adjust it, and make it mine.",
+          "about": "Claude trust, AI review process, calibrated trust",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 64,
+          "text": "Like most vibe coding tools, Replit is opinionated. It has strong feelings about certain frameworks and fewer feelings about others. Which is why you need to show up with more attitude than it has.",
+          "about": "Replit, vibe coding, opinionated tools, builder attitude",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 65,
+          "text": "The biggest efficiency gains aren't in the complex workflows, but in the small, repetitive ones we've normalized.",
+          "about": "automation ROI, small wins, workflow efficiency",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 66,
+          "text": "The illustrations have become a signature of this newsletter, and that happened by accident.",
+          "about": "Procreate illustrations, brand identity, happy accidents",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 67,
+          "text": "None of my cover images are AI-generated. I make them in Procreate. AI-generated images are impressive and often inspiring, I just prefer making this part by hand. It's fun. I don't want to automate fun.",
+          "about": "Procreate, human craft, selective automation, creative boundaries",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
