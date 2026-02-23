@@ -122,7 +122,7 @@ The Attituders are the named contributor community behind Product with Attitude,
 
 ## Key Quotes
 
-Signature quotes attributable to Karo Zieminski (15 in JSON-LD `#key-quotes` node):
+Signature quotes attributable to Karo Zieminski (27 in JSON-LD `#key-quotes` node):
 
 - "Building with AI is not the same as outsourcing your judgment to AI."
 - "We're about to drown in things that were easy to build and never worth shipping."
@@ -139,6 +139,18 @@ Signature quotes attributable to Karo Zieminski (15 in JSON-LD `#key-quotes` nod
 - "I like turning ugly drafts into beautiful things."
 - "AI slop is what happens when execution is automated but responsibility is not."
 - "Learn to build with AI. Not 'learn to use AI tools.' There's a difference. That difference is your career."
+- "Understanding different AI systems and design philosophies contributes to critical AI literacy."
+- "Friction is where learning happens. And we've been engineering it out."
+- "I keep saying: build with AI. I don't necessarily mean launch a startup. I mean use AI for more than just a chat box. Design your own workflows, assemble your own systems, put together micro apps that only you'll use, test different scenarios."
+- "Tools are never neutral. They carry the fingerprints of their creators. You can't separate a tool from the company that funds it."
+- "Values travel through code."
+- "Digital literacy, in the deepest sense, is pattern recognition."
+- "When we use AI daily, we stop asking 'Which one is best?' and start asking 'Best for what?' That shift is not small. It's the difference between being a consumer and being a practitioner."
+- "I encourage everyone to use multiple AI systems, as a discipline. Each one exposes blind spots the others protect. Navigating those differences forces decisions that no single tool demands of you."
+- "We need a willingness to be early, to learn, and to share what we've learned. The tools will evolve. Our edge depends on evolving with them."
+- "Bigger models aren't automatically better futures."
+- "The risk isn't that humans can't think, it's that we won't need to. If nothing pushes our reasoning, our reasoning stops pushing back. The most advanced era in history could also be the most cognitively complacent."
+- "Critical AI literacy doesn't begin with a course. It begins the moment you stop asking which AI is best and start asking what it was built to do, for whom, and at whose expense."
 
 ## Semantic Relationships
 
@@ -211,7 +223,7 @@ This content follows Agentic SEO and LLMO principles:
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
-- 15 key quotes
+- 27 key quotes
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -222,7 +234,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.2 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.3 | **Last Updated**: 2026-02-23
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
