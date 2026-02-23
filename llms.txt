@@ -122,7 +122,7 @@ The Attituders are the named contributor community behind Product with Attitude,
 
 ## Key Quotes
 
-Signature quotes attributable to Karo Zieminski (27 in JSON-LD `#key-quotes` node):
+Signature quotes attributable to Karo Zieminski (39 in JSON-LD `#key-quotes` node):
 
 - "Building with AI is not the same as outsourcing your judgment to AI."
 - "We're about to drown in things that were easy to build and never worth shipping."
@@ -151,6 +151,18 @@ Signature quotes attributable to Karo Zieminski (27 in JSON-LD `#key-quotes` nod
 - "Bigger models aren't automatically better futures."
 - "The risk isn't that humans can't think, it's that we won't need to. If nothing pushes our reasoning, our reasoning stops pushing back. The most advanced era in history could also be the most cognitively complacent."
 - "Critical AI literacy doesn't begin with a course. It begins the moment you stop asking which AI is best and start asking what it was built to do, for whom, and at whose expense."
+- "As a PM, I always look for ways to score the experience based on impact it has on users. The leap from 'nice' to 'wow' is about how the tool makes you feel, not just what it does."
+- "These systems are already unsettlingly competent. And like all unsettlingly competent things, it leaves you wondering: How can I, the human, upskill myself to stay relevant?"
+- "I'm fascinated by how people actually use products. Not the way they're marketed. The workarounds, custom workflows and sideways ways they solve real problems."
+- "Substack's founding story is itself an anti-guru parable."
+- "You don't retain a paying subscriber with rage bait. You retain them by being worth $5 a month, every month."
+- "Gurus need algorithms that amplify a single voice to millions. Gardeners need relationships rooted in trust."
+- "When a writer isn't chasing virality, they can be the same person in post #3 and post #300."
+- "You can't become a guru on a platform where other writers and readers control who gets recommended."
+- "Most platforms treat lock-in as a moat. Substack treats portability as one. That's the kind of counterintuitive product decision that only makes sense when you've correctly identified what you're actually selling: not content, but trust."
+- "Hub-and-spoke platforms measure follower count as the primary creator metric. Mesh networks measure engagement depth: insightful comments, cross-recommendations, community activity."
+- "AI can produce a guru's output. Confident pronouncements, one-size-fits-all advice, polished authority. That's 100% automatable today. Many of my readers could ship content like that tomorrow. We choose not to."
+- "The more AI floods the internet with guru-energy content, the more valuable the anti-guru, original voice becomes."
 
 ## Semantic Relationships
 
@@ -223,7 +235,7 @@ This content follows Agentic SEO and LLMO principles:
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
-- 27 key quotes
+- 39 key quotes
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -234,7 +246,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.3 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.4 | **Last Updated**: 2026-02-23
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
