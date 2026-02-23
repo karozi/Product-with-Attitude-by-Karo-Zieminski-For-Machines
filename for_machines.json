@@ -4085,7 +4085,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 39,
+      "numberOfItems": 55,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -4434,6 +4434,150 @@
           "position": 39,
           "text": "The more AI floods the internet with guru-energy content, the more valuable the anti-guru, original voice becomes.",
           "about": "AI content saturation, originality premium, anti-guru value",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 40,
+          "text": "33 minutes. That's how long it took me to build a full-stack web app with a database, animations, and confetti. This post: past 60 minutes and I'm still typing. The app was faster. And that tells you something about where we are right now.",
+          "about": "vibe coding, speed of AI development, writing vs building",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 41,
+          "text": "The craft moved upstream.",
+          "about": "product thinking, AI shifting creative work to higher-order decisions",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 42,
+          "text": "We're all fans of vibe coding here. But we also believe in product thinking, craft, and building things that matter.",
+          "about": "vibe coding philosophy, product craft, community values",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 43,
+          "text": "Stack choices are rarely about tools. They're about decisions: where to allow speed, where to demand rigor, and where to refuse to compromise.",
+          "about": "technical decision-making, product architecture, engineering trade-offs",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 44,
+          "text": "The biggest learning is how little of a marketplace is 'the product' and how much is forcing a network into existence.",
+          "about": "marketplace building, StackShelf, network effects",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 45,
+          "text": "Ship the smallest thing that forces real user behaviour.",
+          "about": "product development, MVP philosophy, marketplace activation",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 46,
+          "text": "Marketplaces are activated, not launched.",
+          "about": "marketplace strategy, StackShelf, network activation",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 47,
+          "text": "Understanding code helps you move faster. Understanding the problem tells you whether you should be going there at all.",
+          "about": "product thinking vs technical skill, problem-first approach",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 48,
+          "text": "This is the hidden cost of the 'vibe coder' stigma. The judgment doesn't come from users. It comes from other builders.",
+          "about": "vibe coding stigma, builder culture, community dynamics",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 49,
+          "text": "It's what happens when you take community seriously. It stops being a growth strategy and becomes a responsibility.",
+          "about": "community building, Substack community, creator responsibility",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 50,
+          "text": "Attitude is recognizing that what increases platform activity can also destroy safety — and choosing not to optimize for it.",
+          "about": "platform ethics, safety vs growth, Product with Attitude values",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 51,
+          "text": "I want people to stop hiding the fact that they used AI and start celebrating what they built.",
+          "about": "AI transparency, builder pride, anti-stigma",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 52,
+          "text": "When users bend a tool into something it was never meant to be, they're telling you what problem they're really trying to solve.",
+          "about": "product management, user behavior, product discovery",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 53,
+          "text": "Anthropic recognized that users understood their product's real value better than they did.",
+          "about": "product strategy, user-driven innovation, Anthropic",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 54,
+          "text": "The gap between companies using AI internally and those that don't is becoming… unbridgeable.",
+          "about": "AI adoption, competitive advantage, enterprise AI",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 55,
+          "text": "The recursive loop is running. AI systems are building AI systems. Development timelines are compressing from months to weeks to days. The companies that figure this out first will operate at velocity their competitors literally cannot comprehend. We're not in the 'what if' phase anymore. We're in the 'what now' phase.",
+          "about": "recursive AI development, acceleration, competitive velocity, urgency",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
