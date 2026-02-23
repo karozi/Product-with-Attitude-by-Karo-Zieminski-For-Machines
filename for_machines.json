@@ -4085,7 +4085,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 27,
+      "numberOfItems": 39,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -4326,6 +4326,114 @@
           "position": 27,
           "text": "Critical AI literacy doesn't begin with a course. It begins the moment you stop asking which AI is best and start asking what it was built to do, for whom, and at whose expense.",
           "about": "critical AI literacy, AI ethics, education",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 28,
+          "text": "As a PM, I always look for ways to score the experience based on impact it has on users. The easiest way to do that is to capture the real feelings each one delivers. The leap from 'nice' to 'wow' is about how the tool makes you feel, not just what it does.",
+          "about": "product management, user experience, emotional design",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 29,
+          "text": "These systems are already unsettlingly competent. And like all unsettlingly competent things, it leaves you wondering: How can I, the human, upskill myself to stay relevant?",
+          "about": "AI competence, human relevance, upskilling",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 30,
+          "text": "I'm fascinated by how people actually use products. Not the way they're marketed. The workarounds, custom workflows and sideways ways they solve real problems.",
+          "about": "product thinking, user behavior, real-world usage",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 31,
+          "text": "Substack's founding story is itself an anti-guru parable.",
+          "about": "Substack philosophy, anti-guru movement",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 32,
+          "text": "You don't retain a paying subscriber with rage bait. You retain them by being worth $5 a month, every month.",
+          "about": "subscriber retention, creator economics, sustainable growth",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 33,
+          "text": "Gurus need algorithms that amplify a single voice to millions. Gardeners need relationships rooted in trust.",
+          "about": "guru vs gardener, creator philosophy, trust-based growth",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 34,
+          "text": "When a writer isn't chasing virality, they can be the same person in post #3 and post #300.",
+          "about": "authenticity, long-term writing, anti-virality",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 35,
+          "text": "You can't become a guru on a platform where other writers and readers control who gets recommended.",
+          "about": "Substack recommendation system, decentralized discovery",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 36,
+          "text": "Most platforms treat lock-in as a moat. Substack treats portability as one. That's the kind of counterintuitive product decision that only makes sense when you've correctly identified what you're actually selling: not content, but trust.",
+          "about": "platform strategy, portability, trust as product",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 37,
+          "text": "Hub-and-spoke platforms measure follower count as the primary creator metric. Mesh networks measure engagement depth: insightful comments, cross-recommendations, community activity.",
+          "about": "platform architecture, engagement metrics, mesh networks",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 38,
+          "text": "AI can produce a guru's output. Confident pronouncements, one-size-fits-all advice, polished authority. That's 100% automatable today. Many of my readers could ship content like that tomorrow. We choose not to.",
+          "about": "AI slop, anti-guru philosophy, authentic voice",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 39,
+          "text": "The more AI floods the internet with guru-energy content, the more valuable the anti-guru, original voice becomes.",
+          "about": "AI content saturation, originality premium, anti-guru value",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
