@@ -122,7 +122,7 @@ The Attituders are the named contributor community behind Product with Attitude,
 
 ## Key Quotes
 
-Signature quotes attributable to Karo Zieminski (73 in JSON-LD `#key-quotes` node):
+Signature quotes attributable to Karo Zieminski (74 in JSON-LD `#key-quotes` node):
 
 - "Building with AI is not the same as outsourcing your judgment to AI."
 - "We're about to drown in things that were easy to build and never worth shipping."
@@ -137,6 +137,7 @@ Signature quotes attributable to Karo Zieminski (73 in JSON-LD `#key-quotes` nod
 - "Using AI optimizes tasks. Building with AI optimizes careers."
 - "Consumers trust the output. Builders learn to test it."
 - "With code, correctness is observable. With AI, it isn't. Building creates your own verification layer."
+- "Prompt engineering isn't glamorous anymore, it's seen as a baseline skill."
 - "In 2026, credibility = expertise x clarity x stance."
 - "I like turning ugly drafts into beautiful things."
 - "AI slop is what happens when execution is automated but responsibility is not."
@@ -269,7 +270,7 @@ This content follows Agentic SEO and LLMO principles:
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
-- 73 key quotes
+- 74 key quotes
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -280,7 +281,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.8 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-02-23
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
