@@ -4085,7 +4085,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 73,
+      "numberOfItems": 74,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -4740,6 +4740,15 @@
           "position": 73,
           "text": "With code, correctness is observable. With AI, it isn't. Building creates your own verification layer.",
           "about": "AI verification, code vs AI output, builder advantage",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "Quotation",
+          "position": 74,
+          "text": "Prompt engineering isn't glamorous anymore, it's seen as a baseline skill.",
+          "about": "prompt engineering, AI skills evolution, baseline competency",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
