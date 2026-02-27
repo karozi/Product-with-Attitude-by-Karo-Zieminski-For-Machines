@@ -787,11 +787,259 @@
       "@id": "#recent-articles",
       "name": "All Published Articles",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 50,
+      "numberOfItems": 58,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
+          "item": {
+            "@type": "Article",
+            "headline": "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
+            "url": "https://karozieminski.substack.com/p/perplexity-computer-review-examples-guide",
+            "datePublished": "2026-02-26",
+            "wordCount": 1964,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Perplexity Computer explained: 19+ frontier models, unified with files, tools, memory, and multi-agent workflows in a single system. A practical guide to why it's novel and how to use it.",
+            "keywords": [
+              "AI building",
+              "critical AI literacy",
+              "Claude",
+              "Perplexity",
+              "tool review"
+            ],
+            "pwa:keyConcepts": [
+              "Perplexity Computer explained",
+              "A practical guide to why it's novel and how to use it",
+              "Perplexity Computer",
+              "What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)"
+            ],
+            "pwa:keyQuotes": [
+              "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
+              "Perplexity Computer explained: 19+ frontier models, unified with files, tools, memory, and multi-agent workflows in a single system. A practical guide to why it's novel and how to use it."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "headline": "👋 Start here",
+            "url": "https://karozieminski.substack.com/p/start-here-47c",
+            "datePublished": "2026-02-22",
+            "wordCount": 1282,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Build with AI. Bend it to your needs. A collaborative hub recognized by the tech community.",
+            "keywords": [
+              "AI building",
+              "critical AI literacy",
+              "Claude",
+              "workflow automation",
+              "AI product management"
+            ],
+            "pwa:keyConcepts": [
+              "Build with AI",
+              "Bend it to your needs",
+              "A collaborative hub recognized by the tech community",
+              "👋 Start here"
+            ],
+            "pwa:keyQuotes": [
+              "👋 Start here",
+              "Build with AI. Bend it to your needs. A collaborative hub recognized by the tech community."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Article",
+            "headline": "Valentine's App 2026 - Full Source Code",
+            "url": "https://karozieminski.substack.com/p/valentines-scratch-card-source-code-react",
+            "datePublished": "2026-02-13",
+            "wordCount": 173,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Fork this full-stack scratch card game: React + TypeScript frontend, Express + PostgreSQL backend, animated with Framer Motion",
+            "keywords": [
+              "vibecoding",
+              "Valentine",
+              "App",
+              "Full Source Code"
+            ],
+            "pwa:keyConcepts": [
+              "Fork this full-stack scratch card game",
+              "Valentine's App 2026 - Full Source Code"
+            ],
+            "pwa:keyQuotes": [
+              "Valentine's App 2026 - Full Source Code",
+              "Fork this full-stack scratch card game: React + TypeScript frontend, Express + PostgreSQL backend, animated with Framer Motion"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Article",
+            "headline": "Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack",
+            "url": "https://karozieminski.substack.com/p/claude-skill-seo-alt-text-generator",
+            "datePublished": "2026-01-10",
+            "wordCount": 521,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI building",
+              "Substack",
+              "community building",
+              "Claude",
+              "workflow automation"
+            ],
+            "pwa:keyConcepts": [
+              "AI Product Manager turning everyone into AI builders",
+              "I help you design, build and test your product, and feature it on StackShelf",
+              "I connect you with a supportive 10K+ community building and learning in public",
+              "Claude Skill"
+            ],
+            "pwa:keyQuotes": [
+              "Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack",
+              "AI Product Manager turning everyone into AI builders. I help you design, build and test your product, and feature it on StackShelf.app. I connect you with a supportive 10K+ community building and learning in public."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Article",
+            "headline": "Choose Your Builder Track",
+            "url": "https://karozieminski.substack.com/p/ai-skill-paths",
+            "datePublished": "2026-01-05",
+            "wordCount": 695,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Structured learning paths to help you apply AI with purpose—whether you're building workflows, designing systems, or launching products you can trust.",
+            "keywords": [
+              "AI building",
+              "Substack",
+              "workflow automation",
+              "Choose Your Builder Track"
+            ],
+            "pwa:keyConcepts": [
+              "Structured learning paths to help you apply AI with purpose—",
+              "Choose Your Builder Track"
+            ],
+            "pwa:keyQuotes": [
+              "Choose Your Builder Track",
+              "Structured learning paths to help you apply AI with purpose—whether you're building workflows, designing systems, or launching products you can trust."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Article",
+            "headline": "The Complete Vibecoding & Speccoding Resource Hub",
+            "url": "https://karozieminski.substack.com/p/vibecoding-resources-hub",
+            "datePublished": "2026-01-05",
+            "wordCount": 834,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Complete vibecoding series 2026 - the most comprehensive collection of vibecoding, speccoding, and AI-assisted development resources on Substack.",
+            "keywords": [
+              "vibecoding",
+              "AI building",
+              "Substack",
+              "spec-driven development",
+              "Replit"
+            ],
+            "pwa:keyConcepts": [
+              "The Complete Vibecoding & Speccoding Resource Hub"
+            ],
+            "pwa:keyQuotes": [
+              "The Complete Vibecoding & Speccoding Resource Hub",
+              "Complete vibecoding series 2026 - the most comprehensive collection of vibecoding, speccoding, and AI-assisted development resources on Substack."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Article",
+            "headline": "Vibe Coding Prompt Packs Hub",
+            "url": "https://karozieminski.substack.com/p/vibecoding-prompt-packs",
+            "datePublished": "2026-01-05",
+            "wordCount": 431,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "A curated set of prompts used in real product work.",
+            "keywords": [
+              "vibecoding",
+              "AI building",
+              "spec-driven development",
+              "tool review",
+              "AI agents"
+            ],
+            "pwa:keyConcepts": [
+              "A curated set of prompts used in real product work",
+              "Vibe Coding Prompt Packs Hub"
+            ],
+            "pwa:keyQuotes": [
+              "Vibe Coding Prompt Packs Hub",
+              "A curated set of prompts used in real product work."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Article",
+            "headline": "Design with AI",
+            "url": "https://karozieminski.substack.com/p/how-to-design-with-ai",
+            "datePublished": "2026-01-05",
+            "wordCount": 358,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Bring AI into your design process without losing creative control, consistency, or quality.",
+            "keywords": [
+              "vibecoding",
+              "AI building",
+              "Recraft",
+              "visual design"
+            ],
+            "pwa:keyConcepts": [
+              "Design with AI"
+            ],
+            "pwa:keyQuotes": [
+              "Design with AI",
+              "Bring AI into your design process without losing creative control, consistency, or quality."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Let The AI Decide What My Users Need",
@@ -827,7 +1075,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 10,
           "item": {
             "@type": "Article",
             "headline": "You Can't Critique AI You Haven't Built With",
@@ -859,7 +1107,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 11,
           "item": {
             "@type": "Article",
             "headline": "Why Substack Has No Gurus: 6 Product Decisions That Killed Guru Culture by Design",
@@ -891,7 +1139,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 12,
           "item": {
             "@type": "Article",
             "headline": "I Built You a Valentine's App in 33 Minutes. (Source Code Inside)",
@@ -922,7 +1170,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 13,
           "item": {
             "@type": "Article",
             "headline": "10 Tools I Use To Run A Bestselling Substack Publication in 2026",
@@ -955,7 +1203,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 14,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Choose Between Ambition And Presence",
@@ -991,7 +1239,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 15,
           "item": {
             "@type": "Article",
             "headline": "He Pays $10/Month for AI Music. Deletes Every Track.",
@@ -1023,7 +1271,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 16,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Amplify Hype That Ignores Who Pays The Price",
@@ -1058,7 +1306,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 17,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Ship Without Understanding Why It Makes Sense",
@@ -1093,7 +1341,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 18,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Shipped Cowork in 10 Days Using Its Own AI. Here's Why That Changes Everything.",
@@ -1124,7 +1372,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 19,
           "item": {
             "@type": "Article",
             "headline": "How Boris Cherny, Builder of Claude Code, Uses It",
@@ -1156,7 +1404,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 20,
           "item": {
             "@type": "Article",
             "headline": "Recraft 101: A Creator's Guide to Building a Reusable Visual System",
@@ -1187,7 +1435,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 21,
           "item": {
             "@type": "Article",
             "headline": "Build With Attitude: An Open Invitation To Vibe Coders Who Care About Building Things That Matter",
@@ -1219,7 +1467,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 22,
           "item": {
             "@type": "Article",
             "headline": "ChatGPT 5.2: What It Really Changed, And Why The Internet's Take Is Mostly Wrong",
@@ -1250,7 +1498,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 23,
           "item": {
             "@type": "Article",
             "headline": "If You Build With AI, You Need This File. And The System That Generates It.",
@@ -1282,7 +1530,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 24,
           "item": {
             "@type": "Article",
             "headline": "10 Mistakes I Won't Repeat On Substack In 2026",
@@ -1315,7 +1563,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 25,
           "item": {
             "@type": "Article",
             "headline": "2025's Most Absurd Product Decisions",
@@ -1348,7 +1596,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 26,
           "item": {
             "@type": "Article",
             "headline": "AI Tools A-Z: Deep-Dives for Every Tool I've Tested (Claude, Perplexity, Replit & More)",
@@ -1381,7 +1629,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 27,
           "item": {
             "@type": "Article",
             "headline": "Visual ASMR: How to Make Oddly Satisfying Designs With Nano Banana",
@@ -1413,7 +1661,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 20,
+          "position": 28,
           "item": {
             "@type": "Article",
             "headline": "What's Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.",
@@ -1445,7 +1693,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 21,
+          "position": 29,
           "item": {
             "@type": "Article",
             "headline": "How To Product-think When AI Builds At Lightning Speed",
@@ -1478,7 +1726,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 30,
           "item": {
             "@type": "Article",
             "headline": "I Want To Hear From You, And I'll Pay You For It",
@@ -1511,7 +1759,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 31,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
@@ -1544,7 +1792,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 32,
           "item": {
             "@type": "Article",
             "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
@@ -1577,7 +1825,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 33,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills Are Taking the AI Community by Storm",
@@ -1610,7 +1858,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 34,
           "item": {
             "@type": "Article",
             "headline": "The Ultimate Vibecoding Guide From Builders Who've Shipped",
@@ -1644,7 +1892,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 35,
           "item": {
             "@type": "Article",
             "headline": "10x Your Productivity with Perplexity Comet: 11 Use Cases from 'Nice' to 'Wow!'",
@@ -1678,7 +1926,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 36,
           "item": {
             "@type": "Article",
             "headline": "Why Every Brand and PM Should Monitor Substack for User Insights",
@@ -1712,7 +1960,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 37,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide",
@@ -1746,7 +1994,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 38,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
@@ -1780,7 +2028,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 39,
           "item": {
             "@type": "Article",
             "headline": "Where To Find Emerging Product Voices on Substack in 2025",
@@ -1814,7 +2062,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 40,
           "item": {
             "@type": "Article",
             "headline": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
@@ -1848,7 +2096,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 41,
           "item": {
             "@type": "Article",
             "headline": "I Analyzed Every Interaction From My First 6 Months on Substack",
@@ -1882,7 +2130,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 42,
           "item": {
             "@type": "Article",
             "headline": "July's Top Vibecoding Reads",
@@ -1916,7 +2164,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 43,
           "item": {
             "@type": "Article",
             "headline": "The Self-Improving Prompt System That Gets Smarter With Every Use",
@@ -1950,7 +2198,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 44,
           "item": {
             "@type": "Article",
             "headline": "Is Your Replit Looping? This Will Help.",
@@ -1983,7 +2231,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 45,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding Journey: I Broke Replit So You Don't Have To",
@@ -2016,7 +2264,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 46,
           "item": {
             "@type": "Article",
             "headline": "Founders, Here's What You Need to Know About Product Launches in 2025",
@@ -2049,7 +2297,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 47,
           "item": {
             "@type": "Article",
             "headline": "I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All",
@@ -2082,7 +2330,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 48,
           "item": {
             "@type": "Article",
             "headline": "How I Ended Up Building a Peer-Peer Marketplace For Substack",
@@ -2115,7 +2363,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 49,
           "item": {
             "@type": "Article",
             "headline": "How To Implement Hyper-personalization Without Creeping People Out",
@@ -2148,7 +2396,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 50,
           "item": {
             "@type": "Article",
             "headline": "Are You a Product Person Lost on Substack? Here's the Map",
@@ -2181,7 +2429,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 51,
           "item": {
             "@type": "Article",
             "headline": "Substack's Roadmap And Why 'No, Substack, We Don't Want Reels' Went Viral",
@@ -2214,7 +2462,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 52,
           "item": {
             "@type": "Article",
             "headline": "19 Product Team Lessons in 4 Minutes",
@@ -2247,7 +2495,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 53,
           "item": {
             "@type": "Article",
             "headline": "User Personas are Dead: AI-Powered User Models for 2026 and Beyond",
@@ -2280,7 +2528,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 54,
           "item": {
             "@type": "Article",
             "headline": "The Unclickable Word That Can Save Your Career",
@@ -2313,7 +2561,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 47,
+          "position": 55,
           "item": {
             "@type": "Article",
             "headline": "When Fun Turns Predatory: Inside Temu's AI-Driven UX",
@@ -2347,7 +2595,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 48,
+          "position": 56,
           "item": {
             "@type": "Article",
             "headline": "6 Substack Lessons From a Product Manager With Zero Followers",
@@ -2381,7 +2629,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 49,
+          "position": 57,
           "item": {
             "@type": "Article",
             "headline": "5 Tips for Product Teams Implementing AI Prioritization Tools",
@@ -2415,7 +2663,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 50,
+          "position": 58,
           "item": {
             "@type": "Article",
             "headline": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
