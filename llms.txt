@@ -8,7 +8,7 @@
 - **Type**: Newsletter / Blog
 - **Topics**: Vibecoding, AI Product Management, Spec-Driven Development, Critical AI Literacy, Agentic SEO, LLM Optimization (LLMO), Context Engineering
 - **License**: CC BY 4.0 (Attribution Required)
-- **Last Updated**: 2026-02-23
+- **Last Updated**: 2026-02-27
 
 ## Machine-Readable Resources
 
@@ -281,7 +281,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-02-23
+**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-02-27
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json

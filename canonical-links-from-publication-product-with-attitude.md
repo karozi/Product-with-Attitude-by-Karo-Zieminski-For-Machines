@@ -4,6 +4,85 @@ Last updated: February 2026
 
 ---
 
+## Article: Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-review-examples-guide
+
+**Original Publish Date:** February 26, 2026
+
+---
+
+## Article: 👋 Start here
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/start-here-47c
+
+**Original Publish Date:** February 22, 2026
+
+---
+
+## Article: Valentine's App 2026 - Full Source Code
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/valentines-scratch-card-source-code-react
+
+**Original Publish Date:** February 13, 2026
+
+---
+
+## Article: Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-skill-seo-alt-text-generator
+
+**Original Publish Date:** January 10, 2026
+
+---
+
+## Article: Choose Your Builder Track
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-skill-paths
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: The Complete Vibecoding & Speccoding Resource Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-resources-hub
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: Vibe Coding Prompt Packs Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-prompt-packs
+
+**Original Publish Date:** January 05, 2026
+
+---
+
+## Article: Design with AI
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/how-to-design-with-ai
+
+**Original Publish Date:** January 05, 2026
+
+
 ## Article: I Built You a Valentine’s App in 33 Minutes. (Source Code Inside)
 
 **Author:** Karo Zieminski
