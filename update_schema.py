@@ -1086,7 +1086,9 @@ def main():
         description="Update Product with Attitude schema from Substack RSS feed"
     )
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN"),
-                        help="GitHub personal access token (or set GITHUB_TOKEN env var)")
+                        help="GitHub token for repo push (or set GITHUB_TOKEN env var)")
+    parser.add_argument("--gist-token", default=os.environ.get("GITHUB_GIST_TOKEN"),
+                        help="GitHub classic token for gist creation (or set GITHUB_GIST_TOKEN). Falls back to --token.")
     parser.add_argument("--devto-key", default=os.environ.get("DEVTO_API_KEY"),
                         help="Dev.to API key (or set DEVTO_API_KEY env var)")
     parser.add_argument("--dry-run", action="store_true",
@@ -1102,6 +1104,9 @@ def main():
     if not args.token and not args.dry_run:
         print("ERROR: --token required (or set GITHUB_TOKEN env var). Use --dry-run to preview.")
         sys.exit(1)
+
+    # Resolve gist token: prefer --gist-token, fall back to --token
+    gist_token = getattr(args, 'gist_token', None) or args.token
 
     print("=" * 65)
     print("  Product with Attitude — Schema Updater + Gist + Dev.to")
@@ -1209,7 +1214,7 @@ def main():
         elif args.no_gist:
             print(f"      [SKIPPED] {article['title']}")
         else:
-            url = publish_gist(args.token, article, gist_md)
+            url = publish_gist(gist_token, article, gist_md)
             if url:
                 gist_urls[article["title"]] = url
                 print(f"      Published: {article['title']}")
