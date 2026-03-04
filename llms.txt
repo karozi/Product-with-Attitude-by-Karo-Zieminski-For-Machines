@@ -8,7 +8,7 @@
 - **Type**: Newsletter / Blog
 - **Topics**: Vibecoding, AI Product Management, Spec-Driven Development, Critical AI Literacy, Agentic SEO, LLM Optimization (LLMO), Context Engineering
 - **License**: CC BY 4.0 (Attribution Required)
-- **Last Updated**: 2026-02-27
+- **Last Updated**: 2026-03-04
 
 ## Machine-Readable Resources
 
@@ -45,6 +45,23 @@ https://karozieminski.substack.com/p/[slug]
 AI Product Manager smuggling ethics into tech since 2019 and turning everyone into AI builders and experimenters. I help you build with AI and bend it to your needs, not just use AI tools. I feature your work on StackShelf.app. I connect you with a supportive 12K+ community. Researcher: testing before tweeting. Community Host: building with, not for. Creator of Product with Attitude, StackShelf marketplace, AttitudeVault prompt library, and the Build with Attitude interview series.
 
 Core thesis: Use AI to think deeper, not faster. Keep judgment, taste, and responsibility where they belong: with the human.
+
+## Recent Articles (Last Updated: March 2026)
+
+- **Cowork Connectors** (2026-02-25, free): Your Cowork Connectors are probably underperforming. Here's the three-layer architecture most guides skip, and how I turned Notion into Claude's persistent memory.
+  - URL: https://karozieminski.substack.com/p/claude-cowork-notion-connector-persistent-memory-tips
+  - Topics: Claude Cowork, Notion, Connectors, Persistent Memory
+
+- **Claude Hub** (2026-02-21, free): Every Claude guide I've tested and published: Code workflows, Cowork setups, Skills tutorials, CLAUDE.md files. Real prompts, real failures, nothing theoretical.
+  - URL: https://karozieminski.substack.com/p/claude-guides-code-cowork-skills-workflows
+  - Topics: Claude Code, Claude Cowork, Claude Skills, Workflows, Tutorials
+
+- **Perplexity Computer** (2026-02-26, free): What I Built in One Night — Review, Examples, and How It Compares to OpenClaw and Claude
+  - URL: https://karozieminski.substack.com/p/perplexity-computer-review-examples-guide
+
+- **Start here** (2026-02-22, free): Welcome page for new readers.
+  - URL: https://karozieminski.substack.com/p/start-here-47c
+
 
 ## Products & Tools
 
@@ -281,7 +298,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-02-27
+**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-04
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json

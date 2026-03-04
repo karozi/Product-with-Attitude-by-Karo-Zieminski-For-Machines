@@ -1,6 +1,26 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: February 2026
+Last updated: March 2026
+
+---
+
+## Article: Cowork Connectors
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-cowork-notion-connector-persistent-memory-tips
+
+**Original Publish Date:** February 25, 2026
+
+---
+
+## Article: Claude Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-guides-code-cowork-skills-workflows
+
+**Original Publish Date:** February 21, 2026
 
 ---
 
