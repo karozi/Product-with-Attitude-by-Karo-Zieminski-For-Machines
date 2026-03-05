@@ -4,6 +4,16 @@ Last updated: March 2026
 
 ---
 
+## Article: I Refuse To Build A Trap
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/integrity-debt-audit-ai-education-tool-vibe-coded
+
+**Original Publish Date:** March 5, 2026
+
+---
+
 ## Article: Cowork Connectors
 
 **Author:** Karo Zieminski
