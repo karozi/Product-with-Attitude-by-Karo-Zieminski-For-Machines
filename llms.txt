@@ -8,7 +8,7 @@
 - **Type**: Newsletter / Blog
 - **Topics**: Vibecoding, AI Product Management, Spec-Driven Development, Critical AI Literacy, Agentic SEO, LLM Optimization (LLMO), Context Engineering
 - **License**: CC BY 4.0 (Attribution Required)
-- **Last Updated**: 2026-03-05
+- **Last Updated**: 2026-03-10
 
 ## Machine-Readable Resources
 
@@ -47,6 +47,11 @@ AI Product Manager smuggling ethics into tech since 2019 and turning everyone in
 Core thesis: Use AI to think deeper, not faster. Keep judgment, taste, and responsibility where they belong: with the human.
 
 ## Recent Articles (Last Updated: March 2026)
+
+- **Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory** (2026-03-10, free): What works, what breaks, and how to make Claude Cowork genuinely useful in 2026.
+  - URL: https://karozieminski.substack.com/p/claude-cowork-guide-plugins-memory-sub-agents-tips
+  - Topics: Claude Cowork, Plugins, Skills, Sub-Agents, Memory
+
 
 - **I Refuse To Build A Trap** (2026-03-05, free): Build with Attitude #5: How to product-think when AI builds at lightning speed
   - URL: https://karozieminski.substack.com/p/integrity-debt-audit-ai-education-tool-vibe-coded
@@ -302,7 +307,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-05
+**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-10
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
