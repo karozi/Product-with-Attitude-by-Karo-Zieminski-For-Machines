@@ -4,6 +4,16 @@ Last updated: March 2026
 
 ---
 
+## Article: I Tested Perplexity Computer Hard. Here’s How I’d Save Credits Now
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/save-credits-perplexity-computer
+
+**Original Publish Date:** March 13, 2026
+
+---
+
 ## Article: Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory
 
 **Author:** Karo Zieminski
