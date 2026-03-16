@@ -8,7 +8,7 @@
 - **Type**: Newsletter / Blog
 - **Topics**: Vibecoding, AI Product Management, Spec-Driven Development, Critical AI Literacy, Agentic SEO, LLM Optimization (LLMO), Context Engineering
 - **License**: CC BY 4.0 (Attribution Required)
-- **Last Updated**: 2026-03-13
+- **Last Updated**: 2026-03-16
 
 ## Machine-Readable Resources
 
@@ -47,6 +47,11 @@ AI Product Manager smuggling ethics into tech since 2019 and turning everyone in
 Core thesis: Use AI to think deeper, not faster. Keep judgment, taste, and responsibility where they belong: with the human.
 
 ## Recent Articles (Last Updated: March 2026)
+
+- **Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.** (2026-03-16, free): Claude vs ChatGPT vs Gemini at 1M tokens. Context windows, context rot, and what this means for us in real workflows.
+  - URL: https://karozieminski.substack.com/p/claude-1-million-context-window-guide-2026
+  - Topics: Claude, Anthropic, Context Window, 1 Million Tokens, AI
+
 
 - **I Tested Perplexity Computer Hard. Here’s How I’d Save Credits Now** (2026-03-13, free): Learn how to save credits in Perplexity Computer, avoid costly loops, track usage, and use the tool for the workflows that actually justify the burn.
   - URL: https://karozieminski.substack.com/p/save-credits-perplexity-computer
@@ -312,7 +317,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-13
+**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-16
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json

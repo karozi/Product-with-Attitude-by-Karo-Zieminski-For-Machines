@@ -4,6 +4,16 @@ Last updated: March 2026
 
 ---
 
+## Article: Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-1-million-context-window-guide-2026
+
+**Original Publish Date:** March 16, 2026
+
+---
+
 ## Article: I Tested Perplexity Computer Hard. Here’s How I’d Save Credits Now
 
 **Author:** Karo Zieminski
