@@ -8,7 +8,7 @@
 - **Type**: Newsletter / Blog
 - **Topics**: Vibecoding, AI Product Management, Spec-Driven Development, Critical AI Literacy, Agentic SEO, LLM Optimization (LLMO), Context Engineering
 - **License**: CC BY 4.0 (Attribution Required)
-- **Last Updated**: 2026-03-16
+- **Last Updated**: 2026-03-19
 
 ## Machine-Readable Resources
 
@@ -47,6 +47,11 @@ AI Product Manager smuggling ethics into tech since 2019 and turning everyone in
 Core thesis: Use AI to think deeper, not faster. Keep judgment, taste, and responsibility where they belong: with the human.
 
 ## Recent Articles (Last Updated: March 2026)
+
+- **I Built A Tool Every Substack Writer Needs. And It's Not AI.** (2026-03-19, free): A trust-based system for building backlinks together. No spam, no SEO tricks, no admin headaches.
+  - URL: https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers
+  - Topics: Substack, SEO, Backlinks, Writers, LinkSwap
+
 
 - **Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.** (2026-03-16, free): Claude vs ChatGPT vs Gemini at 1M tokens. Context windows, context rot, and what this means for us in real workflows.
   - URL: https://karozieminski.substack.com/p/claude-1-million-context-window-guide-2026
@@ -317,7 +322,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-16
+**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-03-19
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json

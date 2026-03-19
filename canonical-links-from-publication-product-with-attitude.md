@@ -4,6 +4,16 @@ Last updated: March 2026
 
 ---
 
+## Article: I Built A Tool Every Substack Writer Needs. And It's Not AI.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers
+
+**Original Publish Date:** March 19, 2026
+
+---
+
 ## Article: Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.
 
 **Author:** Karo Zieminski
