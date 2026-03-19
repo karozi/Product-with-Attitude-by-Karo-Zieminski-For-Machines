@@ -4,6 +4,16 @@ Last updated: March 2026
 
 ---
 
+## Article: Perplexity Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-guides-computer-comet-workflows
+
+**Original Publish Date:** February 20, 2026
+
+---
+
 ## Article: I Built A Tool Every Substack Writer Needs. And It's Not AI.
 
 **Author:** Karo Zieminski

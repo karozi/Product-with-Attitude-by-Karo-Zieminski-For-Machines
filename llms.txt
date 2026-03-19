@@ -48,6 +48,11 @@ Core thesis: Use AI to think deeper, not faster. Keep judgment, taste, and respo
 
 ## Recent Articles (Last Updated: March 2026)
 
+- **Perplexity Hub** (2026-02-20, free): Tested Perplexity guides from Product with Attitude. Computer workflows, Comet use cases, credit-saving tips, and AIO optimization. Real use, not theory.
+  - URL: https://karozieminski.substack.com/p/perplexity-guides-computer-comet-workflows
+  - Topics: Perplexity, Computer, Comet, AI, Workflows
+
+
 - **I Built A Tool Every Substack Writer Needs. And It's Not AI.** (2026-03-19, free): A trust-based system for building backlinks together. No spam, no SEO tricks, no admin headaches.
   - URL: https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers
   - Topics: Substack, SEO, Backlinks, Writers, LinkSwap
