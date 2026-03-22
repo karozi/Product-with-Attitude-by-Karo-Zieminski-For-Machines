@@ -796,3 +796,7 @@ Last updated: March 2026
 2. [Claude Cowork Skills - Cheat Sheet (2026)](https://karozieminski.substack.com/p/claude-cowork-skills-cheatsheet)
    Published: 2026-02-19 | Free
    2-page PDF: Claude Cowork Skills file structure, SKILL.md frontmatter, trigger formula, 5 advanced patterns, troubleshooting. Print-ready for builders.
+
+3. [The Tools I've Built (and What's Coming Next)](https://karozieminski.substack.com/p/substack-creator-tools)
+   Published: 2026-02-19 | Free
+   Access every tool I ship, plus publish and sell your own products alongside the Product with Attitude community.

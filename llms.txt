@@ -345,3 +345,10 @@ Date: 2026-02-19
 Description: 2-page PDF: Claude Cowork Skills file structure, SKILL.md frontmatter, trigger formula, 5 advanced patterns, troubleshooting. Print-ready for builders.
 Access: Free
 Keywords: Claude, Cowork, Skills, Cheat Sheet, SKILL.md, Anthropic, AI
+
+## The Tools I've Built (and What's Coming Next)
+URL: https://karozieminski.substack.com/p/substack-creator-tools
+Date: 2026-02-19
+Description: Access every tool I ship, plus publish and sell your own products alongside the Product with Attitude community.
+Access: Free
+Keywords: Tools, LinkSwap, Vault, StackShelf, Substack, Community, AI
