@@ -331,3 +331,10 @@ This content follows Agentic SEO and LLMO principles:
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
+
+## Where to Deploy in 2026: Netlify, Vercel, Railway, Supabase
+URL: https://karozieminski.substack.com/p/deploy-project-netlify-vercel-railway-supabase
+Date: 2026-02-19
+Description: If you're vibecoding with Cursor, Claude Code, or Perplexity Computer, it's worth knowing where to deploy.
+Access: Free
+Keywords: Deployment, Netlify, Vercel, Railway, Supabase, Vibe Coding, DevOps

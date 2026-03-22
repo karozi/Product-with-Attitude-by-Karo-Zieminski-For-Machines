@@ -788,3 +788,7 @@ Last updated: March 2026
 
 
 ---
+
+1. [Where to Deploy in 2026: Netlify, Vercel, Railway, Supabase](https://karozieminski.substack.com/p/deploy-project-netlify-vercel-railway-supabase)
+   Published: 2026-02-19 | Free
+   If you're vibecoding with Cursor, Claude Code, or Perplexity Computer, it's worth knowing where to deploy.
