@@ -338,3 +338,10 @@ Date: 2026-02-19
 Description: If you're vibecoding with Cursor, Claude Code, or Perplexity Computer, it's worth knowing where to deploy.
 Access: Free
 Keywords: Deployment, Netlify, Vercel, Railway, Supabase, Vibe Coding, DevOps
+
+## Claude Cowork Skills - Cheat Sheet (2026)
+URL: https://karozieminski.substack.com/p/claude-cowork-skills-cheatsheet
+Date: 2026-02-19
+Description: 2-page PDF: Claude Cowork Skills file structure, SKILL.md frontmatter, trigger formula, 5 advanced patterns, troubleshooting. Print-ready for builders.
+Access: Free
+Keywords: Claude, Cowork, Skills, Cheat Sheet, SKILL.md, Anthropic, AI
