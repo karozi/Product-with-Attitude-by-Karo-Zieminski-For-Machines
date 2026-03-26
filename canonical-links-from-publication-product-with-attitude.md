@@ -800,3 +800,7 @@ Last updated: March 2026
 3. [The Tools I've Built (and What's Coming Next)](https://karozieminski.substack.com/p/substack-creator-tools)
    Published: 2026-02-19 | Free
    Access every tool I ship, plus publish and sell your own products alongside the Product with Attitude community.
+
+4. [The Only Prompting Guide That Works On Reasoning Models (And Our Cognition)](https://karozieminski.substack.com/p/ai-prompting-techniques-reasoning-models-2026)
+   Published: 2026-03-26 | Free
+   19 model-agnostic techniques that change how you think, not just what you type. All tested on one prompt. A prompt engineering framework for 2026.
