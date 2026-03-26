@@ -8,7 +8,7 @@ Last updated: March 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/perplexity-guides-computer-comet-workflows
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-ai-guide-2026
 
 **Original Publish Date:** February 20, 2026
 

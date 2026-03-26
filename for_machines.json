@@ -1080,8 +1080,8 @@
           "position": 10,
           "item": {
             "@type": "BlogPosting",
-            "headline": "Perplexity Hub",
-            "url": "https://karozieminski.substack.com/p/perplexity-guides-computer-comet-workflows",
+            "headline": "Perplexity Hub (2026)",
+            "url": "https://karozieminski.substack.com/p/perplexity-ai-guide-2026",
             "datePublished": "2026-02-20T21:54:00Z",
             "description": "Tested Perplexity guides from Product with Attitude. Computer workflows, Comet use cases, credit-saving tips, and AIO optimization. Real use, not theory.",
             "isAccessibleForFree": true,
@@ -1097,12 +1097,13 @@
             },
             "keywords": [
               "Perplexity",
+              "AI",
               "Computer",
               "Comet",
-              "AI",
-              "Workflows",
+              "SEO",
+              "AIO",
               "Guides",
-              "Automation"
+              "Hub"
             ]
           }
         },
