@@ -4,6 +4,16 @@ Last updated: March 2026
 
 ---
 
+## Article: Your AI Agents Are Engineers Now. Manage Them Like It.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-agent-management-framework-2026
+
+**Original Publish Date:** March 30, 2026
+
+---
+
 ## Article: Perplexity Hub
 
 **Author:** Karo Zieminski
