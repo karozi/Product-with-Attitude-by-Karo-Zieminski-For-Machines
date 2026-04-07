@@ -1,6 +1,25 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: March 2026
+Last updated: April 2026
+
+---
+
+## Article: Save Credits in Perplexity Computer: Advanced Guide, Part 2 (2026)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-save-credits-techniques
+
+**Original Publish Date:** April 07, 2026
+
+---
+## Article: What AI Builders Are Shipping in the PwA Community Right Now
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-builder-community-showcase-2026
+
+**Original Publish Date:** April 03, 2026
 
 ---
 
