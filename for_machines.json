@@ -788,7 +788,7 @@
       "@id": "#recent-articles",
       "name": "All Published Articles",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 74,
+      "numberOfItems": 75,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -3195,6 +3195,42 @@
               "BCIs could eventually evolve into commercial, wearable devices serving as assistive technology in daily life (think Apple Watch, but integrated with your brain)"
             ],
             "alternativeHeadline": "Brain-Computer Interfaces (BCIs) are advancing from labs to startups."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 75,
+          "item": {
+            "@type": "Article",
+            "headline": "I Built a Claude Cowork Loop That Improves Itself. Here's the Exact Setup.",
+            "url": "https://karozieminski.substack.com/p/claude-cowork-self-improving-automation-karpathy-loop-2026",
+            "datePublished": "2026-04-09",
+            "wordCount": 825,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "Claude Cowork",
+              "self-improving AI",
+              "Karpathy loop",
+              "AI workflows",
+              "recurring tasks",
+              "prompt engineering",
+              "no-code automation"
+            ],
+            "pwa:keyConcepts": [
+              "Self-improving AI loop",
+              "Karpathy Auto-Research pattern",
+              "Claude Cowork recurring tasks",
+              "context.md improvement directive",
+              "No-code workflow automation"
+            ],
+            "pwa:keyQuotes": [
+              "Every AI workflow decays.",
+              "Without the improvement directive, Cowork rewrites for connectors. With it, Cowork rewrites for outcomes."
+            ],
+            "alternativeHeadline": "Anthropic slipped Cowork's most interesting behavior into a support article. I turned it into a Karpathy-inspired system that gets smarter without writing a line of code."
           }
         }
       ]

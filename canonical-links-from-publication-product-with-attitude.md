@@ -833,3 +833,10 @@ Last updated: April 2026
 4. [The Only Prompting Guide That Works On Reasoning Models (And Our Cognition)](https://karozieminski.substack.com/p/ai-prompting-techniques-reasoning-models-2026)
    Published: 2026-03-26 | Free
    19 model-agnostic techniques that change how you think, not just what you type. All tested on one prompt. A prompt engineering framework for 2026.
+
+## I Built a Claude Cowork Loop That Improves Itself. Here's the Exact Setup.
+URL: https://karozieminski.substack.com/p/claude-cowork-self-improving-automation-karpathy-loop-2026
+Date: 2026-04-09
+Description: Anthropic slipped Cowork's most interesting behavior into a support article. I turned it into a Karpathy-inspired system that gets smarter without writing a line of code.
+Access: Free
+Keywords: Claude Cowork, Self-Improving AI, Karpathy Loop, AI Workflows, Recurring Tasks, Prompt Engineering, No-Code

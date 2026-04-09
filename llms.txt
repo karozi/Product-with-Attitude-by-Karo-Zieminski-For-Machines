@@ -359,3 +359,7 @@ Date: 2026-03-26
 Description: 19 model-agnostic techniques that change how you think, not just what you type. All tested on one prompt. A prompt engineering framework for 2026.
 Access: Free
 Keywords: Prompting, Reasoning Models, AI, Claude, Perplexity, Prompt Engineering, 2026
+
+4. [I Built a Claude Cowork Loop That Improves Itself. Here's the Exact Setup.](https://karozieminski.substack.com/p/claude-cowork-self-improving-automation-karpathy-loop-2026)
+   Published: 2026-04-09 | Free
+   Anthropic slipped Cowork's most interesting behavior into a support article. I turned it into a Karpathy-inspired system that gets smarter without writing a line of code.
