@@ -14,14 +14,15 @@ Full pipeline (11 steps):
    7. For each new FREE article: cross-post to dev.to (teaser + canonical URL → Substack)
    8. For each new FREE article: cross-post to Qiita (gist content without For Machines)
    9. For each new FREE article: post to Bluesky (1-sentence + link + hashtags)
-  10. Intelligence check: flag articles mentioning Claude/Perplexity for manual hub review
-  11. Push all schema changes to GitHub
+  10. For each new FREE article: generate Reddit teasers (English + Spanish)
+  11. Intelligence check: flag articles mentioning Claude/Perplexity for manual hub review
+  12. Push all schema changes to GitHub
 
 Usage:
     python3 repurpose.py --token GITHUB_TOKEN \
         [--gist-token GIST_TOKEN] [--devto-key DEVTO_KEY] \
         [--qiita-token QIITA_TOKEN] [--bluesky-password BLUESKY_PW] \
-        [--dry-run] [--no-push] [--no-gist] [--no-devto] [--no-qiita] [--no-bluesky]
+        [--dry-run] [--no-push] [--no-gist] [--no-devto] [--no-qiita] [--no-bluesky] [--no-reddit]
 
 Environment variable alternative:
     export GITHUB_TOKEN=ghp_...
@@ -1314,6 +1315,210 @@ def post_to_bluesky(password, article):
         return None
 
 
+# ─── Reddit Teaser Generation ─────────────────────────────────────────────────
+
+REDDIT_SUBREDDITS_EN = [
+    "r/artificial", "r/MachineLearning", "r/ProductManagement",
+    "r/SaaS", "r/startups", "r/ChatGPT",
+]
+REDDIT_SUBREDDITS_ES = [
+    "r/inteligenciaartificial", "r/tecnologia", "r/programacion",
+]
+
+
+def _reddit_extract_hook(title, description, plain_text):
+    """Extract a compelling hook sentence from the article for Reddit."""
+    desc = unescape(description).strip() if description else ""
+    # Use description if short and punchy
+    if desc and len(desc) < 200:
+        return desc.rstrip('.')
+    # Fall back to first meaningful sentence from content
+    sentences = [s.strip() for s in plain_text[:1000].split('.') if len(s.strip()) > 30]
+    if sentences:
+        return sentences[0].rstrip('.')
+    return f"New deep dive: {title}"
+
+
+def _reddit_extract_key_takeaways(plain_text, max_items=3):
+    """Pull key takeaway bullet points from article text."""
+    takeaways = []
+    lines = plain_text.split('\n')
+    for line in lines:
+        line = line.strip()
+        # Look for lines that read like takeaways
+        if (line.startswith(('- ', '• ', '* ')) or
+                re.match(r'^\d+\.\s', line)):
+            clean = re.sub(r'^[-•*\d.]+\s*', '', line).strip()
+            if 20 < len(clean) < 200:
+                takeaways.append(clean)
+        if len(takeaways) >= max_items:
+            break
+    # Fallback: extract sentences with signal words
+    if not takeaways:
+        signal_words = ['key', 'important', 'critical', 'takeaway', 'lesson',
+                        'insight', 'surprising', 'actually', 'turns out',
+                        'most people', 'nobody talks', 'the real']
+        sentences = [s.strip() for s in plain_text[:3000].split('.')
+                     if len(s.strip()) > 30]
+        for s in sentences:
+            if any(w in s.lower() for w in signal_words):
+                takeaways.append(s.strip().rstrip('.'))
+            if len(takeaways) >= max_items:
+                break
+    return takeaways
+
+
+def _reddit_generate_tags(title, description):
+    """Generate relevant Reddit-style topic tags from the article."""
+    combined = f"{title} {description}".lower()
+    tags = []
+    tag_map = {
+        "AI": ["ai ", "artificial intelligence", "machine learning", "llm", "gpt", "claude", "gemini"],
+        "Product Management": ["product manag", "pm ", "roadmap", "feature", "backlog"],
+        "Prompt Engineering": ["prompt", "context engineering", "system prompt"],
+        "Vibe Coding": ["vibe cod", "vibecod", "ai-assisted cod", "cursor", "copilot"],
+        "Startups": ["startup", "founder", "solo founder", "bootstrap"],
+        "SaaS": ["saas", "subscription", "mrr", "churn"],
+        "No-Code": ["no-code", "nocode", "low-code"],
+        "Agents": ["agent", "multi-agent", "agentic"],
+        "Ethics": ["ethic", "bias", "responsible ai", "safety"],
+        "Developer Tools": ["dev tool", "developer", "api", "sdk"],
+    }
+    for tag, keywords in tag_map.items():
+        if any(k in combined for k in keywords):
+            tags.append(tag)
+    if not tags:
+        tags = ["AI", "Product Management"]
+    return tags[:4]
+
+
+def create_reddit_teaser_en(article):
+    """Generate an English Reddit teaser post. Returns (title, body) tuple."""
+    title = article["title"]
+    link = article["link"]
+    description = article.get("description", "")
+    plain_text = article.get("plainText", "")
+
+    hook = _reddit_extract_hook(title, description, plain_text)
+    takeaways = _reddit_extract_key_takeaways(plain_text)
+    tags = _reddit_generate_tags(title, description)
+
+    # Reddit post title — conversational, not clickbait
+    reddit_title = title
+
+    # Reddit body — value-first format that doesn't get flagged as self-promo
+    body_parts = []
+    body_parts.append(hook + ".")
+    body_parts.append("")
+
+    if takeaways:
+        body_parts.append("Key points:")
+        body_parts.append("")
+        for t in takeaways:
+            body_parts.append(f"- {t}")
+        body_parts.append("")
+
+    body_parts.append(f"Full breakdown here: {link}")
+    body_parts.append("")
+    body_parts.append(f"Topics: {', '.join(tags)}")
+    body_parts.append("")
+    body_parts.append("Curious what you all think — drop your take below.")
+
+    return reddit_title, "\n".join(body_parts)
+
+
+def create_reddit_teaser_es(article):
+    """Generate a Spanish Reddit teaser post. Returns (title, body) tuple."""
+    title = article["title"]
+    link = article["link"]
+    description = article.get("description", "")
+    plain_text = article.get("plainText", "")
+
+    hook = _reddit_extract_hook(title, description, plain_text)
+    takeaways = _reddit_extract_key_takeaways(plain_text)
+    tags = _reddit_generate_tags(title, description)
+
+    # Translate tag names to Spanish
+    tag_es_map = {
+        "AI": "Inteligencia Artificial",
+        "Product Management": "Gestión de Producto",
+        "Prompt Engineering": "Ingeniería de Prompts",
+        "Vibe Coding": "Vibe Coding",
+        "Startups": "Startups",
+        "SaaS": "SaaS",
+        "No-Code": "No-Code",
+        "Agents": "Agentes de IA",
+        "Ethics": "Ética de IA",
+        "Developer Tools": "Herramientas para Desarrolladores",
+    }
+    tags_es = [tag_es_map.get(t, t) for t in tags]
+
+    # Spanish post title — keep original English title + Spanish context
+    reddit_title = f"{title} [Artículo en inglés]"
+
+    # Spanish body — mirrors structure but in Spanish
+    body_parts = []
+    body_parts.append(f"Acabo de publicar un análisis profundo sobre este tema.")
+    body_parts.append("")
+    body_parts.append(f"{hook}.")
+    body_parts.append("")
+
+    if takeaways:
+        body_parts.append("Puntos clave:")
+        body_parts.append("")
+        for t in takeaways:
+            body_parts.append(f"- {t}")
+        body_parts.append("")
+
+    body_parts.append(f"El artículo completo (en inglés) está aquí: {link}")
+    body_parts.append("")
+    body_parts.append(f"Temas: {', '.join(tags_es)}")
+    body_parts.append("")
+    body_parts.append("¿Qué opinan? Me encantaría leer sus perspectivas.")
+
+    return reddit_title, "\n".join(body_parts)
+
+
+def generate_reddit_teasers(article, repo_dir, dry_run=False):
+    """Generate English + Spanish Reddit teasers and save to files.
+    Returns dict of {lang: filepath} for saved teasers."""
+    slug = _slugify(article["title"])
+    saved = {}
+
+    # English teaser
+    en_title, en_body = create_reddit_teaser_en(article)
+    en_content = f"REDDIT TEASER — ENGLISH\n{'=' * 50}\n\n"
+    en_content += f"Suggested subreddits: {', '.join(REDDIT_SUBREDDITS_EN)}\n\n"
+    en_content += f"POST TITLE:\n{en_title}\n\n"
+    en_content += f"POST BODY:\n{'-' * 40}\n{en_body}\n{'-' * 40}\n"
+
+    # Spanish teaser
+    es_title, es_body = create_reddit_teaser_es(article)
+    es_content = f"\n\nREDDIT TEASER — ESPAÑOL\n{'=' * 50}\n\n"
+    es_content += f"Subreddits sugeridos: {', '.join(REDDIT_SUBREDDITS_ES)}\n\n"
+    es_content += f"TÍTULO DEL POST:\n{es_title}\n\n"
+    es_content += f"CUERPO DEL POST:\n{'-' * 40}\n{es_body}\n{'-' * 40}\n"
+
+    full_content = en_content + es_content
+    filepath = os.path.join(repo_dir, f"reddit-teaser-{slug}.txt")
+
+    if dry_run:
+        print(f"\n      [DRY RUN] Reddit teasers for: {article['title']}")
+        print(f"        EN title: {en_title}")
+        print(f"        ES title: {es_title}")
+        print(f"        File: reddit-teaser-{slug}.txt")
+    else:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(full_content)
+        saved["en"] = filepath
+        saved["es"] = filepath
+        print(f"      Saved: reddit-teaser-{slug}.txt")
+        print(f"        EN: {en_title}")
+        print(f"        ES: {es_title}")
+
+    return saved
+
+
 # ─── Intelligence Check (Claude/Perplexity content flagging) ──────────────────
 
 INTELLIGENCE_KEYWORDS = {
@@ -1400,6 +1605,8 @@ def main():
                         help="Skip Qiita cross-posting")
     parser.add_argument("--no-bluesky", action="store_true",
                         help="Skip Bluesky posting")
+    parser.add_argument("--no-reddit", action="store_true",
+                        help="Skip Reddit teaser generation")
     args = parser.parse_args()
 
     if not args.token and not args.dry_run:
@@ -1411,7 +1618,7 @@ def main():
     bluesky_pw = getattr(args, 'bluesky_password', None)
     devto_key = getattr(args, 'devto_key', None)
 
-    TOTAL_STEPS = 11
+    TOTAL_STEPS = 12
 
     print("=" * 65)
     print("  Product with Attitude — Full Repurposer Pipeline")
@@ -1642,8 +1849,23 @@ def main():
                 else:
                     print(f"      FAILED: {article['title']}")
 
-    # ── Step 11: Intelligence check + Push to GitHub ───────────────────
-    print(f"[11/{TOTAL_STEPS}] Intelligence check + GitHub push...")
+    # ── Step 11: Generate Reddit teasers (free articles only) ────────────
+    print(f"[11/{TOTAL_STEPS}] Generating Reddit teasers...")
+    reddit_files = {}
+    if args.no_reddit:
+        print("      [SKIPPED] --no-reddit flag set")
+    else:
+        for article in new_articles:
+            if not article["isAccessibleForFree"]:
+                print(f"      SKIPPED (paid): {article['title']}")
+                continue
+
+            saved = generate_reddit_teasers(article, repo_dir, dry_run=args.dry_run)
+            if saved:
+                reddit_files[article["title"]] = saved
+
+    # ── Step 12: Intelligence check + Push to GitHub ───────────────────
+    print(f"[12/{TOTAL_STEPS}] Intelligence check + GitHub push...")
 
     # Intelligence check: flag articles that mention Claude or Perplexity
     intel_flags = {}
@@ -1712,6 +1934,13 @@ def main():
         for t, u in bluesky_urls.items():
             print(f"    {t}")
             print(f"      {u}")
+    if reddit_files:
+        print("\n  🔴 Reddit teasers (EN + ES):")
+        for t, paths in reddit_files.items():
+            filepath = paths.get("en", "")
+            print(f"    {t}")
+            if filepath:
+                print(f"      {os.path.basename(filepath)}")
     if intel_flags:
         print("\n  ⚠️  Intelligence flags (manual action needed):")
         for t, topics in intel_flags.items():
