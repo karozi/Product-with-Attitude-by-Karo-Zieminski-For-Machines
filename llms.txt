@@ -97,7 +97,7 @@ Core thesis: Use AI to think deeper, not faster. Keep judgment, taste, and respo
 - **StackShelf**: LLM-optimized creator marketplace. Built by Karo in 13 evenings using vibecoding on Replit. 5,000+ unique visitor redirects. Transformed from one-way newsletter into peer-to-peer builder ecosystem.
   - URL: https://stackshelf.app
 
-- **AttitudeVault**: Free, curated prompt library and tool vault for vibecoding practitioners. Production-tested prompts for PRDs, specs, code reviews, and agentic workflows.
+- **AttitudeVault**: Free, curated prompt library with 37 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Vibe Coding Prompts.
   - URL: https://attitudevault.dev
   - Featured on: https://www.vibecoding.builders/projects/attitude-vault
 

@@ -287,7 +287,7 @@
       "name": "AttitudeVault",
       "alternateName": "Attitude Vault",
       "url": "https://attitudevault.dev",
-      "description": "Free, curated prompt library and tool vault for vibecoding practitioners. Production-tested prompts for PRDs, specs, code reviews, and agentic workflows. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
+      "description": "Free, curated prompt library with 37 production-tested prompts, templates, and workflows across 4 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Vibe Coding Prompts. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
       "creator": {
         "@id": "https://karozieminski.substack.com/#author"
       },
@@ -300,7 +300,15 @@
         "price": "0",
         "priceCurrency": "USD",
         "description": "All prompts free. No login required. Curated by Karo Zieminski."
-      }
+      },
+      "dateModified": "2026-04-13",
+      "pwa:itemCount": 37,
+      "pwa:categories": [
+        "AI Automation Workflows",
+        "AI Prompt Templates",
+        "AI Prompts for Everyday Work",
+        "Vibe Coding Prompts"
+      ]
     },
     {
       "@type": "DefinedTermSet",
@@ -770,7 +778,7 @@
           "name": "What is AttitudeVault?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library and tool vault for vibecoding practitioners. It contains production-tested prompts for PRDs, specs, code reviews, and agentic workflows. Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
+            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library with 37 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows (1), AI Prompt Templates (6), AI Prompts for Everyday Work (22), Vibe Coding Prompts (8). Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
           }
         },
         {
@@ -5570,6 +5578,945 @@
           "about": "prompt engineering, AI skills evolution, baseline competency",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "#attitudevault-catalog",
+      "name": "AttitudeVault Prompt Catalog",
+      "description": "Complete catalog of 37 production-tested prompts, templates, and workflows in AttitudeVault.",
+      "numberOfItems": 37,
+      "url": "https://attitudevault.dev",
+      "dateModified": "2026-04-13",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Grocery Shopping with One Click Using Perplexity Comet",
+            "url": "https://attitudevault.dev/item/grocery-shopping-with-one-click-using-perplexity-comet",
+            "description": "Time Needed: 9 min\nTime Saved: 60 min\n\nThis reusable shortcut that takes dish names (“lasagna,” “butter chicken”) and automatically does the rest for you:\nfinds reliable recipes\nextracts the ingredients\nskips my pantry staples\nhunts down discounted organic products\nadds them all to my cart\nschedu...",
+            "category": "AI Automation Workflows",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-10-08",
+            "keywords": [
+              "Perplexity Comet"
+            ],
+            "about": [
+              "Agentic Browsers"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Argue With Yourself: Adversarial Synthesis Prompt",
+            "url": "https://attitudevault.dev/item/argue-with-yourself-adversarial-synthesis-prompt",
+            "description": "The Adversarial Synthesis Prompt is designed for deep critical thinking and balanced decision-making. It pushes an idea through three phases:\n\nOpposition – Generates the strongest possible counterarguments, with at least 3–5 bullet points, real-world examples, and plain-language clarity.\nDefense ...",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-09-19",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "JSON Prompts",
+              "Advanced Context Engineering"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "ChatGPT Prompt Builder",
+            "url": "https://attitudevault.dev/item/chatgpt-prompt-builder",
+            "description": "Enjoy this free ChatGPT Prompt Builder: a copyable system prompt to write better AI prompts with context, constraints, output format, and verification. Designed as a structured project prompt. \nThis reusable prompt generator system supports iterative refinement and verification steps to reduce ha...",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-09-11",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Advanced Context Engineering"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "How I Substack",
+            "url": "https://attitudevault.dev/item/how-i-substack",
+            "description": "Everything I learned about growing on Substack.",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-04",
+            "keywords": [
+              "Substack"
+            ],
+            "about": [
+              "Guides & Templates"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "How to Create Shortcuts in Perplexity Comet",
+            "url": "https://attitudevault.dev/item/how-to-create-shortcuts-in-perplexity-comet",
+            "description": "One of my favourite productivity boosters in Comet is saving my best prompts as shortcuts to trigger AI‑assisted actions with a single click.\nThe Comet shortcuts go far beyond simple commands. I use them to:\nkickstart entire workflows\ninstantly repurpose text\nformat text for publishing\nsave tasks...",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-10-08",
+            "keywords": [
+              "Perplexity Comet"
+            ],
+            "about": [
+              "Agentic Browsers"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Prompt Evaluation Chain",
+            "url": "https://attitudevault.dev/item/prompt-evaluation-chain",
+            "description": "Have you ever wondered how to improve your prompts with one click? This free two-step system for prompt evaluation and refinement uses a 35-criteria rubric to score, critique, and improve prompts systematically. It's designed as a project prompt, which makes it easily reusable.\n\nNote: This is an ...",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-09-11",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Advanced Context Engineering",
+              "Chain-of-Verification (CoVe)"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Substack Themes Chart Generator: See your blog’s themes change over time",
+            "url": "https://attitudevault.dev/item/substack-themes-chart-generator-see-your-blogs-themes-change-over-time",
+            "description": "This prompt generates a bar chart showing how the themes you write about on Substack have evolved over time.",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-10-09",
+            "keywords": [
+              "Perplexity Lab",
+              "Claude"
+            ],
+            "about": [
+              "Visualization Prompts"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Anti-Hallucination Prompt",
+            "url": "https://attitudevault.dev/item/anti-hallucination-prompt",
+            "description": "This prompt tackles the fear that AI is “making things up” by forcing the model to show its sources, cross-check important facts, and state how sure it is.\n\nWho would benefit\nAnyone using AI for research, learning, or decision-making—especially non-experts who can’t easily spot errors—will benefi...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-12-09",
+            "keywords": [
+              "ChatGPT"
+            ],
+            "about": [
+              "Content Creation",
+              "System Prompts"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Anti-Sycophancy Behavior Rules",
+            "url": "https://attitudevault.dev/item/anti-sycophancy-behavior-rules",
+            "description": "The Anti-Sycophancy Behavior Rules prompt helps AI assistants avoid excessive flattery, blind agreement, or uncritical reassurance, addressing the real risk of biased or unsafe responses, by validating feelings without endorsing statements, always offering options, stating uncertainty when facts ...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "System Prompts",
+              "Personal Growth"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Ask Until Clarity",
+            "url": "https://attitudevault.dev/item/ask-until-clarity",
+            "description": "The “Ask Until Clarity” prompt solves the problem of vague or misunderstood requests by making sure the AI assistant asks focused questions until it is almost certain it understands your task or goal—and is ready to give you a specific, actionable solution.\n\nSpecific challenge this addresses: Pre...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Personal Growth"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Avoid The Kindness Trap",
+            "url": "https://attitudevault.dev/item/avoid-the-kindness-trap",
+            "description": "This prompt helps you see through the illusion of “friendly” or “comforting” AI by highlighting how digital warmth is mostly designed for user retention, not real connection. Many people conflate simulated encouragement with actual support, causing confusion or misplaced trust in machine response...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-25",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "AI Fluency"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Break-It-To-Fix-It Editor",
+            "url": "https://attitudevault.dev/item/break-it-to-fix-it-editor",
+            "description": "About\nThis prompt forces the model to deliberately make your piece worse in specific ways, so you can see exactly what breaks and why.\n\nWho it’s for:\nIt’s ideal for writers, creators, and product people who use AI as an editor but feel their drafts come back more generic and less “them.”\nAnyone r...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-12-09",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Content Creation",
+              "Personal Growth"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Charlie The Interactive Repurposing Builder",
+            "url": "https://attitudevault.dev/item/charlie-the-interactive-repurposing-builder",
+            "description": "Charlie, the Interactive Repurposing Builder prompt helps writers and content creators turn a post into multiple short-form pieces (Notes, Instagram captions, LinkedIn captions) that spark curiosity, invite engagement, and match their unique voice for each platform.\n\nSpecific challenge it address...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Content Creation"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Cost of Living Abroad Calculator",
+            "url": "https://attitudevault.dev/item/cost-of-living-abroad-calculator",
+            "description": "The Cost-of-Living Analyst prompt helps anyone relocating, working remotely, or considering a move get a detailed, reality-checked estimate of their monthly budget for any city, covering rent, basics, lifestyle, and hidden costs.\n\nSpecific challenge this addresses: It tackles the uncertainty and ...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Advanced Context Engineering",
+              "Calculators"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Ebook Outline Prompt",
+            "url": "https://attitudevault.dev/item/ebook-outline-prompt",
+            "description": "This prompt solves the problem of turning a scattered pile of articles and ideas into a focused, high-leverage ebook that actually reflects your real voice, not a generic AI compilation.​\n\nWho would benefit\nCreators, newsletter writers, and experts with a backlog of content who want to turn their...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-12-09",
+            "keywords": [
+              "Claude",
+              "ChatGPT",
+              "Gemini"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Content Creation"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Final Article Review & Optimization Prompt",
+            "url": "https://attitudevault.dev/item/final-article-review-optimization-prompt",
+            "description": "This Final Article Review & Optimization Prompt solves a common challenge for creators, editors, and leaders: making sure that mission-driven content is clear, impactful, and genuinely resonates with its audience—especially leaders pressed for time and looking to ensure their voice and vision shi...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-25",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Content Creation",
+              "Writing & Editing"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Minimize Hallucinations",
+            "url": "https://attitudevault.dev/item/minimize-hallucinations",
+            "description": "🧠 Antihallucination Prompt Framework (v1.0)\n\nContext\nThis prompt is designed to minimize hallucinations and factual drift in LLM outputs by:\nEnforcing evidence-based reasoning\nAllowing uncertainty and abstention\nStructuring verification and citation\nProducing auditable, machine-readable results\nU...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-10-21",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Chain-of-Verification (CoVe)"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Roast My Writing",
+            "url": "https://attitudevault.dev/item/roast-my-writing",
+            "description": "This prompt tackles the challenge of blind spots and unexamined assumptions in your writing. It helps creators identify which parts of their content may trigger skepticism, doubt, or disbelief from a sharp, critical reader.\n\nWho would benefit:\nWriters, product managers, startup founders, marketer...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-25",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Content Creation",
+              "Writing & Editing"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "SCAMPER Prompt",
+            "url": "https://attitudevault.dev/item/scamper-prompt",
+            "description": "This solves the “blank page” problem when brainstorming content ideas by giving you a structured way to spin one seed topic into dozens of differentiated angles using the SCAMPER framework.​\n\nWho would benefit:\nContent strategists, creators, and marketers who need multiple high-quality angles for...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-12-09",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Content Creation",
+              "Writing & Editing"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Soft Roast My Substack Visuals",
+            "url": "https://attitudevault.dev/item/soft-roast-my-substack-visuals",
+            "description": "This prompt solves the “my Substack looks fine but isn’t visually selling my work” problem for creators who can’t quite see what’s off in their page design and hierarchy.",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-01-28",
+            "keywords": [
+              "Claude",
+              "ChatGPT",
+              "Gemini"
+            ],
+            "about": [
+              "Visualization Prompts",
+              "Content Creation"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Step-by-Step Philosophical Coaching Prompt",
+            "url": "https://attitudevault.dev/item/step-by-step-philosophical-coaching-prompt",
+            "description": "This prompt solves the challenge of going beyond surface-level thinking by giving you a “philosopher guide” who pushes you to deeply clarify, refine, and strengthen your ideas on any topic. \n\nInstead of just having a one-sided brainstorming or generative session, you’re coached through an active,...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-25",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Philosophy"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Substack Content Compass Prompt",
+            "url": "https://attitudevault.dev/item/substack-content-compass-prompt",
+            "description": "This prompt tackles planning paralysis: writers want to grow free and paid subscribers, but struggle to map their ideas into a coherent, sustainable 10-week schedule with clear themes and conversion paths.\n\nWho would benefit\nSubstack writers at any stage who want to grow their list and paid membe...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-12-09",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Content Creation",
+              "Writing & Editing"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Successful Note to Newsletter Converter ",
+            "url": "https://attitudevault.dev/item/successful-note-to-newsletter-converter",
+            "description": "The Successful Note to Newsletter Converter prompt helps Substack writers turn their popular, casual Notes into engaging, high-value newsletter content, bridging the gap between quick social energy and deeper subscriber connection.\n\nSpecific challenge this addresses: Many Notes succeed because th...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Content Creation"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "The 10,000 foot review",
+            "url": "https://attitudevault.dev/item/the-10000-foot-review",
+            "description": "The 10,000 Foot Review prompt helps writers quickly pinpoint strengths and weaknesses in their articles by scoring areas like tone, clarity, flow, and reader engagement. \n\nIt’s ideal for anyone looking for actionable, prioritized feedback so they know exactly where to focus time and energy for th...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude Code"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Content Creation"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "The CIA Investigator Profile",
+            "url": "https://attitudevault.dev/item/the-cia-investigator-profile",
+            "description": "The CIA Investigator Profile prompt helps AI researchers, writers, and privacy-minded users examine the patterns, motivations, and behaviors revealed through their own chatbot interactions by generating a detailed, intelligence-style report focused on risk and opportunity.\n\nSpecific challenge it ...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Personal Growth"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "The Goal Copilot",
+            "url": "https://attitudevault.dev/item/the-goal-copilot",
+            "description": "The Goal Copilot helps anyone who feels stuck or overwhelmed by big goals (especially New Year’s resolutions!) make real progress by breaking their single aim into tiny, doable steps and nudging them forward every day.\n\nAddresses the challenge: Feeling lost, stalled, or unsure where to start with...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Advanced Context Engineering",
+              "Personal Growth"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "The “Unfair Advantage” Prompt",
+            "url": "https://attitudevault.dev/item/the-unfair-advantage-prompt",
+            "description": "If competitors copied your features tomorrow, what would still make you win?\nUse this prompt to uncover or sharpen what makes your product hard to copy.",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-01-28",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Triple-Threat Headline Generator ",
+            "url": "https://attitudevault.dev/item/triple-threat-headline-generator",
+            "description": "This prompt solves the problem of strong long-form pieces getting ignored because the headlines are too safe, vague, or boring to earn a click.​\n\nWho would benefit\nLong-form creators, Substack writers, bloggers, and essayists who are confident in their ideas but insecure about their titles will g...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-12-09",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Writing & Editing",
+              "Content Creation"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Uncover the Avoided Question",
+            "url": "https://attitudevault.dev/item/uncover-the-avoided-question",
+            "description": "The \"Uncover the Avoided Question\" prompt helps anyone feeling stuck, restless, or disconnected dig into the deeper, unasked question at the heart of their life—so they can confront their fears and discover what’s really driving (or holding back) their purpose.\n\nSpecific challenge it addresses: G...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-26",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Personal Growth"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Animation Pack 001: Hero Section - Breathing Gradient",
+            "url": "https://attitudevault.dev/item/animation-pack-001-hero-section-breathing-gradient",
+            "description": "Make Your Hero Section Feel Alive\nA tiny motion system for modern landing pages - subtle animation, stronger perceived quality.\nOutcome: A subtle, human-feeling breathing animation that instantly upgrades first impressions.\nDeliverable: Copy-paste prompt file + step-by-step guide you can feed int...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": false,
+            "datePublished": "2025-10-13",
+            "keywords": [
+              "Replit"
+            ],
+            "about": [
+              "Animation Prompts",
+              "UI Prompts",
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Animation Pack 001: Hero Section - Breathing Gradient",
+            "url": "https://attitudevault.dev/item/animation-pack-001-hero-section-breathing-gradient-prompt",
+            "description": "Make Your Hero Section Feel Alive\nA tiny motion system for modern landing pages - subtle animation, stronger perceived quality.\nOutcome: A subtle, human-feeling breathing animation that instantly upgrades first impressions.\nDeliverable: Copy-paste prompt file + step-by-step guide you can feed int...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": false,
+            "datePublished": "2025-10-14",
+            "keywords": [
+              "Replit"
+            ],
+            "about": [
+              "Animation Prompts",
+              "UI Prompts",
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Plot Check for Coding Agents",
+            "url": "https://attitudevault.dev/item/plot-check-for-coding-agents",
+            "description": "This simple, 2-phrase prompt addresses the “my AI agent lost the plot” problem for people building with AI coding agents.",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-01-28",
+            "keywords": [
+              "Claude Code",
+              "Lovable",
+              "Cursor",
+              "Antigravity",
+              "Codex",
+              "Replit"
+            ],
+            "about": [
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Prompt Pack: 100 Most Common UI Elements For Vibecoders",
+            "url": "https://attitudevault.dev/item/prompt-pack-100-most-common-ui-elements-for-vibecoders",
+            "description": "What It Is\nA Notion database cataloging 100+ common UI elements with ready-to-use vibecoding prompts for each one. It’s essentially a prompt library specifically designed for building interfaces with AI.\nStructure of each entry:\nUI Element name (Button, Text Input, Modal, Chat Message, etc.)\nCate...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": false,
+            "datePublished": "2025-10-17",
+            "keywords": [
+              "Replit",
+              "Cursor",
+              "Claude Code",
+              "Antigravity"
+            ],
+            "about": [
+              "UI Prompts",
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Vibecoding x Cybersecurity: Survival Guide",
+            "url": "https://attitudevault.dev/item/vibecoding-x-cybersecurity-survival-guide",
+            "description": "The cybersecurity critiques of vibecoding are valid.\nSo instead of debating them, I partnered with an expert to map the absolute minimum you need to consider when coding with AI.\n\nThis guide was authored by the brilliant Farida Khalaf, a Data Engineer specializing in cybersecurity. I met Farida h...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-11-08",
+            "keywords": [
+              "Replit",
+              "Cursor",
+              "Lovable",
+              "Codex",
+              "Claude Code"
+            ],
+            "about": [
+              "Guides & Templates",
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Vibecoding: AI Rules Files Generator",
+            "url": "https://attitudevault.dev/item/vibecoding-ai-rules-files-generator",
+            "description": "If You Build With AI, You Need This File. And The System That Generates It.\nA Beginner-Friendly System for Replit, Cursor, Gemini & Claude Builders.\n\nThe Problem With Every AI Rules File I’ve Seen\n\nAI Rules Files are instruction manuals for your coding agent.\n\nThey’re just markdown files that sit...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": false,
+            "datePublished": "2025-11-28",
+            "keywords": [
+              "ChatGPT",
+              "Claude Code",
+              "Claude",
+              "Gemini"
+            ],
+            "about": [
+              "Vibecoding & Speccoding",
+              "Advanced Context Engineering",
+              "AI Fluency"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Vibecoding: Instantly Fix 401 Errors. An Automated Debug Loop That Runs 30+ Checks and Finds Root Cause",
+            "url": "https://attitudevault.dev/item/vibecoding-prompts-instantly-fix-401-errors-an-automated-debug-loop-that-runs-30-checks-and-finds-root-cause",
+            "description": "Instantly Fix 401 Errors. An Automated Debug Loop That Runs 30+ Checks and Finds Root Cause\n\nIf you’ve been banging your head against stubborn 401s, this looped prompt will save you hours of guesswork.\n\n\nThis is the exact prompt I used when I got stuck with Google OAuth errors.\nThis prompt is an ...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": false,
+            "datePublished": "2025-09-18",
+            "keywords": [
+              "Replit"
+            ],
+            "about": [
+              "Advanced Context Engineering",
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Vibecoding: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
+            "url": "https://attitudevault.dev/item/the-prd-prompt-that-audits-itself-for-hallucinations-and-failure-modes",
+            "description": "This prompt will help you build Product Requirements Document for your vibecoding or speccoding projects.\n\nYou’re looking at is version 16, shaped by 15 rounds of testing. I use this prompt for all my products, including StackShelf.\n\n👉 Learn the story behind this prompt.\n\nPRD Prompt\n# 📝 Karo's PR...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2025-09-18",
+            "keywords": [
+              "ChatGPT",
+              "Claude"
+            ],
+            "about": [
+              "Advanced Context Engineering",
+              "Vibecoding & Speccoding"
+            ]
           }
         }
       ]
