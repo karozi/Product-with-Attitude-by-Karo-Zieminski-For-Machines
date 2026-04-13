@@ -1,0 +1,3 @@
+
+# Reddit teasers are local-only docs, not tracked in git
+reddit-teaser-*.txt

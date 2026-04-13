@@ -14,7 +14,7 @@ Full pipeline (11 steps):
    7. For each new FREE article: cross-post to dev.to (teaser + canonical URL → Substack)
    8. For each new FREE article: cross-post to Qiita (gist content without For Machines)
    9. For each new FREE article: post to Bluesky (1-sentence + link + hashtags)
-  10. For each new FREE article: generate Reddit teasers (English + Spanish)
+  10. For each new FREE article: generate Reddit teasers (English + Spanish) — saved locally, not pushed to GitHub
   11. Intelligence check: flag articles mentioning Claude/Perplexity for manual hub review
   12. Push all schema changes to GitHub
 
@@ -1480,7 +1480,8 @@ def create_reddit_teaser_es(article):
 
 
 def generate_reddit_teasers(article, repo_dir, dry_run=False):
-    """Generate English + Spanish Reddit teasers and save to files.
+    """Generate English + Spanish Reddit teasers and save to a local file.
+    Saves to CWD (not repo_dir) so the teaser is a local doc, not pushed to GitHub.
     Returns dict of {lang: filepath} for saved teasers."""
     slug = _slugify(article["title"])
     saved = {}
@@ -1500,7 +1501,9 @@ def generate_reddit_teasers(article, repo_dir, dry_run=False):
     es_content += f"CUERPO DEL POST:\n{'-' * 40}\n{es_body}\n{'-' * 40}\n"
 
     full_content = en_content + es_content
-    filepath = os.path.join(repo_dir, f"reddit-teaser-{slug}.txt")
+    # Save to CWD instead of repo_dir — keeps teasers out of git
+    output_dir = os.getcwd()
+    filepath = os.path.join(output_dir, f"reddit-teaser-{slug}.txt")
 
     if dry_run:
         print(f"\n      [DRY RUN] Reddit teasers for: {article['title']}")
@@ -1512,7 +1515,7 @@ def generate_reddit_teasers(article, repo_dir, dry_run=False):
             f.write(full_content)
         saved["en"] = filepath
         saved["es"] = filepath
-        print(f"      Saved: reddit-teaser-{slug}.txt")
+        print(f"      Saved (local): reddit-teaser-{slug}.txt")
         print(f"        EN: {en_title}")
         print(f"        ES: {es_title}")
 
