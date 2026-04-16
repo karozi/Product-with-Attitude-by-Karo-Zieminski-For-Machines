@@ -4,6 +4,25 @@ Last updated: April 2026
 
 ---
 
+## Article: Everything I Can Offer You In Q2.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/product-with-attitude-membership-2026
+
+**Original Publish Date:** April 16, 2026
+
+---
+## Article: Discounts for Premium Members (Q2 2026)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/premium-membership-ai-tool-discounts-2026
+
+**Original Publish Date:** March 31, 2026
+
+---
+
 ## Article: I Tested Atoms, Lovable, and Replit. One of Them Solves the Problem That Kills Most Apps.
 
 **Author:** Karo Zieminski
