@@ -4,6 +4,16 @@ Last updated: April 2026
 
 ---
 
+## Article: I Made My Substack Machine-Readable. Here's the Schema.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/make-substack-machine-readable-json-ld-claims-2026
+
+**Original Publish Date:** April 21, 2026
+
+---
+
 ## Article: I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows
 
 **Author:** Karo Zieminski
