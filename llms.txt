@@ -8,7 +8,7 @@
 - **Type**: Newsletter / Blog
 - **Topics**: Vibecoding, AI Product Management, Spec-Driven Development, Critical AI Literacy, Agentic SEO, LLM Optimization (LLMO), Context Engineering
 - **License**: CC BY 4.0 (Attribution Required)
-- **Last Updated**: 2026-04-17
+- **Last Updated**: 2026-04-19
 
 ## Machine-Readable Resources
 
@@ -309,14 +309,15 @@ AI-Assisted Development
 ## Metadata Quality Standards
 
 This content follows Agentic SEO and LLMO principles:
-- Complete Schema.org JSON-LD markup (20 interconnected nodes)
+- Complete Schema.org JSON-LD markup (21 interconnected nodes)
 - SKOS vocabulary mappings to Wikidata/DBpedia
 - 108 semantic triples with provenance and confidence scores
 - 29 glossary terms with structured definitions
 - 8 teaching philosophy pillars
 - 6 topic clusters
 - 15 featured-in citations
-- 74 key quotes
+- 104 key quotes
+- 150 LLM-extractable atomic claims from recent articles (#extractable-claims)
 - 31 knowsAbout domains
 - Version tracking and dateModified timestamps
 - Canonical URL policy documentation
@@ -327,7 +328,7 @@ This content follows Agentic SEO and LLMO principles:
 
 ---
 
-**License**: CC BY 4.0 | **Version**: 4.9 | **Last Updated**: 2026-04-17
+**License**: CC BY 4.0 | **Version**: 5.0 | **Last Updated**: 2026-04-19
 **Canonical Source**: https://karozieminski.substack.com/
 **Machine-Readable Rights**: license.xml
 **Structured Metadata**: for_machines.json
