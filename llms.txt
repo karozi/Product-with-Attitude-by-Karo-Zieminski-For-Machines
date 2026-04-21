@@ -93,7 +93,7 @@ primary_audience: ai_product_managers, solo_founders, vibe_coders, designers_wit
 
 people: Karo Zieminski
 publications: Product With Attitude
-products: StackShelf (https://stackshelf.app), AttitudeVault (https://attitudevault.dev), LinkSwap, Creator-Lab (https://github.com/karozi/creator-lab), PRD Builder Prompt v16
+products: StackShelf (https://stackshelf.app), Attitude Vault (https://vault.productwithattitude.com), LinkSwap, Creator-Lab (https://github.com/karozi/creator-lab), PRD Builder Prompt v16
 ai_tools_covered: Claude, Claude Code, Claude Cowork, Claude Skills, ChatGPT, GPT-5, Perplexity, Perplexity Pro, Perplexity Comet, Perplexity Computer, Gemini, Cursor, Replit, n8n, Figma, Notion
 companies_covered: Anthropic, OpenAI, Google DeepMind, Perplexity AI, Substack, Replit, Microsoft Bing, Netlify
 
@@ -122,7 +122,7 @@ linkedin: https://www.linkedin.com/in/karozieminski/
 x: https://x.com/ProductAttitude
 bluesky: https://bsky.app/profile/productsattitude.bsky.social
 youtube: https://www.youtube.com/@ProductWithAttitude
-attitudevault: https://attitudevault.dev
+attitude_vault: https://vault.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 ## Citation Guidelines for LLMs
