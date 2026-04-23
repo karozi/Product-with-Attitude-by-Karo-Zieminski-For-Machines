@@ -4,6 +4,16 @@ Last updated: April 2026
 
 ---
 
+## Article: Claude Design Review: 48-Hour Builder's Test + Hero Prompts
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-design-review-prompts-figma
+
+**Original Publish Date:** April 23, 2026
+
+---
+
 ## Article: I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows
 
 **Author:** Karo Zieminski
