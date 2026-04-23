@@ -851,7 +851,12 @@
               "AI building",
               "product thinking",
               "critical AI literacy",
-              "Claude"
+              "Claude",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "I Mapped the Opus 4",
@@ -879,7 +884,17 @@
               "The headline price for Claude Opus 4.7 did not change: still $5 per million input tokens and $25 per million output tokens.",
               "Opus 4.7 is meaningfully better at writing and using file-system-based memory across long, multi-session workflows."
             ],
-            "pwa:primaryTopic": "Claude Opus 4.7 review"
+            "pwa:primaryTopic": "Claude Opus 4.7 review",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -901,7 +916,12 @@
               "Substack",
               "Claude",
               "Perplexity",
-              "workflow automation"
+              "workflow automation",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Everything I Can Offer You In Q2"
@@ -927,7 +947,17 @@
               "LinkSwap helps you swap backlinks with great writers in seconds with no awkward cold outreach.",
               "Vault is a community-curated resource of AI prompts, Claude skills, automations, infographics, and templates."
             ],
-            "pwa:primaryTopic": "Product with Attitude membership ecosystem"
+            "pwa:primaryTopic": "Product with Attitude membership ecosystem",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -949,7 +979,16 @@
               "AI building",
               "Substack",
               "Claude",
-              "Perplexity"
+              "Perplexity",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit"
             ],
             "pwa:keyConcepts": [
               "Your PwA subscription pays for itself in tool discounts and credits",
@@ -977,7 +1016,23 @@
               "StackContacts is the only CRM I use for managing my subscribers.",
               "Drippery helps authors turn their best content into automated drip email series that onboard, nurture, and convert."
             ],
-            "pwa:primaryTopic": "PwA tool discounts"
+            "pwa:primaryTopic": "PwA tool discounts",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -999,7 +1054,12 @@
               "AI building",
               "product thinking",
               "critical AI literacy",
-              "Replit"
+              "Replit",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "A test-driven review of Atoms",
@@ -1029,7 +1089,17 @@
               "Most of what kills vibe-coded products happens before the first line of code.",
               "For multi-agent collaboration on complex tasks in Atoms, you have to enable 'Team mode' yourself."
             ],
-            "pwa:primaryTopic": "Atoms vs Lovable vs Replit"
+            "pwa:primaryTopic": "Atoms vs Lovable vs Replit",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -1051,7 +1121,12 @@
               "AI building",
               "product thinking",
               "Claude",
-              "Perplexity"
+              "Perplexity",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Tested workflow patterns for agentic AI builders in 2026",
@@ -1080,7 +1155,17 @@
               "Combining both strategy and execution in one thread is wasteful because the execution phase carries the full context of the strategy session.",
               "Saving reports to files is the simplest optimization nobody does."
             ],
-            "pwa:primaryTopic": "Perplexity Computer credit optimization"
+            "pwa:primaryTopic": "Perplexity Computer credit optimization",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1102,7 +1187,16 @@
               "critical AI literacy",
               "tool review",
               "AI product management",
-              "Builders Are Shipping"
+              "Builders Are Shipping",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency"
             ],
             "pwa:keyConcepts": [
               "Product with Attitude is evolving from newsletter to builder lab",
@@ -1131,7 +1225,23 @@
               "The AI Tool Evaluator addresses AI tool discovery fatigue, where builders waste hours comparing options.",
               "Vault provides AI workflows, coding prompts, and automation templates shared by the community members."
             ],
-            "pwa:primaryTopic": "AI builder community showcase"
+            "pwa:primaryTopic": "AI builder community showcase",
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -1153,7 +1263,13 @@
               "AI building",
               "critical AI literacy",
               "prompt engineering",
-              "Anthropic"
+              "Anthropic",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "AI agents fail when management fails",
@@ -1164,7 +1280,17 @@
             "pwa:keyQuotes": [
               "Your AI Agents Are Engineers Now. Manage Them Like It.",
               "AI agents fail when management fails. Define-Deliver-Drive helps you manage agents like human teams: clear specs, WIP limits, and a delegation ladder."
-            ]
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -1194,8 +1320,31 @@
               "Claude",
               "Perplexity",
               "Prompt Engineering",
-              "2026"
-            ]
+              "2026",
+              "vibecoding",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -1225,8 +1374,24 @@
               "Writers",
               "LinkSwap",
               "Tools",
-              "Publishing"
-            ]
+              "Publishing",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source"
+            ],
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -1256,8 +1421,23 @@
               "1 Million Tokens",
               "AI",
               "LLM",
-              "Prompt Engineering"
-            ]
+              "Prompt Engineering",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1286,8 +1466,22 @@
               "Credits",
               "Productivity",
               "Prompt Engineering",
-              "Cost Optimization"
-            ]
+              "Cost Optimization",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "AI Tools A-Z"
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1318,8 +1512,22 @@
               "Memory",
               "AI Workflows",
               "Prompt Templates",
-              "Connectors"
-            ]
+              "Connectors",
+              "AI tools",
+              "tool reviews",
+              "productivity",
+              "AI Tools A-Z"
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1349,8 +1557,22 @@
               "Critical AI Literacy",
               "Product Thinking",
               "Streamlit",
-              "Claude"
-            ]
+              "Claude",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
+            ],
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -1372,7 +1594,12 @@
               "critical AI literacy",
               "Claude",
               "Perplexity",
-              "tool review"
+              "tool review",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Perplexity Computer explained",
@@ -1383,7 +1610,17 @@
             "pwa:keyQuotes": [
               "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
               "Perplexity Computer explained: 19+ frontier models, unified with files, tools, memory, and multi-agent workflows in a single system. A practical guide to why it's novel and how to use it."
-            ]
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1412,8 +1649,23 @@
               "Notion",
               "Connectors",
               "Persistent Memory",
-              "Guides"
-            ]
+              "Guides",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1435,7 +1687,16 @@
               "critical AI literacy",
               "Claude",
               "workflow automation",
-              "AI product management"
+              "AI product management",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "Build with AI",
@@ -1446,7 +1707,23 @@
             "pwa:keyQuotes": [
               "👋 Start here",
               "Build with AI. Bend it to your needs. A collaborative hub recognized by the tech community."
-            ]
+            ],
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -1479,7 +1756,11 @@
               "Guides",
               "Workflows",
               "Resource Hub",
-              "Tutorials"
+              "Tutorials",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity"
             ],
             "pwa:keyQuotes": [
               "Chat is a conversation. Cowork is a workflow engine. Code is a development partner.",
@@ -1503,7 +1784,17 @@
               "Claude won four of eight rounds (Poetry, Coding, Reasoning, and Creative Writing) in a blind test against ChatGPT and Gemini.",
               "Chat is for questions. Cowork is for workflows. Code is for code."
             ],
-            "pwa:primaryTopic": "Claude workflows and skills"
+            "pwa:primaryTopic": "Claude workflows and skills",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1534,7 +1825,12 @@
               "SEO",
               "AIO",
               "Guides",
-              "Hub"
+              "Hub",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyQuotes": [
               "You can’t critique AI you haven’t built with.",
@@ -1558,7 +1854,17 @@
               "Every guide is tested on real projects, and every credit estimate comes from personal usage learned the expensive way.",
               "Critical AI literacy is built by choosing to build with AI tools like Perplexity and Claude rather than just consuming them."
             ],
-            "pwa:primaryTopic": "Perplexity AI guide 2026"
+            "pwa:primaryTopic": "Perplexity AI guide 2026",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1583,7 +1889,12 @@
               "product thinking",
               "AI building",
               "user needs",
-              "CarouselBot"
+              "CarouselBot",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "AI building speed",
@@ -1594,7 +1905,17 @@
             "pwa:keyQuotes": [
               "I Refuse To Let The AI Decide What My Users Need",
               "How to product-think when AI builds at lightning speed"
-            ]
+            ],
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -1622,8 +1943,23 @@
               "Discounts",
               "Tools",
               "Subscription",
-              "Community"
-            ]
+              "Community",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
+            ],
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -1653,8 +1989,23 @@
               "StackShelf",
               "Substack",
               "Community",
-              "AI"
-            ]
+              "AI",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "creator tools",
+              "open source"
+            ],
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -1684,8 +2035,23 @@
               "Cheat Sheet",
               "SKILL.md",
               "Anthropic",
-              "AI"
-            ]
+              "AI",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1715,8 +2081,25 @@
               "Railway",
               "Supabase",
               "Vibe Coding",
-              "DevOps"
-            ]
+              "DevOps",
+              "vibecoding",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -1737,7 +2120,11 @@
               "critical AI literacy",
               "product thinking",
               "building vs consuming",
-              "AI friction"
+              "AI friction",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "Critical AI literacy",
@@ -1748,7 +2135,17 @@
             "pwa:keyQuotes": [
               "You Can't Critique AI You Haven't Built With",
               "Building beats consuming when understanding friction and product thinking"
-            ]
+            ],
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -1769,7 +2166,12 @@
               "Substack",
               "platform design",
               "guru culture",
-              "product architecture"
+              "product architecture",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Platform design choices",
@@ -1780,7 +2182,17 @@
             "pwa:keyQuotes": [
               "Why Substack Has No Gurus: 6 Product Decisions That Killed Guru Culture by Design",
               "Most platforms reward guru energy by design. Substack made six choices that prevent it"
-            ]
+            ],
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -1801,7 +2213,13 @@
               "vibecoding",
               "Valentine",
               "App",
-              "Full Source Code"
+              "Full Source Code",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Fork this full-stack scratch card game",
@@ -1810,7 +2228,17 @@
             "pwa:keyQuotes": [
               "Valentine's App 2026 - Full Source Code",
               "Fork this full-stack scratch card game: React + TypeScript frontend, Express + PostgreSQL backend, animated with Framer Motion"
-            ]
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -1830,7 +2258,12 @@
               "vibecoding",
               "Replit",
               "building in public",
-              "community gift"
+              "community gift",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Rapid prototyping",
@@ -1841,7 +2274,17 @@
             "pwa:keyQuotes": [
               "I Built You a Valentine's App in 33 Minutes",
               "A practical demonstration of vibecoding with source code included"
-            ]
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -1863,7 +2306,11 @@
               "Claude Code",
               "Cowork",
               "automation",
-              "productivity"
+              "productivity",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Substack workflow optimization",
@@ -1874,7 +2321,17 @@
             "pwa:keyQuotes": [
               "10 Tools I Use To Run A Bestselling Substack Publication in 2026",
               "Essential tools including Perplexity, Claude Code, and Cowork for modern publishing"
-            ]
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1899,7 +2356,12 @@
               "marketplace",
               "ambition",
               "presence",
-              "shelving projects"
+              "shelving projects",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "Ambition and presence",
@@ -1910,7 +2372,17 @@
             "pwa:keyQuotes": [
               "I Refuse To Choose Between Ambition And Presence",
               "Balancing ambitious building with intentional presence in the moment"
-            ]
+            ],
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -1931,7 +2403,12 @@
               "Suno",
               "AI music",
               "creative workflows",
-              "unexpected use cases"
+              "unexpected use cases",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Unexpected AI use",
@@ -1942,7 +2419,17 @@
             "pwa:keyQuotes": [
               "He Pays $10/Month for AI Music. Deletes Every Track",
               "How one music producer turned Suno into a communication tool that saves $300 per track"
-            ]
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -1966,7 +2453,12 @@
               "AI hype",
               "corporate transformation",
               "ethical building",
-              "leadership"
+              "leadership",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "Ethical AI building",
@@ -1977,7 +2469,17 @@
             "pwa:keyQuotes": [
               "I Refuse To Amplify Hype That Ignores Who Pays The Price",
               "Examining the human and organizational costs behind AI transformation narratives"
-            ]
+            ],
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -2001,7 +2503,16 @@
               "product thinking",
               "AI speed",
               "intentional building",
-              "spec-driven development"
+              "spec-driven development",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Intentional product decisions",
@@ -2012,7 +2523,23 @@
             "pwa:keyQuotes": [
               "I Refuse To Ship Without Understanding Why It Makes Sense",
               "How to product-think when AI builds at lightning speed"
-            ]
+            ],
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -2032,7 +2559,12 @@
               "Anthropic",
               "Claude Cowork",
               "product analysis",
-              "AI development speed"
+              "AI development speed",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "AI development speed",
@@ -2043,7 +2575,17 @@
             "pwa:keyQuotes": [
               "Anthropic Shipped Cowork in 10 Days Using Its Own AI",
               "A product analysis of how AI-powered development changes everything about building speed"
-            ]
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -2064,7 +2606,11 @@
               "Substack",
               "community building",
               "Claude",
-              "workflow automation"
+              "workflow automation",
+              "Substack growth",
+              "newsletter growth",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "AI Product Manager turning everyone into AI builders",
@@ -2075,7 +2621,17 @@
             "pwa:keyQuotes": [
               "Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack",
               "AI Product Manager turning everyone into AI builders. I help you design, build and test your product, and feature it on StackShelf.app. I connect you with a supportive 10K+ community building and learning in public."
-            ]
+            ],
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2096,7 +2652,17 @@
               "Claude Code",
               "Boris Cherny",
               "AI agents",
-              "developer workflows"
+              "developer workflows",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z",
+              "vibecoding",
+              "AI-assisted development",
+              "Cursor",
+              "Replit",
+              "agentic coding"
             ],
             "pwa:keyConcepts": [
               "Developer AI workflows",
@@ -2107,7 +2673,23 @@
             "pwa:keyQuotes": [
               "How Boris Cherny, Builder of Claude Code, Uses It",
               "The viral insights that broke the developer internet about AI coding workflows"
-            ]
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -2127,7 +2709,13 @@
               "Recraft",
               "visual identity",
               "AI design",
-              "brand consistency"
+              "brand consistency",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source"
             ],
             "pwa:keyConcepts": [
               "Visual system design",
@@ -2138,7 +2726,17 @@
             "pwa:keyQuotes": [
               "Recraft 101: A Creator's Guide to Building a Reusable Visual System",
               "Using AI design tools to create consistent, reusable brand identities"
-            ]
+            ],
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -2159,7 +2757,12 @@
               "AI building",
               "Substack",
               "workflow automation",
-              "Choose Your Builder Track"
+              "Choose Your Builder Track",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Structured learning paths to help you apply AI with purpose—",
@@ -2168,7 +2771,17 @@
             "pwa:keyQuotes": [
               "Choose Your Builder Track",
               "Structured learning paths to help you apply AI with purpose—whether you're building workflows, designing systems, or launching products you can trust."
-            ]
+            ],
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2190,7 +2803,11 @@
               "AI building",
               "Substack",
               "spec-driven development",
-              "Replit"
+              "Replit",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "agentic coding"
             ],
             "pwa:keyConcepts": [
               "The Complete Vibecoding & Speccoding Resource Hub"
@@ -2217,7 +2834,17 @@
               "Gemini’s Antigravity serves as a mission control for parallel autonomous agents with a 1M+ token context window.",
               "Cursor’s terminal-native agent provides multi-agent orchestration for complex engineering tasks and persistent memory via CLAUDE.md."
             ],
-            "pwa:primaryTopic": "Vibe coding resource hub"
+            "pwa:primaryTopic": "Vibe coding resource hub",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2239,7 +2866,16 @@
               "AI building",
               "spec-driven development",
               "tool review",
-              "AI agents"
+              "AI agents",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity"
             ],
             "pwa:keyConcepts": [
               "A curated set of prompts used in real product work",
@@ -2248,7 +2884,23 @@
             "pwa:keyQuotes": [
               "Vibe Coding Prompt Packs Hub",
               "A curated set of prompts used in real product work."
-            ]
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2269,7 +2921,17 @@
               "vibecoding",
               "AI building",
               "Recraft",
-              "visual design"
+              "visual design",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit"
             ],
             "pwa:keyConcepts": [
               "Design with AI"
@@ -2277,7 +2939,23 @@
             "pwa:keyQuotes": [
               "Design with AI",
               "Bring AI into your design process without losing creative control, consistency, or quality."
-            ]
+            ],
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -2298,7 +2976,17 @@
               "Build with Attitude",
               "vibecoding",
               "quality over AI slop",
-              "manifesto"
+              "manifesto",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit"
             ],
             "pwa:keyConcepts": [
               "Meaningful AI building",
@@ -2309,7 +2997,23 @@
             "pwa:keyQuotes": [
               "Build With Attitude: An Open Invitation To Vibe Coders Who Care About Building Things That Matter",
               "AI made building easy. 2026 will decide if we make it meaningful"
-            ]
+            ],
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -2330,7 +3034,11 @@
               "newsletter strategy",
               "content creator lessons",
               "Substack growth",
-              "creator economy"
+              "creator economy",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Substack growth mistakes",
@@ -2342,7 +3050,17 @@
               "10 months on Substack, 10 mistakes worth sharing.",
               "I've talked about what worked. Today, let's cover what very much didn't."
             ],
-            "alternativeHeadline": "After ten months on Substack, here are ten mistakes I wish I'd avoided."
+            "alternativeHeadline": "After ten months on Substack, here are ten mistakes I wish I'd avoided.",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2362,7 +3080,12 @@
               "ChatGPT",
               "OpenAI",
               "product analysis",
-              "reliability"
+              "reliability",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "ChatGPT evolution analysis",
@@ -2373,7 +3096,17 @@
             "pwa:keyQuotes": [
               "ChatGPT 5.2: What It Really Changed, And Why The Internet's Take Is Mostly Wrong",
               "A product analysis that cuts through surface-level reactions to AI updates"
-            ]
+            ],
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -2394,7 +3127,12 @@
               "product management",
               "AI ethics",
               "product failures",
-              "AI shipping"
+              "AI shipping",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "AI product failures",
@@ -2406,7 +3144,17 @@
               "Every failure in this post was predictable. Not with hindsight - with the questions any competent product team should ask before shipping.",
               "One year, multiple AI product scandals, zero surprises."
             ],
-            "alternativeHeadline": "How Not to Ship AI And Lessons From Companies That Did It Anyway."
+            "alternativeHeadline": "How Not to Ship AI And Lessons From Companies That Did It Anyway.",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -2427,7 +3175,10 @@
               "Claude review",
               "Perplexity",
               "Replit",
-              "AI workflows"
+              "AI workflows",
+              "tool reviews",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "AI tool reviews",
@@ -2439,7 +3190,17 @@
               "A growing library of honest AI tool reviews and workflows by Karo Zieminski on Product with Attitude.",
               "Each entry answers one question builders and creators ask about the tools they use daily."
             ],
-            "alternativeHeadline": "Real reviews, real workflows."
+            "alternativeHeadline": "Real reviews, real workflows.",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -2460,7 +3221,13 @@
               "ASMR design",
               "Nano Banana",
               "image transformation",
-              "design framework"
+              "design framework",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source"
             ],
             "pwa:keyConcepts": [
               "Visual design framework",
@@ -2471,7 +3238,17 @@
             "pwa:keyQuotes": [
               "A step-by-step framework to transform images into warm, sensory-rich Christmas visuals using Nano Banana."
             ],
-            "alternativeHeadline": "A step-by-step framework to transform images into warm, sensory-rich Christmas visuals."
+            "alternativeHeadline": "A step-by-step framework to transform images into warm, sensory-rich Christmas visuals.",
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -2492,7 +3269,14 @@
               "AI rules files",
               "CLAUDE.md",
               "development configuration",
-              "vibecoding tools"
+              "vibecoding tools",
+              "vibecoding",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "AI configuration files",
@@ -2503,7 +3287,17 @@
             "pwa:keyQuotes": [
               "If You Build With AI, You Need This File. And The System That Generates It",
               "A beginner-friendly system for AI rules files across Replit, Cursor, Gemini and Claude"
-            ]
+            ],
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2524,7 +3318,12 @@
               "user behavior",
               "audience feedback",
               "content strategy",
-              "reader insights"
+              "reader insights",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Reader-driven roadmap",
@@ -2535,7 +3334,17 @@
             "pwa:keyQuotes": [
               "My Substack roadmap for 2026 comes straight from 315 readers - understanding what users actually want drives better content strategy."
             ],
-            "alternativeHeadline": "Understanding Substack User Behavior"
+            "alternativeHeadline": "Understanding Substack User Behavior",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2556,7 +3365,10 @@
               "AI development",
               "product management",
               "building with AI",
-              "product strategy"
+              "product strategy",
+              "AI product management",
+              "PRD",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Product thinking fundamentals",
@@ -2568,7 +3380,17 @@
               "Ask ten people what product thinking means, and you'll get twelve definitions.",
               "The best insight comes from founders who built things that survived contact with users."
             ],
-            "alternativeHeadline": "The One Feature AI Can't Replace"
+            "alternativeHeadline": "The One Feature AI Can't Replace",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -2589,7 +3411,10 @@
               "reader engagement",
               "community building",
               "incentive alignment",
-              "Substack growth"
+              "Substack growth",
+              "newsletter growth",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Honest feedback value",
@@ -2601,7 +3426,17 @@
               "There are few things as underrated as honest feedback.",
               "Asking for your feedback is asking for your time, and I don't take that lightly."
             ],
-            "alternativeHeadline": "A Small Thank-You for Helping Me Build Something Bigger."
+            "alternativeHeadline": "A Small Thank-You for Helping Me Build Something Bigger.",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2622,7 +3457,13 @@
               "cybersecurity",
               "AI coding",
               "secure development",
-              "engineering practices"
+              "engineering practices",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Responsible vibecoding",
@@ -2634,7 +3475,17 @@
               "The cybersecurity critics of vibecoding are right about the risks. They're just wrong about the solution.",
               "The answer isn't 'don't vibecode at all.' It's 'vibecode responsibly, with solid engineering foundations.'"
             ],
-            "alternativeHeadline": "Don't ship your next feature without these safety checks."
+            "alternativeHeadline": "Don't ship your next feature without these safety checks.",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2655,7 +3506,13 @@
               "Substack economy",
               "creator products",
               "platform monetization",
-              "product companies"
+              "product companies",
+              "builder economy",
+              "creator economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source"
             ],
             "pwa:keyConcepts": [
               "Indie builder economy",
@@ -2667,7 +3524,17 @@
               "Substack economy coverage usually centers on subscriptions, paywalls, and affiliate revenue - the 'classic trio' of newsletter monetization. Here's what's overlooked: the growing market of products built on or for Substack.",
               "Let's talk about how Substack fuels the indie builder economy."
             ],
-            "alternativeHeadline": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem"
+            "alternativeHeadline": "The Most Comprehensive Analysis of Products Built Within the Substack Ecosystem",
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -2688,7 +3555,12 @@
               "Anthropic",
               "AI agents",
               "Claude toolkit",
-              "AI capabilities"
+              "AI capabilities",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Claude Skills toolkit",
@@ -2700,7 +3572,17 @@
               "The AI world hasn't slept in 72 hours, and I get it.",
               "Simon Willison called it 'maybe a bigger deal than MCP.' Ethan Mollick said it's 'both an easy path for workable agents and a step forward in what AI can do.'"
             ],
-            "alternativeHeadline": "Anthropic's Viral Claude Skills Toolkit"
+            "alternativeHeadline": "Anthropic's Viral Claude Skills Toolkit",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -2721,7 +3603,13 @@
               "AI coding tools",
               "product development",
               "build in public",
-              "app deployment"
+              "app deployment",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "AI coding tools",
@@ -2734,7 +3622,17 @@
               "Build production-ready apps with AI coding tools by following this practical roadmap: validate your idea early, design user flows first, choose the right stack, write clear prompts, use Git from day one, debug systematically, and keep learning fundamentals.",
               "We share a playbook that's been tested, improved, and proven with real results."
             ],
-            "alternativeHeadline": "Go Beyond the Prototype"
+            "alternativeHeadline": "Go Beyond the Prototype",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2755,7 +3653,11 @@
               "productivity",
               "AI automation",
               "workflows",
-              "digital assistant"
+              "digital assistant",
+              "AI tools",
+              "tool reviews",
+              "AI workflows",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Perplexity Comet workflows",
@@ -2768,7 +3670,17 @@
               "Comet isn't just a browser, it's a digital coworker that thinks, navigates, and acts on your behalf across the web.",
               "11 ranked workflows, shortcut patterns, and power moves that turn Comet into your personal assistant."
             ],
-            "alternativeHeadline": "Unlock advanced productivity with Perplexity Comet."
+            "alternativeHeadline": "Unlock advanced productivity with Perplexity Comet.",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         },
         {
@@ -2789,7 +3701,12 @@
               "user research",
               "market intelligence",
               "product management",
-              "user insights"
+              "user insights",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Substack market research",
@@ -2802,7 +3719,17 @@
               "If your product or brand team isn't monitoring Substack, you're missing one of the richest streams of user intelligence available today.",
               "Substack is a criminally underrated market research tool. It's where users, builders, and domain experts go deep."
             ],
-            "alternativeHeadline": "If your product or brand team isn't monitoring Substack, you're missing one of the richest streams of user intelligence."
+            "alternativeHeadline": "If your product or brand team isn't monitoring Substack, you're missing one of the richest streams of user intelligence.",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -2823,7 +3750,13 @@
               "AI development",
               "spec-driven",
               "product building",
-              "coding terminology"
+              "coding terminology",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "AI development terminology",
@@ -2836,7 +3769,17 @@
               "Let's define these terms once and for all.",
               "The definitive guide to the AI coding terminology, what actually works in practice, and why the right words matter if you want your product to ship."
             ],
-            "alternativeHeadline": "Let's define these terms once and for all."
+            "alternativeHeadline": "Let's define these terms once and for all.",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2857,7 +3800,13 @@
               "PRD prompt",
               "AI hallucinations",
               "product requirements",
-              "prompt engineering"
+              "prompt engineering",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Self-auditing PRD prompt",
@@ -2870,7 +3819,17 @@
               "The One Prompt You Need Before Touching Code",
               "The PRD Prompt That Audits Itself For Hallucinations and Failure Modes"
             ],
-            "alternativeHeadline": "Best Vibecoding Guides #1"
+            "alternativeHeadline": "Best Vibecoding Guides #1",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -2891,7 +3850,12 @@
               "product management",
               "community",
               "product voices",
-              "networking"
+              "networking",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Product voices directory",
@@ -2904,7 +3868,17 @@
               "A living map of product minds building, writing, and sharing in community.",
               "You join Substack to find your people."
             ],
-            "alternativeHeadline": "A living map of product minds building, writing, and sharing in community."
+            "alternativeHeadline": "A living map of product minds building, writing, and sharing in community.",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2925,7 +3899,16 @@
               "vibecoding",
               "PM skills",
               "build in public",
-              "product development"
+              "product development",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit"
             ],
             "pwa:keyConcepts": [
               "PMs vibecoding products",
@@ -2938,7 +3921,23 @@
               "5 Non-Obvious Reasons Product Managers Should Start Vibecoding Today.",
               "Vibecoding isn't just a joke, easy to dismiss."
             ],
-            "alternativeHeadline": "5 Non-Obvious Reasons Product Managers Should Start Vibecoding Today."
+            "alternativeHeadline": "5 Non-Obvious Reasons Product Managers Should Start Vibecoding Today.",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -2959,7 +3958,10 @@
               "content strategy",
               "community building",
               "analytics",
-              "audience growth"
+              "audience growth",
+              "newsletter growth",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Substack growth analysis",
@@ -2972,7 +3974,17 @@
               "I Analyzed Every Interaction From My First 6 Months on Substack - Here's What Drove My Rapid Growth",
               "I started at 0 followers - that was a blessing in disguise."
             ],
-            "alternativeHeadline": "Special edition"
+            "alternativeHeadline": "Special edition",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -2993,7 +4005,12 @@
               "no-code",
               "AI tools",
               "Replit",
-              "creative development"
+              "creative development",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Vibecoding resources roundup",
@@ -3006,7 +4023,17 @@
               "No code, no funding, no problem: curiosity now builds more than credentials ever could",
               "Tools like Replit, Cursor, and Lovable are turning creativity into software - fast."
             ],
-            "alternativeHeadline": "No code, no funding, no problem"
+            "alternativeHeadline": "No code, no funding, no problem",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -3027,7 +4054,14 @@
               "AI prompts",
               "prompt optimization",
               "prompt system",
-              "AI accuracy"
+              "AI accuracy",
+              "vibecoding",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "Replit",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Self-improving prompt system",
@@ -3040,7 +4074,17 @@
               "The Self-Improving Prompt System That Gets Smarter With Every Use",
               "A simple two-step loop (Prompt Builder → Prompt Evaluator) that scores your prompt across 35 criteria and suggests how to refactor it."
             ],
-            "alternativeHeadline": "Instantly build, score, and improve your AI prompts."
+            "alternativeHeadline": "Instantly build, score, and improve your AI prompts.",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -3061,7 +4105,16 @@
               "AI product management",
               "coding errors",
               "building in public",
-              "development tools"
+              "development tools",
+              "vibecoding",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "agentic coding",
+              "spec-driven development",
+              "product strategy",
+              "PRD",
+              "product thinking"
             ],
             "pwa:keyConcepts": [
               "Replit coding challenges",
@@ -3073,7 +4126,23 @@
               "There's no longer any barrier between my ideas and reality, and that's a powerful, powerful feeling.",
               "Replit is amazing when it works. But when it doesn't, you'll..."
             ],
-            "alternativeHeadline": "The 3 Infuriating Ways Replit Will Break Your Code"
+            "alternativeHeadline": "The 3 Infuriating Ways Replit Will Break Your Code",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -3094,7 +4163,12 @@
               "Replit",
               "building in public",
               "product updates",
-              "StackShelf"
+              "StackShelf",
+              "AI-assisted development",
+              "Claude Code",
+              "Cursor",
+              "agentic coding",
+              "spec-driven development"
             ],
             "pwa:keyConcepts": [
               "Vibecoding journey",
@@ -3106,7 +4180,17 @@
               "There Are Two Types of Product Updates: The ones you proudly list in changelogs and marketing decks. The ones you bury deep under 'general improvements'.",
               "I Broke Replit So You Don't Have To"
             ],
-            "alternativeHeadline": "Building in Public: The official patch notes, episode 1."
+            "alternativeHeadline": "Building in Public: The official patch notes, episode 1.",
+            "articleSection": "Vibecoding & AI-Assisted Development",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+                "@type": "DefinedTerm",
+                "name": "Vibecoding & AI-Assisted Development",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Vibecoding & AI-Assisted Development"
           }
         },
         {
@@ -3127,7 +4211,12 @@
               "AI strategy",
               "OpenAI",
               "launch strategy",
-              "founders"
+              "founders",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Product launch strategy",
@@ -3139,7 +4228,17 @@
               "Founders, Here's What You Need to Know About Product Launches in 2025",
               "OpenAI, Google, Anthropic & Perplexity's launch strategy - and what it means for yours"
             ],
-            "alternativeHeadline": "OpenAI, Google, Anthropic & Perplexity's launch strategy"
+            "alternativeHeadline": "OpenAI, Google, Anthropic & Perplexity's launch strategy",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3160,7 +4259,12 @@
               "LinkedIn",
               "personal branding",
               "ChatGPT",
-              "self-perception"
+              "self-perception",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "AI-generated bios",
@@ -3172,7 +4276,17 @@
               "I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All",
               "How an AI Trend Is Changing What We Measure Ourselves Against"
             ],
-            "alternativeHeadline": "How an AI Trend Is Changing What We Measure Ourselves Against"
+            "alternativeHeadline": "How an AI Trend Is Changing What We Measure Ourselves Against",
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -3193,7 +4307,16 @@
               "creator economy",
               "content discovery",
               "peer-to-peer",
-              "Substack writers"
+              "Substack writers",
+              "builder economy",
+              "indie AI",
+              "StackShelf",
+              "creator tools",
+              "open source",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders"
             ],
             "pwa:keyConcepts": [
               "Peer-to-peer marketplace",
@@ -3205,7 +4328,23 @@
               "Thirty minutes and four platforms later, I found myself shopping for soy candles on Etsy. Still no template.",
               "Substack Writers Are Building Incredible Things. Let's Make It Easier for Everyone to Find Them."
             ],
-            "alternativeHeadline": "Substack Writers Are Building Incredible Things."
+            "alternativeHeadline": "Substack Writers Are Building Incredible Things.",
+            "articleSection": "Builder Economy & Creator Tools",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+                "@type": "DefinedTerm",
+                "name": "Builder Economy & Creator Tools",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Builder Economy & Creator Tools"
           }
         },
         {
@@ -3226,7 +4365,11 @@
               "AI personalization",
               "user privacy",
               "product strategy",
-              "data ethics"
+              "data ethics",
+              "AI product management",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Hyper-personalization strategy",
@@ -3238,7 +4381,17 @@
               "We say we hate it when apps track us. But we also get annoyed when Netflix forgets we don't enjoy documentaries about feet.",
               "71% of us crave personalized experiences, and 76% get irritated when brands fall short."
             ],
-            "alternativeHeadline": "A Practical Guide to AI-Driven Hyper-personalization"
+            "alternativeHeadline": "A Practical Guide to AI-Driven Hyper-personalization",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3259,7 +4412,12 @@
               "product management",
               "content curation",
               "emerging writers",
-              "product voices"
+              "product voices",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Substack product writers",
@@ -3271,7 +4429,17 @@
               "You open Substack. You type 'product manager' into the search bar. And this is what you find: World-famous newsletters you already know about.",
               "Product People on Substack is a curated directory of active, emerging product writers."
             ],
-            "alternativeHeadline": "Where To Find Emerging Product Voices in 2025"
+            "alternativeHeadline": "Where To Find Emerging Product Voices in 2025",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -3292,7 +4460,12 @@
               "product feedback",
               "platform features",
               "viral content",
-              "user requests"
+              "user requests",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders",
+              "building in public"
             ],
             "pwa:keyConcepts": [
               "Substack product roadmap",
@@ -3304,7 +4477,17 @@
               "No, Substack, We Don't Want Reels",
               "20.1K likes in 3 days. Since I'm a Product Manager - and..."
             ],
-            "alternativeHeadline": "Compiled by a Product Manager for the Substack Team"
+            "alternativeHeadline": "Compiled by a Product Manager for the Substack Team",
+            "articleSection": "Substack Growth & Community Building",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Substack Growth & Community Building"
           }
         },
         {
@@ -3325,7 +4508,12 @@
               "PM lessons",
               "product teams",
               "practical advice",
-              "team collaboration"
+              "team collaboration",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Product management lessons",
@@ -3337,7 +4525,17 @@
               "Not best practices. Just what actually works in product teams.",
               "This list is not aspirational, it doesn't ask you to 'evangelize the vision' - it's operational."
             ],
-            "alternativeHeadline": "Not best practices. Just what actually works in product teams."
+            "alternativeHeadline": "Not best practices. Just what actually works in product teams.",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3358,7 +4556,12 @@
               "AI user models",
               "product research",
               "user behavior",
-              "dynamic personas"
+              "dynamic personas",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "Dynamic user models",
@@ -3370,7 +4573,17 @@
               "User Personas are Dead: AI-Powered User Models for 2026 and Beyond",
               "These static personas were built to humanize users, but with AI capturing real user behavior, they're about as relatable as commercial images on my dentist's brochure."
             ],
-            "alternativeHeadline": "Why Static Personas Are No Longer Relevant"
+            "alternativeHeadline": "Why Static Personas Are No Longer Relevant",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3391,7 +4604,16 @@
               "product management",
               "career development",
               "ethical AI",
-              "product managers"
+              "product managers",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation",
+              "critical AI literacy",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "AI ethics for PMs",
@@ -3403,7 +4625,23 @@
               "The Unclickable Word That Can Save Your Career",
               "AI Ethics: Why It Matters for PMs"
             ],
-            "alternativeHeadline": "AI Ethics: Why It Matters for PMs."
+            "alternativeHeadline": "AI Ethics: Why It Matters for PMs.",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3424,7 +4662,12 @@
               "UX design",
               "Temu",
               "addictive design",
-              "product ethics"
+              "product ethics",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "Dark UX patterns",
@@ -3437,7 +4680,17 @@
               "Temu's UX isn't just bad. It's psychological warfare wrapped in confetti.",
               "They've embraced every dark pattern in the book, all of them, shoved them into one app, and then said: You know what? Let's invent more."
             ],
-            "alternativeHeadline": "Dark Patterns in Product, Ethics For Sale"
+            "alternativeHeadline": "Dark Patterns in Product, Ethics For Sale",
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -3458,7 +4711,16 @@
               "content creation",
               "product manager",
               "audience growth",
-              "writing online"
+              "writing online",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation",
+              "Substack growth",
+              "newsletter growth",
+              "community building",
+              "Attituders"
             ],
             "pwa:keyConcepts": [
               "Substack growth strategies",
@@ -3471,7 +4733,23 @@
               "I started on Substack with imposter syndrome as my co-pilot.",
               "Classic PM behavior: scan the field, detect patterns and only then consider making a move."
             ],
-            "alternativeHeadline": "What I learned in my first month writing online with no audience."
+            "alternativeHeadline": "What I learned in my first month writing online with no audience.",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              },
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+                "@type": "DefinedTerm",
+                "name": "Substack Growth & Community Building",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3492,7 +4770,12 @@
               "product management",
               "stakeholder management",
               "product teams",
-              "decision-making"
+              "decision-making",
+              "AI product management",
+              "product strategy",
+              "PRD",
+              "product thinking",
+              "AI evaluation"
             ],
             "pwa:keyConcepts": [
               "AI prioritization tools",
@@ -3505,7 +4788,17 @@
               "I froze during a stakeholder meeting.",
               "How AI Rewrites the Rules of Saying 'No'"
             ],
-            "alternativeHeadline": "The Death of Stakeholder Drama?"
+            "alternativeHeadline": "The Death of Stakeholder Drama?",
+            "articleSection": "AI Product Management & Strategy",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+                "@type": "DefinedTerm",
+                "name": "AI Product Management & Strategy",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Product Management & Strategy"
           }
         },
         {
@@ -3526,7 +4819,12 @@
               "BCI",
               "neurotechnology",
               "tech ethics",
-              "wearable technology"
+              "wearable technology",
+              "critical AI literacy",
+              "AI ethics",
+              "responsible AI",
+              "AI transparency",
+              "AI critique"
             ],
             "pwa:keyConcepts": [
               "Brain-computer interfaces",
@@ -3539,7 +4837,17 @@
               "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
               "BCIs could eventually evolve into commercial, wearable devices serving as assistive technology in daily life (think Apple Watch, but integrated with your brain)"
             ],
-            "alternativeHeadline": "Brain-Computer Interfaces (BCIs) are advancing from labs to startups."
+            "alternativeHeadline": "Brain-Computer Interfaces (BCIs) are advancing from labs to startups.",
+            "articleSection": "Critical AI Literacy & Ethics",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+                "@type": "DefinedTerm",
+                "name": "Critical AI Literacy & Ethics",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "Critical AI Literacy & Ethics"
           }
         },
         {
@@ -3562,7 +4870,11 @@
               "AI workflows",
               "recurring tasks",
               "prompt engineering",
-              "no-code automation"
+              "no-code automation",
+              "AI tools",
+              "tool reviews",
+              "productivity",
+              "AI Tools A-Z"
             ],
             "pwa:keyConcepts": [
               "Self-improving AI loop",
@@ -3595,7 +4907,17 @@
               "After 10+ runs, context.md contains a playbook Claude wrote for itself.",
               "Each cycle tightens the Execution Instructions toward our specific workflow."
             ],
-            "pwa:primaryTopic": "Claude Cowork self-improving loop"
+            "pwa:primaryTopic": "Claude Cowork self-improving loop",
+            "articleSection": "AI Tool Reviews & Workflows",
+            "about": [
+              {
+                "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+                "@type": "DefinedTerm",
+                "name": "AI Tool Reviews & Workflows",
+                "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
+              }
+            ],
+            "genre": "AI Tool Reviews & Workflows"
           }
         }
       ]
@@ -3621,7 +4943,10 @@
               "Replit",
               "agentic coding",
               "spec-driven development"
-            ]
+            ],
+            "@id": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+            "url": "https://karozieminski.substack.com/#cluster/vibecoding-ai-assisted-development",
+            "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
           }
         },
         {
@@ -3637,7 +4962,10 @@
               "PRD",
               "product thinking",
               "AI evaluation"
-            ]
+            ],
+            "@id": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+            "url": "https://karozieminski.substack.com/#cluster/ai-product-management-strategy",
+            "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
           }
         },
         {
@@ -3653,7 +4981,10 @@
               "responsible AI",
               "AI transparency",
               "AI critique"
-            ]
+            ],
+            "@id": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+            "url": "https://karozieminski.substack.com/#cluster/critical-ai-literacy-ethics",
+            "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
           }
         },
         {
@@ -3669,7 +5000,10 @@
               "AI workflows",
               "productivity",
               "AI Tools A-Z"
-            ]
+            ],
+            "@id": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+            "url": "https://karozieminski.substack.com/#cluster/ai-tool-reviews-workflows",
+            "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
           }
         },
         {
@@ -3686,7 +5020,10 @@
               "StackShelf",
               "creator tools",
               "open source"
-            ]
+            ],
+            "@id": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+            "url": "https://karozieminski.substack.com/#cluster/builder-economy-creator-tools",
+            "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
           }
         },
         {
@@ -3702,7 +5039,10 @@
               "community building",
               "Attituders",
               "building in public"
-            ]
+            ],
+            "@id": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+            "url": "https://karozieminski.substack.com/#cluster/substack-growth-community-building",
+            "inDefinedTermSet": "https://karozieminski.substack.com/#topic-clusters"
           }
         }
       ],
