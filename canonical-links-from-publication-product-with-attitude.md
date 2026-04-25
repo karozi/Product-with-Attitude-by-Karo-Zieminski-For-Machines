@@ -4,6 +4,16 @@ Last updated: April 2026
 
 ---
 
+## Article: Is GPT-5.5 Reliable For Citations? No. It’s The Worst Flagship For That Job.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate
+
+**Original Publish Date:** April 25, 2026
+
+---
+
 ## Article: Claude Design Review: 48-Hour Builder's Test + Hero Prompts
 
 **Author:** Karo Zieminski
