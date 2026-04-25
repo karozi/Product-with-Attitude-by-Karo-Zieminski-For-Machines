@@ -287,7 +287,7 @@
       "name": "AttitudeVault",
       "alternateName": "Attitude Vault",
       "url": "https://vault.productwithattitude.com",
-      "description": "Free, curated prompt library with 46 production-tested prompts, templates, and workflows across 6 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Claude Skills Library, Vibe Coding Prompts, critical-ai-literacy. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
+      "description": "Free, curated prompt library with 47 production-tested prompts, templates, and workflows across 6 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Claude Skills Library, Vibe Coding Prompts, critical-ai-literacy. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
       "creator": {
         "@id": "https://karozieminski.substack.com/#author"
       },
@@ -301,8 +301,8 @@
         "priceCurrency": "USD",
         "description": "All prompts free. No login required. Curated by Karo Zieminski."
       },
-      "dateModified": "2026-04-21",
-      "pwa:itemCount": 46,
+      "dateModified": "2026-04-25",
+      "pwa:itemCount": 47,
       "pwa:categories": [
         "AI Automation Workflows",
         "AI Prompt Templates",
@@ -780,7 +780,7 @@
           "name": "What is AttitudeVault?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library with 46 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows (1), AI Prompt Templates (7), AI Prompts for Everyday Work (23), Claude Skills Library (2), Vibe Coding Prompts (10), critical-ai-literacy (3). Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
+            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library with 47 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows (1), AI Prompt Templates (7), AI Prompts for Everyday Work (24), Claude Skills Library (2), Vibe Coding Prompts (10), critical-ai-literacy (3). Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
           }
         },
         {
@@ -6363,10 +6363,10 @@
       "@type": "ItemList",
       "@id": "#attitudevault-catalog",
       "name": "AttitudeVault Prompt Catalog",
-      "description": "Complete catalog of 46 production-tested prompts, templates, and workflows in AttitudeVault.",
-      "numberOfItems": 46,
+      "description": "Complete catalog of 47 production-tested prompts, templates, and workflows in AttitudeVault.",
+      "numberOfItems": 47,
       "url": "https://attitudevault.dev",
-      "dateModified": "2026-04-21",
+      "dateModified": "2026-04-25",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -7014,6 +7014,39 @@
           "position": 27,
           "item": {
             "@type": "CreativeWork",
+            "name": "The Citation Verification Prompt",
+            "url": "https://attitudevault.dev/item/citation-verification-prompt",
+            "description": "A one-paste audit that forces any LLM to defend its own claims. Drop it after a research-heavy answer and the model lists every dated, numeric, named, or quoted statement next to a source and a confidence rating. If it cannot point to a source, it has to say so out loud.\n\nThis is the cheapest cri...",
+            "category": "AI Prompts for Everyday Work",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-04-25",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Perplexity",
+              "Gemini",
+              "Grok"
+            ],
+            "about": [
+              "ai-literacy",
+              "hallucination-check",
+              "citation-verification",
+              "prompt-engineering",
+              "fact-checking",
+              "gpt-5-5",
+              "claude-opus"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "CreativeWork",
             "name": "The Goal Copilot",
             "url": "https://attitudevault.dev/item/the-goal-copilot",
             "description": "The Goal Copilot helps anyone who feels stuck or overwhelmed by big goals (especially New Year’s resolutions!) make real progress by breaking their single aim into tiny, doable steps and nudging them forward every day.\n\nAddresses the challenge: Feeling lost, stalled, or unsure where to start with...",
@@ -7036,7 +7069,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 29,
           "item": {
             "@type": "CreativeWork",
             "name": "The “Reality Check” Prompt",
@@ -7053,7 +7086,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 30,
           "item": {
             "@type": "CreativeWork",
             "name": "The “Unfair Advantage” Prompt",
@@ -7078,7 +7111,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 31,
           "item": {
             "@type": "CreativeWork",
             "name": "Triple-Threat Headline Generator ",
@@ -7104,7 +7137,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 32,
           "item": {
             "@type": "CreativeWork",
             "name": "Uncover the Avoided Question",
@@ -7128,7 +7161,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 33,
           "item": {
             "@type": "CreativeWork",
             "name": "AI PM Workspace ",
@@ -7145,7 +7178,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 34,
           "item": {
             "@type": "CreativeWork",
             "name": "Claude Code Statusline",
@@ -7162,7 +7195,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 35,
           "item": {
             "@type": "CreativeWork",
             "name": "Animation Pack 001: Hero Section - Breathing Gradient",
@@ -7187,7 +7220,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 36,
           "item": {
             "@type": "CreativeWork",
             "name": "Animation Pack 001: Hero Section - Breathing Gradient",
@@ -7212,7 +7245,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 37,
           "item": {
             "@type": "CreativeWork",
             "name": "Drag-drop form builder for webinars and workshops",
@@ -7229,7 +7262,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 38,
           "item": {
             "@type": "CreativeWork",
             "name": "Plot Check for Coding Agents",
@@ -7257,7 +7290,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 39,
           "item": {
             "@type": "CreativeWork",
             "name": "Prompt Pack: 100 Most Common UI Elements For Vibecoders",
@@ -7284,7 +7317,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 40,
           "item": {
             "@type": "CreativeWork",
             "name": "Source Code: Valentine’s Day scratch card app",
@@ -7301,7 +7334,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 41,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding x Cybersecurity: Survival Guide",
@@ -7329,7 +7362,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 42,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding: AI Rules Files Generator",
@@ -7357,7 +7390,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 43,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding: Instantly Fix 401 Errors. An Automated Debug Loop That Runs 30+ Checks and Finds Root Cause",
@@ -7381,7 +7414,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 44,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
@@ -7406,7 +7439,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 45,
           "item": {
             "@type": "CreativeWork",
             "name": "Spot the Synthetic Certainty",
@@ -7436,7 +7469,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 46,
           "item": {
             "@type": "CreativeWork",
             "name": "The Minimum Viable Reasoning Prompt",
@@ -7465,7 +7498,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 47,
           "item": {
             "@type": "CreativeWork",
             "name": "The Reasoning Trace Auditor",
