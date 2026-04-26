@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph: https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for_machines.json
-# Version: 5.1
-# Last-Modified: 2026-04-19
+# Version: 5.2
+# Last-Modified: 2026-04-26
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -35,14 +35,21 @@ rss_feed: https://karozieminski.substack.com/feed
 sitemap: https://karozieminski.substack.com/sitemap.xml
 netlify_mirror: https://productwithattitude.com/assets/for_machines.json
 
+## Native HTML Pages on productwithattitude.com
+
+claude_decision_tree: https://productwithattitude.com/claude-decision-tree.html
+claude_decision_tree_description: 12-task decision tree mapping each task to the correct Claude surface (Chat, Cowork, Code, Design). Includes JSON-LD Article + Table + ItemList schema and inline Schema.org microdata. Tested April 2026.
+faq_page: https://productwithattitude.com/faq.html
+homepage: https://productwithattitude.com/
+
 ## Graph Statistics
 
-schema_version: 5.1
-last_modified: 2026-04-19
+schema_version: 5.2
+last_modified: 2026-04-26
 graph_nodes: 23
-recent_articles: 79
-extractable_claims: 150
-key_quotes: 104
+recent_articles: 82
+extractable_claims: 165
+key_quotes: 106
 glossary_terms: 8
 faq_pairs: 9
 featured_in_citations: 15
