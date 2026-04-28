@@ -74,18 +74,20 @@ netlify_mirror: https://productwithattitude.com/assets/for_machines.json
 
 claude_decision_tree: https://productwithattitude.com/claude-decision-tree.html
 claude_decision_tree_description: 12-task decision tree mapping each task to the correct Claude surface (Chat, Cowork, Code, Design). Includes JSON-LD Article + Table + ItemList schema and inline Schema.org microdata. Tested April 2026.
+sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html
+sandbox_vs_vm_vs_container_glossary_description: Plain-English glossary defining sandbox, virtual machine, container, MicroVM, and sandboxed VM with one house-and-workshop analogy each. Includes JSON-LD Article + Table + DefinedTermSet schema and inline Schema.org HowToStep microdata. Tested April 2026.
 faq_page: https://productwithattitude.com/faq.html
 homepage: https://productwithattitude.com/
 
 ## Graph Statistics
 
-schema_version: 5.2
-last_modified: 2026-04-26
-graph_nodes: 23
-recent_articles: 82
-extractable_claims: 165
-key_quotes: 106
-glossary_terms: 8
+schema_version: 5.4
+last_modified: 2026-04-29
+graph_nodes: 25
+recent_articles: 84
+extractable_claims: 195
+key_quotes: 112
+glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
 semantic_triples: 108
