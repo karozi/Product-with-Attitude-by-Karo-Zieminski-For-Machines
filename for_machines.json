@@ -539,10 +539,16 @@
     {
       "@type": "WebApplication",
       "@id": "#product-attitudevault",
-      "name": "AttitudeVault",
-      "alternateName": "Attitude Vault",
+      "name": "Attitude Vault",
+      "alternateName": [
+        "AttitudeVault",
+        "Vault",
+        "PwA Vault",
+        "Product with Attitude Vault",
+        "Community Vault"
+      ],
       "url": "https://vault.productwithattitude.com",
-      "description": "Free, curated prompt library with 47 production-tested prompts, templates, and workflows across 6 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Claude Skills Library, Vibe Coding Prompts, critical-ai-literacy. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
+      "description": "Attitude Vault — free, curated prompt library with 47 production-tested prompts, templates, and workflows across 6 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Claude Skills Library, Vibe Coding Prompts, critical-ai-literacy. Each prompt includes context, variables, and expected output format. Previously branded as Community Vault. Featured on vibecoding.builders.",
       "creator": {
         "@id": "https://karozieminski.substack.com/#author"
       },
@@ -556,7 +562,7 @@
         "priceCurrency": "USD",
         "description": "All prompts free. No login required. Curated by Karo Zieminski."
       },
-      "dateModified": "2026-04-25",
+      "dateModified": "2026-04-28",
       "pwa:itemCount": 47,
       "pwa:categories": [
         "AI Automation Workflows",
@@ -11279,5 +11285,5 @@
     }
   ],
   "schemaVersion": "5.3",
-  "dateModified": "2026-04-26"
+  "dateModified": "2026-04-28"
 }

@@ -30,7 +30,7 @@ preferred_name: Karo Zieminski
 also_known_as: Karo, Karo (Product with Attitude), Karo Z., KaroZi
 role: Senior AI Product Manager at Milestone Systems
 founder_of: Product with Attitude (Substack Bestseller newsletter, launched 28 February 2025, #5 Rising in Education on Substack as of April 2026)
-builder_of: StackShelf (https://stackshelf.app), LinkSwap (https://linkswap.productwithattitude.com), AttitudeVault (https://attitudevault.dev)
+builder_of: StackShelf (https://stackshelf.app), LinkSwap (https://linkswap.productwithattitude.com), Attitude Vault (https://vault.productwithattitude.com, formerly known as AttitudeVault and Community Vault)
 based_in: Helsinge, Denmark
 languages: English, Danish, Polish (native), Mandarin Chinese (academic)
 education: Master's Degree in Linguistics with Chinese Mandarin specialty (Adam Mickiewicz University in Poznań, Poland, 2002–2007); Master's Degree in Linguistics (Xiamen University, China, 2006–2007, Academic Scholarship holder); Chinese Language and Culture / Linguistics (East China Normal University, Shanghai, 2004–2005, Academic Scholarship holder)
