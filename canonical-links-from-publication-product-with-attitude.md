@@ -4,6 +4,16 @@ Last updated: April 2026
 
 ---
 
+## Article: Are You a Vibe Coder? Don’t Ship Straight Into the Provider Trap
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026
+
+**Original Publish Date:** April 29, 2026
+
+---
+
 ## Article: Is GPT-5.5 Reliable For Citations? No. It’s The Worst Flagship For That Job.
 
 **Author:** Karo Zieminski
