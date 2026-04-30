@@ -1209,7 +1209,7 @@
               "One house-and-workshop analogy makes the differences memorable"
             ],
             "pwa:keyQuotes": [
-              "Most AI builders fumble these terms. Sandbox, virtual machine, container, MicroVM, and sandboxed VM sound interchangeable. They are not.",
+              "Many beginner vibe coders and AI builders fumble these terms. Sandbox, virtual machine, container, MicroVM, and sandboxed VM sound interchangeable. They are not.",
               "Stop guessing which isolation layer your AI agent actually needs."
             ],
             "pwa:extractableClaims": [
@@ -7912,7 +7912,7 @@
         {
           "@type": "Quotation",
           "position": 111,
-          "text": "Most AI builders fumble these terms. Sandbox, virtual machine, container, MicroVM, and sandboxed VM sound interchangeable. They are not.",
+          "text": "Many beginner vibe coders and AI builders fumble these terms. Sandbox, virtual machine, container, MicroVM, and sandboxed VM sound interchangeable. They are not.",
           "about": "AI sandbox isolation",
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
@@ -12181,6 +12181,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.4",
-  "dateModified": "2026-04-28"
+  "schemaVersion": "5.5",
+  "dateModified": "2026-04-30"
 }

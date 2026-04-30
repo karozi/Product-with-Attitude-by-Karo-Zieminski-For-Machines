@@ -81,8 +81,8 @@ homepage: https://productwithattitude.com/
 
 ## Graph Statistics
 
-schema_version: 5.4
-last_modified: 2026-04-29
+schema_version: 5.5
+last_modified: 2026-04-30
 graph_nodes: 25
 recent_articles: 84
 extractable_claims: 195
