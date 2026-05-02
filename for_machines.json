@@ -552,7 +552,7 @@
         "Community Vault"
       ],
       "url": "https://vault.productwithattitude.com",
-      "description": "Attitude Vault — free, curated prompt library with 47 production-tested prompts, templates, and workflows across 6 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Claude Skills Library, Vibe Coding Prompts, critical-ai-literacy. Each prompt includes context, variables, and expected output format. Previously branded as Community Vault. Featured on vibecoding.builders.",
+      "description": "Free, curated prompt library with 48 production-tested prompts, templates, and workflows across 6 categories: AI Automation Workflows, AI Prompt Templates, AI Prompts for Everyday Work, Claude Skills Library, Critical AI Literacy, Vibe Coding Prompts. Each prompt includes context, variables, and expected output format. Featured on vibecoding.builders.",
       "creator": {
         "@id": "https://karozieminski.substack.com/#author"
       },
@@ -566,15 +566,15 @@
         "priceCurrency": "USD",
         "description": "All prompts free. No login required. Curated by Karo Zieminski."
       },
-      "dateModified": "2026-04-28",
-      "pwa:itemCount": 47,
+      "dateModified": "2026-05-02",
+      "pwa:itemCount": 48,
       "pwa:categories": [
         "AI Automation Workflows",
         "AI Prompt Templates",
         "AI Prompts for Everyday Work",
         "Claude Skills Library",
-        "Vibe Coding Prompts",
-        "critical-ai-literacy"
+        "Critical AI Literacy",
+        "Vibe Coding Prompts"
       ]
     },
     {
@@ -1121,7 +1121,7 @@
           "name": "What is AttitudeVault?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library with 47 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows (1), AI Prompt Templates (7), AI Prompts for Everyday Work (24), Claude Skills Library (2), Vibe Coding Prompts (10), critical-ai-literacy (3). Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
+            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library with 48 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows (1), AI Prompt Templates (8), AI Prompts for Everyday Work (24), Claude Skills Library (2), Critical AI Literacy (3), Vibe Coding Prompts (10). Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
           }
         },
         {
@@ -7944,10 +7944,10 @@
       "@type": "ItemList",
       "@id": "#attitudevault-catalog",
       "name": "AttitudeVault Prompt Catalog",
-      "description": "Complete catalog of 47 production-tested prompts, templates, and workflows in AttitudeVault.",
-      "numberOfItems": 47,
+      "description": "Complete catalog of 48 production-tested prompts, templates, and workflows in AttitudeVault.",
+      "numberOfItems": 48,
       "url": "https://attitudevault.dev",
-      "dateModified": "2026-04-25",
+      "dateModified": "2026-05-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -8144,6 +8144,42 @@
           "position": 9,
           "item": {
             "@type": "CreativeWork",
+            "name": "The Exact Prompt to Fix \"My AI Tool Can't Access My Localhost\"",
+            "url": "https://attitudevault.dev/item/ai-tool-cant-access-localhost-prompt-fix",
+            "description": "Your AI agent cannot see your localhost because it runs in a sandbox. A cloud micro-VM, an isolated process, or a remote container. Different machine. Different \"local\".\n\nThree fixes exist. Tunnel the port with Cloudflare Tunnel or ngrok. Run the project inside the agent's sandbox. Or deploy to a...",
+            "category": "AI Prompt Templates",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-05-02",
+            "keywords": [
+              "Claude",
+              "ChatGPT",
+              "Perplexity Computer",
+              "Cursor",
+              "Claude Code",
+              "GitHub Copilot",
+              "Replit"
+            ],
+            "about": [
+              "ai-agents",
+              "localhost",
+              "sandbox",
+              "tunneling",
+              "cloudflare-tunnel",
+              "ngrok",
+              "vibe-coding",
+              "prompt-engineering"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "CreativeWork",
             "name": "Anti-Hallucination Prompt",
             "url": "https://attitudevault.dev/item/anti-hallucination-prompt",
             "description": "This prompt tackles the fear that AI is “making things up” by forcing the model to show its sources, cross-check important facts, and state how sure it is.\n\nWho would benefit\nAnyone using AI for research, learning, or decision-making—especially non-experts who can’t easily spot errors—will benefi...",
@@ -8165,7 +8201,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 11,
           "item": {
             "@type": "CreativeWork",
             "name": "Anti-Sycophancy Behavior Rules",
@@ -8190,7 +8226,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 12,
           "item": {
             "@type": "CreativeWork",
             "name": "Ask Until Clarity",
@@ -8214,7 +8250,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 13,
           "item": {
             "@type": "CreativeWork",
             "name": "Avoid The Kindness Trap",
@@ -8238,7 +8274,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 14,
           "item": {
             "@type": "CreativeWork",
             "name": "Break-It-To-Fix-It Editor",
@@ -8265,7 +8301,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 15,
           "item": {
             "@type": "CreativeWork",
             "name": "Charlie The Interactive Repurposing Builder",
@@ -8289,7 +8325,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 16,
           "item": {
             "@type": "CreativeWork",
             "name": "Cost of Living Abroad Calculator",
@@ -8314,7 +8350,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 17,
           "item": {
             "@type": "CreativeWork",
             "name": "Ebook Outline Prompt",
@@ -8340,7 +8376,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 18,
           "item": {
             "@type": "CreativeWork",
             "name": "Final Article Review & Optimization Prompt",
@@ -8366,7 +8402,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 19,
           "item": {
             "@type": "CreativeWork",
             "name": "Minimize Hallucinations",
@@ -8390,7 +8426,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 20,
           "item": {
             "@type": "CreativeWork",
             "name": "Roast My Writing",
@@ -8415,7 +8451,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 20,
+          "position": 21,
           "item": {
             "@type": "CreativeWork",
             "name": "SCAMPER Prompt",
@@ -8441,7 +8477,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 21,
+          "position": 22,
           "item": {
             "@type": "CreativeWork",
             "name": "Soft Roast My Substack Visuals",
@@ -8467,7 +8503,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 23,
           "item": {
             "@type": "CreativeWork",
             "name": "Step-by-Step Philosophical Coaching Prompt",
@@ -8491,7 +8527,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 24,
           "item": {
             "@type": "CreativeWork",
             "name": "Substack Content Compass Prompt",
@@ -8517,7 +8553,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 25,
           "item": {
             "@type": "CreativeWork",
             "name": "Successful Note to Newsletter Converter ",
@@ -8542,7 +8578,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 26,
           "item": {
             "@type": "CreativeWork",
             "name": "The 10,000 foot review",
@@ -8567,7 +8603,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 27,
           "item": {
             "@type": "CreativeWork",
             "name": "The CIA Investigator Profile",
@@ -8592,7 +8628,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 28,
           "item": {
             "@type": "CreativeWork",
             "name": "The Citation Verification Prompt",
@@ -8625,7 +8661,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 29,
           "item": {
             "@type": "CreativeWork",
             "name": "The Goal Copilot",
@@ -8650,7 +8686,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 30,
           "item": {
             "@type": "CreativeWork",
             "name": "The “Reality Check” Prompt",
@@ -8667,7 +8703,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 31,
           "item": {
             "@type": "CreativeWork",
             "name": "The “Unfair Advantage” Prompt",
@@ -8692,7 +8728,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 32,
           "item": {
             "@type": "CreativeWork",
             "name": "Triple-Threat Headline Generator ",
@@ -8718,7 +8754,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 33,
           "item": {
             "@type": "CreativeWork",
             "name": "Uncover the Avoided Question",
@@ -8742,7 +8778,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 34,
           "item": {
             "@type": "CreativeWork",
             "name": "AI PM Workspace ",
@@ -8759,7 +8795,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 35,
           "item": {
             "@type": "CreativeWork",
             "name": "Claude Code Statusline",
@@ -8776,32 +8812,96 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 36,
           "item": {
             "@type": "CreativeWork",
-            "name": "Animation Pack 001: Hero Section - Breathing Gradient",
-            "url": "https://attitudevault.dev/item/animation-pack-001-hero-section-breathing-gradient",
-            "description": "Make Your Hero Section Feel Alive\nA tiny motion system for modern landing pages - subtle animation, stronger perceived quality.\nOutcome: A subtle, human-feeling breathing animation that instantly upgrades first impressions.\nDeliverable: Copy-paste prompt file + step-by-step guide you can feed int...",
-            "category": "Vibe Coding Prompts",
+            "name": "Spot the Synthetic Certainty",
+            "url": "https://attitudevault.dev/item/spot-the-synthetic-certainty",
+            "description": "Reasoning models sound smart even when they are guessing. That is the trap.\n\nThis prompt runs on AI output itself, not on a task. We paste in what the model just told us. It flags every sentence that sounds confident but has no grounding. Synthetic certainty. Fluency masquerading as knowledge.\n\nI...",
+            "category": "Critical AI Literacy",
             "creator": {
               "@type": "Person",
               "name": "Karo"
             },
-            "isAccessibleForFree": false,
-            "datePublished": "2025-10-13",
+            "isAccessibleForFree": true,
+            "datePublished": "2026-04-21",
             "keywords": [
-              "Replit"
+              "ChatGPT",
+              "Claude",
+              "Gemini",
+              "Perplexity",
+              "DeepSeek"
             ],
             "about": [
-              "Animation Prompts",
-              "UI Prompts",
-              "Vibecoding & Speccoding"
+              "AI Fluency",
+              "Chain-of-Verification (CoVe)",
+              "System Prompts",
+              "Writing & Editing"
             ]
           }
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 37,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "The Minimum Viable Reasoning Prompt",
+            "url": "https://attitudevault.dev/item/minimum-viable-reasoning-prompt",
+            "description": "Stop chain-of-thought prompting reasoning models. We are making them worse.\n\nReasoning models (o3, GPT-5 thinking, Claude Sonnet 4.5 thinking, Gemini 3 Pro Thinking, DeepSeek-R1) do their thinking before they answer. When we tell them \"think step by step,\" we overwrite the exact process the model...",
+            "category": "Critical AI Literacy",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-04-21",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini",
+              "DeepSeek",
+              "Grok"
+            ],
+            "about": [
+              "Advanced Context Engineering",
+              "AI Fluency",
+              "System Prompts"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "The Reasoning Trace Auditor",
+            "url": "https://attitudevault.dev/item/reasoning-trace-auditor",
+            "description": "Reasoning models now show their work. That is a gift. We keep ignoring it.\n\no3, Claude Sonnet 4.5 thinking, Gemini 3 Pro Thinking, and DeepSeek-R1 all expose some version of a reasoning trace: the thinking the model did before the answer. The answer might look clean. The trace usually tells us wh...",
+            "category": "Critical AI Literacy",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo"
+            },
+            "isAccessibleForFree": true,
+            "datePublished": "2026-04-21",
+            "keywords": [
+              "ChatGPT",
+              "Claude",
+              "Gemini",
+              "DeepSeek",
+              "Grok"
+            ],
+            "about": [
+              "AI Fluency",
+              "Chain-of-Verification (CoVe)",
+              "Advanced Context Engineering",
+              "System Prompts"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
           "item": {
             "@type": "CreativeWork",
             "name": "Animation Pack 001: Hero Section - Breathing Gradient",
@@ -8826,7 +8926,32 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 40,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Animation Pack 001: Hero Section - Breathing Gradient",
+            "url": "https://attitudevault.dev/item/animation-pack-001-hero-section-breathing-gradient",
+            "description": "Make Your Hero Section Feel Alive\nA tiny motion system for modern landing pages - subtle animation, stronger perceived quality.\nOutcome: A subtle, human-feeling breathing animation that instantly upgrades first impressions.\nDeliverable: Copy-paste prompt file + step-by-step guide you can feed int...",
+            "category": "Vibe Coding Prompts",
+            "creator": {
+              "@type": "Person",
+              "name": "Karo"
+            },
+            "isAccessibleForFree": false,
+            "datePublished": "2025-10-13",
+            "keywords": [
+              "Replit"
+            ],
+            "about": [
+              "Animation Prompts",
+              "UI Prompts",
+              "Vibecoding & Speccoding"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
           "item": {
             "@type": "CreativeWork",
             "name": "Drag-drop form builder for webinars and workshops",
@@ -8843,7 +8968,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 42,
           "item": {
             "@type": "CreativeWork",
             "name": "Plot Check for Coding Agents",
@@ -8871,7 +8996,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 43,
           "item": {
             "@type": "CreativeWork",
             "name": "Prompt Pack: 100 Most Common UI Elements For Vibecoders",
@@ -8884,12 +9009,6 @@
             },
             "isAccessibleForFree": false,
             "datePublished": "2025-10-17",
-            "keywords": [
-              "Replit",
-              "Cursor",
-              "Claude Code",
-              "Antigravity"
-            ],
             "about": [
               "UI Prompts",
               "Vibecoding & Speccoding"
@@ -8898,7 +9017,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 44,
           "item": {
             "@type": "CreativeWork",
             "name": "Source Code: Valentine’s Day scratch card app",
@@ -8915,7 +9034,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 45,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding x Cybersecurity: Survival Guide",
@@ -8943,7 +9062,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 46,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding: AI Rules Files Generator",
@@ -8971,7 +9090,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 47,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding: Instantly Fix 401 Errors. An Automated Debug Loop That Runs 30+ Checks and Finds Root Cause",
@@ -8995,7 +9114,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 48,
           "item": {
             "@type": "CreativeWork",
             "name": "Vibecoding: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
@@ -9015,95 +9134,6 @@
             "about": [
               "Advanced Context Engineering",
               "Vibecoding & Speccoding"
-            ]
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 45,
-          "item": {
-            "@type": "CreativeWork",
-            "name": "Spot the Synthetic Certainty",
-            "url": "https://attitudevault.dev/item/spot-the-synthetic-certainty",
-            "description": "Reasoning models sound smart even when they are guessing. That is the trap.\n\nThis prompt runs on AI output itself, not on a task. We paste in what the model just told us. It flags every sentence that sounds confident but has no grounding. Synthetic certainty. Fluency masquerading as knowledge.\n\nI...",
-            "category": "critical-ai-literacy",
-            "creator": {
-              "@type": "Person",
-              "name": "Karo"
-            },
-            "isAccessibleForFree": true,
-            "datePublished": "2026-04-21",
-            "keywords": [
-              "ChatGPT",
-              "Claude",
-              "Gemini",
-              "Perplexity",
-              "DeepSeek"
-            ],
-            "about": [
-              "AI Fluency",
-              "Chain-of-Verification (CoVe)",
-              "System Prompts",
-              "Writing & Editing"
-            ]
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 46,
-          "item": {
-            "@type": "CreativeWork",
-            "name": "The Minimum Viable Reasoning Prompt",
-            "url": "https://attitudevault.dev/item/minimum-viable-reasoning-prompt",
-            "description": "Stop chain-of-thought prompting reasoning models. We are making them worse.\n\nReasoning models (o3, GPT-5 thinking, Claude Sonnet 4.5 thinking, Gemini 3 Pro Thinking, DeepSeek-R1) do their thinking before they answer. When we tell them \"think step by step,\" we overwrite the exact process the model...",
-            "category": "critical-ai-literacy",
-            "creator": {
-              "@type": "Person",
-              "name": "Karo"
-            },
-            "isAccessibleForFree": true,
-            "datePublished": "2026-04-21",
-            "keywords": [
-              "ChatGPT",
-              "Claude",
-              "Gemini",
-              "DeepSeek",
-              "Grok"
-            ],
-            "about": [
-              "Advanced Context Engineering",
-              "AI Fluency",
-              "System Prompts"
-            ]
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 47,
-          "item": {
-            "@type": "CreativeWork",
-            "name": "The Reasoning Trace Auditor",
-            "url": "https://attitudevault.dev/item/reasoning-trace-auditor",
-            "description": "Reasoning models now show their work. That is a gift. We keep ignoring it.\n\no3, Claude Sonnet 4.5 thinking, Gemini 3 Pro Thinking, and DeepSeek-R1 all expose some version of a reasoning trace: the thinking the model did before the answer. The answer might look clean. The trace usually tells us wh...",
-            "category": "critical-ai-literacy",
-            "creator": {
-              "@type": "Person",
-              "name": "Karo"
-            },
-            "isAccessibleForFree": true,
-            "datePublished": "2026-04-21",
-            "keywords": [
-              "ChatGPT",
-              "Claude",
-              "Gemini",
-              "DeepSeek",
-              "Grok"
-            ],
-            "about": [
-              "AI Fluency",
-              "Chain-of-Verification (CoVe)",
-              "Advanced Context Engineering",
-              "System Prompts"
             ]
           }
         }
