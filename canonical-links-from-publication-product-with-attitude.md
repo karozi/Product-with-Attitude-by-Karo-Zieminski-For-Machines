@@ -1,6 +1,25 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: April 2026
+Last updated: May 2026
+
+---
+
+## Article: What Is A Sandboxed Virtual Machine?
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/sandboxed-virtual-machine
+
+**Original Publish Date:** May 03, 2026
+
+---
+## Article: The Exact Prompt to Fix "My AI Tool Can't Access My Localhost"
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-tool-cant-access-localhost-prompt-fix
+
+**Original Publish Date:** April 26, 2026
 
 ---
 
