@@ -4,6 +4,16 @@ Last updated: May 2026
 
 ---
 
+## Article: I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-finance-palantir-tearsheet
+
+**Original Publish Date:** May 06, 2026
+
+---
+
 ## Article: What Is A Sandboxed Virtual Machine?
 
 **Author:** Karo Zieminski
