@@ -1193,7 +1193,23 @@
             ],
             "pwa:primaryTopic": "AI prompts for divergent thinking",
             "pwa:source": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
-            "pwa:evidence": "12-dimension side-by-side comparison of adult brainstorming prompt and the Preschool Brain Prompt, tested May 2026 on Product with Attitude."
+            "pwa:evidence": "12-dimension side-by-side comparison of adult brainstorming prompt and the Preschool Brain Prompt, tested May 2026 on Product with Attitude.",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Prompt: Endless Ideas Generator Inspired by Preschoolers",
+              "url": "https://karozieminski.substack.com/p/preschool-brain-prompt",
+              "author": {
+                "@id": "https://karozieminski.substack.com/#author"
+              },
+              "publisher": {
+                "@id": "https://karozieminski.substack.com/#publication"
+              }
+            },
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Prompt: Endless Ideas Generator Inspired by Preschoolers",
+              "url": "https://karozieminski.substack.com/p/preschool-brain-prompt"
+            }
           }
         },
         {
@@ -12587,5 +12603,5 @@
     }
   ],
   "schemaVersion": "5.6",
-  "dateModified": "2026-05-07"
+  "dateModified": "2026-05-08"
 }
