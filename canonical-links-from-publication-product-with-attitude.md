@@ -4,6 +4,25 @@ Last updated: May 2026
 
 ---
 
+## Article: An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026
+
+**Original Publish Date:** May 13, 2026
+
+---
+## Article: Prompt: The Context Spec Generator
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/prompt-context-spec-generator
+
+**Original Publish Date:** April 01, 2026
+
+---
+
 ## Article: I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.
 
 **Author:** Karo Zieminski
