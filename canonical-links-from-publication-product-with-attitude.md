@@ -4,6 +4,16 @@ Last updated: May 2026
 
 ---
 
+## Article: Anthropic Launches Claude For Small Business
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows
+
+**Original Publish Date:** May 14, 2026
+
+---
+
 ## Article: An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both
 
 **Author:** Karo Zieminski
