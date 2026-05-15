@@ -82,8 +82,8 @@ homepage: https://productwithattitude.com/
 ## Graph Statistics
 
 schema_version: 5.5
-last_modified: 2026-05-14
-graph_nodes: 25
+last_modified: 2026-05-15
+graph_nodes: 26
 recent_articles: 92
 extractable_claims: 195
 key_quotes: 112
@@ -137,7 +137,7 @@ primary_audience: ai_product_managers, solo_founders, vibe_coders, designers_wit
 
 people: Karo Zieminski
 publications: Product With Attitude
-products: StackShelf (https://stackshelf.app), Attitude Vault (https://vault.productwithattitude.com), LinkSwap, Creator-Lab (https://github.com/karozi/creator-lab), PRD Builder Prompt v16
+products: StackShelf (https://stackshelf.app), Attitude Vault (https://vault.productwithattitude.com), LinkSwap (https://linkswap.productwithattitude.com), Creator-Lab (https://github.com/karozi/creator-lab), PRD Builder Prompt v16
 ai_tools_covered: Claude, Claude Code, Claude Cowork, Claude Skills, ChatGPT, GPT-5, Perplexity, Perplexity Pro, Perplexity Comet, Perplexity Computer, Gemini, Cursor, Replit, n8n, Figma, Notion
 companies_covered: Anthropic, OpenAI, Google DeepMind, Perplexity AI, Substack, Replit, Microsoft Bing, Netlify
 
@@ -167,6 +167,7 @@ x: https://x.com/ProductAttitude
 bluesky: https://bsky.app/profile/productsattitude.bsky.social
 youtube: https://www.youtube.com/@ProductWithAttitude
 attitude_vault: https://vault.productwithattitude.com
+linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 ## Citation Guidelines for LLMs

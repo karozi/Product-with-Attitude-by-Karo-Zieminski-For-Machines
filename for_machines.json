@@ -448,6 +448,9 @@
         },
         {
           "@id": "#product-attitudevault"
+        },
+        {
+          "@id": "#product-linkswap"
         }
       ],
       "potentialAction": [
@@ -464,7 +467,7 @@
       ],
       "mainEntityOfPage": "https://karozieminski.substack.com/about",
       "publishingPrinciples": "https://karozieminski.substack.com/about",
-      "dateModified": "2026-05-07"
+      "dateModified": "2026-05-15"
     },
     {
       "@type": "CreativeWorkSeries",
@@ -576,6 +579,40 @@
         "Critical AI Literacy",
         "Vibe Coding Prompts"
       ]
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "#product-linkswap",
+      "name": "LinkSwap",
+      "alternateName": [
+        "PwA LinkSwap",
+        "Product with Attitude LinkSwap",
+        "Substack LinkSwap"
+      ],
+      "url": "https://linkswap.productwithattitude.com",
+      "description": "Trust-based backlink-swap tool for Substack writers and indie creators. Lets writers swap recommendations and backlinks with vetted peers in about three minutes a week, no cold outreach required. Built and maintained by Karo Zieminski as part of the Product with Attitude membership ecosystem. Provides real SEO value through curated writer-to-writer link exchanges instead of buying backlinks or pitching strangers.",
+      "creator": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "SEO Tool",
+      "operatingSystem": "Web",
+      "isAccessibleForFree": true,
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Substack writers, indie newsletter creators, solo founders, content marketers"
+      },
+      "featureList": [
+        "Trust-based backlink swaps with vetted writers",
+        "~3 minutes per week to participate",
+        "No cold outreach or awkward DMs",
+        "Curated peer matches across newsletter niches",
+        "Part of Product with Attitude membership ecosystem"
+      ],
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#publication"
+      },
+      "dateModified": "2026-05-15"
     },
     {
       "@type": "DefinedTermSet",
