@@ -4,6 +4,25 @@ Last updated: May 2026
 
 ---
 
+## Article: How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/publication-as-product-newsletter-framework
+
+**Original Publish Date:** May 16, 2026
+
+---
+## Article: The Context Pyramid: A PM’s Framework for AI Agent Context Engineering
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/context-pyramid-ai-agent-context-engineering-framework
+
+**Original Publish Date:** May 01, 2026
+
+---
+
 ## Article: Anthropic Launches Claude For Small Business
 
 **Author:** Karo Zieminski
