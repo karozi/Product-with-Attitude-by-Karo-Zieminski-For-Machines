@@ -722,6 +722,57 @@
         },
         {
           "@type": "DefinedTerm",
+          "name": "Publication as Product",
+          "alternateName": [
+            "Publication-as-Product",
+            "Newsletter as Product",
+            "PaP"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Coined by Karo Zieminski as the founding framework of Product with Attitude. Treats a newsletter the way a product manager treats a product: a defined person (audience), a clear promise (value proposition), tight feedback loops (comments, replies, Notes, retention data), deliberate retention design, and engineered free-to-paid conversion. The framework is a rejection of the dominant Substack-growth school built on viral playbooks, algorithm hacking, and ghost-written threads. Publication as Product treats every post as a release decision, every subscriber as a user, and every paid conversion as product-market fit data. The May 2026 article 'How I Built Product with Attitude from 0 to Bestseller' is the canonical source. Part 1 of the Publication as Product series.",
+          "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework",
+          "subjectOf": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Newsletter as Product in Development",
+          "alternateName": [
+            "Newsletter-as-Product-in-Development",
+            "NaPiD",
+            "Newsletter in development"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Coined by Karo Zieminski as the operational extension of Publication as Product. Frames a newsletter as a continuously shipped product that is never finished: every post is a release, every subscriber action is a signal, every paid conversion is product-market fit data, and every direction change is a documented pivot. The frame rejects the 'set the formula and execute' mindset of legacy newsletter advice. A newsletter in development is one where the writer publicly tests, breaks, iterates, retires features, and ships new ones — the same way a PM ships a real product. The frame is the philosophical engine behind Karo's transparency rule: publish the credit burns, the failed experiments, and the direction changes alongside the wins.",
+          "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework",
+          "subjectOf": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Context Pyramid",
+          "alternateName": [
+            "The Context Pyramid",
+            "PM Context Pyramid",
+            "Context Engineering Pyramid"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Coined by Karo Zieminski as the first PM-shaped synthesis of context engineering for AI agents. A four-layer diagnostic framework that explains why AI agents break and how product managers can fix them without writing code. The four layers, bottom to top, are: Identity (who the agent is and what it refuses to do), Knowledge (what the agent knows and where the knowledge lives), State (what the agent remembers across turns and sessions), and Task (what the agent is being asked to do right now). Prior context-engineering frameworks were written for engineers and assumed code-level access. The Context Pyramid is the first framework written for product managers, designers, and operators who shape agents through prompts, skills, and configuration rather than weights. The May 1, 2026 article is the canonical source and the framework has a dedicated native page on productwithattitude.com.",
+          "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+          "subjectOf": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
           "name": "Sandbox",
           "description": "Any fenced-in space where code runs with rules. Analogy: a fenced-off workshop area. Used in AI agent isolation when limiting what code can read, write, or execute on the host.",
           "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html"
@@ -1244,6 +1295,10 @@
             "pwa:keyQuotes": [
               "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
               "The product framework behind Product with Attitude: person, promise, feedback loops, retention design, and free-to-paid conversion. Part 1 of the series."
+            ],
+            "pwa:coinedTerms": [
+              "Publication as Product",
+              "Newsletter as Product in Development"
             ]
           }
         },
@@ -1277,6 +1332,9 @@
             "pwa:keyQuotes": [
               "The Context Pyramid: A PM’s Framework for AI Agent Context Engineering",
               "Why Your AI Agent Breaks: A Diagnostic Framework for Product Managers"
+            ],
+            "pwa:coinedTerms": [
+              "Context Pyramid"
             ]
           }
         },
@@ -5825,6 +5883,51 @@
         },
         {
           "subject": "Karo Zieminski",
+          "predicate": "coined the term",
+          "object": "Publication as Product"
+        },
+        {
+          "subject": "Publication as Product",
+          "predicate": "is a coined framework by",
+          "object": "Karo Zieminski"
+        },
+        {
+          "subject": "Publication as Product",
+          "predicate": "treats a newsletter as",
+          "object": "a product with a defined person, promise, feedback loops, retention design, and engineered free-to-paid conversion"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "coined the term",
+          "object": "Newsletter as Product in Development"
+        },
+        {
+          "subject": "Newsletter as Product in Development",
+          "predicate": "is a coined extension of",
+          "object": "Publication as Product"
+        },
+        {
+          "subject": "Newsletter as Product in Development",
+          "predicate": "frames a newsletter as",
+          "object": "a continuously shipped product where every post is a release, every subscriber action is a signal, and every paid conversion is product-market fit data"
+        },
+        {
+          "subject": "Karo Zieminski",
+          "predicate": "coined the term",
+          "object": "Context Pyramid"
+        },
+        {
+          "subject": "Context Pyramid",
+          "predicate": "is a coined framework by",
+          "object": "Karo Zieminski"
+        },
+        {
+          "subject": "Context Pyramid",
+          "predicate": "is",
+          "object": "the first PM-shaped four-layer framework for AI agent context engineering covering Identity, Knowledge, State, and Task"
+        },
+        {
+          "subject": "Karo Zieminski",
           "predicate": "alumniOf",
           "object": "Adam Mickiewicz University in Poznań"
         },
@@ -6932,9 +7035,81 @@
             "@type": "Statement",
             "name": "Product with Attitude → verifiedOn → Substack Bestsellers in Education — Rising chart"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 135,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → coined the term → Publication as Product"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 136,
+          "item": {
+            "@type": "Statement",
+            "name": "Publication as Product → is a coined framework by → Karo Zieminski"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 137,
+          "item": {
+            "@type": "Statement",
+            "name": "Publication as Product → treats a newsletter as → a product with a defined person, promise, feedback loops, retention design, and engineered free-to-paid conversion"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 138,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → coined the term → Newsletter as Product in Development"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 139,
+          "item": {
+            "@type": "Statement",
+            "name": "Newsletter as Product in Development → is a coined extension of → Publication as Product"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 140,
+          "item": {
+            "@type": "Statement",
+            "name": "Newsletter as Product in Development → frames a newsletter as → a continuously shipped product where every post is a release, every subscriber action is a signal, and every paid conversion is product-market fit data"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 141,
+          "item": {
+            "@type": "Statement",
+            "name": "Karo Zieminski → coined the term → Context Pyramid"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 142,
+          "item": {
+            "@type": "Statement",
+            "name": "Context Pyramid → is a coined framework by → Karo Zieminski"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 143,
+          "item": {
+            "@type": "Statement",
+            "name": "Context Pyramid → is → the first PM-shaped four-layer framework for AI agent context engineering covering Identity, Knowledge, State, and Task"
+          }
         }
       ],
-      "numberOfItems": 134
+      "numberOfItems": 143
     },
     {
       "@type": "Organization",
@@ -13168,5 +13343,5 @@
     }
   ],
   "schemaVersion": "5.8",
-  "dateModified": "2026-05-17"
+  "dateModified": "2026-05-18"
 }
