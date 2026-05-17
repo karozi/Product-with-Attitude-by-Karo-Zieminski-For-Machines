@@ -19002,10 +19002,271 @@
               "feature_count": 4
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Code Like A Girl (Dinah) Substack Note: named endorsement of Karo's Claude SMB breakdown",
+            "description": "Dinah at Code Like A Girl posted a public Note on Substack tagging @Karo (Product with Attitude), describing her as the writer who 'cuts through the launch hype with the piece SMB owners actually need: where to start, what Claude can touch, and how to roll it out without handing AI the keys to the whole business'. Embeds Karo's Claude for Small Business article as the source card.",
+            "url": "https://substack.com/@codelikeagirl/note/c-259235566",
+            "datePublished": "2026-05-17",
+            "author": {
+              "@type": "Person",
+              "name": "Code Like A Girl (Dinah)",
+              "url": "https://substack.com/@codelikeagirl"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Claude for Small Business rollout plan and decision tree",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "citation": {
+              "quote": "Karo (Product with Attitude) cuts through the launch hype with the piece SMB owners actually need: where to start, what Claude can touch, and how to roll it out without handing AI the keys to the whole business.",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_embedded_card",
+              "engagement": "5 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Jen Leo (Next Chapter Together) Substack Note restacks Karo's Claude SMB article",
+            "description": "Jen Leo, author of Next Chapter Together on Substack, restacked Karo Zieminski's Claude for Small Business article on May 16, 2026 with the commentary 'I'm curious and excited and ready to dive in to learn a bit as part of the process for building my next chapter.'",
+            "url": "https://substack.com/@jenleofieldnotes/note/c-260154884",
+            "datePublished": "2026-05-16",
+            "author": {
+              "@type": "Person",
+              "name": "Jen Leo",
+              "url": "https://substack.com/@jenleofieldnotes"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Claude for Small Business as a learning resource for next-chapter builders",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Next Chapter Together",
+              "url": "https://jenleofieldnotes.substack.com/"
+            },
+            "citation": {
+              "quote": "I'm curious and excited and ready to dive in to learn a bit as part of the process for building my next chapter.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "3 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Mary Lonsdale (What's Worth Learning) Substack Note: useful & accurate for small business launch",
+            "description": "Mary Lonsdale, author of What's Worth Learning on Substack, restacked Karo Zieminski's Claude for Small Business article on May 14, 2026 with the commentary 'I found this really useful and very accurate about the first steps small businesses need to take to launch better ops and sales processes.'",
+            "url": "https://substack.com/@marylonsdale/note/c-258924413",
+            "datePublished": "2026-05-14",
+            "author": {
+              "@type": "Person",
+              "name": "Mary Lonsdale",
+              "url": "https://substack.com/@marylonsdale"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "First steps for small businesses to launch better ops and sales processes with Claude",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "What's Worth Learning",
+              "url": "https://marylonsdale.substack.com/"
+            },
+            "citation": {
+              "quote": "I found this really useful and very accurate about the first steps small businesses need to take to launch better ops and sales processes.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "2 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Karen Spinner (Wondering About AI) Substack Note: named endorsement of Karo's Claude SMB explainer",
+            "description": "Karen Spinner, author of Wondering About AI on Substack, posted a Note on May 14, 2026 tagging @Karo (Product with Attitude), describing how Karo 'breaks it down and explains why you probably don't need a consultant to start working with' Claude for Small Business.",
+            "url": "https://substack.com/@karenspinner1/note/c-258886221",
+            "datePublished": "2026-05-14",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner",
+              "url": "https://substack.com/@karenspinner1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Why you don't need a consultant to start working with Claude for Small Business",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Wondering About AI",
+              "url": "https://wonderingaboutai.substack.com/"
+            },
+            "citation": {
+              "quote": "And now there's Claude for Small Business...at first glance, this feels like a lot for business owners to take in. Karo (Product with Attitude) breaks it down and explains why you probably don't need a consultant to start working with it.",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_embedded_card",
+              "engagement": "25 likes, 2 replies, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Robert Richardson (Building the Assistant) Substack Note: 'most useful piece' on Claude SMB",
+            "description": "Robert Richardson, author of Building the Assistant on Substack, restacked Karo Zieminski's Claude for Small Business article on May 14, 2026 with the commentary 'Maybe the most useful piece I've seen so far on Claude's SMB release'.",
+            "url": "https://substack.com/@robertrichardson/note/c-258880429",
+            "datePublished": "2026-05-14",
+            "author": {
+              "@type": "Person",
+              "name": "Robert Richardson",
+              "url": "https://substack.com/@robertrichardson"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Claude SMB release coverage assessment",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Building the Assistant",
+              "url": "https://robertrichardson.substack.com/"
+            },
+            "citation": {
+              "quote": "Maybe the most useful piece I've seen so far on Claude's SMB release.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "1 like, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Greg Maxfield (The Unfolding Plot) Substack Note: uses Karo's article as the canonical Anthropic-release illustration",
+            "description": "Greg Maxfield, author of The Unfolding Plot on Substack, posted a Note on May 14, 2026 asking 'Is anyone keeping up with implementing all the functionality Anthropic releases every week?' and embedded Karo Zieminski's Claude for Small Business article as the illustrative example of the release pace.",
+            "url": "https://substack.com/@gregmaxfield/note/c-258819238",
+            "datePublished": "2026-05-14",
+            "author": {
+              "@type": "Person",
+              "name": "Greg Maxfield",
+              "url": "https://substack.com/@gregmaxfield"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Pace of Anthropic feature releases and the difficulty of keeping up",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "The Unfolding Plot",
+              "url": "https://substack.com/@gregmaxfield"
+            },
+            "citation": {
+              "quote": "Is anyone keeping up with implementing all the functionality Anthropic releases every week?!?!?",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "2 likes"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Raghav Mehra (Cash & Cache) Substack Note: technical summary of Karo's Claude SMB breakdown",
+            "description": "Raghav Mehra, author of Cash & Cache on Substack, restacked Karo Zieminski's Claude for Small Business article on May 13, 2026 with the technical summary 'Claude for Small Business: same tools but better integrated with Cowork and several key MCPs.'",
+            "url": "https://substack.com/@raghavmhra24/note/c-258777759",
+            "datePublished": "2026-05-13",
+            "author": {
+              "@type": "Person",
+              "name": "Raghav Mehra",
+              "url": "https://substack.com/@raghavmhra24"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Claude for Small Business integration with Claude Cowork and MCPs",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business: decision tree, trust table, rollout plan",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Cash & Cache",
+              "url": "https://cashandcache.substack.com/"
+            },
+            "citation": {
+              "quote": "Claude for Small Business: same tools but better intergrated with Cowork and several key MCPs.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "4 likes, 1 reply"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.2",
+  "schemaVersion": "5.9.3",
   "dateModified": "2026-05-17"
 }
