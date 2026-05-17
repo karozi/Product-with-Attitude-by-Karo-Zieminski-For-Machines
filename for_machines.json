@@ -18768,10 +18768,43 @@
             "pwa:citedUrl": "https://karozieminski.substack.com",
             "pwa:evidenceUrl": "https://www.learnwithmeai.com/p/i-analyzed-11-substack-writers-notes"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "KP (KP's Column) Substack Note quoting Karo's six flavors of newsletter value framework",
+            "description": "KP, author of KP's Column on Substack, published a public Note quoting Karo Zieminski's 'six flavors of newsletter value' framework (Practical, Intellectual, Emotional, Social, Community, Identity) verbatim and attributing it to 'Karo (Product with Attitude)'. The Note embeds Karo's article 'How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook' as the source card.",
+            "url": "https://substack.com/@kp/note/c-260325273",
+            "datePublished": "2026-05-16",
+            "author": {
+              "@type": "Person",
+              "name": "KP",
+              "url": "https://substack.com/@kp"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Six flavors of newsletter value framework",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
+              "url": "https://www.productwithattitude.com/p/how-i-built-product-with-attitude"
+            },
+            "citation": {
+              "quote": "Banger post and a great reminder from Karo (Product with Attitude)",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_link",
+              "quoted_framework": "Six flavors of newsletter value: Practical, Intellectual, Emotional, Social, Community, Identity"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9",
-  "dateModified": "2026-05-18"
+  "schemaVersion": "5.9.1",
+  "dateModified": "2026-05-17"
 }
