@@ -18801,10 +18801,211 @@
               "quoted_framework": "Six flavors of newsletter value: Practical, Intellectual, Emotional, Social, Community, Identity"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "AI Meets Girlboss Substack Note: shoutout calling Karo a 'Substack big sister'",
+            "description": "Pinkie at AI Meets Girlboss posted a public endorsement Note on Substack tagging @Karo (Product with Attitude), calling her 'a Substack big sister' who is 'wise, generous, and very good at making you realize you have homework to do', and recommending her post on building a publication like a product. Embeds Karo's bestseller-origin article as the source card.",
+            "url": "https://substack.com/@aimeetsgirlboss/note/c-259992585",
+            "datePublished": "2026-05-16",
+            "author": {
+              "@type": "Person",
+              "name": "AI Meets Girlboss (Pinkie)",
+              "url": "https://substack.com/@aimeetsgirlboss"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Building a publication as a product; treating a newsletter like a product in development",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
+              "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework"
+            },
+            "citation": {
+              "quote": "@Karo (Product with Attitude) feels like a Substack big sister to me. Wise, generous, and very good at making you realize you have homework to do.",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_embedded_card",
+              "engagement": "6 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Karen Spinner (Wondering About AI) Substack Note recommending Karo's newsletter growth framework",
+            "description": "Karen Spinner, author of Wondering About AI on Substack, posted a Note praising Karo Zieminski's article as 'immediately useful tips for newsletter growth grounded in product management basics', embedding the source article as a card.",
+            "url": "https://substack.com/@karenspinner1/note/c-259941944",
+            "datePublished": "2026-05-16",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner",
+              "url": "https://substack.com/@karenspinner1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Newsletter growth grounded in product management basics",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
+              "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Wondering About AI",
+              "url": "https://wonderingaboutai.substack.com/"
+            },
+            "citation": {
+              "quote": "Immediately useful tips for newsletter growth grounded in product management basics!",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "embedded_article_card",
+              "engagement": "12 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Mike Goitein (Product Strategy Decoded) Substack Note quoting Karo's newsletter 'promise' framework",
+            "description": "Mike Goitein, author of Product Strategy Decoded on Substack, restacked Karo's article on building a publication as a product with the commentary 'Write a newsletter? Skip the growth hacks and figure out your unique promise to your readers. Karo (Product with Attitude) shows you how.' The embedded card quotes Karo verbatim: 'Why a Promise Matters — A promise gives you a filter. It does not make every decision easy, but it makes it easier. When the promise is fuzzy, every decision becomes a debate.'",
+            "url": "https://substack.com/@michaelgoitein/note/c-260012652",
+            "datePublished": "2026-05-16",
+            "author": {
+              "@type": "Person",
+              "name": "Mike Goitein",
+              "url": "https://substack.com/@michaelgoitein"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "The 'promise' framework for newsletters: why a publication needs a clear filter for decisions",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Publication as Product Newsletter Framework",
+              "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Product Strategy Decoded",
+              "url": "https://michaelgoitein.substack.com/"
+            },
+            "citation": {
+              "quote": "Why a Promise Matters — A promise gives you a filter. It does not make every decision easy, but it makes it easier. When the promise is fuzzy, every decision becomes a debate.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_quoted_framework",
+              "quoted_framework": "The 'promise' as a filter for newsletter decisions",
+              "engagement": "2 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Xian Li (In Silico, In Soul) Substack Note quoting Karo's product definition verbatim",
+            "description": "Xian Li, author of In Silico, In Soul on Substack, posted a Note quoting Karo Zieminski's definition of a product verbatim: 'A product is a repeatable experience of value someone chooses to return to.' The embedded card credits 'Karo (Product with Attitude)' as the source and links to the originating article.",
+            "url": "https://substack.com/@xianli/note/c-259913511",
+            "datePublished": "2026-05-16",
+            "author": {
+              "@type": "Person",
+              "name": "Xian Li",
+              "url": "https://substack.com/@xianli"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Definition of a product as a repeatable experience of value",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Publication as Product Newsletter Framework",
+              "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "In Silico, In Soul",
+              "url": "https://xianli.substack.com/"
+            },
+            "citation": {
+              "quote": "A product is a repeatable experience of value someone chooses to return to.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "quoted_definition": "Karo's definition of a product",
+              "engagement": "4 likes"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "Article",
+            "name": "She Writes AI Community digest features Product with Attitude in 4 separate curated entries",
+            "description": "She Writes AI Community (curated by Karen Smiley) published a public Substack digest post on May 17, 2026 featuring Karo Zieminski's Product with Attitude in 4 separate curated article entries: 'The Only AI Prompting Guide That Works On Reasoning Models', 'Anthropic Launches Claude For Small Business', 'An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both', and 'Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook'. The digest is a curated newsletter highlighting top Substack writing for the She Writes AI Community audience.",
+            "url": "https://shewritesai.substack.com/p/2026-05-17-shewritesai-digest",
+            "datePublished": "2026-05-17",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Smiley",
+              "url": "https://substack.com/@karensmiley"
+            },
+            "publisher": {
+              "@type": "NewsMediaOrganization",
+              "name": "She Writes AI Community",
+              "url": "https://shewritesai.substack.com/"
+            },
+            "about": "Curated digest of top Substack AI writing featuring Product with Attitude in 4 entries",
+            "isBasedOn": [
+              {
+                "@type": "Article",
+                "name": "The Only AI Prompting Guide That Works On Reasoning Models (And Our Cognition)",
+                "url": "https://karozieminski.substack.com/"
+              },
+              {
+                "@type": "Article",
+                "name": "Anthropic Launches Claude For Small Business",
+                "url": "https://karozieminski.substack.com/"
+              },
+              {
+                "@type": "Article",
+                "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+                "url": "https://karozieminski.substack.com/"
+              },
+              {
+                "@type": "Article",
+                "name": "Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
+                "url": "https://karozieminski.substack.com/"
+              }
+            ],
+            "citation": {
+              "quote": "Featured 4 Product with Attitude articles in a single curated digest issue",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "multi_entry_curated_feature",
+              "engagement": "26 likes, 6 restacks, 2 replies",
+              "feature_count": 4
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.1",
+  "schemaVersion": "5.9.2",
   "dateModified": "2026-05-17"
 }
