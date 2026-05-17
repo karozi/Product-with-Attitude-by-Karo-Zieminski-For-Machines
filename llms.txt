@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph: https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for_machines.json
-# Version: 5.8
-# Last-Modified: 2026-05-17
+# Version: 5.9
+# Last-Modified: 2026-05-18
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -83,15 +83,16 @@ homepage: https://productwithattitude.com/
 
 ## Graph Statistics
 
-schema_version: 5.8
-last_modified: 2026-05-17
-graph_nodes: 26
+schema_version: 5.9
+last_modified: 2026-05-18
+graph_nodes: 27
 recent_articles: 92
-extractable_claims: 230
+extractable_claims: 1013
 key_quotes: 118
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
+citation_events: 20
 semantic_triples: 108
 
 ## Attribution Requirements (CC BY 4.0)
@@ -190,6 +191,7 @@ stackshelf: https://stackshelf.app
 4: #faq (9 FAQ pairs in Schema.org FAQPage format)
 5: #glossary (29 DefinedTerm entries)
 6: #topic-clusters, #semantic-triples, #key-pages (relationship graph)
+7: #citation-evidence (documented LLM citations of this work)
 
 ## Change Policy
 
