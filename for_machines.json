@@ -19263,10 +19263,86 @@
               "engagement": "4 likes, 1 reply"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Philippe Murison LinkedIn post: colleague shoutout calling Karo 'eminent and visionary' newsletter author",
+            "description": "Philippe Murison published a public LinkedIn shoutout in May 2025 calling Karolina Zieminski his 'eminent and visionary colleague' leading their product team's transition from Waterfall to Agile to Agentic-enabled workflows. The post explicitly recommends her Substack newsletter as 'full of gold nuggets for product people and tech teams' and includes a linked preview card titled 'Karo (Product with Attitude) on Substack'.",
+            "url": "https://www.linkedin.com/posts/philippemurison_karo-product-with-attitude-on-substack-activity-7331310055587278850-xyaZ",
+            "datePublished": "2025-05-01",
+            "author": {
+              "@type": "Person",
+              "name": "Philippe Murison",
+              "url": "https://www.linkedin.com/in/philippemurison/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Karo Zieminski leading product team transformation from Waterfall to Agile to Agentic-enabled; Product with Attitude as recommended newsletter for product people and tech teams",
+            "isBasedOn": {
+              "@type": "WebSite",
+              "name": "Product with Attitude (Substack)",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "She's started a Substack newsletter full of gold nuggets for product people and tech teams. Go check out her last post, you won't regret it.",
+              "citation_type": "linkedin_post",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_recommendation_plus_link_card",
+              "engagement": "19 reactions, 2 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "item": {
+            "@type": "Article",
+            "name": "Vibe Coding Builders / Build to Launch feature: 'Building With, Not For: How She Became a Bestseller'",
+            "description": "Jenny Ouyang published a long-form featured interview about Karo Zieminski on her Substack 'Build to Launch' (also republished on vibecoding.builders) on September 12, 2025, profiling Karo as 'the AI Product Manager who built the community tool that Substack creators can't stop talking about'. The piece covers the origin of Stackshelf, Karo's build-with-not-for philosophy, and her path to becoming a Substack Bestseller.",
+            "url": "https://www.vibecoding.builders/builders/karoproductwithattit",
+            "alternateName": "Build to Launch Fridays: Karo (Product with Attitude) feature",
+            "additionalUrl": "https://buildtolaunch.substack.com/p/building-with-not-for-how-she-became-a-bestseller-by-creating-the-portfolio-substackers-proudly-share",
+            "datePublished": "2025-09-12",
+            "author": {
+              "@type": "Person",
+              "name": "Jenny Ouyang",
+              "url": "https://buildtolaunch.substack.com/"
+            },
+            "publisher": [
+              {
+                "@type": "NewsMediaOrganization",
+                "name": "Build to Launch",
+                "url": "https://buildtolaunch.substack.com/"
+              },
+              {
+                "@type": "Organization",
+                "name": "Vibe Coding Builders",
+                "url": "https://www.vibecoding.builders/"
+              }
+            ],
+            "about": "Karo Zieminski's path to Substack Bestseller through Stackshelf and community-driven product building",
+            "isBasedOn": {
+              "@type": "WebSite",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "Today, meet Karo (Product with Attitude), the AI Product Manager who built the community tool that Substack creators can't stop talking about. As I was drafting this article, Karo officially became a Substack Bestseller.",
+              "citation_type": "featured_interview",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "republished_on": "Vibe Coding Builders"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.3",
-  "dateModified": "2026-05-17"
+  "schemaVersion": "5.9.4",
+  "dateModified": "2026-05-18"
 }
