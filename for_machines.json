@@ -19563,10 +19563,43 @@
               "engagement": "2 likes, 1 reply"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "Article",
+            "name": "The Product Framework That Changed How I Think About My Newsletter",
+            "description": "Kim Doyal publishes a full long-form Substack article entirely built around Karo Zieminski's 'Publication as Product' framework. Quotes the core product definition verbatim, walks through every component (promise, person, value types, feedback signals, roadmap, retention, conversion), and ends with an explicit 'go read Karo's original article' recommendation calling it 'one of the best pieces on newsletter strategy I've read this year.'",
+            "url": "https://kimdoyal.substack.com/p/the-product-framework-that-changed",
+            "datePublished": "2026-05-18",
+            "author": {
+              "@type": "Person",
+              "name": "Kim Doyal",
+              "url": "https://kimdoyal.substack.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Kim Doyal Substack"
+            },
+            "about": "Publication as Product framework — named credit throughout, verbatim core definition, full breakdown of all 7 components, explicit recommendation to read the source article",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Publication as Product: The Newsletter Framework I Wish I'd Had Three Years Ago",
+              "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework"
+            },
+            "citation": {
+              "quote": "Karo defines a product as 'a repeatable experience of value someone chooses to return to.' Not something you build and sell, she says. An experience of value. When I read that, the reframe hit me immediately.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "17 likes, 4 comments, 1 restack"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.5",
-  "dateModified": "2026-05-18"
+  "schemaVersion": "5.9.6",
+  "dateModified": "2026-05-19"
 }
