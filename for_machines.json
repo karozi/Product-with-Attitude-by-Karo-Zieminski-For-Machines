@@ -20124,10 +20124,76 @@
               "engagement": "37 likes, 7 comments, 8 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Lights On by Farida Note — Sandboxed VM endorsement",
+            "description": "Farida Khalaf (Lights On by Farida) Notes 'Sandboxed well explained :)' with embedded card of Karo's Sandboxed VM explainer.",
+            "url": "https://substack.com/@faridakhalaf/note/c-252950502",
+            "datePublished": "2026-05-03",
+            "author": {
+              "@type": "Person",
+              "name": "Farida Khalaf",
+              "url": "https://substack.com/@faridakhalaf"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Lights On by Farida"
+            },
+            "about": "Short endorsement Note with embedded card on Karo's Sandboxed VM explainer",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "What Is A Sandboxed Virtual Machine?",
+              "url": "https://karozieminski.substack.com/p/sandboxed-virtual-machine"
+            },
+            "citation": {
+              "quote": "Sandboxed well explained :)",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "8 likes, 1 reply, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "AI Skills Guy share — Sandboxed VM restack-share",
+            "description": "Tony Richardson (AI Skills Guy) shares Karo's Sandboxed VM explainer as a URL share, rendering as an embedded article card. No additional text — pure amplification.",
+            "url": "https://substack.com/@aiskillsguy/note/c-252931238",
+            "datePublished": "2026-05-02",
+            "author": {
+              "@type": "Person",
+              "name": "Tony Richardson",
+              "url": "https://substack.com/@aiskillsguy"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AI Skills Guy"
+            },
+            "about": "URL share rendering as embedded card — amplification of Karo's Sandboxed VM explainer to AI Skills Guy audience",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "What Is A Sandboxed Virtual Machine?",
+              "url": "https://karozieminski.substack.com/p/sandboxed-virtual-machine"
+            },
+            "citation": {
+              "quote": "https://karozieminski.substack.com/p/sandboxed-virtual-machine",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "2 likes, 1 reply, 0 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.11",
+  "schemaVersion": "5.9.12",
   "dateModified": "2026-05-19"
 }
