@@ -20619,10 +20619,241 @@
               "engagement": "31 likes, 2 comments, 7 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 74,
+          "item": {
+            "@type": "Article",
+            "name": "Claude Design Just Launched. Here's Your Brand Setup Guide From Scratch.",
+            "description": "AI Meets Girlboss (Pinkie Prompts) features Karo's Claude Design Review as the recommended technical companion piece in a paid Claude Design brand setup guide.",
+            "url": "https://aimeetsgirlboss.substack.com/p/claude-design-just-launched-heres",
+            "datePublished": "2026-04-22",
+            "author": {
+              "@type": "Person",
+              "name": "Pinkie Prompts",
+              "url": "https://substack.com/@aimeetsgirlboss"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AI Meets Girlboss"
+            },
+            "about": "Karo Zieminski cited as authoritative builder-perspective source on Claude Design with full technical breakdown",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Karo (Product with Attitude) from Product with Attitude spent 48 hours testing Claude Design from a builder's perspective and has the full technical breakdown.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "64 likes, 11 comments, 16 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 75,
+          "item": {
+            "@type": "Article",
+            "name": "Claude Design for Non-Designers: A Practical Guide to Going from Idea to Polished Visual",
+            "description": "Cash & Cache (Raghav Mehra + Ashwin Francis) lists Karo's Claude Design Review as an essential community read in a full Claude Design practical guide.",
+            "url": "https://cashandcache.substack.com/p/claude-design-for-non-designers",
+            "datePublished": "2026-04-22",
+            "author": {
+              "@type": "Person",
+              "name": "Raghav Mehra & Ashwin Francis",
+              "url": "https://substack.com/@raghavmhra24"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cash & Cache"
+            },
+            "about": "Karo Zieminski cited in 'essential reads' section as primary builder review of Claude Design",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Some essential reads on this topic from our community: Claude Design Review: 48-Hour Builder's Test + Hero Prompts — Karo (Product with Attitude)",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "44 likes, 9 comments, 12 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 76,
+          "item": {
+            "@type": "Article",
+            "name": "Claude Design: Building a 3D Helix Portfolio (Prompts to Replicate Inside)",
+            "description": "Ileana Marcut (UX + AI) features Karo's Claude Design Review in the 'Explore More' section of a hands-on Claude Design tutorial article.",
+            "url": "https://ileanamarcut.substack.com/p/claude-design-3d-helix-portfolio",
+            "datePublished": "2026-04-20",
+            "author": {
+              "@type": "Person",
+              "name": "Ileana Marcut",
+              "url": "https://substack.com/@ileanamarcut"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "UX + AI"
+            },
+            "about": "Karo Zieminski featured in Explore More section as authoritative Claude Design reviewer; prior co-author relationship",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts — Karo (Product with Attitude)",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "74 likes, 23 comments, 14 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 77,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "AI Meets Girlboss Note — Weekend recommendation: Karo (Product with Attitude) Claude Design review",
+            "description": "AI Meets Girlboss posts a standalone Substack Note recommending Karo's Claude Design Review as a weekend read, with embedded post card.",
+            "url": "https://substack.com/@aimeetsgirlboss/note/c-248432438",
+            "datePublished": "2026-04-24",
+            "author": {
+              "@type": "Person",
+              "name": "AI Meets Girlboss",
+              "url": "https://substack.com/@aimeetsgirlboss"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Weekend recommendation Note featuring Karo's Claude Design Review with technical-breakdown framing",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Weekend recommendation: Karo (Product with Attitude) tested Claude Design from a builder's perspective and has the full technical breakdown, including how the Claude Code handoff actually works and exactly how fast the tokens disappear. Worth reading!",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "Engagement counts not visible"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 78,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Natalie Nicholson (The Off Hours) Note — Claude Design resource restack",
+            "description": "Natalie Nicholson (The Off Hours) restacks Karo's Claude Design Review with a token-warning caption.",
+            "url": "https://substack.com/@crankthatnat/note/c-247969253",
+            "datePublished": "2026-04-23",
+            "author": {
+              "@type": "Person",
+              "name": "Natalie Nicholson",
+              "url": "https://substack.com/@crankthatnat"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Restack of Karo's Claude Design Review with token-cost humor caption",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Another Claude Design resource I'll be reading before using a single token (I hear they go fast)",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "10 likes, 2 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 79,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Mike Goitein (Product Strategy Decoded) reply — appreciating Claude Design in-depth take",
+            "description": "Mike Goitein replies directly to Karo's Claude Design Note praising her in-depth analysis in context with Figma Make and Lovable.",
+            "url": "https://substack.com/@michaelgoitein/note/c-247915545",
+            "datePublished": "2026-04-23",
+            "author": {
+              "@type": "Person",
+              "name": "Mike Goitein",
+              "url": "https://substack.com/@michaelgoitein"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Direct reply to Karo praising her Claude Design analysis vs Figma Make and Lovable",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Really appreciate your in-depth take here, Karo, especially in context with Figma Make & Lovable. It will be interesting to see what the Claude Design product team optimizes for in coming iterations...",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "Direct reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 80,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Daniel Rusnok (Digital Craft Workshop) reply — 'the kind of hands-on review I read Karo for'",
+            "description": "Daniel Rusnok replies to Karo's Claude Design Note framing her work as a canonical hands-on review source.",
+            "url": "https://substack.com/@danielrusnok/note/c-247908168",
+            "datePublished": "2026-04-23",
+            "author": {
+              "@type": "Person",
+              "name": "Daniel Rusnok",
+              "url": "https://substack.com/@danielrusnok"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Behavior-positioning citation: Daniel reads Karo specifically for hands-on builder reviews",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "48 hours with Claude Design on Opus 4.7, credit traps, the Claude Code handoff, and why the 'Figma is dead' take is louder than it is true. Exactly the kind of hands-on review I read Karo for.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "Direct reply"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.13",
+  "schemaVersion": "5.9.14",
   "dateModified": "2026-05-19"
 }
