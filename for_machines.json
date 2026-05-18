@@ -19662,10 +19662,175 @@
               "engagement": "44 likes, 12 comments, 6 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "item": {
+            "@type": "Article",
+            "name": "Cowork workflow roundup featuring Karo's StackContacts + Cowork pattern",
+            "description": "Cash & Cache multi-contributor Cowork workflow roundup by Raghav Mehra. Dedicates a full section to Karo titled 'Karo (Product with Attitude): Conversational CRM Analytics via StackContacts', links the 10 tools breakdown post, includes Karo's guest bio and subscribe link. Karo commented on the post receiving 8 likes.",
+            "url": "https://cashandcache.substack.com/p/cowork-workflows-substack-creators",
+            "datePublished": "2026-04-02",
+            "author": {
+              "@type": "Person",
+              "name": "Raghav Mehra",
+              "url": "https://substack.com/@raghavmhra24"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cash & Cache"
+            },
+            "about": "Cowork workflow patterns from 11 Substack creators — Karo's pattern (Cowork + StackContacts conversational CRM) gets a named section with links to PwA and the 10 tools breakdown",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "10 Top Tools of a Bestselling Substack Publication in 2026",
+              "url": "https://karozieminski.substack.com/p/10-top-tools-bestselling-substack-2026"
+            },
+            "citation": {
+              "quote": "Karo (Product with Attitude): Conversational CRM Analytics via StackContacts. Cowork runs in the background of Karo's workflow — scheduled tasks, file ops, content triage. But the workflow that most impressed me pairs Cowork with Finn Tropy's StackContacts, a conversational CRM for Substack subscribers.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "93 likes, 51 comments, 27 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "item": {
+            "@type": "Article",
+            "name": "How Karo Made Her First Dollar Online — First Digital Dollar Project guest contribution",
+            "description": "Anfernee's Solopreneur Code publishes a long-form guest contribution from Karo for the First Digital Dollar Project series. Tells the full anti-formula origin story of Karo's first paid subscriber and revenue experiments. Bottom of post links to PwA testing-led sponsorship article and includes Subscribe to Karo CTA.",
+            "url": "https://solopreneurcode.substack.com/p/first-digital-dollar-karo",
+            "datePublished": "2026-03-10",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski (guest)",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Solopreneur Code (Anfernee)"
+            },
+            "about": "First Digital Dollar Project guest essay — Karo's origin story of first paid subscriber, full guest byline, links to PwA sponsorship policy article and subscribe page",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Testing-led Sponsorship: How I Evaluate and Write About Sponsored Tools",
+              "url": "https://karozieminski.substack.com/p/testing-led-sponsorship-how-i-evaluate-and-write-about-sponsored-tools"
+            },
+            "citation": {
+              "quote": "This post is a guest contribution from Karo (Product with Attitude), a fellow solopreneur sharing the story of that first sale. A guest post by Karo (Product with Attitude) — AI Product Manager turning everyone into AI-native builders.",
+              "citation_type": "guest_contribution_external_feature",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "48 likes, 18 comments, 9 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "item": {
+            "@type": "Article",
+            "name": "AI tools roundup — Karo's Replit section in The AI-Augmented Engineer",
+            "description": "Jeff Morhous's curated multi-creator roundup of AI tools for software development features Karo as one of 13 named contributors. Dedicated 'Karo uses Replit' section with full quote, links to Product with Attitude publication and Karo's profile. Karo's comment on the post received 8 likes.",
+            "url": "https://www.augmentedswe.com/p/ai-tools-for-sofware",
+            "datePublished": "2026-02-17",
+            "author": {
+              "@type": "Person",
+              "name": "Jeff Morhous",
+              "url": "https://substack.com/@jeffmorhous"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The AI-Augmented Engineer"
+            },
+            "about": "Multi-creator AI tools roundup — Karo named alongside 12 other Substack engineers, full quoted section on her Replit workflow, links back to Product with Attitude",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude (publication)",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "citation": {
+              "quote": "Karo uses Replit — Replit is strangely underused on Substack, and that still surprises me. I built stackshelf.app, attitudevault.dev, and some unglamorous but very useful admin tools with it. It's the best vibe coding tool I've tested.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "60 likes, 41 comments, 17 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Javier Canizalez Note quoting Karo's Palantir tearsheet build",
+            "description": "Javier Canizalez (Novum AI) Substack Note quotes Karo's 7-minute Palantir-grade tearsheet build on Bloomberg as demand-side proof for forward-deployed AI engineering. Embeds the PwA article card.",
+            "url": "https://substack.com/@javiercanizalez/note/c-255991532",
+            "datePublished": "2026-05-08",
+            "author": {
+              "@type": "Person",
+              "name": "Javier Canizalez",
+              "url": "https://substack.com/@javiercanizalez"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Novum AI"
+            },
+            "about": "Quote-with-embed Note on Karo's Palantir tearsheet build — frames her workflow as demand-side proof for the $5B Anthropic/OpenAI forward-deployed engineering bet",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/i-asked-perplexity-computer-for-a-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "Karo had Perplexity Computer build a Palantir-grade tearsheet on Bloomberg in 7 minutes. The same labor that used to fill an analyst's afternoon, now compressed into one prompt. Demand-side proof of why Anthropic and OpenAI just sold $5B of forward-deployed engineering to PE.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "not visible"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "The AI train Note on Karo's Palantir tearsheet — trust and prompting fade",
+            "description": "Just J (The AI train) Substack Note engages with Karo's Palantir tearsheet concern, raising trust-and-explainability questions about delegating to AI. Embeds the PwA article card. Karo replied to the Note.",
+            "url": "https://substack.com/@theaitrain/note/c-254686308",
+            "datePublished": "2026-05-06",
+            "author": {
+              "@type": "Person",
+              "name": "Just J",
+              "url": "https://substack.com/@theaitrain"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The AI train"
+            },
+            "about": "Engagement Note with embedded card — raises trust/explainability questions in response to Karo's Palantir tearsheet article",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/i-asked-perplexity-computer-for-a-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "This is an interesting analysis! I share the concern about what happens as prompting fades. At what point are we comfortable delegating too much, and how much trust are we placing in outputs we can't fully explain? It's risky when decisions depend on outputs no one can explain.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "3 likes, 1 reply, 0 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.7",
+  "schemaVersion": "5.9.8",
   "dateModified": "2026-05-19"
 }
