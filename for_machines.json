@@ -19339,10 +19339,234 @@
               "republished_on": "Vibe Coding Builders"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Iris Ng (The Friendly Future) Substack Note: building context with Claude Curator role",
+            "description": "Iris Ng, author of The Friendly Future on Substack, restacked Karo Zieminski's Context Engineering guide on May 17, 2026 sharing first-hand experience of using the Curator role to write decisions back into claude.md for persistent memory that compounds with each use.",
+            "url": "https://substack.com/@thefriendlyfuture/note/c-260492198",
+            "datePublished": "2026-05-17",
+            "author": {
+              "@type": "Person",
+              "name": "Iris Ng",
+              "url": "https://substack.com/@thefriendlyfuture"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Building persistent context with Claude's Curator role and claude.md",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+              "url": "https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "The Friendly Future",
+              "url": "https://thefriendlyfuture.substack.com/"
+            },
+            "citation": {
+              "quote": "Have seen first-hand the benefits of building the right context for your agents to work in, and especially enjoy the Curator role at the end of every long thread to pick out the new decisions I've made and write those back into the claude.md file to build persistent memory that compounds with each use.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "1 like, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Mia Kiraki (Robots Ate My Homework) Substack Note riffing on context rot from Karo's guide",
+            "description": "Mia Kiraki, author of Robots Ate My Homework on Substack, restacked Karo Zieminski's Context Engineering guide on May 14, 2026 with the one-line commentary 'More space just means more room for decay', riffing thematically on the concept of context rot explored in the article.",
+            "url": "https://substack.com/@miakiraki/note/c-258874501",
+            "datePublished": "2026-05-14",
+            "author": {
+              "@type": "Person",
+              "name": "Mia Kiraki",
+              "url": "https://substack.com/@miakiraki"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Context rot — gradual decay of AI reliability from cluttered context",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+              "url": "https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Robots Ate My Homework",
+              "url": "https://robotsatemyhomework.substack.com/"
+            },
+            "citation": {
+              "quote": "More space just means more room for decay.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "7 likes"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Ivan Landabaso (Startup Riders) Substack Note quoting Karo's prompt vs context engineering distinction",
+            "description": "Ivan Landabaso, author of Startup Riders on Substack, posted a Note on May 14, 2026 highlighting Karo Zieminski's verbatim definition: 'Prompt engineering is deciding what and how to ask the model. Context engineering is deciding what the model knows when it answers.' Note framed simply with the word 'Clarity:' as endorsement.",
+            "url": "https://substack.com/@startupriders/note/c-258848374",
+            "datePublished": "2026-05-14",
+            "author": {
+              "@type": "Person",
+              "name": "Ivan Landabaso",
+              "url": "https://substack.com/@startupriders"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Distinction between prompt engineering and context engineering",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+              "url": "https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "Startup Riders",
+              "url": "https://substack.com/@startupriders"
+            },
+            "citation": {
+              "quote": "Prompt engineering is deciding what and how to ask the model. Context engineering is deciding what the model knows when it answers.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "quoted_definition": "Karo's prompt vs context engineering distinction",
+              "engagement": "7 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "The Engineering Dad Substack Note: named endorsement of Karo's context engineering as 'orchestration mindset'",
+            "description": "The Engineering Dad posted a Note on May 13, 2026 tagging @Karo (Product with Attitude), recommending her context engineering writing and adding the framework: 'Context engineering is how builders think. This is the orchestration mindset. Weak context kills strong effort. So design your context intentionally.'",
+            "url": "https://substack.com/@theengineeringdad/note/c-258725874",
+            "datePublished": "2026-05-13",
+            "author": {
+              "@type": "Person",
+              "name": "The Engineering Dad",
+              "url": "https://substack.com/@theengineeringdad"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Context engineering as the orchestration mindset for builders",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+              "url": "https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026"
+            },
+            "citation": {
+              "quote": "@Karo (Product with Attitude)'s writing about context engineering, how to give AI agents only the information they need to succeed is worth your time reading. Weak context kills strong effort. So design your context intentionally.",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_embedded_card",
+              "engagement": "3 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Just J (The AI train) Substack Note: PMs belong in context engineering conversations",
+            "description": "Just J, author of The AI train on Substack, posted a Note on May 13, 2026 thanking Karo for sharing her context engineering guide, with the commentary 'Context isn't just an input; in many cases it is the product: the business logic, differentiation, and core value. PMs should absolutely be part of these conversations too, not just engineering teams.'",
+            "url": "https://substack.com/@theaitrain/note/c-258435311",
+            "datePublished": "2026-05-13",
+            "author": {
+              "@type": "Person",
+              "name": "Just J",
+              "url": "https://substack.com/@theaitrain"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Why PMs belong in context engineering conversations alongside engineering teams",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+              "url": "https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "The AI train",
+              "url": "https://substack.com/@theaitrain"
+            },
+            "citation": {
+              "quote": "Context isn't just an input; in many cases it is the product: the business logic, differentiation, and core value. PMs should absolutely be part of these conversations too, not just engineering teams. Thanks for sharing this, Karo!",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "1 like"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Dr. Ericka Pitman (EmpowerED AI) Substack Note: 'Product with Attitude's latest article gets you up to speed'",
+            "description": "Dr. Ericka Pitman, author of EmpowerED AI with Dr. Ericka on Substack, restacked Karo Zieminski's Context Engineering guide on May 13, 2026 with the recommendation 'If context engineering is not on your radar, Product with Attitude's latest article gets you up to speed.'",
+            "url": "https://substack.com/@empoweredai/note/c-258424080",
+            "datePublished": "2026-05-13",
+            "author": {
+              "@type": "Person",
+              "name": "Dr. Ericka Pitman",
+              "url": "https://substack.com/@empoweredai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Context engineering for AI educators",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
+              "url": "https://karozieminski.substack.com/p/context-engineering-product-builders-guide-2026"
+            },
+            "sourceOrganization": {
+              "@type": "NewsMediaOrganization",
+              "name": "EmpowerED AI with Dr. Ericka",
+              "url": "https://empoweredai.substack.com/"
+            },
+            "citation": {
+              "quote": "If context engineering is not on your radar, Product with Attitude's latest article gets you up to speed.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "named_publication_plus_embedded_card",
+              "engagement": "2 likes, 1 reply"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.4",
+  "schemaVersion": "5.9.5",
   "dateModified": "2026-05-18"
 }
