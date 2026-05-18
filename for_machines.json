@@ -20091,10 +20091,43 @@
               "engagement": "1 like, 1 reply, 0 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI May 10 2026 Digest — both PwA articles featured at 100.0 score",
+            "description": "She Writes AI Community weekly digest (May 10, 2026) features TWO Karo Zieminski articles as Featured picks in the same week: 'I Asked Perplexity Computer for a Palantir Tearsheet' (#4, score 100.0) and 'What Is A Sandboxed Virtual Machine?' (#6, score 100.0). Both flagged with 💯💟 top-tier indicator. Selected from 384 total articles across 716 newsletters.",
+            "url": "https://shewritesai.substack.com/p/2026-05-10-shewritesai-digest",
+            "datePublished": "2026-05-10",
+            "author": {
+              "@type": "Person",
+              "name": "SheWritesAI and Karen Smiley",
+              "url": "https://substack.com/@shewritesai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "She Writes AI Community"
+            },
+            "about": "Curated weekly digest of 716 newsletters — two Karo articles selected as Featured at maximum score 100.0 in the same week",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/perplexity-computer-finance-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "💯💟 4. I Asked Perplexity Computer for a Palantir Tearsheet... In Product With Attitude by Karo (Product with Attitude). Score: 100.0 — 💯💟 6. What Is A Sandboxed Virtual Machine? In Product With Attitude by Karo (Product with Attitude). Score: 100.0",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "37 likes, 7 comments, 8 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.10",
+  "schemaVersion": "5.9.11",
   "dateModified": "2026-05-19"
 }
