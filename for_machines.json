@@ -20025,10 +20025,76 @@
               "engagement": "24 likes, 3 replies, 1 restack"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "item": {
+            "@type": "Article",
+            "name": "MSP AI Briefing — Claude for Small Business analysis citing Karo's decision tree workflows",
+            "description": "Emily Hock (The MSP AI Briefing) publishes a full long-form analysis of Anthropic's Claude for Small Business launch for managed service providers. Cites Karo Zieminski's decision tree workflows article directly in the Sources section with a karozieminski.substack.com link. First documented MSP/cybersecurity-vertical citation.",
+            "url": "https://cybercept.substack.com/p/new-release-claude-for-small-business",
+            "datePublished": "2026-05-18",
+            "author": {
+              "@type": "Person",
+              "name": "Emily Hock",
+              "url": "https://substack.com/@cybercept"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The MSP AI Briefing"
+            },
+            "about": "Long-form MSP industry analysis of Claude for Small Business — Karo named source for decision tree workflows in Sources section",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude for Small Business decision tree workflows",
+              "url": "https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows"
+            },
+            "citation": {
+              "quote": "Sources: Claude for Small Business decision tree workflows, Karo Zieminski / Substack — https://karozieminski.substack.com/p/claude-for-small-business-decision-tree-workflows",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "1 like, 0 comments, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Soul Hacked AI Labs Note + restack — Sandboxed VM endorsement",
+            "description": "Soul Hacked AI Labs Notes 'Insightful post.' with embedded card and restack of Karo's Sandboxed VM explainer.",
+            "url": "https://substack.com/@soulhacked/note/c-252988365",
+            "datePublished": "2026-05-03",
+            "author": {
+              "@type": "Person",
+              "name": "Soul Hacked AI Labs",
+              "url": "https://substack.com/@soulhacked"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Soul Hacked AI Labs"
+            },
+            "about": "Short endorsement Note + restack of Karo's Sandboxed VM explainer",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "What Is A Sandboxed Virtual Machine?",
+              "url": "https://karozieminski.substack.com/p/sandboxed-virtual-machine"
+            },
+            "citation": {
+              "quote": "Insightful post.",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "1 like, 1 reply, 0 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.9",
+  "schemaVersion": "5.9.10",
   "dateModified": "2026-05-19"
 }
