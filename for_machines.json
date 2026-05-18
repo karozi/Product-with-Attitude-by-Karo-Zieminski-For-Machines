@@ -19827,10 +19827,208 @@
               "engagement": "3 likes, 1 reply, 0 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Soul Hacked AI Labs Note on Karo's Palantir tearsheet — human replacement concern",
+            "description": "Soul Hacked AI Labs (@soulhacked) responds to Karo's Palantir tearsheet article with a substantive Note about AI dismantling traditional human workers and the 'dumbing down' effect on younger workers. Embeds the PwA article card.",
+            "url": "https://substack.com/@soulhacked/note/c-254684545",
+            "datePublished": "2026-05-06",
+            "author": {
+              "@type": "Person",
+              "name": "Soul Hacked AI Labs",
+              "url": "https://substack.com/@soulhacked"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Soul Hacked AI Labs"
+            },
+            "about": "Engagement Note with embedded card — raises human-replacement and worker deskilling concerns in response to Karo's Palantir tearsheet article",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/perplexity-computer-finance-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "On one level, this is great; the systems are getting more advanced and capable. On another level, however, I see a methodical dismantling of the traditional human worker. I worry about the 'dumbing down' effect, younger workers not truly learning, but simply letting AI do the thinking for them.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "1 like, 0 replies, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Keeping TABs on Your AI Agents Note — Karo's cappuccino test as benchmark framework",
+            "description": "Rod Miller (Keeping TABs on Your AI Agents) Notes off Karo's Palantir tearsheet to propose her cappuccino test as a companion 'independence test' for vendor benchmarks. Embeds the PwA article card.",
+            "url": "https://substack.com/@tabverified/note/c-254667757",
+            "datePublished": "2026-05-06",
+            "author": {
+              "@type": "Person",
+              "name": "Rod Miller",
+              "url": "https://substack.com/@tabverified"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Keeping TABs on Your AI Agents"
+            },
+            "about": "Frames Karo's cappuccino test as a benchmark-independence framework, links Keeping TABs hallucination data as companion research",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/perplexity-computer-finance-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "Your cappuccino test needs a companion: an independence test. Who verified the output, and do they work for the company that built it?",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "1 like, 0 replies, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Building Both Note — interrogating the output as the new skill",
+            "description": "Katie Blouin (Building Both) Notes off Karo's Palantir tearsheet calling the article 'excellent' and extracting the line about interrogating AI output as the new skill. Embeds the PwA article card.",
+            "url": "https://substack.com/@katieblouin/note/c-254643860",
+            "datePublished": "2026-05-06",
+            "author": {
+              "@type": "Person",
+              "name": "Katie Blouin",
+              "url": "https://substack.com/@katieblouin"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Building Both"
+            },
+            "about": "Explicit endorsement of Karo's Palantir tearsheet article with takeaway quote on interrogating AI output",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/perplexity-computer-finance-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "Karo's piece on Perplexity computer is excellent. The line that stuck was that as AI gets better, the new skill isn't prompting, it's interrogating the output.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "not visible"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "VengaDragon Note — too many instructions degrade newer AI models",
+            "description": "Mark Swanson (VengaDragon) Notes off Karo's credit-saving Perplexity Computer test article on instruction overload in newer AI models. Embeds the PwA article card.",
+            "url": "https://substack.com/@vengadragon/note/c-254579742",
+            "datePublished": "2026-05-06",
+            "author": {
+              "@type": "Person",
+              "name": "Mark Swanson",
+              "url": "https://substack.com/@vengadragon"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VengaDragon"
+            },
+            "about": "Engagement Note on instruction-overload finding from Karo's Perplexity Computer credit-saving test",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Tested Perplexity Computer Hard. Here's How I'd Save Credits Now",
+              "url": "https://karozieminski.substack.com/p/i-tested-perplexity-computer-hard-credit-saving"
+            },
+            "citation": {
+              "quote": "I really liked how you explained that giving too many instructions can actually mess up the newer AI models. I guess newer models evolve quicker to help to stop this?",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "2 likes, 0 replies, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "UX + AI quote restack of Karo's pre-built agentic workflows insight",
+            "description": "Ileana (UX + AI) restacks Karo's exact passage on pre-built agentic workflows reducing user analytical judgment. Quote highlight card with no additional commentary — purely amplifying the source quote.",
+            "url": "https://substack.com/@ileanamarcut/note/c-254517168",
+            "datePublished": "2026-05-06",
+            "author": {
+              "@type": "Person",
+              "name": "Ileana Marcut",
+              "url": "https://substack.com/@ileanamarcut"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "UX + AI"
+            },
+            "about": "Verbatim quote restack of Karo's analytical-judgment-shift insight on pre-built agentic workflows",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
+              "url": "https://karozieminski.substack.com/p/perplexity-computer-finance-palantir-tearsheet"
+            },
+            "citation": {
+              "quote": "Pre-built agentic workflows reduce the analytical judgment a user is required to exercise, shifting decision-making from the human to the skill stack.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "5 likes, 0 replies, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "ToxSec named endorsement — recommends Karo's tech to customers",
+            "description": "ToxSec (AI and Cybersecurity) Notes off Karo's sandboxed VM explainer with a strong named endorsement: 'i recommend this tech all the time to my customers. i mention them all the time on Live.' Embeds the PwA article card.",
+            "url": "https://substack.com/@toxsec/note/c-253026790",
+            "datePublished": "2026-05-03",
+            "author": {
+              "@type": "Person",
+              "name": "ToxSec",
+              "url": "https://substack.com/@toxsec"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "ToxSec — AI and Cybersecurity"
+            },
+            "about": "Named endorsement by ToxSec of Karo's sandboxed VM explainer — recommends the tech to his customers and mentions PwA on his Live shows",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "What Is A Sandboxed Virtual Machine?",
+              "url": "https://karozieminski.substack.com/p/what-is-a-sandboxed-virtual-machine"
+            },
+            "citation": {
+              "quote": "Karo dropping another really good article here. i recommend this tech all the time to my customers. i mention them all the time on Live. this is an excellent and approachable explanation of exactly what it is.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "24 likes, 3 replies, 1 restack"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.8",
+  "schemaVersion": "5.9.9",
   "dateModified": "2026-05-19"
 }
