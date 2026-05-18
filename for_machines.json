@@ -20190,10 +20190,439 @@
               "engagement": "2 likes, 1 reply, 0 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Build to Launch Note — EU regulatory constraints endorsement",
+            "description": "Jenny Ouyang (Build to Launch) Notes off Karo's Provider Trap article: 'If you're launching products, especially in the EU, it's worth understanding the regulatory constraints early.' Embeds the PwA article card.",
+            "url": "https://substack.com/@jennyouyang/note/c-252855888",
+            "datePublished": "2026-05-02",
+            "author": {
+              "@type": "Person",
+              "name": "Jenny Ouyang",
+              "url": "https://substack.com/@jennyouyang"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Build to Launch"
+            },
+            "about": "Endorsement Note framing Karo's EU AI Act guide as essential reading for EU product launches",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "If you're launching products, especially in the EU, it's worth understanding the regulatory constraints early.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "11 likes, 2 replies, 2 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Between Roles Note — provider trap shows up before compliance",
+            "description": "Om Prakash Pant (Between Roles) Notes off Karo's Provider Trap article that decisions like context handling and agent boundaries lock in early and are hard to unwind once governance arrives.",
+            "url": "https://substack.com/@opplearner/note/c-251858769",
+            "datePublished": "2026-04-30",
+            "author": {
+              "@type": "Person",
+              "name": "Om Prakash Pant",
+              "url": "https://substack.com/@opplearner"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Between Roles"
+            },
+            "about": "Substantive engagement Note extending Karo's provider trap framework with the irreversibility-of-early-architecture insight",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "The provider trap shows up even before compliance does. I have seen things like context handling or agent boundaries just carry over from the first version. By the time governance comes in, those decisions are already hard to unwind.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "3 likes, 1 reply, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 63,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "The Engineering Dad — Engineering Notebook Vibe Shift framing",
+            "description": "The Engineering Dad Notes off Karo's Provider Trap article with a strong original framing: youth robotics engineering notebook analogy for EU AI Act audit trails. Embeds the PwA article card.",
+            "url": "https://substack.com/@theengineeringdad/note/c-251576689",
+            "datePublished": "2026-04-30",
+            "author": {
+              "@type": "Person",
+              "name": "The Engineering Dad",
+              "url": "https://substack.com/@theengineeringdad"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Engineering Dad"
+            },
+            "about": "Original Engineering Notebook Vibe Shift framing built directly on top of Karo's EU AI Act compliance argument",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "The 'Engineering Notebook' Vibe Shift is happening! Vibe Coding is the robot on the field. Audit Trails are the notebook that proves your process. By August 2026, if you can't show your work, you're DQ'ed from the market. Don't just ship, document the vibe.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "6 likes, 0 replies, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 64,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Wondering About AI Note — helpful EU AI guide endorsement",
+            "description": "Karen Spinner (Wondering About AI) Notes off Karo's Provider Trap article endorsing it as a helpful guide to EU AI regulations.",
+            "url": "https://substack.com/@karenspinner1/note/c-251325900",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner",
+              "url": "https://substack.com/@karenspinner1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Wondering About AI"
+            },
+            "about": "Endorsement Note framing Karo's compliance-native guide as accessible and not difficult to apply",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "A helpful guide to EU regulations applicable to apps that rely on AI…and don't be afraid, it's not that difficult to comply!",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "12 likes, 3 replies, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 65,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Product Strategy Decoded — ignorance of the law is not an excuse",
+            "description": "Mike Goitein (Product Strategy Decoded) Notes off Karo's Provider Trap article with named hyperlink and amplification of the compliance-first builder argument.",
+            "url": "https://substack.com/@michaelgoitein/note/c-251307710",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Mike Goitein",
+              "url": "https://substack.com/@michaelgoitein"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Product Strategy Decoded"
+            },
+            "about": "Named-hyperlink Note amplifying Karo's compliance-first builder argument",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "Ignorance of the law is never an excuse. Karo (Product with Attitude) lays out why compliance-first means you're building with an awareness of the governance environment now in effect, whether you like it or not.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "18 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 66,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Brain Bound Learning Note — EU AI Act beautifully summarised",
+            "description": "Nirav Bhatt (Brain Bound Learning) Notes off Karo's Provider Trap article with a named hyperlink and verdict that Karo beautifully summarised the EU AI Act for vibe coders.",
+            "url": "https://substack.com/@niravbhatt/note/c-251241487",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Nirav Bhatt",
+              "url": "https://substack.com/@niravbhatt"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Brain Bound Learning"
+            },
+            "about": "Named-hyperlink endorsement of Karo's EU AI Act summary for vibe coders",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "The EU AI act beautifully summarised by Karo (Product with Attitude)…Vibe coders targeting EU-postpone your lawyer appointment for now.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "2 likes, 1 reply, 0 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 67,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Digital Craft Workshop — compliance.md added to every repo after Karo's guide",
+            "description": "Daniel Rusnok (Digital Craft Workshop) Notes that he added a compliance.md to every one of his repositories after reading Karo's Provider Trap article. Concrete behavior-change citation — direct action taken because of the article.",
+            "url": "https://substack.com/@danielrusnok/note/c-251170384",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Daniel Rusnok",
+              "url": "https://substack.com/@danielrusnok"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Digital Craft Workshop"
+            },
+            "about": "Behavior-change Note — Daniel added compliance.md to every repository today after reading Karo's guide",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "Thank you Karo for this. I added a compliance.md to every my repository today.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "4 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 68,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Keeping TABs Note — Karo wrote the compliance checklist, TAB is the testing infrastructure",
+            "description": "Rod Miller (Keeping TABs on Your AI Agents) Notes off Karo's Provider Trap article positioning Karo as the compliance checklist author and TAB as the matching testing infrastructure (Article 12 logging and conformity assessment).",
+            "url": "https://substack.com/@tabverified/note/c-250989075",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Rod Miller",
+              "url": "https://substack.com/@tabverified"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Keeping TABs on Your AI Agents"
+            },
+            "about": "Direct framing of Karo as the compliance checklist author paired with TAB testing infrastructure — second Note from TAB citing Karo, positions her as the canonical EU AI Act compliance voice for Substack builders",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "It seems we keep intersecting. You wrote the compliance checklist. TAB is the testing infrastructure. We just ran RL Safety Drift on Claude Opus 4.7, GPT-5.5, GPT-5.4, and Opus 4.6, 50 tests across 5 safety categories. The kind of systematic testing Article 12 logging and conformity assessment require.",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "3 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 69,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "UX + AI restack — Provider Trap importance amplification",
+            "description": "Ileana (UX + AI) restacks Karo's Provider Trap article with a short hype Note. Second Ileana citation; pattern of repeat amplification by UX + AI.",
+            "url": "https://substack.com/@ileanamarcut/note/c-250903972",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Ileana Marcut",
+              "url": "https://substack.com/@ileanamarcut"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "UX + AI"
+            },
+            "about": "Short hype restack of Karo's Provider Trap article — pattern of repeat amplification",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "This is so important! 👇🏽",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "4 likes, 2 replies, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 70,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Cash & Cache restack — MUST READ for Europe-based AI builders",
+            "description": "Raghav Mehra (Cash & Cache) restacks Karo's Provider Trap article with an explicit MUST READ recommendation for Europe-based commercial AI builders. Third Raghav citation; pattern of repeat amplification.",
+            "url": "https://substack.com/@raghavmhra24/note/c-250881228",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Raghav Mehra",
+              "url": "https://substack.com/@raghavmhra24"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cash & Cache"
+            },
+            "about": "MUST READ recommendation Note for European AI builders — pattern of repeat amplification by Cash & Cache",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "If you are in Europe and building with AI for commercial use, this article is a MUST READ! ⚖️",
+              "citation_type": "substack_note",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "5 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 71,
+          "item": {
+            "@type": "Article",
+            "name": "In Silico, In Soul — Karo's Provider Trap article in This Week's Picks",
+            "description": "Xian Li's interview essay 'They Move the Needle — Rebecca and PocketHog' includes Karo's Provider Trap article in the curated 'This Week's Picks' link section at the bottom. Second Xian Li citation; pattern of repeat curation.",
+            "url": "https://xianli.substack.com/p/they-move-the-needle-rebecca-pockethog",
+            "datePublished": "2026-05-09",
+            "author": {
+              "@type": "Person",
+              "name": "Xian Li",
+              "url": "https://substack.com/@xianli"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "In Silico, In Soul."
+            },
+            "about": "Curated Pick — Karo's EU AI Act compliance article featured in Xian Li's weekly picks; second Xian curation of PwA",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap — https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "21 likes, 4 comments, 3 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 72,
+          "item": {
+            "@type": "Article",
+            "name": "The Crux — 'How fragile is the EU AI regulation?' citing Karo's Provider Trap twice",
+            "description": "Andrei Savine (The Crux) publishes a long-form analysis on EU AI Act fragility. Cites Karo Zieminski's Provider Trap article TWICE — once in the body section on the closing compliance-native window calling it 'the best plain-language map for founders', and again in Credits and Acknowledgements calling it 'the clearest practical guide for founders navigating the provider trap.' Embeds the article card.",
+            "url": "https://andreisavine.substack.com/p/eu-ai-fragility",
+            "datePublished": "2026-05-04",
+            "author": {
+              "@type": "Person",
+              "name": "Andrei Savine",
+              "url": "https://substack.com/@andreisavine"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "The Crux"
+            },
+            "about": "Long-form EU AI Act analysis citing Karo's compliance-native article twice with strong endorsement — best plain-language map for founders, clearest practical guide for navigating the provider trap",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "Karo Zieminski's article on 'compliance-native' building is the best plain-language map for founders in this space. Her 'provider trap' is real. Karo Zieminski's Substack piece on 'compliance-native building' is the clearest practical guide for founders navigating the provider trap.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "6 likes, 4 comments, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 73,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI May 3 2026 Digest — three PwA articles featured at 100.0 score",
+            "description": "She Writes AI Community weekly digest (May 3, 2026) features THREE Karo Zieminski articles as Featured picks in the same week: Provider Trap (#4, score 100.0), Claude Design Review (#5, score 100.0), and GPT-5.5 Citations (#8, score 100.0). All flagged with 💯💟 top-tier indicator. Selected from 392 total articles across 708 newsletters.",
+            "url": "https://shewritesai.substack.com/p/2026-05-03-shewritesai-digest",
+            "datePublished": "2026-05-03",
+            "author": {
+              "@type": "Person",
+              "name": "SheWritesAI and Karen Smiley",
+              "url": "https://substack.com/@shewritesai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "She Writes AI Community"
+            },
+            "about": "Curated weekly digest of 708 newsletters — three Karo articles selected as Featured at maximum score 100.0 in the same week",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap",
+              "url": "https://karozieminski.substack.com/p/eu-ai-act-builders-compliance-native-2026"
+            },
+            "citation": {
+              "quote": "💯💟 4. Are You a Vibe Coder? Don't Ship Straight Into the Provider Trap — Score: 100.0. 💯💟 5. Claude Design Review: 48-Hour Builder's Test + Hero Prompts — Score: 100.0. 💯💟 8. Is GPT-5.5 Reliable For Citations? No. — Score: 100.0. All by Karo (Product with Attitude).",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "31 likes, 2 comments, 7 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.12",
+  "schemaVersion": "5.9.13",
   "dateModified": "2026-05-19"
 }
