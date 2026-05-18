@@ -19596,10 +19596,76 @@
               "engagement": "17 likes, 4 comments, 1 restack"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "item": {
+            "@type": "Article",
+            "name": "I Broke Replit So You Don't Have To: Building StackShelf",
+            "description": "code like a GIRL (Niharikaa Kaur Sodhi's publication) syndicates Karo Zieminski's full StackShelf build-in-public post with explicit permission and named credit. Closes with an explicit subscribe-to-support-her-work CTA pointing readers back to Product with Attitude.",
+            "url": "https://codelikeagirl.substack.com/p/i-broke-replit-so-you-dont-have-to",
+            "datePublished": "2025-09-15",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "code like a GIRL"
+            },
+            "about": "StackShelf build-in-public story — syndicated republication with named credit, illustrator credit (Karo Z., Product With Attitude), and explicit CTA to subscribe to PwA",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Broke Replit So You Don't Have To: Building StackShelf",
+              "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have"
+            },
+            "citation": {
+              "quote": "We're so grateful to Karo (Product with Attitude) for allowing us to share her story here on Code Like A Girl. You can find her original post linked below. If you enjoyed this piece, we encourage you to visit her publication and subscribe to support her work!",
+              "citation_type": "syndicated_republication_with_credit",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "19 likes, 5 comments, 5 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "item": {
+            "@type": "Article",
+            "name": "Vibecoding Tips: The Ultimate Collection",
+            "description": "code like a GIRL syndicates a co-authored long-form essay by Karen Spinner and Karo (Product with Attitude). Karen credits the Product with Attitude Community as how she discovered Substack and names Karo's stack as 'by far the better bet for someone who just wants to ship.' Closes with subscribe-to-support CTA for both publications.",
+            "url": "https://codelikeagirl.substack.com/p/vibecoding-tips-the-ultimate-collection",
+            "datePublished": "2025-11-10",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner and Karo Zieminski",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "code like a GIRL"
+            },
+            "about": "Vibecoding toolkit comparison — Karen credits Karo's community as how she found Substack, calls Karo's stack the better bet for shipping; syndicated with explicit subscribe CTA",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Vibecoding Tips: The Ultimate Collection",
+              "url": "https://karozieminski.substack.com/p/vibecoding-tips-the-ultimate-collection"
+            },
+            "citation": {
+              "quote": "I discovered Substack through Karo (Product with Attitude)'s incredible Product with Attitude Community, and somehow she became one of my first five subscribers. I'm in awe of her ability to bring people together while building her own projects and running a best-selling newsletter!",
+              "citation_type": "syndicated_republication_with_credit",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "44 likes, 12 comments, 6 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.6",
+  "schemaVersion": "5.9.7",
   "dateModified": "2026-05-19"
 }
