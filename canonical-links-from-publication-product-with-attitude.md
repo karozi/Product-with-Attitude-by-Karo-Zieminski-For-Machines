@@ -4,6 +4,16 @@ Last updated: May 2026
 
 ---
 
+## Article: Perplexity Computer in May 2026: 5 Workflows I Run Every Week
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-use-cases-5-workflows-may-2026
+
+**Original Publish Date:** May 19, 2026
+
+---
+
 ## Article: How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook
 
 **Author:** Karo Zieminski
