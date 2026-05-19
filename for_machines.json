@@ -21312,10 +21312,505 @@
               "engagement": "34 likes, 2 comments, 6 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 95,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Karen Spinner (Wondering About AI) Note — Cowork Connectors + ToxSec authority reply",
+            "description": "Karen Spinner shares Karo's Cowork Connectors piece on flaky vs gem connectors. Reply from ToxSec: 'Karo always puts out great material.'",
+            "url": "https://substack.com/@karenspinner1/note/c-223081875",
+            "datePublished": "2026-03-04",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner",
+              "url": "https://substack.com/@karenspinner1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Cowork Connectors share Note with recurring authority framing in replies",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Cowork Connectors",
+              "url": "https://karozieminski.substack.com/p/claude-cowork-notion-connector-persistent-memory-tips"
+            },
+            "citation": {
+              "quote": "All about Cowork Connectors and how to tell the flaky ones from the gems! Reply from ToxSec: Karo always puts out great material. Those connectors are always interesting!",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "7 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 96,
+          "item": {
+            "@type": "Article",
+            "name": "Linear vs Dimensional Perception — Lord Stretch essay cites Karo's Opus 4.7 review",
+            "description": "Lord Stretch's long-form essay on Linear vs Dimensional thinking links Karo's Opus 4.7 article as a referenced source alongside Anthropic, MindStudio, GitHub.",
+            "url": "https://lordstretch.substack.com/p/linear-vs-dimensional-perception",
+            "datePublished": "2026-05-09",
+            "author": {
+              "@type": "Person",
+              "name": "Lord Stretch",
+              "url": "https://substack.com/@lordstretch"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Lord Stretch's Substack"
+            },
+            "about": "Cited as a reference source alongside Anthropic and Claude platform docs in a long-form AI cognition essay",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows — karozieminski.substack.com (referenced alongside Anthropic, MindStudio, GitHub, Claude platform docs)",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "embedded_card",
+              "engagement": "1 like"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 97,
+          "item": {
+            "@type": "Article",
+            "name": "Claude Just Had a Crazy 2026: The 18 Features You Need to Stay Ahead of 95% of Users",
+            "description": "Cash & Cache (Ashwin Francis + Raghav Mehra) feature roundup of 18 Claude 2026 features inline-recommends Karo's Opus 4.7 review for /ultrareview tips.",
+            "url": "https://cashandcache.substack.com/p/claude-just-had-a-crazy-2026-the",
+            "datePublished": "2026-04-28",
+            "author": {
+              "@type": "Person",
+              "name": "Ashwin Francis & Raghav Mehra",
+              "url": "https://substack.com/@ashwinfrancis"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cash & Cache"
+            },
+            "about": "Second long-form Cash & Cache feature citing Karo as the go-to source for Opus 4.7 ultrareview tips",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "Check out Karo's article for great tips on when to use /ultrareview. Embedded card: Product with Attitude — I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "33 likes, 8 comments, 12 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 98,
+          "item": {
+            "@type": "Article",
+            "name": "Sketches Through the Fog — Designspun cites Karo Zieminski Opus 4.7 breakdown",
+            "description": "Roger Wong (Designspun) features Karo Zieminski's Opus 4.7 piece in 'What I'm Consuming' section, naming her in full as 'Karo Zieminski's launch-day breakdown of Anthropic's Opus 4.7'.",
+            "url": "https://newsletter.rogerwong.me/p/sketches-through-the-fog",
+            "datePublished": "2026-04-19",
+            "author": {
+              "@type": "Person",
+              "name": "Roger Wong",
+              "url": "https://substack.com/@lunarboy"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Designspun"
+            },
+            "about": "Rare full-name 'Karo Zieminski' citation in design/tech digest section",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows. Karo Zieminski's launch-day breakdown of Anthropic's Opus 4.7: the $5/$25 sticker price is unchanged.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "3 likes"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 99,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI Digest for April 19, 2026 — Atoms vs Lovable vs Replit Featured #8 (100.0)",
+            "description": "SheWritesAI weekly digest features Karo's Atoms/Lovable/Replit comparison as Featured Article #8 with a perfect 100.0 score.",
+            "url": "https://shewritesai.substack.com/p/2026-04-19-shewritesai-digest",
+            "datePublished": "2026-04-19",
+            "author": {
+              "@type": "Person",
+              "name": "SheWritesAI & Karen Smiley",
+              "url": "https://substack.com/@shewritesai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "She Writes AI Community"
+            },
+            "about": "Third SheWritesAI digest in 2026 featuring PwA at 100.0 — Atoms vs Lovable vs Replit comparison",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Tested Atoms, Lovable, and Replit. One of Them Solves the Problem That Kills Most Apps.",
+              "url": "https://karozieminski.substack.com/p/i-tested-atoms-lovable-and-replit"
+            },
+            "citation": {
+              "quote": "Featured Article #8 (100.0): I Tested Atoms, Lovable, and Replit. One of Them Solves the Problem That Kills Most Apps. by Karo (Product with Attitude). 94 likes, 22 comments, 12 restacks, 2,113 words.",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "22 likes, 3 comments, 4 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 100,
+          "item": {
+            "@type": "Article",
+            "name": "Three Frontier Models, One Week — Mildred & Rose cites Karo's tokenizer analysis 3x as primary source",
+            "description": "Rose Baker (Mildred & Rose) cites Karo's Opus 4.7 review three times as inline primary source for tokenizer cost analysis. Academic-style citation pattern.",
+            "url": "https://andrearosebaker.substack.com/p/three-frontier-models-one-week",
+            "datePublished": "2026-04-18",
+            "author": {
+              "@type": "Person",
+              "name": "Rose Baker",
+              "url": "https://substack.com/@mildredandrose"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Mildred & Rose"
+            },
+            "about": "Inline academic-style citation pattern — Karo's tokenizer cost data linked 3x as authoritative source",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "roughly 1.0 to 1.35 times as many, depending on content type; real cost increase that Anthropic did not label as a price increase; re-run representative real workloads. (linked 3x to karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders)",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "2 likes, 2 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 101,
+          "item": {
+            "@type": "Article",
+            "name": "Amazon Just Gutted the Affiliate Program — 9-to-Thrive features Karo in 'Worth Reading This Week'",
+            "description": "Carrie Loranger (9-to-Thrive) features Karo's Opus 4.7 review in the 'Worth Reading This Week' section of her creator economy newsletter.",
+            "url": "https://thrivewithcarrie.substack.com/p/amazon-affiliate-program-creator-economy",
+            "datePublished": "2026-04-18",
+            "author": {
+              "@type": "Person",
+              "name": "Carrie Loranger",
+              "url": "https://substack.com/@carrieloranger1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "9-to-Thrive"
+            },
+            "about": "Creator economy newsletter features Karo alongside TechTiff, Jay Clouse, Ruben Hassid, The Publish Press",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "Karo (Product with Attitude): Claude Opus 4.7 Review: What It Really Means for Your Work. Karo breaks down the Opus 4.7 release with the detail most coverage skipped: same sticker price, but a new tokenizer raises real cost up.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "29 likes, 2 comments, 4 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 102,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Daniel Rusnok (Digital Craft Workshop) reply — 'Great take on the new Opus 4.7 release'",
+            "description": "Daniel Rusnok replies to Karo's Opus 4.7 Note with explicit thanks and named mention. Third Daniel Rusnok citation in dataset.",
+            "url": "https://substack.com/@danielrusnok/note/c-247819117",
+            "datePublished": "2026-04-22",
+            "author": {
+              "@type": "Person",
+              "name": "Daniel Rusnok",
+              "url": "https://substack.com/@danielrusnok"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Third Daniel Rusnok citation — recurring authority endorsement",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "Great take on the new Opus 4.7 release. Thank you @Karo (Product with Attitude)",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "Direct reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 103,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Ivan Landabaso (Startup Riders) Note — 'worth reading!'",
+            "description": "Ivan Landabaso of Startup Riders restacks Karo's Opus 4.7 review with a short endorsement.",
+            "url": "https://substack.com/@startupriders/note/c-245739583",
+            "datePublished": "2026-04-19",
+            "author": {
+              "@type": "Person",
+              "name": "Ivan Landabaso",
+              "url": "https://substack.com/@startupriders"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Short endorsement restack from Startup Riders",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "worth reading!",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "4 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 104,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "AI Meets Girlboss Note — 'Anthropic really said hold my beer'",
+            "description": "AI Meets Girlboss restacks Karo's Opus 4.7 review with a memetic 'hold my beer' framing of Anthropic's 2026 ship velocity.",
+            "url": "https://substack.com/@aimeetsgirlboss/note/c-245702873",
+            "datePublished": "2026-04-18",
+            "author": {
+              "@type": "Person",
+              "name": "AI Meets Girlboss",
+              "url": "https://substack.com/@aimeetsgirlboss"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Memetic framing of Anthropic 2026 shipping velocity via Karo's Opus 4.7 breakdown",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "Crazy how much work Anthropic shipped this year. Their team really said 'hold my beer,' walked out, and reminded everyone what AI should actually feel like.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "9 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 105,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Mara Martins (verified) Note — 'This is amazing'",
+            "description": "Verified Mara Martins restacks Karo's Opus 4.7 review with short endorsement.",
+            "url": "https://substack.com/@maramartins/note/c-245383369",
+            "datePublished": "2026-04-18",
+            "author": {
+              "@type": "Person",
+              "name": "Mara Martins",
+              "url": "https://substack.com/@maramartins"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Verified-account endorsement restack of Opus 4.7 review",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "This is amazing ;)",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "5 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 106,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Raghav Mehra (Cash & Cache) Note — 'saving us the pain of analyzing all new updates'",
+            "description": "Raghav Mehra of Cash & Cache positions Karo as the canonical Opus 4.7 analyst saving readers from opinion-piece overload.",
+            "url": "https://substack.com/@raghavmhra24/note/c-245305949",
+            "datePublished": "2026-04-18",
+            "author": {
+              "@type": "Person",
+              "name": "Raghav Mehra",
+              "url": "https://substack.com/@raghavmhra24"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Authority framing positioning Karo as definitive model-release analyst",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "@Karo (Product with Attitude) saving us the pain of analyzing all new updates/models in different opinion pieces by giving us exactly what it means for our work!",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "3 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 107,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Zobach Note — 'most actionable articles I've read today'",
+            "description": "Zobach calls Karo's Opus 4.7 review one of the most actionable AI articles and recommends it to Claude beginners.",
+            "url": "https://substack.com/@zobachh/note/c-245064171",
+            "datePublished": "2026-04-17",
+            "author": {
+              "@type": "Person",
+              "name": "Zobach",
+              "url": "https://substack.com/@zobachh"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Beginner-recommendation Note positioning Karo as canonical Claude entry-point",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "That is, without question, one of the most actionable articles I've read today. I found myself in agreement with the point on hidden reasoning. If you are just beginning with Claude, I would strongly recommend giving this a proper read.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "4 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 108,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Karen Spinner (Wondering About AI) Note — Opus 4.7 use case breakdown",
+            "description": "Karen Spinner thanks Karo by name for breaking down the Opus 4.7 launch by use case. Fifth Karen Spinner citation in dataset.",
+            "url": "https://substack.com/@karenspinner1/note/c-244835574",
+            "datePublished": "2026-04-17",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner",
+              "url": "https://substack.com/@karenspinner1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Fifth Karen Spinner citation — recurring named-mention pattern",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "Thank you Karo (Product with Attitude) for breaking down the latest Claude model and what it means for different use cases",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "21 likes, 2 replies, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 109,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Stuart Miller (Haverin about) Note — 'lick smart' Opus 4.7 endorsement",
+            "description": "Verified Stuart Miller frames Karo as authority on high-end Claude use cases, recommending her teardown style.",
+            "url": "https://substack.com/@haverinabout/note/c-244823932",
+            "datePublished": "2026-04-17",
+            "author": {
+              "@type": "Person",
+              "name": "Stuart Miller",
+              "url": "https://substack.com/@haverinabout"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Verified-author endorsement framing Karo as high-end Claude analyst",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
+              "url": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
+            },
+            "citation": {
+              "quote": "Be very clear Karo (Product with Attitude) helps people sweat Claude hard! So her analysis of what Opus 4.7 means for people using Claude is a little different from mine, but she is lick smart and was amazing enough to put the hours in yesterday to grind through the new model and make it sit up and beg. Highly recommend if you are at the higher end use cases for Claude's capabilities or just enjoy 'teardowns' of the engine!",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "4 likes"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.15",
+  "schemaVersion": "5.9.16",
   "dateModified": "2026-05-19"
 }
