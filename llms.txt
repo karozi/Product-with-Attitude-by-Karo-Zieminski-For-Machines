@@ -74,6 +74,8 @@ netlify_mirror: https://productwithattitude.com/assets/for_machines.json
 
 - https://productwithattitude.com/frameworks/context-pyramid.html — The Context Pyramid: A PM's Framework for AI Agent Context Engineering. Four-layer framework with cadences, diagnostic loop, FAQ.
 
+perplexity_computer_orchestrator_timeline: https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html
+perplexity_computer_orchestrator_timeline_description: The orchestrator layer behind Perplexity Computer with three tenants in 68 days. Claude Opus 4.6 (51 days), Claude Opus 4.7 (16 days), then GPT 5.5 as the default for Pro and Max. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
 claude_decision_tree: https://productwithattitude.com/claude-decision-tree.html
 claude_decision_tree_description: 12-task decision tree mapping each task to the correct Claude surface (Chat, Cowork, Code, Design). Includes JSON-LD Article + Table + ItemList schema and inline Schema.org microdata. Tested April 2026.
 sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html
@@ -83,12 +85,12 @@ homepage: https://productwithattitude.com/
 
 ## Graph Statistics
 
-schema_version: 5.9
+schema_version: 5.9.18
 last_modified: 2026-05-19
 graph_nodes: 27
-recent_articles: 92
-extractable_claims: 231
-key_quotes: 118
+recent_articles: 98
+extractable_claims: 260
+key_quotes: 123
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
