@@ -20850,10 +20850,472 @@
               "engagement": "Direct reply"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 81,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Dee McCrorey (A Bridge to AI) Note — 'Worth the price of admission'",
+            "description": "Dee McCrorey shares Karo's Vibecoding Resource Hub with a high-endorsement caption.",
+            "url": "https://substack.com/@deemccrorey/note/c-201199950",
+            "datePublished": "2026-01-17",
+            "author": {
+              "@type": "Person",
+              "name": "Dee McCrorey",
+              "url": "https://substack.com/@deemccrorey"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Endorsement Note featuring Karo's Vibecoding & Speccoding Resource Hub",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "The Complete Vibecoding & Speccoding Resource Hub",
+              "url": "https://karozieminski.substack.com/p/vibecoding-resources-hub"
+            },
+            "citation": {
+              "quote": "Worth the price of admission :)",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "8 likes, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 82,
+          "item": {
+            "@type": "Article",
+            "name": "Stop Waiting for Clarity. Here's How to Create It.",
+            "description": "Anfernee Tan (Solopreneur Code) lists Karo's Vibecoding Resource Hub in 'Interesting Substack Posts I Read This Week' section of a long-form post.",
+            "url": "https://solopreneurcode.substack.com/p/stop-waiting-for-clarity",
+            "datePublished": "2026-01-11",
+            "author": {
+              "@type": "Person",
+              "name": "Anfernee Tan",
+              "url": "https://substack.com/@anferneeck"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Solopreneur Code"
+            },
+            "about": "Karo featured in weekly reads roundup section",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "The Complete Vibecoding & Speccoding Resource Hub",
+              "url": "https://karozieminski.substack.com/p/vibecoding-resources-hub"
+            },
+            "citation": {
+              "quote": "Interesting Substack Posts I Read This Week: The Complete Vibecoding & Speccoding Resource Hub — Karo (Product with Attitude)",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "14 likes, 4 comments, 12 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 83,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI Digest for Jan 11, 2026 — 3 PwA articles featured (Build With Attitude, Boris Cherny, Recraft 101)",
+            "description": "SheWritesAI weekly digest features 3 PwA articles: Build With Attitude as #1 Jointly-Authored Collaborative, Boris Cherny piece as Featured #2, Recraft 101 as Featured #6 — all scoring 100.0.",
+            "url": "https://shewritesai.substack.com/p/digest-jan-11-2026",
+            "datePublished": "2026-01-11",
+            "author": {
+              "@type": "Person",
+              "name": "SheWritesAI & Karen Smiley",
+              "url": "https://substack.com/@shewritesai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "She Writes AI Community"
+            },
+            "about": "3 PwA articles featured at 100.0 score across Jointly-Authored and Featured sections",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Build With Attitude — An Open Invitation To Vibecoders Who Care About Building Things That Matter",
+              "url": "https://karozieminski.substack.com/p/build-with-attitude-vibecoding-quality-over-ai-slop"
+            },
+            "citation": {
+              "quote": "Build With Attitude (#1 Jointly-Authored, 100.0), How Boris Cherny Uses Claude Code (Featured #2, 100.0), Recraft 101 (Featured #6, 100.0) — all by Karo (Product with Attitude)",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "60 likes, 10 comments, 19 restacks"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 84,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Mia Kiraki (Robots Ate My Homework) Note — 'the queen of AI products'",
+            "description": "Mia Kiraki frames Karo as 'the queen of AI products' and offers a 30% discount for PwA paid subscribers.",
+            "url": "https://substack.com/@miakiraki/note/c-244313885",
+            "datePublished": "2026-04-16",
+            "author": {
+              "@type": "Person",
+              "name": "Mia Kiraki",
+              "url": "https://substack.com/@miakiraki"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Authority-framing Note positioning Karo as canonical AI products voice with paid-subscriber discount tie-in",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Discounts for Premium Members (Q2 2026)",
+              "url": "https://karozieminski.substack.com/p/premium-membership-ai-tool-discounts-2026"
+            },
+            "citation": {
+              "quote": "Already a paid subscriber to Karo (Product with Attitude), the queen of AI products, as I like to call her? Grab your 30% discount for ROBOTS ATE MY HOMEWORK and consider it your royal decree. Karo grows the product brain, I grow the taste garden.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "17 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 85,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "AI Meets Girlboss Note — 30% discount for PwA paid subscribers",
+            "description": "AI Meets Girlboss offers a 30% special discount to Karo (Product with Attitude) paid subscribers, referencing PwA premium membership directly.",
+            "url": "https://substack.com/@aimeetsgirlboss/note/c-244312315",
+            "datePublished": "2026-04-16",
+            "author": {
+              "@type": "Person",
+              "name": "AI Meets Girlboss",
+              "url": "https://substack.com/@aimeetsgirlboss"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Paid-subscriber benefit cross-promotion referencing PwA premium tier",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Discounts for Premium Members (Q2 2026)",
+              "url": "https://karozieminski.substack.com/p/premium-membership-ai-tool-discounts-2026"
+            },
+            "citation": {
+              "quote": "Grab your AI Meets Girlboss 30% special discount if you're Karo (Product with Attitude)'s paid subscriber!",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "10 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 86,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Caroline Vrauwdeunt (Inside Tech) Note — 'Good stuff Karo'",
+            "description": "Caroline Vrauwdeunt restacks Karo's Substack Creator Tools post with explicit Karo mention.",
+            "url": "https://substack.com/@carolinevrauwdeunt/note/c-233898145",
+            "datePublished": "2026-03-26",
+            "author": {
+              "@type": "Person",
+              "name": "Caroline Vrauwdeunt",
+              "url": "https://substack.com/@carolinevrauwdeunt"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Endorsement Note for Karo's creator tools post",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "The Tools I've Built (and What's Coming Next)",
+              "url": "https://karozieminski.substack.com/p/substack-creator-tools"
+            },
+            "citation": {
+              "quote": "Good stuff Karo! @Karo (Product with Attitude)",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "2 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 87,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Code Like A Girl Note — fluency is a design choice, not a signal of truth",
+            "description": "Code Like A Girl (verified publication) restacks Karo's GPT-5.5 citations piece with extracted hallucination data.",
+            "url": "https://substack.com/@codelikeagirl/note/c-250784062",
+            "datePublished": "2026-04-29",
+            "author": {
+              "@type": "Person",
+              "name": "Code Like A Girl",
+              "url": "https://substack.com/@codelikeagirl"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Verified Code Like A Girl publication amplifies GPT-5.5 hallucination breakdown",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "GPT-5.5 tops every builder benchmark. It also posts an 86% hallucination rate on the benchmark designed to penalize confident wrong answers. Karo (Product with Attitude) breaks down what that gap means for anyone doing citation work and why fluency is a design choice, not a signal of truth.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "3 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 88,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Thibaut Buewaert (Machine Writing) reply — Opus 4.7 robust against hallucinations",
+            "description": "Thibaut Buewaert replies citing Karo's GPT-5.5 piece as authoritative on deep-research hallucinations.",
+            "url": "https://substack.com/@thecopyengineer/note/c-249772063",
+            "datePublished": "2026-04-26",
+            "author": {
+              "@type": "Person",
+              "name": "Thibaut Buewaert",
+              "url": "https://substack.com/@thecopyengineer"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Reply citing Karo's research on Opus 4.7 robustness for deep research",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "When it comes to deep research, Opus 4.7 is still more robust against hallucinations. Thank you for that post @Karo (Product with Attitude)",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "Direct reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 89,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Javier Canizalez (Novum AI) Note — design philosophy citation",
+            "description": "Javier Canizalez extracts Karo's GPT-5.5 vs Opus hallucination data and frames OpenAI's choice as 'a design philosophy'.",
+            "url": "https://substack.com/@javiercanizalez/note/c-249442333",
+            "datePublished": "2026-04-26",
+            "author": {
+              "@type": "Person",
+              "name": "Javier Canizalez",
+              "url": "https://substack.com/@javiercanizalez"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Restack Note with full data extraction and design-philosophy framing",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "GPT-5.5 scores highest accuracy on AA-Omniscience at 57%. It also hallucinates citations 86% of the time. Claude Opus 4.7 hallucinates at 36%. OpenAI optimized for sounding right, not for admitting uncertainty. That's not a bug. That's a design philosophy. If you're building anything where trust in sources matters, the smartest model in the room might be the most dangerous one.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "2 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 90,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Matija Vidmar (The AI Architect) Note — read before using GPT-5.5",
+            "description": "Matija Vidmar restacks Karo's GPT-5.5 citations piece as required reading for certain use cases.",
+            "url": "https://substack.com/@mvidmar/note/c-249193306",
+            "datePublished": "2026-04-25",
+            "author": {
+              "@type": "Person",
+              "name": "Matija Vidmar",
+              "url": "https://substack.com/@mvidmar"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Pre-use warning citation positioning Karo as gatekeeper reading",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "This is worth reading before using gpt-5.5 for certain uses",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "Engagement counts not visible"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 91,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Karen Spinner (Wondering About AI) Note — GPT-5.5 hallucination warning",
+            "description": "Karen Spinner positions Karo's GPT-5.5 research as essential context on AI citation hallucination.",
+            "url": "https://substack.com/@karenspinner1/note/c-248931402",
+            "datePublished": "2026-04-25",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Spinner",
+              "url": "https://substack.com/@karenspinner1"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Authority framing on AI citation hallucination — Karo as primary source",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "One of the biggest problems with using AI for citations is that it will make up names, dates, URLs, etc. But not all models hallucinate at the same rates and GPT-5.5 may be especially problematic.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "20 likes, 6 replies"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 92,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Jean-Paul Paoli (Intelligence Fabric) Note — 'being clever is not the same as being right'",
+            "description": "Jean-Paul Paoli frames Karo's GPT-5.5 tests with the memetic 'being clever is not the same as being right' line.",
+            "url": "https://substack.com/@theintelligencefabric/note/c-248881007",
+            "datePublished": "2026-04-25",
+            "author": {
+              "@type": "Person",
+              "name": "Jean-Paul Paoli",
+              "url": "https://substack.com/@theintelligencefabric"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Memetic framing of Karo's GPT-5.5 research with quotable hook",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "being clever is not the same as being right. Interesting tests by Karo (Product with Attitude)",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "Engagement counts not visible"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 93,
+          "item": {
+            "@type": "Article",
+            "name": "The AI Killed My Character. It Wasn't Sorry.",
+            "description": "Mark Swanson (VengaDragon) cites Karo's GPT-5.5 hallucination benchmark data as a primary source in a long-form essay on AI fluency vs truth.",
+            "url": "https://vengadragon.substack.com/p/the-ai-killed-my-character",
+            "datePublished": "2026-05-04",
+            "author": {
+              "@type": "Person",
+              "name": "Mark Swanson",
+              "url": "https://substack.com/@vengadragon"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VengaDragon"
+            },
+            "about": "Long-form essay citing Karo's hallucination benchmark data (Opus 36%, Gemini 50%, GPT-5.5 86%) as 'Source: Karo (Product with Attitude), April 2026'",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Is GPT-5.5 Reliable For Citations? No. It's The Worst Flagship For That Job.",
+              "url": "https://karozieminski.substack.com/p/gpt-5-5-citations-hallucination-rate"
+            },
+            "citation": {
+              "quote": "Claude Opus 4.7 sits at 36% on the same benchmark. Gemini 3.1 Pro at 50%. GPT-5.5 at 86%. Source: Karo (Product with Attitude), April 2026.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": "4 likes, 2 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 94,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI Digest for April 26, 2026 — Claude Design Review #2 Featured (100.0) + GPT-5.5 Citations in Product Development",
+            "description": "SheWritesAI weekly digest features Karo's Claude Design Review as Featured Article #2 with a perfect 100.0 score plus the GPT-5.5 Citations article in the Product Development category.",
+            "url": "https://shewritesai.substack.com/p/digest-april-26-2026",
+            "datePublished": "2026-04-26",
+            "author": {
+              "@type": "Person",
+              "name": "SheWritesAI & Karen Smiley",
+              "url": "https://substack.com/@shewritesai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "She Writes AI Community"
+            },
+            "about": "Two PwA articles featured in same digest: Claude Design Review (Featured #2, 100.0) + GPT-5.5 Citations (Product Development category)",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
+              "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
+            },
+            "citation": {
+              "quote": "Featured #2 (100.0): Claude Design Review by Karo (Product with Attitude) — 93 likes, 10 comments, 18 restacks. Product Development category: Is GPT-5.5 Reliable For Citations? by Karo (Product with Attitude).",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "34 likes, 2 comments, 6 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.14",
+  "schemaVersion": "5.9.15",
   "dateModified": "2026-05-19"
 }
