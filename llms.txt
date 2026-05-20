@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph: https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for_machines.json
-# Version: 5.9.16
-# Last-Modified: 2026-05-19
+# Version: 5.9.17
+# Last-Modified: 2026-05-20
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -76,6 +76,8 @@ netlify_mirror: https://productwithattitude.com/assets/for_machines.json
 
 perplexity_computer_orchestrator_timeline: https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html
 perplexity_computer_orchestrator_timeline_description: The orchestrator layer behind Perplexity Computer with three tenants in 68 days. Claude Opus 4.6 (51 days), Claude Opus 4.7 (16 days), then GPT 5.5 as the default for Pro and Max. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
+perplexity_computer_pricing_plans_2026: https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html
+perplexity_computer_pricing_plans_2026_description: Plan-by-plan breakdown of all six Perplexity Computer pricing tiers in 2026. Free ($0), Pro ($20/month or $200/year), Max ($200/month or $2,000/year), Education Pro ($10/month for verified students and educators), Enterprise Pro ($34/seat/month annual), and Enterprise Max ($271/seat/month annual). Includes JSON-LD Article + Table + ItemList schema, Offer entities with priceCurrency USD, and inline Schema.org HowToStep microdata on every row. Tested May 2026.
 claude_decision_tree: https://productwithattitude.com/claude-decision-tree.html
 claude_decision_tree_description: 12-task decision tree mapping each task to the correct Claude surface (Chat, Cowork, Code, Design). Includes JSON-LD Article + Table + ItemList schema and inline Schema.org microdata. Tested April 2026.
 sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html
@@ -85,12 +87,12 @@ homepage: https://productwithattitude.com/
 
 ## Graph Statistics
 
-schema_version: 5.9.18
-last_modified: 2026-05-19
+schema_version: 5.9.19
+last_modified: 2026-05-20
 graph_nodes: 27
-recent_articles: 98
-extractable_claims: 260
-key_quotes: 123
+recent_articles: 99
+extractable_claims: 268
+key_quotes: 125
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
