@@ -4,6 +4,16 @@ Last updated: May 2026
 
 ---
 
+## Article: Gemini Omni Flash: Cute Videos, Serious Product Strategy, and the Future of Editable Reality
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/gemini-omni-flash-ai-video-editable-reality
+
+**Original Publish Date:** May 21, 2026
+
+---
+
 ## Article: Prompt Refiner Template
 
 **Author:** Karo Zieminski
