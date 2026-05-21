@@ -4,6 +4,16 @@ Last updated: May 2026
 
 ---
 
+## Article: Prompt Refiner Template
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/llm-prompt-refiner
+
+**Original Publish Date:** April 20, 2026
+
+---
+
 ## Article: Perplexity Computer in May 2026: 5 Workflows I Run Every Week
 
 **Author:** Karo Zieminski
