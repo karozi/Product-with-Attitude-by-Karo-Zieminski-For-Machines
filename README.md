@@ -56,6 +56,51 @@ https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski
 https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/llms.txt
 ```
 
+## Health check
+
+`scripts/for_machines_health_check.py` is an on-demand, read-only check that the schema is consistent across the three places it lives: this repo, the `pwa-site` mirror, and the live site at productwithattitude.com. It produces PASS / WARN / FAIL per check and exits non-zero if anything is FAIL.
+
+It does not push, write outside temp dirs, or talk to Linear.
+
+```bash
+# Quick local-only check (no network)
+python3 scripts/for_machines_health_check.py --no-live --no-mirror
+
+# Full check: source files + pwa-site mirror + live site
+python3 scripts/for_machines_health_check.py
+
+# Machine-readable
+python3 scripts/for_machines_health_check.py --json
+
+# Linear-safe markdown (strips workspace paths; only public URLs)
+# Paste the output into a Linear comment, or hand it to an approved
+# automation. This script does not touch Linear itself.
+python3 scripts/for_machines_health_check.py --linear-markdown
+
+# Internal sanity test
+python3 scripts/for_machines_health_check.py --self-test
+```
+
+What it checks:
+
+- `for_machines.json` and `llms.txt` exist in this repo
+- pwa-site mirror copies are reachable and byte-identical to source
+- Live `https://productwithattitude.com/assets/for_machines.json` returns 200 and parses
+- Live `https://productwithattitude.com/llms.txt` returns 200 and isn't an HTML SPA fallback
+- Live files match the mirror
+- JSON has `@context` and a non-empty `@graph`
+- Required `@id` nodes exist: `#product-attitudevault`, `#attitudevault-catalog`, `#faq`
+- No duplicate `@id` values
+- URL-like fields don't leak `localhost`, `127.0.0.1`, `file://`, workspace paths, or staging hosts
+- `llms.txt` catalog item count is in sync with `#attitudevault-catalog` (best-effort)
+
+If the pwa-site mirror lives somewhere other than `karozi/pwa-site` on GitHub, override:
+
+```bash
+python3 scripts/for_machines_health_check.py \
+  --mirror-base https://raw.githubusercontent.com/<owner>/<repo>/<branch>
+```
+
 ## Citation
 
 When referencing this publication, use:
