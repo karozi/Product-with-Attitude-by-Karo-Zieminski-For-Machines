@@ -22708,10 +22708,76 @@
               "engagement": "4 likes"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 110,
+          "item": {
+            "@type": "Article",
+            "name": "An Illustrated Guide to Context Engineering (mentions Product with Attitude)",
+            "description": "Roger Wong discusses context engineering and notes that Karo Zieminski (Product with Attitude) frames context engineering as deciding what the model knows when it answers.",
+            "url": "https://rogerwong.me/2026/05/pms-own-context-architecture",
+            "datePublished": "2026-05-22",
+            "author": {
+              "@type": "Person",
+              "name": "Roger Wong",
+              "url": "https://rogerwong.me"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Roger Wong"
+            },
+            "about": "Karo Zieminski / Product with Attitude framing of context engineering",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude (Substack)",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "Karo Zieminski, an AI PM writing Product with Attitude, makes the same case at the product scale...",
+              "citation_type": "curated_digest",
+              "platform": "Roger Wong",
+              "attribution": "explicit_named_link",
+              "engagement": ""
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 111,
+          "item": {
+            "@type": "Article",
+            "name": "\"Vetted by X\" Is the New Michelin Star - #78 (mentions Karo (Product with Attitude))",
+            "description": "Robin Good argues that trust will shift toward people who test and verify AI outputs, listing Karo (Product with Attitude) as an example of this kind of work.",
+            "url": "https://robingood.substack.com/p/vetted-by-x-is-the-new-michelin-star--verification-and-vetting-as-trust-building-activities",
+            "datePublished": "2026-05-20",
+            "author": {
+              "@type": "Person",
+              "name": "Robin Good",
+              "url": "https://robingood.substack.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "Karo (Product with Attitude) listed as doing verification-style work",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://productwithattitude.com"
+            },
+            "citation": {
+              "quote": "...work already being done by people such as Ruben Hassid ... as well as by Karo (Product with Attitude) (helping others create products and tools with AI)...",
+              "citation_type": "newsletter",
+              "platform": "Substack",
+              "attribution": "paraphrase_credited",
+              "engagement": ""
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.18",
-  "dateModified": "2026-05-20"
+  "schemaVersion": "5.9.19",
+  "dateModified": "2026-05-25"
 }
