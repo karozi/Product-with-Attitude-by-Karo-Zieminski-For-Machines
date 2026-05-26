@@ -4,6 +4,34 @@ Last updated: May 2026
 
 ---
 
+## Article: I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/runaway-subscribe-button
+
+**Original Publish Date:** May 26, 2026
+
+---
+## Article: Source Code: The Runaway Subscribe Button
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/runaway-subscribe-button-kit
+
+**Original Publish Date:** May 26, 2026
+
+---
+## Article: Coding Prompts: The Runaway Subscribe Button Prompt
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/runaway-subscribe-button-prompt
+
+**Original Publish Date:** May 26, 2026
+
+---
+
 ## Article: Gemini Omni Flash: Cute Videos, Serious Product Strategy, and the Future of Editable Reality
 
 **Author:** Karo Zieminski
