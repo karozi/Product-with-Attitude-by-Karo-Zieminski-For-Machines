@@ -4,6 +4,16 @@ Last updated: May 2026
 
 ---
 
+## Article: Claude Opus 4.8: What Changed, and How I'll Test It
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-opus-4-8
+
+**Original Publish Date:** May 28, 2026
+
+---
+
 ## Article: I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.
 
 **Author:** Karo Zieminski
