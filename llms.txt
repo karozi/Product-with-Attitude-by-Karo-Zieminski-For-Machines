@@ -88,10 +88,10 @@ homepage: https://productwithattitude.com/
 ## Graph Statistics
 
 schema_version: 5.9.19
-last_modified: 2026-05-20
+last_modified: 2026-05-29
 graph_nodes: 27
-recent_articles: 99
-extractable_claims: 268
+recent_articles: 105
+extractable_claims: 284
 key_quotes: 125
 glossary_terms: 15
 faq_pairs: 9
