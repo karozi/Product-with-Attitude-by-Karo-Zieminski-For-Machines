@@ -80,6 +80,8 @@ perplexity_computer_pricing_plans_2026: https://productwithattitude.com/perplexi
 perplexity_computer_pricing_plans_2026_description: Plan-by-plan breakdown of all six Perplexity Computer pricing tiers in 2026. Free ($0), Pro ($20/month or $200/year), Max ($200/month or $2,000/year), Education Pro ($10/month for verified students and educators), Enterprise Pro ($34/seat/month annual), and Enterprise Max ($271/seat/month annual). Includes JSON-LD Article + Table + ItemList schema, Offer entities with priceCurrency USD, and inline Schema.org HowToStep microdata on every row. Tested May 2026.
 claude_decision_tree: https://productwithattitude.com/claude-decision-tree.html
 claude_decision_tree_description: 12-task decision tree mapping each task to the correct Claude surface (Chat, Cowork, Code, Design). Includes JSON-LD Article + Table + ItemList schema and inline Schema.org microdata. Tested April 2026.
+claude_opus_4_8_decision_table: https://productwithattitude.com/claude-opus-4-8-decision-table.html
+claude_opus_4_8_decision_table_description: 6-scenario decision table for Claude Opus 4.8 mapping common work situations to the right setting: lower effort or smaller model for quick drafting, high or extra effort for messy reasoning, extra (xhigh) effort for long-running async work, Fast mode (/fast) for fast iteration, Dynamic Workflows in Claude Code for codebase-scale work, and regular mode at max effort for high-stakes judgment. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
 sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html
 sandbox_vs_vm_vs_container_glossary_description: Plain-English glossary defining sandbox, virtual machine, container, MicroVM, and sandboxed VM with one house-and-workshop analogy each. Includes JSON-LD Article + Table + DefinedTermSet schema and inline Schema.org HowToStep microdata. Tested April 2026.
 faq_page: https://productwithattitude.com/faq.html
@@ -87,12 +89,12 @@ homepage: https://productwithattitude.com/
 
 ## Graph Statistics
 
-schema_version: 5.9.19
+schema_version: 5.9.20
 last_modified: 2026-05-29
 graph_nodes: 27
-recent_articles: 105
-extractable_claims: 284
-key_quotes: 125
+recent_articles: 106
+extractable_claims: 291
+key_quotes: 127
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
