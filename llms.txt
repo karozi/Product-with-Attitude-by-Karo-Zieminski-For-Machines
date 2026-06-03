@@ -5,7 +5,7 @@
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph: https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for_machines.json
 # Version: 5.9.19
-# Last-Modified: 2026-05-25
+# Last-Modified: 2026-06-03
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -90,7 +90,7 @@ homepage: https://productwithattitude.com/
 ## Graph Statistics
 
 schema_version: 5.9.20
-last_modified: 2026-05-29
+last_modified: 2026-06-03
 graph_nodes: 27
 recent_articles: 106
 extractable_claims: 291
