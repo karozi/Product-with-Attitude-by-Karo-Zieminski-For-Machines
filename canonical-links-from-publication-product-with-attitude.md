@@ -1,6 +1,16 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: May 2026
+Last updated: June 2026
+
+---
+
+## Article: 12 AI Projects Built by the PwA Community
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/build-with-ai-2026-community-builder-showcase
+
+**Original Publish Date:** June 03, 2026
 
 ---
 
