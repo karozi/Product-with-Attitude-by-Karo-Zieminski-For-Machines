@@ -23357,10 +23357,241 @@
               "engagement": ""
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 112,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Caroline Vrauwdeunt — 'awesome products and amazing community of builders'",
+            "description": "Caroline Vrauwdeunt explicitly endorses Karo's builder community on Substack Notes, naming Product with Attitude and recommending the community to her readers.",
+            "url": "https://substack.com/@carolinevrauwdeunt/note/c-269802361",
+            "datePublished": "2026-06-02",
+            "author": {
+              "@type": "Person",
+              "name": "Caroline Vrauwdeunt",
+              "url": "https://substack.com/@carolinevrauwdeunt"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "Endorsement of PwA builder community",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "If you are not part of @Karo (Product with Attitude) 's builder community yet - you should. She has managed to not only build awesome products but also an amazing community of builders.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_link",
+              "engagement": "not visible"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 113,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Raghav Mehra (Cash & Cache) — 'Elite builders' list!'",
+            "description": "Raghav Mehra of Cash & Cache embeds Karo's PwA Community Builder Showcase article on Substack Notes with brief endorsement. His 2nd citation (after the Cash & Cache long-form feature).",
+            "url": "https://substack.com/@raghavmhra24/note/c-269798353",
+            "datePublished": "2026-06-03",
+            "author": {
+              "@type": "Person",
+              "name": "Raghav Mehra",
+              "url": "https://substack.com/@raghavmhra24"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "12 AI Projects Built by the PwA Community",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "12 AI Projects Built by the PwA Community",
+              "url": "https://karozieminski.substack.com/p/build-with-ai-2026-community-builder-showcase"
+            },
+            "citation": {
+              "quote": "Elite builders' list!",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "11 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 114,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Farida Khalaf (Lights On) — 'beautiful output by beautiful community'",
+            "description": "Farida Khalaf of Lights On restacks Karo's PwA Community Builder Showcase article with appreciation. Karo replied thanking her for the restack.",
+            "url": "https://substack.com/@faridakhalaf/note/c-269732850",
+            "datePublished": "2026-06-02",
+            "author": {
+              "@type": "Person",
+              "name": "Farida Khalaf",
+              "url": "https://substack.com/@faridakhalaf"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "12 AI Projects Built by the PwA Community",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "12 AI Projects Built by the PwA Community",
+              "url": "https://karozieminski.substack.com/p/build-with-ai-2026-community-builder-showcase"
+            },
+            "citation": {
+              "quote": "beautiful output by beautiful community",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "9 likes, 1 reply"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 115,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Ileana Marcut (UX + AI) — 'Only amazing people building amazing things'",
+            "description": "Ileana Marcut of UX + AI restacks Karo's PwA Community Builder Showcase article. Recurring citer — multiple PwA citations across 2026.",
+            "url": "https://substack.com/@ileanamarcut/note/c-269723936",
+            "datePublished": "2026-06-02",
+            "author": {
+              "@type": "Person",
+              "name": "Ileana Marcut",
+              "url": "https://substack.com/@ileanamarcut"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "12 AI Projects Built by the PwA Community",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "12 AI Projects Built by the PwA Community",
+              "url": "https://karozieminski.substack.com/p/build-with-ai-2026-community-builder-showcase"
+            },
+            "citation": {
+              "quote": "Only amazing people building amazing things!",
+              "citation_type": "substack_note_restack",
+              "platform": "Substack Notes",
+              "attribution": "embedded_card",
+              "engagement": "20 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 116,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Code Like A Girl — 'one year ago with zero followers, now on the Education Bestseller list'",
+            "description": "Code Like A Girl publishes a Substack Note teasing a feature about Karo's one-year journey from zero followers to Substack Education Bestseller. Recurring citer with high-authority publication.",
+            "url": "https://substack.com/@codelikeagirl/note/c-267755820",
+            "datePublished": "2026-06-04",
+            "author": {
+              "@type": "Person",
+              "name": "Code Like A Girl",
+              "url": "https://substack.com/@codelikeagirl"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "Karo's growth journey from zero to Education Bestseller",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "@Karo (Product with Attitude) started Product with Attitude one year ago with zero followers anywhere and is now on the Education Bestseller list.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_link",
+              "engagement": "5 likes, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 117,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Joel Salinas (Leadership in Change) — 'true example of focusing on bringing value'",
+            "description": "Joel Salinas of Leadership in Change explicitly endorses Karo (Product with Attitude) as 'amazing' in a reply Note praising her value-first approach.",
+            "url": "https://substack.com/@leadershipinchange10/note/c-269486737",
+            "datePublished": "2026-06-02",
+            "author": {
+              "@type": "Person",
+              "name": "Joel Salinas",
+              "url": "https://substack.com/@leadershipinchange10"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "Value-first approach endorsement",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "Karo (Product with Attitude) is amazing! true example of focusing on bringing value and everything else falls into place",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_link",
+              "engagement": "1 like, 1 reply, 1 restack"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 118,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Jeremy Wright (ECHO/selfactual.ai) — 'the first community I joined on Substack, and I've never left'",
+            "description": "Jeremy Wright of ECHO names Karo's PwA as the first Substack community he joined and credits her for profiling his work at selfactual.ai. Strong loyalty signal from a builder citer.",
+            "url": "https://substack.com/@netmobs/note/c-269484501",
+            "datePublished": "2026-06-02",
+            "author": {
+              "@type": "Person",
+              "name": "Jeremy Wright",
+              "url": "https://substack.com/@netmobs"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "PwA community loyalty endorsement",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "@Karo (Product with Attitude) was the first community I joined on Substack, and I've never left. I'm deeply grateful she profiled what we're building at selfactual.ai!",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_link",
+              "engagement": "not visible"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.19",
-  "dateModified": "2026-06-03"
+  "schemaVersion": "5.9.20",
+  "dateModified": "2026-06-04"
 }
