@@ -12748,7 +12748,7 @@
       "@id": "#key-quotes",
       "name": "Key Quotes by Karo Zieminski",
       "description": "Signature quotes and philosophy statements attributable to Karo Zieminski, founder of Product with Attitude",
-      "numberOfItems": 127,
+      "numberOfItems": 128,
       "itemListElement": [
         {
           "@type": "Quotation",
@@ -14134,6 +14134,17 @@
             "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           }
+        },
+        {
+          "@type": "Quotation",
+          "position": 128,
+          "text": "No code doesn't mean no product work.",
+          "about": "no-code, vibe coding, product thinking, product management",
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "datePublished": "2026-06-03",
+          "isBasedOn": "https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders"
         }
       ],
       "dateModified": "2026-05-20"
