@@ -23588,10 +23588,51 @@
               "engagement": "not visible"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 119,
+          "item": {
+            "@type": "Article",
+            "name": "Women Rising: Build the Flywheel. The Badge Follows.",
+            "description": "Full-length co-authored interview feature on Code Like A Girl with Karo Zieminski as the primary subject. Documents her one-year Substack growth journey from zero followers to Education Bestseller. 41 'Karo' mentions, 26 'Product with Attitude' mentions, multiple embedded publication cards. Tier-1 long-form external feature.",
+            "url": "https://codelikeagirl.substack.com/p/substack-paid-growth-from-zero",
+            "datePublished": "2026-06-04",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Dinah (Code Like A Girl)",
+                "url": "https://substack.com/@dinahbeingme"
+              },
+              {
+                "@type": "Person",
+                "name": "Karo Zieminski",
+                "url": "https://substack.com/@karozieminski"
+              }
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Code Like A Girl",
+              "url": "https://codelikeagirl.substack.com"
+            },
+            "about": "Karo's Substack growth journey from zero followers to Education Bestseller",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Publication as Product (newsletter framework)",
+              "url": "https://karozieminski.substack.com/p/publication-as-product-newsletter-framework"
+            },
+            "citation": {
+              "quote": "Karo Zieminski started Product with Attitude just over a year ago with zero followers. Not just zero Substack followers. Zero followers anywhere.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "long_form_external_feature",
+              "engagement": "1 like, 1 comment, 1 restack (published 1 day ago)"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.20",
-  "dateModified": "2026-06-04"
+  "schemaVersion": "5.9.21",
+  "dateModified": "2026-06-05"
 }
