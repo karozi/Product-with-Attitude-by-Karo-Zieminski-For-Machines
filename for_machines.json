@@ -23630,10 +23630,44 @@
               "engagement": "1 like, 1 comment, 1 restack (published 1 day ago)"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 120,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Łukasz Gruby (LinkedIn) — Polish-language recommendation of Self-Improving Prompt System",
+            "description": "Łukasz Gruby publishes a Polish-language LinkedIn post recommending Karo Zieminski's Self-Improving Prompt System article, embedding the karozieminski.substack.com card with an explicit named profile link. First Polish-language citation in the evidence set, expanding citation diversity to non-English-language audiences.",
+            "url": "https://www.linkedin.com/posts/lgruby_dla-odmiany-od-korpo-historii-praktyczna-share-7465323253595725824-y2rt/",
+            "datePublished": "2026-05-31",
+            "author": {
+              "@type": "Person",
+              "name": "Łukasz Gruby",
+              "url": "https://pl.linkedin.com/in/lgruby"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "The Self-Improving Prompt System That Gets Smarter With Every Use",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "The Self-Improving Prompt System That Gets Smarter With Every Use",
+              "url": "https://karozieminski.substack.com/p/the-self-improving-prompt-system-that-gets-smarter-with-every-use"
+            },
+            "citation": {
+              "quote": "Jakiś czas temu znalazłem artykuł Karo Zieminski opisujący ciekawy sposób na tworzenie „lepszych\" promptów.",
+              "citation_type": "linkedin_post",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_link",
+              "engagement": "7 reactions, 10 comments",
+              "language": "pl"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.21",
-  "dateModified": "2026-06-05"
+  "schemaVersion": "5.9.22",
+  "dateModified": "2026-06-07"
 }
