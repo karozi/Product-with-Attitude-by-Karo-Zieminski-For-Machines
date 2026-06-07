@@ -23664,10 +23664,80 @@
               "language": "pl"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 121,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI digest June 7, 2026 — Karo featured as item #1 + growth story summary",
+            "description": "SheWritesAI weekly digest (387 articles across 732 newsletters) features Karo's '12 AI Projects Built by the PwA Community' as item #1 plus a summary of her zero-to-Bestseller growth story. ~6 explicit named mentions, 2 direct links to karozieminski.substack.com. 4th SheWritesAI digest citation in 2026.",
+            "url": "https://shewritesai.substack.com/p/2026-06-07-shewritesai-digest",
+            "datePublished": "2026-06-07",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Karen Smiley",
+                "url": "https://substack.com/@shewritesai"
+              }
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "SheWritesAI",
+              "url": "https://shewritesai.substack.com"
+            },
+            "about": "PwA Community Builder Showcase + zero-to-Bestseller growth story",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "12 AI Projects Built by the PwA Community",
+              "url": "https://karozieminski.substack.com/p/build-with-ai-2026-community-builder-showcase"
+            },
+            "citation": {
+              "quote": "Karo Zieminski started Product with Attitude with zero followers. One year later, she's on the Best…",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "9 likes, 3 restacks (digest)"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 122,
+          "item": {
+            "@type": "Article",
+            "name": "Ileana Marcut — One Year of UX + AI retrospective credits Karo as newsletter origin",
+            "description": "Ileana Marcut's one-year anniversary retrospective explicitly credits Karo (Product with Attitude) as the reason she published her first post and as foundational to the existence of UX + AI. Karo also appears in 'The People Whose Work Inspires Mine' curated list. Highest-tier origin-story attribution from a recurring citer (4th Ileana Marcut citation).",
+            "url": "https://ileanamarcut.substack.com/p/one-year-of-ux-ai",
+            "datePublished": "2026-06-03",
+            "author": {
+              "@type": "Person",
+              "name": "Ileana Marcut",
+              "url": "https://substack.com/@ileanamarcut"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "UX + AI",
+              "url": "https://ileanamarcut.substack.com"
+            },
+            "about": "Origin-story credit + inspirational community acknowledgment",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "And very important, I wouldn't have written that post if it wasn't for Karo (Product with Attitude), to which I am forever grateful. Thank you, Karo! ❤️",
+              "citation_type": "long_form_external_feature",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "18 likes, 20 comments, 9 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.22",
+  "schemaVersion": "5.9.23",
   "dateModified": "2026-06-07"
 }
