@@ -4,6 +4,16 @@ Last updated: June 2026
 
 ---
 
+## Article: Claude Skills: Editorial Minimalist UI System
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-skills-editorial-minimalist
+
+**Original Publish Date:** June 09, 2026
+
+---
+
 ## Article: 12 AI Projects Built by the PwA Community
 
 **Author:** Karo Zieminski
