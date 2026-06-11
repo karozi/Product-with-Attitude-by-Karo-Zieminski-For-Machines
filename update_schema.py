@@ -263,9 +263,25 @@ def build_article_entry(rss_article, position):
         "isAccessibleForFree": rss_article["isAccessibleForFree"],
         "author": {"@id": AUTHOR_ID},
     }
+    # Always emit a description for AIO/GEO surface area (regression fix, June 2026)
+    if description and description != title:
+        article_obj["description"] = unescape(description)
     alt = detect_alternative_headline(title, description)
     if alt:
         article_obj["alternativeHeadline"] = unescape(alt)
+    # Speakable markup for voice/answer extraction — dropped silently before June 2026
+    article_obj["speakable"] = {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+            "h1.post-title",
+            "h2.subtitle",
+            ".body.markup > p:first-of-type",
+            ".body.markup > p:nth-of-type(2)",
+            "article h1",
+            "article > p:first-of-type",
+        ],
+        "xpath": ["//h1", "//article//p[1]"],
+    }
     sid = detect_series(title)
     if sid:
         article_obj["isPartOf"] = {"@id": sid}

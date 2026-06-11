@@ -1,0 +1,17 @@
+name: Schema completeness lint
+on:
+  push:
+    paths: ["for_machines.json", "schema_lint.py"]
+  pull_request:
+    paths: ["for_machines.json", "schema_lint.py"]
+  workflow_dispatch:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run schema completeness linter
+        run: python3 schema_lint.py for_machines.json
