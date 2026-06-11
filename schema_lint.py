@@ -47,6 +47,10 @@ def lint(path):
         has_claims = bool(a.get("pwa:extractableClaims")) or (url in claim_urls)
         if not has_claims:
             missing.append("extractableClaims")
+        if not a.get("dateModified"):
+            missing.append("dateModified")
+        if not a.get("image"):
+            missing.append("image")
         if missing:
             gaps.append({
                 "headline": a.get("headline", "")[:70],
@@ -68,7 +72,7 @@ def main():
         print(f"Schema lint: {path}")
         print(f"  Articles checked: {total}")
         if not gaps:
-            print("  ✅ No gaps. All articles have description, speakable, and claims.")
+            print("  ✅ No gaps. All articles have description, speakable, claims, dateModified, and image.")
         else:
             print(f"  ❌ {len(gaps)} article(s) with gaps:")
             for gp in sorted(gaps, key=lambda x: x["date"], reverse=True):

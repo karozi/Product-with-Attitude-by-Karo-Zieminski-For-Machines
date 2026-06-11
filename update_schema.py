@@ -81,12 +81,19 @@ def fetch_rss(url=FEED_URL):
         plain_text = _strip_html(content_html) if content_html else ""
         word_count = len(plain_text.split())
         is_free = not _is_paywall(content_html) if content_html else True
+        # First image in the post body becomes the schema image (regression fix, June 2026)
+        image_url = None
+        if content_html:
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', content_html)
+            if m:
+                image_url = m.group(1)
 
         articles.append({
             "title": title, "link": link, "description": description,
             "datePublished": date_published, "wordCount": word_count,
             "isAccessibleForFree": is_free, "creator": creator,
             "contentHtml": content_html, "plainText": plain_text,
+            "image": image_url,
         })
     return articles
 
@@ -259,10 +266,14 @@ def build_article_entry(rss_article, position):
         "@type": "Article", "headline": title,
         "url": rss_article["link"],
         "datePublished": rss_article["datePublished"],
+        "dateModified": rss_article["datePublished"],
         "wordCount": rss_article["wordCount"],
         "isAccessibleForFree": rss_article["isAccessibleForFree"],
         "author": {"@id": AUTHOR_ID},
     }
+    # Schema image for AIO/GEO surface area (regression fix, June 2026)
+    if rss_article.get("image"):
+        article_obj["image"] = rss_article["image"]
     # Always emit a description for AIO/GEO surface area (regression fix, June 2026)
     if description and description != title:
         article_obj["description"] = unescape(description)

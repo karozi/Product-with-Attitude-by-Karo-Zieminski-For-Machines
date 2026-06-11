@@ -1294,7 +1294,10 @@
               "Minimalism is not the absence of design; it is the discipline of clarity: composition, functional elements, whitespace, typography, and removing every decorative detail that does not earn its place.",
               "Editorial Minimalist UI treats typography as the main visual system, whitespace as structure, borders as depth, and copy as interface, not as an afterthought or filler.",
               "The build order is: start with structure, then typography, then content clarity, then surfaces, then accent color, then motion, then imagery."
-            ]
+            ],
+            "dateModified": "2026-06-09",
+            "description": "Editorial Minimalist UI is a design system for AI-generated product interfaces that should feel calm, premium, useful, and built by someone with taste.",
+            "image": "https://substackcdn.com/image/fetch/$s_!QjHr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4eae8070-9426-4956-a631-959dd9fac95d_1200x630.png"
           }
         },
         {
@@ -1349,7 +1352,10 @@
               "The safest first AI project is a private workflow with low-risk data and a clear output.",
               "Building in private is slow and lonely, so a public build board forces clarity, attracts feedback, and sometimes attracts your first users.",
               "The real lesson of building with AI is that specific pain you understand can be made easier to handle."
-            ]
+            ],
+            "dateModified": "2026-06-03",
+            "description": "I Keep Saying You Can Build with AI. Here’s Proof.",
+            "image": "https://substackcdn.com/image/fetch/$s_!Oblk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c77bbbc-129f-4d8e-9be6-49fdf054bae3_2376x1226.png"
           }
         },
         {
@@ -1412,7 +1418,9 @@
                 "//h1",
                 "//article//p[1]"
               ]
-            }
+            },
+            "dateModified": "2026-05-29",
+            "description": "6 work scenarios mapped to the right setting. Effort level, Fast mode, or Dynamic Workflows."
           }
         },
         {
@@ -1460,7 +1468,10 @@
                 "//h1",
                 "//article//p[1]"
               ]
-            }
+            },
+            "dateModified": "2026-05-28",
+            "description": "Opus 4.8 is not the main event. It is the model that teaches you how to work before Mythos arrives.",
+            "image": "https://substackcdn.com/image/fetch/$s_!Ut9I!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80c00a92-80cc-4a38-b98d-67a4187228fc_2355x1215.png"
           }
         },
         {
@@ -1517,7 +1528,10 @@
               "The curiosity gap is the distance between what you know and what you suddenly need to know.",
               "The runaway subscribe button does not run away from keyboard users.",
               "Adaptation beats generation for component work."
-            ]
+            ],
+            "dateModified": "2026-05-26",
+            "description": "Most subscribe buttons are invisible because readers have seen too many of them. So I made mine misbehave.",
+            "image": "https://substackcdn.com/image/fetch/$s_!h3In!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0308167d-1525-4763-b221-2954d3426129_2374x1248.png"
           }
         },
         {
@@ -1568,7 +1582,10 @@
               "The runaway subscribe button source code is the exact code running on productwithattitude.com, packaged so you can drop it on any site in under five minutes.",
               "The easiest and cheapest way to build the runaway subscribe button is to copy the code and change three things: the button text, the destination URL, and the number of times the button dodges before it gives up.",
               "Adapting existing code saves you credits, because you are not asking AI to reinvent the whole component from scratch — you are asking it to adapt something that already works."
-            ]
+            ],
+            "dateModified": "2026-05-26",
+            "description": "The exact code running on productwithattitude.com, packaged so you can drop it on any site in under five minutes.",
+            "image": "https://substackcdn.com/image/fetch/$s_!6_By!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff957a17b-758c-44cc-9725-546d4a504230_1200x630.png"
           }
         },
         {
@@ -1618,7 +1635,10 @@
               "This is the exact prompt I used to ship the runaway subscribe button running on productwithattitude.com.",
               "Paste the runaway subscribe button prompt into Claude, Claude Code, Cursor, Lovable, or any AI coding tool, and fill in the four bracketed placeholders.",
               "The prompt outputs a working drop-in subscribe section with GA4 events, accessibility, and a button that dodges your cursor for exactly as long as you tell it to."
-            ]
+            ],
+            "dateModified": "2026-05-26",
+            "description": "One copy-pasteable prompt. Drop a runaway subscribe button into any site in 5 minutes, with GA4 events, accessibility, and a button that surrenders after 4 dodges.",
+            "image": "https://substackcdn.com/image/fetch/$s_!UgxT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da9a03f-fe01-4166-9c92-53c9b3e44400_1200x630.png"
           }
         },
         {
@@ -1677,7 +1697,9 @@
               "Google trained Gemini Omni Flash on gravity, kinetic energy, and fluid dynamics.",
               "Every clip Gemini Omni Flash produces carries an invisible SynthID watermark and C2PA Content Credentials.",
               "EU AI Act Article 50 transparency obligations apply to deepfakes and synthetic media starting August 2, 2026."
-            ]
+            ],
+            "dateModified": "2026-05-21",
+            "image": "https://substackcdn.com/image/fetch/$s_!E4pj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faee2b8bd-613a-449a-9963-89c4f3e07acd_2400x1260.png"
           }
         },
         {
@@ -1728,7 +1750,10 @@
               "The prompt refiner helps builders improve prompt accuracy, reduce hallucinations, enforce structured outputs, and test whether a prompt works consistently across multiple LLMs.",
               "The goal of the prompt refiner is not to write a novel; it is to give the model just enough information to make better decisions.",
               "Paste your rough prompt into the template, add any context you already know, then run it, and the prompt returns a cleaner version, explains what changed, gives you variants, and shows quick tests."
-            ]
+            ],
+            "dateModified": "2026-04-20",
+            "description": "Turn vague, messy, or inconsistent prompts into structured, production-ready prompts.",
+            "image": "https://substackcdn.com/image/fetch/$s_!4oX0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1d06645-a3cf-4d54-89fe-361d4e09d11d_2351x1600.png"
           }
         },
         {
@@ -1794,7 +1819,9 @@
                 "//h1",
                 "//article//p[1]"
               ]
-            }
+            },
+            "dateModified": "2026-05-20",
+            "description": "Free, Pro, Max, Education, and Enterprise. Six tiers compared."
           }
         },
         {
@@ -1867,7 +1894,9 @@
                 "//h1",
                 "//article//p[1]"
               ]
-            }
+            },
+            "dateModified": "2026-05-19",
+            "description": "Three tenants in 68 days. Opus 4.6, Opus 4.7, then GPT 5.5."
           }
         },
         {
@@ -1924,7 +1953,10 @@
               "Website publishing to pplx.app subdomains arrived in Perplexity Computer.",
               "When Perplexity Computer edits a file, inline file diffs show + / - lines in the thread before you continue.",
               "Personal Computer, rolled out April 16, 2026, brings Perplexity Computer orchestration to a local Mac."
-            ]
+            ],
+            "dateModified": "2026-05-19",
+            "description": "Five Perplexity Computer workflows I run every week. Credit cost, model, time saved, PM read, and the critical AI literacy check on each one.",
+            "image": "https://substackcdn.com/image/fetch/$s_!Km8D!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa73f68d5-b69b-4ed9-8eaa-262fbed5b7a7_2401x1260.png"
           }
         },
         {
@@ -1998,7 +2030,9 @@
                 "//h1",
                 "//article//p[1]"
               ]
-            }
+            },
+            "dateModified": "2026-05-19",
+            "description": "The decision tree. 7 Figma MCP tools mapped to the right call order."
           }
         },
         {
@@ -2081,7 +2115,9 @@
               "Task answers the question 'What is it doing right now?' and is updated per task.",
               "Mixing the update cadences of the Context Pyramid layers can lead to agent failure.",
               "The Context Pyramid provides a diagnostic loop to identify which layer to fix when an agent misbehaves."
-            ]
+            ],
+            "dateModified": "2026-05-17",
+            "alternativeHeadline": "A PM's framework for AI agent context engineering."
           }
         },
         {
@@ -2156,7 +2192,9 @@
               "Product with Attitude currently has around 18K readers.",
               "The average open rate for Product with Attitude is 39-42%.",
               "The retention rate for Product with Attitude is considered excellent according to Substack."
-            ]
+            ],
+            "dateModified": "2026-05-16",
+            "image": "https://substackcdn.com/image/fetch/$s_!PAVZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fbc4980-e08a-4302-8668-655306951647_2401x1260.png"
           }
         },
         {
@@ -2234,7 +2272,9 @@
               "The problem is not how much fits in the context window, it's what we put in, in what order, with what structure, and how often we update each part.",
               "Context engineering is the delicate art and science of filling the context window with just the right information for the next step.",
               "Most of the writing on this topic was produced by engineers for engineers."
-            ]
+            ],
+            "dateModified": "2026-05-01",
+            "image": "https://substackcdn.com/image/fetch/$s_!tf4Z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F706c4fcf-18a8-48fa-a7fb-aa173bad6e7c_2400x1600.png"
           }
         },
         {
@@ -2327,7 +2367,9 @@
               "The article includes a decision tree for choosing the first workflow.",
               "The article contains a trust-boundary table showing what Claude can and cannot touch.",
               "The article provides a practical rollout plan for weeks one through four."
-            ]
+            ],
+            "dateModified": "2026-05-14",
+            "image": "https://substackcdn.com/image/fetch/$s_!pKw_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0395dd2d-3e83-4f99-9444-4bea8b9f7007_2400x1260.png"
           }
         },
         {
@@ -2419,7 +2461,9 @@
               "The Write strategy in context engineering involves storing outputs to memory or files for future use.",
               "The Select strategy retrieves relevant context using semantic search or rules.",
               "The Compress strategy summarizes or filters context to fit within token limits."
-            ]
+            ],
+            "dateModified": "2026-05-13",
+            "image": "https://substackcdn.com/image/fetch/$s_!Wfkx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c87aa14-7809-42ee-aecf-e627bb1f5f42_2401x1261.png"
           }
         },
         {
@@ -2490,7 +2534,9 @@
               "The prompt requires specificity by gating on constraints like model, window size, and latency before providing answers.",
               "It includes decisions about context storage, freshness requirements, failure modes, and observable signals for production.",
               "The Context Spec Generator also identifies one risk that users may not have considered."
-            ]
+            ],
+            "dateModified": "2026-04-01",
+            "image": "https://substackcdn.com/image/fetch/$s_!d1gj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde80765f-533e-435a-b9d6-eb3dde294e7d_2351x1600.png"
           }
         },
         {
@@ -2577,7 +2623,9 @@
                 "//article//p[1]"
               ]
             },
-            "pwa:dateModified": "2026-05-07"
+            "pwa:dateModified": "2026-05-07",
+            "dateModified": "2026-05-07",
+            "description": "A 12-dimension side-by-side. Tested May 2026."
           }
         },
         {
@@ -2660,7 +2708,9 @@
               "The author expresses concern that critical AI literacy is becoming harder.",
               "A Bloomberg terminal costs roughly $32,000 a year.",
               "The Bloomberg terminal is described as an old-school, command-heavy terminal screen."
-            ]
+            ],
+            "dateModified": "2026-05-06",
+            "image": "https://substackcdn.com/image/fetch/$s_!gatq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19431ba7-a0a8-4f32-8aea-0e4ade24c589_2400x1260.png"
           }
         },
         {
@@ -2762,7 +2812,9 @@
               "The four main types of sandboxes are: full VM, microVM, container, and OS-level sandbox, each offering different levels of isolation.",
               "MicroVMs, such as those used by AWS Firecracker, provide fast startup times while maintaining stronger isolation compared to containers.",
               "Containers offer process-level isolation with a shared kernel, making them faster but less isolated than full virtual machines."
-            ]
+            ],
+            "dateModified": "2026-05-03",
+            "image": "https://substackcdn.com/image/fetch/$s_!EN8Q!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b39f2d9-490b-44f4-9026-2e5c07384f43_2400x1260.png"
           }
         },
         {
@@ -2866,7 +2918,9 @@
               "Karo Zieminski states that the right solution for accessing localhost depends on the specific tool being used, not the project itself.",
               "Karo Zieminski notes that AI agents like Perplexity Computer and GitHub Copilot operate in isolated environments that restrict access to localhost.",
               "Karo Zieminski recommends sending a diagnostic prompt to the AI agent to determine which fix applies to the localhost access problem."
-            ]
+            ],
+            "dateModified": "2026-04-26",
+            "image": "https://substackcdn.com/image/fetch/$s_!tZ4w!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F762f25f0-252e-4f8d-a6d6-d45ba391134c_2351x1600.png"
           }
         },
         {
@@ -2970,7 +3024,9 @@
               "If a builder's use case touches Annex III, they inherit all high-risk obligations outlined in the EU AI Act.",
               "The concept of 'vibe coding' allows builders to quickly ship AI products, potentially leading them into the provider trap.",
               "Indie founders and vibe coders are rapidly scaling their products without fully understanding the regulatory implications."
-            ]
+            ],
+            "dateModified": "2026-04-29",
+            "image": "https://substackcdn.com/image/fetch/$s_!QHgw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0944a2ef-b52d-4160-bebc-a174eef0663b_1920x1080.gif"
           }
         },
         {
@@ -3041,7 +3097,8 @@
                 "//article//p[1]"
               ]
             },
-            "pwa:dateModified": "2026-04-29"
+            "pwa:dateModified": "2026-04-29",
+            "description": "A plain-English glossary for AI builders. Five isolation terms, one house-and-workshop analogy."
           }
         },
         {
@@ -3135,7 +3192,8 @@
                 "url": "https://cursor.com"
               }
             ],
-            "pwa:dateModified": "2026-04-26"
+            "pwa:dateModified": "2026-04-26",
+            "description": "The matrix. 9 AI agent customization tools mapped across where they live, when they load, and when to use them."
           }
         },
         {
@@ -3231,7 +3289,8 @@
                 "url": "https://www.anthropic.com/claude"
               }
             ],
-            "pwa:dateModified": "2026-04-26"
+            "pwa:dateModified": "2026-04-26",
+            "description": "The decision tree. 12 common tasks mapped to the right Claude surface."
           }
         },
         {
@@ -3548,7 +3607,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/claude-opus-4-7-review-tutorial-builders"
-            }
+            },
+            "description": "Opus 4.7 Cheat Sheet for AI Learners, Writers, Knowledge Workers, Vibe Coders & System Builders."
           }
         },
         {
@@ -3640,7 +3700,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/product-with-attitude-membership-2026"
-            }
+            },
+            "description": "One year of building in public has turned into a 18K-member AI newsletter community, three products, and discounts that make your Substack paid subscription a no-brainer."
           }
         },
         {
@@ -3845,7 +3906,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/atoms-vs-lovable-vs-replit-ai-builder-2026"
-            }
+            },
+            "description": "A test-driven review of Atoms.dev, the multi-agent AI platform for solo founders. Includes Atoms vs Lovable vs Replit comparison and an SEO/AIO/GEO experiment."
           }
         },
         {
@@ -3935,7 +3997,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/perplexity-computer-save-credits-techniques"
-            }
+            },
+            "description": "How to cut Perplexity Computer credit costs by 50% with thread management, scripting, and tiered automation. Tested workflow patterns for agentic AI builders in 2026."
           }
         },
         {
@@ -4020,7 +4083,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/ai-builder-community-showcase-2026"
-            }
+            },
+            "description": "Showcasing AI builders from the PwA community: speculative art, responsibility tools, drip email automation, and open beta tester calls."
           }
         },
         {
@@ -4218,7 +4282,8 @@
               "Excessive chain-of-thought instructions can hinder performance in reasoning models because they already reason internally.",
               "The framework illustrates cognitive parallels between AI prompt processing and human cognition.",
               "Model-agnostic techniques prioritize structuring thinking over model-specific syntax."
-            ]
+            ],
+            "alternativeHeadline": "19 model-agnostic techniques that change how you think, not just what you type. All tested on one prompt. A prompt engineering framework for 2026."
           }
         },
         {
@@ -4317,7 +4382,8 @@
               "Karo Zieminski emphasizes the importance of safe backlink practices over spammy methods.",
               "The tool requires only three minutes a week to maintain.",
               "Karo Zieminski writes about building with AI and developing critical AI literacy."
-            ]
+            ],
+            "alternativeHeadline": "A trust-based system for building backlinks together. No spam, no SEO tricks, no admin headaches."
           }
         },
         {
@@ -4427,7 +4493,8 @@
               "The strategic message behind the 1 million token limit is important for users.",
               "The article discusses the implications of the new token limit for real workflows.",
               "The article compares Claude with ChatGPT and Gemini at the 1 million token limit."
-            ]
+            ],
+            "alternativeHeadline": "Claude vs ChatGPT vs Gemini at 1M tokens. Context windows, context rot, what this means for us in real workflows, and what it means if you’re considering a switch to Claude."
           }
         },
         {
@@ -4527,7 +4594,8 @@
               "Front-loading specific prompts in Perplexity Computer can reduce the number of decisions the AI needs to make, saving credits.",
               "Monitoring the credit usage dashboard in Perplexity Computer is essential for managing credit consumption effectively.",
               "Tasks that justify the credit burn in Perplexity Computer include building functional web interfaces and creating data pipelines."
-            ]
+            ],
+            "alternativeHeadline": "Learn how to save credits in Perplexity Computer, avoid costly loops, track usage, and use the tool for the workflows that actually justify the burn."
           }
         },
         {
@@ -4645,7 +4713,8 @@
               "The guide covers basics and power user tips that other Cowork tutorials often overlook.",
               "Karo Zieminski is an AI Product Manager and a daily user of Claude Cowork.",
               "The article was published on March 10, 2026."
-            ]
+            ],
+            "alternativeHeadline": "What works, what breaks, and how to make Claude Cowork genuinely useful in 2026."
           }
         },
         {
@@ -4730,7 +4799,8 @@
               "The mission shared by Karo Zieminski and Dr. Sam Illingworth is to help people develop critical AI literacy.",
               "Dr. Sam Illingworth is also the editor of Consilience, a poetry magazine.",
               "Poetry helps Karo Zieminski think clearly about voice, authenticity, and human writing."
-            ]
+            ],
+            "alternativeHeadline": "Build with Attitude #5: How to product-think when AI builds at lightning speed"
           }
         },
         {
@@ -4934,7 +5004,8 @@
               "The article includes top tips for combining connectors and setting permissions.",
               "Karo Zieminski's actual Notion and Cowork setup is detailed in the article.",
               "Connectors allow Claude to access tools such as Gmail, Calendar, Notion, and Figma."
-            ]
+            ],
+            "alternativeHeadline": "How I turned Notion into Claude's persistent memory, and 10+ connector tips most guides skip."
           }
         },
         {
@@ -5178,7 +5249,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/claude-guides-code-cowork-skills-workflows"
-            }
+            },
+            "alternativeHeadline": "Every Claude workflow I've tested and published: Code workflows, Cowork setups, Skills tutorials, CLAUDE.md files. Real prompts, real failures, nothing theoretical."
           }
         },
         {
@@ -5282,7 +5354,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/perplexity-ai-guide-2026"
-            }
+            },
+            "alternativeHeadline": "Tested guides, credit strategies, and workflows for Perplexity Computer, Comet, and Labs."
           }
         },
         {
@@ -5494,7 +5567,8 @@
               "Karo Zieminski has stacked value in Premium membership, making it an obvious choice for subscribers.",
               "The initial discounts page for Premium members has grown beyond a simple list of deals into something much bigger.",
               "Karo Zieminski recognizes AI tool credit fatigue and questions the value of 'free credits' against subscription costs."
-            ]
+            ],
+            "alternativeHeadline": "Your PwA subscription pays for itself in tool discounts and credits."
           }
         },
         {
@@ -5601,7 +5675,8 @@
               "Members of the Product with Attitude community can publish and sell their own products.",
               "The Vault includes AI workflows, coding prompts, and automation templates shared by community members.",
               "StackShelf allows users to list their own products alongside other builders in the community."
-            ]
+            ],
+            "alternativeHeadline": "Access every tool I ship, plus publish and sell your own products alongside the Product with Attitude community."
           }
         },
         {
@@ -5683,7 +5758,8 @@
               "The document provides troubleshooting guidance for the eight most common failure modes in the Claude Cowork system.",
               "The SKILL.md frontmatter syntax is structured using a formula that combines [What it does], [When to use it], and [Specific trigger phrases].",
               "The cheat sheet is based on real-world usage and feedback from a 14,000-subscriber audience, consolidating insights from over 12 published guides."
-            ]
+            ],
+            "alternativeHeadline": "2-page PDF: Claude Cowork Skills file structure, SKILL.md frontmatter, trigger formula, 5 advanced patterns, troubleshooting. Print-ready for builders."
           }
         },
         {
@@ -5788,7 +5864,8 @@
               "Karo Zieminski provides a decision tree and a platform comparison for deployment options in 2026.",
               "According to Karo Zieminski, the platforms compared in this article are Netlify, Vercel, Railway, and Supabase.",
               "Karo Zieminski mentions that the article includes four stack combos by project type."
-            ]
+            ],
+            "alternativeHeadline": "If you’re vibecoding with Cursor, Claude Code, or Perplexity Computer, it’s worth knowing where to deploy."
           }
         },
         {
@@ -6094,7 +6171,8 @@
               "One scratch is allowed per day for three days total.",
               "Every heart in the game is a win.",
               "Karo Zieminski is an AI product manager and builder of StackShelf.app and Attitudevault.dev."
-            ]
+            ],
+            "alternativeHeadline": "🎁 A gift for this community, 3 days to play & win prizes, and what happens when building outpaces writing."
           }
         },
         {
@@ -6212,7 +6290,8 @@
               "The tool stack for a bestselling Substack in 2026 includes AI productivity tools, automation workflows, design systems, and analytics.",
               "It is important to test a variety of tools to find what works best for you.",
               "The tools used for Substack can vary significantly from year to year."
-            ]
+            ],
+            "alternativeHeadline": "AI, automation, productivity & design tools I use."
           }
         },
         {
@@ -6662,7 +6741,8 @@
               "The launch of Claude Cowork represents a significant acceleration in product development.",
               "User behavior can reveal the underlying problems they are trying to solve with tools.",
               "Anthropic engineer Boris Cherny documented the use of Claude Code as a multi-agent orchestrator."
-            ]
+            ],
+            "alternativeHeadline": "The kind of acceleration that should make product leaders nervous."
           }
         },
         {
@@ -6749,7 +6829,8 @@
               "Traditional Google Image Search matched keywords, while AI-powered search reads alt text alongside images and surrounding content to determine meaning.",
               "AI recognizes specific, meaningful entities in alt text, such as 'Substack subscriber growth chart showing 340% increase after viral post.'",
               "If alt text cannot stand on its own and deliver value, it risks not being surfaced as a standalone answer snippet by AI Overviews."
-            ]
+            ],
+            "alternativeHeadline": "How AI overviews changed what your image descriptions need to do. And a Claude Skill that writes them for you."
           }
         },
         {
@@ -6926,7 +7007,8 @@
               "Visual identity is about looking recognizable every time, not just looking good once.",
               "Consistency in visual identity remains a bottleneck despite generative AI.",
               "Using multiple tools can lead to a visual presence that looks like a collage."
-            ]
+            ],
+            "alternativeHeadline": "How to build a recognizable visual identity on Substack with AI tools that help scale consistency"
           }
         },
         {
@@ -7152,7 +7234,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/vibecoding-resources-hub"
-            }
+            },
+            "description": "Vibe coding, AI design, and AI-assisted development resources for building real products."
           }
         },
         {
@@ -7634,7 +7717,8 @@
               "OpenAI made intentional product decisions in ChatGPT 5.2 that prioritize predictable and reliable behavior over flashy capabilities.",
               "Evaluating ChatGPT 5.2 based on how it feels is a misguided approach.",
               "ChatGPT 5.2 outperforms previous versions when used in practical deployment scenarios."
-            ]
+            ],
+            "alternativeHeadline": "Why “it feels worse” is the wrong metric for evaluating GPT-5.2."
           }
         },
         {
@@ -10917,7 +11001,8 @@
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/claude-cowork-self-improving-automation-karpathy-loop-2026"
-            }
+            },
+            "description": "A Karpathy-inspired self-improving loop, rebuilt for Cowork's visual interface. No terminal. No code. Just compounding workflows."
           }
         }
       ],
