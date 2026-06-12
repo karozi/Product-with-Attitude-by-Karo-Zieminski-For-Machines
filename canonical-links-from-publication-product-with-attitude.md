@@ -4,6 +4,25 @@ Last updated: June 2026
 
 ---
 
+## Article: Anthropic Just Split the Frontier in Two
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-fable-5-routing-trap
+
+**Original Publish Date:** June 09, 2026
+
+---
+## Article: Why Your Perplexity Credits Vanish (and How to Make 10K Last)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-pricing-credits-2026
+
+**Original Publish Date:** June 01, 2026
+
+---
+
 ## Article: Claude Skills: Editorial Minimalist UI System
 
 **Author:** Karo Zieminski
