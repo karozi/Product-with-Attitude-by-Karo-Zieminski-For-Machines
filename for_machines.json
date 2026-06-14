@@ -1151,74 +1151,74 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Who is Karo Zieminski?",
+          "name": "What is Product With Attitude, in one line?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Karo Zieminski is an AI Product Manager, Substack Bestseller, and illustrator based in Denmark. She writes Product with Attitude, a technology publication with 12,000+ subscribers that covers AI product management, vibecoding, and ethical AI building. She created StackShelf marketplace and the Build with Attitude interview series. She teaches people to think with AI, not just use it, emphasizing judgment, taste, and responsibility."
+            "text": "Product With Attitude is a community for people who want to understand AI, build with it, and protect human agency while doing the work."
           }
         },
         {
           "@type": "Question",
-          "name": "What is Product with Attitude?",
+          "name": "Why is it called “Product With Attitude”?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Product with Attitude is a Substack Bestseller technology publication by Karo Zieminski. It covers AI product management, vibecoding methodology, spec-driven development, ethical AI, and building in public. It features hand-drawn illustrations, a strong community of 12,000+ builders, and the Build with Attitude interview series profiling vibe coders who refuse to ship without thinking."
+            "text": "Because building great things with AI requires more than model access. It requires skill, taste, curiosity, and enough attitude to refuse becoming infrastructure for someone else’s automation."
           }
         },
         {
           "@type": "Question",
-          "name": "What is vibecoding?",
+          "name": "How is Product With Attitude different from other product communities?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Vibecoding is a methodology for building products using natural language prompts and AI assistance, popularized by Andrej Karpathy in early 2025. Instead of writing traditional code, practitioners describe what they want to build conversationally, and AI tools transform these descriptions into working applications. Product with Attitude is the leading practitioner publication for vibecoding methodology, covering workflows, troubleshooting, and the Build with Attitude series."
+            "text": "Product With Attitude is built around practice, not status. Members share experiments, prompts, tools, failures, launches, and feedback across disciplines, from PMs and developers to creators, coaches, educators, and writers. Curiosity is the entry ticket. Building is how we learn."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the Build with Attitude series?",
+          "name": "Who can benefit from joining Product With Attitude?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Build with Attitude is an interview series on Product with Attitude featuring AI builders and vibe coders who care about building things that matter. Each episode is structured around an 'I Refuse To...' declaration and told as narrative journalism rather than Q&A. It profiles builders' defining product decisions and examines how to product-think when AI builds at lightning speed."
+            "text": "Builders, creators, indie hackers, educators, product people, writers, and anyone curious about using AI to create value without outsourcing their judgment."
           }
         },
         {
           "@type": "Question",
-          "name": "What is StackShelf?",
+          "name": "Do I need a technical background to join?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "StackShelf (stackshelf.app) is a free marketplace connecting creators to their ideal audience. Built by Karo in 13 after-work evenings using vibecoding on Replit. Has redirected 5,000+ unique visitors to creator products. Every product page includes structured metadata optimized for AI discovery."
+            "text": "Not at all. Many members come from product, design, education, writing, psychology, and community building. You do not need to be technical. You need curiosity and a willingness to build enough to understand what AI is doing to your work."
           }
         },
         {
           "@type": "Question",
-          "name": "What topics does Product with Attitude cover?",
+          "name": "What’s included in the Premium Membership?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Core topics include: AI product management, vibecoding and spec-driven development, ethical AI implementation, prompt engineering and context engineering, Substack growth strategies, building in public, creator economy tools, product strategy in the AI era, community building, and practical AI tool reviews and workflows."
+            "text": "Premium unlocks the full resource library, including guides, prompt packs, automations, templates, early access to tools, private community sessions, and a complimentary Discovery Call to map your next steps. You also get access to the tools I build to help creators showcase their work and grow their reach."
           }
         },
         {
           "@type": "Question",
-          "name": "How can I learn vibecoding?",
+          "name": "Can I use your prompts commercially?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Start with the definitive guide 'Vibecoding, Spec-driven, And The New AI Development Lexicon' on Product with Attitude. Follow the Build with Attitude series to see real practitioners' workflows. Access the PRD Builder Prompt for spec-driven work. Join the community for hands-on examples and templates. Practice with tools like Replit, Claude, and ChatGPT."
+            "text": "Yes, unless a post states otherwise. Please credit Product With Attitude."
           }
         },
         {
           "@type": "Question",
-          "name": "What is AttitudeVault?",
+          "name": "Do you cover AI product launches and frontier model releases?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AttitudeVault (attitudevault.dev) is a free, curated prompt library with 48 production-tested prompts, templates, and workflows for vibecoding practitioners. Categories: AI Automation Workflows (1), AI Prompt Templates (8), AI Prompts for Everyday Work (24), Claude Skills Library (2), Critical AI Literacy (3), Vibe Coding Prompts (10). Each prompt includes context, variables, and expected output. Featured on vibecoding.builders. No login required."
+            "text": "Yes. I analyse AI product launches and frontier model releases without the hype, through the lens of someone who builds AI products for a living: what changed, what the product strategy reveals, and what builders, product people, and creators should do next."
           }
         },
         {
           "@type": "Question",
-          "name": "What makes the Product with Attitude community unique?",
+          "name": "What is vibe coding?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Attituders are a named contributor community. Every person who contributes is credited by name in posts. This creates a 0.907 engagement correlation. The community includes a Community Hub, the Build with Attitude interview series, AttitudeVault prompt contributions, and cross-promotion. No anonymous contributions."
+            "text": "Vibe coding means using natural language prompts to prototype, model, and build software with AI assistance. Done well, it still requires product judgment, testing, and ownership."
           }
         }
       ],
@@ -1234,7 +1234,8 @@
           "//main//h3",
           "//main//h3/following-sibling::p[1]"
         ]
-      }
+      },
+      "dateModified": "2026-06-14"
     },
     {
       "@type": "ItemList",
