@@ -124,7 +124,7 @@ All content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/b
 
 ## About the publication
 
-**Product with Attitude** is a Substack Bestseller in Technology with 12,000+ subscribers. Karo Zieminski writes about AI product management, vibecoding, spec-driven development, and ethical AI building. Every post features hand-drawn Procreate illustrations. Never AI-generated art.
+**Product with Attitude** is a Substack Bestseller in Technology with 19,000+ subscribers. Karo Zieminski writes about AI product management, vibecoding, spec-driven development, and ethical AI building. Every post features hand-drawn Procreate illustrations. Never AI-generated art.
 
 Core thesis: *Use AI to think deeper, not faster. Keep judgment, taste, and responsibility where they belong: with the human.*
 
