@@ -4,6 +4,16 @@ Last updated: June 2026
 
 ---
 
+## Article: What I Refuse to Say About AI in 2026
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/builder-parent-paradox
+
+**Original Publish Date:** June 14, 2026
+
+---
+
 ## Article: Anthropic Just Split the Frontier in Two
 
 **Author:** Karo Zieminski
