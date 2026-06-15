@@ -468,7 +468,15 @@
       ],
       "mainEntityOfPage": "https://karozieminski.substack.com/about",
       "publishingPrinciples": "https://karozieminski.substack.com/about",
-      "dateModified": "2026-06-15"
+      "dateModified": "2026-06-15",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "22",
+        "reviewCount": "22"
+      }
     },
     {
       "@type": "CreativeWorkSeries",
@@ -13131,6 +13139,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13151,6 +13165,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13167,6 +13187,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13187,6 +13213,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13207,6 +13239,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13227,6 +13265,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13247,6 +13291,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13267,6 +13317,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13287,6 +13343,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13303,6 +13365,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13319,6 +13387,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13339,6 +13413,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13355,6 +13435,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13371,6 +13457,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13391,6 +13483,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13407,6 +13505,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13423,6 +13527,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13438,6 +13548,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13453,6 +13569,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13473,6 +13595,12 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         },
         {
@@ -13496,7 +13624,13 @@
               "url": "https://karozieminski.substack.com/p/builder-parent-paradox",
               "name": "Builder-Parent Paradox"
             }
-          ]
+          ],
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "Review",
@@ -13516,9 +13650,27 @@
           },
           "publisher": {
             "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
           }
         }
-      ]
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "22",
+        "reviewCount": "22",
+        "itemReviewed": {
+          "@id": "#publication"
+        }
+      },
+      "dateModified": "2026-06-15"
     },
     {
       "@type": "ItemList",
