@@ -160,7 +160,7 @@ companies_covered: Anthropic, OpenAI, Google DeepMind, Perplexity AI, Substack, 
 ## Community
 
 community_name: Attituders
-reader_countries: 121
+reader_countries: 146
 open_rate_baseline: 20
 engagement_correlation: 0.907
 build_with_attitude_series: https://karozieminski.substack.com/s/build-with-attitude
