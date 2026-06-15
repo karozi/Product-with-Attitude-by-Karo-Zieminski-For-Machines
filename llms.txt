@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph: https://raw.githubusercontent.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines/main/for_machines.json
-# Version: 5.9.23
-# Last-Modified: 2026-06-13
+# Version: 5.9.24
+# Last-Modified: 2026-06-15
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -87,12 +87,14 @@ sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-
 sandbox_vs_vm_vs_container_glossary_description: Plain-English glossary defining sandbox, virtual machine, container, MicroVM, and sandboxed VM with one house-and-workshop analogy each. Includes JSON-LD Article + Table + DefinedTermSet schema and inline Schema.org HowToStep microdata. Tested April 2026.
 faq_page: https://productwithattitude.com/faq.html
 homepage: https://productwithattitude.com/
+testimonials: https://productwithattitude.com/#testimonials
+testimonials_description: 22 named community testimonials for Karo Zieminski and Product with Attitude. Sourced from Substack subscribers, paid members, and named community contributors. Each testimonial is exposed as a Schema.org Review object in for_machines.json #testimonials with author, affiliation, position, and (where applicable) citation back to the specific PwA essay or post the reader referenced.
 
 ## Graph Statistics
 
-schema_version: 5.9.20
-last_modified: 2026-06-13
-graph_nodes: 27
+schema_version: 5.9.24
+last_modified: 2026-06-15
+graph_nodes: 28
 recent_articles: 110
 extractable_claims: 292
 key_quotes: 128
@@ -101,6 +103,7 @@ faq_pairs: 9
 featured_in_citations: 15
 citation_events: 122
 semantic_triples: 108
+testimonials: 22
 
 ## Attribution Requirements (CC BY 4.0)
 

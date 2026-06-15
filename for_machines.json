@@ -13053,6 +13053,422 @@
     },
     {
       "@type": "ItemList",
+      "@id": "#testimonials",
+      "name": "Community Testimonials",
+      "description": "Reader and community testimonials for Karo Zieminski and Product with Attitude. Sourced from Substack subscribers, paid members, and named community contributors. All testimonials displayed live on productwithattitude.com/#testimonials.",
+      "url": "https://productwithattitude.com/#testimonials",
+      "numberOfItems": 22,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "Review",
+          "position": 1,
+          "reviewBody": "The best AI & Product content on Substack!",
+          "author": {
+            "@type": "Person",
+            "name": "Kacper Wojaczek",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Scramble IT",
+              "url": "https://scrambleit.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 2,
+          "reviewBody": "Such great writing and product sense from Karo.",
+          "author": {
+            "@type": "Person",
+            "name": "Mike Goitein",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Product Strategy Decoded",
+              "url": "https://michaelgoitein.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 3,
+          "reviewBody": "I pay $200/month for Claude, and $20 for ChatGPT. PwA costs less than any of those and is the reason the other two are worth the money. The prompts, workflows and the logic behind them saved me more credits than a month of experimenting on my own.",
+          "author": {
+            "@type": "Person",
+            "name": "Zeke Blackwood",
+            "url": "https://substack.com/@zekeblackwood"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 4,
+          "reviewBody": "Joining PwA didn't just give me a community, it gave me traction. Karo has a rare ability to connect the right people at the right moment. Since joining, she's introduced me to an SEO specialist who validated my entire product homepage, and a visual branding expert who helped me build a consistent AI-generated avatar for my personal brand. That kind of curated network is hard to find. PwA accelerated things I would have figured out alone — eventually.",
+          "author": {
+            "@type": "Person",
+            "name": "Daniel Rusnok",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Substack",
+              "url": "https://danielrusnok.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 5,
+          "reviewBody": "Joining Product with Attitude was the moment I stopped just critiquing AI and started building with it. Karo's real gift is making the leap from critique to construction feel obvious rather than intimidating. She is a rare kind of community leader: a champion of voices that don't usually get the mic, and an educator who teaches by gathering people instead of performing at them. Slow AI is sharper for it.",
+          "author": {
+            "@type": "Person",
+            "name": "Dr Sam Illingworth",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Slow AI",
+              "url": "https://theslowai.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 6,
+          "reviewBody": "Karo has a unique approach to product creation, one that's very rare to find, and I've searched a lot! Must join if you're into product design!",
+          "author": {
+            "@type": "Person",
+            "name": "Yana G.Y.",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Unplugged",
+              "url": "https://www.yana-g-y.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 7,
+          "reviewBody": "Joining PwA turned building from a solo hobby into a high stakes sport. Through this community, I found the visibility to launch DraftKit and stopped wasting time on the performance of product management. It is more than just networking. We are unifying our voices. Exchanging ideas with you and other builders, especially during the AI Advent Challenge, has been a massive force multiplier. We feed and grow each other's minds and builds in a way that just does not happen in corporate silos. If you want to find the people who actually understand the why behind the system and move at the speed of the frontier, this is the room.",
+          "author": {
+            "@type": "Person",
+            "name": "Elena Calvillo",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Prompt-Led Product",
+              "url": "https://promptledproduct.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 8,
+          "reviewBody": "Karo welcomed me when I was fairly new to Substack and had no credibility on the platform. She builds her community truly with passion, made time to offer opportunities to connect with builders, highlighted me in her different series that helped me with visibility and exposure. What surprised me more was the mentorship. She would reply to my DMs and open to discuss things I was missing. She pointed me in a better direction. The difference in how I think about my own publications is already showing with that direction. Product with Attitude isn't just a newsletter. It's a community Karo actively builds, and I'm lucky to be in it.",
+          "author": {
+            "@type": "Person",
+            "name": "Dheeraj Sharma",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "GenAI Unplugged",
+              "url": "https://genaiunplugged.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 9,
+          "reviewBody": "Karo is an exceptional writer and an engager par excellence.",
+          "author": {
+            "@type": "Person",
+            "name": "Paul Chaney",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "AI Workplace Wellness",
+              "url": "https://aiworkplacewellness.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 10,
+          "reviewBody": "I found your work to be the most interesting on Substack because you actually build and showcase. Would be rad to get the chance to share notes one day. Appreciate what you're building here.",
+          "author": {
+            "@type": "Person",
+            "name": "Steve Howell",
+            "url": "https://substack.com/@stevehowell"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 11,
+          "reviewBody": "Karo writes about AI product in a way that's rare: she doesn't just explain tools, she builds critical thinking around them. Her framework for AI literacy is a must-read.",
+          "author": {
+            "@type": "Person",
+            "name": "hohoda",
+            "url": "https://hohoda.substack.com/"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 12,
+          "reviewBody": "One of the most genuine, insightful voices in the AI product space. Karo's perspective cuts through the noise — her newsletter is one of the few I actually look forward to reading.",
+          "author": {
+            "@type": "Person",
+            "name": "James",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Perfectly Digital",
+              "url": "https://perfectlydigital.net"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 13,
+          "reviewBody": "Karo writes like a builder who actually ships. No fluff, no filler — just real insights from someone deep in the trenches of AI product work. Rare find on Substack.",
+          "author": {
+            "@type": "Person",
+            "name": "Blake O.",
+            "url": "https://substack.com/@blakeo1"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 14,
+          "reviewBody": "I read a lot of AI newsletters. Most repeat the same takes. Karo is the reason I got here. Her heart is as strong as her builder attitude. She's the perfect person to learn all the tricks of building products with AI from.",
+          "author": {
+            "@type": "Person",
+            "name": "AI Meets Girlboss",
+            "url": "https://aimeetsgirlboss.substack.com/"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 15,
+          "reviewBody": "I honestly love the breakdowns, the cross-collab posts, and the community and conversations. The content is top notch, the attitude exactly what I think we need to see more of in 2026, and the author's just an awesome person and passionate about AI.",
+          "author": {
+            "@type": "Person",
+            "name": "Ahad Amdani",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "G8N AI",
+              "url": "https://www.g8n.ai/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 16,
+          "reviewBody": "I was bookmarking AI articles I never read and feeling more behind every week. Two months in, I was the person our team came to with AI questions.",
+          "author": {
+            "@type": "Person",
+            "name": "Ewa",
+            "url": "https://substack.com/@olaewa"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 17,
+          "reviewBody": "I was “using AI” for eight months and shipped nothing. Three weeks in, I had my first working agent running on my own data.",
+          "author": {
+            "@type": "Person",
+            "name": "Tobias",
+            "url": "https://substack.com/@tobiassoerensen"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 18,
+          "reviewBody": "Other AI spaces are either intimidatingly technical or surface-level cheerleading. PwA's comments section is full of people who are building real things, sharing what broke, and helping each other fix it. I've gotten more useful feedback on my landing page from PwA members than from three months of posting in build-in-public communities.",
+          "author": {
+            "@type": "Person",
+            "name": "GPT Beast"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 19,
+          "reviewBody": "I build in private because I'm an introvert. PwA feels like it was written for people like me. I've been a paid subscriber for 8 mo and I've never commented. But I've used something from every single issue.",
+          "author": {
+            "@type": "Person",
+            "name": "Dimitrius P."
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 20,
+          "reviewBody": "Been reading Karo's articles for a few months now, she really offers a highly practical, no-fluff perspective on context engineering and building with AI agents that helps transition from just using tools to designing advanced, native workflows.",
+          "author": {
+            "@type": "Person",
+            "name": "Jason Tan",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Behind the Scenes",
+              "url": "https://jpctan.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 21,
+          "reviewBody": "Karo helped me understand that critical AI literacy is not about being anti-AI. It’s about staying responsible while using it. I recommend everyone read her Builder-Parent Paradox essay.",
+          "author": {
+            "@type": "Person",
+            "name": "Homik",
+            "url": "https://substack.com/@homik"
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          },
+          "citation": [
+            {
+              "@type": "CreativeWork",
+              "url": "https://karozieminski.substack.com/p/builder-parent-paradox",
+              "name": "Builder-Parent Paradox"
+            }
+          ]
+        },
+        {
+          "@type": "Review",
+          "position": 22,
+          "reviewBody": "Tris Hussey invited me here. First week in, I got to watch builders in their natural habitat. Karo's community gives back. The chat is alive. People are actually shipping things and talking about the real stuff underneath the polished version. Karo had built something I hadn't seen in a long time: a room where the welcome is genuine and the help is faster than you expect. I found my voice again in here. Found my purpose. Found ECHO. If you're building something and you're not in this community, you're missing the part that makes building not feel lonely.",
+          "author": {
+            "@type": "Person",
+            "name": "Jeremy Wright",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "The ECHO Files",
+              "url": "https://echofiles.substack.com/"
+            }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
       "@id": "#featured-in",
       "name": "Featured In & External Recognition",
       "description": "Publications, directories, and platforms that have featured or recognized Product with Attitude and Karo Zieminski.",
