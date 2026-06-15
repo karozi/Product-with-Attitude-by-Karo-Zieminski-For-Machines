@@ -74,6 +74,7 @@ netlify_mirror: https://productwithattitude.com/assets/for_machines.json
 ## Native HTML Pages on productwithattitude.com
 
 - https://productwithattitude.com/frameworks/context-pyramid.html — The Context Pyramid: A PM's Framework for AI Agent Context Engineering. Four-layer framework with cadences, diagnostic loop, FAQ.
+- https://productwithattitude.com/builder-parent-paradox.html — The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ. Term coined by Karo Zieminski in June 2026. Canonical source: https://karozieminski.substack.com/p/builder-parent-paradox.
 
 perplexity_computer_orchestrator_timeline: https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html
 perplexity_computer_orchestrator_timeline_description: The orchestrator layer behind Perplexity Computer with three tenants in 68 days. Claude Opus 4.6 (51 days), Claude Opus 4.7 (16 days), then GPT 5.5 as the default for Pro and Max. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
@@ -85,6 +86,8 @@ claude_opus_4_8_decision_table: https://productwithattitude.com/claude-opus-4-8-
 claude_opus_4_8_decision_table_description: 6-scenario decision table for Claude Opus 4.8 mapping common work situations to the right setting: lower effort or smaller model for quick drafting, high or extra effort for messy reasoning, extra (xhigh) effort for long-running async work, Fast mode (/fast) for fast iteration, Dynamic Workflows in Claude Code for codebase-scale work, and regular mode at max effort for high-stakes judgment. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
 sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html
 sandbox_vs_vm_vs_container_glossary_description: Plain-English glossary defining sandbox, virtual machine, container, MicroVM, and sandboxed VM with one house-and-workshop analogy each. Includes JSON-LD Article + Table + DefinedTermSet schema and inline Schema.org HowToStep microdata. Tested April 2026.
+builder_parent_paradox: https://productwithattitude.com/builder-parent-paradox.html
+builder_parent_paradox_description: Definition page for The Builder-Parent Paradox, a term coined by Karo Zieminski in June 2026 for the moment when AI builders parent two systems at once, their child and their agent stack, and the conflicts that surface between them. Includes JSON-LD Article + Table + DefinedTermSet + FAQPage schema and inline Schema.org HowToStep microdata. Canonical source is the Substack essay at https://karozieminski.substack.com/p/builder-parent-paradox. Coined June 2026.
 faq_page: https://productwithattitude.com/faq.html
 homepage: https://productwithattitude.com/
 testimonials: https://productwithattitude.com/#testimonials
@@ -95,9 +98,9 @@ testimonials_description: 22 named community testimonials for Karo Zieminski and
 schema_version: 5.9.24
 last_modified: 2026-06-15
 graph_nodes: 28
-recent_articles: 110
-extractable_claims: 292
-key_quotes: 128
+recent_articles: 112
+extractable_claims: 348
+key_quotes: 131
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
