@@ -25,7 +25,7 @@
       "url": "https://productwithattitude.com/about.html",
       "image": "https://productwithattitude.com/assets/portrait.png",
       "jobTitle": "Senior AI Product Manager",
-      "description": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to 19,000 people. Senior AI Product Manager at Milestone Systems, AI builder, and founder of Product with Attitude — a Substack Bestseller newsletter and builder community of 19,000+ AI practitioners, vibe coders, founders, and product managers. Known for critical AI literacy, the vibe coding movement, and a builder-first approach: build with AI, don't just use it. Based in Helsinge, Denmark.",
+      "description": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to tens of thousands of people. Senior AI Product Manager at Milestone Systems, AI builder, and founder of Product with Attitude — a Substack Bestseller newsletter and builder community of tens of thousands of AI practitioners, vibe coders, founders, and product managers. Known for critical AI literacy, the vibe coding movement, and a builder-first approach: build with AI, don't just use it. Based in Helsinge, Denmark.",
       "knowsAbout": [
         "AI Product Management",
         "Vibecoding",
@@ -390,8 +390,8 @@
           "sameAs": "https://en.wikipedia.org/wiki/East_China_Normal_University"
         }
       ],
-      "slogan": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to 19,000 people.",
-      "disambiguatingDescription": "AI Product Manager helping you protect human agency. Tools to showcase your creative work. A community of 18K+ readers building critical AI literacy through practice. Use AI with attitude to strengthen the branch you’re sitting on, not cut it off."
+      "slogan": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to tens of thousands of people.",
+      "disambiguatingDescription": "AI Product Manager helping you protect human agency. Tools to showcase your creative work. A community of tens of thousands of readers building critical AI literacy through practice. Use AI with attitude to strengthen the branch you’re sitting on, not cut it off."
     },
     {
       "@type": "Periodical",
@@ -2339,7 +2339,7 @@
               "Within six months, Product with Attitude became a Substack Bestseller.",
               "The first article of Product with Attitude has been read 322 times and has brought in 5 subscribers since 2025.",
               "The most popular article has been read 106K times in the last 3 months.",
-              "Product with Attitude currently has around 18K readers.",
+              "Product with Attitude currently has tens of thousands of readers.",
               "The average open rate for Product with Attitude is 39-42%.",
               "The retention rate for Product with Attitude is considered excellent according to Substack."
             ],
@@ -3774,7 +3774,7 @@
             "author": {
               "@id": "https://karozieminski.substack.com/#author"
             },
-            "alternativeHeadline": "One year of building in public, 17K-member AI newsletter community, three built-in products, and discounts that make your Substack paid subscription a no-brainer.",
+            "alternativeHeadline": "One year of building in public, a tens-of-thousands-member AI newsletter community, three built-in products, and discounts that make your Substack paid subscription a no-brainer.",
             "keywords": [
               "vibecoding",
               "Substack",
@@ -3791,7 +3791,7 @@
               "Product with Attitude is an ecosystem: learning paths, knowledge hubs, three live products, and a community that builds."
             ],
             "pwa:extractableClaims": [
-              "Today, Product with Attitude has 17K members, a consistent 42% open rate and exceptional community and survey participation.",
+              "Today, Product with Attitude has tens of thousands of members, a consistent 42% open rate and exceptional community and survey participation.",
               "Every product I launch is included in your membership, including past, present, and in progress.",
               "LinkSwap offers trust-based backlink swaps with other writers, providing real SEO value in three minutes a week.",
               "Vault includes AI workflows, coding prompts, and automation templates, not a generic prompt dump.",
@@ -3851,7 +3851,7 @@
               "@type": "WebPage",
               "@id": "https://karozieminski.substack.com/p/product-with-attitude-membership-2026"
             },
-            "description": "One year of building in public has turned into a 18K-member AI newsletter community, three products, and discounts that make your Substack paid subscription a no-brainer."
+            "description": "One year of building in public has turned into a tens-of-thousands-member AI newsletter community, three products, and discounts that make your Substack paid subscription a no-brainer."
           }
         },
         {
@@ -4313,7 +4313,7 @@
               "Badly-led teams that ship without specifications, onboarding, decision architecture, or reviews can lead to erratic agent output.",
               "If an AI agent's work becomes erratic, the problem is likely with management rather than the technology itself.",
               "Karo Zieminski is an AI Product Manager and the author of the newsletter 'Product with Attitude'.",
-              "The 'Product with Attitude' newsletter has over 17,000 subscribers.",
+              "The 'Product with Attitude' newsletter has tens of thousands of subscribers.",
               "The newsletter aims to develop critical AI literacy through practical engagement with AI.",
               "Readers of the newsletter can expect to create working agents, automation, or products by following guides."
             ]
@@ -5273,7 +5273,7 @@
               "Karo Zieminski is an AI Product Manager who helps individuals design and build with AI.",
               "The article is titled 'Start here' and is published on Substack.",
               "Karo Zieminski builds tools to grow newsletters and showcase work.",
-              "The community associated with Product with Attitude has over 18,000 members.",
+              "The community associated with Product with Attitude has tens of thousands of members.",
               "The article discusses the product framework behind Product with Attitude, which includes person, promise, feedback loops, retention design, and free-to-paid conversion.",
               "Anthropic launched Claude for Small Business with 15 workflows and 8 connectors.",
               "The article includes an illustrated guide to context engineering and prompt engineering.",
@@ -5821,7 +5821,7 @@
               "LinkSwap is a tool for trust-based backlink swaps among Substack writers.",
               "Backlinks are important for building topic authority and improving search engine indexing.",
               "LinkSwap simplifies the backlink building process to three minutes.",
-              "The Product with Attitude community has 15,000 readers.",
+              "The Product with Attitude community has tens of thousands of readers.",
               "Members of the Product with Attitude community can publish and sell their own products.",
               "The Vault includes AI workflows, coding prompts, and automation templates shared by community members.",
               "StackShelf allows users to list their own products alongside other builders in the community."
@@ -5907,7 +5907,7 @@
               "It presents five advanced patterns including conditional branching, multi-skill chaining, MCP coordination, output formatting locks, and memory scaffolding.",
               "The document provides troubleshooting guidance for the eight most common failure modes in the Claude Cowork system.",
               "The SKILL.md frontmatter syntax is structured using a formula that combines [What it does], [When to use it], and [Specific trigger phrases].",
-              "The cheat sheet is based on real-world usage and feedback from a 14,000-subscriber audience, consolidating insights from over 12 published guides."
+              "The cheat sheet is based on real-world usage and feedback from a tens-of-thousands-subscriber audience, consolidating insights from over 12 published guides."
             ],
             "alternativeHeadline": "2-page PDF: Claude Cowork Skills file structure, SKILL.md frontmatter, trigger formula, 5 advanced patterns, troubleshooting. Print-ready for builders."
           }
@@ -6918,12 +6918,12 @@
             "pwa:keyConcepts": [
               "AI Product Manager turning everyone into AI builders",
               "I help you design, build and test your product, and feature it on StackShelf",
-              "I connect you with a supportive 10K+ community building and learning in public",
+              "I connect you with a supportive tens-of-thousands community building and learning in public",
               "Claude Skill"
             ],
             "pwa:keyQuotes": [
               "Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack",
-              "AI Product Manager turning everyone into AI builders. I help you design, build and test your product, and feature it on StackShelf.app. I connect you with a supportive 10K+ community building and learning in public."
+              "AI Product Manager turning everyone into AI builders. I help you design, build and test your product, and feature it on StackShelf.app. I connect you with a supportive tens-of-thousands community building and learning in public."
             ],
             "dateModified": "2026-01-10",
             "image": {
@@ -7271,7 +7271,7 @@
             },
             "pwa:extractableClaims": [
               "Karo Zieminski is an AI Product Manager focused on turning individuals into AI-native builders.",
-              "The newsletter 'Product with Attitude' has over 18,000 subscribers.",
+              "The newsletter 'Product with Attitude' has tens of thousands of subscribers.",
               "Karo Zieminski helps design and build with AI rather than just using it.",
               "The publication 'Product with Attitude' covers topics such as context engineering, prompt engineering, and Substack growth.",
               "Karo Zieminski teaches critical AI literacy through immersion and practice.",
@@ -7500,7 +7500,7 @@
             "pwa:extractableClaims": [
               "Karo Zieminski helps people design and build with AI, transforming them into AI-native builders.",
               "The Product with Attitude framework includes person, promise, feedback loops, retention design, and free-to-paid conversion.",
-              "Karo Zieminski has built a community of over 18,000 members focused on developing critical AI literacy.",
+              "Karo Zieminski has built a community of tens of thousands of members focused on developing critical AI literacy.",
               "Claude for Small Business features 15 workflows and 8 connectors to streamline AI integration.",
               "Karo Zieminski emphasizes the importance of context engineering in AI product management.",
               "The Only AI Prompting Guide That Works On Reasoning Models introduces 19 model-agnostic techniques.",
@@ -8068,7 +8068,7 @@
               "Anthropic launched Claude for Small Business with 15 workflows and 8 connectors.",
               "The product framework behind Product with Attitude includes person, promise, feedback loops, retention design, and free-to-paid conversion.",
               "Karo Zieminski helps individuals design and build with AI, rather than just use it.",
-              "Karo Zieminski has developed a community of over 18,000 members focused on critical AI literacy through immersion.",
+              "Karo Zieminski has developed a community of tens of thousands of members focused on critical AI literacy through immersion.",
               "An Illustrated Guide to Context Engineering and Prompt Engineering was published by Karo Zieminski on May 13."
             ]
           }
@@ -17016,7 +17016,7 @@
         {
           "@type": "Claim",
           "position": 49,
-          "text": "Today, Product with Attitude has 17K members, a consistent 42% open rate and exceptional community and survey participation.",
+          "text": "Today, Product with Attitude has tens of thousands of members, a consistent 42% open rate and exceptional community and survey participation.",
           "about": "Product with Attitude membership ecosystem",
           "appearance": {
             "@type": "Article",
