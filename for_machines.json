@@ -25715,10 +25715,109 @@
               "engagement": "18 likes, 20 comments, 9 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 123,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "She Writes AI LinkedIn digest June 14 2026 features Karo Zieminski",
+            "description": "She Writes AI's weekly LinkedIn digest for June 14, 2026 covering 378 articles across 237 newsletters from the community names Karo Zieminski explicitly as one of 10 featured article authors of the week. First citation from the She Writes AI brand on LinkedIn (after 4 prior Substack digest citations from Karen Smiley's SheWritesAI). Cross-platform amplification of the existing recurring SheWritesAI citation pattern.",
+            "url": "https://www.linkedin.com/posts/shewritesai-digest-for-june-14-2026-6-collaborations-share-7471805622003511297-DOT7/",
+            "datePublished": "2026-06-14",
+            "author": {
+              "@type": "Organization",
+              "name": "She Writes AI",
+              "url": "https://www.linkedin.com/company/she-writes-ai"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Weekly community digest naming Karo as a featured author",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "10 featured articles by: Jasmine Sun, Karen Marie Frederiksen, Karen Spinner, Sari Azout, Jennifer Hong, Maggie Vale, Melanie Mitchell, Maria-Cristina Muntean, Karo Zieminski, Christina Pagel",
+              "citation_type": "curated_digest",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_link",
+              "engagement": "21 likes, 0 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 124,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Beejoli S. Substack Pulse dashboard features Karo Zieminski as top priority Tier 1 writer",
+            "description": "Beejoli S. (Comms & AI practitioner) built a Substack Pulse dashboard in Perplexity Computer that monitors Substack writers in her space. Karo Zieminski and Product with Attitude appear prominently in two dashboard screenshots embedded in the post: featured as the top 'Hot this week' priority card AND as a Tier 1 'Engage now' writer with ~28-29K combined cross-platform reach. The Palantir tearsheet vs. Bloomberg terminal post is quoted as the strongest Finance Computer endorsement of the quarter. Karo commented to acknowledge.",
+            "url": "https://www.linkedin.com/posts/beejoli_comms-ai-task-of-the-weeksubstack-ugcPost-7462615543468941312-2KnC/",
+            "datePublished": "2026-05-19",
+            "author": {
+              "@type": "Person",
+              "name": "Beejoli S.",
+              "url": "https://www.linkedin.com/in/beejoli"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Tier 1 priority feature in third-party Substack monitoring dashboard (image-embedded)",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "Karo Zieminski (Product with Attitude) — Hot This Week / Top Priority. Palantir tearsheet generated in Computer in 7 minutes vs. $32k/year Bloomberg terminal. Strongest organic Finance Computer endorsement of the quarter.",
+              "citation_type": "linkedin_post",
+              "platform": "LinkedIn",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "72 likes, 9 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 125,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Sejal Asnani LinkedIn post breaks down Karo Zieminski's Builder-Parent Paradox",
+            "description": "Sejal Asnani writes a long-form LinkedIn breakdown of Karo Zieminski's Builder-Parent Paradox article, quoting the key idea 'Inside access gives you responsibility, not certainty' and surfacing the article's argument about critical AI literacy outpacing tool mastery. Karo's name is hyperlinked to her LinkedIn profile and the post links out to her article. High-engagement long-form LinkedIn post (123 likes, 24 comments).",
+            "url": "https://www.linkedin.com/posts/sejal-asnani-148216236_ai-artificialintelligence-productmanagement-share-7472416266016702465-E49T/",
+            "datePublished": "2026-06-16",
+            "author": {
+              "@type": "Person",
+              "name": "Sejal Asnani",
+              "url": "https://in.linkedin.com/in/sejal-asnani-148216236"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Long-form LinkedIn breakdown of the Builder-Parent Paradox article",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "The Builder-Parent Paradox",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "I recently came across an article by AI Product Manager Karo Zieminski that introduces something called the Builder-Parent Paradox. Inside access gives you responsibility, not certainty. That line really stayed with me.",
+              "citation_type": "linkedin_post",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_link",
+              "engagement": "123 likes, 24 comments"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.24",
-  "dateModified": "2026-06-15"
+  "schemaVersion": "5.9.25",
+  "dateModified": "2026-06-18"
 }
