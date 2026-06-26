@@ -4,6 +4,25 @@ Last updated: June 2026
 
 ---
 
+## Article: So, Are You Really Vibe Coding? The 2026 Definition, Lexicon, and Decision Framework
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon
+
+**Original Publish Date:** June 26, 2026
+
+---
+## Article: The Pre-Build Interrogation Prompt
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/pre-build-interrogation-prompt
+
+**Original Publish Date:** June 26, 2026
+
+---
+
 ## Article: What I Refuse to Say About AI in 2026
 
 **Author:** Karo Zieminski
