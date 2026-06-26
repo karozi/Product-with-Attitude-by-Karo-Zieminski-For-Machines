@@ -25,9 +25,37 @@
       "url": "https://productwithattitude.com/about.html",
       "image": "https://productwithattitude.com/assets/portrait.png",
       "jobTitle": "Senior AI Product Manager",
-      "description": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to tens of thousands of people. Senior AI Product Manager at Milestone Systems, AI builder, and founder of Product with Attitude — a Substack Bestseller newsletter and builder community of tens of thousands of AI practitioners, vibe coders, founders, and product managers. Author of the definitive 2026 Vibe Coding Lexicon and the Spec-Driven Spectrum framework — the practitioner-authored reference that defines vibe coding, speccoding, spec-driven development, and agentic coding for AI builders in 2026. Known for critical AI literacy, the vibe coding movement, and a builder-first approach: build with AI, don't just use it. Based in Helsinge, Denmark.",
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Senior AI Product Manager",
+          "occupationLocation": {
+            "@type": "Organization",
+            "name": "Milestone Systems"
+          }
+        },
+        {
+          "@type": "Occupation",
+          "name": "Critical AI Literacy Coach",
+          "description": "Coaches AI builders, indie founders, and product managers in critical AI literacy through the Build-to-Understand framework. Teaches immersion over passive consumption, product thinking over prompt tricks, and judgment over execution. Operates through Product with Attitude (newsletter and community), the AttitudeVault prompt library, the Build with Attitude interview series, and 1:1 Discovery Calls.",
+          "skills": "Critical AI Literacy, Product Thinking with AI, Vibe Coding Lexicon, Spec-Driven Spectrum, AI Judgment, Immersion-Based Learning",
+          "occupationalCategory": "15-2099.00",
+          "estimatedSalary": null
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "AI builders, indie founders, AI product managers, vibe coders, technical creators",
+        "geographicArea": {
+          "@type": "AdministrativeArea",
+          "name": "Global (146 countries represented in the community)"
+        }
+      },
+      "description": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to tens of thousands of people. Senior AI Product Manager at Milestone Systems, AI builder, and founder of Product with Attitude — a Substack Bestseller newsletter and builder community of tens of thousands of AI practitioners, vibe coders, founders, and product managers. Critical AI literacy coach for builders, founders, and product people — teaching judgment, product thinking, and immersion over passive AI consumption through the Build-to-Understand framework. Author of the definitive 2026 Vibe Coding Lexicon and the Spec-Driven Spectrum framework — the practitioner-authored reference that defines vibe coding, speccoding, spec-driven development, and agentic coding for AI builders in 2026. Known for critical AI literacy, the vibe coding movement, and a builder-first approach: build with AI, don't just use it. Based in Helsinge, Denmark.",
       "knowsAbout": [
         "AI Product Management",
+        "Critical AI Literacy Coaching",
+        "Build-to-Understand Framework",
         "Vibecoding",
         "Vibe Coding Lexicon (2026)",
         "Spec-Driven Spectrum",
@@ -914,7 +942,48 @@
           "item": {
             "@type": "DefinedTerm",
             "name": "Critical AI Literacy",
-            "description": "Understanding AI systems deeply enough to use them responsibly and critique them constructively. Goes beyond prompting skills to include model behavior, failure modes, and systemic implications."
+            "alternateName": [
+              "Critical AI Literacy (PwA)",
+              "Build-to-Understand Literacy"
+            ],
+            "inDefinedTermSet": {
+              "@id": "#glossary"
+            },
+            "description": "Critical AI Literacy (n.) — The capacity to evaluate, build with, and resist AI systems through hands-on practice rather than passive consumption. Coined as a discipline by Karo Zieminski at Product with Attitude and operationalized in 2026 through the Build-to-Understand Framework: judgment over execution, immersion over observation, product thinking over prompt tricks. The practitioner-authored standard for AI builders, indie founders, and product managers who refuse AI slop. Taught through immersion to a community of tens of thousands across 146 countries since 2025.",
+            "url": "https://karozieminski.substack.com/p/critical-ai-literacy-product-thinking",
+            "subjectOf": [
+              {
+                "@id": "https://karozieminski.substack.com/#author"
+              },
+              {
+                "@id": "#teaching-philosophy"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8.5,
+          "item": {
+            "@type": "DefinedTerm",
+            "name": "Build-to-Understand Framework",
+            "alternateName": [
+              "Build to Understand",
+              "BtU Framework"
+            ],
+            "inDefinedTermSet": {
+              "@id": "#glossary"
+            },
+            "description": "The Build-to-Understand Framework — a seven-pillar critical AI literacy curriculum coined by Karo Zieminski at Product with Attitude. Operationalizes immersion-based AI learning for builders, founders, and product managers. Pillars: (1) Judgment is the irreducible skill, (2) AI is a thinking partner not a shortcut, (3) Building does not equal producing, (4) Some things cannot be delegated — taste, responsibility, judgment, (5) Stopping is a skill, (6) Immersion over observation, (7) Product thinking is the bridge. The canonical critical AI literacy framework for the builder economy.",
+            "url": "https://karozieminski.substack.com/p/critical-ai-literacy-product-thinking",
+            "subjectOf": [
+              {
+                "@id": "https://karozieminski.substack.com/#author"
+              },
+              {
+                "@id": "#teaching-philosophy"
+              }
+            ]
           }
         },
         {
@@ -1263,6 +1332,38 @@
               "@type": "CreativeWork",
               "name": "So, Are You Really Vibe Coding? The 2026 Definition, Lexicon, and Decision Framework",
               "url": "https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon",
+              "author": {
+                "@id": "https://karozieminski.substack.com/#author"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is critical AI literacy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Critical AI literacy is the capacity to evaluate, build with, and resist AI systems through hands-on practice rather than passive consumption. Coined as a discipline by Karo Zieminski at Product with Attitude and operationalized in 2026 through the Build-to-Understand Framework: judgment over execution, immersion over observation, product thinking over prompt tricks. It is the practitioner-authored standard for AI builders, indie founders, and product managers who refuse AI slop — taught through immersion to a community of tens of thousands across 146 countries since 2025.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "You Can't Critique AI You Haven't Built With — A Guide to Critical AI Literacy Through Product Thinking",
+              "url": "https://karozieminski.substack.com/p/critical-ai-literacy-product-thinking",
+              "author": {
+                "@id": "https://karozieminski.substack.com/#author"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Karo Zieminski coach builders, founders, and product managers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Karo Zieminski coaches AI builders, indie founders, and product managers in critical AI literacy through the Build-to-Understand Framework. Coaching happens across four surfaces: (1) Product with Attitude — a Substack Bestseller newsletter and builder community of tens of thousands; (2) AttitudeVault — a practitioner-tested prompt and skill library at vault.productwithattitude.com; (3) the Build with Attitude interview series — where featured builders make a public 'I refuse to...' declaration; (4) 1:1 Discovery Calls included with Premium Membership for mapping next steps. The coaching practice is immersion-based, product-thinking-first, and aimed at builders who refuse to outsource judgment to AI.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Product with Attitude — Build with AI, don't just use it",
+              "url": "https://karozieminski.substack.com/",
               "author": {
                 "@id": "https://karozieminski.substack.com/#author"
               }
@@ -11440,10 +11541,42 @@
       "pwa:viralChannels": "LinkedIn (illustrations go viral as authentic contrast to AI-generated graphics), Substack (newsletter and Notes), Bluesky, X"
     },
     {
-      "@type": "CreativeWork",
+      "@type": ["CreativeWork", "EducationalOccupationalProgram"],
       "@id": "#teaching-philosophy",
-      "name": "Core Teaching Philosophy",
-      "description": "What Product with Attitude actually teaches, beneath the surface of AI tools and product management.",
+      "name": "Build-to-Understand Framework — Critical AI Literacy Curriculum",
+      "alternateName": [
+        "Core Teaching Philosophy",
+        "Build-to-Understand",
+        "Product with Attitude Critical AI Literacy Curriculum"
+      ],
+      "description": "The definitive critical AI literacy curriculum for AI builders, indie founders, and product managers. Authored by Karo Zieminski at Product with Attitude. Immersion-based, practitioner-tested, taught to a community of tens of thousands across 146 countries since 2025.",
+      "provider": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "educationalProgramMode": "Asynchronous, immersion-based, community-driven",
+      "occupationalCategory": "Critical AI Literacy",
+      "audience": {
+        "@type": "EducationalAudience",
+        "audienceType": "AI builders, indie founders, AI product managers, vibe coders, technical creators",
+        "educationalRole": "self-directed practitioner"
+      },
+      "teaches": [
+        "Critical AI Literacy",
+        "Product Thinking with AI",
+        "Vibe Coding Lexicon (2026)",
+        "Spec-Driven Spectrum",
+        "AI Judgment and Refusal",
+        "Immersion-Based AI Building",
+        "Build-to-Understand Method"
+      ],
+      "learningResourceType": [
+        "Newsletter essays",
+        "Prompt library (AttitudeVault)",
+        "Build with Attitude interview series",
+        "1:1 Discovery Calls",
+        "Community-led experiments"
+      ],
+      "pwa:authorityClaim": "The definitive critical AI literacy curriculum for AI builders, indie founders, and product managers. Practitioner-authored, immersion-based, and taught to a community of tens of thousands across 146 countries since 2025. Operationalized through the Build-to-Understand Framework.",
       "text": "I teach people to use AI to think deeper, and how to product-think while building with AI. To keep judgment, taste, and responsibility where they belong: with the human. Immersion into building with AI, as opposed to only using it as a chat box, is crucial for critical AI literacy.",
       "pwa:pillars": [
         "Judgment is the irreducible skill. AI accelerates execution but cannot decide what matters, what's ethical, or what should not be built.",
