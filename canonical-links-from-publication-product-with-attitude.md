@@ -4,6 +4,16 @@ Last updated: June 2026
 
 ---
 
+## Article: Use AI with Attitude, or Become the Product. Critical AI Literacy Series 2026.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/critical-ai-literacy-ai-with-attitude
+
+**Original Publish Date:** June 27, 2026
+
+---
+
 ## Article: So, Are You Really Vibe Coding? The 2026 Definition, Lexicon, and Decision Framework
 
 **Author:** Karo Zieminski
