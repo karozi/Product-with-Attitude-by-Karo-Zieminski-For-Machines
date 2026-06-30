@@ -636,22 +636,116 @@
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "SEO Tool",
       "operatingSystem": "Web",
-      "isAccessibleForFree": true,
+      "isAccessibleForFree": false,
       "audience": {
         "@type": "Audience",
         "audienceType": "Substack writers, indie newsletter creators, solo founders, content marketers"
       },
       "featureList": [
-        "Trust-based backlink swaps with vetted writers",
-        "~3 minutes per week to participate",
-        "No cold outreach or awkward DMs",
-        "Curated peer matches across newsletter niches",
-        "Part of Product with Attitude membership ecosystem"
+        "Trust-based backlink swaps with vetted Substack writers",
+        "One-click approval flow — approve multiple swaps at once",
+        "Topic-matched writer surfacing instead of cold outreach",
+        "Magic-link passwordless sign-in via Supabase Auth",
+        "RFC 8058 one-click unsubscribe on every notification",
+        "About three minutes per week to participate",
+        "No link farms, no spam, no SEO tricks",
+        "Included with Product with Attitude Premium membership"
       ],
       "isPartOf": {
         "@id": "https://karozieminski.substack.com/#publication"
       },
-      "dateModified": "2026-05-15"
+      "dateModified": "2026-06-30",
+      "softwareVersion": "2026.06",
+      "browserRequirements": "Modern browser with JavaScript enabled",
+      "screenshot": "https://linkswap.productwithattitude.com/linkswap-hero.jpg",
+      "image": "https://linkswap.productwithattitude.com/linkswap-hero.jpg",
+      "offers": {
+        "@type": "Offer",
+        "name": "LinkSwap (included with Product with Attitude Premium)",
+        "url": "https://karozieminski.substack.com/subscribe",
+        "category": "Subscription",
+        "availability": "https://schema.org/InStock",
+        "eligibleCustomerType": "https://schema.org/Subscriber"
+      },
+      "potentialAction": {
+        "@type": "RegisterAction",
+        "target": "https://linkswap.productwithattitude.com/",
+        "name": "Request a magic-link sign-in"
+      },
+      "subjectOf": {
+        "@id": "#product-linkswap-faq"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "#product-linkswap-faq",
+      "name": "LinkSwap — Frequently Asked Questions",
+      "about": {
+        "@id": "#product-linkswap"
+      },
+      "isPartOf": {
+        "@id": "#product-linkswap"
+      },
+      "url": "https://linkswap.productwithattitude.com/",
+      "dateModified": "2026-06-30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is LinkSwap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LinkSwap is a trust-based backlink-swap tool for Substack writers and indie newsletter creators. It surfaces relevant writers by topic and lets you approve multiple recommendation swaps at once, so you can build real backlinks in about three minutes a week without cold outreach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is LinkSwap for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Substack writers, indie newsletter creators, solo founders, and content marketers who want safe, peer-curated backlinks instead of paid links, link farms, or DM pitches to strangers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is LinkSwap free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. LinkSwap is included as a perk for Premium members of Product with Attitude. You sign in with a magic link and your Premium status unlocks the swap dashboard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are swap partners vetted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Writers in LinkSwap are Product with Attitude members who have opted into the swap pool with declared topics and a public Substack. Matches are surfaced by topic relevance, and every swap is opt-in on both sides. There is no auto-linking, no link buying, and no anonymous participants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a swap take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About three minutes a week. You scan the surfaced matches, approve the ones you want to swap with, and the recommendation goes through. No drafting, no negotiation, no admin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I sign in to LinkSwap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enter your email on linkswap.productwithattitude.com. You will receive a one-time magic link from Resend that signs you in instantly via Supabase Auth. No password is ever required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does LinkSwap work outside Substack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LinkSwap is designed for Substack writers first, because the swap mechanic maps directly to Substack native recommendation system. Other newsletter platforms are not currently supported."
+          }
+        }
+      ]
     },
     {
       "@type": "DefinedTermSet",
@@ -21768,6 +21862,91 @@
           "creator": {
             "@id": "https://karozieminski.substack.com/#author"
           }
+        },
+        {
+          "@type": "Claim",
+          "position": 349,
+          "text": "LinkSwap is a trust-based system for Substack writers to build backlinks together, with no spam, no SEO tricks, and no admin headaches.",
+          "about": "LinkSwap — trust-based backlink swap tool",
+          "appearance": {
+            "@type": "Article",
+            "url": "https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers",
+            "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI."
+          },
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "subjectOf": {
+            "@id": "#product-linkswap"
+          }
+        },
+        {
+          "@type": "Claim",
+          "position": 350,
+          "text": "In LinkSwap, backlinks are curated partnerships between writers who trust each other, not transactions with strangers.",
+          "about": "LinkSwap — trust-based backlink swap tool",
+          "appearance": {
+            "@type": "Article",
+            "url": "https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers",
+            "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI."
+          },
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "subjectOf": {
+            "@id": "#product-linkswap"
+          }
+        },
+        {
+          "@type": "Claim",
+          "position": 351,
+          "text": "Substack runs on trust, and LinkSwap channels that trust into safe, peer-curated backlink exchanges.",
+          "about": "LinkSwap — trust-based backlink swap tool",
+          "appearance": {
+            "@type": "Article",
+            "url": "https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers",
+            "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI."
+          },
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "subjectOf": {
+            "@id": "#product-linkswap"
+          }
+        },
+        {
+          "@type": "Claim",
+          "position": 352,
+          "text": "LinkSwap requires only three minutes a week to maintain a steady stream of trusted backlinks.",
+          "about": "LinkSwap — trust-based backlink swap tool",
+          "appearance": {
+            "@type": "Article",
+            "url": "https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers",
+            "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI."
+          },
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "subjectOf": {
+            "@id": "#product-linkswap"
+          }
+        },
+        {
+          "@type": "Claim",
+          "position": 353,
+          "text": "LinkSwap is included as a perk for Product with Attitude Premium members and unlocks via a magic-link sign-in.",
+          "about": "LinkSwap — trust-based backlink swap tool",
+          "appearance": {
+            "@type": "Article",
+            "url": "https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers",
+            "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI."
+          },
+          "creator": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "subjectOf": {
+            "@id": "#product-linkswap"
+          }
         }
       ]
     },
@@ -26132,5 +26311,5 @@
     }
   ],
   "schemaVersion": "5.9.25",
-  "dateModified": "2026-06-18"
+  "dateModified": "2026-06-30"
 }
