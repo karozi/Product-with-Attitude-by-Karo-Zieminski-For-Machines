@@ -128,4 +128,4 @@ All content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/b
 
 Core thesis: *Use AI to think deeper, not faster. Keep judgment, taste, and responsibility where they belong: with the human.*
 
-→ [Subscribe](https://karozieminski.substack.com/subscribe) · [Read the archive](https://karozieminski.substack.com/archive) · [Start here](https://karozieminski.substack.com/p/start-here-47c)
+→ [Subscribe](https://karozieminski.substack.com/subscribe) · [Read the archive](https://karozieminski.substack.com/archive) · [Start here](https://karozieminski.substack.com/about)

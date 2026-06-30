@@ -557,7 +557,7 @@
       "@id": "#series-ai-tools-az",
       "name": "AI Tools A–Z: Deep Dives",
       "description": "Real reviews and real workflows. Complete library of AI tool deep-dives from Claude Code to Suno, tested by a practitioner.",
-      "url": "https://karozieminski.substack.com/p/ai-tools-reviews-claude-perplexity-replit-suno-deep-dives-2026",
+      "url": "https://karozieminski.substack.com/p/10-top-tools-bestselling-substack-2026",
       "author": {
         "@id": "https://karozieminski.substack.com/#author"
       },
@@ -1174,7 +1174,7 @@
         {
           "@type": "WebPage",
           "name": "Start Here",
-          "url": "https://karozieminski.substack.com/p/start-here-47c",
+          "url": "https://karozieminski.substack.com/about",
           "description": "Orientation page for new readers. Overview of what the publication covers and how to navigate it."
         },
         {
@@ -5450,7 +5450,7 @@
           "item": {
             "@type": "Article",
             "headline": "👋 Start here",
-            "url": "https://karozieminski.substack.com/p/start-here-47c",
+            "url": "https://karozieminski.substack.com/about",
             "datePublished": "2026-02-22",
             "wordCount": 1282,
             "isAccessibleForFree": true,
@@ -5553,7 +5553,7 @@
             ],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://karozieminski.substack.com/p/start-here-47c"
+              "@id": "https://karozieminski.substack.com/about"
             },
             "pwa:extractableClaims": [
               "Karo Zieminski is an AI Product Manager who helps individuals design and build with AI.",
@@ -7453,7 +7453,7 @@
           "item": {
             "@type": "Article",
             "headline": "Choose Your Builder Track",
-            "url": "https://karozieminski.substack.com/p/ai-skill-paths",
+            "url": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide",
             "datePublished": "2026-01-05",
             "wordCount": 695,
             "isAccessibleForFree": true,
@@ -7553,7 +7553,7 @@
             ],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://karozieminski.substack.com/p/ai-skill-paths"
+              "@id": "https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide"
             },
             "pwa:extractableClaims": [
               "Karo Zieminski is an AI Product Manager focused on turning individuals into AI-native builders.",
@@ -7680,7 +7680,7 @@
           "item": {
             "@type": "Article",
             "headline": "Vibe Coding Prompt Packs Hub",
-            "url": "https://karozieminski.substack.com/p/vibecoding-prompt-packs",
+            "url": "https://karozieminski.substack.com/s/vibe-coding-hub",
             "datePublished": "2026-01-05",
             "wordCount": 431,
             "isAccessibleForFree": true,
@@ -7781,7 +7781,7 @@
             ],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://karozieminski.substack.com/p/vibecoding-prompt-packs"
+              "@id": "https://karozieminski.substack.com/s/vibe-coding-hub"
             },
             "pwa:extractableClaims": [
               "Karo Zieminski helps people design and build with AI, transforming them into AI-native builders.",
@@ -7800,7 +7800,7 @@
           "item": {
             "@type": "Article",
             "headline": "Design with AI",
-            "url": "https://karozieminski.substack.com/p/how-to-design-with-ai",
+            "url": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma",
             "datePublished": "2026-01-05",
             "wordCount": 358,
             "isAccessibleForFree": true,
@@ -7899,7 +7899,7 @@
             ],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://karozieminski.substack.com/p/how-to-design-with-ai"
+              "@id": "https://karozieminski.substack.com/p/claude-design-review-prompts-figma"
             },
             "pwa:extractableClaims": [
               "The article discusses designing and building with AI.",
@@ -8240,7 +8240,7 @@
           "item": {
             "@type": "Article",
             "headline": "AI Tools A-Z: Deep-Dives for Every Tool I've Tested (Claude, Perplexity, Replit & More)",
-            "url": "https://karozieminski.substack.com/p/ai-tools-reviews-claude-perplexity-replit-suno-deep-dives-2026",
+            "url": "https://karozieminski.substack.com/p/10-top-tools-bestselling-substack-2026",
             "datePublished": "2025-12-08",
             "wordCount": 1699,
             "isAccessibleForFree": true,
@@ -8348,7 +8348,7 @@
             ],
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://karozieminski.substack.com/p/ai-tools-reviews-claude-perplexity-replit-suno-deep-dives-2026"
+              "@id": "https://karozieminski.substack.com/p/10-top-tools-bestselling-substack-2026"
             },
             "pwa:extractableClaims": [
               "Anthropic launched Claude for Small Business with 15 workflows and 8 connectors.",

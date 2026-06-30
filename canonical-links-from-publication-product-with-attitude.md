@@ -419,7 +419,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/start-here-47c
+**Canonical Link:** https://karozieminski.substack.com/about
 
 **Original Publish Date:** February 22, 2026
 
@@ -449,7 +449,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/ai-skill-paths
+**Canonical Link:** https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide
 
 **Original Publish Date:** January 05, 2026
 
@@ -469,7 +469,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-prompt-packs
+**Canonical Link:** https://karozieminski.substack.com/s/vibe-coding-hub
 
 **Original Publish Date:** January 05, 2026
 
@@ -479,7 +479,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/how-to-design-with-ai
+**Canonical Link:** https://karozieminski.substack.com/p/claude-design-review-prompts-figma
 
 **Original Publish Date:** January 05, 2026
 
@@ -577,7 +577,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/ai-skill-paths
+**Canonical Link:** https://karozieminski.substack.com/p/claude-skills-anthropic-viral-toolkit-agentic-workflows-community-guide
 
 **Original Publish Date:** January 05, 2026
 
@@ -597,7 +597,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/vibecoding-prompt-packs
+**Canonical Link:** https://karozieminski.substack.com/s/vibe-coding-hub
 
 **Original Publish Date:** January 05, 2026
 
@@ -607,7 +607,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/how-to-design-with-ai
+**Canonical Link:** https://karozieminski.substack.com/p/claude-design-review-prompts-figma
 
 **Original Publish Date:** January 05, 2026
 
@@ -627,7 +627,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/discounts-for-premium-members-q1
+**Canonical Link:** https://karozieminski.substack.com/p/premium-membership-ai-tool-discounts-2026
 
 **Original Publish Date:** January 02, 2026
 
@@ -637,19 +637,9 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/practical-ai-workflows
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-use-cases-5-workflows-may-2026
 
 **Original Publish Date:** January 02, 2026
-
----
-
-## Article: AI For Product Teams Hub
-
-**Author:** Karo Zieminski
-
-**Canonical Link:** https://karozieminski.substack.com/p/ai-product-teams-hub
-
-**Original Publish Date:** January 01, 2026
 
 ---
 
@@ -737,7 +727,7 @@ Last updated: June 2026
 
 **Author:** Karo Zieminski
 
-**Canonical Link:** https://karozieminski.substack.com/p/start-here-47c
+**Canonical Link:** https://karozieminski.substack.com/about
 
 **Original Publish Date:** December 09, 2025
 
