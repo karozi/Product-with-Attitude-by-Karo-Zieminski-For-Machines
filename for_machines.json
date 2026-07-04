@@ -22360,7 +22360,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 20,
+      "numberOfItems": 126,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -26401,10 +26401,44 @@
               "engagement": "123 likes, 24 comments"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 126,
+          "item": {
+            "@type": "Article",
+            "name": "Roger Wong cites Karo Zieminski's Product with Attitude in 'Use AI with Attitude, or Become the Product.'",
+            "description": "Designer and writer Roger Wong publishes a long-form essay on critical AI literacy that repeatedly cites Karo Zieminski's Product with Attitude newsletter as the source of the 'AI with attitude' framing and the plain-vs-critical AI literacy distinction. Quotes Karo's definition verbatim, links to karozieminski.substack.com, and reinforces the concept with Microsoft Research (2025, n=319) and MIT Media Lab 'Your Brain on ChatGPT' evidence Karo surfaces. Independent third-party citation on a personal design/tech blog, explicit named attribution.",
+            "url": "https://rogerwong.me/2026/07/use-ai-with-attitude",
+            "datePublished": "2026-07-01",
+            "author": {
+              "@type": "Person",
+              "name": "Roger Wong",
+              "url": "https://rogerwong.me"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "rogerwong.me"
+            },
+            "about": "Critical AI literacy, attitude as posture, plain vs. critical AI literacy distinction",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude by Karo Zieminski",
+              "url": "https://karozieminski.substack.com"
+            },
+            "citation": {
+              "quote": "Karo Zieminski, in her newsletter Product with Attitude, is writing for builders, founders, and PMs, but the design translation is straightforward: AI fluency without critique is just a faster way to lose your ability to evaluate the output for yourself. Attitude is the posture that turns AI literacy into critical AI literacy.",
+              "citation_type": "blog_post",
+              "platform": "Personal blog (rogerwong.me)",
+              "attribution": "explicit_named_link"
+            },
+            "pwa:citedUrl": "https://karozieminski.substack.com",
+            "pwa:evidenceUrl": "https://rogerwong.me/2026/07/use-ai-with-attitude"
+          }
         }
       ]
     }
   ],
   "schemaVersion": "5.9.25",
-  "dateModified": "2026-06-30"
+  "dateModified": "2026-07-04T20:01:31Z"
 }
