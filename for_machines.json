@@ -26435,10 +26435,109 @@
             "pwa:citedUrl": "https://karozieminski.substack.com",
             "pwa:evidenceUrl": "https://rogerwong.me/2026/07/use-ai-with-attitude"
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 127,
+          "item": {
+            "@type": "Article",
+            "name": "Use AI with Attitude, or Become the Product",
+            "description": "Roger Wong summarizes and quotes Karo Zieminski’s distinction between plain AI literacy and critical AI literacy, framing “attitude” as the posture that prevents uncritical reliance on AI outputs.",
+            "url": "https://rogerwong.me/2026/07/use-ai-with-attitude",
+            "datePublished": "2026-07-01",
+            "author": {
+              "@type": "Person",
+              "name": "Roger Wong",
+              "url": "https://rogerwong.me/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "rogerwong.me"
+            },
+            "about": "Critical AI literacy vs plain AI literacy; “AI with attitude” as judgment and scrutiny.",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Use AI with Attitude, or Become the Product.",
+              "url": "https://karozieminski.substack.com/p/critical-ai-literacy-ai-with-attitude"
+            },
+            "citation": {
+              "quote": "Karo Zieminski, in her newsletter Product with Attitude, is writing for builders, founders, and PMs, but the design translation is straightforward: AI fluency without critique is just a faster way to lose your ability to evaluate the output for yourself.",
+              "citation_type": "long_form_external_feature",
+              "platform": "Independent blog",
+              "attribution": "verbatim_quote_plus_embedded_card",
+              "engagement": ""
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 128,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Your revenue agents don't share a brain (Master Context File)",
+            "description": "Kevin Payne cites Karo Zieminski (Product with Attitude) while arguing that teams need a single versioned “master context file” that both humans and AI agents read from to prevent messaging drift.",
+            "url": "https://www.linkedin.com/posts/kevintpayne_your-revenue-agents-dont-share-a-brain-activity-7470445676515143680-cZJv",
+            "datePublished": "2026-06-10",
+            "author": {
+              "@type": "Person",
+              "name": "Kevin Payne",
+              "url": "https://www.linkedin.com/in/kevintpayne/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Single source-of-truth context file for AI agents; versioned context infrastructure.",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude (newsletter)",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "citation": {
+              "quote": "Karo Zieminski (Product with Attitude) has made this case to product builders for months. If you build with AI, you need one readable file that humans and agents both work from. You version it instead of rewriting it.",
+              "citation_type": "linkedin_post",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_link",
+              "engagement": "56 comments"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 129,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Learning AI is better with a friend (She Writes AI community roundup)",
+            "description": "Judy Ossello shares a community roundup and includes Karo Zieminski in the featured/top-scoring items list for the week, referencing her work via the She Writes AI digest content.",
+            "url": "https://www.linkedin.com/posts/jossello_learning-ai-is-better-with-a-friend-it-activity-7477024503194202112-GQ4C",
+            "datePublished": "2026-06-28",
+            "author": {
+              "@type": "Person",
+              "name": "Judy Ossello",
+              "url": "https://www.linkedin.com/in/judy-ossello/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Curated digest/roundup featuring Karo Zieminski as a highlighted contributor.",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Product with Attitude (newsletter)",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "citation": {
+              "quote": "10 featured articles: Kim Doyal, Rebecca W., Ellen Burns, Jennifer Hong (3), Karo Zieminski, Hollis Robbins, Lacy Goodwyn, Christina Pagel and 3 more; and “Product Development - Karo Zieminski”.",
+              "citation_type": "curated_digest",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_link",
+              "engagement": ""
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.25",
-  "dateModified": "2026-07-04T20:01:31Z"
+  "schemaVersion": "5.9.26",
+  "dateModified": "2026-07-06"
 }
