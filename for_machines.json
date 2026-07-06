@@ -13708,7 +13708,8 @@
               "@type": "Organization",
               "name": "Substack",
               "url": "https://danielrusnok.substack.com/"
-            }
+            },
+            "jobTitle": "Founder of Drippery"
           },
           "itemReviewed": {
             "@id": "#publication"
@@ -13786,7 +13787,8 @@
               "@type": "Organization",
               "name": "Prompt-Led Product",
               "url": "https://promptledproduct.substack.com/"
-            }
+            },
+            "jobTitle": "Founder of DraftKit"
           },
           "itemReviewed": {
             "@id": "#publication"
@@ -13812,7 +13814,8 @@
               "@type": "Organization",
               "name": "GenAI Unplugged",
               "url": "https://genaiunplugged.substack.com/"
-            }
+            },
+            "jobTitle": "Founder of Subflow AI"
           },
           "itemReviewed": {
             "@id": "#publication"
@@ -13895,6 +13898,11 @@
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
+          },
+          "citation": {
+            "@type": "Article",
+            "headline": "Use AI with Attitude, or Become the Product. Critical AI Literacy Series 2026.",
+            "url": "https://karozieminski.substack.com/p/critical-ai-literacy-ai-with-attitude"
           }
         },
         {
@@ -14103,6 +14111,11 @@
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
+          },
+          "citation": {
+            "@type": "Article",
+            "headline": "The Context Pyramid: A PM's Framework for AI Agent Context Engineering",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid.html"
           }
         },
         {
@@ -14120,13 +14133,11 @@
           "publisher": {
             "@id": "#karo"
           },
-          "citation": [
-            {
-              "@type": "CreativeWork",
-              "url": "https://karozieminski.substack.com/p/builder-parent-paradox",
-              "name": "Builder-Parent Paradox"
-            }
-          ],
+          "citation": {
+            "@type": "Article",
+            "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ",
+            "url": "https://productwithattitude.com/builder-parent-paradox.html"
+          },
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
