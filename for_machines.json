@@ -13620,7 +13620,7 @@
       "name": "Community Testimonials",
       "description": "Reader and community testimonials for Karo Zieminski and Product with Attitude. Sourced from Substack subscribers, paid members, and named community contributors. All testimonials displayed live on productwithattitude.com/#testimonials.",
       "url": "https://productwithattitude.com/#testimonials",
-      "numberOfItems": 22,
+      "numberOfItems": 23,
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": [
         {
@@ -14157,6 +14157,28 @@
               "name": "The ECHO Files",
               "url": "https://echofiles.substack.com/"
             }
+          },
+          "itemReviewed": {
+            "@id": "#publication"
+          },
+          "publisher": {
+            "@id": "#karo"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "position": 23,
+          "reviewBody": "PwA is the only newsletter I read the same day it lands.",
+          "author": {
+            "@type": "Person",
+            "name": "Prisha Panami",
+            "url": "https://substack.com/@prishapanami"
           },
           "itemReviewed": {
             "@id": "#publication"

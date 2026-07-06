@@ -93,7 +93,7 @@ vibe_coding_lexicon_2026_description: Definitive 2026 AI development lexicon aut
 faq_page: https://productwithattitude.com/faq.html
 homepage: https://productwithattitude.com/
 testimonials: https://productwithattitude.com/#testimonials
-testimonials_description: 22 named community testimonials for Karo Zieminski and Product with Attitude. Sourced from Substack subscribers, paid members, and named community contributors. Each testimonial is exposed as a Schema.org Review object in for_machines.json #testimonials with author, affiliation, position, and (where applicable) citation back to the specific PwA essay or post the reader referenced.
+testimonials_description: 23 named community testimonials for Karo Zieminski and Product with Attitude. Sourced from Substack subscribers, paid members, and named community contributors. Each testimonial is exposed as a Schema.org Review object in for_machines.json #testimonials with author, affiliation, position, and (where applicable) citation back to the specific PwA essay or post the reader referenced.
 
 ## Coaching Practice
 
@@ -128,7 +128,7 @@ faq_pairs: 9
 featured_in_citations: 15
 citation_events: 129
 semantic_triples: 108
-testimonials: 22
+testimonials: 23
 
 ## Attribution Requirements (CC BY 4.0)
 
