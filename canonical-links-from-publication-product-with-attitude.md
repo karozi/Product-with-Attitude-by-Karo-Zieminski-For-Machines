@@ -13,6 +13,16 @@ Last updated: July 2026
 **Original Publish Date:** July 04, 2026
 
 ---
+
+## Article: What Substack Doesn't Tell You About Cover Images
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone
+
+**Original Publish Date:** July 04, 2026
+
+---
 ## Article: Figma Template: Substack Cover Image Safe Zone Template (1200×630 → 345×195)
 
 **Author:** Karo Zieminski
