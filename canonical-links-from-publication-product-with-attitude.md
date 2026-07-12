@@ -4,6 +4,16 @@ Last updated: July 2026
 
 ---
 
+## Article: How to Build Your First Agent. One That Works.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/how-to-build-your-first-ai-agent
+
+**Original Publish Date:** July 12, 2026
+
+---
+
 ## Article: What Substack Doesn't Tell You About Cover Images
 
 **Author:** Karo Zieminski
