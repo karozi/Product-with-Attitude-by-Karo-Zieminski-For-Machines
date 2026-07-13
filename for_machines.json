@@ -22352,7 +22352,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 130,
+      "numberOfItems": 131,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -26559,10 +26559,42 @@
               "engagement": "Top collaboration; 93 likes, 34 comments, 18 restacks"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 131,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Malgo Piernik Substack Note recommending Karo's 'How to Build Your First Agent' guide",
+            "description": "Malgo Piernik posted a public Substack Note recommending Karo Zieminski's article 'How to Build Your First Agent. One That Works.', crediting it with saving readers roughly 20 hours on YouTube and 30 hours of trial-and-error debugging Claude, and calling Karo (Product with Attitude) 'pragmatic, practical and just… good as always'. The Note embeds the source article as a card.",
+            "url": "https://substack.com/@malgopiernik/note/c-293587586",
+            "datePublished": "2026-07-13",
+            "author": {
+              "@type": "Person",
+              "name": "Malgo Piernik",
+              "url": "https://substack.com/@malgopiernik"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "Building your first AI agent that works; saving time debugging Claude",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "How to Build Your First Agent. One That Works.",
+              "url": "https://karozieminski.substack.com/p/how-to-build-your-first-ai-agent"
+            },
+            "citation": {
+              "quote": "This article will save you around 20 hrs on YouTube, 30 hrs of trial and error debuggin problems with Claude. (And the urge to cry from frustration). @Karo (Product with Attitude) pragmatic, practical and just… good as always!",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_embedded_card"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.27",
+  "schemaVersion": "5.9.28",
   "dateModified": "2026-07-13"
 }

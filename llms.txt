@@ -117,7 +117,7 @@ authority_claim: The definitive critical AI literacy curriculum for AI builders,
 
 ## Graph Statistics
 
-schema_version: 5.9.27
+schema_version: 5.9.28
 last_modified: 2026-07-13
 graph_nodes: 28
 recent_articles: 119
@@ -126,7 +126,7 @@ key_quotes: 131
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
-citation_events: 130
+citation_events: 131
 semantic_triples: 108
 testimonials: 23
 
