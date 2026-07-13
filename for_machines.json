@@ -1492,6 +1492,39 @@
           "position": 1,
           "item": {
             "@type": "Article",
+            "headline": "Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026)",
+            "url": "https://karozieminski.substack.com/p/perplexity-ai-guide-2026",
+            "datePublished": "2026-07-13",
+            "wordCount": 3119,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "Tested Perplexity guides from Product with Attitude. Computer workflows, Comet use cases, and credit-saving tips. Real use, not theory.",
+            "keywords": [
+              "vibecoding",
+              "critical AI literacy",
+              "Claude",
+              "Perplexity",
+              "Replit"
+            ],
+            "pwa:keyConcepts": [
+              "Tested Perplexity guides from Product with Attitude",
+              "Computer workflows, Comet use cases, and credit-saving tips",
+              "Real use, not theory",
+              "Perplexity Hub"
+            ],
+            "pwa:keyQuotes": [
+              "Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026)",
+              "Tested Perplexity guides from Product with Attitude. Computer workflows, Comet use cases, and credit-saving tips. Real use, not theory."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
             "headline": "How to Build Your First Agent. One That Works.",
             "url": "https://karozieminski.substack.com/p/how-to-build-your-first-ai-agent",
             "datePublished": "2026-07-12",
@@ -1520,7 +1553,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 3,
           "item": {
             "@type": "Article",
             "headline": "What Substack Doesn't Tell You About Cover Images",
@@ -1553,7 +1586,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 4,
           "item": {
             "@type": "Article",
             "headline": "Figma Template: Substack Cover Image Safe Zone Template (1200×630 → 345×195)",
@@ -1585,7 +1618,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 5,
           "item": {
             "@type": "Article",
             "headline": "Canva Template: Substack Cover Image Safe Zone (1200×630 → 345×195)",
@@ -1615,7 +1648,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 6,
           "item": {
             "@type": "Article",
             "headline": "Use AI with Attitude, or Become the Product. Critical AI Literacy Series 2026.",
@@ -1648,7 +1681,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 7,
           "item": {
             "@type": "Article",
             "@id": "https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon",
@@ -1720,7 +1753,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 8,
           "item": {
             "@type": "Article",
             "headline": "The Pre-Build Interrogation Prompt",
@@ -1752,7 +1785,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 9,
           "item": {
             "@type": "Article",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ",
@@ -1805,7 +1838,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 10,
           "item": {
             "@type": "Article",
             "headline": "What I Refuse to Say About AI in 2026",
@@ -1834,7 +1867,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 11,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Just Split the Frontier in Two",
@@ -1869,7 +1902,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 12,
           "item": {
             "@type": "Article",
             "headline": "Why Your Perplexity Credits Vanish (and How to Make 10K Last)",
@@ -1900,7 +1933,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 13,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills: Editorial Minimalist UI System",
@@ -1958,7 +1991,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 14,
           "item": {
             "@type": "Article",
             "headline": "12 AI Projects Built by the PwA Community",
@@ -2016,7 +2049,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 15,
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)",
@@ -2081,7 +2114,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 16,
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: What Changed, and How I'll Test It",
@@ -2132,7 +2165,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 17,
           "item": {
             "@type": "Article",
             "headline": "I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.",
@@ -2192,7 +2225,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 18,
           "item": {
             "@type": "Article",
             "headline": "Source Code: The Runaway Subscribe Button",
@@ -2246,7 +2279,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 19,
           "item": {
             "@type": "Article",
             "headline": "Coding Prompts: The Runaway Subscribe Button Prompt",
@@ -2299,7 +2332,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 20,
           "item": {
             "@type": "Article",
             "headline": "Gemini Omni Flash: Cute Videos, Serious Product Strategy, and the Future of Editable Reality",
@@ -2360,7 +2393,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 20,
+          "position": 21,
           "item": {
             "@type": "Article",
             "headline": "Prompt Refiner Template",
@@ -2414,7 +2447,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 21,
+          "position": 22,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared",
@@ -2482,7 +2515,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 23,
           "item": {
             "@type": "Article",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)",
@@ -2557,7 +2590,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 24,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer in May 2026: 5 Workflows I Run Every Week",
@@ -2617,7 +2650,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 25,
           "item": {
             "@type": "Article",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)",
@@ -2693,7 +2726,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 26,
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM's Framework for AI Agent Context Engineering",
@@ -2778,7 +2811,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 27,
           "item": {
             "@type": "Article",
             "headline": "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
@@ -2855,7 +2888,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 28,
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM’s Framework for AI Agent Context Engineering",
@@ -2935,7 +2968,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 29,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Launches Claude For Small Business",
@@ -3030,7 +3063,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 30,
           "item": {
             "@type": "Article",
             "headline": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
@@ -3124,7 +3157,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 31,
           "item": {
             "@type": "Article",
             "headline": "Prompt: The Context Spec Generator",
@@ -3197,7 +3230,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 32,
           "item": {
             "@type": "Article",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)",
@@ -3286,7 +3319,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 33,
           "item": {
             "@type": "Article",
             "headline": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
@@ -3371,7 +3404,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 34,
           "item": {
             "@type": "Article",
             "headline": "What Is A Sandboxed Virtual Machine?",
@@ -3475,7 +3508,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 35,
           "item": {
             "@type": "Article",
             "headline": "The Exact Prompt to Fix \"My AI Tool Can't Access My Localhost\"",
@@ -3581,7 +3614,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 36,
           "item": {
             "@type": "Article",
             "headline": "Are You a Vibe Coder? Don’t Ship Straight Into the Provider Trap",
@@ -3687,7 +3720,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 37,
           "item": {
             "@type": "Article",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)",
@@ -3759,7 +3792,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 38,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills vs everything else: the matrix (2026)",
@@ -3854,7 +3887,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 39,
           "item": {
             "@type": "Article",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)",
@@ -3951,7 +3984,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 40,
           "item": {
             "@type": "Article",
             "headline": "Is GPT-5.5 Reliable For Citations? No. It’s The Worst Flagship For That Job.",
@@ -4056,7 +4089,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 41,
           "item": {
             "@type": "Article",
             "headline": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
@@ -4179,7 +4212,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 42,
           "item": {
             "@type": "Article",
             "headline": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
@@ -4269,7 +4302,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 43,
           "item": {
             "@type": "Article",
             "headline": "Everything I Can Offer You In Q2.",
@@ -4362,7 +4395,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 44,
           "item": {
             "@type": "Article",
             "headline": "Discounts for Premium Members (Q2 2026)",
@@ -4471,7 +4504,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 45,
           "item": {
             "@type": "Article",
             "headline": "I Tested Atoms, Lovable, and Replit. One of Them Solves the Problem That Kills Most Apps.",
@@ -4568,7 +4601,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 46,
           "item": {
             "@type": "Article",
             "headline": "Save Credits in Perplexity Computer: Advanced Guide, Part 2 (2026)",
@@ -4659,7 +4692,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 47,
           "item": {
             "@type": "Article",
             "headline": "What AI Builders Are Shipping in the PwA Community Right Now",
@@ -4745,7 +4778,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 47,
+          "position": 48,
           "item": {
             "@type": "Article",
             "headline": "Your AI Agents Are Engineers Now. Manage Them Like It.",
@@ -4827,7 +4860,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 48,
+          "position": 49,
           "item": {
             "@type": "BlogPosting",
             "headline": "The Only Prompting Guide That Works On Reasoning Models (And Our Cognition)",
@@ -4944,7 +4977,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 49,
+          "position": 50,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI.",
@@ -5044,7 +5077,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 50,
+          "position": 51,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.",
@@ -5155,7 +5188,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 51,
+          "position": 52,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Tested Perplexity Computer Hard. Here’s How I’d Save Credits Now",
@@ -5256,7 +5289,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 52,
+          "position": 53,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory",
@@ -5375,7 +5408,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 53,
+          "position": 54,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Refuse To Build A Trap",
@@ -5461,7 +5494,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 54,
+          "position": 55,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
@@ -5578,7 +5611,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 55,
+          "position": 56,
           "item": {
             "@type": "BlogPosting",
             "headline": "Cowork Connectors",
@@ -5666,7 +5699,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 56,
+          "position": 57,
           "item": {
             "@type": "Article",
             "headline": "👋 Start here",
@@ -5789,7 +5822,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 57,
+          "position": 58,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Hub",
@@ -5907,111 +5940,6 @@
               "@id": "https://karozieminski.substack.com/p/claude-guides-code-cowork-skills-workflows"
             },
             "alternativeHeadline": "Every Claude workflow I've tested and published: Code workflows, Cowork setups, Skills tutorials, CLAUDE.md files. Real prompts, real failures, nothing theoretical."
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 58,
-          "item": {
-            "@type": "BlogPosting",
-            "headline": "Perplexity Hub (2026)",
-            "url": "https://karozieminski.substack.com/p/perplexity-ai-guide-2026",
-            "datePublished": "2026-02-20T21:54:00Z",
-            "description": "Tested Perplexity guides from Product with Attitude. Computer workflows, Comet use cases, credit-saving tips, and AIO optimization. Real use, not theory.",
-            "isAccessibleForFree": true,
-            "author": {
-              "@type": "Person",
-              "name": "Karo Zieminski",
-              "@id": "#karo"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "Product with Attitude",
-              "@id": "#publication"
-            },
-            "keywords": [
-              "Perplexity",
-              "AI",
-              "Computer",
-              "Comet",
-              "SEO",
-              "AIO",
-              "Guides",
-              "Hub"
-            ],
-            "pwa:keyQuotes": [
-              "You can’t critique AI you haven’t built with.",
-              "Computer unifies every current capability of AI into a single system.",
-              "Perplexity Hub documents where credits disappear and where the \"wow\" lives."
-            ],
-            "pwa:extractableClaims": [
-              "Perplexity Hub is an independent library of tested guides for Perplexity Search, Files & Apps, Comet, and Computer, focused on real workflows, credit strategy, and SEO/AIO/GEO use cases.",
-              "Perplexity Hub helps builders, writers, and PMs decide which Perplexity product to use, shows what you can ship with each, and documents where credits disappear and where the \"wow\" lives.",
-              "Perplexity Search provides answers with inline citations you can verify yourself.",
-              "Perplexity Files & Apps generates reports, dashboards, spreadsheets, prototypes, and lightweight web apps from a single data source.",
-              "Perplexity Comet is Perplexity’s browser-based AI assistant that handles content repurposing, multi-step research, and automated data extraction.",
-              "Perplexity Computer is the agentic tier that can research, design, automate, build, test, deploy, and connect to 400+ apps.",
-              "Perplexity Computer orchestrates 19+ frontier models (including Claude Opus 4.6, GPT-5.4, and Gemini Pro 3.1) from a single interface.",
-              "Computer unifies every current capability of AI into a single system.",
-              "Building with AI tools like Perplexity and Claude beats passive consumption when it comes to developing critical AI literacy.",
-              "You can’t critique AI you haven’t built with.",
-              "Perplexity explains what the products can do; I show what works in practice: the workflows, the credit costs, and the edge cases.",
-              "Implementing JSON-LD structured data and AI feed endpoints makes your site AI-discoverable for Perplexity and other AI search engines.",
-              "Perplexity is one of the core tools in a daily workflow alongside Claude and Recraft.",
-              "Every guide is tested on real projects, and every credit estimate comes from personal usage learned the expensive way.",
-              "Critical AI literacy is built by choosing to build with AI tools like Perplexity and Claude rather than just consuming them."
-            ],
-            "pwa:primaryTopic": "Perplexity AI guide 2026",
-            "dateModified": "2026-02-20T21:54:00Z",
-            "image": {
-              "@type": "ImageObject",
-              "url": "https://productwithattitude.com/assets/portrait.png",
-              "width": 1200,
-              "height": 630
-            },
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
-              ]
-            },
-            "mentions": [
-              {
-                "@type": "SoftwareApplication",
-                "name": "Perplexity Computer",
-                "url": "https://www.perplexity.ai/computer"
-              },
-              {
-                "@type": "SoftwareApplication",
-                "name": "Perplexity",
-                "url": "https://www.perplexity.ai"
-              },
-              {
-                "@type": "SoftwareApplication",
-                "name": "Claude",
-                "url": "https://www.anthropic.com/claude"
-              },
-              {
-                "@type": "SoftwareApplication",
-                "name": "Gemini",
-                "url": "https://gemini.google.com"
-              }
-            ],
-            "pwa:dateModified": "2026-02-20",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://karozieminski.substack.com/p/perplexity-ai-guide-2026"
-            },
-            "alternativeHeadline": "Tested guides, credit strategies, and workflows for Perplexity Computer, Comet, and Labs."
           }
         },
         {

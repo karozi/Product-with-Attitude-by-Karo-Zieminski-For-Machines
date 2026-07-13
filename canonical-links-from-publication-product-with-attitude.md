@@ -4,6 +4,16 @@ Last updated: July 2026
 
 ---
 
+## Article: Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-ai-guide-2026
+
+**Original Publish Date:** July 13, 2026
+
+---
+
 ## Article: How to Build Your First Agent. One That Works.
 
 **Author:** Karo Zieminski
@@ -370,16 +380,6 @@ Last updated: July 2026
 **Canonical Link:** https://karozieminski.substack.com/p/ai-agent-management-framework-2026
 
 **Original Publish Date:** March 30, 2026
-
----
-
-## Article: Perplexity Hub
-
-**Author:** Karo Zieminski
-
-**Canonical Link:** https://karozieminski.substack.com/p/perplexity-ai-guide-2026
-
-**Original Publish Date:** February 20, 2026
 
 ---
 
