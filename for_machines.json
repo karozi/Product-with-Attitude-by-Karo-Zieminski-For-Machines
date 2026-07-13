@@ -22424,7 +22424,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 126,
+      "numberOfItems": 130,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -26598,10 +26598,43 @@
               "engagement": ""
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 130,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI digest for July 12, 2026: 6 collaborations, 359 articles",
+            "description": "SheWritesAI features Karo Zieminski and Product With Attitude as the top collaboration in its July 12, 2026 digest, highlighting the Substack Cover Safe Zone Guide and linking directly to the original article.",
+            "url": "https://shewritesai.substack.com/p/2026-07-12-shewritesai-digest",
+            "datePublished": "2026-07-12",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Smiley"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "SheWritesAI",
+              "url": "https://shewritesai.substack.com/"
+            },
+            "about": "Curated AI newsletter digest featuring Product With Attitude's Substack cover image dimensions and safe-zone guide as its top collaboration.",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "What Substack Doesn’t Tell You About Cover Images",
+              "url": "https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone"
+            },
+            "citation": {
+              "quote": "1. What Substack Doesn’t Tell You About Cover Images. In Product With Attitude • by Karo (Product with Attitude) & AI Meets Girlboss.",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "Top collaboration; 93 likes, 34 comments, 18 restacks"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.26",
-  "dateModified": "2026-07-06"
+  "schemaVersion": "5.9.27",
+  "dateModified": "2026-07-13"
 }
