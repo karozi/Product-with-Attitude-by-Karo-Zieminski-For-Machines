@@ -4,6 +4,16 @@ Last updated: July 2026
 
 ---
 
+## Article: What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-space-runtime-computer-agents
+
+**Original Publish Date:** July 16, 2026
+
+---
+
 ## Article: Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026)
 
 **Author:** Karo Zieminski
