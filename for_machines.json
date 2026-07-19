@@ -26621,10 +26621,43 @@
               "attribution": "explicit_named_mention_plus_embedded_card"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 132,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Abel A. Seyoum quote-shares Karo's TanStack npm supply-chain post as 'another must-read'",
+            "description": "Abel A. Seyoum (Vibe Coding newsletter, vibingwithai.substack.com) publishes an original Substack Note with detailed commentary on AI coding agents pulling in dependencies invisibly, then embeds Karo's post 'Don't Deploy Another AI-built App Without Monitoring Its Dependencies' with the framing 'Another must-read from Karo (Product with Attitude) and friends.' The 'another must-read' phrasing signals recurring recommendation behavior. Original commentary + embedded post card + explicit named profile link.",
+            "url": "https://substack.com/@abelasa/note/c-297511409",
+            "datePublished": "2026-07-19",
+            "author": {
+              "@type": "Person",
+              "name": "Abel A. Seyoum",
+              "url": "https://substack.com/@abelasa"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack"
+            },
+            "about": "Original Note with embedded post-card recommending Karo's TanStack npm supply-chain security guide",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Don't Deploy Another AI-built App Without Monitoring Its Dependencies",
+              "url": "https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders"
+            },
+            "citation": {
+              "quote": "Another must-read from Karo (Product with Attitude) and friends.",
+              "citation_type": "substack_note_quote",
+              "platform": "Substack",
+              "attribution": "named_mention_plus_embedded_card",
+              "engagement": "2 likes, 4 replies"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.28",
-  "dateModified": "2026-07-13"
+  "schemaVersion": "5.9.29",
+  "dateModified": "2026-07-19"
 }
