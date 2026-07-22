@@ -22444,7 +22444,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 131,
+      "numberOfItems": 133,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -26714,6 +26714,38 @@
               "platform": "Substack",
               "attribution": "named_mention_plus_embedded_card",
               "engagement": "2 likes, 4 replies"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 133,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Neela (@workmanshit) Substack Note: Karo's AI-assisted Craft manifesto 'makes the whole binary look ridiculous' amid Substack's Pangram partnership",
+            "description": "Neela (@workmanshit) posted a public Substack Note the same week Substack partnered with Pangram, crediting Karo Zieminski (Product with Attitude) with publishing a framework that 'makes the whole binary look ridiculous'. The Note endorses Karo's core claim that 'Slop begins where human care ends', argues Pangram cannot measure care or craft, highlights that the piece includes evaluation prompts, and closes with 'Thank you Karo.' Explicit @Karo (Product with Attitude) mention.",
+            "url": "https://substack.com/@workmanshit/note/c-299812129",
+            "datePublished": "2026-07-22",
+            "author": {
+              "@type": "Person",
+              "name": "Neela",
+              "url": "https://substack.com/@workmanshit"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "AI-assisted craft vs AI slop; Substack's Pangram AI-detection partnership; why detectors can't measure human care",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "AI-assisted Craft: A Manifesto",
+              "url": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop"
+            },
+            "citation": {
+              "quote": "The same week Substack installs Pangram, @Karo (Product with Attitude) publishes a framework that makes the whole binary look ridiculous. Her point is simple. Slop begins where human care ends. I agree with this. [...] What Pangram does not do: It does not measure care or craft. [...] Evaluation prompts are included in this piece. Thank you Karo.",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_framework_endorsement"
             }
           }
         }

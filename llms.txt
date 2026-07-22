@@ -126,7 +126,7 @@ key_quotes: 131
 glossary_terms: 15
 faq_pairs: 9
 featured_in_citations: 15
-citation_events: 132
+citation_events: 133
 semantic_triples: 108
 testimonials: 23
 
