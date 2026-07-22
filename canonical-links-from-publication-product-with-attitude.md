@@ -4,6 +4,25 @@ Last updated: July 2026
 
 ---
 
+## Article: AI-assisted Craft: A Manifesto
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop
+
+**Original Publish Date:** July 22, 2026
+
+---
+## Article: Don’t Deploy Another AI-built App Without Monitoring Its Dependencies
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders
+
+**Original Publish Date:** July 19, 2026
+
+---
+
 ## Article: What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer
 
 **Author:** Karo Zieminski

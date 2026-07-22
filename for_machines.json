@@ -1485,11 +1485,73 @@
       "@id": "#recent-articles",
       "name": "All Published Articles",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 120,
+      "numberOfItems": 122,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
+          "item": {
+            "@type": "Article",
+            "headline": "AI-assisted Craft: A Manifesto",
+            "url": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop",
+            "datePublished": "2026-07-22",
+            "wordCount": 1498,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "The missing category between human-made and AI-made.",
+            "keywords": [
+              "critical AI literacy",
+              "LLM",
+              "Craft",
+              "Manifesto"
+            ],
+            "pwa:keyConcepts": [
+              "The missing category between human-made and AI-made",
+              "AI-assisted Craft",
+              "A Manifesto"
+            ],
+            "pwa:keyQuotes": [
+              "AI-assisted Craft: A Manifesto",
+              "The missing category between human-made and AI-made."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "headline": "Don’t Deploy Another AI-built App Without Monitoring Its Dependencies",
+            "url": "https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders",
+            "datePublished": "2026-07-19",
+            "wordCount": 1057,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "alternativeHeadline": "This attack passed all checks designed to stop it. Farida Khalaf shares a practical system for catching it the biggest security mistake AI-assisted builders make after deployment.",
+            "keywords": [
+              "vibecoding",
+              "AI building",
+              "critical AI literacy",
+              "Substack",
+              "ethical AI"
+            ],
+            "pwa:keyConcepts": [
+              "This attack passed all checks designed to stop it",
+              "Don’t Deploy Another AI-built App Without Monitoring Its Dependencies"
+            ],
+            "pwa:keyQuotes": [
+              "Don’t Deploy Another AI-built App Without Monitoring Its Dependencies",
+              "This attack passed all checks designed to stop it. Farida Khalaf shares a practical system for catching it the biggest security mistake AI-assisted builders make after deployment."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "item": {
             "@type": "Article",
             "headline": "What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer",
@@ -1519,7 +1581,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 4,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026)",
@@ -1552,7 +1614,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 5,
           "item": {
             "@type": "Article",
             "headline": "How to Build Your First Agent. One That Works.",
@@ -1583,7 +1645,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 6,
           "item": {
             "@type": "Article",
             "headline": "What Substack Doesn't Tell You About Cover Images",
@@ -1616,7 +1678,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 7,
           "item": {
             "@type": "Article",
             "headline": "Figma Template: Substack Cover Image Safe Zone Template (1200×630 → 345×195)",
@@ -1648,7 +1710,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 8,
           "item": {
             "@type": "Article",
             "headline": "Canva Template: Substack Cover Image Safe Zone (1200×630 → 345×195)",
@@ -1678,7 +1740,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 9,
           "item": {
             "@type": "Article",
             "headline": "Use AI with Attitude, or Become the Product. Critical AI Literacy Series 2026.",
@@ -1711,7 +1773,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 10,
           "item": {
             "@type": "Article",
             "@id": "https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon",
@@ -1783,7 +1845,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 11,
           "item": {
             "@type": "Article",
             "headline": "The Pre-Build Interrogation Prompt",
@@ -1815,7 +1877,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 12,
           "item": {
             "@type": "Article",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ",
@@ -1868,7 +1930,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 13,
           "item": {
             "@type": "Article",
             "headline": "What I Refuse to Say About AI in 2026",
@@ -1897,7 +1959,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 14,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Just Split the Frontier in Two",
@@ -1932,7 +1994,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 15,
           "item": {
             "@type": "Article",
             "headline": "Why Your Perplexity Credits Vanish (and How to Make 10K Last)",
@@ -1963,7 +2025,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 16,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills: Editorial Minimalist UI System",
@@ -2021,7 +2083,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 17,
           "item": {
             "@type": "Article",
             "headline": "12 AI Projects Built by the PwA Community",
@@ -2079,7 +2141,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 18,
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)",
@@ -2144,7 +2206,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 19,
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: What Changed, and How I'll Test It",
@@ -2195,7 +2257,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 20,
           "item": {
             "@type": "Article",
             "headline": "I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.",
@@ -2255,7 +2317,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 21,
           "item": {
             "@type": "Article",
             "headline": "Source Code: The Runaway Subscribe Button",
@@ -2309,7 +2371,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 20,
+          "position": 22,
           "item": {
             "@type": "Article",
             "headline": "Coding Prompts: The Runaway Subscribe Button Prompt",
@@ -2362,7 +2424,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 21,
+          "position": 23,
           "item": {
             "@type": "Article",
             "headline": "Gemini Omni Flash: Cute Videos, Serious Product Strategy, and the Future of Editable Reality",
@@ -2423,7 +2485,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 24,
           "item": {
             "@type": "Article",
             "headline": "Prompt Refiner Template",
@@ -2477,7 +2539,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 25,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared",
@@ -2545,7 +2607,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 26,
           "item": {
             "@type": "Article",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)",
@@ -2620,7 +2682,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 27,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer in May 2026: 5 Workflows I Run Every Week",
@@ -2680,7 +2742,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 28,
           "item": {
             "@type": "Article",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)",
@@ -2756,7 +2818,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 29,
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM's Framework for AI Agent Context Engineering",
@@ -2841,7 +2903,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 30,
           "item": {
             "@type": "Article",
             "headline": "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
@@ -2918,7 +2980,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 31,
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM’s Framework for AI Agent Context Engineering",
@@ -2998,7 +3060,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 32,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Launches Claude For Small Business",
@@ -3093,7 +3155,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 33,
           "item": {
             "@type": "Article",
             "headline": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
@@ -3187,7 +3249,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 34,
           "item": {
             "@type": "Article",
             "headline": "Prompt: The Context Spec Generator",
@@ -3260,7 +3322,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 35,
           "item": {
             "@type": "Article",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)",
@@ -3349,7 +3411,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 36,
           "item": {
             "@type": "Article",
             "headline": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
@@ -3434,7 +3496,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 37,
           "item": {
             "@type": "Article",
             "headline": "What Is A Sandboxed Virtual Machine?",
@@ -3538,7 +3600,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 38,
           "item": {
             "@type": "Article",
             "headline": "The Exact Prompt to Fix \"My AI Tool Can't Access My Localhost\"",
@@ -3644,7 +3706,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 39,
           "item": {
             "@type": "Article",
             "headline": "Are You a Vibe Coder? Don’t Ship Straight Into the Provider Trap",
@@ -3750,7 +3812,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 40,
           "item": {
             "@type": "Article",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)",
@@ -3822,7 +3884,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 41,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills vs everything else: the matrix (2026)",
@@ -3917,7 +3979,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 42,
           "item": {
             "@type": "Article",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)",
@@ -4014,7 +4076,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 43,
           "item": {
             "@type": "Article",
             "headline": "Is GPT-5.5 Reliable For Citations? No. It’s The Worst Flagship For That Job.",
@@ -4119,7 +4181,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 44,
           "item": {
             "@type": "Article",
             "headline": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
@@ -4242,7 +4304,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 45,
           "item": {
             "@type": "Article",
             "headline": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
@@ -4332,7 +4394,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 46,
           "item": {
             "@type": "Article",
             "headline": "Everything I Can Offer You In Q2.",
@@ -4425,7 +4487,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 47,
           "item": {
             "@type": "Article",
             "headline": "Discounts for Premium Members (Q2 2026)",
@@ -4534,7 +4596,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 48,
           "item": {
             "@type": "Article",
             "headline": "I Tested Atoms, Lovable, and Replit. One of Them Solves the Problem That Kills Most Apps.",
@@ -4631,7 +4693,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 47,
+          "position": 49,
           "item": {
             "@type": "Article",
             "headline": "Save Credits in Perplexity Computer: Advanced Guide, Part 2 (2026)",
@@ -4722,7 +4784,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 48,
+          "position": 50,
           "item": {
             "@type": "Article",
             "headline": "What AI Builders Are Shipping in the PwA Community Right Now",
@@ -4808,7 +4870,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 49,
+          "position": 51,
           "item": {
             "@type": "Article",
             "headline": "Your AI Agents Are Engineers Now. Manage Them Like It.",
@@ -4890,7 +4952,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 50,
+          "position": 52,
           "item": {
             "@type": "BlogPosting",
             "headline": "The Only Prompting Guide That Works On Reasoning Models (And Our Cognition)",
@@ -5007,7 +5069,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 51,
+          "position": 53,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI.",
@@ -5107,7 +5169,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 52,
+          "position": 54,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.",
@@ -5218,7 +5280,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 53,
+          "position": 55,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Tested Perplexity Computer Hard. Here’s How I’d Save Credits Now",
@@ -5319,7 +5381,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 54,
+          "position": 56,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory",
@@ -5438,7 +5500,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 55,
+          "position": 57,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Refuse To Build A Trap",
@@ -5524,7 +5586,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 56,
+          "position": 58,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
@@ -5641,7 +5703,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 57,
+          "position": 59,
           "item": {
             "@type": "BlogPosting",
             "headline": "Cowork Connectors",
@@ -5729,7 +5791,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 58,
+          "position": 60,
           "item": {
             "@type": "Article",
             "headline": "👋 Start here",
@@ -5852,7 +5914,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 59,
+          "position": 61,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Hub",
@@ -5974,7 +6036,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 60,
+          "position": 62,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Let The AI Decide What My Users Need",
@@ -6089,7 +6151,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 61,
+          "position": 63,
           "item": {
             "@type": "BlogPosting",
             "headline": "Discounts for Premium Members — Q1 2026",
@@ -6187,7 +6249,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 62,
+          "position": 64,
           "item": {
             "@type": "BlogPosting",
             "headline": "The Tools I've Built (and What's Coming Next)",
@@ -6295,7 +6357,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 63,
+          "position": 65,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Cowork Skills - Cheat Sheet (2026)",
@@ -6378,7 +6440,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 64,
+          "position": 66,
           "item": {
             "@type": "BlogPosting",
             "headline": "Where to Deploy in 2026: Netlify, Vercel, Railway, Supabase",
@@ -6484,7 +6546,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 65,
+          "position": 67,
           "item": {
             "@type": "Article",
             "headline": "You Can't Critique AI You Haven't Built With",
@@ -6555,7 +6617,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 66,
+          "position": 68,
           "item": {
             "@type": "Article",
             "headline": "Why Substack Has No Gurus: 6 Product Decisions That Killed Guru Culture by Design",
@@ -6630,7 +6692,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 67,
+          "position": 69,
           "item": {
             "@type": "Article",
             "headline": "Valentine's App 2026 - Full Source Code",
@@ -6700,7 +6762,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 68,
+          "position": 70,
           "item": {
             "@type": "Article",
             "headline": "I Built You a Valentine's App in 33 Minutes. (Source Code Inside)",
@@ -6791,7 +6853,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 69,
+          "position": 71,
           "item": {
             "@type": "Article",
             "headline": "10 Tools I Use To Run A Bestselling Substack Publication in 2026",
@@ -6910,7 +6972,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 70,
+          "position": 72,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Choose Between Ambition And Presence",
@@ -7015,7 +7077,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 71,
+          "position": 73,
           "item": {
             "@type": "Article",
             "headline": "He Pays $10/Month for AI Music. Deletes Every Track.",
@@ -7088,7 +7150,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 72,
+          "position": 74,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Amplify Hype That Ignores Who Pays The Price",
@@ -7181,7 +7243,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 73,
+          "position": 75,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Ship Without Understanding Why It Makes Sense",
@@ -7258,7 +7320,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 74,
+          "position": 76,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Shipped Cowork in 10 Days Using Its Own AI. Here's Why That Changes Everything.",
@@ -7361,7 +7423,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 75,
+          "position": 77,
           "item": {
             "@type": "Article",
             "headline": "Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack",
@@ -7449,7 +7511,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 76,
+          "position": 78,
           "item": {
             "@type": "Article",
             "headline": "How Boris Cherny, Builder of Claude Code, Uses It",
@@ -7537,7 +7599,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 77,
+          "position": 79,
           "item": {
             "@type": "Article",
             "headline": "Recraft 101: A Creator's Guide to Building a Reusable Visual System",
@@ -7627,7 +7689,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 78,
+          "position": 80,
           "item": {
             "@type": "Article",
             "headline": "Choose Your Builder Track",
@@ -7750,7 +7812,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 79,
+          "position": 81,
           "item": {
             "@type": "Article",
             "headline": "The Complete Vibecoding & Speccoding Resource Hub",
@@ -7854,7 +7916,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 80,
+          "position": 82,
           "item": {
             "@type": "Article",
             "headline": "Vibe Coding Prompt Packs Hub",
@@ -7974,7 +8036,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 81,
+          "position": 83,
           "item": {
             "@type": "Article",
             "headline": "Design with AI",
@@ -8093,7 +8155,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 82,
+          "position": 84,
           "item": {
             "@type": "Article",
             "headline": "Build With Attitude: An Open Invitation To Vibe Coders Who Care About Building Things That Matter",
@@ -8171,7 +8233,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 83,
+          "position": 85,
           "item": {
             "@type": "Article",
             "headline": "10 Mistakes I Won't Repeat On Substack In 2026",
@@ -8249,7 +8311,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 84,
+          "position": 86,
           "item": {
             "@type": "Article",
             "headline": "ChatGPT 5.2: What It Really Changed, And Why The Internet's Take Is Mostly Wrong",
@@ -8337,7 +8399,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 85,
+          "position": 87,
           "item": {
             "@type": "Article",
             "headline": "2025's Most Absurd Product Decisions",
@@ -8414,7 +8476,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 86,
+          "position": 88,
           "item": {
             "@type": "Article",
             "headline": "AI Tools A-Z: Deep-Dives for Every Tool I've Tested (Claude, Perplexity, Replit & More)",
@@ -8539,7 +8601,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 87,
+          "position": 89,
           "item": {
             "@type": "Article",
             "headline": "Visual ASMR: How to Make Oddly Satisfying Designs With Nano Banana",
@@ -8629,7 +8691,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 88,
+          "position": 90,
           "item": {
             "@type": "Article",
             "headline": "If You Build With AI, You Need This File. And The System That Generates It.",
@@ -8750,7 +8812,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 89,
+          "position": 91,
           "item": {
             "@type": "Article",
             "headline": "What's Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.",
@@ -8840,7 +8902,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 90,
+          "position": 92,
           "item": {
             "@type": "Article",
             "headline": "How To Product-think When AI Builds At Lightning Speed",
@@ -8944,7 +9006,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 91,
+          "position": 93,
           "item": {
             "@type": "Article",
             "headline": "I Want To Hear From You, And I'll Pay You For It",
@@ -9017,7 +9079,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 92,
+          "position": 94,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
@@ -9122,7 +9184,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 93,
+          "position": 95,
           "item": {
             "@type": "Article",
             "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
@@ -9219,7 +9281,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 94,
+          "position": 96,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills Are Taking the AI Community by Storm",
@@ -9331,7 +9393,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 95,
+          "position": 97,
           "item": {
             "@type": "Article",
             "headline": "The Ultimate Vibecoding Guide From Builders Who've Shipped",
@@ -9433,7 +9495,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 96,
+          "position": 98,
           "item": {
             "@type": "Article",
             "headline": "10x Your Productivity with Perplexity Comet: 11 Use Cases from 'Nice' to 'Wow!'",
@@ -9521,7 +9583,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 97,
+          "position": 99,
           "item": {
             "@type": "Article",
             "headline": "Why Every Brand and PM Should Monitor Substack for User Insights",
@@ -9657,7 +9719,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 98,
+          "position": 100,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide",
@@ -9744,7 +9806,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 99,
+          "position": 101,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
@@ -9836,7 +9898,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 100,
+          "position": 102,
           "item": {
             "@type": "Article",
             "headline": "Where To Find Emerging Product Voices on Substack in 2025",
@@ -9922,7 +9984,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 101,
+          "position": 103,
           "item": {
             "@type": "Article",
             "headline": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
@@ -10012,7 +10074,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 102,
+          "position": 104,
           "item": {
             "@type": "Article",
             "headline": "I Analyzed Every Interaction From My First 6 Months on Substack",
@@ -10091,7 +10153,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 103,
+          "position": 105,
           "item": {
             "@type": "Article",
             "headline": "July's Top Vibecoding Reads",
@@ -10185,7 +10247,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 104,
+          "position": 106,
           "item": {
             "@type": "Article",
             "headline": "The Self-Improving Prompt System That Gets Smarter With Every Use",
@@ -10270,7 +10332,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 105,
+          "position": 107,
           "item": {
             "@type": "Article",
             "headline": "Is Your Replit Looping? This Will Help.",
@@ -10365,7 +10427,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 106,
+          "position": 108,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding Journey: I Broke Replit So You Don't Have To",
@@ -10465,7 +10527,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 107,
+          "position": 109,
           "item": {
             "@type": "Article",
             "headline": "Founders, Here's What You Need to Know About Product Launches in 2025",
@@ -10560,7 +10622,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 108,
+          "position": 110,
           "item": {
             "@type": "Article",
             "headline": "I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All",
@@ -10647,7 +10709,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 109,
+          "position": 111,
           "item": {
             "@type": "Article",
             "headline": "How I Ended Up Building a Peer-Peer Marketplace For Substack",
@@ -10747,7 +10809,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 110,
+          "position": 112,
           "item": {
             "@type": "Article",
             "headline": "How To Implement Hyper-personalization Without Creeping People Out",
@@ -10825,7 +10887,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 111,
+          "position": 113,
           "item": {
             "@type": "Article",
             "headline": "Are You a Product Person Lost on Substack? Here's the Map",
@@ -10905,7 +10967,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 112,
+          "position": 114,
           "item": {
             "@type": "Article",
             "headline": "Substack's Roadmap And Why 'No, Substack, We Don't Want Reels' Went Viral",
@@ -10982,7 +11044,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 113,
+          "position": 115,
           "item": {
             "@type": "Article",
             "headline": "19 Product Team Lessons in 4 Minutes",
@@ -11057,7 +11119,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 114,
+          "position": 116,
           "item": {
             "@type": "Article",
             "headline": "User Personas are Dead: AI-Powered User Models for 2026 and Beyond",
@@ -11132,7 +11194,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 115,
+          "position": 117,
           "item": {
             "@type": "Article",
             "headline": "The Unclickable Word That Can Save Your Career",
@@ -11216,7 +11278,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 116,
+          "position": 118,
           "item": {
             "@type": "Article",
             "headline": "When Fun Turns Predatory: Inside Temu's AI-Driven UX",
@@ -11290,7 +11352,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 117,
+          "position": 119,
           "item": {
             "@type": "Article",
             "headline": "6 Substack Lessons From a Product Manager With Zero Followers",
@@ -11375,7 +11437,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 118,
+          "position": 120,
           "item": {
             "@type": "Article",
             "headline": "5 Tips for Product Teams Implementing AI Prioritization Tools",
@@ -11448,7 +11510,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 119,
+          "position": 121,
           "item": {
             "@type": "Article",
             "headline": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
@@ -11520,7 +11582,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 120,
+          "position": 122,
           "item": {
             "@type": "Article",
             "headline": "I Built a Claude Cowork Loop That Improves Itself. Here's the Exact Setup.",
