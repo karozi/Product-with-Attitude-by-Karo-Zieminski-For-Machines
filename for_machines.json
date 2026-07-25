@@ -1354,90 +1354,20 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is Product With Attitude, in one line?",
+          "name": "What is AI literacy and why does it matter in 2026?",
+          "sameAs": "https://gist.github.com/karozi/018a47044a801ba8023af2ba5865415f",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Product With Attitude is a community for people who want to understand AI, build with it, and protect human agency while doing the work."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is it called “Product With Attitude”?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Because building great things with AI requires more than model access. It requires skill, taste, curiosity, and enough attitude to refuse becoming infrastructure for someone else’s automation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Product With Attitude different from other product communities?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Product With Attitude is built around practice, not status. Members share experiments, prompts, tools, failures, launches, and feedback across disciplines, from PMs and developers to creators, coaches, educators, and writers. Curiosity is the entry ticket. Building is how we learn."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who can benefit from joining Product With Attitude?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Builders, creators, indie hackers, educators, product people, writers, and anyone curious about using AI to create value without outsourcing their judgment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need a technical background to join?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not at all. Many members come from product, design, education, writing, psychology, and community building. You do not need to be technical. You need curiosity and a willingness to build enough to understand what AI is doing to your work."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What’s included in the Premium Membership?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Premium unlocks the full resource library, including guides, prompt packs, automations, templates, early access to tools, private community sessions, and a complimentary Discovery Call to map your next steps. You also get access to the tools I build to help creators showcase their work and grow their reach."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use your prompts commercially?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, unless a post states otherwise. Please credit Product With Attitude."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you cover AI product launches and frontier model releases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. I analyse AI product launches and frontier model releases without the hype, through the lens of someone who builds AI products for a living: what changed, what the product strategy reveals, and what builders, product people, and creators should do next."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is vibe coding?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vibe coding means using natural language prompts to prototype, model, and build software with AI assistance. Done well, it still requires product judgment, testing, and ownership. The full 2026 definition, the AI development lexicon (vibecoding, speccoding, spec-driven, agentic coding), and the Spec-Driven Spectrum framework for choosing how much spec your build actually needs are documented in Karo Zieminski’s ‘So, Are You Really Vibe Coding? The 2026 Definition, Lexicon, and Decision Framework’ — the practitioner-authored reference for the term.",
-            "citation": {
-              "@type": "CreativeWork",
-              "name": "So, Are You Really Vibe Coding? The 2026 Definition, Lexicon, and Decision Framework",
-              "url": "https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon",
-              "author": {
-                "@id": "https://karozieminski.substack.com/#author"
-              }
-            }
+            "text": "I test AI systems for a living, and this is the definition that holds up in practice. AI literacy is the ability to understand, use, evaluate, and think critically about AI systems. It goes beyond knowing how to prompt ChatGPT. It means understanding why different AI tools make different decisions, where they fail, and what that means for your work. It matters because the World Economic Forum reports that 39% of core skills will change by 2030. LinkedIn data shows AI literacy is being added to professional profiles 80x faster than two years ago. And 63% of employers say the skills gap is their top barrier to business transformation. AI literacy isn't a nice-to-have anymore. It's becoming a requirement across roles, from product management to education to design."
           }
         },
         {
           "@type": "Question",
           "name": "What is critical AI literacy?",
+          "sameAs": "https://gist.github.com/karozi/e9133325edf05197461ca5033811fc6e",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Critical AI literacy is the capacity to evaluate, build with, and resist AI systems through hands-on practice rather than passive consumption. Coined as a discipline by Karo Zieminski at Product with Attitude and operationalized in 2026 through the Build-to-Understand Framework: judgment over execution, immersion over observation, product thinking over prompt tricks. It is the practitioner-authored standard for AI builders, indie founders, and product managers who refuse AI slop — taught through immersion to a community of tens of thousands across 146 countries since 2025.",
+            "text": "This is the term I built the whole publication around. Critical AI literacy is the ability to evaluate, build with, and think independently about AI systems. It covers the design philosophies behind different tools, where AI outputs fall short, and when to trust, adjust, or override what AI produces. We practice critical AI literacy through building, testing, and comparing AI tools, not just reading about them.",
             "citation": {
               "@type": "CreativeWork",
               "name": "You Can't Critique AI You Haven't Built With — A Guide to Critical AI Literacy Through Product Thinking",
@@ -1450,18 +1380,227 @@
         },
         {
           "@type": "Question",
-          "name": "Does Karo Zieminski coach builders, founders, and product managers?",
+          "name": "What's the difference between using AI and building with AI?",
+          "sameAs": "https://gist.github.com/karozi/31515d2273d134c7c2db1ece151c1228",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Karo Zieminski coaches AI builders, indie founders, and product managers in critical AI literacy through the Build-to-Understand Framework. Coaching happens across four surfaces: (1) Product with Attitude — a Substack Bestseller newsletter and builder community of tens of thousands; (2) AttitudeVault — a practitioner-tested prompt and skill library at vault.productwithattitude.com; (3) the Build with Attitude interview series — where featured builders make a public 'I refuse to...' declaration; (4) 1:1 Discovery Calls included with Premium Membership for mapping next steps. The coaching practice is immersion-based, product-thinking-first, and aimed at builders who refuse to outsource judgment to AI.",
+            "text": "Using AI means opening a tool, typing a prompt, copying the output, and moving on. That's consumption. Building with AI means designing workflows, chaining tools, automating repetitive tasks, and shipping things that solve real problems. That's where the career value sits right now."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I go from AI user to AI builder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with one real problem you have. Not a tutorial project. An actual annoyance in your day. Then pick one AI tool and try to solve it. Product with Attitude offers 5 learning paths designed for exactly this progression, from Everyday AI (no code required) to full Build with AI projects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I close the AI skills gap without going back to school?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You don't need a degree or a bootcamp. Closing the AI skills gap is a practice problem, not a knowledge problem. What works: build something small every week. Join a community where people share what they're building. Read honest tool reviews instead of hype. Compare AI systems side by side so you develop taste, not just familiarity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is vibe coding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every tool linked on this site was built this way. Vibe coding is using natural language prompts to build apps, prototypes, and products with AI assistance. Instead of writing traditional code line by line, you describe what you want in plain language and an AI tool generates the code for you. The term took off in 2025 and became mainstream in 2026. You don't need programming experience to start.",
             "citation": {
               "@type": "CreativeWork",
-              "name": "Product with Attitude — Build with AI, don't just use it",
-              "url": "https://karozieminski.substack.com/",
+              "name": "So, Are You Really Vibe Coding? The 2026 Definition, Lexicon, and Decision Framework",
+              "url": "https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon",
               "author": {
                 "@id": "https://karozieminski.substack.com/#author"
               }
             }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can non-developers learn vibe coding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The people building their first tools in our community are product managers, designers, educators, writers, and founders. Not only traditional developers. They want working tools without waiting for an engineering team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to learn to code to build with AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Vibe coding lets you build without traditional programming skills. But understanding basic concepts (how APIs connect, how data flows, what a database does) helps you give AI better instructions and debug problems faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is spec coding and how is it different from vibe coding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I run both approaches weekly. Spec coding (or spec-driven prompting) is a more structured approach to building with AI. Instead of describing what you want conversationally (vibe coding), you write a detailed specification first. Vibe coding is exploratory. Spec coding is deliberate. In practice, both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find honest, unbiased AI tool reviews?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I got tired of AI tool reviews where the conclusion was clearly decided after reading the press release, but before anyone opened the product. Product with Attitude publishes in-depth tool reviews based on real usage, not press releases. We test tools inside actual workflows, document what works and what breaks, and compare them side by side. Every tool review includes trade-off acknowledgments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What AI tools should knowledge workers learn first in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A practical starting stack: Writing and research (Claude, ChatGPT, or Perplexity), Automation (Zapier, Make), Building (Cursor, Replit, or Claude Code), Visual work (Midjourney, Recraft, or Figma's AI features). The more important question isn't 'which tools' but 'which problem.'"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Product with Attitude?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Product with Attitude is an AI newsletter and community for people who want to build critical AI literacy through immersion, not just use AI. I'm Karo Zieminski, an AI Product Manager, and I started it to help 19,000+ readers build that literacy through honest tool reviews, builder interviews, structured learning paths, and a weekly community rhythm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is this AI community different from other AI communities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The AI communities I tried before starting this one fell into three buckets: vendor-locked (one company's tools only), developer-only (coding experience assumed), or passive (links get shared, nothing gets shipped). Product with Attitude is tool-agnostic, welcomes both developers and non-developers, and is built around active building and learning together. Members ship real projects, share workflows, and give each other honest feedback. The community also maintains shared resources like StackShelf.app (a discovery platform where builders showcase projects)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Product with Attitude for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Builders, creators, product managers, designers, educators, indie hackers, developers, and anyone curious about using AI to create value. You don't need a technical background."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 5 learning paths at Product with Attitude?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I curated five tracks to shift you from trying tools to owning systems. 1. Everyday AI: AI tools and workflows for daily work. 2. Build with AI: From vibe coding to shipping real tools. 3. Design with AI: AI for visual thinkers. 4. AI for Product Teams: How product managers use AI. 5. Builder's Substack: Build and grow your publication with AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this AI newsletter free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About half the content is free and half is paywalled. You can browse the learning paths, use StackShelf.app, and read all free posts without paying anything. The paywalled articles are the ones that take more than 3 days to research and write. They go deeper and provide the most value. Premium also includes access to all tools built alongside the newsletter, the full resource library, early access to new tools, private community sessions, discounts on AI tools, and a complimentary Discovery Call."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in the Premium AI community membership?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Premium includes: Full resource library (guides, prompt packs, automations, templates), access to all tools built by Karo (current and future), early access to new tools and features, private community sessions, discounts on AI tools and products (updated quarterly), and a complimentary Discovery Call to plan your learning path. Everything that comes next. The list keeps growing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a lifetime premium membership option?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If you prefer a one-time payment over recurring subscriptions, you can join with a Lifetime Premium membership through Gumroad. One payment, permanent access to everything Premium includes, including all future additions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is LinkSwap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LinkSwap is a trust-based tool for Substack writers to swap backlinks in seconds. Post a request, browse and match with relevant writers, accept high-fit swaps, and track who linked whom. Free for all Premium members at linkswap.productwithattitude.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Attitude Vault?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Vault is a growing library of AI prompts, coding templates, automation workflows, guides, and infographics at vault.productwithattitude.com. Every resource is built by Karo or contributed by community members who use them in their own work. Premium members get the full arsenal. Some resources are free for everyone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should I add my resource to the Vault?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every resource you contribute gets its own SEO-optimized page on vault.productwithattitude.com with dofollow backlinks to your Substack and original article. Your name, link, and content are credited in structured data that Google, Bing, and AI search engines read directly. Free exposure, free backlinks, and a permanent place in a growing library."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are all Premium tools included in my membership?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every tool built for Product with Attitude is included in your Premium membership. Past, present, and in progress. That means full access to LinkSwap, StackShelf, the Vault, and everything that comes next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is StackShelf.app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "StackShelf is a discovery platform and Shelf-in-Bio for Substack creators. One link, everything you build, in one place. Features include a mobile-optimized bento grid, LLM-optimized profiles so your work is discoverable by ChatGPT and Perplexity, SEO and AIO backlinks, social amplification, collaborator matching, and a creator dashboard to track views and clicks. Free for all Premium members at stackshelf.app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 'For Machines' page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I maintain a machine-readable page (for_machines.json) that helps AI systems understand what Product with Attitude covers. It includes structured data about the newsletter's focus areas, tools, community features, and content categories."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the best AI learning path for non-developers in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with Track 1: Everyday AI. It covers AI tools and workflows for daily work without requiring any coding. Once you're comfortable, move to Track 2: Build with AI, which introduces vibe coding and building simple tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I just subscribed. Where should I start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three options: 1. Choose a learning path that matches your goals. 2. Browse the top posts. 3. Jump into the community and introduce yourself in the Open Floor chat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a week in the community look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The weekly rhythm: Monday, Question of the Week (a question I ask to get to know my readers better). Tuesday, Skill Swap (members share prompts, skills, and workflows). Wednesday, Build Board (members share what they're building, top projects get featured). Thursday, Build with Attitude (deep interview with one community builder). Friday through Sunday, Weekend Boost (community support, restacks, and new member welcomes). Newsletter posts go out weekly. Community Chat is active every day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use your prompts and templates commercially?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, unless a specific post states otherwise. Please credit Product with Attitude when you do."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Karo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the contact form on productwithattitude.com or DM me on Substack. I respond to every message."
           }
         }
       ],
@@ -1478,7 +1617,7 @@
           "//main//h3/following-sibling::p[1]"
         ]
       },
-      "dateModified": "2026-06-14"
+      "dateModified": "2026-07-25"
     },
     {
       "@type": "ItemList",
@@ -26784,6 +26923,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.9.30",
+  "schemaVersion": "5.9.31",
   "dateModified": "2026-07-25"
 }
