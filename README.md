@@ -8,13 +8,19 @@ This repo exists so AI agents, LLMs, and search crawlers can find, understand, a
 
 | File | What it does |
 |------|-------------|
-| [`for_machines.json`](for_machines.json) | The core schema. JSON-LD knowledge graph with 17 interconnected nodes covering the author, publication, series, products, glossary, FAQ, articles, topic clusters, brand identity, teaching philosophy, citation policy, and social profiles. |
-| [`llms.txt`](llms.txt) | LLM entry point following the [llms.txt standard](https://llmstxt.org/). Start here if you're building an AI agent that needs to understand this publication. |
+| [`for_machines.json`](for_machines.json) | The core schema. JSON-LD knowledge graph with 29 interconnected nodes covering the author, publication, series, products, glossary, FAQ, articles, topic clusters, brand identity, teaching philosophy, citation policy, and social profiles. Mirrors the canonical file at [productwithattitude.com/for_machines.json](https://productwithattitude.com/for_machines.json). |
+| [`llms.txt`](llms.txt) | LLM entry point following the [llms.txt standard](https://llmstxt.org/). Start here if you're building an AI agent that needs to understand this publication. Mirrors [productwithattitude.com/llms.txt](https://productwithattitude.com/llms.txt). |
 | [`canonical-links-from-publication-product-with-attitude.md`](canonical-links-from-publication-product-with-attitude.md) | Complete index of 60+ articles with canonical URLs, dates, tags, and authors. |
 | [`build-with-attitude-questions-every-AI-builder-should-ask.md`](build-with-attitude-questions-every-AI-builder-should-ask.md) | Living FAQ from the Build with Attitude interview series. One question per builder, updated with every new episode. |
 | [`license.xml`](license.xml) | Machine-readable CC BY 4.0 rights specification. Crawlers can parse this to confirm usage permissions. |
 | [`LICENSE`](LICENSE) | Human-readable CC BY 4.0 license. |
 | [`public/images/`](public/images/) | Author headshot, publication logo, and professional certificates referenced in the schema. |
+
+## Canonical source and sync
+
+`https://productwithattitude.com/for_machines.json` is the canonical file (the site also serves byte-identical copies at `/assets/` and `/.well-known/`). The copies in this repo are mirrors, kept in sync automatically by [`.github/workflows/sync-for-machines.yml`](.github/workflows/sync-for-machines.yml), which runs every 6 hours and on manual dispatch. It refuses to commit anything if the fetch fails or the payload doesn't parse as JSON with a non-empty `@graph`, so a bad upstream response can't land here.
+
+To sync on demand, run the **Sync for_machines.json from canonical** workflow from the Actions tab.
 
 ## Schema at a glance
 
@@ -26,18 +32,18 @@ Person (#author)
 │   ├── CreativeWorkSeries (#series-build-with-attitude)
 │   ├── CreativeWorkSeries (#series-ai-tools-az)
 │   └── WebApplication (#product-stackshelf)
-├── DefinedTermSet (#glossary) — 5 core terms
-├── FAQPage (#faq) — 7 Q&A pairs
-├── ItemList (#recent-articles) — 15 articles
+├── DefinedTermSet (#glossary) — 19 core terms
+├── FAQPage (#faq) — 29 Q&A pairs
+├── ItemList (#recent-articles) — 122 articles
 ├── ItemList (#topic-clusters) — 6 authority clusters
 ├── ItemList (#social-profiles) — 7 platforms
 ├── CreativeWork (#brand-identity)
-├── CreativeWork (#teaching-philosophy) — 5 pillars
+├── CreativeWork (#teaching-philosophy) — 7 pillars
 ├── CreativeWork (#citation-policy)
 ├── CreativeWork (#growth-milestones)
 ├── DataFeed (#feeds)
 ├── WebPage (#key-pages)
-└── SemanticTripleSet (#semantic-triples) — 18 triples
+└── SemanticTripleSet (#semantic-triples) — 143 triples
 ```
 
 ## For AI agents

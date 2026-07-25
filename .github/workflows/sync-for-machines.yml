@@ -1,0 +1,59 @@
+name: Sync for_machines.json from canonical
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and validate canonical files
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/canonical"
+
+          curl -fsSL --retry 3 --retry-delay 5 --max-time 120 \
+            -o "$RUNNER_TEMP/canonical/for_machines.json" \
+            https://productwithattitude.com/for_machines.json
+
+          jq -e 'has("@graph") and (.["@graph"] | type == "array") and (.["@graph"] | length > 0)' \
+            "$RUNNER_TEMP/canonical/for_machines.json" > /dev/null
+
+          curl -fsSL --retry 3 --retry-delay 5 --max-time 120 \
+            -o "$RUNNER_TEMP/canonical/llms.txt" \
+            https://productwithattitude.com/llms.txt
+
+          # An SPA fallback would return HTML with a 200; reject it.
+          if [ ! -s "$RUNNER_TEMP/canonical/llms.txt" ] || head -c 512 "$RUNNER_TEMP/canonical/llms.txt" | grep -qi "<!doctype html\|<html"; then
+            echo "Canonical llms.txt is empty or an HTML fallback" >&2
+            exit 1
+          fi
+
+      - name: Sync, commit and push if changed
+        run: |
+          set -euo pipefail
+          changed=""
+          for f in for_machines.json llms.txt; do
+            if ! cmp -s "$RUNNER_TEMP/canonical/$f" "$f"; then
+              cp "$RUNNER_TEMP/canonical/$f" "$f"
+              changed="$changed $f"
+            fi
+          done
+
+          if [ -z "$changed" ]; then
+            echo "Already in sync with productwithattitude.com"
+            exit 0
+          fi
+
+          version="$(jq -r '.schemaVersion // "unknown"' for_machines.json)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $changed
+          git commit -m "sync: mirror canonical productwithattitude.com graph — v${version} (${changed# })"
+          git push
