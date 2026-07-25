@@ -1334,9 +1334,16 @@
         },
         {
           "@type": "DataFeedItem",
+          "name": "Machine-readable Graph (canonical)",
+          "url": "https://productwithattitude.com/for_machines.json",
+          "encodingFormat": "application/ld+json",
+          "description": "Canonical machine-readable graph. Byte-identical same-origin copies are served at https://productwithattitude.com/assets/for_machines.json and https://productwithattitude.com/.well-known/for_machines.json"
+        },
+        {
+          "@type": "DataFeedItem",
           "name": "For-Machines GitHub Repository",
           "url": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines",
-          "description": "Machine-readable structured data, canonical links, schema, and llms.txt"
+          "description": "Auto-synced public mirror of the canonical graph, pulled from https://productwithattitude.com/for_machines.json every 6 hours. Also holds canonical links, license.xml, and llms.txt. Not the source of truth"
         },
         {
           "@type": "DataFeedItem",
@@ -12175,7 +12182,7 @@
           "item": {
             "@type": "ProfilePage",
             "url": "https://github.com/karozi/Product-with-Attitude-by-Karo-Zieminski-For-Machines",
-            "description": "Machine-readable index of the publication. JSON-LD schemas, llms.txt, canonical links, and structured metadata for AI agents."
+            "description": "Auto-synced public mirror of the publication's machine-readable index, pulled from the canonical https://productwithattitude.com/for_machines.json every 6 hours. JSON-LD schemas, llms.txt, canonical links, and structured metadata for AI agents."
           }
         }
       ]
