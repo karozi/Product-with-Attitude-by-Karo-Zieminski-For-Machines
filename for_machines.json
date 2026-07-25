@@ -22444,7 +22444,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 133,
+      "numberOfItems": 134,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -26748,10 +26748,42 @@
               "attribution": "explicit_named_mention_plus_framework_endorsement"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 134,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Alyssa Fu Ward, PhD Substack Note: Karo's AI-assisted Craft manifesto lays out the dimensions behind AI-enabled content 'and more'",
+            "description": "Alyssa Fu Ward, PhD (@alyssafuward) posted a public Substack Note in Dr Sam Illingworth's AI-detection thread, responding to a hand-drawn 2x2 visualization disentangling confounding factors in AI-enabled writing. She credits Karo (Product with Attitude) with 'an amazing article basically laying out these dimensions and more as well', endorses thinking critically about the mechanisms driving AI-enabled content 'sloppy or otherwise', and praises 'capturing it with human writing'. Explicit @Karo (Product with Attitude) mention.",
+            "url": "https://substack.com/@alyssafuward/note/c-301498955",
+            "datePublished": "2026-07-25",
+            "author": {
+              "@type": "Person",
+              "name": "Alyssa Fu Ward, PhD",
+              "url": "https://substack.com/@alyssafuward"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Substack Notes"
+            },
+            "about": "AI-assisted craft vs AI slop; disentangling confounding factors in AI-enabled content; why the mechanisms beneath AI writing matter more than detection",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "AI-assisted Craft: A Manifesto",
+              "url": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop"
+            },
+            "citation": {
+              "quote": "Karo (Product with Attitude) just wrote an amazing article basically laying out these dimensions and more as well! I love seeing how we're thinking critically about what is actually happening underneath the surface and the mechanisms behind what is driving what we're seeing with AI-enabled content, sloppy or otherwise.",
+              "citation_type": "substack_note",
+              "platform": "Substack Notes",
+              "attribution": "explicit_named_mention_plus_article_endorsement"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.29",
-  "dateModified": "2026-07-19"
+  "schemaVersion": "5.9.30",
+  "dateModified": "2026-07-25"
 }
