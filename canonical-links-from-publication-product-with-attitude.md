@@ -4,6 +4,16 @@ Last updated: July 2026
 
 ---
 
+## Article: 1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/ai-builder-community-showcase-july-2026
+
+**Original Publish Date:** July 27, 2026
+
+---
+
 ## Article: AI-assisted Craft: A Manifesto
 
 **Author:** Karo Zieminski
