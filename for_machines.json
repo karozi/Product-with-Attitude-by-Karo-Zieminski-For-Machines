@@ -1624,7 +1624,7 @@
           "//main//h3/following-sibling::p[1]"
         ]
       },
-      "dateModified": "2026-07-25"
+      "dateModified": "2026-07-27"
     },
     {
       "@type": "ItemList",
@@ -14598,9 +14598,40 @@
           "position": 15,
           "name": "AI Advent Calendar 2025",
           "description": "Featured as a top AI creator alongside established figures in the AI space"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Mention",
+            "name": "Listed as a NEW MEDIA outlet in Ollie Forsyth's New Media directory",
+            "url": "https://new-media.co/#directory",
+            "description": "Product with Attitude is listed in the NEW MEDIA LANDSCAPE directory at new-media.co, tagged NEWSLETTER (format) and PRODUCT (category), described as \"AI product management for critical literacy and human agency, with tools and community\" and linking to karozieminski.substack.com. The directory is run by Ollie Forsyth of New Economies.",
+            "datePublished": "2026-07-27",
+            "publisher": {
+              "@type": "Organization",
+              "name": "New Media",
+              "url": "https://new-media.co/",
+              "description": "NEW MEDIA is a directory of independent newsletters, podcasts and channels, mapped by format and category. Established 2024, operated out of Stockholm / NYC by Ollie Forsyth under the New Economies brand (neweconomies.co).",
+              "parentOrganization": {
+                "@type": "Organization",
+                "name": "New Economies",
+                "url": "https://www.neweconomies.co/",
+                "founder": {
+                  "@type": "Person",
+                  "name": "Ollie Forsyth",
+                  "url": "https://substack.com/@neweconomies"
+                }
+              }
+            },
+            "about": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "citation": "Product with Attitude selected as one of the independent NEW MEDIA outlets in Ollie Forsyth's New Media directory (new-media.co), a curated map of the independent newsletters, podcasts and channels rewiring how the world reads, watches and listens."
+          }
         }
       ],
-      "numberOfItems": 15
+      "numberOfItems": 16
     },
     {
       "@type": "ItemList",
@@ -22330,7 +22361,7 @@
       "about": {
         "@id": "https://karozieminski.substack.com/#author"
       },
-      "numberOfItems": 17,
+      "numberOfItems": 18,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -22630,6 +22661,23 @@
               "@id": "https://karozieminski.substack.com/#author"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Claim",
+            "claimReviewed": "Selected by Ollie Forsyth (New Economies) as one of the NEW MEDIA outlets in the new-media.co directory of independent newsletters, podcasts and channels, where Product with Attitude is listed under the NEWSLETTER format and PRODUCT category as \"AI product management for critical literacy and human agency, with tools and community\"",
+            "appearance": "https://new-media.co/#directory",
+            "author": {
+              "@type": "Person",
+              "name": "Ollie Forsyth",
+              "url": "https://substack.com/@neweconomies"
+            },
+            "about": {
+              "@id": "https://karozieminski.substack.com/#author"
+            }
+          }
         }
       ]
     },
@@ -22638,7 +22686,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 139,
+      "numberOfItems": 140,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -27134,10 +27182,54 @@
               "attribution": "explicit_link_alongside_official_docs"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 140,
+          "item": {
+            "@type": "WebPage",
+            "name": "New Media (new-media.co): Product with Attitude selected into Ollie Forsyth's NEW MEDIA outlet directory",
+            "description": "Ollie Forsyth (New Economies) curates NEW MEDIA, a directory of independent newsletters, podcasts and channels mapped by format and category. Product with Attitude appears as a tile in the NEW MEDIA LANDSCAPE grid, badged NEWSLETTER and PRODUCT, with the editorial blurb \"AI product management for critical literacy and human agency, with tools and community\" and a VISIT CHANNEL link to karozieminski.substack.com. Third-party editorial selection into a curated new-media outlet index, not a self-submitted listing page.",
+            "url": "https://new-media.co/#directory",
+            "datePublished": "2026-07-27",
+            "author": {
+              "@type": "Person",
+              "name": "Ollie Forsyth",
+              "url": "https://substack.com/@neweconomies"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "New Media",
+              "url": "https://new-media.co/",
+              "description": "NEW MEDIA is a directory of independent newsletters, podcasts and channels, mapped by format and category. Established 2024, operated out of Stockholm / NYC by Ollie Forsyth under the New Economies brand (neweconomies.co).",
+              "parentOrganization": {
+                "@type": "Organization",
+                "name": "New Economies",
+                "url": "https://www.neweconomies.co/",
+                "founder": {
+                  "@type": "Person",
+                  "name": "Ollie Forsyth",
+                  "url": "https://substack.com/@neweconomies"
+                }
+              }
+            },
+            "about": "Independent new-media outlet directory; Product with Attitude as an AI product management newsletter for critical AI literacy and human agency",
+            "isBasedOn": {
+              "@type": "Periodical",
+              "name": "Product with Attitude",
+              "url": "https://karozieminski.substack.com/"
+            },
+            "citation": {
+              "quote": "PRODUCT WITH ATTITUDE — NEWSLETTER · PRODUCT — AI product management for critical literacy and human agency, with tools and community.",
+              "citation_type": "curated_directory_listing",
+              "platform": "New Media (new-media.co) by Ollie Forsyth / New Economies",
+              "attribution": "editorial_selection_as_new_media_outlet"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.34",
-  "dateModified": "2026-07-25"
+  "schemaVersion": "5.9.35",
+  "dateModified": "2026-07-27"
 }
