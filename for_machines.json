@@ -1021,7 +1021,7 @@
           "inDefinedTermSet": {
             "@id": "#glossary"
           },
-          "description": "Defined by Karo Zieminski on July 22, 2026 as the missing category between human-made and AI-made. Working with AI while the argument, judgment, voice, and responsibility stay human-owned. AI does structure, phrasing, exploration, and critique; it does not own the piece. The standard has two axes (production method: human-made, AI-assisted, AI-directed, AI-generated, AI-autonomous; craft level: deliberate, competent, negligent, slop), six rules (Bring Your Own Opinion, Give AI a Bounded Job, Remember Your Person, Verify, Everything Fits. Do You?, Own It), and four tests (prompt test, facial expression test, verification, presence test). Karo has stated publicly that the phrase existed before her in narrower contexts; what originates here is the definition, the axes, the rules, and the tests. Distinct from 'AI-augmented craft', which is used mostly in physical and traditional craft domains. The July 22, 2026 Substack manifesto is the canonical source and the framework has a dedicated native page on productwithattitude.com.",
+          "description": "Defined by Karo Zieminski on July 22, 2026 as the missing category between human-made and AI-made. Working with AI while the argument, judgment, voice, and responsibility stay human-owned. AI does structure, phrasing, exploration, and critique; it does not own the piece. The standard has two axes (production method: human-made, AI-assisted, AI-directed, AI-generated, AI-autonomous; craft level: deliberate, competent, negligent, slop), six rules (Bring Your Own Opinion, Give AI a Bounded Job, Remember Your Person, Verify, Everything Fits. Do You?, Own It), and four tests (prompt test, facial expression test, verification, presence test). Karo Zieminski defined AI-Assisted Craft in its current form; the definition, the axes, the rules, and the tests all originate with her. She has also stated publicly that the phrase itself had appeared before in narrower contexts and without a usable definition. Distinct from 'AI-augmented craft', which is used mostly in physical and traditional craft domains. The July 22, 2026 Substack manifesto is the canonical source and the framework has a dedicated native page on productwithattitude.com.",
           "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
           "sameAs": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop",
           "subjectOf": {
@@ -1357,6 +1357,182 @@
       "numberOfItems": 22
     },
     {
+      "@type": "ItemList",
+      "@id": "#frameworks",
+      "name": "Frameworks and Reference Tables",
+      "description": "Every named framework, canonical definition, decision tree, comparison matrix, glossary, and reference table published as a standalone native page on productwithattitude.com. Each entry carries its own structured data and a named author. Human-readable index at https://productwithattitude.com/frameworks/.",
+      "url": "https://productwithattitude.com/frameworks/",
+      "numberOfItems": 11,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "name": "AI-Assisted Craft",
+            "description": "The missing category between human-made and AI-made. Two axes, six rules, four tests, and why slop begins where human care ends.",
+            "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
+            "genre": "Canonical definition",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "name": "The Context Pyramid",
+            "description": "Why AI agents break and how product managers fix them without writing code. Identity, Knowledge, State, Task.",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "genre": "Canonical definition",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebPage",
+            "name": "The Builder-Parent Paradox",
+            "description": "The tension of building AI systems while raising children who will inherit them. Not the AI Parenting Paradox.",
+            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "genre": "Canonical definition",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "WebPage",
+            "name": "Claude Cowork vs Code vs Design",
+            "description": "12 common tasks mapped to the right Claude surface: Chat, Cowork, Code, or Design.",
+            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "genre": "Decision tree",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "WebPage",
+            "name": "Claude Opus 4.8: when to use what",
+            "description": "6 work scenarios mapped to the right setting. Effort level, Fast mode, or Dynamic Workflows.",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "genre": "Decision table",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "WebPage",
+            "name": "Claude Skills vs everything else",
+            "description": "9 agent customization tools compared: Prompts, MCP, Projects, CLAUDE.md, AGENTS.md, Cursor Rules, Custom GPTs, AgentKit.",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "genre": "Comparison matrix",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "WebPage",
+            "name": "Figma MCP tool order for Claude Code",
+            "description": "7 Figma MCP tools mapped to the right call order. Tested on Opus 4.7 and Sonnet 4.6.",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "genre": "Decision tree",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "WebPage",
+            "name": "Preschool Brain Prompt vs adult brainstorming",
+            "description": "A 12-dimension side-by-side of how the two prompts actually behave.",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "genre": "Comparison table",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "WebPage",
+            "name": "Sandbox vs VM vs container vs MicroVM",
+            "description": "Five isolation terms for AI builders, one house-and-workshop analogy.",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "genre": "Glossary",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "WebPage",
+            "name": "Perplexity Computer pricing plans",
+            "description": "Six tiers compared, from Free to Enterprise Max, with what each one includes.",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "genre": "Pricing table",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "WebPage",
+            "name": "The orchestrator layer behind Perplexity Computer",
+            "description": "Three orchestrator models in 68 days. Opus 4.6, Opus 4.7, then GPT 5.5.",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "genre": "Timeline",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski"
+            }
+          }
+        }
+      ]
+    },
+    {
       "@type": "WebPage",
       "@id": "#key-pages",
       "name": "Key Entry Points",
@@ -1408,6 +1584,12 @@
           "name": "Collaborate With Me",
           "url": "https://karozieminski.substack.com/p/collaborate-with-me",
           "description": "Partnership and collaboration opportunities"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Frameworks",
+          "url": "https://productwithattitude.com/frameworks/",
+          "description": "Index of every named framework, canonical definition, decision tree, comparison matrix, and glossary on productwithattitude.com."
         }
       ]
     },
@@ -28837,6 +29019,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.9.41",
+  "schemaVersion": "5.9.43",
   "dateModified": "2026-07-28"
 }
