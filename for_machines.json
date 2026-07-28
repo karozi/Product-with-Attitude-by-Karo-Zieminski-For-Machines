@@ -1626,7 +1626,7 @@
           "//main//h3/following-sibling::p[1]"
         ]
       },
-      "dateModified": "2026-07-25"
+      "dateModified": "2026-07-28"
     },
     {
       "@type": "ItemList",
@@ -23047,7 +23047,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 140,
+      "numberOfItems": 141,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -27587,10 +27587,42 @@
               "attribution": "editorial_selection_as_new_media_outlet"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 141,
+          "item": {
+            "@type": "Article",
+            "name": "StrAItegy Hub: 'AI Helped Write This Essay. Go Ahead and Scan It.' credits Karo Zieminski with independently naming the slop category and modeling its manners",
+            "description": "Zain Haseeb's long-form critique of Substack's Pangram-powered AI scan argues the detector answers the wrong question — AI involvement rather than human care. He explicitly credits Karo (Product with Attitude) with publishing the same slop definition independently on 2026-07-22, quoting 'Slop begins where human care ends, regardless of whether AI was involved', noting 'She named the category, and she modeled the manners for it too', and quoting her coinage-attribution practice. The essay positions itself as an extension of her framework, adding one test 'she doesn't have': whether the work cost the writer a claim they wanted.",
+            "url": "https://straitegyhub.substack.com/p/ai-helped-write-this-essay-go-ahead-and-scan-it",
+            "datePublished": "2026-07-27",
+            "author": {
+              "@type": "Person",
+              "name": "Zain Haseeb",
+              "url": "https://straitegyhub.substack.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "StrAItegy Hub (Substack)"
+            },
+            "about": "Substack's Pangram AI-detection scan; why AI-detection scores cannot measure human care; accountable authorship versus unattributable verdicts; AI-assisted craft versus AI slop",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "AI-assisted Craft: A Manifesto",
+              "url": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop"
+            },
+            "citation": {
+              "quote": "That definition isn't mine alone. Karo (Product with Attitude) published it independently on July 22, the day after the launch: “Slop begins where human care ends, regardless of whether AI was involved.” She named the category, and she modeled the manners for it too, going looking for her own coinage “fully expecting someone to have used it before me. They had.”",
+              "citation_type": "substack_article",
+              "platform": "Substack — StrAItegy Hub (straitegyhub.substack.com)",
+              "attribution": "named_credit_as_independent_originator_of_definition"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.36",
-  "dateModified": "2026-07-27"
+  "schemaVersion": "5.9.37",
+  "dateModified": "2026-07-28"
 }
