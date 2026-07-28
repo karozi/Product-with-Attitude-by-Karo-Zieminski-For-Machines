@@ -21,20 +21,39 @@ jobs:
           python-version: "3.12"
       - name: Run schema completeness linter
         run: python3 schema_lint.py for_machines.json
-      - name: Claim capsule budget report
-        # Non-blocking while the corpus is backfilled.
-        # Flip --fail-on none -> error once the 40 errors are cleared,
-        # then -> warn once the whole corpus fits 150 chars.
+      - name: Claim capsule budget gate
+        # ENFORCING as of 2026-07-28. The corpus was backfilled to zero in two
+        # batches (40 errors, then 141 warnings), so any finding here is new
+        # debt introduced by the most recent change, not inherited debt.
+        #
+        # If this fails: a claim is over 150 chars, opens on a bare pronoun, or
+        # buries its subject behind a lead-in clause. Run locally for the fix list:
+        #   python3 scripts/claim_capsule_lint.py --suggest for_machines.json
+        # Then repair at the source that generates the claim, not just here.
+        #
+        # This job does not gate deploys. pwa-site ships through Netlify
+        # independently, so a red run is a signal, never a blocked publish.
         run: |
-          python3 scripts/claim_capsule_lint.py --suggest --fail-on none for_machines.json \
+          set +e
+          python3 scripts/claim_capsule_lint.py --suggest --fail-on warn for_machines.json \
             | tee capsule-report.txt
+          STATUS=${PIPESTATUS[0]}
+          set -e
           {
             echo '## Claim capsule budget'
+            if [ "$STATUS" -eq 0 ]; then
+              echo 'Clean. Every claim fits 150 chars with a front-loaded subject.'
+            else
+              echo 'FAILING. New claims breach the snippet budget.'
+              echo 'Fix list below, or run `python3 scripts/claim_capsule_lint.py --suggest` locally.'
+            fi
             echo '```'
             head -n 120 capsule-report.txt
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
+          exit "$STATUS"
       - name: Upload capsule report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: claim-capsule-report
