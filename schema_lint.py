@@ -13,9 +13,15 @@ Required per-article fields (the AIO/GEO surface area that broke):
     - description OR alternativeHeadline   (human + AI summary)
     - speakable                            (voice/answer extraction)
     - pwa:extractableClaims OR >=1 entry in #extractable-claims  (citable claims)
-Exit code 0 = clean, 1 = at least one article has a gap.
+
+Also checks (added 2026-07-27):
+    - version drift: llms.txt '# Version:' header and 'schema_version:' block
+      must match for_machines.json schemaVersion (the 5.9.34-vs-5.9.35 drift class)
+
+Exit code 0 = clean, 1 = at least one article has a gap or versions drift.
+To repair gaps, run: python3 scripts/schema_backfill.py --data <extracted.json>
 """
-import json, sys
+import json, os, re, sys
 
 REQUIRED_DESC = ("description", "alternativeHeadline")  # at least one
 
@@ -60,14 +66,31 @@ def lint(path):
             })
     return len(arts), gaps
 
+def lint_version_drift(schema_path):
+    """Compare schemaVersion against llms.txt version markers, if llms.txt is nearby."""
+    llms_path = os.path.join(os.path.dirname(os.path.abspath(schema_path)), "llms.txt")
+    if not os.path.exists(llms_path):
+        return []
+    version = json.load(open(schema_path)).get("schemaVersion")
+    text = open(llms_path, encoding="utf-8").read()
+    drift = []
+    for label, pattern in (("# Version:", r"^# Version:\s*(\S+)"),
+                           ("schema_version:", r"^schema_version:\s*(\S+)")):
+        m = re.search(pattern, text, re.M)
+        if m and m.group(1) != version:
+            drift.append(f"llms.txt {label} {m.group(1)} != for_machines.json schemaVersion {version}")
+    return drift
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     as_json = "--json" in sys.argv
     path = args[0] if args else "for_machines.json"
     total, gaps = lint(path)
+    drift = lint_version_drift(path)
 
     if as_json:
-        print(json.dumps({"total": total, "gaps": gaps, "clean": not gaps}, indent=2, ensure_ascii=False))
+        print(json.dumps({"total": total, "gaps": gaps, "version_drift": drift,
+                          "clean": not (gaps or drift)}, indent=2, ensure_ascii=False))
     else:
         print(f"Schema lint: {path}")
         print(f"  Articles checked: {total}")
@@ -77,7 +100,10 @@ def main():
             print(f"  ❌ {len(gaps)} article(s) with gaps:")
             for gp in sorted(gaps, key=lambda x: x["date"], reverse=True):
                 print(f"    {gp['date']}  [{', '.join(gp['missing'])}]  {gp['headline']}")
-    sys.exit(1 if gaps else 0)
+            print("  Repair: python3 scripts/schema_backfill.py --data <extracted.json>")
+        for d in drift:
+            print(f"  ❌ Version drift: {d}")
+    sys.exit(1 if (gaps or drift) else 0)
 
 if __name__ == "__main__":
     main()
