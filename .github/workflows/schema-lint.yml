@@ -1,9 +1,15 @@
 name: Schema completeness lint
 on:
   push:
-    paths: ["for_machines.json", "schema_lint.py"]
+    paths:
+      - "for_machines.json"
+      - "schema_lint.py"
+      - "scripts/claim_capsule_lint.py"
   pull_request:
-    paths: ["for_machines.json", "schema_lint.py"]
+    paths:
+      - "for_machines.json"
+      - "schema_lint.py"
+      - "scripts/claim_capsule_lint.py"
   workflow_dispatch:
 jobs:
   lint:
@@ -15,3 +21,21 @@ jobs:
           python-version: "3.12"
       - name: Run schema completeness linter
         run: python3 schema_lint.py for_machines.json
+      - name: Claim capsule budget report
+        # Non-blocking while the corpus is backfilled.
+        # Flip --fail-on none -> error once the 40 errors are cleared,
+        # then -> warn once the whole corpus fits 150 chars.
+        run: |
+          python3 scripts/claim_capsule_lint.py --suggest --fail-on none for_machines.json \
+            | tee capsule-report.txt
+          {
+            echo '## Claim capsule budget'
+            echo '```'
+            head -n 120 capsule-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload capsule report
+        uses: actions/upload-artifact@v4
+        with:
+          name: claim-capsule-report
+          path: capsule-report.txt
