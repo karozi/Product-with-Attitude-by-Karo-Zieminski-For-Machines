@@ -4,6 +4,25 @@ Last updated: July 2026
 
 ---
 
+## Article: 5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/agentic-commerce-protocols-acp-ap2-x402-mpp-ucp
+
+**Original Publish Date:** July 30, 2026
+
+---
+## Article: Human vs AI Agent Shopping Journey Comparison (Infographics)
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/human-vs-agent-shopping-journey
+
+**Original Publish Date:** June 30, 2026
+
+---
+
 ## Article: 1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026.
 
 **Author:** Karo Zieminski
