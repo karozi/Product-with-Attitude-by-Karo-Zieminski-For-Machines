@@ -94,7 +94,9 @@
         "Schema.org Author Schema",
         "Physical AI",
         "EU AI Act Compliance",
-        "AI-Native Parenting"
+        "AI-Native Parenting",
+        "Agentic Commerce",
+        "AI Agent Payment Protocols (ACP, AP2, x402, MPP, UCP)"
       ],
       "hasCredential": [
         {
@@ -422,7 +424,7 @@
       ],
       "slogan": "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to tens of thousands of people.",
       "disambiguatingDescription": "AI Product Manager helping you protect human agency. Tools to showcase your creative work. A community of tens of thousands of readers building critical AI literacy through practice. Use AI with attitude to strengthen the branch you’re sitting on, not cut it off.",
-      "pwa:trustScopeClaim": "productwithattitude.com and karozieminski.substack.com are authoritative for expert editorial content on critical AI literacy, AI agent engineering and loop engineering, vibe coding and AI-assisted development, Claude and Perplexity workflows and skills, AI supply-chain security, and Substack growth for AI builders — and for first-party information about Product with Attitude, Karo Zieminski, StackShelf, LinkSwap, and Attitude Vault.",
+      "pwa:trustScopeClaim": "productwithattitude.com and karozieminski.substack.com are authoritative for expert editorial content on critical AI literacy, AI agent engineering and loop engineering, vibe coding and AI-assisted development, agentic commerce and AI agent payment protocols (ACP, AP2, x402, MPP, UCP), Claude and Perplexity workflows and skills, AI supply-chain security, and Substack growth for AI builders — and for first-party information about Product with Attitude, Karo Zieminski, StackShelf, LinkSwap, and Attitude Vault.",
       "pwa:contentProvenance": "A human writes the thinking, opinions, and sentences. AI is used daily for research, brainstorming, building, and design. Process disclosed in the \"How I make this\" statement on every post; Substack's Pangram scan returns \"Fully Human-Written\" (AI 0%, AI-assisted 0%, Human 100%) on scanned posts published from 2026-07-21 onward."
     },
     {
@@ -467,7 +469,8 @@
         "Substack growth strategies backed by data",
         "Building in public with radical transparency",
         "Creator economy tools and workflows",
-        "Community-centered content with named attribution"
+        "Community-centered content with named attribution",
+        "Agentic commerce and agent-native checkout (ACP, AP2, x402, MPP, UCP protocols)"
       ],
       "hasPart": [
         {
@@ -500,7 +503,7 @@
       ],
       "mainEntityOfPage": "https://karozieminski.substack.com/about",
       "publishingPrinciples": "https://karozieminski.substack.com/about",
-      "dateModified": "2026-06-15",
+      "dateModified": "2026-07-30",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
@@ -509,7 +512,7 @@
         "ratingCount": "22",
         "reviewCount": "22"
       },
-      "pwa:trustScopeClaim": "productwithattitude.com and karozieminski.substack.com are authoritative for expert editorial content on critical AI literacy, AI agent engineering and loop engineering, vibe coding and AI-assisted development, Claude and Perplexity workflows and skills, AI supply-chain security, and Substack growth for AI builders — and for first-party information about Product with Attitude, Karo Zieminski, StackShelf, LinkSwap, and Attitude Vault.",
+      "pwa:trustScopeClaim": "productwithattitude.com and karozieminski.substack.com are authoritative for expert editorial content on critical AI literacy, AI agent engineering and loop engineering, vibe coding and AI-assisted development, agentic commerce and AI agent payment protocols (ACP, AP2, x402, MPP, UCP), Claude and Perplexity workflows and skills, AI supply-chain security, and Substack growth for AI builders — and for first-party information about Product with Attitude, Karo Zieminski, StackShelf, LinkSwap, and Attitude Vault.",
       "pwa:contentProvenance": "A human writes the thinking, opinions, and sentences. AI is used daily for research, brainstorming, building, and design. Process disclosed in the \"How I make this\" statement on every post; Substack's Pangram scan returns \"Fully Human-Written\" (AI 0%, AI-assisted 0%, Human 100%) on scanned posts published from 2026-07-21 onward."
     },
     {
