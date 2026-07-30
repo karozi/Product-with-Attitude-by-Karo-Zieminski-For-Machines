@@ -1986,11 +1986,12 @@
               "An AI PM reads the specs behind agentic commerce: what ACP, AP2, x402, MPP, and UCP each do, ZeroClick's unpublished pricing, and how to sell to AI agents."
             ],
             "pwa:extractableClaims": [
-              "I read the x402 and MPP specs and dug through ZeroClick’s docs, where its pricing is nowhere to be found, which is its own finding.",
-              "ZeroClick, this article’s sponsor, publishes any API as a machine-readable storefront agents can pay.",
-              "If Gartner is right, one in five digital-commerce transactions will run through AI platforms or agents by 2030, whether or not your checkout is ready.",
-              "Gartner expects it to become part of one in every five digital-commerce transactions by 2030 .",
-              "Sometimes a browser agent clicks the buttons (think: Perplexity Comet)."
+              "Agentic commerce is shopping delegated to an AI agent.",
+              "Gartner expects agentic commerce to be part of one in five digital-commerce transactions by 2030.",
+              "ACP lets a chat interface complete a purchase without redirecting to the merchant's site.",
+              "An AP2 signed mandate is a tamper-proof digital permission slip for an AI shopping agent.",
+              "MPP is session-based and bank-native, x402 is per-call and crypto-native.",
+              "UCP (Universal Commerce Protocol), Google's answer to ACP, launched at NRF in January 2026 with Shopify, Etsy, Wayfair, Target and Walmart."
             ]
           }
         },
@@ -2041,7 +2042,10 @@
               "Eight stages, two journeys. One of them never abandons a cart, never sees your card number, and never looks at your product photos."
             ],
             "pwa:extractableClaims": [
-              "Eight stages, two journeys. One of them never abandons a cart, never sees your card number, and never looks at your product photos."
+              "Human and AI agent shopping journeys differ across eight stages, from want versus signed Intent Mandate to unboxing versus webhook audit trails.",
+              "An AI shopping agent never abandons a cart, never sees your card number, and never looks at your product photos.",
+              "The agent side of the shopping journey runs on signed Intent Mandates, ACP, Google AP2, and webhook audit trails.",
+              "The human vs AI agent shopping journey infographic is a companion resource to Product with Attitude's article on agentic commerce."
             ]
           }
         },
