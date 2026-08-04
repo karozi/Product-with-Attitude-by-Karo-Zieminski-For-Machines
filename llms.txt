@@ -142,7 +142,7 @@ authority_claim: The definitive critical AI literacy curriculum for AI builders,
 schema_version: 5.9.46
 last_modified: 2026-08-03
 graph_nodes: 30
-recent_articles: 125
+recent_articles: 126
 extractable_claims: 423
 key_quotes: 131
 glossary_terms: 47
@@ -270,18 +270,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 125)
+## Latest Articles (10 newest of 126)
 
-1. 5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does. (2026-07-30) — https://karozieminski.substack.com/p/agentic-commerce-protocols-acp-ap2-x402-mpp-ucp
-2. 1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026. (2026-07-27) — https://karozieminski.substack.com/p/ai-builder-community-showcase-july-2026
-3. AI-assisted Craft: A Manifesto (2026-07-22) — https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop
-4. Don’t Deploy Another AI-built App Without Monitoring Its Dependencies (2026-07-19) — https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders
-5. What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer (2026-07-16) — https://karozieminski.substack.com/p/perplexity-space-runtime-computer-agents
-6. Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026) (2026-07-13) — https://karozieminski.substack.com/p/perplexity-ai-guide-2026
-7. How to Build Your First Agent. One That Works. (2026-07-12) — https://karozieminski.substack.com/p/how-to-build-your-first-ai-agent
-8. What Substack Doesn't Tell You About Cover Images (2026-07-04) — https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone
-9. Human vs AI Agent Shopping Journey Comparison (Infographics) (2026-06-30) — https://karozieminski.substack.com/p/human-vs-agent-shopping-journey
-10. Use AI with Attitude, or Become the Product. Critical AI Literacy Series 2026. (2026-06-27) — https://karozieminski.substack.com/p/critical-ai-literacy-ai-with-attitude
+1. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
+2. 5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does. (2026-07-30) — https://karozieminski.substack.com/p/agentic-commerce-protocols-acp-ap2-x402-mpp-ucp
+3. 1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026. (2026-07-27) — https://karozieminski.substack.com/p/ai-builder-community-showcase-july-2026
+4. AI-assisted Craft: A Manifesto (2026-07-22) — https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop
+5. Don’t Deploy Another AI-built App Without Monitoring Its Dependencies (2026-07-19) — https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders
+6. What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer (2026-07-16) — https://karozieminski.substack.com/p/perplexity-space-runtime-computer-agents
+7. Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026) (2026-07-13) — https://karozieminski.substack.com/p/perplexity-ai-guide-2026
+8. How to Build Your First Agent. One That Works. (2026-07-12) — https://karozieminski.substack.com/p/how-to-build-your-first-ai-agent
+9. What Substack Doesn't Tell You About Cover Images (2026-07-04) — https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone
+10. Human vs AI Agent Shopping Journey Comparison (Infographics) (2026-06-30) — https://karozieminski.substack.com/p/human-vs-agent-shopping-journey
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten
