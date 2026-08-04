@@ -1,6 +1,16 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: July 2026
+Last updated: August 2026
+
+---
+
+## Article: AI for Crime Junkies: When ChatGPT Prompts Become Evidence
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
+
+**Original Publish Date:** August 04, 2026
 
 ---
 
