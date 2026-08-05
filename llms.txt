@@ -232,6 +232,17 @@ attitude_vault: https://vault.productwithattitude.com
 linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
+# >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
+## Research Obsessions (0 published research dossiers)
+
+# Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
+# Section index: https://productwithattitude.com/research/
+# Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
+# and states the date its claims were last verified. Drafts are excluded.
+
+# No published dossiers yet.
+# <<< auto:research-obsessions
+
 # >>> auto:faq-index — rendered from for_machines.json at build time; edits inside this block are overwritten
 ## FAQ Index (32 questions; full answers at https://productwithattitude.com/faq.html)
 
