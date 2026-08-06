@@ -233,14 +233,55 @@ linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 # >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (0 published research dossiers)
+## Research Obsessions (6 published research dossiers)
 
 # Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
 # Section index: https://productwithattitude.com/research/
 # Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
 # and states the date its claims were last verified. Drafts are excluded.
 
-# No published dossiers yet.
+- 7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents
+  url: https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html
+  summary: OpenAI's ACP, Google Merchant Center, and schema.org compared field by field, plus Adobe's 22-month AI shopping conversion trendline.
+  published: 2026-08-06
+  last_verified: 2026-08-01
+  topics: GEO, ecommerce, Agentic Commerce Protocol, Merchant Center, schema.org
+
+- How AI Memory Works in 2026 (ChatGPT, Claude, Gemini & More)
+  url: https://productwithattitude.com/research/how-ai-memory-works-control.html
+  summary: How AI memory works across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Meta AI, plus how to view, delete, and control it in 2026.
+  published: 2026-08-06
+  last_verified: 2026-08-01
+  topics: AI memory, ChatGPT, Claude, Gemini, privacy
+
+- 9 Published AI Water Figures, Reconciled: 0.26 mL to 500 mL Explained
+  url: https://productwithattitude.com/research/how-much-water-does-ai-use.html
+  summary: AI water use per prompt: 0.26 mL to 500 mL, reconciled. Where the "bottle of water" claim came from, and the researcher's 33x correction.
+  published: 2026-08-06
+  last_verified: 2026-08-01
+  topics: AI water use, AI energy, data centers, sustainability
+
+- 7 Numbers That Show How Often AI Detectors Get It Wrong (2026)
+  url: https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html
+  summary: How to tell if text, images, or video are AI in 2026, with real detector accuracy data, false-positive math, and SynthID vs C2PA coverage.
+  published: 2026-08-06
+  last_verified: 2026-08-01
+  topics: AI detection, deepfakes, SynthID, C2PA, false positives
+
+- 9 Local AI Models Verified to Run on Your Phone in 2026
+  url: https://productwithattitude.com/research/local-ai-normal-people-2026.html
+  summary: Which iPhone, Pixel, or Galaxy runs local AI in 2026, verified model licenses, and no-code apps like Ollama and LM Studio explained.
+  published: 2026-08-06
+  last_verified: 2026-08-01
+  topics: local AI, on-device AI, Ollama, LM Studio, open weights
+
+- 11 AI Products Audited: Only 1 Lets You Fully Opt Out (Aug 2026)
+  url: https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html
+  summary: Audited 11 AI products on Aug 1, 2026: Google, Gmail, Meta, Copilot, Apple, X, LinkedIn & more. Exact opt-out steps, verified against official docs.
+  published: 2026-08-06
+  last_verified: 2026-08-01
+  topics: AI opt-out, privacy, AI Overviews, Meta AI, Apple Intelligence
+
 # <<< auto:research-obsessions
 
 # >>> auto:faq-index — rendered from for_machines.json at build time; edits inside this block are overwritten
