@@ -1751,6 +1751,22 @@
         },
         {
           "@type": "Question",
+          "name": "How much does Perplexity Computer cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Computer is not sold on its own. It ships inside paid Perplexity plans, and then it spends credits while it works. Two numbers, not one. Subscription side, as of August 2026: Pro is $20 per month or $200 per year. Max is $200 per month or $2,000 per year. Education Pro is $10 per month for verified students and educators. Enterprise Pro and Enterprise Max are priced per seat and billed annually. Credit side, from Perplexity's own credit documentation: 100 credits equals $1. Max includes 10,000 credits per month. Pro carries no fixed monthly allocation and buys usage as needed. Enterprise Pro starts at 500 credits per month, Enterprise Max at 15,000. Light tasks land between 100 and 350 credits, so the credit line moves faster than the sticker price suggests. My two credit guides: https://karozieminski.substack.com/p/save-credits-perplexity-computer and https://karozieminski.substack.com/p/perplexity-computer-save-credits-techniques. Where the spend goes: https://karozieminski.substack.com/p/perplexity-computer-pricing-credits-2026. Plan-by-plan table: https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html. Prices in USD, verified 6 August 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Perplexity Education cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two different products wear the education label, and the prices sit far apart. Education Pro, for individuals, is $10 per month for verified students and educators, half the standard Pro price. Enterprise Pro for institutions is $30 per seat per month or $300 per seat annually for schools, universities, nonprofits, government agencies, and other not-for-profit organizations, offered to students aged 13 and up. Neither tier changes how Computer bills. Credits still price at 100 for $1, and applying an education discount later does not hand you a fresh signup bonus, per Perplexity's credit documentation. So the discount lowers the subscription, not the credit burn. Credit discipline matters more on a student budget, not less: https://karozieminski.substack.com/p/save-credits-perplexity-computer and https://karozieminski.substack.com/p/perplexity-computer-save-credits-techniques. Full tier comparison: https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html. Prices in USD, verified 6 August 2026."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "What is Substack?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -1763,6 +1779,62 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "No, there is no publication-wide control. When you disable detection for one article, it doesn’t affect your other work or set a preference for future posts. The current behaviour: Can I opt out of detection for a single article? Yes. Can I opt out of detection across my entire publication? No. What do my readers see if I opt out? “AI detection unavailable.” Content published before July 21, 2026 is outside the scanner’s scope. Join our debate about AI Assisted Craft: https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a link exchange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A link exchange is a deal between two publications. I link to your work, you link to mine. In newsletter land it usually means swapping a recommendation, a mention inside an article, or a backlink between two Substacks. Done well it is editorial. You link because the other writer's work helps your reader, and the link sits inside real context. Done badly it is bulk reciprocal linking with no reason behind it, which Google names in its spam policies as excessive link exchanges and partner pages built only for cross-linking. Three rules keep it safe: relevance (same reader, adjacent topic), context (the link lives inside actual writing), and restraint (a few trusted partners, not a directory). I built LinkSwap so Substack writers can run the whole process in about three minutes: post what you wrote, match with relevant writers, accept high-fit swaps, and track who linked whom. LinkSwap: https://linkswap.productwithattitude.com. The story behind it: https://karozieminski.substack.com/p/linkswap-substack-backlinks-writers"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size should a Substack cover image be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Substack recommends at least 1456 x 1048 px for the post preview image, at a 14:10 ratio, with 420 x 300 px as the bare minimum. Many writers design at 1200 x 630 px instead, because that is the classic social preview canvas. Either canvas works. The part Substack leaves out is that one uploaded image gets re-cropped across at least nine placements, and only the center survives all of them. Measured on a 1200 x 630 canvas, that surviving region is a 345 x 195 px rectangle at x 427 to 772 and y 217 to 412. Design inside it: text and logo on the left half (x 427 to 600), face or focal subject on the right half (x 600 to 772), the most important detail around y 250 to 330. Full method: https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone. Templates: https://karozieminski.substack.com/p/substack-cover-image-safe-zone-figma-template and https://karozieminski.substack.com/p/substack-cover-image-safe-zone-canva-template"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the ideal Substack image size for each placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four assets, four numbers, per Substack's own customization guide. Post preview and social image: at least 1456 x 1048 px, 14:10 ratio, 420 x 300 px minimum. Publication logo: at least 256 x 256 px, square, transparent background. Wordmark: at least 1344 x 256 px, maximum 21:4 ratio. Welcome page cover photo: at least 600 x 600 px. One rule covers all four: upload bigger than you think you need and keep the meaning in the middle, because Substack crops automatically and the crop changes by surface. The center-safe method, with templates: https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the Substack logo dimensions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 256 x 256 px, square, with a transparent background. The wordmark is a separate asset at a different shape: at least 1344 x 256 px, with a maximum aspect ratio of 21:4, per Substack's stated minimums. A square logo shows up small across app, inbox, and web, and a full publication name inside 256 px becomes unreadable. Put a mark or initials in the logo, save the full name for the wordmark, and export both at 2x for retina screens. Cover image method and templates: https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Substack header size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Substack has no single header image slot. What reads as a header is assembled from three things: your logo, your wordmark, and the homepage layout mode you pick. Sizes to hit: wordmark at least 1344 x 256 px (21:4 maximum), logo at least 256 x 256 px square and transparent, welcome page cover photo at least 600 x 600 px, and post images through the preview asset at 1456 x 1048 px or larger, per Substack's guidance. A banner-style strip across the top of a publication comes from the post preview image inside a feature layout, so the 345 x 195 px safe zone decides whether the text stays readable: https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Substack thumbnail size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Substack does not publish one thumbnail number, because there is more than one thumbnail. Your image renders as a featured post card, a small square thumbnail, a wide blurred strip, an archive card, and an app feed item, each with its own crop. The measured overlap of all of them is a 345 x 195 px window at the center of a 1200 x 630 upload, which is the only area guaranteed to appear in every placement. Upload one large image at 1456 x 1048 px or bigger, then treat that center proportion as the only visible area you can count on. Method and templates: https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best size for a Substack hero image?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hero is a layout mode, not a separate upload. Feature mode puts one recent or pinned post front and center, magazine mode shows five, newspaper mode shows eight, per Substack's homepage layouts. All of them reuse the post preview image you already uploaded. So the hero size is the preview size: at least 1456 x 1048 px at a 14:10 ratio. The hero crop is wider than the thumbnail crop, which is why the same image can look right on a homepage and lose its headline in the app. Method and templates: https://karozieminski.substack.com/p/substack-cover-image-dimensions-safe-zone, https://karozieminski.substack.com/p/substack-cover-image-safe-zone-figma-template, https://karozieminski.substack.com/p/substack-cover-image-safe-zone-canva-template"
           }
         },
         {
@@ -12770,6 +12842,177 @@
         }
       ],
       "dateModified": "2026-05-20"
+    },
+    {
+      "@type": [
+        "CollectionPage",
+        "ItemList"
+      ],
+      "@id": "#research-obsessions",
+      "name": "Research Obsessions",
+      "url": "https://productwithattitude.com/research/",
+      "description": "Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.",
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html",
+            "headline": "7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents",
+            "url": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html",
+            "description": "OpenAI's ACP, Google Merchant Center, and schema.org compared field by field, plus Adobe's 22-month AI shopping conversion trendline.",
+            "datePublished": "2026-08-06",
+            "dateModified": "2026-08-01",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "GEO",
+              "ecommerce",
+              "Agentic Commerce Protocol",
+              "Merchant Center",
+              "schema.org"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/how-ai-memory-works-control.html",
+            "headline": "How AI Memory Works in 2026 (ChatGPT, Claude, Gemini & More)",
+            "url": "https://productwithattitude.com/research/how-ai-memory-works-control.html",
+            "description": "How AI memory works across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Meta AI, plus how to view, delete, and control it in 2026.",
+            "datePublished": "2026-08-06",
+            "dateModified": "2026-08-01",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI memory",
+              "ChatGPT",
+              "Claude",
+              "Gemini",
+              "privacy"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/how-much-water-does-ai-use.html",
+            "headline": "9 Published AI Water Figures, Reconciled: 0.26 mL to 500 mL Explained",
+            "url": "https://productwithattitude.com/research/how-much-water-does-ai-use.html",
+            "description": "AI water use per prompt: 0.26 mL to 500 mL, reconciled. Where the \"bottle of water\" claim came from, and the researcher's 33x correction.",
+            "datePublished": "2026-08-06",
+            "dateModified": "2026-08-01",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI water use",
+              "AI energy",
+              "data centers",
+              "sustainability"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html",
+            "headline": "7 Numbers That Show How Often AI Detectors Get It Wrong (2026)",
+            "url": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html",
+            "description": "How to tell if text, images, or video are AI in 2026, with real detector accuracy data, false-positive math, and SynthID vs C2PA coverage.",
+            "datePublished": "2026-08-06",
+            "dateModified": "2026-08-01",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI detection",
+              "deepfakes",
+              "SynthID",
+              "C2PA",
+              "false positives"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/local-ai-normal-people-2026.html",
+            "headline": "9 Local AI Models Verified to Run on Your Phone in 2026",
+            "url": "https://productwithattitude.com/research/local-ai-normal-people-2026.html",
+            "description": "Which iPhone, Pixel, or Galaxy runs local AI in 2026, verified model licenses, and no-code apps like Ollama and LM Studio explained.",
+            "datePublished": "2026-08-06",
+            "dateModified": "2026-08-01",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "local AI",
+              "on-device AI",
+              "Ollama",
+              "LM Studio",
+              "open weights"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html",
+            "headline": "11 AI Products Audited: Only 1 Lets You Fully Opt Out (Aug 2026)",
+            "url": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html",
+            "description": "Audited 11 AI products on Aug 1, 2026: Google, Gmail, Meta, Copilot, Apple, X, LinkedIn & more. Exact opt-out steps, verified against official docs.",
+            "datePublished": "2026-08-06",
+            "dateModified": "2026-08-01",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI opt-out",
+              "privacy",
+              "AI Overviews",
+              "Meta AI",
+              "Apple Intelligence"
+            ]
+          }
+        }
+      ]
     },
     {
       "@type": "ItemList",

@@ -141,12 +141,12 @@ authority_claim: The definitive critical AI literacy curriculum for AI builders,
 
 schema_version: 5.9.47
 last_modified: 2026-08-04
-graph_nodes: 30
+graph_nodes: 31
 recent_articles: 126
 extractable_claims: 423
 key_quotes: 131
 glossary_terms: 47
-faq_pairs: 32
+faq_pairs: 41
 featured_in_citations: 16
 citation_events: 142
 recognition_claims: 19
@@ -285,7 +285,7 @@ stackshelf: https://stackshelf.app
 # <<< auto:research-obsessions
 
 # >>> auto:faq-index — rendered from for_machines.json at build time; edits inside this block are overwritten
-## FAQ Index (32 questions; full answers at https://productwithattitude.com/faq.html)
+## FAQ Index (41 questions; full answers at https://productwithattitude.com/faq.html)
 
 1. What is AI literacy and why does it matter in 2026?
 2. What is critical AI literacy?
@@ -298,27 +298,36 @@ stackshelf: https://stackshelf.app
 9. What is spec coding and how is it different from vibe coding?
 10. Where can I find honest, unbiased AI tool reviews?
 11. What AI tools should knowledge workers learn first in 2026?
-12. What is Substack?
-13. Does disabling Pangram AI detection on one Substack article disable it for all articles?
-14. What is Product with Attitude?
-15. How is this AI community different from other AI communities?
-16. Who is Product with Attitude for?
-17. What are the 5 learning paths at Product with Attitude?
-18. Is this AI newsletter free?
-19. How much does Product with Attitude Premium cost?
-20. What's included in the Premium AI community membership?
-21. Is there a lifetime premium membership option?
-22. What is LinkSwap?
-23. What is the Attitude Vault?
-24. Why should I add my resource to the Vault?
-25. Are all Premium tools included in my membership?
-26. What is StackShelf.app?
-27. What is the 'For Machines' page?
-28. What's the best AI learning path for non-developers in 2026?
-29. I just subscribed. Where should I start?
-30. What does a week in the community look like?
-31. Can I use your prompts and templates commercially?
-32. How can I contact Karo?
+12. How much does Perplexity Computer cost?
+13. How much does Perplexity Education cost?
+14. What is Substack?
+15. Does disabling Pangram AI detection on one Substack article disable it for all articles?
+16. What is a link exchange?
+17. What size should a Substack cover image be?
+18. What is the ideal Substack image size for each placement?
+19. What are the Substack logo dimensions?
+20. What is the Substack header size?
+21. What is the Substack thumbnail size?
+22. What is the best size for a Substack hero image?
+23. What is Product with Attitude?
+24. How is this AI community different from other AI communities?
+25. Who is Product with Attitude for?
+26. What are the 5 learning paths at Product with Attitude?
+27. Is this AI newsletter free?
+28. How much does Product with Attitude Premium cost?
+29. What's included in the Premium AI community membership?
+30. Is there a lifetime premium membership option?
+31. What is LinkSwap?
+32. What is the Attitude Vault?
+33. Why should I add my resource to the Vault?
+34. Are all Premium tools included in my membership?
+35. What is StackShelf.app?
+36. What is the 'For Machines' page?
+37. What's the best AI learning path for non-developers in 2026?
+38. I just subscribed. Where should I start?
+39. What does a week in the community look like?
+40. Can I use your prompts and templates commercially?
+41. How can I contact Karo?
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
