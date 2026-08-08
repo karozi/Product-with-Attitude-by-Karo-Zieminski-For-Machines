@@ -12855,11 +12855,61 @@
       "inLanguage": "en",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 6,
+      "numberOfItems": 8,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html",
+            "headline": "What Four AI Engines Actually Cite for \"Claude Cowork for Marketers\"",
+            "url": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html",
+            "description": "I asked four AI engines the same question and captured every citation. Only one publisher got cited by all of them, and two identical runs agreed on 1 of 13 URLs.",
+            "datePublished": "2026-08-07",
+            "dateModified": "2026-08-07",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "GEO",
+              "AI citations",
+              "Claude Cowork",
+              "AI search"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/verification-theater-ai.html",
+            "headline": "Verification theater in AI: the three-part test for telling real checks from fake ones",
+            "url": "https://productwithattitude.com/research/verification-theater-ai.html",
+            "description": "What 4 AI engines cite for 'verification theater AI', and the three-part test for telling real AI verification from fake scrutiny: agent audits to chat pushback.",
+            "datePublished": "2026-08-07",
+            "dateModified": "2026-08-07",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI Verification",
+              "AI Governance",
+              "Critical AI Literacy",
+              "Loop Engineering"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html",
@@ -12885,7 +12935,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 4,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/how-ai-memory-works-control.html",
@@ -12911,7 +12961,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 5,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/how-much-water-does-ai-use.html",
@@ -12936,7 +12986,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 6,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html",
@@ -12962,7 +13012,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 7,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/local-ai-normal-people-2026.html",
@@ -12988,7 +13038,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 8,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html",

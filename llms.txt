@@ -233,12 +233,32 @@ linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 # >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (6 published research dossiers)
+## Research Obsessions (8 published research dossiers)
 
 # Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
 # Section index: https://productwithattitude.com/research/
 # Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
 # and states the date its claims were last verified. Drafts are excluded.
+
+- What Four AI Engines Actually Cite for "Claude Cowork for Marketers"
+  url: https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html
+  summary: I asked four AI engines the same question and captured every citation. Only one publisher got cited by all of them, and two identical runs agreed on 1 of 13 URLs.
+  published: 2026-08-07
+  last_verified: 2026-08-07
+  original_contribution: A first-party citation capture of one commercial phrase across Perplexity, Claude, Gemini and Google AI Overview on a single day, including a within-engine repeat test that measured how much two identical runs disagree, plus an independent schema and freshness audit of all 11 cited pages that corrects my own earlier finding.
+  primary_claim: Across three AI engines answering the same commercial question, Anthropic's own domains were the only publisher cited by all three, 80% of the third-party pages cited were cited by exactly one engine, and two identical Claude runs 17 minutes apart shared just 1 of the 13 URLs they cited between them.
+  confidence: Medium
+  topics: GEO, AI citations, Claude Cowork, AI search
+
+- Verification theater in AI: the three-part test for telling real checks from fake ones
+  url: https://productwithattitude.com/research/verification-theater-ai.html
+  summary: What 4 AI engines cite for 'verification theater AI', and the three-part test for telling real AI verification from fake scrutiny: agent audits to chat pushback.
+  published: 2026-08-07
+  last_verified: 2026-08-07
+  original_contribution: A first-party 4-engine citation capture (Perplexity, ChatGPT, Claude, Gemini) for the exact phrase 'verification theater AI', showing zero cross-engine consensus source exists, plus the first synthesis connecting agent-governance failure modes (fabricated audit trails, unfaithful chain-of-thought, rubber-stamp code review) to the individual practitioner's case: sycophancy pushback on a chat answer, verified against the SycEval primary study.
+  primary_claim: No source is cited by 3 or more of the 4 engines for 'verification theater AI': the field is fragmented into an agent-governance cluster (agentverificationtheater.com, cited by ChatGPT and Perplexity) and an academic/formal-methods cluster (hip1.github.io, cited by Claude and Perplexity), and none of the 18+ distinct sources across all 4 engines address the individual practitioner pushing back on a single AI chat answer.
+  confidence: High
+  topics: AI Verification, AI Governance, Critical AI Literacy, Loop Engineering
 
 - 7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents
   url: https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html
