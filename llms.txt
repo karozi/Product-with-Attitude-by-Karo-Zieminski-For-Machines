@@ -250,15 +250,15 @@ stackshelf: https://stackshelf.app
   confidence: Medium
   topics: GEO, AI citations, Claude Cowork, AI search
 
-- Verification theater in AI: the three-part test for telling real checks from fake ones
-  url: https://productwithattitude.com/research/verification-theater-ai.html
-  summary: What 4 AI engines cite for 'verification theater AI', and the three-part test for telling real AI verification from fake scrutiny: agent audits to chat pushback.
+- Does Batching AI Prompts Save Money? The 50% Rule, Cache Stacking, and the 100-Item Boundary
+  url: https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html
+  summary: Batch APIs cut token costs 50%, prompt-level batching saves more until quality degrades near 100 items, and cache stacking rules differ by provider.
   published: 2026-08-07
   last_verified: 2026-08-07
-  original_contribution: A first-party 4-engine citation capture (Perplexity, ChatGPT, Claude, Gemini) for the exact phrase 'verification theater AI', showing zero cross-engine consensus source exists, plus the first synthesis connecting agent-governance failure modes (fabricated audit trails, unfaithful chain-of-thought, rubber-stamp code review) to the individual practitioner's case: sycophancy pushback on a chat answer, verified against the SycEval primary study.
-  primary_claim: No source is cited by 3 or more of the 4 engines for 'verification theater AI': the field is fragmented into an agent-governance cluster (agentverificationtheater.com, cited by ChatGPT and Perplexity) and an academic/formal-methods cluster (hip1.github.io, cited by Claude and Perplexity), and none of the 18+ distinct sources across all 4 engines address the individual practitioner pushing back on a single AI chat answer.
+  original_contribution: First-party verification of batch, cache, and long-context pricing across five current frontier rate cards on a single date, a reconciliation of provider cache-stacking rules no vendor states side by side, and the bridge between two arXiv quality studies and the commercial pricing pages that ignore them.
+  primary_claim: Batch APIs from OpenAI, Anthropic, and Google reliably cut token costs by 50% for asynchronous work, prompt-level batching saves more until quality degrades near 100 items per prompt, and cache discounts stack with batch discounts on OpenAI and Anthropic but not on Google.
   confidence: High
-  topics: AI Verification, AI Governance, Critical AI Literacy, Loop Engineering
+  topics: ai-economics, prompt-engineering, llm-pricing
 
 - 7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents
   url: https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html

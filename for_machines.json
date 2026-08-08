@@ -2003,7 +2003,7 @@
           "//main//h3/following-sibling::p[1]"
         ]
       },
-      "dateModified": "2026-08-07"
+      "dateModified": "2026-08-08"
     },
     {
       "@type": "ItemList",
@@ -12887,10 +12887,10 @@
           "position": 2,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/verification-theater-ai.html",
-            "headline": "Verification theater in AI: the three-part test for telling real checks from fake ones",
-            "url": "https://productwithattitude.com/research/verification-theater-ai.html",
-            "description": "What 4 AI engines cite for 'verification theater AI', and the three-part test for telling real AI verification from fake scrutiny: agent audits to chat pushback.",
+            "@id": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html",
+            "headline": "Does Batching AI Prompts Save Money? The 50% Rule, Cache Stacking, and the 100-Item Boundary",
+            "url": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html",
+            "description": "Batch APIs cut token costs 50%, prompt-level batching saves more until quality degrades near 100 items, and cache stacking rules differ by provider.",
             "datePublished": "2026-08-07",
             "dateModified": "2026-08-07",
             "isAccessibleForFree": true,
@@ -12900,10 +12900,9 @@
               "@id": "https://karozieminski.substack.com/#author"
             },
             "keywords": [
-              "AI Verification",
-              "AI Governance",
-              "Critical AI Literacy",
-              "Loop Engineering"
+              "ai-economics",
+              "prompt-engineering",
+              "llm-pricing"
             ]
           }
         },
