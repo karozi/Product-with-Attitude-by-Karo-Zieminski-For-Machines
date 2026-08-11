@@ -1064,6 +1064,42 @@
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
           }
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Perceived AI Intelligence",
+          "alternateName": [
+            "perceived AI intelligence",
+            "perceived AI capability",
+            "product-delivered intelligence"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Perceived AI intelligence (n.) — The capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. Coined by Karo Zieminski on 11 August 2026 to name the gap the model-versus-model comparison genre skips: memory, tool selection, orchestration and presentation are product decisions, and they can raise perceived intelligence with no change to the underlying model. Distinct from the academic construct \"perceived intelligence\", which measures the user's judgment rather than explaining what produces it.",
+          "url": "https://productwithattitude.com/perceived-ai-intelligence-agent-barks.html#perceived-ai-intelligence",
+          "sameAs": "https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer",
+          "subjectOf": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Agent Barks",
+          "alternateName": [
+            "agent bark",
+            "agent barks",
+            "agent status line"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Agent barks (n.) — The short status lines an AI agent emits while it works, such as \"Searching the web\" or \"Reading 12 files\". Coined by Karo Zieminski on 11 August 2026, transferring the established game-writing term for one-line character callouts to agentic AI interfaces. The 2005 shooter F.E.A.R. used barks so its GOAP soldiers appeared to coordinate, under the rule: if the AI did not say it, it did not happen. Barks change perceived AI intelligence, not capability.",
+          "url": "https://productwithattitude.com/perceived-ai-intelligence-agent-barks.html#agent-barks",
+          "sameAs": "https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer",
+          "subjectOf": {
+            "@id": "https://karozieminski.substack.com/#author"
+          }
         }
       ],
       "itemListElement": [
@@ -29663,6 +29699,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.9.48",
+  "schemaVersion": "5.9.49",
   "dateModified": "2026-08-11"
 }
