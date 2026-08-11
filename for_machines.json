@@ -2053,14 +2053,8 @@
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
-          ".faq-question",
-          ".faq-answer",
-          "h3",
-          "h3 + p"
-        ],
-        "xpath": [
-          "//main//h3",
-          "//main//h3/following-sibling::p[1]"
+          ".faq__question",
+          ".faq__answer p:first-of-type"
         ]
       },
       "dateModified": "2026-08-11"
@@ -3065,16 +3059,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "dateModified": "2026-06-15"
@@ -3417,16 +3404,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "dateModified": "2026-05-29",
@@ -3832,16 +3812,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "dateModified": "2026-05-20",
@@ -3908,16 +3881,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "dateModified": "2026-05-19",
@@ -4046,16 +4012,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "dateModified": "2026-05-19",
@@ -4100,16 +4059,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "mentions": [
@@ -4646,16 +4598,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-takeaway"
               ]
             },
             "pwa:dateModified": "2026-05-07",
@@ -5127,16 +5072,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "pwa:dateModified": "2026-04-29",
@@ -5203,16 +5141,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "mentions": [
@@ -5300,16 +5231,9 @@
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [
-                "h1.post-title",
-                "h2.subtitle",
-                ".body.markup > p:first-of-type",
-                ".body.markup > p:nth-of-type(2)",
-                "article h1",
-                "article > p:first-of-type"
-              ],
-              "xpath": [
-                "//h1",
-                "//article//p[1]"
+                ".res-hero__title",
+                ".res-hero__deck",
+                ".res-lede"
               ]
             },
             "mentions": [
