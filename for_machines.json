@@ -2003,7 +2003,7 @@
           "//main//h3/following-sibling::p[1]"
         ]
       },
-      "dateModified": "2026-08-08"
+      "dateModified": "2026-08-10"
     },
     {
       "@type": "ItemList",
@@ -12855,11 +12855,61 @@
       "inLanguage": "en",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 8,
+      "numberOfItems": 10,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei.html",
+            "headline": "The AI safety triangle: Musk, Zuckerberg, and Amodei don't disagree about risk",
+            "url": "https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei.html",
+            "description": "The AI safety triangle maps three rival theories: Zuckerberg's balance of power, Amodei's controlled scaling, Musk's adversarial review between labs.",
+            "datePublished": "2026-08-11",
+            "dateModified": "2026-08-11",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI safety",
+              "AI governance",
+              "Critical AI Literacy",
+              "Superintelligence"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/claude-code-spinner-verbs.html",
+            "headline": "Claude Code Spinner Verbs: 186 in the Shipped Binary, and Why Every Published Count Disagrees",
+            "url": "https://productwithattitude.com/research/claude-code-spinner-verbs.html",
+            "description": "I extracted the spinner verb array from the shipped Claude Code v2.1.226 binary. It holds 186 verbs, not the 185 everyone republishes, and \"almost done thinking\" is a stopwatch.",
+            "datePublished": "2026-08-10",
+            "dateModified": "2026-08-10",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "claude code",
+              "anthropic",
+              "developer tools",
+              "ai interfaces"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html",
@@ -12884,7 +12934,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 4,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html",
@@ -12908,7 +12958,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 5,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html",
@@ -12934,7 +12984,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 6,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/how-ai-memory-works-control.html",
@@ -12960,7 +13010,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 7,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/how-much-water-does-ai-use.html",
@@ -12985,7 +13035,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 8,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html",
@@ -13011,7 +13061,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 9,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/local-ai-normal-people-2026.html",
@@ -13037,7 +13087,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 10,
           "item": {
             "@type": "Article",
             "@id": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html",

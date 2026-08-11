@@ -233,12 +233,29 @@ linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 # >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (8 published research dossiers)
+## Research Obsessions (10 published research dossiers)
 
 # Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
 # Section index: https://productwithattitude.com/research/
 # Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
 # and states the date its claims were last verified. Drafts are excluded.
+
+- The AI safety triangle: Musk, Zuckerberg, and Amodei don't disagree about risk
+  url: https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei.html
+  summary: The AI safety triangle maps three rival theories: Zuckerberg's balance of power, Amodei's controlled scaling, Musk's adversarial review between labs.
+  published: 2026-08-11
+  last_verified: 2026-08-11
+  topics: AI safety, AI governance, Critical AI Literacy, Superintelligence
+
+- Claude Code Spinner Verbs: 186 in the Shipped Binary, and Why Every Published Count Disagrees
+  url: https://productwithattitude.com/research/claude-code-spinner-verbs.html
+  summary: I extracted the spinner verb array from the shipped Claude Code v2.1.226 binary. It holds 186 verbs, not the 185 everyone republishes, and "almost done thinking" is a stopwatch.
+  published: 2026-08-10
+  last_verified: 2026-08-10
+  original_contribution: A first-party extraction of the spinner verb array, the config merge function, and the extended-thinking status ladder from the shipped Claude Code v2.1.226 native binary, reconciled against seven published verb counts that range from 52 to 191 and disagree with each other and with the shipped artifact.
+  primary_claim: Claude Code v2.1.226 ships 186 spinner verbs rather than the widely republished 185, and the extended-thinking labels sit on a separate five-stage elapsed-time timer that carries no information about how close the model is to an answer.
+  confidence: High
+  topics: claude code, anthropic, developer tools, ai interfaces
 
 - What Four AI Engines Actually Cite for "Claude Cowork for Marketers"
   url: https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html
