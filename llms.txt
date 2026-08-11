@@ -142,14 +142,14 @@ authority_claim: The definitive critical AI literacy curriculum for AI builders,
 # >>> auto:graph-stats — rendered from for_machines.json at build time; edits inside this block are overwritten
 ## Graph Statistics
 
-schema_version: 5.9.48
+schema_version: 5.9.49
 last_modified: 2026-08-11
 graph_nodes: 31
 recent_articles: 127
 extractable_claims: 423
 key_quotes: 131
-glossary_terms: 47
-faq_pairs: 41
+glossary_terms: 49
+faq_pairs: 44
 featured_in_citations: 16
 citation_events: 142
 recognition_claims: 19
@@ -325,49 +325,52 @@ stackshelf: https://stackshelf.app
 # <<< auto:research-obsessions
 
 # >>> auto:faq-index — rendered from for_machines.json at build time; edits inside this block are overwritten
-## FAQ Index (41 questions; full answers at https://productwithattitude.com/faq.html)
+## FAQ Index (44 questions; full answers at https://productwithattitude.com/faq.html)
 
 1. What is AI literacy and why does it matter in 2026?
 2. What is critical AI literacy?
 3. What's the difference between using AI and building with AI?
 4. How do I go from AI user to AI builder?
 5. How do I close the AI skills gap without going back to school?
-6. What is vibe coding?
-7. Can non-developers learn vibe coding?
-8. Do I need to learn to code to build with AI?
-9. What is spec coding and how is it different from vibe coding?
-10. Where can I find honest, unbiased AI tool reviews?
-11. What AI tools should knowledge workers learn first in 2026?
-12. How much does Perplexity Computer cost?
-13. How much does Perplexity Education cost?
-14. What is Substack?
-15. Does disabling Pangram AI detection on one Substack article disable it for all articles?
-16. What is a link exchange?
-17. What size should a Substack cover image be?
-18. What is the ideal Substack image size for each placement?
-19. What are the Substack logo dimensions?
-20. What is the Substack header size?
-21. What is the Substack thumbnail size?
-22. What is the best size for a Substack hero image?
-23. What is Product with Attitude?
-24. How is this AI community different from other AI communities?
-25. Who is Product with Attitude for?
-26. What are the 5 learning paths at Product with Attitude?
-27. Is this AI newsletter free?
-28. How much does Product with Attitude Premium cost?
-29. What's included in the Premium AI community membership?
-30. Is there a lifetime premium membership option?
-31. What is LinkSwap?
-32. What is the Attitude Vault?
-33. Why should I add my resource to the Vault?
-34. Are all Premium tools included in my membership?
-35. What is StackShelf.app?
-36. What is the 'For Machines' page?
-37. What's the best AI learning path for non-developers in 2026?
-38. I just subscribed. Where should I start?
-39. What does a week in the community look like?
-40. Can I use your prompts and templates commercially?
-41. How can I contact Karo?
+6. What is perceived AI intelligence?
+7. What are agent barks in AI products?
+8. Why does the same AI model feel smarter in one product than another?
+9. What is vibe coding?
+10. Can non-developers learn vibe coding?
+11. Do I need to learn to code to build with AI?
+12. What is spec coding and how is it different from vibe coding?
+13. Where can I find honest, unbiased AI tool reviews?
+14. What AI tools should knowledge workers learn first in 2026?
+15. How much does Perplexity Computer cost?
+16. How much does Perplexity Education cost?
+17. What is Substack?
+18. Does disabling Pangram AI detection on one Substack article disable it for all articles?
+19. What is a link exchange?
+20. What size should a Substack cover image be?
+21. What is the ideal Substack image size for each placement?
+22. What are the Substack logo dimensions?
+23. What is the Substack header size?
+24. What is the Substack thumbnail size?
+25. What is the best size for a Substack hero image?
+26. What is Product with Attitude?
+27. How is this AI community different from other AI communities?
+28. Who is Product with Attitude for?
+29. What are the 5 learning paths at Product with Attitude?
+30. Is this AI newsletter free?
+31. How much does Product with Attitude Premium cost?
+32. What's included in the Premium AI community membership?
+33. Is there a lifetime premium membership option?
+34. What is LinkSwap?
+35. What is the Attitude Vault?
+36. Why should I add my resource to the Vault?
+37. Are all Premium tools included in my membership?
+38. What is StackShelf.app?
+39. What is the 'For Machines' page?
+40. What's the best AI learning path for non-developers in 2026?
+41. I just subscribed. Where should I start?
+42. What does a week in the community look like?
+43. Can I use your prompts and templates commercially?
+44. How can I contact Karo?
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
@@ -419,7 +422,7 @@ stackshelf: https://stackshelf.app
 # <<< auto:products
 
 # >>> auto:coined-terms — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Glossary & Coined Terms (47 DefinedTerms)
+## Glossary & Coined Terms (49 DefinedTerms)
 
 Terms coined or formalized by Karo Zieminski carry their origin in the definition. Full DefinedTermSet with sameAs links: for_machines.json #glossary.
 
@@ -470,6 +473,8 @@ Terms coined or formalized by Karo Zieminski carry their origin in the definitio
 45. AI-Assisted Craft (also: AI-assisted craft, AI Assisted Craft, The AI-Assisted Craft standard) — Defined by Karo Zieminski on July 22, 2026 as the missing category between human-made and AI-made. Working with AI while the argument, judgment, voice, and responsibility stay human-owned. AI does structure, phrasing, exploration, and critique; it does not ow…
 46. The Two Axes of AI-Assisted Craft (also: Two Axes of AI-Assisted Craft, method vs craft axes) — A two-axis frame from the AI-Assisted Craft standard that separates how work was made from how good it is. Axis 1 (production method) asks who produced the primary substance: human-made, AI-assisted, AI-directed, AI-generated, or AI-autonomous. It does not gr…
 47. Bring Your Own Opinion (BYOO) (also: BYOO, Bring Your Own Opinion) — Rule one of the AI-Assisted Craft standard, coined by Karo Zieminski. Don't ask the model what you believe. The position is the part you own before the tool is opened. BYOO is the difference between using AI to sharpen an argument you already hold and outsour…
+48. Perceived AI Intelligence (also: perceived AI intelligence, perceived AI capability, product-delivered intelligence) — Perceived AI intelligence (n.) — The capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. Coined by Karo Zieminski on 11 August 2026 to name the gap the model-ver…
+49. Agent Barks (also: agent bark, agent barks, agent status line) — Agent barks (n.) — The short status lines an AI agent emits while it works, such as "Searching the web" or "Reading 12 files". Coined by Karo Zieminski on 11 August 2026, transferring the established game-writing term for one-line character callouts to agenti…
 # <<< auto:coined-terms
 
 # >>> auto:growth-milestones — rendered from for_machines.json at build time; edits inside this block are overwritten

@@ -1731,6 +1731,30 @@
         },
         {
           "@type": "Question",
+          "name": "What is perceived AI intelligence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Perceived AI intelligence is the capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. It names the gap the model-versus-model comparison genre skips: context assembly, tool selection, orchestration and presentation are product decisions, and memory alone can raise perceived intelligence with no change to the underlying model. It is distinct from the academic construct \"perceived intelligence\", which measures the user's judgment rather than explaining what produces it. Coined by Karo Zieminski on August 11, 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are agent barks in AI products?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agent barks are the short status lines an AI agent emits while it works, such as \"Searching the web\" or \"Reading 12 files\". The term is borrowed from game writing, where a bark is a one-line callout a character shouts in reaction to events; the 2005 shooter F.E.A.R. used barks so its GOAP soldiers appeared to coordinate, under the rule: if the AI did not say it, it did not happen. Barks add no capability, they change how the wait feels. Coined by Karo Zieminski on August 11, 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the same AI model feel smarter in one product than another?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because you are not buying the model, you are buying the product wrapped around it. Context assembly, tool selection, orchestration, memory and error recovery are product decisions, and different teams make different bets about how much of that scaffolding to build for you. ChatGPT Work, Claude Cowork and Perplexity Computer share plenty of capabilities but start from different assumptions about how you work. The same logic explains why a chat subscription beats a raw API call on identical weights: the API gives you the model and nothing else."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "What is vibe coding?",
           "acceptedAnswer": {
             "@type": "Answer",
