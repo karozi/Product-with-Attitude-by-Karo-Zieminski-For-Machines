@@ -2045,26 +2045,33 @@
             },
             "alternativeHeadline": "What ChatGPT Work, Perplexity Computer and Claude Cowork assume about us, the users, and what they reveal about perceived AI intelligence.",
             "keywords": [
+              "ChatGPT Work vs Claude Cowork vs Perplexity Computer",
+              "perceived AI intelligence",
+              "agent barks",
               "critical AI literacy",
               "Claude",
               "Perplexity",
-              "workflow automation",
-              "Products"
+              "AI model comparison"
             ],
             "pwa:keyConcepts": [
-              "I Build AI Products for a Living",
-              "Here Are 5 Things All Model Comparisons Miss"
+              "perceived AI intelligence",
+              "agent barks",
+              "smart objects",
+              "AI product memory",
+              "error recovery"
             ],
             "pwa:keyQuotes": [
-              "I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss.",
-              "What ChatGPT Work, Perplexity Computer and Claude Cowork assume about us, the users, and what they reveal about perceived AI intelligence."
+              "Perceived AI intelligence is the capability we attribute to the model after the surrounding product has supplied context and selected tools.",
+              "Skills. Connectors. Tools. MCP servers. That is the furniture. The Sim is the model. We are the player.",
+              "What we experience as intelligence (or lack of it) is often an orchestration problem."
             ],
             "pwa:extractableClaims": [
-              "Yes, I know I can access some of these models through Perplexity.",
               "ChatGPT Work, Claude Cowork, and Perplexity Computer share plenty of capabilities, but they start from different assumptions about how we work.",
-              "What’s Inside This piece runs on two sources of truth: prolonged firsthand use and reading the official documentation.",
-              "Welcome to the 818 of you who have joined us since last week!",
-              "At turn one I use a full sentence: Change the background on this infographic to #f7f7f8."
+              "Perceived AI intelligence is the capability we attribute to the model after the surrounding product has supplied context and selected tools.",
+              "Memory can produce a startling increase in perceived intelligence without any corresponding leap in the underlying model.",
+              "Bark is a real term from game writing: the short lines characters yell in reaction to what is happening around them.",
+              "ChatGPT Work barely barks, Perplexity Computer narrates in full sentences, and Claude Cowork counts the seconds next to a verb.",
+              "No benchmark measures how we experience the moment an AI product tells us it was wrong."
             ]
           }
         },
