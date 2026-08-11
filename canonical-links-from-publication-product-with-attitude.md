@@ -4,6 +4,16 @@ Last updated: August 2026
 
 ---
 
+## Article: I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
+
+**Original Publish Date:** August 11, 2026
+
+---
+
 ## Article: AI for Crime Junkies: When ChatGPT Prompts Become Evidence
 
 **Author:** Karo Zieminski
