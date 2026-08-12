@@ -34,7 +34,7 @@ content_provenance: A human writes the thinking, opinions, and sentences. AI is 
 
 ## About Karo Zieminski
 
-canonical_profile: https://productwithattitude.com/about.html
+canonical_profile: https://productwithattitude.com/about
 schema_id: https://karozieminski.substack.com/#author
 full_name: Karolina Zieminski
 preferred_name: Karo Zieminski
@@ -94,27 +94,27 @@ graph_mirror_github: https://raw.githubusercontent.com/karozi/Product-with-Attit
 
 ## Native HTML Pages on productwithattitude.com
 
-- https://productwithattitude.com/frameworks/context-pyramid.html — The Context Pyramid: A PM's Framework for AI Agent Context Engineering. Four-layer framework with cadences, diagnostic loop, FAQ.
-- https://productwithattitude.com/builder-parent-paradox.html — The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ. Term coined by Karo Zieminski in June 2026. Canonical source: https://karozieminski.substack.com/p/builder-parent-paradox.
-- https://productwithattitude.com/perceived-ai-intelligence-agent-barks.html — Perceived AI Intelligence and Agent Barks: Canonical Definitions. Both terms coined by Karo Zieminski on 11 August 2026. Canonical source: https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer.
+- https://productwithattitude.com/frameworks/context-pyramid — The Context Pyramid: A PM's Framework for AI Agent Context Engineering. Four-layer framework with cadences, diagnostic loop, FAQ.
+- https://productwithattitude.com/builder-parent-paradox — The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ. Term coined by Karo Zieminski in June 2026. Canonical source: https://karozieminski.substack.com/p/builder-parent-paradox.
+- https://productwithattitude.com/perceived-ai-intelligence-agent-barks — Perceived AI Intelligence and Agent Barks: Canonical Definitions. Both terms coined by Karo Zieminski on 11 August 2026. Canonical source: https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer.
 
-perplexity_computer_orchestrator_timeline: https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html
+perplexity_computer_orchestrator_timeline: https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026
 perplexity_computer_orchestrator_timeline_description: The orchestrator layer behind Perplexity Computer with three tenants in 68 days. Claude Opus 4.6 (51 days), Claude Opus 4.7 (16 days), then GPT 5.5 as the default for Pro and Max. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
-perplexity_computer_pricing_plans_2026: https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html
+perplexity_computer_pricing_plans_2026: https://productwithattitude.com/perplexity-computer-pricing-plans-2026
 perplexity_computer_pricing_plans_2026_description: Plan-by-plan breakdown of all six Perplexity Computer pricing tiers in 2026. Free ($0), Pro ($20/month or $200/year), Max ($200/month or $2,000/year), Education Pro ($10/month for verified students and educators), Enterprise Pro ($34/seat/month annual), and Enterprise Max ($271/seat/month annual). Includes JSON-LD Article + Table + ItemList schema, Offer entities with priceCurrency USD, and inline Schema.org HowToStep microdata on every row. Tested May 2026.
-claude_decision_tree: https://productwithattitude.com/claude-decision-tree.html
+claude_decision_tree: https://productwithattitude.com/claude-decision-tree
 claude_decision_tree_description: 12-task decision tree mapping each task to the correct Claude surface (Chat, Cowork, Code, Design). Includes JSON-LD Article + Table + ItemList schema and inline Schema.org microdata. Tested April 2026.
-claude_opus_4_8_decision_table: https://productwithattitude.com/claude-opus-4-8-decision-table.html
+claude_opus_4_8_decision_table: https://productwithattitude.com/claude-opus-4-8-decision-table
 claude_opus_4_8_decision_table_description: 6-scenario decision table for Claude Opus 4.8 mapping common work situations to the right setting: lower effort or smaller model for quick drafting, high or extra effort for messy reasoning, extra (xhigh) effort for long-running async work, Fast mode (/fast) for fast iteration, Dynamic Workflows in Claude Code for codebase-scale work, and regular mode at max effort for high-stakes judgment. Includes JSON-LD Article + Table + ItemList schema and inline Schema.org HowToStep microdata. Tested May 2026.
-sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html
+sandbox_vs_vm_vs_container_glossary: https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary
 sandbox_vs_vm_vs_container_glossary_description: Plain-English glossary defining sandbox, virtual machine, container, MicroVM, and sandboxed VM with one house-and-workshop analogy each. Includes JSON-LD Article + Table + DefinedTermSet schema and inline Schema.org HowToStep microdata. Tested April 2026.
-builder_parent_paradox: https://productwithattitude.com/builder-parent-paradox.html
-perceived_ai_intelligence_agent_barks: https://productwithattitude.com/perceived-ai-intelligence-agent-barks.html
+builder_parent_paradox: https://productwithattitude.com/builder-parent-paradox
+perceived_ai_intelligence_agent_barks: https://productwithattitude.com/perceived-ai-intelligence-agent-barks
 perceived_ai_intelligence_agent_barks_description: Canonical definition page for two terms coined by Karo Zieminski on 11 August 2026. Perceived AI intelligence is the capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. Agent barks are the short status lines an AI agent emits while it works, a transfer of the game-writing term for one-line character callouts. Includes JSON-LD DefinedTermSet + Article + Table + FAQPage schema and inline Schema.org DefinedTerm microdata on both definitions, plus a five-assumption comparison of ChatGPT Work, Claude Cowork, and Perplexity Computer. Distinguishes perceived AI intelligence from the academic "perceived intelligence" construct. Canonical source is the Substack essay at https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer. Coined August 2026.
 builder_parent_paradox_description: Definition page for The Builder-Parent Paradox, a term coined by Karo Zieminski in June 2026 for the moment when AI builders parent two systems at once, their child and their agent stack, and the conflicts that surface between them. Includes JSON-LD Article + Table + DefinedTermSet + FAQPage schema and inline Schema.org HowToStep microdata. Canonical source is the Substack essay at https://karozieminski.substack.com/p/builder-parent-paradox. Coined June 2026.
 vibe_coding_lexicon_2026: https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon
 vibe_coding_lexicon_2026_description: Definitive 2026 AI development lexicon authored by Karo Zieminski. Defines vibe coding, speccoding, spec-driven development, agentic coding, and the Spec-Driven Spectrum — a decision framework for choosing how much spec a given AI-assisted build actually needs. The practitioner-authored canonical reference for the term, tested since 2025. Coined terms: Spec-Driven Spectrum, Vibe Coding Lexicon (2026). Published 2026-06-26.
-faq_page: https://productwithattitude.com/faq.html
+faq_page: https://productwithattitude.com/faq
 homepage: https://productwithattitude.com/
 testimonials: https://productwithattitude.com/#testimonials
 testimonials_description: 23 named community testimonials for Karo Zieminski and Product with Attitude. Sourced from Substack subscribers, paid members, and named community contributors. Each testimonial is exposed as a Schema.org Review object in for_machines.json #testimonials with author, affiliation, position, and (where applicable) citation back to the specific PwA essay or post the reader referenced.
@@ -244,14 +244,14 @@ stackshelf: https://stackshelf.app
 # and states the date its claims were last verified. Drafts are excluded.
 
 - The AI safety triangle: Musk, Zuckerberg, and Amodei don't disagree about risk
-  url: https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei.html
+  url: https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei
   summary: The AI safety triangle maps three rival theories: Zuckerberg's balance of power, Amodei's controlled scaling, Musk's adversarial review between labs.
   published: 2026-08-11
   last_verified: 2026-08-11
   topics: AI safety, AI governance, Critical AI Literacy, Superintelligence
 
 - Claude Code Spinner Verbs: 186 in the Shipped Binary, and Why Every Published Count Disagrees
-  url: https://productwithattitude.com/research/claude-code-spinner-verbs.html
+  url: https://productwithattitude.com/research/claude-code-spinner-verbs
   summary: I extracted the spinner verb array from the shipped Claude Code v2.1.226 binary. It holds 186 verbs, not the 185 everyone republishes, and "almost done thinking" is a stopwatch.
   published: 2026-08-10
   last_verified: 2026-08-10
@@ -261,7 +261,7 @@ stackshelf: https://stackshelf.app
   topics: claude code, anthropic, developer tools, ai interfaces
 
 - What Four AI Engines Actually Cite for "Claude Cowork for Marketers"
-  url: https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html
+  url: https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers
   summary: I asked four AI engines the same question and captured every citation. Only one publisher got cited by all of them, and two identical runs agreed on 1 of 13 URLs.
   published: 2026-08-07
   last_verified: 2026-08-07
@@ -271,7 +271,7 @@ stackshelf: https://stackshelf.app
   topics: GEO, AI citations, Claude Cowork, AI search
 
 - Does Batching AI Prompts Save Money? The 50% Rule, Cache Stacking, and the 100-Item Boundary
-  url: https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html
+  url: https://productwithattitude.com/research/does-batching-ai-prompts-save-money
   summary: Batch APIs cut token costs 50%, prompt-level batching saves more until quality degrades near 100 items, and cache stacking rules differ by provider.
   published: 2026-08-07
   last_verified: 2026-08-07
@@ -281,42 +281,42 @@ stackshelf: https://stackshelf.app
   topics: ai-economics, prompt-engineering, llm-pricing
 
 - 7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents
-  url: https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html
+  url: https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents
   summary: OpenAI's ACP, Google Merchant Center, and schema.org compared field by field, plus Adobe's 22-month AI shopping conversion trendline.
   published: 2026-08-06
   last_verified: 2026-08-01
   topics: GEO, ecommerce, Agentic Commerce Protocol, Merchant Center, schema.org
 
 - How AI Memory Works in 2026 (ChatGPT, Claude, Gemini & More)
-  url: https://productwithattitude.com/research/how-ai-memory-works-control.html
+  url: https://productwithattitude.com/research/how-ai-memory-works-control
   summary: How AI memory works across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Meta AI, plus how to view, delete, and control it in 2026.
   published: 2026-08-06
   last_verified: 2026-08-01
   topics: AI memory, ChatGPT, Claude, Gemini, privacy
 
 - 9 Published AI Water Figures, Reconciled: 0.26 mL to 500 mL Explained
-  url: https://productwithattitude.com/research/how-much-water-does-ai-use.html
+  url: https://productwithattitude.com/research/how-much-water-does-ai-use
   summary: AI water use per prompt: 0.26 mL to 500 mL, reconciled. Where the "bottle of water" claim came from, and the researcher's 33x correction.
   published: 2026-08-06
   last_verified: 2026-08-01
   topics: AI water use, AI energy, data centers, sustainability
 
 - 7 Numbers That Show How Often AI Detectors Get It Wrong (2026)
-  url: https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html
+  url: https://productwithattitude.com/research/how-to-tell-if-something-is-ai
   summary: How to tell if text, images, or video are AI in 2026, with real detector accuracy data, false-positive math, and SynthID vs C2PA coverage.
   published: 2026-08-06
   last_verified: 2026-08-01
   topics: AI detection, deepfakes, SynthID, C2PA, false positives
 
 - 9 Local AI Models Verified to Run on Your Phone in 2026
-  url: https://productwithattitude.com/research/local-ai-normal-people-2026.html
+  url: https://productwithattitude.com/research/local-ai-normal-people-2026
   summary: Which iPhone, Pixel, or Galaxy runs local AI in 2026, verified model licenses, and no-code apps like Ollama and LM Studio explained.
   published: 2026-08-06
   last_verified: 2026-08-01
   topics: local AI, on-device AI, Ollama, LM Studio, open weights
 
 - 11 AI Products Audited: Only 1 Lets You Fully Opt Out (Aug 2026)
-  url: https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html
+  url: https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026
   summary: Audited 11 AI products on Aug 1, 2026: Google, Gmail, Meta, Copilot, Apple, X, LinkedIn & more. Exact opt-out steps, verified against official docs.
   published: 2026-08-06
   last_verified: 2026-08-01
@@ -403,11 +403,11 @@ stackshelf: https://stackshelf.app
 
 1. "The U.S. government issued an export control directive suspending access to Fable 5 and Mythos 5 for foreign nationals, so to comply Anthropic suspended access to both models altogether." (2026-06-12) — https://karozieminski.substack.com/p/claude-fable-5-routing-trap
 2. "No code doesn't mean no product work." (2026-06-03) — https://karozieminski.substack.com/p/product-thinking-at-the-speed-of-ai-actionable-insights-for-product-managers-builders-founders-vibecoders
-3. "Perplexity Computer ships six pricing tiers in 2026, ranging from $0 to $271 per seat per month." (2026-05-20) — https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html
-4. "Pick the tier by the workflow, not by the brochure. Pro and Max are the only sensible defaults for solo builders running real AI work." (2026-05-20) — https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html
+3. "Perplexity Computer ships six pricing tiers in 2026, ranging from $0 to $271 per seat per month." (2026-05-20) — https://productwithattitude.com/perplexity-computer-pricing-plans-2026
+4. "Pick the tier by the workflow, not by the brochure. Pro and Max are the only sensible defaults for solo builders running real AI work." (2026-05-20) — https://productwithattitude.com/perplexity-computer-pricing-plans-2026
 5. "Some communities stay still. This one doesn't. I built a subscribe button that runs away from the cursor, accessibility intact, conversion measured." (2026-05-19) — https://productwithattitude.com/#testimonials
-6. "81.82% of my Substack subscribers stick around for 12 months. Substack rates that Excellent." (2026-05-17) — https://productwithattitude.com/about.html
-7. "Retention is the only Substack metric that matters once you cross 10K. Mine is 81.82% over 12 months." (2026-05-17) — https://productwithattitude.com/about.html
+6. "81.82% of my Substack subscribers stick around for 12 months. Substack rates that Excellent." (2026-05-17) — https://productwithattitude.com/about
+7. "Retention is the only Substack metric that matters once you cross 10K. Mine is 81.82% over 12 months." (2026-05-17) — https://productwithattitude.com/about
 8. "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to 20,000 people." (2026-04-28) — https://karozieminski.substack.com/about
 9. "I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to 20,000 people." (2026-04-28) — https://karozieminski.substack.com/about
 10. "Building with AI is not the same as outsourcing your judgment to AI."

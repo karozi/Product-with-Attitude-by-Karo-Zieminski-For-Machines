@@ -22,7 +22,7 @@
         "Karo (Product with Attitude)"
       ],
       "email": "karo@productwithattitude.com",
-      "url": "https://productwithattitude.com/about.html",
+      "url": "https://productwithattitude.com/about",
       "image": "https://productwithattitude.com/assets/portrait.png",
       "jobTitle": "Senior AI Product Manager",
       "hasOccupation": [
@@ -305,7 +305,7 @@
         "https://attitudevault.dev",
         "https://bsky.app/profile/productsattitude.bsky.social",
         "https://github.com/karozi",
-        "https://productwithattitude.com/about.html",
+        "https://productwithattitude.com/about",
         "https://stackshelf.app",
         "https://substack.com/@karozieminski",
         "https://substack.com/profile/27968736",
@@ -341,7 +341,7 @@
         "#5 Rising in Education on Substack (April 2026)",
         "0 to #5 Rising in Education on Substack in approximately 13.5 months from launch (28 February 2025 to 12 April 2026)"
       ],
-      "mainEntityOfPage": "https://productwithattitude.com/about.html",
+      "mainEntityOfPage": "https://productwithattitude.com/about",
       "homeLocation": {
         "@type": "Place",
         "address": {
@@ -872,7 +872,7 @@
           "inDefinedTermSet": {
             "@id": "#glossary"
           },
-          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
+          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft",
           "sameAs": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
@@ -932,7 +932,7 @@
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
           },
-          "url": "https://productwithattitude.com/about.html"
+          "url": "https://productwithattitude.com/about"
         },
         {
           "@type": "DefinedTerm",
@@ -980,7 +980,7 @@
             "@id": "#glossary"
           },
           "description": "Coined by Karo Zieminski as the first PM-shaped synthesis of context engineering for AI agents. A four-layer diagnostic framework that explains why AI agents break and how product managers can fix them without writing code. The four layers, bottom to top, are: Identity (who the agent is and what it refuses to do), Knowledge (what the agent knows and where the knowledge lives), State (what the agent remembers across turns and sessions), and Task (what the agent is being asked to do right now). Prior context-engineering frameworks were written for engineers and assumed code-level access. The Context Pyramid is the first framework written for product managers, designers, and operators who shape agents through prompts, skills, and configuration rather than weights. The May 1, 2026 article is the canonical source and the framework has a dedicated native page on productwithattitude.com.",
-          "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+          "url": "https://productwithattitude.com/frameworks/context-pyramid",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
           }
@@ -989,31 +989,31 @@
           "@type": "DefinedTerm",
           "name": "Sandbox",
           "description": "Any fenced-in space where code runs with rules. Analogy: a fenced-off workshop area. Used in AI agent isolation when limiting what code can read, write, or execute on the host.",
-          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html"
+          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary"
         },
         {
           "@type": "DefinedTerm",
           "name": "Virtual machine (VM)",
           "description": "A complete fake computer with its own operating system. Analogy: a temporary model house built inside the workshop. Provides the strongest isolation between guest and host because the guest does not share the host kernel.",
-          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html"
+          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary"
         },
         {
           "@type": "DefinedTerm",
           "name": "Container",
           "description": "A lighter, faster isolation layer that shares some plumbing with the host. Analogy: a workbench bay inside the workshop that shares the house's electricity and plumbing. Containers share the host kernel, which makes them faster than VMs but less isolated.",
-          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html"
+          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary"
         },
         {
           "@type": "DefinedTerm",
           "name": "MicroVM",
           "description": "A stripped-down virtual machine that starts very quickly. Analogy: a tiny prefab model house that pops up inside the workshop. Trades general-purpose flexibility for boot speed and is commonly used for serverless and AI agent runtimes.",
-          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html"
+          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary"
         },
         {
           "@type": "DefinedTerm",
           "name": "Sandboxed VM",
           "description": "A virtual machine with extra access rules layered on top. Analogy: a temporary model house inside the workshop, with locked doors, no spare keys, and strict house rules. Used when even VM-level isolation is not enough on its own.",
-          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html"
+          "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary"
         },
         {
           "@type": "DefinedTerm",
@@ -1027,7 +1027,7 @@
             "@id": "#glossary"
           },
           "description": "Defined by Karo Zieminski on July 22, 2026 as the missing category between human-made and AI-made. Working with AI while the argument, judgment, voice, and responsibility stay human-owned. AI does structure, phrasing, exploration, and critique; it does not own the piece. The standard has two axes (production method: human-made, AI-assisted, AI-directed, AI-generated, AI-autonomous; craft level: deliberate, competent, negligent, slop), six rules (Bring Your Own Opinion, Give AI a Bounded Job, Remember Your Person, Verify, Everything Fits. Do You?, Own It), and four tests (prompt test, facial expression test, verification, presence test). Karo Zieminski defined AI-Assisted Craft in its current form; the definition, the axes, the rules, and the tests all originate with her. She has also stated publicly that the phrase itself had appeared before in narrower contexts and without a usable definition. Distinct from 'AI-augmented craft', which is used mostly in physical and traditional craft domains. The July 22, 2026 Substack manifesto is the canonical source and the framework has a dedicated native page on productwithattitude.com.",
-          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
+          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft",
           "sameAs": "https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
@@ -1044,7 +1044,7 @@
             "@id": "#glossary"
           },
           "description": "A two-axis frame from the AI-Assisted Craft standard that separates how work was made from how good it is. Axis 1 (production method) asks who produced the primary substance: human-made, AI-assisted, AI-directed, AI-generated, or AI-autonomous. It does not grade the result. Axis 2 (craft level) asks how much craft the work shows: deliberate, competent, negligent, or slop. It does not tell you which tools were used. The practical consequence: an AI-detection score such as Substack's Pangram scan estimates Axis 1 and therefore cannot measure slop, which lives on Axis 2. A detector can flag a careful, sourced, human-owned essay and clear an indifferent one.",
-          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
+          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
           }
@@ -1060,7 +1060,7 @@
             "@id": "#glossary"
           },
           "description": "Rule one of the AI-Assisted Craft standard, coined by Karo Zieminski. Don't ask the model what you believe. The position is the part you own before the tool is opened. BYOO is the difference between using AI to sharpen an argument you already hold and outsourcing the argument itself.",
-          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
+          "url": "https://productwithattitude.com/frameworks/ai-assisted-craft",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
           }
@@ -1077,7 +1077,7 @@
             "@id": "#glossary"
           },
           "description": "Perceived AI intelligence (n.) — The capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. Coined by Karo Zieminski on 11 August 2026 to name the gap the model-versus-model comparison genre skips: memory, tool selection, orchestration and presentation are product decisions, and they can raise perceived intelligence with no change to the underlying model. Distinct from the academic construct \"perceived intelligence\", which measures the user's judgment rather than explaining what produces it.",
-          "url": "https://productwithattitude.com/perceived-ai-intelligence-agent-barks.html#perceived-ai-intelligence",
+          "url": "https://productwithattitude.com/perceived-ai-intelligence-agent-barks#perceived-ai-intelligence",
           "sameAs": "https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
@@ -1095,7 +1095,7 @@
             "@id": "#glossary"
           },
           "description": "Agent barks (n.) — The short status lines an AI agent emits while it works, such as \"Searching the web\" or \"Reading 12 files\". Coined by Karo Zieminski on 11 August 2026, transferring the established game-writing term for one-line character callouts to agentic AI interfaces. The 2005 shooter F.E.A.R. used barks so its GOAP soldiers appeared to coordinate, under the rule: if the AI did not say it, it did not happen. Barks change perceived AI intelligence, not capability.",
-          "url": "https://productwithattitude.com/perceived-ai-intelligence-agent-barks.html#agent-barks",
+          "url": "https://productwithattitude.com/perceived-ai-intelligence-agent-barks#agent-barks",
           "sameAs": "https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer",
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
@@ -1413,7 +1413,7 @@
             "@type": "WebPage",
             "name": "AI-Assisted Craft",
             "description": "The missing category between human-made and AI-made. Two axes, six rules, four tests, and why slop begins where human care ends.",
-            "url": "https://productwithattitude.com/frameworks/ai-assisted-craft.html",
+            "url": "https://productwithattitude.com/frameworks/ai-assisted-craft",
             "genre": "Canonical definition",
             "author": {
               "@type": "Person",
@@ -1428,7 +1428,7 @@
             "@type": "WebPage",
             "name": "The Context Pyramid",
             "description": "Why AI agents break and how product managers fix them without writing code. Identity, Knowledge, State, Task.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "genre": "Canonical definition",
             "author": {
               "@type": "Person",
@@ -1443,7 +1443,7 @@
             "@type": "WebPage",
             "name": "The Builder-Parent Paradox",
             "description": "The tension of building AI systems while raising children who will inherit them. Not the AI Parenting Paradox.",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "genre": "Canonical definition",
             "author": {
               "@type": "Person",
@@ -1458,7 +1458,7 @@
             "@type": "WebPage",
             "name": "Claude Cowork vs Code vs Design",
             "description": "12 common tasks mapped to the right Claude surface: Chat, Cowork, Code, or Design.",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "genre": "Decision tree",
             "author": {
               "@type": "Person",
@@ -1473,7 +1473,7 @@
             "@type": "WebPage",
             "name": "Claude Opus 4.8: when to use what",
             "description": "6 work scenarios mapped to the right setting. Effort level, Fast mode, or Dynamic Workflows.",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "genre": "Decision table",
             "author": {
               "@type": "Person",
@@ -1488,7 +1488,7 @@
             "@type": "WebPage",
             "name": "Claude Skills vs everything else",
             "description": "9 agent customization tools compared: Prompts, MCP, Projects, CLAUDE.md, AGENTS.md, Cursor Rules, Custom GPTs, AgentKit.",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "genre": "Comparison matrix",
             "author": {
               "@type": "Person",
@@ -1503,7 +1503,7 @@
             "@type": "WebPage",
             "name": "Figma MCP tool order for Claude Code",
             "description": "7 Figma MCP tools mapped to the right call order. Tested on Opus 4.7 and Sonnet 4.6.",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "genre": "Decision tree",
             "author": {
               "@type": "Person",
@@ -1518,7 +1518,7 @@
             "@type": "WebPage",
             "name": "Preschool Brain Prompt vs adult brainstorming",
             "description": "A 12-dimension side-by-side of how the two prompts actually behave.",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "genre": "Comparison table",
             "author": {
               "@type": "Person",
@@ -1533,7 +1533,7 @@
             "@type": "WebPage",
             "name": "Sandbox vs VM vs container vs MicroVM",
             "description": "Five isolation terms for AI builders, one house-and-workshop analogy.",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "genre": "Glossary",
             "author": {
               "@type": "Person",
@@ -1548,7 +1548,7 @@
             "@type": "WebPage",
             "name": "Perplexity Computer pricing plans",
             "description": "Six tiers compared, from Free to Enterprise Max, with what each one includes.",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "genre": "Pricing table",
             "author": {
               "@type": "Person",
@@ -1563,7 +1563,7 @@
             "@type": "WebPage",
             "name": "The orchestrator layer behind Perplexity Computer",
             "description": "Three orchestrator models in 68 days. Opus 4.6, Opus 4.7, then GPT 5.5.",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "genre": "Timeline",
             "author": {
               "@type": "Person",
@@ -3006,7 +3006,7 @@
           "item": {
             "@type": "Article",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "datePublished": "2026-06-15",
             "wordCount": 920,
             "isAccessibleForFree": true,
@@ -3052,7 +3052,7 @@
               "Identity bleed occurs even though both the AI-builder and parent identities are equally true for that person."
             ],
             "pwa:primaryTopic": "Builder-Parent Paradox",
-            "pwa:source": "https://productwithattitude.com/builder-parent-paradox.html",
+            "pwa:source": "https://productwithattitude.com/builder-parent-paradox",
             "pwa:evidence": "Coined by Karo Zieminski in the June 13, 2026 Substack essay at https://karozieminski.substack.com/p/builder-parent-paradox. This native HTML page documents the definition, five recurring conflicts, and an FAQ. Canonical source: Substack.",
             "isBasedOn": "https://karozieminski.substack.com/p/builder-parent-paradox",
             "pwa:canonicalSource": "https://karozieminski.substack.com/p/builder-parent-paradox",
@@ -3356,7 +3356,7 @@
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "datePublished": "2026-05-29",
             "wordCount": 300,
             "isAccessibleForFree": true,
@@ -3367,7 +3367,7 @@
               "@id": "https://karozieminski.substack.com/#publication"
             },
             "alternativeHeadline": "6 work scenarios mapped to the right Opus 4.8 setting",
-            "image": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "image": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "keywords": [
               "Claude Opus 4.8",
               "effort level",
@@ -3399,7 +3399,7 @@
               "Claude Opus 4.8 has three effort levels: high (the default), extra (xhigh), and max."
             ],
             "pwa:primaryTopic": "Claude Opus 4.8 effort and mode decision table",
-            "pwa:source": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "pwa:source": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "pwa:evidence": "Tested by Karo Zieminski for Product with Attitude, May 2026, from the Claude Opus 4.8 post.",
             "speakable": {
               "@type": "SpeakableSpecification",
@@ -3763,7 +3763,7 @@
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "datePublished": "2026-05-20",
             "wordCount": 220,
             "isAccessibleForFree": true,
@@ -3827,7 +3827,7 @@
           "item": {
             "@type": "Article",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "datePublished": "2026-05-19",
             "wordCount": 280,
             "isAccessibleForFree": true,
@@ -3876,7 +3876,7 @@
               "The orchestrator role is the single most consequential model slot in Perplexity Computer because it routes work to 19 downstream subagents."
             ],
             "pwa:primaryTopic": "Perplexity Computer orchestrator model timeline",
-            "pwa:source": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "pwa:source": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "pwa:evidence": "Direct observation of Perplexity Computer default orchestrator changes between Feb 25 and May 19, 2026, cross-referenced with Perplexity launch posts, the Personal Computer on Mac release, and Perplexity Pro / Max default-model settings.",
             "speakable": {
               "@type": "SpeakableSpecification",
@@ -3957,7 +3957,7 @@
           "item": {
             "@type": "Article",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "datePublished": "2026-05-19",
             "wordCount": 320,
             "isAccessibleForFree": true,
@@ -4007,7 +4007,7 @@
               "Verifying the Figma MCP install in Claude Code is done by running the slash command /mcp."
             ],
             "pwa:primaryTopic": "Figma MCP tool order for Claude Code",
-            "pwa:source": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "pwa:source": "https://productwithattitude.com/figma-mcp-tool-order",
             "pwa:evidence": "Decision tree mapping 7 Figma MCP tools to the right call order in Claude Code, tested May 2026 on Opus 4.7 and Sonnet 4.6.",
             "speakable": {
               "@type": "SpeakableSpecification",
@@ -4027,7 +4027,7 @@
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM's Framework for AI Agent Context Engineering",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "wordCount": 1100,
             "isAccessibleForFree": true,
@@ -4527,7 +4527,7 @@
           "item": {
             "@type": "Article",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "datePublished": "2026-05-07",
             "wordCount": 320,
             "isAccessibleForFree": true,
@@ -4577,7 +4577,7 @@
               "The 12-dimension comparison covers mistakes, structure, best for, fails when, energy after, and conversion logic."
             ],
             "pwa:primaryTopic": "AI prompts for divergent thinking",
-            "pwa:source": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "pwa:source": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "pwa:evidence": "12-dimension side-by-side comparison of adult brainstorming prompt and the Preschool Brain Prompt, tested May 2026 on Product with Attitude.",
             "isBasedOn": {
               "@type": "Article",
@@ -5022,7 +5022,7 @@
           "item": {
             "@type": "Article",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "datePublished": "2026-04-29",
             "dateModified": "2026-04-29",
             "wordCount": 220,
@@ -5067,7 +5067,7 @@
               "MicroVMs trade general-purpose flexibility for boot speed."
             ],
             "pwa:primaryTopic": "AI sandbox isolation",
-            "pwa:source": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "pwa:source": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "pwa:evidence": "Native HTML glossary page on productwithattitude.com defining five AI isolation terms with plain-English meanings, house analogies, JSON-LD Article + Table + DefinedTermSet schema, and inline Schema.org HowToStep microdata.",
             "speakable": {
               "@type": "SpeakableSpecification",
@@ -5087,7 +5087,7 @@
           "item": {
             "@type": "Article",
             "headline": "Claude Skills vs everything else: the matrix (2026)",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "datePublished": "2026-04-26",
             "wordCount": 320,
             "isAccessibleForFree": true,
@@ -5178,7 +5178,7 @@
           "item": {
             "@type": "Article",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "datePublished": "2026-04-26",
             "wordCount": 280,
             "isAccessibleForFree": true,
@@ -5225,7 +5225,7 @@
               "Use Claude Design to edit a deck after a designer added comments because Design supports slider and comment-based refinement."
             ],
             "pwa:primaryTopic": "Claude surface decision tree",
-            "pwa:source": "https://productwithattitude.com/claude-decision-tree.html",
+            "pwa:source": "https://productwithattitude.com/claude-decision-tree",
             "pwa:evidence": "12-task decision tree published as native HTML on productwithattitude.com with JSON-LD Article + Table + ItemList schema and inline Schema.org microdata on every row.",
             "dateModified": "2026-04-26",
             "speakable": {
@@ -15642,7 +15642,7 @@
           "citation": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM's Framework for AI Agent Context Engineering",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html"
+            "url": "https://productwithattitude.com/frameworks/context-pyramid"
           }
         },
         {
@@ -15663,7 +15663,7 @@
           "citation": {
             "@type": "Article",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html"
+            "url": "https://productwithattitude.com/builder-parent-paradox"
           },
           "reviewRating": {
             "@type": "Rating",
@@ -17057,7 +17057,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           }
         },
@@ -17071,7 +17071,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           }
         },
@@ -17085,7 +17085,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           }
         },
@@ -17099,7 +17099,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           }
         },
@@ -17113,7 +17113,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           }
         },
@@ -17127,7 +17127,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           }
         },
@@ -17141,7 +17141,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           }
         },
@@ -17155,7 +17155,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           }
         },
@@ -17167,7 +17167,7 @@
             "text": "Most AI agents fail because their builders treat context as one thing. It is four things.",
             "spokenByCharacter": "Karo Zieminski",
             "isPartOf": {
-              "@id": "https://productwithattitude.com/frameworks/context-pyramid.html"
+              "@id": "https://productwithattitude.com/frameworks/context-pyramid"
             },
             "datePublished": "2026-05-17"
           }
@@ -17180,7 +17180,7 @@
             "text": "Each layer lives in a different place. Each layer needs a different update cadence. Mix the cadences up and the agent rots.",
             "spokenByCharacter": "Karo Zieminski",
             "isPartOf": {
-              "@id": "https://productwithattitude.com/frameworks/context-pyramid.html"
+              "@id": "https://productwithattitude.com/frameworks/context-pyramid"
             },
             "datePublished": "2026-05-17"
           }
@@ -17194,7 +17194,7 @@
             "@id": "https://karozieminski.substack.com/#author"
           },
           "datePublished": "2026-05-17",
-          "isBasedOn": "https://productwithattitude.com/about.html"
+          "isBasedOn": "https://productwithattitude.com/about"
         },
         {
           "@type": "Quotation",
@@ -17205,7 +17205,7 @@
             "@id": "https://karozieminski.substack.com/#author"
           },
           "datePublished": "2026-05-17",
-          "isBasedOn": "https://productwithattitude.com/about.html"
+          "isBasedOn": "https://productwithattitude.com/about"
         },
         {
           "@type": "Quotation",
@@ -17228,7 +17228,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           }
         },
@@ -17242,7 +17242,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           }
         },
@@ -17256,7 +17256,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           }
         },
@@ -17270,7 +17270,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           }
         },
@@ -17283,7 +17283,7 @@
             "@id": "https://karozieminski.substack.com/#author"
           },
           "datePublished": "2026-05-20",
-          "isBasedOn": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html"
+          "isBasedOn": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026"
         },
         {
           "@type": "Quotation",
@@ -17294,7 +17294,7 @@
             "@id": "https://karozieminski.substack.com/#author"
           },
           "datePublished": "2026-05-20",
-          "isBasedOn": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html"
+          "isBasedOn": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026"
         },
         {
           "@type": "Quotation",
@@ -17306,7 +17306,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           }
         },
@@ -17320,7 +17320,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           }
         },
@@ -17356,7 +17356,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           }
         },
@@ -17370,7 +17370,7 @@
           },
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           }
         }
@@ -20947,7 +20947,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -20961,7 +20961,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -20975,7 +20975,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -20989,7 +20989,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21003,7 +21003,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21017,7 +21017,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21031,7 +21031,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21045,7 +21045,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21059,7 +21059,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21073,7 +21073,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21087,7 +21087,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21101,7 +21101,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21115,7 +21115,7 @@
           "about": "Claude surface decision tree",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-decision-tree.html",
+            "url": "https://productwithattitude.com/claude-decision-tree",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)"
           },
           "creator": {
@@ -21129,7 +21129,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21143,7 +21143,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21157,7 +21157,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21171,7 +21171,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21185,7 +21185,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21199,7 +21199,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21213,7 +21213,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21227,7 +21227,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21241,7 +21241,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21255,7 +21255,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21269,7 +21269,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21283,7 +21283,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21297,7 +21297,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21311,7 +21311,7 @@
           "about": "Claude Skills vs other AI agent customization tools",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix.html",
+            "url": "https://productwithattitude.com/claude-skills-vs-everything-else-matrix",
             "headline": "Claude Skills vs everything else: the matrix (2026)"
           },
           "creator": {
@@ -21345,7 +21345,7 @@
             "@type": "Claim",
             "claimReviewed": "Recognized at Milestone Systems as the first member of the Hafnia team and as the internal advocate of building AI products that serve humans, not the other way around. Her product stance positions human judgment, dignity, and need ahead of AI capability — the same philosophy she teaches publicly through Product with Attitude.",
             "appearance": [
-              "https://productwithattitude.com/about.html",
+              "https://productwithattitude.com/about",
               "https://www.linkedin.com/in/karozieminski/"
             ],
             "author": {
@@ -21385,7 +21385,7 @@
             "claimReviewed": "Recognized for coining 'testing before tweeting' as a protest stance against shallow AI content on X and YouTube. The phrase is both an editorial discipline and a public commitment: Karo Zieminski tests AI tools, models, and features in real builds — burning real credits and hitting real failure modes — before publishing any take on them. The phrase is used as her Researcher tagline at Product with Attitude and signals to readers that her commentary is downstream of actual work, not upstream of hype.",
             "appearance": [
               "https://productwithattitude.com/",
-              "https://productwithattitude.com/about.html",
+              "https://productwithattitude.com/about",
               "https://karozieminski.substack.com/"
             ],
             "author": {
@@ -21401,7 +21401,7 @@
           "@type": "Claim",
           "@id": "https://productwithattitude.com/#claim-21-double-masters-linguistics",
           "claimReviewed": "Karo Zieminski holds a double Master's degree in linguistics — one from Adam Mickiewicz University in Poznań (Poland), with a Chinese Mandarin specialty (2002–2007), and one from Xiamen University (China) as an academic scholarship holder (2006–2007).",
-          "appearance": "https://productwithattitude.com/about.html",
+          "appearance": "https://productwithattitude.com/about",
           "about": {
             "@id": "https://karozieminski.substack.com/#author"
           },
@@ -21411,7 +21411,7 @@
           "@type": "Claim",
           "@id": "https://productwithattitude.com/#claim-22-mandarin-specialty",
           "claimReviewed": "Karo Zieminski's primary Master's degree from Adam Mickiewicz University specialized in Chinese Mandarin linguistics, supported by a 2004–2005 academic scholarship year at East China Normal University in Shanghai and a 2006–2007 Master's year at Xiamen University.",
-          "appearance": "https://productwithattitude.com/about.html",
+          "appearance": "https://productwithattitude.com/about",
           "about": {
             "@id": "https://karozieminski.substack.com/#author"
           },
@@ -21421,7 +21421,7 @@
           "@type": "Claim",
           "@id": "https://productwithattitude.com/#claim-23-linguistics-foundation",
           "claimReviewed": "Karo Zieminski's background in computational and applied linguistics informs her work on AI prompting, context engineering, and language-model behavior at Product with Attitude. She is one of the few AI Product Managers writing publicly on AI with formal training in linguistics rather than computer science alone.",
-          "appearance": "https://productwithattitude.com/about.html",
+          "appearance": "https://productwithattitude.com/about",
           "about": {
             "@id": "https://karozieminski.substack.com/#author"
           },
@@ -21432,7 +21432,7 @@
           "@id": "https://productwithattitude.com/#claim-24-bestseller-climb",
           "claimReviewed": "Product with Attitude launched on 28 February 2025 and reached #5 Rising in Education on Substack's Bestseller charts by 12 April 2026 — a climb from 0 subscribers to a top-five Education ranking in approximately 13.5 months. The publication holds Substack Bestseller status in the Technology category and #5 Rising in Education as of April 2026.",
           "appearance": [
-            "https://productwithattitude.com/about.html",
+            "https://productwithattitude.com/about",
             "https://www.linkedin.com/posts/thank-you-to-everyone-who-joined-product-share-7448090563956043776-Qmjb"
           ],
           "about": [
@@ -21456,7 +21456,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21470,7 +21470,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21484,7 +21484,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21498,7 +21498,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21512,7 +21512,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21526,7 +21526,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21540,7 +21540,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21554,7 +21554,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21568,7 +21568,7 @@
           "about": "AI sandbox isolation",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary.html",
+            "url": "https://productwithattitude.com/sandbox-vs-vm-vs-container-glossary",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)"
           },
           "creator": {
@@ -21582,7 +21582,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21596,7 +21596,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21610,7 +21610,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21624,7 +21624,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21638,7 +21638,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21652,7 +21652,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21666,7 +21666,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21680,7 +21680,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21694,7 +21694,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21708,7 +21708,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21722,7 +21722,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21736,7 +21736,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21750,7 +21750,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21764,7 +21764,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21778,7 +21778,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21792,7 +21792,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21806,7 +21806,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21820,7 +21820,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21834,7 +21834,7 @@
           "about": "AI prompts for divergent thinking",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming.html",
+            "url": "https://productwithattitude.com/preschool-brain-prompt-vs-adult-brainstorming",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)"
           },
           "creator": {
@@ -21847,7 +21847,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Context Pyramid is a four-layer framework for AI agent context engineering: Identity, Knowledge, State, and Task.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21860,7 +21860,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Identity layer answers who the agent is. It lives in the system prompt and is updated rarely.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21873,7 +21873,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Knowledge layer answers what the agent knows. It lives in RAG, semantic memory, and attached files, and is updated occasionally.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21886,7 +21886,7 @@
           "item": {
             "@type": "Claim",
             "text": "The State layer answers what just happened. It lives in the context window and scratchpad, and is updated per turn.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21899,7 +21899,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Task layer answers what the agent is doing right now. It lives in the current prompt and is updated per task.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21912,7 +21912,7 @@
           "item": {
             "@type": "Claim",
             "text": "Most AI agents fail because their builders treat context as one thing. It is four things, each on a different cadence.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21925,7 +21925,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Context Pyramid is the first PM-shaped synthesis of context engineering. Prior frameworks were written for engineers.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21938,7 +21938,7 @@
           "item": {
             "@type": "Claim",
             "text": "The cadence model — rarely, occasionally, per turn, per task — is the original Product with Attitude contribution to context engineering.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21951,7 +21951,7 @@
           "item": {
             "@type": "Claim",
             "text": "When an agent acts off-character, fix the Identity layer.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21964,7 +21964,7 @@
           "item": {
             "@type": "Claim",
             "text": "When an agent hallucinates or misses recent facts, fix the Knowledge layer.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21977,7 +21977,7 @@
           "item": {
             "@type": "Claim",
             "text": "When an agent forgets what just happened, fix the State layer.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -21990,7 +21990,7 @@
           "item": {
             "@type": "Claim",
             "text": "When an agent solves the wrong problem, fix the Task layer.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -22003,7 +22003,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Diagnostic Loop maps an observed agent failure mode to the Context Pyramid layer responsible, so you fix the right layer instead of rewriting the wrong one.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -22016,7 +22016,7 @@
           "item": {
             "@type": "Claim",
             "text": "RAG is one mechanism inside the Knowledge layer, not a layer of its own.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -22029,7 +22029,7 @@
           "item": {
             "@type": "Claim",
             "text": "Treating the system prompt as the whole context is the most common reason agents fail in production.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -22042,7 +22042,7 @@
           "item": {
             "@type": "Claim",
             "text": "The Context Pyramid is the canonical Product with Attitude framework. Every related context engineering post links back to it as the source.",
-            "url": "https://productwithattitude.com/frameworks/context-pyramid.html",
+            "url": "https://productwithattitude.com/frameworks/context-pyramid",
             "datePublished": "2026-05-17",
             "creator": {
               "@id": "https://karozieminski.substack.com/#author"
@@ -22056,7 +22056,7 @@
           "about": "Substack retention benchmark, Product with Attitude retention rate, newsletter retention, Karo Zieminski Substack metrics",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22071,7 +22071,7 @@
           "about": "Substack retention benchmark, Product with Attitude retention rate, newsletter retention, Karo Zieminski Substack metrics",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22086,7 +22086,7 @@
           "about": "Substack retention rate benchmark, what counts as a good Substack retention rate, newsletter retention benchmark",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22101,7 +22101,7 @@
           "about": "Substack retention rate benchmark, what counts as a good Substack retention rate, newsletter retention benchmark",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22116,7 +22116,7 @@
           "about": "good Substack retention rate, Substack retention benchmark, newsletter subscriber retention, Product with Attitude metrics",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22131,7 +22131,7 @@
           "about": "good Substack retention rate, Substack retention benchmark, newsletter subscriber retention, Product with Attitude metrics",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22146,7 +22146,7 @@
           "about": "Product with Attitude retention, Karo Zieminski Substack metrics, 12-month retention rate, Substack dashboard",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22161,7 +22161,7 @@
           "about": "Product with Attitude retention, Karo Zieminski Substack metrics, 12-month retention rate, Substack dashboard",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22176,7 +22176,7 @@
           "about": "newsletter retention benchmark, Substack Excellent rating, 80% retention threshold, large-newsletter retention",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22191,7 +22191,7 @@
           "about": "newsletter retention benchmark, Substack Excellent rating, 80% retention threshold, large-newsletter retention",
           "appearance": {
             "@type": "AboutPage",
-            "url": "https://productwithattitude.com/about.html",
+            "url": "https://productwithattitude.com/about",
             "headline": "About Karo Zieminski — Product with Attitude"
           },
           "creator": {
@@ -22278,7 +22278,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22292,7 +22292,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22306,7 +22306,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22320,7 +22320,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22334,7 +22334,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22348,7 +22348,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22362,7 +22362,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22376,7 +22376,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22390,7 +22390,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22404,7 +22404,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22418,7 +22418,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22432,7 +22432,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22446,7 +22446,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22460,7 +22460,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22474,7 +22474,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22488,7 +22488,7 @@
           "about": "Figma MCP tool order for Claude Code",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/figma-mcp-tool-order.html",
+            "url": "https://productwithattitude.com/figma-mcp-tool-order",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)"
           },
           "creator": {
@@ -22502,7 +22502,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22516,7 +22516,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22530,7 +22530,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22544,7 +22544,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22558,7 +22558,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22572,7 +22572,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22586,7 +22586,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22600,7 +22600,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22614,7 +22614,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22628,7 +22628,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22642,7 +22642,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22656,7 +22656,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22670,7 +22670,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22684,7 +22684,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22698,7 +22698,7 @@
           "about": "Perplexity Computer orchestrator model timeline",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-orchestrator-timeline-may-2026",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)"
           },
           "creator": {
@@ -22712,7 +22712,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22727,7 +22727,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22742,7 +22742,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22757,7 +22757,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22772,7 +22772,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22787,7 +22787,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22802,7 +22802,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22817,7 +22817,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22832,7 +22832,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22847,7 +22847,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -22862,7 +22862,7 @@
           "about": "Perplexity Computer pricing — six-tier breakdown 2026",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026.html",
+            "url": "https://productwithattitude.com/perplexity-computer-pricing-plans-2026",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared"
           },
           "creator": {
@@ -23207,7 +23207,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23221,7 +23221,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23235,7 +23235,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23249,7 +23249,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23263,7 +23263,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23277,7 +23277,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23291,7 +23291,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23305,7 +23305,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23319,7 +23319,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23333,7 +23333,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23347,7 +23347,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -23361,7 +23361,7 @@
           "about": "Claude Opus 4.8 effort and mode decision table",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table.html",
+            "url": "https://productwithattitude.com/claude-opus-4-8-decision-table",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)"
           },
           "creator": {
@@ -24410,7 +24410,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24424,7 +24424,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24438,7 +24438,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24452,7 +24452,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24466,7 +24466,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24480,7 +24480,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24494,7 +24494,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24508,7 +24508,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24522,7 +24522,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24536,7 +24536,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24550,7 +24550,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24564,7 +24564,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24578,7 +24578,7 @@
           "about": "Builder-Parent Paradox",
           "appearance": {
             "@type": "Article",
-            "url": "https://productwithattitude.com/builder-parent-paradox.html",
+            "url": "https://productwithattitude.com/builder-parent-paradox",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ"
           },
           "creator": {
@@ -24674,8 +24674,8 @@
     },
     {
       "@type": "ProfilePage",
-      "@id": "https://productwithattitude.com/about.html#profilepage",
-      "url": "https://productwithattitude.com/about.html",
+      "@id": "https://productwithattitude.com/about#profilepage",
+      "url": "https://productwithattitude.com/about",
       "name": "About Karo Zieminski",
       "description": "Canonical biographical profile for Karo Zieminski — AI Product Manager, builder, and founder of Product with Attitude. Positioning: I ship physical AI products at a named company in Europe, I build indie products on the side, I live under EU AI Act compliance, I parent AI-native kids, and I teach critical AI literacy to 20,000 people.",
       "mainEntity": {
