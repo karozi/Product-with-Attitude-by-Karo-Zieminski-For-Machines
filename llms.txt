@@ -236,12 +236,22 @@ linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 # >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (10 published research dossiers)
+## Research Obsessions (11 published research dossiers)
 
 # Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
 # Section index: https://productwithattitude.com/research/
 # Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
 # and states the date its claims were last verified. Drafts are excluded.
+
+- Claude design prompts for landing pages: 8 prompts that work and why
+  url: https://productwithattitude.com/research/claude-design-prompts-for-landing-pages
+  summary: Eight Claude prompts that ship on-brand landing pages, with the mechanism behind each: DESIGN.md builders, the 4-block brief, anti-slop constraints, a diff loop, and a WCAG gate.
+  published: 2026-08-12
+  last_verified: 2026-08-12
+  original_contribution: A curated, source-attributed library of eight Claude landing-page prompts with the mechanism behind each one explained and tied to documented Claude behavior, plus a decision framework for choosing between Claude Design, Claude Code, and Cowork, and a 10-item named-failure catalog mapped to the prompts that patch each failure.
+  primary_claim: The Claude design prompt that ships a landing page in 2026 has four blocks (goal, layout, content, audience or constraints), a DESIGN.md attached as the source of truth for color, type, geometry, and component style, and an explicit anti-slop constraint block that bans Claude's statistical defaults: Inter and Roboto and Open Sans, purple or indigo gradients on white, centered three-rounded-card heroes, 0.1-opacity drop shadows on everything, emoji feature icons, and Lorem Ipsum.
+  confidence: High
+  topics: AI Tools, Prompt Engineering, Landing Pages, Product Design
 
 - The AI safety triangle: Musk, Zuckerberg, and Amodei don't disagree about risk
   url: https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei

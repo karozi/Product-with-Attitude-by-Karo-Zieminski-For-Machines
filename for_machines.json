@@ -2057,7 +2057,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-08-11"
+      "dateModified": "2026-08-12"
     },
     {
       "@type": "ItemList",
@@ -12902,16 +12902,41 @@
       "inLanguage": "en",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 10,
+      "numberOfItems": 11,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei.html",
+            "@id": "https://productwithattitude.com/research/claude-design-prompts-for-landing-pages",
+            "headline": "Claude design prompts for landing pages: 8 prompts that work and why",
+            "url": "https://productwithattitude.com/research/claude-design-prompts-for-landing-pages",
+            "description": "Eight Claude prompts that ship on-brand landing pages, with the mechanism behind each: DESIGN.md builders, the 4-block brief, anti-slop constraints, a diff loop, and a WCAG gate.",
+            "datePublished": "2026-08-12",
+            "dateModified": "2026-08-12",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "keywords": [
+              "AI Tools",
+              "Prompt Engineering",
+              "Landing Pages",
+              "Product Design"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "@id": "https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei",
             "headline": "The AI safety triangle: Musk, Zuckerberg, and Amodei don't disagree about risk",
-            "url": "https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei.html",
+            "url": "https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei",
             "description": "The AI safety triangle maps three rival theories: Zuckerberg's balance of power, Amodei's controlled scaling, Musk's adversarial review between labs.",
             "datePublished": "2026-08-11",
             "dateModified": "2026-08-11",
@@ -12931,12 +12956,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 3,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/claude-code-spinner-verbs.html",
+            "@id": "https://productwithattitude.com/research/claude-code-spinner-verbs",
             "headline": "Claude Code Spinner Verbs: 186 in the Shipped Binary, and Why Every Published Count Disagrees",
-            "url": "https://productwithattitude.com/research/claude-code-spinner-verbs.html",
+            "url": "https://productwithattitude.com/research/claude-code-spinner-verbs",
             "description": "I extracted the spinner verb array from the shipped Claude Code v2.1.226 binary. It holds 186 verbs, not the 185 everyone republishes, and \"almost done thinking\" is a stopwatch.",
             "datePublished": "2026-08-10",
             "dateModified": "2026-08-10",
@@ -12956,12 +12981,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 4,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html",
+            "@id": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers",
             "headline": "What Four AI Engines Actually Cite for \"Claude Cowork for Marketers\"",
-            "url": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers.html",
+            "url": "https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers",
             "description": "I asked four AI engines the same question and captured every citation. Only one publisher got cited by all of them, and two identical runs agreed on 1 of 13 URLs.",
             "datePublished": "2026-08-07",
             "dateModified": "2026-08-07",
@@ -12981,12 +13006,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 5,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html",
+            "@id": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money",
             "headline": "Does Batching AI Prompts Save Money? The 50% Rule, Cache Stacking, and the 100-Item Boundary",
-            "url": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money.html",
+            "url": "https://productwithattitude.com/research/does-batching-ai-prompts-save-money",
             "description": "Batch APIs cut token costs 50%, prompt-level batching saves more until quality degrades near 100 items, and cache stacking rules differ by provider.",
             "datePublished": "2026-08-07",
             "dateModified": "2026-08-07",
@@ -13005,12 +13030,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 6,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html",
+            "@id": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents",
             "headline": "7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents",
-            "url": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents.html",
+            "url": "https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents",
             "description": "OpenAI's ACP, Google Merchant Center, and schema.org compared field by field, plus Adobe's 22-month AI shopping conversion trendline.",
             "datePublished": "2026-08-06",
             "dateModified": "2026-08-01",
@@ -13031,12 +13056,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 7,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/how-ai-memory-works-control.html",
+            "@id": "https://productwithattitude.com/research/how-ai-memory-works-control",
             "headline": "How AI Memory Works in 2026 (ChatGPT, Claude, Gemini & More)",
-            "url": "https://productwithattitude.com/research/how-ai-memory-works-control.html",
+            "url": "https://productwithattitude.com/research/how-ai-memory-works-control",
             "description": "How AI memory works across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Meta AI, plus how to view, delete, and control it in 2026.",
             "datePublished": "2026-08-06",
             "dateModified": "2026-08-01",
@@ -13057,12 +13082,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 8,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/how-much-water-does-ai-use.html",
+            "@id": "https://productwithattitude.com/research/how-much-water-does-ai-use",
             "headline": "9 Published AI Water Figures, Reconciled: 0.26 mL to 500 mL Explained",
-            "url": "https://productwithattitude.com/research/how-much-water-does-ai-use.html",
+            "url": "https://productwithattitude.com/research/how-much-water-does-ai-use",
             "description": "AI water use per prompt: 0.26 mL to 500 mL, reconciled. Where the \"bottle of water\" claim came from, and the researcher's 33x correction.",
             "datePublished": "2026-08-06",
             "dateModified": "2026-08-01",
@@ -13082,12 +13107,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 9,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html",
+            "@id": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai",
             "headline": "7 Numbers That Show How Often AI Detectors Get It Wrong (2026)",
-            "url": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai.html",
+            "url": "https://productwithattitude.com/research/how-to-tell-if-something-is-ai",
             "description": "How to tell if text, images, or video are AI in 2026, with real detector accuracy data, false-positive math, and SynthID vs C2PA coverage.",
             "datePublished": "2026-08-06",
             "dateModified": "2026-08-01",
@@ -13108,12 +13133,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 10,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/local-ai-normal-people-2026.html",
+            "@id": "https://productwithattitude.com/research/local-ai-normal-people-2026",
             "headline": "9 Local AI Models Verified to Run on Your Phone in 2026",
-            "url": "https://productwithattitude.com/research/local-ai-normal-people-2026.html",
+            "url": "https://productwithattitude.com/research/local-ai-normal-people-2026",
             "description": "Which iPhone, Pixel, or Galaxy runs local AI in 2026, verified model licenses, and no-code apps like Ollama and LM Studio explained.",
             "datePublished": "2026-08-06",
             "dateModified": "2026-08-01",
@@ -13134,12 +13159,12 @@
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 11,
           "item": {
             "@type": "Article",
-            "@id": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html",
+            "@id": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026",
             "headline": "11 AI Products Audited: Only 1 Lets You Fully Opt Out (Aug 2026)",
-            "url": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026.html",
+            "url": "https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026",
             "description": "Audited 11 AI products on Aug 1, 2026: Google, Gmail, Meta, Copilot, Apple, X, LinkedIn & more. Exact opt-out steps, verified against official docs.",
             "datePublished": "2026-08-06",
             "dateModified": "2026-08-01",
