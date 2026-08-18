@@ -236,12 +236,22 @@ linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 # >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (11 published research dossiers)
+## Research Obsessions (12 published research dossiers)
 
 # Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
 # Section index: https://productwithattitude.com/research/
 # Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
 # and states the date its claims were last verified. Drafts are excluded.
+
+- AI Models Erase Female Animals in Children's Stories
+  url: https://productwithattitude.com/research/ai-erases-female-animals-in-childrens-stories
+  summary: Six leading AI models cast animal characters as female in only 2.2% of 23,800 children's stories. Female bears appeared 8 times in 3,400 tries. Here is what to do about it.
+  published: 2026-08-17
+  last_verified: 2026-08-17
+  original_contribution: One reader-facing page pulling the University of Washington FAccT 2026 study, its human baseline, and the earlier children's-books analysis into a builder decision: what to do when you generate kids' content with a large language model.
+  primary_claim: Across 23,800 sentence-completion stories from six leading language models, only 2.2% cast the animal protagonist as female, 40.6% cast it as male, and 57.2% avoided gender entirely, which is a stronger masculine skew than the human baseline on the same prompt.
+  confidence: High
+  topics: ai-bias, childrens-content, alignment, large-language-models
 
 - Claude design prompts for landing pages: 8 prompts that work and why
   url: https://productwithattitude.com/research/claude-design-prompts-for-landing-pages
