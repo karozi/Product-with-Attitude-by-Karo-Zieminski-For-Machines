@@ -4,6 +4,34 @@ Last updated: August 2026
 
 ---
 
+## Article: This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
+
+**Original Publish Date:** August 19, 2026
+
+---
+## Article: Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/google-analytics-4-ga4-cluing-agent-instructions-daily-analysis
+
+**Original Publish Date:** August 01, 2026
+
+---
+## Article: Skill: Weekly Reader Question Review
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/weekly-reader-question-review-content-planning-skill
+
+**Original Publish Date:** August 01, 2026
+
+---
+
 ## Article: I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss.
 
 **Author:** Karo Zieminski
