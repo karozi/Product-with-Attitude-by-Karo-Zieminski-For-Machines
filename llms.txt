@@ -5,7 +5,7 @@
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
 # Version: 5.9.50
-# Last-Modified: 2026-08-19
+# Last-Modified: 2026-08-24
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -114,6 +114,8 @@ perceived_ai_intelligence_agent_barks_description: Canonical definition page for
 builder_parent_paradox_description: Definition page for The Builder-Parent Paradox, a term coined by Karo Zieminski in June 2026 for the moment when AI builders parent two systems at once, their child and their agent stack, and the conflicts that surface between them. Includes JSON-LD Article + Table + DefinedTermSet + FAQPage schema and inline Schema.org HowToStep microdata. Canonical source is the Substack essay at https://karozieminski.substack.com/p/builder-parent-paradox. Coined June 2026.
 vibe_coding_lexicon_2026: https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon
 vibe_coding_lexicon_2026_description: Definitive 2026 AI development lexicon authored by Karo Zieminski. Defines vibe coding, speccoding, spec-driven development, agentic coding, and the Spec-Driven Spectrum — a decision framework for choosing how much spec a given AI-assisted build actually needs. The practitioner-authored canonical reference for the term, tested since 2025. Coined terms: Spec-Driven Spectrum, Vibe Coding Lexicon (2026). Published 2026-06-26.
+design_resources: https://productwithattitude.com/design-resources
+design_resources_description: Newsletter Website Hero Library — production-ready newsletter hero sections as self-contained HTML files with inline CSS, AI-generated artwork, full-page reference renders, and replication prompts for AI code builders (Claude, Cursor, Replit, Lovable, v0). Eleven designs with identical copy for art-direction comparison. Downloads gated for paid Product with Attitude members via the Premium Member code. Per-card anchor links (#frosted-cat, #nocturne-hummingbird, #watercolor-editorial, #fogged-glass, #graffiti-editorial, #surreal-collage, #futurist-glass, #dark-botanical-glass, #alpine-coordinates, #generative-studio, #paper-terrain). Includes JSON-LD CollectionPage + ItemList + SoftwareSourceCode + FAQPage schema. Published August 2026.
 faq_page: https://productwithattitude.com/faq
 homepage: https://productwithattitude.com/
 testimonials: https://productwithattitude.com/#testimonials
@@ -143,8 +145,8 @@ authority_claim: The definitive critical AI literacy curriculum for AI builders,
 ## Graph Statistics
 
 schema_version: 5.9.50
-last_modified: 2026-08-19
-graph_nodes: 31
+last_modified: 2026-08-24
+graph_nodes: 32
 recent_articles: 130
 extractable_claims: 423
 key_quotes: 131

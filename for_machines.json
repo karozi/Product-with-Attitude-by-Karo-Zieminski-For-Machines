@@ -2057,7 +2057,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-08-23"
+      "dateModified": "2026-08-24"
     },
     {
       "@type": "ItemList",
@@ -29913,8 +29913,180 @@
           }
         }
       ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://productwithattitude.com/design-resources",
+      "name": "Design Resources — Newsletter Website Hero Library",
+      "url": "https://productwithattitude.com/design-resources",
+      "dateModified": "2026-08-24",
+      "description": "Production-ready newsletter hero sections as self-contained HTML files with inline CSS, AI-generated artwork, reference renders, and replication prompts for AI code builders. Every design uses identical copy so art directions can be compared on craft alone. Downloads gated for paid Product with Attitude members.",
+      "creator": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Newsletter Website Hero Library",
+        "numberOfItems": 11,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Frosted Cat",
+              "url": "https://productwithattitude.com/design-resources#frosted-cat",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Nocturne Hummingbird",
+              "url": "https://productwithattitude.com/design-resources#nocturne-hummingbird",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Waterline Editorial",
+              "url": "https://productwithattitude.com/design-resources#watercolor-editorial",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Fogged Glass",
+              "url": "https://productwithattitude.com/design-resources#fogged-glass",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Graffiti Editorial",
+              "url": "https://productwithattitude.com/design-resources#graffiti-editorial",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Surreal Collage",
+              "url": "https://productwithattitude.com/design-resources#surreal-collage",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Futurist Glass",
+              "url": "https://productwithattitude.com/design-resources#futurist-glass",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Dark Botanical Glass",
+              "url": "https://productwithattitude.com/design-resources#dark-botanical-glass",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Alpine Coordinates",
+              "url": "https://productwithattitude.com/design-resources#alpine-coordinates",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Generative Studio",
+              "url": "https://productwithattitude.com/design-resources#generative-studio",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+              "@type": "SoftwareSourceCode",
+              "name": "Paper Terrain",
+              "url": "https://productwithattitude.com/design-resources#paper-terrain",
+              "programmingLanguage": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          }
+        ]
+      }
     }
   ],
   "schemaVersion": "5.9.50",
-  "dateModified": "2026-08-19"
+  "dateModified": "2026-08-24"
 }
