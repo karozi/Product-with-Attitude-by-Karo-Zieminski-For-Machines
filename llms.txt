@@ -236,12 +236,32 @@ linkswap: https://linkswap.productwithattitude.com
 stackshelf: https://stackshelf.app
 
 # >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (12 published research dossiers)
+## Research Obsessions (14 published research dossiers)
 
 # Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
 # Section index: https://productwithattitude.com/research/
 # Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
 # and states the date its claims were last verified. Drafts are excluded.
+
+- DeepSeek V4 Flash Vision Exp: $0.08–$0.17 per 1,000 Max-Token Images
+  url: https://productwithattitude.com/research/deepseek-v4-flash-vision-exp-pricing-opus-4-8
+  summary: DeepSeek's experimental V4 vision endpoint costs $0.084–$0.169 per 1,000 max-token images and trades two benchmark wins with Claude Opus 4.8.
+  published: 2026-08-23
+  last_verified: 2026-08-23
+  original_contribution: This dossier adds a reproducible 1,000-image cost model, a same-file price comparison, and a benchmark-by-benchmark read of DeepSeek's Opus 4.8 claim. It also separates the verified release from five claims the launch material does not support.
+  primary_claim: DeepSeek-V4-Flash-Vision-Exp cuts 1,000 images at its 384-token ceiling to $0.084 off-peak or $0.169 peak and trades two wins with Opus 4.8 across four vendor-reported multimodal benchmarks, but the lower retained resolution and experimental label do not justify a production recommendation yet.
+  confidence: Medium
+  topics: DeepSeek, multimodal AI, AI API pricing, vision models
+
+- Does Forking Save Computer Credits?
+  url: https://productwithattitude.com/research/does-forking-save-perplexity-computer-credits
+  summary: Forking preserves prior context, so it reduces Computer credit use only when the branch avoids irrelevant work. Clean threads cost less for self-contained jobs.
+  published: 2026-08-23
+  last_verified: 2026-08-23
+  original_contribution: This dossier adds a three-way decision rule for continuing, forking, or opening a clean thread, plus a source-by-source separation of documented behavior, first-party measurements, and inference.
+  primary_claim: Forking can reduce future credit use only when the branch avoids irrelevant work; if the next task needs no prior history, a clean thread is cheaper.
+  confidence: Medium
+  topics: Perplexity Computer, AI agent costs, thread management, context windows
 
 - AI Models Erase Female Animals in Children's Stories
   url: https://productwithattitude.com/research/ai-erases-female-animals-in-childrens-stories
