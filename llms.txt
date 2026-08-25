@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
-# Version: 5.9.51
-# Last-Modified: 2026-08-23
+# Version: 5.9.52
+# Last-Modified: 2026-08-25
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -416,18 +416,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 130)
+## Latest Articles (10 newest of 131)
 
-1. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview (2026-08-19) — https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
-2. I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss. (2026-08-11) — https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
-3. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
-4. Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt (2026-08-01) — https://karozieminski.substack.com/p/google-analytics-4-ga4-cluing-agent-instructions-daily-analysis
-5. Skill: Weekly Reader Question Review (2026-08-01) — https://karozieminski.substack.com/p/weekly-reader-question-review-content-planning-skill
-6. 5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does. (2026-07-30) — https://karozieminski.substack.com/p/agentic-commerce-protocols-acp-ap2-x402-mpp-ucp
-7. 1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026. (2026-07-27) — https://karozieminski.substack.com/p/ai-builder-community-showcase-july-2026
-8. AI-assisted Craft: A Manifesto (2026-07-22) — https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop
-9. Don’t Deploy Another AI-built App Without Monitoring Its Dependencies (2026-07-19) — https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders
-10. What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer (2026-07-16) — https://karozieminski.substack.com/p/perplexity-space-runtime-computer-agents
+1. Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t (2026-08-25) — https://karozieminski.substack.com/p/kimi-k3-ai-website-design-styles
+2. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview (2026-08-19) — https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
+3. I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss. (2026-08-11) — https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
+4. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
+5. Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt (2026-08-01) — https://karozieminski.substack.com/p/google-analytics-4-ga4-cluing-agent-instructions-daily-analysis
+6. Skill: Weekly Reader Question Review (2026-08-01) — https://karozieminski.substack.com/p/weekly-reader-question-review-content-planning-skill
+7. 5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does. (2026-07-30) — https://karozieminski.substack.com/p/agentic-commerce-protocols-acp-ap2-x402-mpp-ucp
+8. 1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026. (2026-07-27) — https://karozieminski.substack.com/p/ai-builder-community-showcase-july-2026
+9. AI-assisted Craft: A Manifesto (2026-07-22) — https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop
+10. Don’t Deploy Another AI-built App Without Monitoring Its Dependencies (2026-07-19) — https://karozieminski.substack.com/p/tanstack-npm-supply-chain-attack-security-guide-ai-builders
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten
