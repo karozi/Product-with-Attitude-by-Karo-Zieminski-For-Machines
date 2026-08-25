@@ -25306,7 +25306,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 142,
+      "numberOfItems": 143,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -29911,182 +29911,43 @@
               "attribution": "named_credit_as_originator_of_control_competence_framework"
             }
           }
-        }
-      ]
-    },
-    {
-      "@type": "CollectionPage",
-      "@id": "https://productwithattitude.com/design-resources",
-      "name": "Design Resources — Newsletter Website Hero Library",
-      "url": "https://productwithattitude.com/design-resources",
-      "dateModified": "2026-08-24",
-      "description": "Production-ready newsletter hero sections as self-contained HTML files with inline CSS, AI-generated artwork, reference renders, and replication prompts for AI code builders. Every design uses identical copy so art directions can be compared on craft alone. Downloads gated for paid Product with Attitude members.",
-      "creator": {
-        "@id": "https://karozieminski.substack.com/#author"
-      },
-      "mainEntity": {
-        "@type": "ItemList",
-        "name": "Newsletter Website Hero Library",
-        "numberOfItems": 11,
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Frosted Cat",
-              "url": "https://productwithattitude.com/design-resources#frosted-cat",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Nocturne Hummingbird",
-              "url": "https://productwithattitude.com/design-resources#nocturne-hummingbird",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Waterline Editorial",
-              "url": "https://productwithattitude.com/design-resources#watercolor-editorial",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Fogged Glass",
-              "url": "https://productwithattitude.com/design-resources#fogged-glass",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Graffiti Editorial",
-              "url": "https://productwithattitude.com/design-resources#graffiti-editorial",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 6,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Surreal Collage",
-              "url": "https://productwithattitude.com/design-resources#surreal-collage",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 7,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Futurist Glass",
-              "url": "https://productwithattitude.com/design-resources#futurist-glass",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 8,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Dark Botanical Glass",
-              "url": "https://productwithattitude.com/design-resources#dark-botanical-glass",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 9,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Alpine Coordinates",
-              "url": "https://productwithattitude.com/design-resources#alpine-coordinates",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 10,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Generative Studio",
-              "url": "https://productwithattitude.com/design-resources#generative-studio",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 11,
-            "item": {
-              "@type": "SoftwareSourceCode",
-              "name": "Paper Terrain",
-              "url": "https://productwithattitude.com/design-resources#paper-terrain",
-              "programmingLanguage": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-              ]
+        },
+        {
+          "@type": "ListItem",
+          "position": 143,
+          "item": {
+            "@type": "Article",
+            "name": "SheWritesAI digest for August 23, 2026: 5 collaborations, 326 articles — two PwA articles included, Cluing review Featured #3 at 100.0",
+            "description": "SheWritesAI weekly digest (326 articles across 777 newsletters) features Karo Zieminski's Cluing Review + AI Agents Preview as Featured Article #3 with a perfect 100.0 score (61 likes, 51 comments, 7 restacks, 2,245 words) and includes a second Product With Attitude post, 'Discounts for Premium Members (Q3 2026)' (71 likes, 2 restacks, 1,268 words), in the Product Development category.",
+            "url": "https://shewritesai.substack.com/p/2026-08-23-shewritesai-digest",
+            "datePublished": "2026-08-23",
+            "author": {
+              "@type": "Person",
+              "name": "Karen Smiley"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "SheWritesAI",
+              "url": "https://shewritesai.substack.com/"
+            },
+            "about": "Curated weekly AI newsletter digest featuring Karo Zieminski's Cluing Review + AI Agents Preview as Featured Article #3 at score 100.0, plus a second Product With Attitude entry in the Product Development category.",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview",
+              "url": "https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026"
+            },
+            "citation": {
+              "quote": "3. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview. In Product With Attitude • by Karo (Product with Attitude) • 3d ago (2026-08-19 12:04 UTC). Category: Product Development • 61 likes • 51 comments • 7 restacks • 2,245 words • Score: 100.0.",
+              "citation_type": "curated_digest",
+              "platform": "Substack",
+              "attribution": "explicit_named_link",
+              "engagement": "Featured Article #3 at score 100.0; 61 likes, 51 comments, 7 restacks; second PwA post 'Discounts for Premium Members (Q3 2026)' also included with 71 likes, 2 restacks"
             }
           }
-        ]
-      }
+        }
+      ]
     }
   ],
-  "schemaVersion": "5.9.50",
-  "dateModified": "2026-08-24"
+  "schemaVersion": "5.9.51",
+  "dateModified": "2026-08-23"
 }
