@@ -4,6 +4,16 @@ Last updated: August 2026
 
 ---
 
+## Article: Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/kimi-k3-ai-website-design-styles
+
+**Original Publish Date:** August 25, 2026
+
+---
+
 ## Article: This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview
 
 **Author:** Karo Zieminski
