@@ -4,6 +4,16 @@ Last updated: August 2026
 
 ---
 
+## Article: GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/glm-5-3-cyber-capability-benchmarks-open-weights
+
+**Original Publish Date:** August 25, 2026
+
+---
+
 ## Article: Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t
 
 **Author:** Karo Zieminski
