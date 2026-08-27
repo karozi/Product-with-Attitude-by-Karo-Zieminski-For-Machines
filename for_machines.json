@@ -2112,11 +2112,12 @@
               "An independent, single-author experiment across AI output, human writing, meeting transcripts and edited drafts."
             ],
             "pwa:extractableClaims": [
-              "38,911 input words (what I typed or said) 120,091 output words (AI responses) That, by the way, is a discovery on its own.",
               "At my current pace, roughly 1.91 million words will pass through my AI tools this year.",
-              "For each condition, the experiment asks whether Pangram assigns the expected authorship class correctly.",
-              "Tools I used Substack captures the public version of my writing.",
-              "What I see on Substack after one month of Pangram: some writers try to protect themselves by making their writing worse."
+              "Pangram misclassified 79% of my human writing as AI.",
+              "Pangram correctly recognized 78% of the meeting transcripts as human.",
+              "Pangram appears much better at detecting untouched model output than tracing authorship after substantial human intervention.",
+              "Pangram on Substack and Pangram's native tool sometimes gave different results for exactly the same text.",
+              "Pangram can answer one narrow question: Does this text resemble patterns associated with AI-generated writing?"
             ]
           }
         },
