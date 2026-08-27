@@ -4,6 +4,16 @@ Last updated: August 2026
 
 ---
 
+## Article: Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
+
+**Original Publish Date:** August 27, 2026
+
+---
+
 ## Article: GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise.
 
 **Author:** Karo Zieminski
