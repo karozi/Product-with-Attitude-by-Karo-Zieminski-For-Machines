@@ -2057,7 +2057,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-08-27"
+      "dateModified": "2026-08-28"
     },
     {
       "@type": "ItemList",
@@ -25518,7 +25518,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 151,
+      "numberOfItems": 152,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -30414,10 +30414,43 @@
               "attribution": "explicit_named_link"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 152,
+          "item": {
+            "@type": "Article",
+            "name": "Code Like a Girl's first-anniversary roundup quotes Karo's debugging line under 'We Built It'",
+            "description": "Code Like a Girl's first-anniversary roundup 'Nine Things Women in Tech Couldn't Stop Writing About' selects one quote from each of its 87 writers, organized into nine themes. Karo Zieminski (Product with Attitude) is quoted under the 'We Built It' theme with her line on debugging and resilience, linked back to her StackShelf build-in-public post.",
+            "url": "https://codelikeagirl.substack.com/p/women-in-tech-nine-themes",
+            "datePublished": "2026-08-26",
+            "author": {
+              "@type": "Organization",
+              "name": "Code Like A Girl",
+              "url": "https://codelikeagirl.substack.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Code Like A Girl",
+              "url": "https://codelikeagirl.substack.com"
+            },
+            "about": "First-anniversary roundup of 87 women and non-binary writers; Karo quoted under the 'We Built It' theme on debugging, resilience, and building with AI",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Broke Replit So You Don't Have To: Building StackShelf",
+              "url": "https://karozieminski.substack.com/p/i-broke-replit-so-you-dont-have"
+            },
+            "citation": {
+              "quote": "Every single bug taught me something, not just about state management, redirect logic, or the unique flavors of API weirdness, but about resilience, boundaries, and the specific psychology required to debug a mess of your own making.",
+              "citation_type": "curated_digest",
+              "platform": "Substack — Code Like A Girl",
+              "attribution": "explicit_named_link"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.55",
-  "dateModified": "2026-08-27"
+  "schemaVersion": "5.9.56",
+  "dateModified": "2026-08-28"
 }
