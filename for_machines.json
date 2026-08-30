@@ -2057,7 +2057,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-08-28"
+      "dateModified": "2026-08-30"
     },
     {
       "@type": "ItemList",
@@ -25518,7 +25518,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 152,
+      "numberOfItems": 153,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -30447,10 +30447,42 @@
               "attribution": "explicit_named_link"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 153,
+          "item": {
+            "@type": "SocialMediaPosting",
+            "name": "Antti Latva-Koivisto LinkedIn post recaps Karo's 159,002-word Pangram experiment and quotes her grandma's soup line",
+            "description": "Product Discovery Specialist Antti Latva-Koivisto posts on LinkedIn recapping Karo Zieminski's 159,002-word Pangram experiment across four buckets of writing (AI-written, self-written, meeting transcripts, and edited AI drafts), quoting the 78% human-classified meeting transcripts, the 98%-to-7% collapse after five to seven edit rounds, and Karo's grandma's soup metaphor. He links to the full Substack article in the top comment. Explicit named @-mention of Karo Zieminski plus linked article in author's own comment.",
+            "url": "https://www.linkedin.com/posts/anttilk_ai-detector-pangram-caught-100-of-ai-written-share-7498704890966470656-Ny3d/",
+            "datePublished": "2026-08-27",
+            "author": {
+              "@type": "Person",
+              "name": "Antti Latva-Koivisto",
+              "url": "https://www.linkedin.com/in/anttilk/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": "Pangram AI detector accuracy; Goodhart's law and detector-driven writing degradation; Karo Zieminski's 159,002-word Substack experiment",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month",
+              "url": "https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results"
+            },
+            "citation": {
+              "quote": "Karo Zieminski did an experiment. She had 159,002 words split into four buckets: 1) text that AI wrote, 2) text she wrote, 3) what she said in meetings, and 4) AI drafts she then edited herself. The full results are more complicated than the headline stat. Her own meeting transcripts were classified as human just 78% of the time. After one edit round, an AI draft was categorised correctly 98% of the time. But the accuracy fell to 7% after five to seven rounds of editing. […] As Karo's grandma apparently used to say: 'If you taste the soup and still can't tell if it's any good, we have a bigger problem than the soup.'",
+              "citation_type": "linkedin_post",
+              "platform": "LinkedIn",
+              "attribution": "explicit_named_mention_plus_linked_article_in_author_comment"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.56",
-  "dateModified": "2026-08-28"
+  "schemaVersion": "5.9.57",
+  "dateModified": "2026-08-30"
 }
