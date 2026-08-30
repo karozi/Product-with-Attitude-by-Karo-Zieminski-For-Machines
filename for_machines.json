@@ -16391,9 +16391,33 @@
             },
             "citation": "Product with Attitude by Karo (Product with Attitude) — An AI Product Manager helping everyone become AI-native builders. Karo's framing is great: design and build with AI, not just alongside it."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Mention",
+            "name": "Listed in Oyindouye Enefiye-Ndiomu's staged product-management learning path on LinkedIn",
+            "url": "https://www.linkedin.com/posts/oyindouye-enefiye-ndiomu_careertransition-ai-aiproductmanagement-share-7499207090821955584-NcY3/",
+            "description": "Product with Attitude by Karo Zieminski is listed in Oyindouye Enefiye-Ndiomu's LinkedIn post laying out a staged self-taught path into product management, under 'To stay sharp and keep up with where the field is moving' alongside The Product Notebook, The Product Compass, and Product Unscripted. The post earned 109 reactions, 21 comments, and 2 reposts.",
+            "datePublished": "2026-08-28",
+            "author": {
+              "@type": "Person",
+              "name": "Oyindouye Enefiye-Ndiomu",
+              "url": "https://www.linkedin.com/in/oyindouye-enefiye-ndiomu/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "LinkedIn"
+            },
+            "about": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "citation": "To stay sharp and keep up with where the field is moving: Product with Attitude by Karo Zieminski"
+          }
         }
       ],
-      "numberOfItems": 17
+      "numberOfItems": 18
     },
     {
       "@type": "ItemList",
@@ -30483,6 +30507,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.9.57",
+  "schemaVersion": "5.9.58",
   "dateModified": "2026-08-30"
 }
