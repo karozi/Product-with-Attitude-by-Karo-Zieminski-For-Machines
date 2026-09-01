@@ -1,6 +1,16 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: August 2026
+Last updated: September 2026
+
+---
+
+## Article: How to Read AI Model Cards Like an AI Product Manager
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
+
+**Original Publish Date:** September 01, 2026
 
 ---
 
