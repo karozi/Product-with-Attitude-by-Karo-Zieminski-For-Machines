@@ -4,6 +4,16 @@ Last updated: September 2026
 
 ---
 
+## Article: Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax
+
+**Original Publish Date:** September 02, 2026
+
+---
+
 ## Article: How to Read AI Model Cards Like an AI Product Manager
 
 **Author:** Karo Zieminski
