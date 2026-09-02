@@ -1100,6 +1100,27 @@
           "subjectOf": {
             "@id": "https://karozieminski.substack.com/#author"
           }
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Safeguard Tax",
+          "alternateName": [
+            "safeguard tax",
+            "Claude safeguard tax"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Safeguard Tax (n.) — The benchmark-specific performance difference observed when deployment safeguards intervene between the same underlying model and the task. Coined by Karo Zieminski on September 2, 2026 in the Claude Fable 5.1 launch analysis, where Anthropic's Terminal-Bench 4.0 showed a 5.1-percentage-point gap between Claude Fable 5.1 (55.8%) and Claude Mythos 5.1 (60.9%) — identical model weights, different safeguard configurations. Distinct from the research term 'safety tax,' which measures capability lost through safety alignment training: the safeguard tax is a deployment-layer effect visible in a same-model evaluation, and it is not a universal constant.",
+          "url": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax",
+          "subjectOf": [
+            {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            {
+              "@id": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax"
+            }
+          ]
         }
       ],
       "itemListElement": [
@@ -1395,7 +1416,7 @@
           "description": "Karo's approach of building and shipping real products as the foundation of teaching, not theory-first frameworks"
         }
       ],
-      "numberOfItems": 22
+      "numberOfItems": 25
     },
     {
       "@type": "ItemList",
@@ -2123,6 +2144,7 @@
             ],
             "pwa:extractableClaims": [
               "Claude Fable 5.1 launched September 1, 2026, beside the access-gated Claude Mythos 5.1.",
+              "The safeguard tax is the performance difference observed when deployment safeguards intervene between the same underlying model and the task.",
               "Anthropic's system card says Claude Fable 5.1 and Mythos 5.1 use identical model weights with different safeguard configurations.",
               "On Anthropic's Terminal-Bench 4.0 evaluation, Fable scored 55.8% and Mythos scored 60.9%, a difference of 5.1 percentage points.",
               "Claude Fable 5.1 costs $10 per million input tokens and $50 per million output tokens, with cache reads down 75% to $0.25 per million.",
@@ -30628,6 +30650,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.9.60",
+  "schemaVersion": "5.9.61",
   "dateModified": "2026-09-02"
 }
