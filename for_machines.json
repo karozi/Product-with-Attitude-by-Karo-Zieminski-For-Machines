@@ -1112,15 +1112,11 @@
             "@id": "#glossary"
           },
           "description": "Safeguard Tax (n.) — The benchmark-specific performance difference observed when deployment safeguards intervene between the same underlying model and the task. Coined by Karo Zieminski on September 2, 2026 in the Claude Fable 5.1 launch analysis, where Anthropic's Terminal-Bench 4.0 showed a 5.1-percentage-point gap between Claude Fable 5.1 (55.8%) and Claude Mythos 5.1 (60.9%) — identical model weights, different safeguard configurations. Distinct from the research term 'safety tax,' which measures capability lost through safety alignment training: the safeguard tax is a deployment-layer effect visible in a same-model evaluation, and it is not a universal constant.",
-          "url": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax",
-          "subjectOf": [
-            {
-              "@id": "https://karozieminski.substack.com/#author"
-            },
-            {
-              "@id": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax"
-            }
-          ]
+          "url": "https://productwithattitude.com/safeguard-tax",
+          "subjectOf": {
+            "@id": "https://karozieminski.substack.com/#author"
+          },
+          "sameAs": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax"
         }
       ],
       "itemListElement": [
@@ -30650,6 +30646,6 @@
       ]
     }
   ],
-  "schemaVersion": "5.9.61",
+  "schemaVersion": "5.9.62",
   "dateModified": "2026-09-02"
 }
