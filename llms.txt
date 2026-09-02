@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
-# Version: 5.9.59
-# Last-Modified: 2026-09-01
+# Version: 5.9.60
+# Last-Modified: 2026-09-02
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -416,18 +416,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 134)
+## Latest Articles (10 newest of 135)
 
-1. How to Read AI Model Cards Like an AI Product Manager (2026-09-01) — https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
-2. Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month (2026-08-27) — https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
-3. GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise. (2026-08-25) — https://karozieminski.substack.com/p/glm-5-3-cyber-capability-benchmarks-open-weights
-4. Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t (2026-08-25) — https://karozieminski.substack.com/p/kimi-k3-ai-website-design-styles
-5. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview (2026-08-19) — https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
-6. I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss. (2026-08-11) — https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
-7. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
-8. Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt (2026-08-01) — https://karozieminski.substack.com/p/google-analytics-4-ga4-cluing-agent-instructions-daily-analysis
-9. Skill: Weekly Reader Question Review (2026-08-01) — https://karozieminski.substack.com/p/weekly-reader-question-review-content-planning-skill
-10. 5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does. (2026-07-30) — https://karozieminski.substack.com/p/agentic-commerce-protocols-acp-ap2-x402-mpp-ucp
+1. Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax (2026-09-02) — https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax
+2. How to Read AI Model Cards Like an AI Product Manager (2026-09-01) — https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
+3. Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month (2026-08-27) — https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
+4. GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise. (2026-08-25) — https://karozieminski.substack.com/p/glm-5-3-cyber-capability-benchmarks-open-weights
+5. Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t (2026-08-25) — https://karozieminski.substack.com/p/kimi-k3-ai-website-design-styles
+6. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview (2026-08-19) — https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
+7. I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss. (2026-08-11) — https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
+8. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
+9. Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt (2026-08-01) — https://karozieminski.substack.com/p/google-analytics-4-ga4-cluing-agent-instructions-daily-analysis
+10. Skill: Weekly Reader Question Review (2026-08-01) — https://karozieminski.substack.com/p/weekly-reader-question-review-content-planning-skill
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten
