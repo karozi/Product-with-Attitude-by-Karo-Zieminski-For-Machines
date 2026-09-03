@@ -4,6 +4,25 @@ Last updated: September 2026
 
 ---
 
+## Article: Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-fable-5-1-chinese-vs-english-coverage
+
+**Original Publish Date:** September 03, 2026
+
+---
+## Article: What Is the CCAR-F Exam, and Is It Worth It? A Decision Guide for Claude Builders
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-certified-architect-foundations-exam
+
+**Original Publish Date:** July 31, 2026
+
+---
+
 ## Article: Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax
 
 **Author:** Karo Zieminski
