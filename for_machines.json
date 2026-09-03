@@ -2135,9 +2135,10 @@
             "pwa:extractableClaims": [
               "Anthropic released Claude Fable 5.1 and Claude Mythos 5.1 on September 1, 2026: one underlying model with two safeguard regimes.",
               "I ran 136 Chinese-language queries alongside my English-language sweep.",
-              "The two searches surfaced different launches: English coverage led with cost and the 212-page system card .",
-              "Claude Fable 5.1 and Mythos 5.1: a September 2026 editorial feature examining performance, scientific research, and AI safety.",
-              "My newest obsession is comparing how AI is discussed in the two countries shaping its frontier: the US and China."
+              "The two searches surfaced different launches: English coverage led with cost and the 212-page system card.",
+              "My newest obsession is comparing how AI is discussed in the two countries shaping its frontier: the US and China.",
+              "TMTPost (钛媒体) was the first source I found that added anti-distillation to the headline, calling it a ‘‘lock’’.",
+              "China, Hong Kong, and Macau do not appear on Anthropic’s list of supported countries and regions."
             ]
           }
         },
@@ -2191,8 +2192,8 @@
             "pwa:extractableClaims": [
               "The exam has 60 multiple-choice and multiple-response questions, lasts 120 minutes, and costs $125.",
               "Anthropic currently limits access to people at organizations in the Claude Partner Network.",
-              "You cannot register with a personal email; your email domain must match an organization in the Claude Partner Network .",
-              "A freelancer can apply through a business, and Anthropic says Partner Network membership is free .",
+              "You cannot register with a personal email; your email domain must match an organization in the Claude Partner Network.",
+              "A freelancer can apply through a business, and Anthropic says Partner Network membership is free.",
               "Anthropic’s current Services Track update says new applicants enter at Registered with a minimum commitment to ten certified practitioners."
             ]
           }
