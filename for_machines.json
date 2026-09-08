@@ -2074,7 +2074,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-09-03"
+      "dateModified": "2026-09-08"
     },
     {
       "@type": "ItemList",
@@ -25796,7 +25796,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 153,
+      "numberOfItems": 154,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -30757,10 +30757,41 @@
               "attribution": "explicit_named_mention_plus_linked_article_in_author_comment"
             }
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 154,
+          "item": {
+            "@type": "Article",
+            "name": "Cowork Working Manual recommends Karo's Cowork power-user guide in its Further reading list",
+            "description": "Denise Koller's Cowork working manual, built for Harvard economist David Deming, is a five-layer setup guide for running Claude Cowork as a daily operating system. Its Further reading section lists Karo Zieminski's Cowork guide for power users alongside ChatPRD and Ruben Hassid, credited for tested tips on sub-agents, skills chunked by domain, change logs, and file scoping.",
+            "url": "https://david-claude-cowork-manual.netlify.app/",
+            "datePublished": "2026-08-01",
+            "author": {
+              "@type": "Person",
+              "name": "Denise Koller"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Cowork Working Manual"
+            },
+            "about": "Claude Cowork setup manual: connectors, context-layer skills, scheduled automations, and delegation briefs; Karo Zieminski cited as a power-user source on sub-agents and skill scoping",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory",
+              "url": "https://karozieminski.substack.com/p/claude-cowork-guide-plugins-memory-sub-agents-tips"
+            },
+            "citation": {
+              "quote": "Karo Zieminski: Cowork guide for power users. Tested tips on sub-agents, skills chunked by domain, change logs, file scoping. Partly paywalled.",
+              "citation_type": "curated_reading_list",
+              "platform": "Web — Netlify",
+              "attribution": "explicit_named_recommendation_plus_link"
+            }
+          }
         }
       ]
     }
   ],
-  "schemaVersion": "5.9.63",
-  "dateModified": "2026-09-03"
+  "schemaVersion": "5.9.64",
+  "dateModified": "2026-09-08"
 }
