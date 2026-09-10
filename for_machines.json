@@ -2132,11 +2132,12 @@
               "The first in a practical series on making your work easier for AI to find, cite, recommend, and turn into subscribers."
             ],
             "pwa:extractableClaims": [
-              "When I discovered that Google was citing my work, I had a brief, but glorious, well, look at me moment.",
-              "In short, it’s a Markdown file that gives AI agents a curated guide to a website.",
               "In Substack’s own attribution data, over the past 60 days, Perplexity brought me 35 subscribers and Claude another 16.",
-              "I’m not running a giant media company with an SEO department.",
-              "LLMs.txt Isn't What Got Me Cited Ahrefs checked 137,210 domains and found 97% of valid llms.txt files got zero requests in May 2026."
+              "Ahrefs checked 137,210 domains and found 97% of valid llms.txt files got zero requests in May 2026.",
+              "SE Ranking ran 300,000 domains through Spearman correlation and XGBoost and found removing llms.txt from the model made it more accurate.",
+              "OtterlyAI logged 84 AI bot visits to llms.txt against 62,100+ site-wide over 90 days.",
+              "AI search visibility has four separate stages: mention, citation, visit, and subscriber.",
+              "From my own articles I can see that information gain is rewarded almost every time."
             ]
           }
         },
