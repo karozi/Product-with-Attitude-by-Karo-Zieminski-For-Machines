@@ -4,6 +4,16 @@ Last updated: September 2026
 
 ---
 
+## Article: Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/get-cited-ai-search-google-ai-overviews
+
+**Original Publish Date:** September 10, 2026
+
+---
+
 ## Article: Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t
 
 **Author:** Karo Zieminski
