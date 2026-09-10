@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
-# Version: 5.9.64
-# Last-Modified: 2026-09-08
+# Version: 5.9.65
+# Last-Modified: 2026-09-10
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -419,18 +419,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 137)
+## Latest Articles (10 newest of 138)
 
-1. Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t (2026-09-03) — https://karozieminski.substack.com/p/claude-fable-5-1-chinese-vs-english-coverage
-2. Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax (2026-09-02) — https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax
-3. How to Read AI Model Cards Like an AI Product Manager (2026-09-01) — https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
-4. Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month (2026-08-27) — https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
-5. GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise. (2026-08-25) — https://karozieminski.substack.com/p/glm-5-3-cyber-capability-benchmarks-open-weights
-6. Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t (2026-08-25) — https://karozieminski.substack.com/p/kimi-k3-ai-website-design-styles
-7. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview (2026-08-19) — https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
-8. I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss. (2026-08-11) — https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
-9. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
-10. Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt (2026-08-01) — https://karozieminski.substack.com/p/google-analytics-4-ga4-cluing-agent-instructions-daily-analysis
+1. Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt. (2026-09-10) — https://karozieminski.substack.com/p/get-cited-ai-search-google-ai-overviews
+2. Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t (2026-09-03) — https://karozieminski.substack.com/p/claude-fable-5-1-chinese-vs-english-coverage
+3. Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax (2026-09-02) — https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax
+4. How to Read AI Model Cards Like an AI Product Manager (2026-09-01) — https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
+5. Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month (2026-08-27) — https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
+6. GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise. (2026-08-25) — https://karozieminski.substack.com/p/glm-5-3-cyber-capability-benchmarks-open-weights
+7. Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t (2026-08-25) — https://karozieminski.substack.com/p/kimi-k3-ai-website-design-styles
+8. This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview (2026-08-19) — https://karozieminski.substack.com/p/cluing-review-ai-agents-second-brain-2026
+9. I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss. (2026-08-11) — https://karozieminski.substack.com/p/chatgpt-work-vs-claude-cowork-vs-perplexity-computer
+10. AI for Crime Junkies: When ChatGPT Prompts Become Evidence (2026-08-04) — https://karozieminski.substack.com/p/pig-butchering-ai-scam-compounds
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten
