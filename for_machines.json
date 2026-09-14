@@ -487,6 +487,15 @@
         },
         {
           "@id": "#product-linkswap"
+        },
+        {
+          "@id": "https://karozieminski.substack.com/t/claude"
+        },
+        {
+          "@id": "https://karozieminski.substack.com/t/perplexity"
+        },
+        {
+          "@id": "https://karozieminski.substack.com/t/ai-seo"
         }
       ],
       "potentialAction": [
@@ -1648,6 +1657,15 @@
           "name": "Frameworks",
           "url": "https://productwithattitude.com/frameworks/",
           "description": "Index of every named framework, canonical definition, decision tree, comparison matrix, and glossary on productwithattitude.com."
+        },
+        {
+          "@id": "https://karozieminski.substack.com/t/claude"
+        },
+        {
+          "@id": "https://karozieminski.substack.com/t/perplexity"
+        },
+        {
+          "@id": "https://karozieminski.substack.com/t/ai-seo"
         }
       ]
     },
@@ -2074,7 +2092,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-09-10"
+      "dateModified": "2026-09-14"
     },
     {
       "@type": "ItemList",
@@ -30848,8 +30866,72 @@
           }
         }
       ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/t/claude",
+      "name": "Claude",
+      "url": "https://karozieminski.substack.com/t/claude",
+      "description": "Claude articles, prompts, guides, and workflows, collected in a tag-based section.",
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#publication"
+      },
+      "inLanguage": "en",
+      "keywords": [
+        "Claude",
+        "Anthropic Claude",
+        "Claude Code",
+        "Claude Cowork",
+        "Claude workflows"
+      ],
+      "pwa:sectionType": "tag",
+      "pwa:tagSlug": "claude",
+      "dateModified": "2026-09-14"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/t/perplexity",
+      "name": "Perplexity",
+      "url": "https://karozieminski.substack.com/t/perplexity",
+      "description": "Perplexity articles, research workflows, and Perplexity Computer guides, collected in a tag-based section.",
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#publication"
+      },
+      "inLanguage": "en",
+      "keywords": [
+        "Perplexity",
+        "Perplexity Computer",
+        "AI research",
+        "Perplexity workflows"
+      ],
+      "pwa:sectionType": "tag",
+      "pwa:tagSlug": "perplexity",
+      "dateModified": "2026-09-14"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://karozieminski.substack.com/t/ai-seo",
+      "name": "SEO, AIO & GEO",
+      "url": "https://karozieminski.substack.com/t/ai-seo",
+      "description": "AI search visibility, SEO, AIO, and GEO research and practical guides, collected in a tag-based section.",
+      "isPartOf": {
+        "@id": "https://karozieminski.substack.com/#publication"
+      },
+      "inLanguage": "en",
+      "keywords": [
+        "AI SEO",
+        "SEO",
+        "AIO",
+        "GEO",
+        "AI search visibility",
+        "AI optimization",
+        "generative engine optimization"
+      ],
+      "pwa:sectionType": "tag",
+      "pwa:tagSlug": "ai-seo",
+      "dateModified": "2026-09-14"
     }
   ],
-  "schemaVersion": "5.9.65",
-  "dateModified": "2026-09-10"
+  "schemaVersion": "5.9.66",
+  "dateModified": "2026-09-14"
 }

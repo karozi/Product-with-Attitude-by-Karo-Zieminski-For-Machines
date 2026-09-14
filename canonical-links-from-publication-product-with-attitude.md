@@ -4,6 +4,19 @@ Last updated: September 2026
 
 ---
 
+<!-- substack-tag-sections:start -->
+## Tag-based sections
+
+These Substack sections are topic archives populated by tags, not standalone editorial pages or individual articles. Each is represented as a `CollectionPage` in the canonical JSON-LD graph. Individual articles keep their own canonical URLs and free or paid access settings.
+
+| Section | Canonical URL | Tag |
+|---|---|---|
+| Claude | [https://karozieminski.substack.com/t/claude](https://karozieminski.substack.com/t/claude) | `claude` |
+| Perplexity | [https://karozieminski.substack.com/t/perplexity](https://karozieminski.substack.com/t/perplexity) | `perplexity` |
+| SEO, AIO & GEO | [https://karozieminski.substack.com/t/ai-seo](https://karozieminski.substack.com/t/ai-seo) | `ai-seo` |
+
+<!-- substack-tag-sections:end -->
+
 ## Article: Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt.
 
 **Author:** Karo Zieminski
