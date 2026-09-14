@@ -2,58 +2,136 @@ name: Sync for_machines.json from canonical
 on:
   schedule:
     - cron: "23 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sync-for-machines.yml
   workflow_dispatch:
 
 permissions:
   contents: write
+concurrency:
+  group: canonical-machine-file-sync
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Fetch and validate canonical files
+      - name: Fetch and verify canonical files and live tag-section links
         run: |
-          set -euo pipefail
-          mkdir -p "$RUNNER_TEMP/canonical"
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, time, urllib.request
+          directory = pathlib.Path(os.environ['RUNNER_TEMP'])/'canonical'
+          directory.mkdir(parents=True, exist_ok=True)
+          base = 'https://productwithattitude.com/'
+          section_base = 'https://karozieminski.substack.com/t/'
+          slugs = ('claude', 'perplexity', 'ai-seo')
+          names = ('for_machines.json', 'llms.txt', 'llms-full.txt')
+          def fetch(path):
+              request = urllib.request.Request(base+path, headers={'Cache-Control':'no-cache', 'User-Agent':'PwA-canonical-sync/1.0'})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  if response.status != 200: raise ValueError(f'{path}: HTTP {response.status}')
+                  return response.read()
+          for attempt in range(12):
+              try:
+                  payloads = {name:fetch(name) for name in names}
+                  graph = json.loads(payloads['for_machines.json'])
+                  assert isinstance(graph.get('@graph'),list) and graph['@graph'], 'Missing canonical graph'
+                  for name in ('llms.txt','llms-full.txt'):
+                      data = payloads[name]
+                      assert data and b'<html' not in data[:512].lower() and b'<!doctype html' not in data[:512].lower(), f'{name}: empty or HTML fallback'
+                  nodes = {node.get('@id'):node for node in graph['@graph']}
+                  for slug in slugs:
+                      url = section_base+slug
+                      node = nodes.get(url, {})
+                      assert node.get('@type') == 'CollectionPage' and node.get('url') == url, f'{slug}: canonical CollectionPage not yet published'
+                      assert node.get('pwa:sectionType') == 'tag' and node.get('pwa:tagSlug') == slug, f'{slug}: missing tag metadata'
+                      for name in ('llms.txt','llms-full.txt'):
+                          assert url.encode() in payloads[name], f'{slug}: missing from {name}'
+                  for path in ('assets/for_machines.json','.well-known/for_machines.json'):
+                      assert fetch(path) == payloads['for_machines.json'], f'{path}: live JSON copy differs'
+                  homepage = fetch('').decode('utf-8')
+                  for slug in slugs:
+                      assert section_base+slug in homepage and f'data-tags="{slug}"' in homepage, f'{slug}: homepage card missing'
+                  assert 'data-filter="ai-seo"' in homepage, 'SEO, AIO & GEO filter missing'
+                  assert '/s/claude-hub' not in homepage and '/s/perplexity-hub' not in homepage, 'Homepage still uses old hub URLs'
+                  break
+              except Exception as error:
+                  print(f'Canonical verification attempt {attempt+1}: {error}', flush=True)
+                  if attempt == 11: raise
+                  time.sleep(15)
+          for name,data in payloads.items():
+              (directory/name).write_bytes(data)
+              print(f'PASS {name}: {len(data)} bytes; sha256={hashlib.sha256(data).hexdigest()}')
+          print('PASS live root, assets and .well-known JSON are byte-identical.')
+          print('PASS live homepage has three tag-section cards, the AI SEO filter, and no obsolete hub URLs.')
+          for slug in slugs:
+              node = nodes[section_base+slug]
+              print(f"PASS {node['name']}: CollectionPage / tag / {node['url']}")
+          PY
 
-          curl -fsSL --retry 3 --retry-delay 5 --max-time 120 \
-            -o "$RUNNER_TEMP/canonical/for_machines.json" \
-            https://productwithattitude.com/for_machines.json
-
-          jq -e 'has("@graph") and (.["@graph"] | type == "array") and (.["@graph"] | length > 0)' \
-            "$RUNNER_TEMP/canonical/for_machines.json" > /dev/null
-
-          curl -fsSL --retry 3 --retry-delay 5 --max-time 120 \
-            -o "$RUNNER_TEMP/canonical/llms.txt" \
-            https://productwithattitude.com/llms.txt
-
-          # An SPA fallback would return HTML with a 200; reject it.
-          if [ ! -s "$RUNNER_TEMP/canonical/llms.txt" ] || head -c 512 "$RUNNER_TEMP/canonical/llms.txt" | grep -qi "<!doctype html\|<html"; then
-            echo "Canonical llms.txt is empty or an HTML fallback" >&2
-            exit 1
-          fi
+      - name: Update public section documentation from canonical graph
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, re
+          directory = pathlib.Path(os.environ['RUNNER_TEMP'])/'canonical'
+          graph = json.loads((directory/'for_machines.json').read_text())
+          nodes = {node.get('@id'):node for node in graph['@graph']}
+          urls = ['https://karozieminski.substack.com/t/'+slug for slug in ('claude','perplexity','ai-seo')]
+          start, end = '<!-- substack-tag-sections:start -->', '<!-- substack-tag-sections:end -->'
+          lines = [start, '## Tag-based sections', '',
+                   'These Substack sections are topic archives populated by tags, not standalone editorial pages or individual articles. Each is represented as a `CollectionPage` in the canonical JSON-LD graph. Individual articles keep their own canonical URLs and free or paid access settings.', '',
+                   '| Section | Canonical URL | Tag |', '|---|---|---|']
+          for url in urls:
+              node = nodes[url]
+              lines.append(f"| {node['name']} | [{url}]({url}) | `{node['pwa:tagSlug']}` |")
+          lines.extend(['',end])
+          block = '\n'.join(lines)
+          for name in ('README.md','canonical-links-from-publication-product-with-attitude.md'):
+              path = pathlib.Path(name)
+              text = path.read_text()
+              if start in text or end in text:
+                  assert text.count(start) == text.count(end) == 1, 'Malformed section markers in '+name
+                  text = re.sub(re.escape(start)+r'[\s\S]*?'+re.escape(end),lambda _:block,text,count=1)
+              else:
+                  anchor = '## Canonical source and sync' if name == 'README.md' else '## Article:'
+                  position = text.find(anchor)
+                  assert position >= 0, 'Section insertion anchor missing in '+name
+                  text = text[:position]+block+'\n\n'+text[position:]
+              for slug in ('claude','perplexity'):
+                  text = text.replace(f'https://karozieminski.substack.com/s/{slug}-hub',f'https://karozieminski.substack.com/t/{slug}')
+              if name == 'README.md':
+                  text = re.sub(r'knowledge graph with \d+ interconnected nodes',f"knowledge graph with {len(graph['@graph'])} interconnected nodes",text,count=1)
+                  if '| [`llms-full.txt`]' not in text:
+                      anchor = '| [`canonical-links-from-publication-product-with-attitude.md`]'
+                      position = text.find(anchor)
+                      assert position >= 0, 'README file-table anchor missing'
+                      text = text[:position]+'| [`llms-full.txt`](llms-full.txt) | Expanded machine-readable publication export, including the three tag-based sections. Mirrors [productwithattitude.com/llms-full.txt](https://productwithattitude.com/llms-full.txt). |\n'+text[position:]
+              path.write_text(text)
+              print('PASS documented tag sections in '+name)
+          PY
 
       - name: Sync, commit and push if changed
         run: |
           set -euo pipefail
-          changed=""
-          for f in for_machines.json llms.txt; do
-            if ! cmp -s "$RUNNER_TEMP/canonical/$f" "$f"; then
-              cp "$RUNNER_TEMP/canonical/$f" "$f"
-              changed="$changed $f"
-            fi
+          for f in for_machines.json llms.txt llms-full.txt; do
+            cp "$RUNNER_TEMP/canonical/$f" "$f"
           done
-
-          if [ -z "$changed" ]; then
-            echo "Already in sync with productwithattitude.com"
+          git diff --check
+          git add -- for_machines.json llms.txt llms-full.txt README.md canonical-links-from-publication-product-with-attitude.md
+          if git diff --cached --quiet; then
+            echo 'Already synchronized with verified productwithattitude.com files.'
             exit 0
           fi
-
           version="$(jq -r '.schemaVersion // "unknown"' for_machines.json)"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- $changed
-          git commit -m "sync: mirror canonical productwithattitude.com graph — v${version} (${changed# })"
-          git push
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "sync: mirror canonical tag sections and discovery files — v${version}"
+          git push origin HEAD:main
+          echo "Public mirror commit: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
