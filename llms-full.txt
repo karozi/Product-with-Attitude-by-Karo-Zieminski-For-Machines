@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 122 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-14.
+> 122 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-15.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
