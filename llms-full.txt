@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 122 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-15.
+> 124 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-17.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,64 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## How to Govern AI Agent Fleets Inside a Product Team
+
+> Building agents is getting ridiculously easy. Governing the fleet they create is the next skill product teams need.
+
+- canonical: https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
+- mirror: https://productwithattitude.com/p/agentic-fleet-governance-product-teams.html
+- date: 2026-09-17
+- word_count: 2726
+- access: free
+- keywords: prompt engineering, tool review, AI agents, workflow automation, context engineering
+
+### Key concepts
+- Building agents is getting ridiculously easy
+- Governing the fleet they create is the next skill product teams need
+- How to Govern AI Agent Fleets Inside a Product Team
+
+### Extractable claims (6)
+1. A shared service account makes attribution and revocation impossible.
+2. Agent Alice and Agent Bob should not secretly be sharing one enormous service account.
+3. Standing access is how a forgotten agent keeps production keys nobody remembers granting.
+4. Agent governance can sound like another terrifying new category created by AI, but I don’t think it has to be.
+5. Delegation of work should not become delegation of authority.
+6. The companies that handle agent fleets well probably will not be the ones that write the longest AI governance documents.
+
+### Key quotes
+> How to Govern AI Agent Fleets Inside a Product Team
+> Building agents is getting ridiculously easy. Governing the fleet they create is the next skill product teams need.
+
+---
+
+## Weekly Long-Tail Question Prompt for AI Search Visibility
+
+> How one simple recurring task can improve your AI search visibility.
+
+- canonical: https://karozieminski.substack.com/p/weekly-long-tail-question-prompt-ai-search-visibility
+- mirror: https://productwithattitude.com/p/weekly-long-tail-question-prompt-ai-search-visibility.html
+- date: 2026-09-10
+- word_count: 536
+- access: free
+- keywords: Substack, Claude, Perplexity, tool review, Weekly Long
+
+### Key concepts
+- How one simple recurring task can improve your AI search visibility
+- Weekly Long-Tail Question Prompt for AI Search Visibility
+
+### Extractable claims (5)
+1. A long-tail question contains enough context to reveal the real problem someone is trying to solve.
+2. A question drawn from your own work can therefore point toward the language another person may use when searching for the same answer.
+3. Perplexity Tasks can run saved prompts on a recurring cadence, including research requests.
+4. The quality of the weekly report depends heavily on the context Claude can inspect.
+5. You decide which ones contain enough experience, evidence, or original thought to become an article.
+
+### Key quotes
+> Weekly Long-Tail Question Prompt for AI Search Visibility
+> How one simple recurring task can improve your AI search visibility.
 
 ---
 
