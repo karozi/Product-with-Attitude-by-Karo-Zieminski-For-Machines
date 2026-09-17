@@ -2150,11 +2150,12 @@
               "Building agents is getting ridiculously easy. Governing the fleet they create is the next skill product teams need."
             ],
             "pwa:extractableClaims": [
-              "I can think of no one better to explore this topic with than Chris Iljams , author of the ToxSec newsletter.",
-              "Chris also has a cool branded hat, which made me want one, except Product with Attitude would need a second hat for the last two words.",
+              "A shared service account makes attribution and revocation impossible.",
               "Agent Alice and Agent Bob should not secretly be sharing one enormous service account.",
-              "What an AI Agent Control Plane Is and What It Tracks An agent control plane is the management layer for AI agents.",
-              "AI Agent Permissions: Standing, Task-Scoped, and Human-Approved AI agent permissions should follow the current task."
+              "Standing access is how a forgotten agent keeps production keys nobody remembers granting.",
+              "Agent governance can sound like another terrifying new category created by AI, but I don’t think it has to be.",
+              "Delegation of work should not become delegation of authority.",
+              "The companies that handle agent fleets well probably will not be the ones that write the longest AI governance documents."
             ]
           }
         },
@@ -2206,11 +2207,11 @@
               "How one simple recurring task can improve your AI search visibility."
             ],
             "pwa:extractableClaims": [
-              "I’ve written countless Product with Attitude articles about questions I was trying to answer for myself.",
-              "“How can a small Substack newsletter become visible in ChatGPT and Perplexity without publishing five SEO articles a week?” is long-tail.",
-              "How to Create the Task in ChatGPT Work Option 1: Open Scheduled in ChatGPT and create a new task.",
-              "Option 2: You can also describe the job directly in Work and ask ChatGPT to schedule it.",
-              "Follow OpenAI’s Scheduled Tasks guide if you need help finding the controls."
+              "A long-tail question contains enough context to reveal the real problem someone is trying to solve.",
+              "A question drawn from your own work can therefore point toward the language another person may use when searching for the same answer.",
+              "Perplexity Tasks can run saved prompts on a recurring cadence, including research requests.",
+              "The quality of the weekly report depends heavily on the context Claude can inspect.",
+              "You decide which ones contain enough experience, evidence, or original thought to become an article."
             ]
           }
         },
