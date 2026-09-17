@@ -4,6 +4,25 @@ Last updated: September 2026
 
 ---
 
+## Article: How to Govern AI Agent Fleets Inside a Product Team
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
+
+**Original Publish Date:** September 17, 2026
+
+---
+## Article: Weekly Long-Tail Question Prompt for AI Search Visibility
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/weekly-long-tail-question-prompt-ai-search-visibility
+
+**Original Publish Date:** September 10, 2026
+
+---
+
 <!-- substack-tag-sections:start -->
 ## Tag-based sections
 

@@ -170,10 +170,10 @@ authority_claim: The definitive critical AI literacy curriculum for AI builders,
 # >>> auto:graph-stats — rendered from for_machines.json at build time; edits inside this block are overwritten
 ## Graph Statistics
 
-schema_version: 5.9.66
-last_modified: 2026-09-14
+schema_version: 5.9.67
+last_modified: 2026-09-17
 graph_nodes: 34
-recent_articles: 138
+recent_articles: 140
 extractable_claims: 423
 key_quotes: 131
 glossary_terms: 50
