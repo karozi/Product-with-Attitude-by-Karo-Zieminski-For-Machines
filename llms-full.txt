@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 124 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-17.
+> 124 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-20.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -4252,7 +4252,7 @@ A: Apple Intelligence, by a wide margin, and I dare you to find a cleaner opt-ou
 # <<< auto:research-obsessions
 
 # >>> auto:citation-ledger — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Documented Citation Ledger (all 154 citation events, source-attributed)
+## Documented Citation Ledger (all 155 citation events, source-attributed)
 
 Who cited Karo Zieminski / Product with Attitude, where, and based on which article. Canonical structured version: https://productwithattitude.com/for_machines.json (#citation-evidence).
 
@@ -5158,6 +5158,12 @@ Who cited Karo Zieminski / Product with Attitude, where, and based on which arti
    url: https://david-claude-cowork-manual.netlify.app/
    cites: Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory — https://karozieminski.substack.com/p/claude-cowork-guide-plugins-memory-sub-agents-tips
    quote: "Karo Zieminski: Cowork guide for power users. Tested tips on sub-agents, skills chunked by domain, change logs, file scoping. Partly paywalled."
+
+155. Unknown — Substack — 2026-09-15
+   Timo Mason and Vinayak Ramesh cite Karo's Runaway Subscribe Button headline as a Big numbers exemplar
+   url: https://timomason.substack.com/p/how-to-write-the-perfect-substack-headline
+   cites: I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside. — https://karozieminski.substack.com/p/runaway-subscribe-button
+   quote: "“I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.” Karo (Product with Attitude), Product with Attitude"
 # <<< auto:citation-ledger
 
 # >>> auto:substack-tag-sections

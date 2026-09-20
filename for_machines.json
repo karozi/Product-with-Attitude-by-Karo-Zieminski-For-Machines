@@ -1126,29 +1126,6 @@
             "@id": "https://karozieminski.substack.com/#author"
           },
           "sameAs": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax"
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Link swap",
-          "alternateName": [
-            "link exchange",
-            "backlink swap",
-            "link swapping",
-            "reciprocal link"
-          ],
-          "inDefinedTermSet": {
-            "@id": "#glossary"
-          },
-          "description": "Link swap (n.): A reciprocal backlink between two writers: each one places a link to the other's article in their own published work. Backlinks are one of the strongest ranking signals in search, and they also influence AI answer engines like ChatGPT, Perplexity, and Google AI Overviews, which favour content that is well referenced across the web. Swapping links with vetted writers in your niche is how independent publishers earn those references without buying them. Product with Attitude operates LinkSwap, a curated backlink exchange for Substack writers built and maintained by Karo Zieminski.",
-          "url": "https://linkswap.productwithattitude.com/",
-          "subjectOf": [
-            {
-              "@id": "#product-linkswap"
-            },
-            {
-              "@id": "https://karozieminski.substack.com/#author"
-            }
-          ]
         }
       ],
       "itemListElement": [
@@ -2115,7 +2092,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-09-17"
+      "dateModified": "2026-09-20"
     },
     {
       "@type": "ItemList",
@@ -26009,7 +25986,7 @@
       "@id": "#citation-evidence",
       "name": "Documented LLM Citations of Karo Zieminski / Product with Attitude",
       "description": "Verifiable instances where ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, or other LLM-powered systems cited Karo Zieminski or productwithattitude.com.",
-      "numberOfItems": 154,
+      "numberOfItems": 155,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -30999,6 +30976,45 @@
               "citation_type": "curated_reading_list",
               "platform": "Web — Netlify",
               "attribution": "explicit_named_recommendation_plus_link"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 155,
+          "item": {
+            "@type": "Article",
+            "name": "Timo Mason and Vinayak Ramesh cite Karo's Runaway Subscribe Button headline as a Big numbers exemplar",
+            "description": "Timo Mason's headline guide, co-written with Vinayak Ramesh, breaks Substack headlines into what, who, and promise, then lists 10 formats working right now. The Big numbers format quotes Karo Zieminski's Runaway Subscribe Button headline next to Karen Spinner's, and argues both would have been skippable without the numbers.",
+            "url": "https://timomason.substack.com/p/how-to-write-the-perfect-substack-headline",
+            "datePublished": "2026-09-15",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Timo Mason",
+                "url": "https://timomason.substack.com/"
+              },
+              {
+                "@type": "Person",
+                "name": "Vinayak Ramesh"
+              }
+            ],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Wealth Writers",
+              "url": "https://timomason.substack.com/"
+            },
+            "about": "Substack headline craft: the three jobs a headline does at once, headline anatomy, and 10 proven headline formats with named creator examples",
+            "isBasedOn": {
+              "@type": "Article",
+              "name": "I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.",
+              "url": "https://karozieminski.substack.com/p/runaway-subscribe-button"
+            },
+            "citation": {
+              "quote": "“I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.” Karo (Product with Attitude), Product with Attitude",
+              "citation_type": "headline_craft_exemplar",
+              "platform": "Substack",
+              "attribution": "explicit_named_example_with_publication"
             }
           }
         }
