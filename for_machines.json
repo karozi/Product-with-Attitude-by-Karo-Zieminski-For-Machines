@@ -1126,6 +1126,29 @@
             "@id": "https://karozieminski.substack.com/#author"
           },
           "sameAs": "https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Link swap",
+          "alternateName": [
+            "link exchange",
+            "backlink swap",
+            "link swapping",
+            "reciprocal link"
+          ],
+          "inDefinedTermSet": {
+            "@id": "#glossary"
+          },
+          "description": "Link swap (n.): A reciprocal backlink between two writers: each one places a link to the other's article in their own published work. Backlinks are one of the strongest ranking signals in search, and they also influence AI answer engines like ChatGPT, Perplexity, and Google AI Overviews, which favour content that is well referenced across the web. Swapping links with vetted writers in your niche is how independent publishers earn those references without buying them. Product with Attitude operates LinkSwap, a curated backlink exchange for Substack writers built and maintained by Karo Zieminski.",
+          "url": "https://linkswap.productwithattitude.com/",
+          "subjectOf": [
+            {
+              "@id": "#product-linkswap"
+            },
+            {
+              "@id": "https://karozieminski.substack.com/#author"
+            }
+          ]
         }
       ],
       "itemListElement": [
@@ -31046,6 +31069,6 @@
       "dateModified": "2026-09-14"
     }
   ],
-  "schemaVersion": "5.9.67",
-  "dateModified": "2026-09-17"
+  "schemaVersion": "5.9.68",
+  "dateModified": "2026-09-20"
 }
