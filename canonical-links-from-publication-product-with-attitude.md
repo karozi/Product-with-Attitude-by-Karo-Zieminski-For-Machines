@@ -4,6 +4,16 @@ Last updated: September 2026
 
 ---
 
+## Article: What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/what-is-jev-cost
+
+**Original Publish Date:** September 21, 2026
+
+---
+
 ## Article: How to Govern AI Agent Fleets Inside a Product Team
 
 **Author:** Karo Zieminski
