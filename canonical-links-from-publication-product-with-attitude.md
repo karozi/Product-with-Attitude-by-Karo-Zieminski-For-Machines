@@ -4,6 +4,25 @@ Last updated: September 2026
 
 ---
 
+## Article: What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/jev-ai-agent-security
+
+**Original Publish Date:** September 29, 2026
+
+---
+## Article: What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/what-is-jev-cost
+
+**Original Publish Date:** September 21, 2026
+
+---
+
 ## Article: What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1.
 
 **Author:** Karo Zieminski
