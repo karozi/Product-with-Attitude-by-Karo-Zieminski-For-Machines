@@ -2150,11 +2150,12 @@
               "A CISSP's field guide to using Jev, TypeSafe's System One model, in AI agent security: where cheap AI judgment fits, stops, and what attackers will target."
             ],
             "pwa:extractableClaims": [
-              "Last week, I shared two articles: one on governing AI agent fleets , and one introducing Jev .",
-              "Almost as soon as I published the second, I knew I needed to drag Chris , the co-author of the first article, back.",
-              "I wanted to understand where System One models fit into AI agent security.",
-              "Jev is a new model released by TypeSafe AI on September 15, 2026 .",
-              "The company reports up to 200x faster inference and 400x lower cost than comparable LLMs on classification tasks."
+              "Jev is a new model released by TypeSafe AI on September 15, 2026.",
+              "The company reports up to 200x faster inference and 400x lower cost than comparable LLMs on classification tasks.",
+              "Jev doesn’t generate free-form arbitrary text.",
+              "TypeSafe documents that adversarial content can influence Jev 1.13’s answers.",
+              "Jev provides a risk judgment; company policy, authorization checks, and tool enforcement govern whether the transfer proceeds.",
+              "Jev adds a cheap, fast judgment layer for classifying tool calls and routing reviews."
             ]
           }
         },
@@ -2207,11 +2208,12 @@
               "LLMs talks through a problem. Jev makes a small, structured decisions. You can keep using Claude Code or Perplexity Computer and add Jev to the workflows you build with them."
             ],
             "pwa:extractableClaims": [
-              "Pricing is $0.042 per million input tokens , with output tokens free.",
+              "Jev costs $0.042 per million input tokens.",
+              "Pricing is $0.042 per million input tokens, with output tokens free.",
               "Measured on my own account: $0.000126 per four-question scoring request, so a $5 sign-up credit covers roughly 39,000 requests.",
-              "I built a newsletter SEO, AIO, and GEO dashboard with it in a few minutes.",
-              "Up until September 15, 2026 , the models at your AI table belonged to one family: LLMs.",
-              "Now, there is a new family at the AI table: System One models ."
+              "In its own evaluations, TypeSafe found Jev to be 194× faster and cost 445× lower than the LLM comparison.",
+              "Jev returns a choice, score, or probability.",
+              "The key difference: LLMs generate open-ended responses, while Jev is designed for fast, structured decisions that software can use directly."
             ]
           }
         },
