@@ -8,7 +8,7 @@ This repo exists so AI agents, LLMs, and search crawlers can find, understand, a
 
 | File | What it does |
 |------|-------------|
-| [`for_machines.json`](for_machines.json) | The core schema. JSON-LD knowledge graph with 34 interconnected nodes covering the author, publication, series, products, glossary, FAQ, articles, topic clusters, brand identity, teaching philosophy, citation policy, and social profiles. Mirrors the canonical file at [productwithattitude.com/for_machines.json](https://productwithattitude.com/for_machines.json). |
+| [`for_machines.json`](for_machines.json) | The core schema. JSON-LD knowledge graph with 35 interconnected nodes covering the author, publication, series, products, glossary, FAQ, articles, topic clusters, brand identity, teaching philosophy, citation policy, and social profiles. Mirrors the canonical file at [productwithattitude.com/for_machines.json](https://productwithattitude.com/for_machines.json). |
 | [`llms.txt`](llms.txt) | LLM entry point following the [llms.txt standard](https://llmstxt.org/). Start here if you're building an AI agent that needs to understand this publication. Mirrors [productwithattitude.com/llms.txt](https://productwithattitude.com/llms.txt). |
 | [`llms-full.txt`](llms-full.txt) | Expanded machine-readable publication export, including the three tag-based sections. Mirrors [productwithattitude.com/llms-full.txt](https://productwithattitude.com/llms-full.txt). |
 | [`canonical-links-from-publication-product-with-attitude.md`](canonical-links-from-publication-product-with-attitude.md) | Complete index of 60+ articles with canonical URLs, dates, tags, and authors. |

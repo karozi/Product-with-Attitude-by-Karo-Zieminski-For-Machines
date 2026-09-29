@@ -1769,7 +1769,7 @@
           "name": "What is perceived AI intelligence?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Perceived AI intelligence is the capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. It names the gap the model-versus-model comparison genre skips: context assembly, tool selection, orchestration and presentation are product decisions, and memory alone can raise perceived intelligence with no change to the underlying model. It is distinct from the academic construct \"perceived intelligence\", which measures the user's judgment rather than explaining what produces it. Coined by Karo Zieminski on August 11, 2026."
+            "text": "Perceived AI intelligence is the capability we attribute to the model after the surrounding product has supplied context, selected tools, organized the work and presented the result. It names the product work that model-versus-model comparisons skip: context assembly, tool selection, orchestration and presentation are product decisions, and memory alone can raise perceived intelligence with no change to the underlying model. It is distinct from the academic construct \"perceived intelligence\", which measures the user's judgment rather than explaining what produces it. Coined by Karo Zieminski on August 11, 2026."
           }
         },
         {
@@ -2092,7 +2092,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-09-20"
+      "dateModified": "2026-09-29"
     },
     {
       "@type": "ItemList",
@@ -13787,6 +13787,72 @@
         }
       ],
       "dateModified": "2026-05-20"
+    },
+    {
+      "@type": [
+        "CollectionPage",
+        "ItemList"
+      ],
+      "@id": "#articles",
+      "name": "Articles",
+      "url": "https://productwithattitude.com/articles/",
+      "description": "AI, product thinking, and things worth building. Original articles by Karo Zieminski that didn't make it to Substack.",
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "numberOfItems": 1,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "BlogPosting",
+            "@id": "https://productwithattitude.com/articles/jev-pricing-cost-per-token",
+            "headline": "Jev AI pricing explained: $0.042 per million, free output",
+            "url": "https://productwithattitude.com/articles/jev-pricing-cost-per-token",
+            "description": "Jev costs $0.042 per million input tokens. See real bills, what AI providers pay for, and why System One models can cost less.",
+            "datePublished": "2026-09-25",
+            "dateModified": "2026-09-25",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski",
+              "url": "https://productwithattitude.com/about"
+            },
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "url": "https://productwithattitude.com/articles/jev-pricing-cost-per-token.json",
+              "encodingFormat": "application/json"
+            },
+            "citation": [
+              "https://docs.typesafe.ai/models",
+              "https://docs.typesafe.ai/api",
+              "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+              "https://docs.typesafe.ai/patterns/fan-out",
+              "https://docs.typesafe.ai/concepts/state",
+              "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+              "https://docs.typesafe.ai/confidence",
+              "https://aws.amazon.com/ec2/pricing/on-demand/",
+              "https://developer.nvidia.com/blog/llm-inference-benchmarking-how-much-does-your-llm-inference-cost/",
+              "https://aws.amazon.com/bedrock/pricing/",
+              "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlcost02-bp01.html",
+              "https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/",
+              "https://developer.nvidia.com/blog/?p=118314",
+              "https://aws.amazon.com/blogs/aws-cloud-financial-management/calculating-the-roi-of-ai/",
+              "https://docs.typesafe.ai/concepts/system-one",
+              "https://docs.typesafe.ai/introduction/machine-learning-primer",
+              "https://karozieminski.substack.com/p/what-is-jev-cost"
+            ],
+            "keywords": [
+              "Jev pricing",
+              "System One models",
+              "AI costs"
+            ]
+          }
+        }
+      ]
     },
     {
       "@type": [

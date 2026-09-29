@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 124 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-20.
+> 126 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-29.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,66 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”.
+
+> A CISSP's field guide to using Jev, TypeSafe's System One model, in AI agent security: where cheap AI judgment fits, stops, and what attackers will target.
+
+- canonical: https://karozieminski.substack.com/p/jev-ai-agent-security
+- mirror: https://productwithattitude.com/p/jev-ai-agent-security.html
+- date: 2026-09-29
+- word_count: 2258
+- access: free
+- keywords: Claude, tool review, AI agents, LLM, What Jev Means
+
+### Key concepts
+- where cheap AI judgment fits, stops, and what attackers will target
+- What Jev Means for AI Agent Security
+- The Security Gamble Behind “Jev Can’t Hallucinate”
+
+### Extractable claims (6)
+1. Jev is a new model released by TypeSafe AI on September 15, 2026.
+2. The company reports up to 200x faster inference and 400x lower cost than comparable LLMs on classification tasks.
+3. Jev doesn’t generate free-form arbitrary text.
+4. TypeSafe documents that adversarial content can influence Jev 1.13’s answers.
+5. Jev provides a risk judgment; company policy, authorization checks, and tool enforcement govern whether the transfer proceeds.
+6. Jev adds a cheap, fast judgment layer for classifying tool calls and routing reviews.
+
+### Key quotes
+> What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”.
+> A CISSP's field guide to using Jev, TypeSafe's System One model, in AI agent security: where cheap AI judgment fits, stops, and what attackers will target.
+
+---
+
+## What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1.
+
+> LLMs talks through a problem. Jev makes a small, structured decisions. You can keep using Claude Code or Perplexity Computer and add Jev to the workflows you build with them.
+
+- canonical: https://karozieminski.substack.com/p/what-is-jev-cost
+- mirror: https://productwithattitude.com/p/what-is-jev-cost.html
+- date: 2026-09-21
+- word_count: 1583
+- access: free
+- keywords: Claude, Perplexity, Anthropic, LLM, workflow automation
+
+### Key concepts
+- LLMs talks through a problem
+- Jev makes a small, structured decisions
+- What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1
+
+### Extractable claims (6)
+1. Jev costs $0.042 per million input tokens.
+2. Pricing is $0.042 per million input tokens, with output tokens free.
+3. Measured on my own account: $0.000126 per four-question scoring request, so a $5 sign-up credit covers roughly 39,000 requests.
+4. In its own evaluations, TypeSafe found Jev to be 194× faster and cost 445× lower than the LLM comparison.
+5. Jev returns a choice, score, or probability.
+6. The key difference: LLMs generate open-ended responses, while Jev is designed for fast, structured decisions that software can use directly.
+
+### Key quotes
+> What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1.
+> LLMs talks through a problem. Jev makes a small, structured decisions. You can keep using Claude Code or Perplexity Computer and add Jev to the workflows you build with them.
 
 ---
 
@@ -3955,301 +4015,308 @@ Schema source: https://productwithattitude.com/for_machines.json
 
 ---
 
-# >>> auto:research-obsessions — rendered from content/research at build time; edits inside this block are overwritten
-## Research Obsessions (14 published research dossiers)
+# >>> auto:articles — rendered from content/articles at build time; edits inside this block are overwritten
+## Articles (1 published page)
 
-# Questions I couldn't put down. Each page here is a research dossier: primary sources, triple-verified claims. Updated when the facts change.
-# Section index: https://productwithattitude.com/research/
-# Each page is self-canonical, carries Article + FAQPage + BreadcrumbList JSON-LD,
-# and states the date its claims were last verified. Drafts are excluded.
+# AI, product thinking, and things worth building. Original articles by Karo Zieminski that didn't make it to Substack.
+# Section index: https://productwithattitude.com/articles/
+# Original articles use self-canonical URLs and BlogPosting + BreadcrumbList JSON-LD.
+# Articles show publication and update dates. Drafts and design samples are excluded.
 
-### DeepSeek V4 Flash Vision Exp: $0.08–$0.17 per 1,000 Max-Token Images
+### Jev AI pricing explained: $0.042 per million, free output
 
-- url: https://productwithattitude.com/research/deepseek-v4-flash-vision-exp-pricing-opus-4-8
-- summary: DeepSeek's experimental V4 vision endpoint costs $0.084–$0.169 per 1,000 max-token images and trades two benchmark wins with Claude Opus 4.8.
-- published: 2026-08-23
-- last_verified: 2026-08-23
-- topics: DeepSeek, multimodal AI, AI API pricing, vision models
+- url: https://productwithattitude.com/articles/jev-pricing-cost-per-token
+- summary: Jev costs $0.042 per million input tokens. See real bills, what AI providers pay for, and why System One models can cost less.
+- published: 2026-09-25
+- updated: 2026-09-25
+- topics: Jev pricing, System One models, AI costs
 
-#### Verified Q&A (5)
-Q: How Much Does DeepSeek V4 Flash Vision Exp Cost per 1,000 Images?
-A: At the cap, 1,000 images cost $0.08448 off-peak, $0.16896 peak. Those numbers cover image input only, so add prompt text, output tokens, taxes, and any account-specific terms before forecasting a real workload. Smaller images may use fewer tokens, although DeepSeek scales very small images up before inference. Log the API's returned usage during your test rather than treating 384 as every image's guaranteed token count.
-Q: Is DeepSeek V4 Flash Vision Exp Cheaper Than Claude and GPT for Image Input?
-A: Yes, by a large margin under the published rules. For 1,000 uploaded 1000×1000 images, this dossier calculates $0.084–$0.169 on DeepSeek, $2.56 on GPT-5.4, $2.592 on Claude Sonnet 5, $3.888 on Sonnet 4.6, and $6.48 on Opus 4.8. The comparison has one important limit: DeepSeek downsizes large inputs to roughly an 800×800 pixel equivalent. Their retained visual detail still differs.
-Q: Does DeepSeek V4 Flash Vision Exp Beat Claude Opus 4.8?
-A: DeepSeek's chart ends in a two-two benchmark draw. V4-Flash-Vision-Exp leads Agents' Last Exam by 1.6 points and ZeroBench Pass@5 by 1.0, while Opus 4.8 leads ApexBench Pass@1 by 2.9 points and Chartography by 0.7. That supports “competitive with Opus 4.8” for the tested tasks, not a general quality win across OCR, UI screenshots, documents, or production agent loops. DeepSeek ran and published the evaluation. No independent reproduction was available on August 23.
-Q: Is DeepSeek V4 Flash Vision Exp Open Source or Production Ready?
-A: The API works now, but DeepSeek calls it experimental. The August 21 announcement provides no production date, dedicated weights repository, or variant-specific model card, although DeepSeek has open-sourced other V4 weights and earlier vision work. An eventual release remains plausible and unpublished. Use it for reversible evaluations. Wait for version guarantees and a private regression suite before assigning legally, financially, or physically risky work.
-Q: What Does DeepSeek's Free Files API Change?
-A: The Files API lets you upload an image once and reference it later by file_id, cutting repeated request payloads for workflows that reuse the same screenshot, document page, or chart. Uploads can be as large as 64 MiB, a model request can contain up to 600 images, and each user gets 25 GiB across at most 10,000 stored files. “Free” refers to file storage and transfer. The image still enters model context. DeepSeek never promises that reused files escape image-token billing. Share this with a friend who is pricing a screenshot-heavy agent before the image bill arrives. Subscribe to Product with Attitude for more free AI model cost breakdowns for builders choosing what belongs in production.
+What Jev charges, where AI providers spend their money, and why System One models can cost less.
 
-### Does Forking Save Computer Credits?
+Pricing checked 25 September 2026.
 
-- url: https://productwithattitude.com/research/does-forking-save-perplexity-computer-credits
-- summary: Forking preserves prior context, so it reduces Computer credit use only when the branch avoids irrelevant work. Clean threads cost less for self-contained jobs.
-- published: 2026-08-23
-- last_verified: 2026-08-23
-- topics: Perplexity Computer, AI agent costs, thread management, context windows
+TL;DR: TypeSafe AI lists Jev at [$0.042 per million input tokens](https://docs.typesafe.ai/models), the small pieces of text it reads. Output tokens are free. Jev cost for a 3,000-token request is $0.000126. Run that same request 100,000 times and the bill is $12.60, before other services. Jev’s design can reduce running costs by avoiding step-by-step text generation and sharing input across questions.
 
-#### Verified Q&A (4)
-Q: Does Forking a Perplexity Computer Thread Reset Credit Use?
-A: Perplexity promises no reset. The June 18 announcement says a fork opens a fresh thread while retaining full access to the prior thread's context and generated assets. That supports continuity, not zero carried context. A branch after fifty mixed-purpose messages may still carry a large source history, so open a clean thread when the next task needs none of it.
-Q: Is a Fork Cheaper Than Continuing the Same Computer Thread?
-A: Sometimes. A fork can cost less over the next several tasks when it leaves unrelated later work behind or prevents several outputs from sharing one growing conversation. Perplexity publishes no fork discount, and no controlled public test proves that the first message after an end-of-thread fork costs less than the same message sent inline. Credit savings come from cleaner branch points.
-Q: When Should I Fork Instead of Opening a Clean Thread?
-A: Fork when the next task depends on prior evidence, files, design decisions, or generated assets that would be tedious or risky to reconstruct. Open a clean thread when the handoff is enough. A clean thread avoids inherited conversation history. The practical test is simple: if you can describe the job completely in a brief and attach the required files, you probably do not need a fork.
-Q: How Can I Measure Whether Forking Saves Credits for My Work?
-A: Run the same bounded task three times: once as a follow-up in a long thread, once from a fork at the last relevant message, and once in a clean thread with a saved handoff file. Keep the prompt, files, output, and model fixed. After each run, record credits from the Usage dropdown. Repeat on several tasks because Computer can change routing and tool use, then compare medians rather than one dramatic result. Share this with a friend whose Computer thread should have ended yesterday. Subscribe to Product with Attitude for more free credit-saving workflow rules for builders who want more shipped work per 10,000 credits.
+[I asked Jev to check a 2,000-word article against four sets of scoring rules. The whole request cost about $0.000126.](https://karozieminski.substack.com/p/what-is-jev-cost)
 
-### AI Models Erase Female Animals in Children's Stories
+[Jev is an AI model from TypeSafe AI.](https://typesafe.ai/) It makes decisions inside an app, such as choosing a category or giving a score. I used it to build a newsletter scoring dashboard. My [hands-on Jev article shows the build and what it cost](https://karozieminski.substack.com/p/what-is-jev-cost).
 
-- url: https://productwithattitude.com/research/ai-erases-female-animals-in-childrens-stories
-- summary: Six leading AI models cast animal characters as female in only 2.2% of 23,800 children's stories. Female bears appeared 8 times in 3,400 tries. Here is what to do about it.
-- published: 2026-08-17
-- last_verified: 2026-08-17
-- topics: ai-bias, childrens-content, alignment, large-language-models
+Use the tables below to estimate your bill. Then follow the money behind it: what providers pay for and which work Jev can avoid.
 
-#### Verified Q&A (6)
-Q: Which AI models were tested?
-A: Claude Sonnet 4.5 (Anthropic), Gemini 2.5 Flash (Google), GPT-4o and GPT-5.1 (OpenAI), Mistral Medium 3.1 (Mistral), and OLMo3 7B Instruct (Allen Institute for AI and the University of Washington). Every model was prompted across seven animals and four narrative settings, at multiple temperatures (paper Section 3.1).
-Q: Why does the paper call this "neutrality bites"?
-A: Because the models' most common response to gender ambiguity is to avoid gender entirely, not to distribute it. That looks like fairness on the surface. In practice, when gender does get assigned, it lands on male 95% of the time, and female representation collapses to 2.2%. The authors argue that a neutrality-first alignment strategy hides the underlying bias rather than fixing it (paper Section 5).
-Q: Which animals were most and least likely to be female?
-A: Cats were the outlier: 53.2% of all female-lead stories in the corpus featured cats. Birds were almost never gendered at all; 96.3% of bird stories used neutral or animal-name references. Bears, dogs, and rabbits were the most masculine: 66.6%, 62.3%, and 53.5% male on average, and each had fewer than 45 female-lead stories out of 3,400 (paper Section 4.3).
-Q: Is this just a reflection of existing children's-book bias?
-A: Not quite. The earlier 2025 study by the same lead author found roughly a 2-to-1 male-to-female pronoun ratio in 300 popular children's books. Language models scaled that up: they were six times less likely than human survey respondents to write a female animal character on the same prompt (UW News). The models are not just mirroring the underlying bias, they are amplifying it while looking more neutral on the surface.
-Q: Can I fix this with a prompt?
-A: The paper does not test that directly. What it does show is that temperature and setting barely move the numbers, and that the model matters (a lot) but even the best is at 3.8% female. If you are building a product, the reliable fix is to name the gender in the prompt or set a target distribution server-side. If you are a parent using a consumer tool, ask for the character's gender by name before the model picks for you.
-Q: Where can I read the paper?
-A: Full paper on arXiv: arXiv:2606.07969. Published at ACM FAccT 2026 with DOI 10.1145/3805689.3812287. Code and materials: github.com/imanif/animal-stories. Share this with a friend building a kids' content feature or a parent picking a bedtime-story app who assumed the model would default fair. Subscribe to Product with Attitude for more free primary-source audits of AI defaults that ship into products for children and other high-stakes readers.
+**Jump to:** [Token costs](#what-does-jev-cost-per-token) · [Provider costs](#how-are-ai-providers-charged) · [LLM output costs](#why-do-llm-output-tokens-cost-more) · [Free output](#why-are-jev-s-output-tokens-free) · [LLM comparison](#how-does-jev-pricing-compare-with-llms) · [Real-time costs](#is-jev-affordable-for-real-time-apps) · [Suitable tasks](#which-tasks-fit-jev-s-pricing) · [FAQ](#jev-pricing-faq)
 
-### Claude design prompts for landing pages: 8 prompts that work and why
+## What Does Jev Cost per Token?
 
-- url: https://productwithattitude.com/research/claude-design-prompts-for-landing-pages
-- summary: Eight Claude prompts that ship on-brand landing pages, with the mechanism behind each: DESIGN.md builders, the 4-block brief, anti-slop constraints, a diff loop, and a WCAG gate.
-- published: 2026-08-12
-- last_verified: 2026-08-12
-- topics: AI Tools, Prompt Engineering, Landing Pages, Product Design
+A token can be a word or part of a word. Jev charges for **input tokens**: the text you send, including your questions and instructions. Its **output** is the answer it sends back.
 
-#### Verified Q&A (6)
-Q: What is the difference between Claude Design and Claude Code for landing pages?
-A: Claude Design is the product Anthropic Labs launched on 2026-04-17 at claude.ai/design, powered by Claude Opus 4.7. It's a visual-first canvas with a chat sidebar, inline comments, and direct on-canvas edits, and it exports to standalone HTML, PDF, PPTX, Canva, or a handoff bundle for Claude Code. Claude Code is the coding agent that writes production code. Rule of thumb: use Claude Design when the codebase doesn't exist yet or when design exploration is the bottleneck; use Claude Code when the codebase exists and the design system is already partially there. The handoff bundle lets you start in Design, then hand the chosen direction to Code with one instruction.
-Q: Do I need a DESIGN.md, or is Claude Design's built-in design system enough?
-A: Both work; DESIGN.md wins for repeatability. Claude Design will extract a design system from your codebase, screenshots, or existing files the first time you set it up and reuse it on every future project (support.claude.com). That's fine if you're only building in Claude Design. If you also want to hand off to Claude Code, Cursor, Kiro, Windsurf, or Cline, keep a plain-text DESIGN.md in the repo root: every coding agent that reads the file becomes on-brand automatically (designmd.app hosts 461 examples). The best of both is doing the setup once in Claude Design's design-system flow and then also exporting a plain DESIGN.md for the repo.
-Q: Which Claude model powers Claude Design?
-A: Claude Opus 4.7, described on the launch page as Anthropic's most capable vision model at the time of the Claude Design announcement (anthropic.com). Anthropic may route to a newer model in the future without changing product surface copy, so verify the current model in the account picker if it matters for a benchmark or a public claim.
-Q: Can I use Claude Code for a landing page without Claude Design?
-A: Yes. Prompts 1, 4, 6, 7, and 8 above run entirely in Claude Code. Anthropic's own prompting best practices and Claude 4 best practices apply directly. The shape stays the same: a DESIGN.md in the repo root, an anti-slop constraint block, and a section-by-section brief with real product copy. Claude Code writes accessible responsive code by default; the aesthetic direction is what needs constraining, because left alone it converges on Tailwind-default Inter and a purple gradient.
-Q: What are the biggest failure modes when generating landing pages with Claude?
-A: Ten defaults show up repeatedly, and each maps to a prompt above that patches it: Inter default. Ban Inter, Roboto, Open Sans, Arial, and system-ui by name; name the exact pairing you want (prompts 1 and 4). Purple or indigo gradient on white. Ban explicitly; specify one dominant background and one accent as hex (prompts 1 and 4). Centered three-rounded-card hero. Specify asymmetric two-column or full-bleed with typographic hierarchy (prompt 4). 0.1-opacity drop shadow on everything. One deliberate shadow if any, on the primary CTA only (prompts 1 and 4). Emoji feature icons. Lucide or repo icons, never emoji (prompt 4). Lorem Ipsum leak. Real, specific copy for YOUR product (prompts 4 and 6). Accent color used everywhere. Single accent moment per viewport (prompt 4). Type scale jumps of 1.5x. Size jumps of 3x, weight extremes of 200 vs 800 (prompt 1). Regeneration lottery. Fixing one section reshuffles three others; use the diff loop's "fix only the mismatches" (prompt 7). Feature-soup above the fold. One value proposition + one CTA above the fold; the feature grid is section 3 or 4 (prompt 4's ordered section list).
-Q: Where does DESIGN.md fit if I already have a design system in Figma?
-A: Export the Figma tokens to CSS variables or a JSON tokens file and write a short DESIGN.md at the project root that references them. The DESIGN.md is not a replacement for Figma; it's the coding-agent-readable manifest that points at your tokens plus the constraints Claude wouldn't otherwise infer (do's, don'ts, forbidden defaults, aesthetic family, spacing rhythm). designmd.app documents the canonical 9-section DESIGN.md shape: Visual Theme & Atmosphere, Color Palette & Roles, Typography Rules, Component Stylings, Layout Principles, Depth & Elevation, Do's and Don'ts, Responsive Behavior, and Agent Prompt Guide.
+These prices use [TypeSafe’s published Jev rate](https://docs.typesafe.ai/models). All prices in this article are in US dollars.
 
-### The AI safety triangle: Musk, Zuckerberg, and Amodei don't disagree about risk
+| Text sent to Jev | Cost |
+|---|---|
+| One token | $0.000000042 |
+| 1,000 tokens | $0.000042 |
+| One million tokens | $0.042 |
+| One billion tokens | $42 |
 
-- url: https://productwithattitude.com/research/ai-safety-triangle-musk-zuckerberg-amodei
-- summary: The AI safety triangle maps three rival theories: Zuckerberg's balance of power, Amodei's controlled scaling, Musk's adversarial review between labs.
-- published: 2026-08-11
-- last_verified: 2026-08-11
-- topics: AI safety, AI governance, Critical AI Literacy, Superintelligence
+That is 4.2 cents per million tokens, or $42 per billion.
 
-#### Verified Q&A (6)
-Q: What is the AI safety triangle?
-A: I built this definition after reading all three men's own 2026 documents rather than the coverage of them. The AI safety triangle is the three-way disagreement between Mark Zuckerberg, Dario Amodei, and Elon Musk over what makes powerful AI safe. Zuckerberg's answer is distributed power, Amodei's is capability-gated containment, Musk's is adversarial review between competing labs. All three accept that powerful AI can cause catastrophic harm, which is why sorting them on a doomer-to-accelerationist line tells you nothing about what any of them would do.
-Q: What is the difference between Musk's and Amodei's approach to AI safety?
-A: These two agree on the diagnosis more than their companies suggest, and I find that the most under-covered fact in the triangle. Both take loss of control seriously, both worry about deceptive models, both want pre-release scrutiny. They split on institutionalisation. Amodei wants safety converted from voluntary good behaviour into measurable thresholds, disclosure, independent governance, and targeted law. Musk puts the first line of technical governance inside the industry: labs review labs, government becomes the escalation path. Amodei asks how safety survives competition. Musk asks how competition produces safety.
-Q: Does Mark Zuckerberg think AI is dangerous?
-A: Yes, and reading his August 2026 essay as simple techno-optimism is the mistake I keep seeing. Zuckerberg accepts that superintelligence raises real safety problems. He locates the primary danger somewhere else: in concentration. His argument is that if a handful of institutions hold superintelligence they inevitably control economics, science, and politics, and that a frontier lab withholding an exceptionally powerful model for safety reasons removes the external checks on that lab. His prescription is distribution, not caution.
-Q: What is Anthropic's Responsible Scaling Policy?
-A: The biosafety framing is what made this click for me. I had it filed under corporate policy documents until I read the actual thresholds. Anthropic's Responsible Scaling Policy is an if-then framework: when a model demonstrates specific dangerous capabilities, defined safeguards become mandatory before further training or deployment. The AI Safety Levels are modeled on biosafety levels, so higher levels trigger stronger requirements including protection against model-weight theft. ASL-3 protections shipped with Claude Opus 4 and included over a hundred controls aimed at weight exfiltration. Version 3.0 is current.
-Q: Is Meta's Llama open source?
-A: No, and this is the one correction I'd put on a sticker. Meta's Llama models are open-weight, not open source. The Open Source Initiative, which maintains the Open Source Definition, has stated that Llama's license does not meet it. The weights are downloadable and modifiable with license restrictions attached, which is useful, and which is not the same thing. "Strategic weight diffusion" describes what Meta is doing without borrowing credibility from a definition it doesn't satisfy.
-Q: Who is right about AI superintelligence risk?
-A: Unresolved, and anyone claiming otherwise is selling something. The argument reduces to empirical questions with no answers yet: whether catastrophic AI failures are correlated across similarly-trained models, whether AI makes cybersecurity offense-dominant or defense-dominant, and whether a single system can reach a decisive advantage before competitors react. The International AI Safety Report 2026 still treats advanced-AI risk as substantially uncertain. My own read is that each position catches a failure the other two miss, which makes the real problem institutional architecture rather than alignment.
+To calculate a bill, divide the input token count by one million. Then multiply by $0.042:
 
-### Claude Code Spinner Verbs: 186 in the Shipped Binary, and Why Every Published Count Disagrees
+**Jev cost = input tokens ÷ 1,000,000 × $0.042**
 
-- url: https://productwithattitude.com/research/claude-code-spinner-verbs
-- summary: I extracted the spinner verb array from the shipped Claude Code v2.1.226 binary. It holds 186 verbs, not the 185 everyone republishes, and "almost done thinking" is a stopwatch.
-- published: 2026-08-10
-- last_verified: 2026-08-10
-- topics: claude code, anthropic, developer tools, ai interfaces
+Count everything you send to Jev, including the text to check and the rules for checking it. Jev [reports the input token count with each answer](https://docs.typesafe.ai/api). Use that number to check the cost. A word count only gives a rough estimate.
 
-#### Verified Q&A (5)
-Q: How many spinner verbs does Claude Code have?
-A: The shipped v2.1.226 binary contains 186 default spinner verbs, extracted from the package on 10 August 2026. The widely republished figure of 185 traces to a single February 2026 snapshot of v2.1.42 that later posts copied without the version stamp. Set against the shipped array, that list drops Bunning and Gesticulating and keeps Evaporating, which no longer ships. Counts published elsewhere run from 52 in January 2026 to 191 in a catalogue separating active from retired entries.
-Q: What does "canoodling" mean in Claude Code?
-A: Nothing operational. Canoodling is one of 186 gerunds drawn at random to fill the loading spinner while Claude Code works, and the word tells you nothing about the task. It sits alphabetically between Calculating and Caramelizing in the shipped array. The set mixes cerebral entries like Cogitating, culinary ones like Julienning and Flambéing, and pure whimsy like Flibbertigibbeting and Whatchamacalliting. Where the array sits in the code settles the question. Anthropic stores it as a list of display strings, nowhere near the reasoning path.
-Q: Does "almost done thinking" mean Claude is nearly finished?
-A: No. It means 45 seconds have elapsed. The function producing the extended-thinking labels takes elapsed milliseconds as its only input, then steps through five fixed thresholds at 10, 20, 30 and 45 seconds. Anthropic feeds it no token counts, no plan progress, no remaining tool calls. At 45 seconds the label flips to "almost done thinking" and stays there indefinitely, so a four-minute run and a forty-six-second run show identical text. Read it as a stopwatch, never an estimate.
-Q: How do I change or turn off Claude Code spinner verbs?
-A: Add a spinnerVerbs block to ~/.claude/settings.json with a mode of replace or append and a list of your own strings. The setting arrived in v2.1.23 and hot-reloads, so changes apply on the next turn without a restart. One trap sits in the resolver: replace with an empty verbs array falls back to all 186 defaults rather than silencing the spinner. Pass at least one string, such as ["Working"]. The extended-thinking labels are a separate code path and ignore this setting.
-Q: Do Claude Cowork and the Claude web app use the same spinner verbs?
-A: No. The spinner verb array belongs to the Claude Code CLI. It lives in the CLI's own binary next to a settings resolver reading ~/.claude/settings.json, a file neither Cowork nor the web app touches. Anthropic gives the web app its own rotating loading words, which overlap in spirit and take no customisation. No shared list spans the three surfaces, so a verb count quoted for Claude Code tells you nothing about what the others display. I map the product split in my Claude guides hub.
+### Jev cost at different request volumes
 
-### What Four AI Engines Actually Cite for "Claude Cowork for Marketers"
+A **request** is one job you send to Jev. It can contain several questions about the same text.
 
-- url: https://productwithattitude.com/research/ai-engine-citations-claude-cowork-marketers
-- summary: I asked four AI engines the same question and captured every citation. Only one publisher got cited by all of them, and two identical runs agreed on 1 of 13 URLs.
-- published: 2026-08-07
-- last_verified: 2026-08-07
-- topics: GEO, AI citations, Claude Cowork, AI search
+This table shows what you would pay at different levels of use. Each row assumes the same number of input tokens for every request, with no repeat attempts.
 
-#### Verified Q&A (5)
-Q: Does this mean GEO optimisation is pointless?
-A: No, it means single-run measurement is pointless. The vendor-documentation pattern held across every engine, and that is actionable: do not spend effort competing for definitional queries a vendor owns. What you cannot do is read one citation list and conclude your page lost.
-Q: Why did ChatGPT return nothing?
-A: Two attempts, two different failures. The first never established a browser connection. The second was redirected to claude.ai and re-ran the prompt there, which is where the accidental repeat test came from. I logged it as no data rather than substituting a result.
-Q: Is 17 minutes long enough for citations to legitimately change?
-A: That is the point. Nothing about the underlying web changed in 17 minutes. The index did not meaningfully move, no new page was published, and the model and account were identical. The variation came from the retrieval and synthesis path, which is exactly the thing a single-run audit assumes is stable.
-Q: How is this different from a rank tracker?
-A: A rank tracker reads one ordered list from one surface. This reads which sources an engine chose to quote inside a generated answer, which is a different and noisier decision. Perplexity retrieved 30 sources here and cited around 7 of them, so ranking into the candidate pool and getting quoted are separate outcomes with separate failure modes.
-Q: Can I reproduce this without paid accounts on all four services?
-A: Partly. Google's AI Overview needs no account and Perplexity and Gemini both answer without one, though results differ from a logged-in session. Claude's web search and Perplexity's Computer mode both need a paid plan. Expect different URLs regardless, since geo and account history both affect retrieval.
+| Input tokens in each request | One request | 10,000 requests | 100,000 requests | One million requests |
+|---|---|---|---|---|
+| 1,000 | $0.000042 | $0.42 | $4.20 | $42 |
+| 3,000 | $0.000126 | $1.26 | $12.60 | $126 |
+| 10,000 | $0.000420 | $4.20 | $42.00 | $420 |
 
-### Does Batching AI Prompts Save Money? The 50% Rule, Cache Stacking, and the 100-Item Boundary
+For a monthly estimate, use the number of requests you expect to make that month.
 
-- url: https://productwithattitude.com/research/does-batching-ai-prompts-save-money
-- summary: Batch APIs cut token costs 50%, prompt-level batching saves more until quality degrades near 100 items, and cache stacking rules differ by provider.
-- published: 2026-08-07
-- last_verified: 2026-08-07
-- topics: ai-economics, prompt-engineering, llm-pricing
+These figures cover Jev’s work. Add the cost of running your app, using other AI models, and paying any platform fees. If you send a request again, you pay for the input again.
 
-#### Verified Q&A (5)
-Q: Is putting many tasks in one prompt the same as using a Batch API?
-A: No, and the two get blurred constantly. Prompt-level batching restructures how you write requests and saves by removing repeated instructions. A Batch API keeps requests separate, queues them asynchronously, and applies a guaranteed 50% discount. They solve different problems and can be combined.
-Q: Do batch discounts stack with prompt caching?
-A: On OpenAI and Anthropic, yes, the discounts combine. On Google, no: the cache discount takes precedence over the batch discount. This is the single most consequential provider difference in batching economics, and no vendor states it side by side.
-Q: Does batching prompts degrade output quality?
-A: Below roughly 100 items per prompt, mostly not. The 2026 annotation-cost study found 6 of 8 production models held accuracy within 2 percentage points of single-item baseline up to 100 items per prompt on classification work. Beyond that, parsing failures and accuracy drops appear, and generative tasks are less studied.
-Q: Can ChatGPT Plus or Claude subscription users save money by batching?
-A: No. Batch discounts exist only on API billing. A consumer subscription costs the same regardless of prompt structure, though bundling can still burn usage allowances faster.
-Q: What kind of work belongs in a Batch API queue?
-A: Anything with no human waiting on it: nightly reports, bulk classification, dataset enrichment, evaluation runs, content pipelines. The dividing line every provider agrees on is whether a human sits there waiting for the response.
+### What my four-question request cost
 
-### 7 Spec-Verified Steps to Get Your Products Cited by AI Shopping Agents
+In my [published Jev test](https://karozieminski.substack.com/p/what-is-jev-cost), I sent a draft of about 2,000 words and asked Jev to score it on four things:
 
-- url: https://productwithattitude.com/research/geo-for-stores-ai-shopping-agents
-- summary: OpenAI's ACP, Google Merchant Center, and schema.org compared field by field, plus Adobe's 22-month AI shopping conversion trendline.
-- published: 2026-08-06
-- last_verified: 2026-08-01
-- topics: GEO, ecommerce, Agentic Commerce Protocol, Merchant Center, schema.org
+- How likely an AI search tool would be to use the article as a source.
 
-#### Verified Q&A (5)
-Q: What is the Agentic Commerce Protocol (ACP)?
-A: ACP is OpenAI's product feed specification for making items discoverable and purchasable inside ChatGPT, launched September 29, 2025 and built with Stripe (OpenAI). I counted 66 total fields, 16 of them required, straight from the spec before writing a line of this page. Ranking is "organic and unsponsored," per OpenAI, based on availability, price, quality, and whether the merchant is the primary seller.
-Q: Does my product feed need to match Google Merchant Center and OpenAI's ACP separately?
-A: Yes. Both specs require 16 fields, but the actual 16 differ enough that a single feed rarely clears both bars automatically. ACP requires checkout-eligibility flags and geo-targeting fields Google never asks for, and Google requires apparel attributes ACP doesn't touch. That comparison came from reading both specs side by side, the one thing every audited guide skipped.
-Q: How much does it cost to sell through ChatGPT, Perplexity, or Copilot's shopping features?
-A: I went looking for one clean fee percentage across five platforms and came back mostly empty-handed. None of them discloses an exact number. OpenAI states merchants "pay a small fee on completed purchases" with no figure attached, and Perplexity, Google, Shopify, and Microsoft publish no comparable figure either. Etsy's public 6.5% standard fee is the closest reference point, not any AI platform's actual rate.
-Q: Has AI-referred shopping traffic gotten better at converting?
-A: It has, and the swing surprised me enough to double-check it across four separate reports before trusting it. Stitching those Adobe Analytics releases together shows AI-referred retail traffic going from converting 91% worse than non-AI traffic in July 2024 to converting 54% better in May 2026, a reversal of roughly 145 percentage points in under two years.
-Q: Do I need schema.org markup if I already have an ACP or Merchant Center feed?
-A: Still yes, and this is the distinction that tripped me up the first time I mapped these layers out. Platform feeds like ACP and Merchant Center get submitted directly to that platform, while schema.org's Product (70 properties) and Offer (51 properties) markup lives on your own site and gets read by crawlers and AI engines that never see your submitted feed at all. Google's structured data docs confirm it reads Product markup for price, availability, and review signals, though Google doesn't publish a field count for schema.org the way it does for Merchant Center.
+- How easy it was to pull clear claims from the text.
 
-### How AI Memory Works in 2026 (ChatGPT, Claude, Gemini & More)
+- Whether it included evidence from my own work.
 
-- url: https://productwithattitude.com/research/how-ai-memory-works-control
-- summary: How AI memory works across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Meta AI, plus how to view, delete, and control it in 2026.
-- published: 2026-08-06
-- last_verified: 2026-08-01
-- topics: AI memory, ChatGPT, Claude, Gemini, privacy
+- How well the article was structured.
 
-#### Verified Q&A (5)
-Q: Does ChatGPT remember everything I say to it?
-A: No. ChatGPT keeps two separate systems: explicit "saved memories" you or it flagged as worth keeping, and a newer "memory summary" that updates automatically based on what it judges important. I dug through OpenAI's own FAQ and the default on/off state for new accounts isn't stated anywhere in it, which is a blindspot worth knowing before you assume it's tracking every word.
-Q: Is AI memory on by default?
-A: Only Google Gemini says so outright, in its own documentation: "This setting is on by default." Claude splits the answer by account type, off for individuals, on for Enterprise orgs. ChatGPT, Perplexity, Copilot, and Meta AI leave their default undocumented. I'd love to tell you all six, but the receipts only support one.
-Q: How do I delete AI memory?
-A: I read the deletion mechanics for all six instead of trusting the settings label alone. Four of six, ChatGPT, Claude, Perplexity, and Meta AI, let you delete a single memory entry directly. Gemini requires deleting the entire source chat instead of one fact. Copilot needs two separate steps and can auto-restore a deleted memory within 30 days if you flip chat-history personalization back on. Check the walkthrough above before assuming "delete" means what you think it means.
-Q: Does AI memory get used to train the model?
-A: Sometimes, and often you won't find out from the settings page. Perplexity is the only one of the six that states this plainly in its help center: memory content may be used "to improve our models for everyone" by default, with an opt-out toggle. ChatGPT, Claude, Gemini, and Copilot don't give a direct default answer in their documentation. Claude at least frames it as a choice you make, rather than a silent default.
-Q: Can I move my AI memory from one assistant to another?
-A: Yes, with two of six. Claude and Gemini both document memory import features, letting you bring context in from other AI apps. That's a real crack in the idea that switching assistants means starting over from nothing.
+The reported input was **2,994 tokens**.
 
-### 9 Published AI Water Figures, Reconciled: 0.26 mL to 500 mL Explained
+**2,994 ÷ 1,000,000 × $0.042 = $0.000125748**
 
-- url: https://productwithattitude.com/research/how-much-water-does-ai-use
-- summary: AI water use per prompt: 0.26 mL to 500 mL, reconciled. Where the "bottle of water" claim came from, and the researcher's 33x correction.
-- published: 2026-08-06
-- last_verified: 2026-08-01
-- topics: AI water use, AI energy, data centers, sustainability
+Rounded to six decimal places, that is $0.000126 for the whole request.
 
-#### Verified Q&A (5)
-Q: How much water does one ChatGPT query use?
-A: I couldn't find an OpenAI-published figure with a stated methodology. Sam Altman's cited number is 0.32 mL, but OpenAI hasn't published how that was calculated, and The Verge reports it didn't respond to requests for one. The more defensible range, drawing on independent academic work and Ren's 2026 revision, sits closer to 0.12-15 mL depending on scope.
-Q: Is the "AI uses a bottle of water per prompt" claim true?
-A: No, and tracing where it came from was the most satisfying part of building this page. It's not what the peer-reviewed paper found. It came from a 2024 Washington Post graphic built on an uncited 140 Wh assumption, and the paper's own lead author has since said the underlying estimate "should not be used to describe general AI/ChatGPT or today's optimized systems."
-Q: What's the difference between Scope 1 and Scope 2 water use for AI?
-A: Scope 1 is water evaporated on-site to cool the data center. Scope 2 is water used generating the electricity that facility draws from the grid. I spent most of my research time on this single distinction, because it's why closed-loop data centers can report near-zero direct water while using more electricity, and therefore more indirect water, than the cooling-tower systems they replace.
-Q: Does AI video generation use more water than text?
-A: Almost certainly, based on the energy difference alone. An 8-second Sora clip runs roughly 1,744x the energy of a single Gemini text prompt by the most rigorous published estimate found. But no company has disclosed an official per-video water number, so any liters-per-video figure you encounter is a derivation, not a measured fact.
-Q: Why do water-per-prompt estimates vary by almost 2,000x?
-A: "How much water does AI use" isn't one question. It bundles which model, what scope, what prompt length, and what year's hardware efficiency, plus the occasional modeled projection dressed up as a measurement. Sort the nine published figures by those four variables, as we did above, and the spread for current-generation models collapses from 2,000x down to about 60x.
+The request returned four judgments. Divide the cost by four and each judgment cost about $0.0000314. Sending four separate requests could cost a different amount because Jev may need to read the article each time.
 
-### 7 Numbers That Show How Often AI Detectors Get It Wrong (2026)
+The $5 credit I received would cover roughly 39,000 requests of this size.
 
-- url: https://productwithattitude.com/research/how-to-tell-if-something-is-ai
-- summary: How to tell if text, images, or video are AI in 2026, with real detector accuracy data, false-positive math, and SynthID vs C2PA coverage.
-- published: 2026-08-06
-- last_verified: 2026-08-01
-- topics: AI detection, deepfakes, SynthID, C2PA, false positives
+This test shows what I paid for those scores. It does not show that the scores were accurate or that a higher score would bring more readers. My [AI search checklist explains what I measure beyond a content score](https://karozieminski.substack.com/p/get-cited-ai-search-google-ai-overviews).
 
-#### Verified Q&A (6)
-Q: Which AI detector has the lowest false-positive rate?
-A: I keep coming back to the BFI study because it's the only fully independent benchmark that tested more than one commercial detector side by side. In that data, Pangram posted the lowest average false-positive rate at 0.22% across six genres, with Originality.ai at 0.75% and GPTZero at 0.89% (BFI Working Paper 2025-116). That doesn't mean Pangram is flawless. It means it's the best-performing option in the one dataset built by people with nothing to sell.
-Q: Can AI detectors tell if non-native English speakers wrote something?
-A: This is the question that made me the most uneasy while researching this page. The original 2023 Stanford study found 61.22% of genuine TOEFL essays by non-native speakers got flagged as AI-generated across seven detectors (Liang et al., Patterns). Vendors like Pangram and Copyleaks now report near-zero disparity on their current models, but I couldn't find an independent re-test of those newer models anywhere outside the vendors' own reports, so I'm treating it as unresolved rather than fixed.
-Q: Does SynthID work on screenshots?
-A: No, and I wish more people knew why before sharing a "watermarked" screenshot as proof of anything. A screenshot re-renders pixels from scratch, which destroys SynthID's invisible watermark the same way it strips C2PA's metadata. Neither provenance system survives that action (DeepMind SynthID page, Editors Weblog C2PA tracker).
-Q: Are humans or machines better at spotting deepfakes?
-A: Depends entirely on the format, and I didn't expect the answer to split this cleanly. On static AI images, machines win decisively, hitting up to 97% accuracy against roughly 50% for humans. On deepfake video, that flips: humans landed around 63-67% while the tested algorithms fell to near-chance (University of Florida, Cognitive Research, Jan 2026). Know which one you're looking at before you decide whether to trust your gut or a tool.
-Q: Is a 99% accuracy claim from a detector vendor trustworthy?
-A: Read it as a starting point, not a finish line. Vendor-published numbers like Originality.ai's 99%+ claim (Originality.ai) are usually measured on the vendor's own benchmark, on the vendor's own terms, without independent replication. The FTC has already taken enforcement action against one detector maker (Workado/BrandWell) for an unsupported 98% accuracy claim, which is exactly the kind of number worth double-checking before you act on it.
-Q: Detection is a moving target, and every number on this page has a date attached for a reason. If you've found a detector or a provenance check that held up (or fell apart) in your own testing, let me know! 🤗
-A: Join our debate on AI-assisted Craft here.
+## How Are AI Providers Charged?
 
-### 9 Local AI Models Verified to Run on Your Phone in 2026
+An AI company can rent computers, buy its own machines, or pay another company to run a model for it. Each choice comes with a different bill.
 
-- url: https://productwithattitude.com/research/local-ai-normal-people-2026
-- summary: Which iPhone, Pixel, or Galaxy runs local AI in 2026, verified model licenses, and no-code apps like Ollama and LM Studio explained.
-- published: 2026-08-06
-- last_verified: 2026-08-01
-- topics: local AI, on-device AI, Ollama, LM Studio, open weights
+Think of a print shop. You pay per page. The shop pays for equipment, electricity, and staff. AI has the same split between the unit on your bill and the costs behind it.
 
-#### Verified Q&A (5)
-Q: What's the best local AI model to run in 2026?
-A: There's no single best model. It depends on your device. Qwen3.5-0.8B runs on almost any phone under Apache 2.0. Mistral Small needs a 32GB Mac. Start with whatever your hardware supports in the matrix above rather than chasing a leaderboard number.
-Q: Can I run AI offline on my phone without an internet connection?
-A: Yes, on several paths. Apps like Off Grid and PocketPal AI run fully local models like Qwen3.5-0.8B in airplane mode on Android phones with as little as 4GB of RAM (Show HN). On iPhone, Apple Intelligence itself is on-device-first, and only overflows to Apple's Private Cloud Compute when your phone can't handle the request.
-Q: Is local AI without coding possible, or is that marketing?
-A: It's real, and Jan's own team says it plainly: point and click, then start chatting (Jan.ai). LM Studio and PocketPal AI work the same way. Ollama is the one exception on this list. It's genuinely powerful and genuinely CLI-first, so if a terminal makes you nervous, start with Jan or LM Studio instead.
-Q: Does Apple Intelligence in China really run on a Chinese AI model?
-A: Yes, confirmed by Bloomberg, CNBC, and the Cyberspace Administration of China's own July 15, 2026 filing notice. Apple's China build runs on Alibaba's Qwen rather than Apple's own Foundation Models (Bloomberg, CNBC). Neither company has disclosed which specific Qwen checkpoint powers it.
-Q: Does "on-device AI" mean my data never leaves my phone?
-A: Not automatically, and this is the question we'd want answered before trusting any vendor's marketing. Apple publishes a specific, auditable answer through Private Cloud Compute. Samsung breaks it down feature by feature on its own Galaxy AI page. Google's Gemini Nano runs on-device for supported ML Kit tasks, but we found no single official Google page mapping every feature's data boundary the way Apple and Samsung do. Check the specific feature, not the marketing headline.
+| How the company runs its AI | What it pays for |
+|---|---|
+| Rents cloud servers | Time on those computers. [Amazon EC2, for example, bills by the hour or second](https://aws.amazon.com/ec2/pricing/on-demand/), depending on the arrangement. Storage and data transfer can add charges. |
+| Owns the servers | Buying the machines, then keeping them running. [NVIDIA’s cost guide](https://developer.nvidia.com/blog/llm-inference-benchmarking-how-much-does-your-llm-inference-cost/) spreads the purchase cost over several years and adds hosting and software costs. |
+| Builds an app on another provider’s model | That provider’s service charges. [Amazon Bedrock](https://aws.amazon.com/bedrock/pricing/), for example, offers token-based pricing and options to reserve model capacity. |
 
-### 11 AI Products Audited: Only 1 Lets You Fully Opt Out (Aug 2026)
+Your per-token price does not tell you which arrangement the provider uses or how much profit it makes.
 
-- url: https://productwithattitude.com/research/turn-off-ai-opt-out-audit-2026
-- summary: Audited 11 AI products on Aug 1, 2026: Google, Gmail, Meta, Copilot, Apple, X, LinkedIn & more. Exact opt-out steps, verified against official docs.
-- published: 2026-08-06
-- last_verified: 2026-08-01
-- topics: AI opt-out, privacy, AI Overviews, Meta AI, Apple Intelligence
+### Where the money goes
 
-#### Verified Q&A (5)
-Q: Can you turn off Google's AI Overviews?
-A: No official toggle exists. Google's own help center states "features cannot be turned off," and the only sanctioned mitigation is the Web results filter, plus a community-built udm=14 URL trick that isn't a Google feature at all (Google Search Help). I went looking for a hidden settings flag before accepting this. There isn't one.
-Q: How do you disable Gemini in Gmail?
-A: I flipped this one myself and immediately lost a feature I genuinely liked. Settings → See all settings → General → Google Workspace smart features → Manage Workspace smart feature settings, toggle off (Google Workspace Help). Google bundles this with other non-AI smart features, so you lose more than Gemini's side panel.
-Q: Can you turn off Meta AI on Facebook, Instagram, or WhatsApp?
-A: Not fully, and this is the answer that got me mildly furious while researching. Facebook and WhatsApp have no toggle, and Instagram's new "Sharing and reuse" setting from July 2026 only stops future reuse of your content, not Meta AI itself (Wired, Malwarebytes). EU and UK users get a GDPR objection form, real but still not a true off switch.
-Q: Does the EU AI Act give you a new way to opt out of AI?
-A: Not directly. The Act's transparency rules, fully applicable August 2, 2026, require AI-generated content to be labeled and disclosed, but create no consumer opt-out button (European Commission). I kept re-reading the Commission's own summary hoping for a hidden clause. It's a labeling law, not a kill switch.
-Q: Which AI product is easiest to fully turn off?
-A: Apple Intelligence, by a wide margin, and I dare you to find a cleaner opt-out anywhere else in this audit. Settings → Apple Intelligence & Siri → tap the toggle, off, no bundled casualties, no admin approval (Apple Support). Every other product here costs you something for the privilege.
+There are two stages to pay for. **Training** means teaching a model from data. **Inference** means running the trained model to answer a new request.
 
-# <<< auto:research-obsessions
+Training can involve preparing data, renting computers, testing results, and paying researchers and engineers. Providers may train updated versions later. [AWS lists data preparation, training, hosting, and maintenance as separate costs](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlcost02-bp01.html).
+
+Once a model is available, answering requests still needs resources:
+
+| Cost | Why the provider needs it |
+|---|---|
+| Processing chips and memory | Chips such as GPUs do the model’s calculations. Memory holds the model and the information it needs while answering. |
+| Electricity and cooling | Running computers use power and produce heat that must be removed. |
+| Storage and networks | The service must store its files and move data between computers and users. |
+| People and operations | Engineers maintain the service, monitor failures, and keep it available. |
+
+[NVIDIA explains the memory and processing demands](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/) and the [power and cooling requirements](https://developer.nvidia.com/blog/?p=118314). [AWS’s cost guidance covers surrounding expenses](https://aws.amazon.com/blogs/aws-cloud-financial-management/calculating-the-roi-of-ai/). Some of these costs are included in a cloud rental rate, so they should not all be added again.
+
+### Why doing more work per hour lowers the cost
+
+For an illustrative example, suppose a rented server costs $10 for one hour:
+
+- If it completes 10,000 checks, the server cost is $0.001 per check.
+- If it completes 100,000 checks in that hour, the server cost is $0.0001 per check.
+
+Those are invented figures to show the calculation, not TypeSafe’s costs. They leave out the rest of the business.
+
+The provider pays for the same hour but divides it across more work. [NVIDIA uses this relationship between server costs and completed requests](https://developer.nvidia.com/blog/llm-inference-benchmarking-how-much-does-your-llm-inference-cost/) when estimating inference costs. Spare server capacity and quiet periods can push the average cost back up.
+
+## Why Do LLM Output Tokens Cost More?
+
+Generating output tokens [generally takes more time](https://developer.nvidia.com/blog/llm-inference-benchmarking-how-much-does-your-llm-inference-cost/) than processing input tokens. That helps explain why providers often charge more for output.
+
+An LLM, short for large language model, is the type of AI used to write chatbot answers.
+
+A typical text-generating model does two jobs. First, it processes your prompt. It can do much of that work at once because the input is already available.
+
+Then it builds the reply in steps. Each new piece depends on what came before. The computers keep doing calculations and moving data from memory while the answer grows. [NVIDIA describes these as the input-processing and text-generation stages](https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/).
+
+A longer reply can therefore keep expensive equipment occupied for longer. The cost includes the work needed to produce the text.
+
+Providers already reduce this work by reusing earlier calculations and handling several requests together. Those techniques help LLMs too. Their costs still depend on the model, the length of the request and answer, and how the service runs it.
+
+## Why Are Jev’s Output Tokens Free?
+
+TypeSafe says Jev’s outputs are [“too cheap to meter”](https://typesafe.ai/blog/introducing-system-one-models-and-jev), so it charges only for input. The answer still takes work to produce; free output is the company’s pricing choice.
+
+Jev gives answers in a format you choose in advance. [TypeSafe offers three answer types](https://docs.typesafe.ai/api):
+
+- **Choice:** pick from a list of options.
+- **Score:** give a score using rules you provide.
+- **Noul:** estimate how likely a yes-or-no answer is to be “yes.”
+
+### Why System One models can reduce running costs
+
+System One models are [built to return decisions that software can use](https://docs.typesafe.ai/concepts/system-one). Jev is TypeSafe’s first model in this category.
+
+TypeSafe says Jev works out the likelihood of its possible answers together. It skips the repeated text-generation steps described above. That is a change in how the model produces an answer, beyond simply asking a chatbot to write less.
+
+It can also share work across questions. [Jev reads the supplied information once and checks several questions against it in parallel](https://docs.typesafe.ai/models). For my article-scoring task, that means sending one article with four questions in the same request.
+
+The cost calculation above explains the benefit: if the same hardware completes more useful decisions in an hour, the cost per decision falls. Jev’s design provides a reason this can happen. It does not tell us TypeSafe’s exact savings.
+
+TypeSafe also [trains Jev specifically for decisions and probability estimates](https://docs.typesafe.ai/introduction/machine-learning-primer). That tells us what the training aims to achieve. It does not establish that training Jev was cheap.
+
+The company’s own cost of running Jev is still unknown. Its price alone cannot prove that the service makes a profit.
+
+Free output does not include writing articles or customer replies. Jev is built for decisions and scores. If your app needs written text, [TypeSafe recommends using a model that can generate it](https://docs.typesafe.ai/model-jaggedness/jev-1.13). Include that model’s charges in your budget.
+
+## How Does Jev Pricing Compare With LLMs?
+
+I would compare what each model costs to complete the same job.
+
+A model with separate input and output prices charges for both the text you send and the answer it writes. Work out those two costs, then add them.
+
+If both prices are listed per million tokens, the formula is:
+
+**Model cost = (input tokens × input price + output tokens × output price) ÷ 1,000,000**
+
+Keep the task the same. Choosing a category, giving a likelihood for every possible category, and writing an explanation take different amounts of work. Give each model the same information and decide what counts as a useful answer before comparing bills.
+
+TypeSafe reports that Jev was about 194 times faster and 445 times cheaper in its own tests. Its [explanation of those tests](https://typesafe.ai/blog/introducing-system-one-models-and-jev) says the savings may be near the high end. It also notes that asking the other models to give probabilities for each possible answer adds work.
+
+I would test my own task before using those savings in a budget.
+
+### The backup AI can cost more
+
+Your app may send difficult cases to a second AI model. This is often called a **fallback**.
+
+Suppose Jev handles 100,000 requests in a month. You send 5% of them, or 5,000 requests, to another model for extra help. For this example, assume that second model costs one cent per request.
+
+| What you pay for | Calculation | Monthly cost |
+|---|---|---|
+| Jev checks | 100,000 requests, each with 3,000 input tokens | $12.60 |
+| A second model checks difficult cases | 5,000 requests × $0.01 | $50.00 |
+| Both models | $12.60 + $50.00 | $62.60 |
+
+The one-cent price is an example, not a quote for a specific model. This budget also leaves out app running costs and human review.
+
+In this example, the second model costs nearly four times as much as Jev, even though it handles far fewer requests.
+
+I would also calculate **cost per usable result**:
+
+**Total spent on the task ÷ number of results that meet your requirements**
+
+Include repeat attempts, the second model, and the time people spend checking or fixing answers. For customer support, a usable result might mean a message reached the right team without someone having to move it. For my dashboard, I would first need to check whether its scores help me edit better.
+
+## Is Jev Affordable for Real-Time Apps?
+
+The number of requests matters as much as the size of each one. A small charge can add up when an app runs all day.
+
+Suppose an app sends ten requests every second. Each contains 1,000 input tokens. At the listed price:
+
+- One hour means 36,000 requests.
+
+- Those requests cost $1.512, or about $1.51.
+
+- Running at that rate all day and night for 30 days costs $1,088.64.
+
+This is a calculated example. I have not tested an app running at that rate. The estimate assumes Jev can keep up and excludes other services.
+
+TypeSafe [reports response times of 70–500 milliseconds](https://typesafe.ai/blog/introducing-system-one-models-and-jev). That is 0.07 to 0.5 seconds. These are the company’s figures.
+
+Test the response times in your own app, including the slowest replies. A screen that sorts support messages can tolerate a different delay from a system that must react at once. Jev’s response is only one part of the total wait.
+
+## Which Tasks Fit Jev’s Pricing?
+
+I started by scoring articles because I could write down the questions I wanted Jev to answer. Choose one clear decision before choosing the model.
+
+These are possible uses. Each still needs work around Jev’s answer.
+
+| Task | What Jev could do | Other work to include |
+|---|---|---|
+| Sort support messages | Choose a category and judge urgency | Find customer details and handle unusual cases |
+| Review a newsletter | Score the text against your rules | Check facts, edit, and test whether the scores are useful |
+| Choose useful documents | Judge which supplied passages help answer a question | Find the documents and write the final answer |
+| Reply to customers | Identify the request or check a draft reply | Write the reply and get approval for sensitive actions |
+| Check invoices | Flag items that may need investigation | Calculate totals and check exact rules with software |
+
+Jev reads text. It [does not directly accept images, audio, or video](https://docs.typesafe.ai/concepts/state). To check a scanned invoice, another tool must first read the words in the image.
+
+Use ordinary software for exact calculations. TypeSafe [lists problems with counting, dates, distracting text, and instructions designed to mislead Jev](https://docs.typesafe.ai/model-jaggedness/jev-1.13). An answer can arrive in the correct format and still be wrong.
+
+Start with one task you repeat often. Save the rules you gave Jev and which model version you used. Try examples from your normal work, and count the mistakes when you calculate savings.
+
+## Jev Pricing FAQ
+
+### Is there a free Jev plan?
+
+I received a $5 sign-up credit for the test in my Substack post. That was the offer I received at the time. Check your [TypeSafe account](https://console.typesafe.ai/) for the terms available to you.
+
+A credit pays for usage until it runs out. It does not remove the usage charge. Free output also leaves you paying for the text Jev reads.
+
+### Does Jev charge separately for every question?
+
+TypeSafe lists a price for input tokens, with no separate price per question. You can [ask several questions in one request](https://docs.typesafe.ai/patterns/fan-out), as I did when scoring an article.
+
+Extra questions add text, so they can increase the input charge. Use the token count Jev reports to check the bill. When several questions use the same document, sending them together can avoid paying to send that document repeatedly.
+
+### Can several questions share the same input?
+
+Yes. TypeSafe lets you [send one set of text with several questions](https://docs.typesafe.ai/concepts/state). For example, Jev can judge a message’s category and urgency from the same message.
+
+The questions must be answerable on their own. If the second question needs the first answer, wait for that answer before sending the next question. [Asking independent questions together](https://docs.typesafe.ai/patterns/fan-out) can save separate trips to Jev.
+
+### Can confidence scores eliminate review costs?
+
+A confidence score shows how sure Jev is about an answer. I would test how well that score matches correct answers before removing human review.
+
+[TypeSafe recommends testing on your own examples](https://docs.typesafe.ai/confidence). You choose a cutoff: answers above it can pass through, while answers below it need another check. The right cutoff depends on what happens when Jev is wrong.
+
+Record how many answers pass without review and how many of those answers are wrong. Changing the cutoff changes both numbers. Saving on checks may create more work fixing mistakes later.
+
+### Is Jev’s low price sustainable?
+
+We know what TypeSafe charges today. We do not know whether that price covers its costs and leaves a profit. The company [says it needs time to show that the price can last](https://typesafe.ai/blog/introducing-system-one-models-and-jev).
+
+I would keep the price easy to change in my cost estimate. I would also check what a higher rate would mean. That helps me plan; it does not mean I expect a rise. First, test whether Jev gives useful answers at the current price.
+
+<!-- /faq -->
+
+For the build behind these Jev cost calculations, read [my hands-on Jev guide](https://karozieminski.substack.com/p/what-is-jev-cost). Compare the token count from your own task with mine.
+
+[Subscribe to Product with Attitude](https://karozieminski.substack.com/subscribe) for more free [guides to AI costs](https://karozieminski.substack.com/p/save-credits-perplexity-computer) and deciding what to automate. If you want to support more of this work, choose a [paid Product with Attitude subscription](https://karozieminski.substack.com/subscribe).
+
+#### Questions and answers (5)
+Q: Is there a free Jev plan?
+A: I received a $5 sign-up credit for the test in my Substack post. That was the offer I received at the time. Check your TypeSafe account for the terms available to you. A credit pays for usage until it runs out. It does not remove the usage charge. Free output also leaves you paying for the text Jev reads.
+Q: Does Jev charge separately for every question?
+A: TypeSafe lists a price for input tokens, with no separate price per question. You can ask several questions in one request, as I did when scoring an article. Extra questions add text, so they can increase the input charge. Use the token count Jev reports to check the bill. When several questions use the same document, sending them together can avoid paying to send that document repeatedly.
+Q: Can several questions share the same input?
+A: Yes. TypeSafe lets you send one set of text with several questions. For example, Jev can judge a message’s category and urgency from the same message. The questions must be answerable on their own. If the second question needs the first answer, wait for that answer before sending the next question. Asking independent questions together can save separate trips to Jev.
+Q: Can confidence scores eliminate review costs?
+A: A confidence score shows how sure Jev is about an answer. I would test how well that score matches correct answers before removing human review. TypeSafe recommends testing on your own examples. You choose a cutoff: answers above it can pass through, while answers below it need another check. The right cutoff depends on what happens when Jev is wrong. Record how many answers pass without review and how many of those answers are wrong. Changing the cutoff changes both numbers. Saving on checks may create more work fixing mistakes later.
+Q: Is Jev’s low price sustainable?
+A: We know what TypeSafe charges today. We do not know whether that price covers its costs and leaves a profit. The company says it needs time to show that the price can last. I would keep the price easy to change in my cost estimate. I would also check what a higher rate would mean. That helps me plan; it does not mean I expect a rise. First, test whether Jev gives useful answers at the current price.
+
+# <<< auto:articles
 
 # >>> auto:citation-ledger — rendered from for_machines.json at build time; edits inside this block are overwritten
 ## Documented Citation Ledger (all 155 citation events, source-attributed)
