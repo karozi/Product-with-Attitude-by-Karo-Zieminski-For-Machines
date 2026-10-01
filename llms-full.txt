@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 126 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-29.
+> 126 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-30.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -4301,6 +4301,8 @@ I would keep the price easy to change in my cost estimate. I would also check wh
 <!-- /faq -->
 
 For the build behind these Jev cost calculations, read [my hands-on Jev guide](https://karozieminski.substack.com/p/what-is-jev-cost). Compare the token count from your own task with mine.
+
+You might also enjoy: [What Jev Means for AI Agent Security](https://karozieminski.substack.com/p/jev-ai-agent-security?utm_source=productwithattitude&utm_medium=articles-jev-pricing-cost-per-token&utm_campaign=articles_post_link).
 
 [Subscribe to Product with Attitude](https://karozieminski.substack.com/subscribe) for more free [guides to AI costs](https://karozieminski.substack.com/p/save-credits-perplexity-computer) and deciding what to automate. If you want to support more of this work, choose a [paid Product with Attitude subscription](https://karozieminski.substack.com/subscribe).
 
