@@ -2138,7 +2138,7 @@
               "Substack",
               "tool review",
               "workflow automation",
-              "You Don"
+              "building with AI"
             ],
             "pwa:keyConcepts": [
               "You only need 3 steps to start building with AI",
@@ -2151,11 +2151,12 @@
               "You only need 3 steps to start building with AI. You don't need an AI How-to newsletter. How to tell which AI newsletters are worth paying for. Plus 6 AI newsletters that pass the test."
             ],
             "pwa:extractableClaims": [
-              "Across YouTube, X, and Substack, there was a guide for practically every task: repurpose this, automate that.",
-              "What Building With AI Means Using AI means typing a prompt, getting an answer, and moving on.",
-              "Build With AI to Test Its Limits and Expand Your Own I see building with AI as the best way to understand what it can do.",
-              "Two predictions about AI and work: Elon Musk says work could become optional within 10–20 years ; Dario Amodei warns about job losses .",
-              "Build with AI has been my message since day one of Product with Attitude, 18 months ago."
+              "AI tools have evolved to a point where there are only three things you need to know to get started.",
+              "Using AI means typing a prompt, getting an answer, and moving on.",
+              "Building with AI means designing your own workflows, automating tasks, chaining agents, and creating tools, sites, systems and micro-apps.",
+              "Two predictions about AI and work: Elon Musk says work could become optional within 10–20 years; Dario Amodei warns about job losses.",
+              "Build with AI has been my message since day one of Product with Attitude, 18 months ago.",
+              "AI newsletters are worth paying for when the writer brings original experiments, useful tools, and thinking that challenges your own."
             ]
           }
         },
