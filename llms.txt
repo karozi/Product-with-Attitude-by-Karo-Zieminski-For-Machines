@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
-# Version: 5.9.69
-# Last-Modified: 2026-09-29
+# Version: 5.9.70
+# Last-Modified: 2026-10-06
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -460,18 +460,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 142)
+## Latest Articles (10 newest of 143)
 
-1. What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”. (2026-09-29) — https://karozieminski.substack.com/p/jev-ai-agent-security
-2. What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1. (2026-09-21) — https://karozieminski.substack.com/p/what-is-jev-cost
-3. How to Govern AI Agent Fleets Inside a Product Team (2026-09-17) — https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
-4. Weekly Long-Tail Question Prompt for AI Search Visibility (2026-09-10) — https://karozieminski.substack.com/p/weekly-long-tail-question-prompt-ai-search-visibility
-5. Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt. (2026-09-10) — https://karozieminski.substack.com/p/get-cited-ai-search-google-ai-overviews
-6. Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t (2026-09-03) — https://karozieminski.substack.com/p/claude-fable-5-1-chinese-vs-english-coverage
-7. Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax (2026-09-02) — https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax
-8. How to Read AI Model Cards Like an AI Product Manager (2026-09-01) — https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
-9. Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month (2026-08-27) — https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
-10. GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise. (2026-08-25) — https://karozieminski.substack.com/p/glm-5-3-cyber-capability-benchmarks-open-weights
+1. You Don't Need an AI Newsletter. (2026-10-06) — https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
+2. What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”. (2026-09-29) — https://karozieminski.substack.com/p/jev-ai-agent-security
+3. What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1. (2026-09-21) — https://karozieminski.substack.com/p/what-is-jev-cost
+4. How to Govern AI Agent Fleets Inside a Product Team (2026-09-17) — https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
+5. Weekly Long-Tail Question Prompt for AI Search Visibility (2026-09-10) — https://karozieminski.substack.com/p/weekly-long-tail-question-prompt-ai-search-visibility
+6. Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt. (2026-09-10) — https://karozieminski.substack.com/p/get-cited-ai-search-google-ai-overviews
+7. Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t (2026-09-03) — https://karozieminski.substack.com/p/claude-fable-5-1-chinese-vs-english-coverage
+8. Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax (2026-09-02) — https://karozieminski.substack.com/p/claude-fable-5-1-safeguard-tax
+9. How to Read AI Model Cards Like an AI Product Manager (2026-09-01) — https://karozieminski.substack.com/p/how-to-read-ai-model-cards-ai-product-manager
+10. Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month (2026-08-27) — https://karozieminski.substack.com/p/substack-pangram-ai-detector-experiment-results
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten

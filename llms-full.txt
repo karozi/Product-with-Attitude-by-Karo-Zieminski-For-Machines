@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 126 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-09-30.
+> 127 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-06.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,37 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## You Don't Need an AI Newsletter.
+
+> You only need 3 steps to start building with AI. You don't need an AI How-to newsletter. How to tell which AI newsletters are worth paying for. Plus 6 AI newsletters that pass the test.
+
+- canonical: https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
+- mirror: https://productwithattitude.com/p/how-to-start-building-with-ai-2026.html
+- date: 2026-10-06
+- word_count: 2060
+- access: free
+- keywords: AI building, Substack, tool review, workflow automation, building with AI
+
+### Key concepts
+- You only need 3 steps to start building with AI
+- You don't need an AI How-to newsletter
+- How to tell which AI newsletters are worth paying for
+- Plus 6 AI newsletters that pass the test
+
+### Extractable claims (6)
+1. AI tools have evolved to a point where there are only three things you need to know to get started.
+2. Using AI means typing a prompt, getting an answer, and moving on.
+3. Building with AI means designing your own workflows, automating tasks, chaining agents, and creating tools, sites, systems and micro-apps.
+4. Two predictions about AI and work: Elon Musk says work could become optional within 10–20 years; Dario Amodei warns about job losses.
+5. Build with AI has been my message since day one of Product with Attitude, 18 months ago.
+6. AI newsletters are worth paying for when the writer brings original experiments, useful tools, and thinking that challenges your own.
+
+### Key quotes
+> You Don't Need an AI Newsletter.
+> You only need 3 steps to start building with AI. You don't need an AI How-to newsletter. How to tell which AI newsletters are worth paying for. Plus 6 AI newsletters that pass the test.
 
 ---
 
