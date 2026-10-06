@@ -1,6 +1,16 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: September 2026
+Last updated: October 2026
+
+---
+
+## Article: You Don't Need an AI Newsletter.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
+
+**Original Publish Date:** October 06, 2026
 
 ---
 
