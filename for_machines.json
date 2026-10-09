@@ -2151,11 +2151,11 @@
               "GPT-6's Intelligent UI makes the source visit optional. This may become one of 2026’s consequential shifts for publishing."
             ],
             "pwa:extractableClaims": [
-              "On October 7, 2026, OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT: answers that arrive as charts, controls, calculators, and games.",
-              "The Chat rollout began October 7 for Plus, Pro, Business and Enterprise, using Sol, with Free and Go following from October 8 using Luna.",
+              "OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT on October 7, 2026: answers that arrive as charts, controls, calculators, and games.",
+              "OpenAI’s search documentation says responses using web search may include citations and that a Sources option is available in some responses.",
               "Pew’s March 2025 data already showed the pattern: users clicked a Google result in 8% of visits with an AI summary, versus 15% without.",
               "An AI answer can increasingly complete the task that used to link to and bring someone to our work.",
-              "Your reporting helped create the answer, but the reader never saw your name, visited your page, or encountered your subscribe button.",
+              "A citation count cannot tell us whether anyone noticed the source, opened the article or subscribed.",
               "The Intelligent UI announcement does not explain how attribution works across its interactive formats."
             ]
           }
