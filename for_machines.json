@@ -2152,10 +2152,11 @@
             ],
             "pwa:extractableClaims": [
               "On October 7, 2026, OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT: answers that arrive as charts, controls, calculators, and games.",
+              "The Chat rollout began October 7 for Plus, Pro, Business and Enterprise, using Sol, with Free and Go following from October 8 using Luna.",
               "Pew’s March 2025 data already showed the pattern: users clicked a Google result in 8% of visits with an AI summary, versus 15% without.",
-              "As I write this on October 9, 2026, I haven’t found another article making this particular argument.",
-              "On October 7, OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT .",
-              "My bet: this becomes one of 2026’s consequential shifts for publishing."
+              "An AI answer can increasingly complete the task that used to link to and bring someone to our work.",
+              "Your reporting helped create the answer, but the reader never saw your name, visited your page, or encountered your subscribe button.",
+              "The Intelligent UI announcement does not explain how attribution works across its interactive formats."
             ]
           }
         },
