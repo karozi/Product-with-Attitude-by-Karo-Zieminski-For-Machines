@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 127 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-06.
+> 128 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-09.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,37 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried.
+
+> GPT-6's Intelligent UI makes the source visit optional. This may become one of 2026’s consequential shifts for publishing.
+
+- canonical: https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic
+- mirror: https://productwithattitude.com/p/chatgpt-intelligent-ui-publisher-traffic.html
+- date: 2026-10-09
+- word_count: 1208
+- access: free
+- keywords: Substack, Open, Just Turned, Answers Into Tools, Want This
+
+### Key concepts
+- GPT-6's Intelligent UI makes the source visit optional
+- This may become one of 2026’
+- s consequential shifts for publishing
+- OpenAI Just Turned AI Answers Into Tools
+
+### Extractable claims (6)
+1. OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT on October 7, 2026: answers that arrive as charts, controls, calculators, and games.
+2. OpenAI’s search documentation says responses using web search may include citations and that a Sources option is available in some responses.
+3. Pew’s March 2025 data already showed the pattern: users clicked a Google result in 8% of visits with an AI summary, versus 15% without.
+4. An AI answer can increasingly complete the task that used to link to and bring someone to our work.
+5. A citation count cannot tell us whether anyone noticed the source, opened the article or subscribed.
+6. The Intelligent UI announcement does not explain how attribution works across its interactive formats.
+
+### Key quotes
+> OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried.
+> GPT-6's Intelligent UI makes the source visit optional. This may become one of 2026’s consequential shifts for publishing.
 
 ---
 
