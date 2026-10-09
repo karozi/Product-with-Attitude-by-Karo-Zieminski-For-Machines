@@ -2099,11 +2099,69 @@
       "@id": "#recent-articles",
       "name": "All Published Articles",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 143,
+      "numberOfItems": 144,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
+          "item": {
+            "@type": "Article",
+            "headline": "OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried.",
+            "url": "https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic",
+            "datePublished": "2026-10-09",
+            "dateModified": "2026-10-09",
+            "wordCount": 1208,
+            "isAccessibleForFree": true,
+            "author": {
+              "@id": "https://karozieminski.substack.com/#author"
+            },
+            "description": "GPT-6's Intelligent UI makes the source visit optional. This may become one of 2026’s consequential shifts for publishing.",
+            "image": "https://substack-post-media.s3.amazonaws.com/public/images/29e751ec-2bbd-4d22-b08f-d629afddec98_1728x911.png",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [
+                "h1.post-title",
+                "h2.subtitle",
+                ".body.markup > p:first-of-type",
+                ".body.markup > p:nth-of-type(2)",
+                "article h1",
+                "article > p:first-of-type"
+              ],
+              "xpath": [
+                "//h1",
+                "//article//p[1]"
+              ]
+            },
+            "alternativeHeadline": "GPT-6's Intelligent UI makes the source visit optional. This may become one of 2026’s consequential shifts for publishing.",
+            "keywords": [
+              "Substack",
+              "Open",
+              "Just Turned",
+              "Answers Into Tools",
+              "Want This"
+            ],
+            "pwa:keyConcepts": [
+              "GPT-6's Intelligent UI makes the source visit optional",
+              "This may become one of 2026’",
+              "s consequential shifts for publishing",
+              "OpenAI Just Turned AI Answers Into Tools"
+            ],
+            "pwa:keyQuotes": [
+              "OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried.",
+              "GPT-6's Intelligent UI makes the source visit optional. This may become one of 2026’s consequential shifts for publishing."
+            ],
+            "pwa:extractableClaims": [
+              "On October 7, 2026, OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT: answers that arrive as charts, controls, calculators, and games.",
+              "Pew’s March 2025 data already showed the pattern: users clicked a Google result in 8% of visits with an AI summary, versus 15% without.",
+              "As I write this on October 9, 2026, I haven’t found another article making this particular argument.",
+              "On October 7, OpenAI began rolling out GPT-6 with Intelligent UI in ChatGPT .",
+              "My bet: this becomes one of 2026’s consequential shifts for publishing."
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
           "item": {
             "@type": "Article",
             "headline": "You Don't Need an AI Newsletter.",
@@ -2162,7 +2220,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 2,
+          "position": 3,
           "item": {
             "@type": "Article",
             "headline": "What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”.",
@@ -2220,7 +2278,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 4,
           "item": {
             "@type": "Article",
             "headline": "What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1.",
@@ -2278,7 +2336,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 5,
           "item": {
             "@type": "Article",
             "headline": "How to Govern AI Agent Fleets Inside a Product Team",
@@ -2336,7 +2394,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 6,
           "item": {
             "@type": "Article",
             "headline": "Weekly Long-Tail Question Prompt for AI Search Visibility",
@@ -2392,7 +2450,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 7,
           "item": {
             "@type": "Article",
             "headline": "Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt.",
@@ -2450,7 +2508,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 8,
           "item": {
             "@type": "Article",
             "headline": "Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t",
@@ -2509,7 +2567,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 9,
           "item": {
             "@type": "Article",
             "headline": "What Is the CCAR-F Exam, and Is It Worth It? A Decision Guide for Claude Builders",
@@ -2565,7 +2623,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 10,
           "item": {
             "@type": "Article",
             "headline": "Claude Fable 5.1: Pricing, Benchmarks, and the Safeguard Tax",
@@ -2631,7 +2689,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 11,
           "item": {
             "@type": "Article",
             "headline": "How to Read AI Model Cards Like an AI Product Manager",
@@ -2687,7 +2745,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 12,
           "item": {
             "@type": "Article",
             "headline": "Does Pangram Work on Substack? I Ran a 159,002-Word Experiment During Its First Month",
@@ -2742,7 +2800,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 13,
           "item": {
             "@type": "Article",
             "headline": "GLM-5.3 Was Trained for Cybersecurity. The Overshoot Was the Surprise.",
@@ -2799,7 +2857,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 14,
           "item": {
             "@type": "Article",
             "headline": "Stop Letting AI Choose Your Aesthetic: How to Build Stunning Websites When Your Taste Is Clear but Your Vocabulary Isn’t",
@@ -2857,7 +2915,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 15,
           "item": {
             "@type": "Article",
             "headline": "This Second Brain Will Change How You Write Your Newsletter: Cluing Review + AI Agents Preview",
@@ -2915,7 +2973,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 16,
           "item": {
             "@type": "Article",
             "headline": "Google Analytics 4 Cluing Agent Instructions + Daily GA4 Analysis Prompt",
@@ -2969,7 +3027,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 17,
           "item": {
             "@type": "Article",
             "headline": "Skill: Weekly Reader Question Review",
@@ -3025,7 +3083,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 18,
           "item": {
             "@type": "Article",
             "headline": "I Build AI Products for a Living. Here Are 5 Things All Model Comparisons Miss.",
@@ -3088,7 +3146,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 19,
           "item": {
             "@type": "Article",
             "headline": "AI for Crime Junkies: When ChatGPT Prompts Become Evidence",
@@ -3144,7 +3202,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 20,
           "item": {
             "@type": "Article",
             "headline": "5 Protocols Now Decide How AI Agents Shop. Here's What Each One Does.",
@@ -3202,7 +3260,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 20,
+          "position": 21,
           "item": {
             "@type": "Article",
             "headline": "Human vs AI Agent Shopping Journey Comparison (Infographics)",
@@ -3256,7 +3314,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 21,
+          "position": 22,
           "item": {
             "@type": "Article",
             "headline": "1 Community, 164 builders, 100 methods, Y Combinator, and OpenAI Build Week 2026.",
@@ -3312,7 +3370,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 23,
           "item": {
             "@type": "Article",
             "headline": "AI-assisted Craft: A Manifesto",
@@ -3369,7 +3427,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 24,
           "item": {
             "@type": "Article",
             "headline": "Don’t Deploy Another AI-built App Without Monitoring Its Dependencies",
@@ -3426,7 +3484,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 25,
           "item": {
             "@type": "Article",
             "headline": "What Is Perplexity SPACE? The Sandbox Behind Perplexity Computer",
@@ -3481,7 +3539,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 26,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Hub: Perplexity Guides for Computer, Comet, Credits & Workflows (2026)",
@@ -3531,7 +3589,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 27,
           "item": {
             "@type": "Article",
             "headline": "How to Build Your First Agent. One That Works.",
@@ -3587,7 +3645,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 28,
           "item": {
             "@type": "Article",
             "headline": "What Substack Doesn't Tell You About Cover Images",
@@ -3645,7 +3703,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 29,
           "item": {
             "@type": "Article",
             "headline": "Figma Template: Substack Cover Image Safe Zone Template (1200×630 → 345×195)",
@@ -3701,7 +3759,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 30,
           "item": {
             "@type": "Article",
             "headline": "Canva Template: Substack Cover Image Safe Zone (1200×630 → 345×195)",
@@ -3754,7 +3812,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 31,
           "item": {
             "@type": "Article",
             "headline": "Use AI with Attitude, or Become the Product. Critical AI Literacy Series 2026.",
@@ -3812,7 +3870,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 32,
           "item": {
             "@type": "Article",
             "@id": "https://karozieminski.substack.com/p/vibe-coding-2026-definition-ai-development-lexicon",
@@ -3903,7 +3961,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 33,
           "item": {
             "@type": "Article",
             "headline": "The Pre-Build Interrogation Prompt",
@@ -3959,7 +4017,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 34,
           "item": {
             "@type": "Article",
             "headline": "The Builder-Parent Paradox: Definition, Five Conflicts, and FAQ",
@@ -4026,7 +4084,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 35,
           "item": {
             "@type": "Article",
             "headline": "What I Refuse to Say About AI in 2026",
@@ -4080,7 +4138,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 36,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Just Split the Frontier in Two",
@@ -4131,7 +4189,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 37,
           "item": {
             "@type": "Article",
             "headline": "Why Your Perplexity Credits Vanish (and How to Make 10K Last)",
@@ -4187,7 +4245,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 38,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills: Editorial Minimalist UI System",
@@ -4250,7 +4308,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 39,
           "item": {
             "@type": "Article",
             "headline": "12 AI Projects Built by the PwA Community",
@@ -4309,7 +4367,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 40,
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: When to Use What (Effort, Fast Mode, Dynamic Workflows)",
@@ -4372,7 +4430,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 41,
           "item": {
             "@type": "Article",
             "headline": "Claude Opus 4.8: What Changed, and How I'll Test It",
@@ -4423,7 +4481,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 42,
           "item": {
             "@type": "Article",
             "headline": "I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.",
@@ -4483,7 +4541,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 43,
           "item": {
             "@type": "Article",
             "headline": "Source Code: The Runaway Subscribe Button",
@@ -4540,7 +4598,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 44,
           "item": {
             "@type": "Article",
             "headline": "Coding Prompts: The Runaway Subscribe Button Prompt",
@@ -4595,7 +4653,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 45,
           "item": {
             "@type": "Article",
             "headline": "Gemini Omni Flash: Cute Videos, Serious Product Strategy, and the Future of Editable Reality",
@@ -4660,7 +4718,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 46,
           "item": {
             "@type": "Article",
             "headline": "Prompt Refiner Template",
@@ -4716,7 +4774,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 47,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer Pricing Plans 2026: Free, Pro, Max, Education, Enterprise Compared",
@@ -4780,7 +4838,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 47,
+          "position": 48,
           "item": {
             "@type": "Article",
             "headline": "The Orchestrator Layer Behind Perplexity Computer: Three Tenants in 68 Days (May 2026)",
@@ -4849,7 +4907,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 48,
+          "position": 49,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer in May 2026: 5 Workflows I Run Every Week",
@@ -4910,7 +4968,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 49,
+          "position": 50,
           "item": {
             "@type": "Article",
             "headline": "Figma MCP Tool Order for Claude Code: The Decision Tree (May 2026)",
@@ -4980,7 +5038,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 50,
+          "position": 51,
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM's Framework for AI Agent Context Engineering",
@@ -5058,7 +5116,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 51,
+          "position": 52,
           "item": {
             "@type": "Article",
             "headline": "How I Built Product with Attitude from 0 to Bestseller, without Pretending I Have a Viral Playbook",
@@ -5135,7 +5193,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 52,
+          "position": 53,
           "item": {
             "@type": "Article",
             "headline": "The Context Pyramid: A PM’s Framework for AI Agent Context Engineering",
@@ -5216,7 +5274,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 53,
+          "position": 54,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Launches Claude For Small Business",
@@ -5311,7 +5369,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 54,
+          "position": 55,
           "item": {
             "@type": "Article",
             "headline": "An Illustrated Guide to Context Engineering, Prompt Engineering, and The Future of Both",
@@ -5407,7 +5465,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 55,
+          "position": 56,
           "item": {
             "@type": "Article",
             "headline": "Prompt: The Context Spec Generator",
@@ -5480,7 +5538,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 56,
+          "position": 57,
           "item": {
             "@type": "Article",
             "headline": "Preschool Brain Prompt vs Adult Brainstorming: A 12-Dimension Side-by-Side (May 2026)",
@@ -5567,7 +5625,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 57,
+          "position": 58,
           "item": {
             "@type": "Article",
             "headline": "I Asked Perplexity Computer for a Palantir Tearsheet, and 7 Minutes Later I Had a Bloomberg. And a Concern.",
@@ -5653,7 +5711,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 58,
+          "position": 59,
           "item": {
             "@type": "Article",
             "headline": "What Is A Sandboxed Virtual Machine?",
@@ -5759,7 +5817,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 59,
+          "position": 60,
           "item": {
             "@type": "Article",
             "headline": "The Exact Prompt to Fix \"My AI Tool Can't Access My Localhost\"",
@@ -5866,7 +5924,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 60,
+          "position": 61,
           "item": {
             "@type": "Article",
             "headline": "Are You a Vibe Coder? Don’t Ship Straight Into the Provider Trap",
@@ -5975,7 +6033,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 61,
+          "position": 62,
           "item": {
             "@type": "Article",
             "headline": "Sandbox vs Virtual Machine vs Container vs MicroVM: A Plain-English Glossary (April 2026)",
@@ -6040,7 +6098,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 62,
+          "position": 63,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills vs everything else: the matrix (2026)",
@@ -6131,7 +6189,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 63,
+          "position": 64,
           "item": {
             "@type": "Article",
             "headline": "Claude Cowork vs Code vs Design: The Decision Tree (April 2026)",
@@ -6221,7 +6279,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 64,
+          "position": 65,
           "item": {
             "@type": "Article",
             "headline": "Is GPT-5.5 Reliable For Citations? No. It’s The Worst Flagship For That Job.",
@@ -6326,7 +6384,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 65,
+          "position": 66,
           "item": {
             "@type": "Article",
             "headline": "Claude Design Review: 48-Hour Builder's Test + Hero Prompts",
@@ -6449,7 +6507,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 66,
+          "position": 67,
           "item": {
             "@type": "Article",
             "headline": "I Mapped the Opus 4.7 Release to Your Role, Goals, and Real Workflows",
@@ -6540,7 +6598,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 67,
+          "position": 68,
           "item": {
             "@type": "Article",
             "headline": "Everything I Can Offer You In Q2.",
@@ -6633,7 +6691,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 68,
+          "position": 69,
           "item": {
             "@type": "Article",
             "headline": "Discounts for Premium Members (Q2 2026)",
@@ -6743,7 +6801,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 69,
+          "position": 70,
           "item": {
             "@type": "Article",
             "headline": "I Tested Atoms, Lovable, and Replit. One of Them Solves the Problem That Kills Most Apps.",
@@ -6842,7 +6900,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 70,
+          "position": 71,
           "item": {
             "@type": "Article",
             "headline": "Save Credits in Perplexity Computer: Advanced Guide, Part 2 (2026)",
@@ -6934,7 +6992,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 71,
+          "position": 72,
           "item": {
             "@type": "Article",
             "headline": "What AI Builders Are Shipping in the PwA Community Right Now",
@@ -7020,7 +7078,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 72,
+          "position": 73,
           "item": {
             "@type": "Article",
             "headline": "Your AI Agents Are Engineers Now. Manage Them Like It.",
@@ -7102,7 +7160,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 73,
+          "position": 74,
           "item": {
             "@type": "BlogPosting",
             "headline": "The Only Prompting Guide That Works On Reasoning Models (And Our Cognition)",
@@ -7219,7 +7277,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 74,
+          "position": 75,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Built A Tool Every Substack Writer Needs. And It's Not AI.",
@@ -7319,7 +7377,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 75,
+          "position": 76,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Just Unlocked 1 Million Tokens For Everyone. Here Is What That Means.",
@@ -7430,7 +7488,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 76,
+          "position": 77,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Tested Perplexity Computer Hard. Here’s How I’d Save Credits Now",
@@ -7531,7 +7589,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 77,
+          "position": 78,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Cowork Guide for Power Users: 50+ Tested Tips on Plugins, Skills, Sub-Agents, and Memory",
@@ -7650,7 +7708,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 78,
+          "position": 79,
           "item": {
             "@type": "BlogPosting",
             "headline": "I Refuse To Build A Trap",
@@ -7736,7 +7794,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 79,
+          "position": 80,
           "item": {
             "@type": "Article",
             "headline": "Perplexity Computer: What I Built in One Night (Review, Examples, and How It Compares to OpenClaw and Claude)",
@@ -7853,7 +7911,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 80,
+          "position": 81,
           "item": {
             "@type": "BlogPosting",
             "headline": "Cowork Connectors",
@@ -7941,7 +7999,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 81,
+          "position": 82,
           "item": {
             "@type": "Article",
             "headline": "👋 Start here",
@@ -8065,7 +8123,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 82,
+          "position": 83,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Hub",
@@ -8188,7 +8246,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 83,
+          "position": 84,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Let The AI Decide What My Users Need",
@@ -8303,7 +8361,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 84,
+          "position": 85,
           "item": {
             "@type": "BlogPosting",
             "headline": "Discounts for Premium Members — Q1 2026",
@@ -8401,7 +8459,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 85,
+          "position": 86,
           "item": {
             "@type": "BlogPosting",
             "headline": "The Tools I've Built (and What's Coming Next)",
@@ -8509,7 +8567,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 86,
+          "position": 87,
           "item": {
             "@type": "BlogPosting",
             "headline": "Claude Cowork Skills - Cheat Sheet (2026)",
@@ -8594,7 +8652,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 87,
+          "position": 88,
           "item": {
             "@type": "BlogPosting",
             "headline": "Where to Deploy in 2026: Netlify, Vercel, Railway, Supabase",
@@ -8700,7 +8758,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 88,
+          "position": 89,
           "item": {
             "@type": "Article",
             "headline": "You Can't Critique AI You Haven't Built With",
@@ -8771,7 +8829,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 89,
+          "position": 90,
           "item": {
             "@type": "Article",
             "headline": "Why Substack Has No Gurus: 6 Product Decisions That Killed Guru Culture by Design",
@@ -8846,7 +8904,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 90,
+          "position": 91,
           "item": {
             "@type": "Article",
             "headline": "Valentine's App 2026 - Full Source Code",
@@ -8916,7 +8974,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 91,
+          "position": 92,
           "item": {
             "@type": "Article",
             "headline": "I Built You a Valentine's App in 33 Minutes. (Source Code Inside)",
@@ -9007,7 +9065,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 92,
+          "position": 93,
           "item": {
             "@type": "Article",
             "headline": "10 Tools I Use To Run A Bestselling Substack Publication in 2026",
@@ -9126,7 +9184,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 93,
+          "position": 94,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Choose Between Ambition And Presence",
@@ -9233,7 +9291,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 94,
+          "position": 95,
           "item": {
             "@type": "Article",
             "headline": "He Pays $10/Month for AI Music. Deletes Every Track.",
@@ -9306,7 +9364,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 95,
+          "position": 96,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Amplify Hype That Ignores Who Pays The Price",
@@ -9400,7 +9458,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 96,
+          "position": 97,
           "item": {
             "@type": "Article",
             "headline": "I Refuse To Ship Without Understanding Why It Makes Sense",
@@ -9477,7 +9535,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 97,
+          "position": 98,
           "item": {
             "@type": "Article",
             "headline": "Anthropic Shipped Cowork in 10 Days Using Its Own AI. Here's Why That Changes Everything.",
@@ -9580,7 +9638,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 98,
+          "position": 99,
           "item": {
             "@type": "Article",
             "headline": "Claude Skill: SEO And AIO-optimized Alt Text Generator for Substack",
@@ -9669,7 +9727,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 99,
+          "position": 100,
           "item": {
             "@type": "Article",
             "headline": "How Boris Cherny, Builder of Claude Code, Uses It",
@@ -9757,7 +9815,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 100,
+          "position": 101,
           "item": {
             "@type": "Article",
             "headline": "Recraft 101: A Creator's Guide to Building a Reusable Visual System",
@@ -9847,7 +9905,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 101,
+          "position": 102,
           "item": {
             "@type": "Article",
             "headline": "Choose Your Builder Track",
@@ -9970,7 +10028,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 102,
+          "position": 103,
           "item": {
             "@type": "Article",
             "headline": "The Complete Vibecoding & Speccoding Resource Hub",
@@ -10075,7 +10133,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 103,
+          "position": 104,
           "item": {
             "@type": "Article",
             "headline": "Vibe Coding Prompt Packs Hub",
@@ -10195,7 +10253,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 104,
+          "position": 105,
           "item": {
             "@type": "Article",
             "headline": "Design with AI",
@@ -10314,7 +10372,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 105,
+          "position": 106,
           "item": {
             "@type": "Article",
             "headline": "Build With Attitude: An Open Invitation To Vibe Coders Who Care About Building Things That Matter",
@@ -10392,7 +10450,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 106,
+          "position": 107,
           "item": {
             "@type": "Article",
             "headline": "10 Mistakes I Won't Repeat On Substack In 2026",
@@ -10471,7 +10529,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 107,
+          "position": 108,
           "item": {
             "@type": "Article",
             "headline": "ChatGPT 5.2: What It Really Changed, And Why The Internet's Take Is Mostly Wrong",
@@ -10559,7 +10617,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 108,
+          "position": 109,
           "item": {
             "@type": "Article",
             "headline": "2025's Most Absurd Product Decisions",
@@ -10636,7 +10694,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 109,
+          "position": 110,
           "item": {
             "@type": "Article",
             "headline": "AI Tools A-Z: Deep-Dives for Every Tool I've Tested (Claude, Perplexity, Replit & More)",
@@ -10761,7 +10819,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 110,
+          "position": 111,
           "item": {
             "@type": "Article",
             "headline": "Visual ASMR: How to Make Oddly Satisfying Designs With Nano Banana",
@@ -10851,7 +10909,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 111,
+          "position": 112,
           "item": {
             "@type": "Article",
             "headline": "If You Build With AI, You Need This File. And The System That Generates It.",
@@ -10972,7 +11030,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 112,
+          "position": 113,
           "item": {
             "@type": "Article",
             "headline": "What's Your Substack Roadmap for 2026? Mine Comes Straight From 315 Readers.",
@@ -11062,7 +11120,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 113,
+          "position": 114,
           "item": {
             "@type": "Article",
             "headline": "How To Product-think When AI Builds At Lightning Speed",
@@ -11166,7 +11224,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 114,
+          "position": 115,
           "item": {
             "@type": "Article",
             "headline": "I Want To Hear From You, And I'll Pay You For It",
@@ -11239,7 +11297,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 115,
+          "position": 116,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding x Cybersecurity: Survival Guide by the Expert Who Fixes Your Code After You",
@@ -11344,7 +11402,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 116,
+          "position": 117,
           "item": {
             "@type": "Article",
             "headline": "The Indie Builder Economy on Substack: Creators Becoming Product Companies",
@@ -11441,7 +11499,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 117,
+          "position": 118,
           "item": {
             "@type": "Article",
             "headline": "Claude Skills Are Taking the AI Community by Storm",
@@ -11553,7 +11611,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 118,
+          "position": 119,
           "item": {
             "@type": "Article",
             "headline": "The Ultimate Vibecoding Guide From Builders Who've Shipped",
@@ -11655,7 +11713,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 119,
+          "position": 120,
           "item": {
             "@type": "Article",
             "headline": "10x Your Productivity with Perplexity Comet: 11 Use Cases from 'Nice' to 'Wow!'",
@@ -11743,7 +11801,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 120,
+          "position": 121,
           "item": {
             "@type": "Article",
             "headline": "Why Every Brand and PM Should Monitor Substack for User Insights",
@@ -11879,7 +11937,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 121,
+          "position": 122,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding, Spec-driven, And The New AI Development Lexicon: A Definitive Guide",
@@ -11966,7 +12024,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 122,
+          "position": 123,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding, But Smarter: The PRD Prompt That Audits Itself For Hallucinations and Failure Modes",
@@ -12058,7 +12116,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 123,
+          "position": 124,
           "item": {
             "@type": "Article",
             "headline": "Where To Find Emerging Product Voices on Substack in 2025",
@@ -12147,7 +12205,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 124,
+          "position": 125,
           "item": {
             "@type": "Article",
             "headline": "Behind the Scenes: Why PMs Are Vibecoding Real Products",
@@ -12237,7 +12295,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 125,
+          "position": 126,
           "item": {
             "@type": "Article",
             "headline": "I Analyzed Every Interaction From My First 6 Months on Substack",
@@ -12316,7 +12374,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 126,
+          "position": 127,
           "item": {
             "@type": "Article",
             "headline": "July's Top Vibecoding Reads",
@@ -12410,7 +12468,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 127,
+          "position": 128,
           "item": {
             "@type": "Article",
             "headline": "The Self-Improving Prompt System That Gets Smarter With Every Use",
@@ -12495,7 +12553,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 128,
+          "position": 129,
           "item": {
             "@type": "Article",
             "headline": "Is Your Replit Looping? This Will Help.",
@@ -12590,7 +12648,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 129,
+          "position": 130,
           "item": {
             "@type": "Article",
             "headline": "Vibecoding Journey: I Broke Replit So You Don't Have To",
@@ -12690,7 +12748,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 130,
+          "position": 131,
           "item": {
             "@type": "Article",
             "headline": "Founders, Here's What You Need to Know About Product Launches in 2025",
@@ -12785,7 +12843,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 131,
+          "position": 132,
           "item": {
             "@type": "Article",
             "headline": "I Studied 49 AI-Generated Bios. What I Found Wasn't About AI at All",
@@ -12872,7 +12930,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 132,
+          "position": 133,
           "item": {
             "@type": "Article",
             "headline": "How I Ended Up Building a Peer-Peer Marketplace For Substack",
@@ -12972,7 +13030,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 133,
+          "position": 134,
           "item": {
             "@type": "Article",
             "headline": "How To Implement Hyper-personalization Without Creeping People Out",
@@ -13050,7 +13108,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 134,
+          "position": 135,
           "item": {
             "@type": "Article",
             "headline": "Are You a Product Person Lost on Substack? Here's the Map",
@@ -13130,7 +13188,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 135,
+          "position": 136,
           "item": {
             "@type": "Article",
             "headline": "Substack's Roadmap And Why 'No, Substack, We Don't Want Reels' Went Viral",
@@ -13207,7 +13265,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 136,
+          "position": 137,
           "item": {
             "@type": "Article",
             "headline": "19 Product Team Lessons in 4 Minutes",
@@ -13282,7 +13340,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 137,
+          "position": 138,
           "item": {
             "@type": "Article",
             "headline": "User Personas are Dead: AI-Powered User Models for 2026 and Beyond",
@@ -13357,7 +13415,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 138,
+          "position": 139,
           "item": {
             "@type": "Article",
             "headline": "The Unclickable Word That Can Save Your Career",
@@ -13441,7 +13499,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 139,
+          "position": 140,
           "item": {
             "@type": "Article",
             "headline": "When Fun Turns Predatory: Inside Temu's AI-Driven UX",
@@ -13515,7 +13573,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 140,
+          "position": 141,
           "item": {
             "@type": "Article",
             "headline": "6 Substack Lessons From a Product Manager With Zero Followers",
@@ -13600,7 +13658,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 141,
+          "position": 142,
           "item": {
             "@type": "Article",
             "headline": "5 Tips for Product Teams Implementing AI Prioritization Tools",
@@ -13673,7 +13731,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 142,
+          "position": 143,
           "item": {
             "@type": "Article",
             "headline": "Thoughts, Hacked: 20 Questions We Need to Ask Before Brain-Computer Interfaces Go Mainstream",
@@ -13745,7 +13803,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 143,
+          "position": 144,
           "item": {
             "@type": "Article",
             "headline": "I Built a Claude Cowork Loop That Improves Itself. Here's the Exact Setup.",
@@ -31326,6 +31384,6 @@
       "dateModified": "2026-09-14"
     }
   ],
-  "schemaVersion": "5.9.70",
-  "dateModified": "2026-10-06"
+  "schemaVersion": "5.9.71",
+  "dateModified": "2026-10-09"
 }

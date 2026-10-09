@@ -4,6 +4,16 @@ Last updated: October 2026
 
 ---
 
+## Article: OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic
+
+**Original Publish Date:** October 09, 2026
+
+---
+
 ## Article: You Don't Need an AI Newsletter.
 
 **Author:** Karo Zieminski
