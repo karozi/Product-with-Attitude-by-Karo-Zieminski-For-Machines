@@ -4,6 +4,16 @@ Last updated: October 2026
 
 ---
 
+## Article: How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/build-halloween-newsletter-game-chatgpt-sites
+
+**Original Publish Date:** October 27, 2026
+
+---
+
 ## Article: OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried.
 
 **Author:** Karo Zieminski
