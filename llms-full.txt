@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 128 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-26.
+> 129 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-27.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,35 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday.
+
+> 41 words, 30 minutes, and the reverse interview method that turns a vague idea into a working app.
+
+- canonical: https://karozieminski.substack.com/p/build-halloween-newsletter-game-chatgpt-sites
+- mirror: https://productwithattitude.com/p/build-halloween-newsletter-game-chatgpt-sites.html
+- date: 2026-10-27
+- word_count: 672
+- access: free
+- keywords: AI building, tool review, Halloween Game, Your Readers With Chat, Sites
+
+### Key concepts
+- How to Build a Halloween Game for Your Readers With ChatGPT Sites
+- Before Saturday
+
+### Extractable claims (6)
+1. The Halloween treasure chest game for newsletter readers was built from a 41-word specification prompt given to ChatGPT Work.
+2. The first playable draft of the Halloween game existed 30 minutes after the build started.
+3. The Reverse Interview Build method asks the AI to interview you one question at a time before anything gets built.
+4. The Halloween game gives each email two chest openings across three chests, and only one chest is empty, so every player wins at least once.
+5. A surprising number of bugs in AI-assisted builds are simply unanswered questions that made it into production.
+6. Karo Zieminski's Product with Attitude is an AI newsletter reaching tens of thousands of readers across 146 countries.
+
+### Key quotes
+> How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday.
+> 41 words, 30 minutes, and the reverse interview method that turns a vague idea into a working app.
 
 ---
 
