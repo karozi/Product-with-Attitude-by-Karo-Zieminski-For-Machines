@@ -2092,7 +2092,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-10-27"
+      "dateModified": "2026-10-29"
     },
     {
       "@type": "ItemList",
@@ -2115,7 +2115,7 @@
             "author": {
               "@id": "https://karozieminski.substack.com/#author"
             },
-            "description": "AI PM turning everyone into critical AI thinkers & builders. Join tens of thousands readers from 146 countries, and a community developing critical AI literacy through practice. Use AI to strengthen the branch you’re sitting on, not cut it off.",
+            "description": "OpenAI Dots are always-on AI agents with GPT-6 Astra, cloud computers, browsers, and thousands of app integrations; the article argues for reinvesting a slice of the time AI saves into understanding.",
             "image": "https://substack-post-media.s3.amazonaws.com/public/images/4c440486-20d9-4de4-8a67-f07116480357_1728x911.png",
             "speakable": {
               "@type": "SpeakableSpecification",
@@ -2140,22 +2140,24 @@
               "workflow automation"
             ],
             "pwa:keyConcepts": [
-              "AI PM turning everyone into critical AI thinkers & builders",
-              "Use AI to strengthen the branch you’",
-              "re sitting on, not cut it off",
-              "OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself"
+              "OpenAI Dots",
+              "critical AI literacy",
+              "worked example effect",
+              "self-explanation",
+              "friction dividend",
+              "Use AI to strengthen the branch you’re sitting on, not cut it off"
             ],
             "pwa:keyQuotes": [
               "OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself.",
-              "AI PM turning everyone into critical AI thinkers & builders. Join tens of thousands readers from 146 countries, and a community developing critical AI literacy through practice. Use AI to strengthen the branch you’re sitting on, not cut it off."
+              "Let AI save you time. Then reinvest a slice of that time into understanding."
             ],
             "pwa:extractableClaims": [
               "OpenAI released Dots, always-on AI agents with GPT-6 Astra, cloud computers, browsers, and thousands of app integrations.",
-              "High school students using unguarded GPT-4 performed 48% better in math practice than no-AI controls in a 2024 study.",
-              "High school students who practiced math with unguarded GPT-4 scored 17% worse on an AI-free exam than no-AI controls in a 2024 study.",
+              "In a field experiment during the fall semester of the 2023–2024 academic year, high school students using GPT Base during math practice performed 48% better than no-AI controls.",
+              "In the same field experiment, students who practiced math with GPT Base scored 17% lower on a subsequent unassisted exam than no-AI controls.",
               "Learning scientists call the advantage novices get from seeing a problem solved step by step the worked example effect.",
               "Michelene Chi and colleagues found students prompted to explain a text to themselves learned more than students who read it twice.",
-              "Karo Zieminski names the time saved by delegating tedious AI tasks the friction dividend, to reinvest in learning."
+              "Karo Zieminski defines the friction dividend as reinvesting a slice of the time AI saves into understanding."
             ]
           }
         },

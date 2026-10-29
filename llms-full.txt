@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 129 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-27.
+> 130 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-29.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,37 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself.
+
+- canonical: https://karozieminski.substack.com/p/openai-dots-friction-dividend
+- mirror: https://productwithattitude.com/p/openai-dots-friction-dividend.html
+- date: 2026-10-29
+- word_count: 1236
+- access: free
+- keywords: critical AI literacy, Substack, Claude, AI agents, workflow automation
+
+### Key concepts
+- OpenAI Dots
+- critical AI literacy
+- worked example effect
+- self-explanation
+- friction dividend
+- Use AI to strengthen the branch you’re sitting on, not cut it off
+
+### Extractable claims (6)
+1. OpenAI released Dots, always-on AI agents with GPT-6 Astra, cloud computers, browsers, and thousands of app integrations.
+2. In a field experiment during the fall semester of the 2023–2024 academic year, high school students using GPT Base during math practice performed 48% better than no-AI controls.
+3. In the same field experiment, students who practiced math with GPT Base scored 17% lower on a subsequent unassisted exam than no-AI controls.
+4. Learning scientists call the advantage novices get from seeing a problem solved step by step the worked example effect.
+5. Michelene Chi and colleagues found students prompted to explain a text to themselves learned more than students who read it twice.
+6. Karo Zieminski defines the friction dividend as reinvesting a slice of the time AI saves into understanding.
+
+### Key quotes
+> OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself.
+> Let AI save you time. Then reinvest a slice of that time into understanding.
 
 ---
 
