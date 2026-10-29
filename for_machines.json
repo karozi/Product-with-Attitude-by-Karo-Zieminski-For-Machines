@@ -2150,11 +2150,12 @@
               "AI PM turning everyone into critical AI thinkers & builders. Join tens of thousands readers from 146 countries, and a community developing critical AI literacy through practice. Use AI to strengthen the branch you’re sitting on, not cut it off."
             ],
             "pwa:extractableClaims": [
-              "OpenAI recently introduced Dots , always-on AI agents that get to know and track your goals, and can take action on your behalf.",
-              "I’ve been testing it since Dots became available on September 29, 2026.",
-              "I’ll share all the great thing that OpenAI Dots do for me in a separate post.",
-              "Welcome to the 771 new members who joined us over the past week!",
-              "Help me keep that going by sharing it beyond Substack or restacking."
+              "OpenAI released Dots, always-on AI agents with GPT-6 Astra, cloud computers, browsers, and thousands of app integrations.",
+              "Dots became generally available on September 29, 2026.",
+              "A 2024 field study found high school students practicing math with unguarded GPT-4 scored 17% worse on an exam without AI.",
+              "A 2024 field study found those same students performed 48% better during practice when GPT-4 was available.",
+              "Learning scientists call the advantage novices get from seeing a solution worked out the worked example effect.",
+              "Karo Zieminski names the time saved by delegating tedious AI tasks the friction dividend, to reinvest in learning."
             ]
           }
         },
