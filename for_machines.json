@@ -2151,10 +2151,11 @@
             ],
             "pwa:extractableClaims": [
               "OpenAI released Dots, always-on AI agents with GPT-6 Astra, cloud computers, browsers, and thousands of app integrations.",
-              "Dots became generally available on September 29, 2026.",
-              "A 2024 field study found high school students practicing math with unguarded GPT-4 scored 17% worse on an exam without AI.",
-              "A 2024 field study found those same students performed 48% better during practice when GPT-4 was available.",
-              "Learning scientists call the advantage novices get from seeing a solution worked out the worked example effect.",
+              "Dots became available on September 29, 2026.",
+              "A 2024 field study found high school students practicing math with unguarded GPT-4 performed 48% better during practice.",
+              "A 2024 field study found those students scored 17% worse on an exam without AI than students who never used it.",
+              "Learning scientists call the advantage novices get from seeing a problem solved step by step the worked example effect.",
+              "Michelene Chi and colleagues found students prompted to explain a text to themselves learned more than students who read it twice.",
               "Karo Zieminski names the time saved by delegating tedious AI tasks the friction dividend, to reinvest in learning."
             ]
           }
