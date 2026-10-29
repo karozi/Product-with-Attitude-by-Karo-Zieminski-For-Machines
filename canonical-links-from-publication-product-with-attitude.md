@@ -4,6 +4,16 @@ Last updated: October 2026
 
 ---
 
+## Article: OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/openai-dots-friction-dividend
+
+**Original Publish Date:** October 29, 2026
+
+---
+
 ## Article: How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday.
 
 **Author:** Karo Zieminski
