@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 130 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-10-29.
+> 130 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-04.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -5356,6 +5356,36 @@ Who cited Karo Zieminski / Product with Attitude, where, and based on which arti
    cites: I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside. — https://karozieminski.substack.com/p/runaway-subscribe-button
    quote: "“I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.” Karo (Product with Attitude), Product with Attitude"
 # <<< auto:citation-ledger
+
+# >>> auto:public-entry-pages — rendered from for_machines.json at build time; edits inside this block are overwritten
+## Public collaboration and contribution pages
+
+Discovery summaries of public guidance. Follow each source for current terms and licensing. Membership requirements remain in force; no paid article or member-only resource is reproduced.
+
+### For Brands
+source: https://karozieminski.substack.com/p/for-brands
+verified: 2026-11-03
+summary: Ways for brands to work with Product with Attitude: testing-led sponsorship, Product Hunt launch support, and affiliate-program submissions.
+- Product with Attitude assesses and tests products before accepting regular sponsorships, and Karo Zieminski retains editorial control.
+- For Brands links to sponsorship enquiries, Product Hunt Buddy, and The Affiliate Edit submission information.
+- The Affiliate Edit requires brands to become founding members before submitting for review; submission does not guarantee acceptance or new affiliate partners.
+
+### Write for Product With Attitude
+source: https://karozieminski.substack.com/p/write-for-product-with-attitude
+verified: 2026-11-03
+summary: Guest-contribution guidance for paid Product with Attitude subscribers, including editorial expectations and how to submit a draft.
+- The guest-contribution opportunity is a membership perk for paid Product with Attitude subscribers, including writers with small or new publications.
+- Contributions should draw on experience or research, link to verifiable sources, and give readers something concrete they can use.
+- Writers can send a Google Doc or secret Substack draft link by direct message; Karo selects contributions for relevance and usefulness, and not every submission is published.
+
+### Submit Your Affiliate Program for Newsletter Writers
+source: https://karozieminski.substack.com/p/submit-affiliate-program-newsletter-writers
+verified: 2026-11-03
+summary: How brands can submit an affiliate program to The Affiliate Edit for review. Founding membership is required.
+- The Affiliate Edit helps newsletter writers find affiliate programs and review their commission and application details.
+- Brands must become founding members of Product with Attitude to submit an affiliate program, and submissions are reviewed before listing.
+- Companies retain control over affiliate approvals and payouts, and writers retain control over what appears in their publications.
+# <<< auto:public-entry-pages
 
 # >>> auto:substack-tag-sections
 ## Substack Tag-Based Sections
