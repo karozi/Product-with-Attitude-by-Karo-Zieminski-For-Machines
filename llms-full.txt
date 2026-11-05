@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 130 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-04.
+> 133 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-05.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,63 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked.
+
+> One experiment brought 438 subscribers. Still, my long-term strategy took a different direction.
+
+- canonical: https://karozieminski.substack.com/p/reddit-ai-seo-substack-citation-test
+- mirror: https://productwithattitude.com/p/reddit-ai-seo-substack-citation-test.html
+- date: 2026-11-05
+- word_count: 1023
+- access: free
+- keywords: Substack, Claude, Perplexity, Ran, Reddit Experiments Over
+
+### Key concepts
+- One experiment brought 438 subscribers
+- Still, my long-term strategy took a different direction
+- AI SEO
+- I Ran 6 Reddit Experiments Over 18 Months
+
+### Extractable claims (4)
+1. AI search engines attributed 192 subscribers to Product with Attitude in the latest 60-day window, up from 51 in the prior window.
+2. One Reddit promotion experiment brought 438 subscribers to Product with Attitude.
+3. Karo Zieminski ran six Reddit experiments over 18 months to test newsletter discoverability.
+4. AI-attributed subscribers rose from 51 to 192 across two rolling 60-day windows, an increase of 141 or 276.5%.
+
+### Key quotes
+> AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked.
+> One experiment brought 438 subscribers. Still, my long-term strategy took a different direction.
+
+---
+
+## Write for Product With Attitude
+
+> Your next (or even first) Substack article could run on Product with Attitude.
+
+- canonical: https://karozieminski.substack.com/p/write-for-product-with-attitude
+- mirror: https://productwithattitude.com/p/write-for-product-with-attitude.html
+- date: 2026-10-30
+- word_count: 621
+- access: free
+- keywords: AI building, critical AI literacy, Substack, AI agents, workflow automation
+
+### Key concepts
+- Your next (or even first) Substack article could run on Product with Attitude
+- Write for Product With Attitude
+
+### Extractable claims (5)
+1. Hey Your next (or even first) Substack article could be a contribution to Product with Attitude.
+2. You’re welcome even if you’ve never published anything on Substack before.
+3. Here are some topics I’d love you to explore: Prompting in 2025 vs.
+4. One That Works by How to Govern AI Agent Fleets Inside a Product Team by How we’ll work on your article You send me your article.
+5. I also edit H2 headings and selected passages for search and AI discoverability , preserving your voice and ideas.
+
+### Key quotes
+> Write for Product With Attitude
+> Your next (or even first) Substack article could run on Product with Attitude.
 
 ---
 
@@ -29,8 +86,8 @@ Schema source: https://productwithattitude.com/for_machines.json
 
 ### Extractable claims (6)
 1. OpenAI released Dots, always-on AI agents with GPT-6 Astra, cloud computers, browsers, and thousands of app integrations.
-2. In a field experiment during the fall semester of the 2023–2024 academic year, high school students using GPT Base during math practice performed 48% better than no-AI controls.
-3. In the same field experiment, students who practiced math with GPT Base scored 17% lower on a subsequent unassisted exam than no-AI controls.
+2. High school students using GPT Base during math practice performed 48% better than no-AI controls.
+3. Students who practiced math with GPT Base scored 17% lower on a subsequent unassisted exam than no-AI controls.
 4. Learning scientists call the advantage novices get from seeing a problem solved step by step the worked example effect.
 5. Michelene Chi and colleagues found students prompted to explain a text to themselves learned more than students who read it twice.
 6. Karo Zieminski defines the friction dividend as reinvesting a slice of the time AI saves into understanding.
@@ -67,6 +124,36 @@ Schema source: https://productwithattitude.com/for_machines.json
 ### Key quotes
 > How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday.
 > 41 words, 30 minutes, and the reverse interview method that turns a vague idea into a working app.
+
+---
+
+## 30 Creators Tested What Claude Opus 5.5 Can Do with One Vague Prompt
+
+> I asked everyone to start with the same short prompt. The reported satisfaction scores ranged from 0 to 9.5 out of 10.
+
+- canonical: https://karozieminski.substack.com/p/claude-opus-5-5-one-prompt-video-test
+- mirror: https://productwithattitude.com/p/claude-opus-5-5-one-prompt-video-test.html
+- date: 2026-10-09
+- word_count: 1648
+- access: free
+- keywords: AI building, Substack, Claude, workflow automation, Creators Tested What Claude Opus
+
+### Key concepts
+- I asked everyone to start with the same short prompt
+- The reported satisfaction scores ranged from 0 to 9
+- 5 out of 10
+- 30 Creators Tested What Claude Opus 5
+
+### Extractable claims (5)
+1. Twenty-one participants gave a numeric score, covering the entire scale from 0 to 10, with a median of 6/10 and a mean of 5.36/10.
+2. Nine landed in the lukewarm middle (4 to 7), six were satisfied (8 to 10), and six were disappointed (0 to 3).
+3. Anna Levitt revised her video, and her score went from 5 to 7.5.
+4. How I Designed the Experiment I designed the experiment this way for three reasons: 1.
+5. Here are the satisfaction scores participants reported for their Claude Opus 5.5 videos, grouped by result.
+
+### Key quotes
+> 30 Creators Tested What Claude Opus 5.5 Can Do with One Vague Prompt
+> I asked everyone to start with the same short prompt. The reported satisfaction scores ranged from 0 to 9.5 out of 10.
 
 ---
 
@@ -5368,7 +5455,7 @@ verified: 2026-11-03
 summary: Ways for brands to work with Product with Attitude: testing-led sponsorship, Product Hunt launch support, and affiliate-program submissions.
 - Product with Attitude assesses and tests products before accepting regular sponsorships, and Karo Zieminski retains editorial control.
 - For Brands links to sponsorship enquiries, Product Hunt Buddy, and The Affiliate Edit submission information.
-- The Affiliate Edit requires brands to become founding members before submitting for review; submission does not guarantee acceptance or new affiliate partners.
+- The Affiliate Edit requires brands to become founding members before review.
 
 ### Write for Product With Attitude
 source: https://karozieminski.substack.com/p/write-for-product-with-attitude
@@ -5376,7 +5463,7 @@ verified: 2026-11-03
 summary: Guest-contribution guidance for paid Product with Attitude subscribers, including editorial expectations and how to submit a draft.
 - The guest-contribution opportunity is a membership perk for paid Product with Attitude subscribers, including writers with small or new publications.
 - Contributions should draw on experience or research, link to verifiable sources, and give readers something concrete they can use.
-- Writers can send a Google Doc or secret Substack draft link by direct message; Karo selects contributions for relevance and usefulness, and not every submission is published.
+- Writers can send a Google Doc or secret Substack draft link to Karo by direct message.
 
 ### Submit Your Affiliate Program for Newsletter Writers
 source: https://karozieminski.substack.com/p/submit-affiliate-program-newsletter-writers

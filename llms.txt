@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
-# Version: 5.9.74
-# Last-Modified: 2026-11-03
+# Version: 5.9.75
+# Last-Modified: 2026-11-05
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -460,18 +460,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 146)
+## Latest Articles (10 newest of 149)
 
-1. OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself. (2026-10-29) — https://karozieminski.substack.com/p/openai-dots-friction-dividend
-2. How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday. (2026-10-27) — https://karozieminski.substack.com/p/build-halloween-newsletter-game-chatgpt-sites
-3. OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried. (2026-10-09) — https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic
-4. You Don't Need an AI Newsletter. (2026-10-06) — https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
-5. What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”. (2026-09-29) — https://karozieminski.substack.com/p/jev-ai-agent-security
-6. What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1. (2026-09-21) — https://karozieminski.substack.com/p/what-is-jev-cost
-7. How to Govern AI Agent Fleets Inside a Product Team (2026-09-17) — https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
-8. Weekly Long-Tail Question Prompt for AI Search Visibility (2026-09-10) — https://karozieminski.substack.com/p/weekly-long-tail-question-prompt-ai-search-visibility
-9. Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt. (2026-09-10) — https://karozieminski.substack.com/p/get-cited-ai-search-google-ai-overviews
-10. Claude Fable 5.1: What Chinese Coverage Says and English Doesn’t (2026-09-03) — https://karozieminski.substack.com/p/claude-fable-5-1-chinese-vs-english-coverage
+1. AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked. (2026-11-05) — https://karozieminski.substack.com/p/reddit-ai-seo-substack-citation-test
+2. Write for Product With Attitude (2026-10-30) — https://karozieminski.substack.com/p/write-for-product-with-attitude
+3. OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself. (2026-10-29) — https://karozieminski.substack.com/p/openai-dots-friction-dividend
+4. How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday. (2026-10-27) — https://karozieminski.substack.com/p/build-halloween-newsletter-game-chatgpt-sites
+5. 30 Creators Tested What Claude Opus 5.5 Can Do with One Vague Prompt (2026-10-09) — https://karozieminski.substack.com/p/claude-opus-5-5-one-prompt-video-test
+6. OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried. (2026-10-09) — https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic
+7. You Don't Need an AI Newsletter. (2026-10-06) — https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
+8. What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”. (2026-09-29) — https://karozieminski.substack.com/p/jev-ai-agent-security
+9. What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1. (2026-09-21) — https://karozieminski.substack.com/p/what-is-jev-cost
+10. How to Govern AI Agent Fleets Inside a Product Team (2026-09-17) — https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten
@@ -652,7 +652,7 @@ verified: 2026-11-03
 summary: Ways for brands to work with Product with Attitude: testing-led sponsorship, Product Hunt launch support, and affiliate-program submissions.
 - Product with Attitude assesses and tests products before accepting regular sponsorships, and Karo Zieminski retains editorial control.
 - For Brands links to sponsorship enquiries, Product Hunt Buddy, and The Affiliate Edit submission information.
-- The Affiliate Edit requires brands to become founding members before submitting for review; submission does not guarantee acceptance or new affiliate partners.
+- The Affiliate Edit requires brands to become founding members before review.
 
 ### Write for Product With Attitude
 source: https://karozieminski.substack.com/p/write-for-product-with-attitude
@@ -660,7 +660,7 @@ verified: 2026-11-03
 summary: Guest-contribution guidance for paid Product with Attitude subscribers, including editorial expectations and how to submit a draft.
 - The guest-contribution opportunity is a membership perk for paid Product with Attitude subscribers, including writers with small or new publications.
 - Contributions should draw on experience or research, link to verifiable sources, and give readers something concrete they can use.
-- Writers can send a Google Doc or secret Substack draft link by direct message; Karo selects contributions for relevance and usefulness, and not every submission is published.
+- Writers can send a Google Doc or secret Substack draft link to Karo by direct message.
 
 ### Submit Your Affiliate Program for Newsletter Writers
 source: https://karozieminski.substack.com/p/submit-affiliate-program-newsletter-writers
