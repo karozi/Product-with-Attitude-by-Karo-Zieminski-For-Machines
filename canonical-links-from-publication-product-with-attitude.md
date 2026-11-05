@@ -1,6 +1,34 @@
 # A List of Canonical Links from the Publication "Product with Attitude"
 
-Last updated: October 2026
+Last updated: November 2026
+
+---
+
+## Article: AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked.
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/reddit-ai-seo-substack-citation-test
+
+**Original Publish Date:** November 05, 2026
+
+---
+## Article: Write for Product With Attitude
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/write-for-product-with-attitude
+
+**Original Publish Date:** October 30, 2026
+
+---
+## Article: 30 Creators Tested What Claude Opus 5.5 Can Do with One Vague Prompt
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/claude-opus-5-5-one-prompt-video-test
+
+**Original Publish Date:** October 09, 2026
 
 ---
 
