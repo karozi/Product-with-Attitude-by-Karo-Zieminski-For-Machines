@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 133 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-05.
+> 132 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-07.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -36,34 +36,6 @@ Schema source: https://productwithattitude.com/for_machines.json
 ### Key quotes
 > AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked.
 > One experiment brought 438 subscribers. Still, my long-term strategy took a different direction.
-
----
-
-## Write for Product With Attitude
-
-> Your next (or even first) Substack article could run on Product with Attitude.
-
-- canonical: https://karozieminski.substack.com/p/write-for-product-with-attitude
-- mirror: https://productwithattitude.com/p/write-for-product-with-attitude.html
-- date: 2026-10-30
-- word_count: 621
-- access: free
-- keywords: AI building, critical AI literacy, Substack, AI agents, workflow automation
-
-### Key concepts
-- Your next (or even first) Substack article could run on Product with Attitude
-- Write for Product With Attitude
-
-### Extractable claims (5)
-1. Hey Your next (or even first) Substack article could be a contribution to Product with Attitude.
-2. You’re welcome even if you’ve never published anything on Substack before.
-3. Here are some topics I’d love you to explore: Prompting in 2025 vs.
-4. One That Works by How to Govern AI Agent Fleets Inside a Product Team by How we’ll work on your article You send me your article.
-5. I also edit H2 headings and selected passages for search and AI discoverability , preserving your voice and ideas.
-
-### Key quotes
-> Write for Product With Attitude
-> Your next (or even first) Substack article could run on Product with Attitude.
 
 ---
 
@@ -4530,7 +4502,7 @@ A: We know what TypeSafe charges today. We do not know whether that price covers
 # <<< auto:articles
 
 # >>> auto:citation-ledger — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Documented Citation Ledger (all 155 citation events, source-attributed)
+## Documented Citation Ledger (all 156 citation events, source-attributed)
 
 Who cited Karo Zieminski / Product with Attitude, where, and based on which article. Canonical structured version: https://productwithattitude.com/for_machines.json (#citation-evidence).
 
@@ -5442,6 +5414,12 @@ Who cited Karo Zieminski / Product with Attitude, where, and based on which arti
    url: https://timomason.substack.com/p/how-to-write-the-perfect-substack-headline
    cites: I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside. — https://karozieminski.substack.com/p/runaway-subscribe-button
    quote: "“I Built a Runaway Subscribe Button. It Brought 70 New Subscribers in 6 Days. Code + Challenge Inside.” Karo (Product with Attitude), Product with Attitude"
+
+156. Ranjan Kumar — Web — Ranjan Kumar — 2026-04-17
+   Ranjan Kumar cites Karo's Boris Cherny Claude Code workflow article in his References list
+   url: https://www.ranjankumar.in/boris-cherny-four-habits-claude-code
+   cites: How Boris Cherny Uses Claude Code — https://karozieminski.substack.com/p/boris-cherny-claude-code-workflow
+   quote: "Zieminski, K. (January 2026). How Boris Cherny Uses Claude Code. Product with Attitude."
 # <<< auto:citation-ledger
 
 # >>> auto:public-entry-pages — rendered from for_machines.json at build time; edits inside this block are overwritten
