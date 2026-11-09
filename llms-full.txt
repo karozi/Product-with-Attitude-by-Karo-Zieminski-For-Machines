@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 132 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-07.
+> 132 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-09.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -4197,12 +4197,462 @@ Schema source: https://productwithattitude.com/for_machines.json
 ---
 
 # >>> auto:articles — rendered from content/articles at build time; edits inside this block are overwritten
-## Articles (1 published page)
+## Articles (2 published pages)
 
 # AI, product thinking, and things worth building. Original articles by Karo Zieminski that didn't make it to Substack.
 # Section index: https://productwithattitude.com/articles/
 # Original articles use self-canonical URLs and BlogPosting + BreadcrumbList JSON-LD.
 # Articles show publication and update dates. Drafts and design samples are excluded.
+
+### Claude Fable 5.2 for Designers: 7 Tests, Every Prompt
+
+- url: https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts
+- summary: I tested Claude Fable 5.2 on 7 graphic and motion design briefs. Poster, logo, icons, bounce, easing, kinetic type, chart. Raw output and all 8 prompts.
+- published: 2026-11-09
+- updated: 2026-11-09
+- topics: Claude Fable 5.2, AI design, Motion design, Design prompts
+
+*Seven graphic design and motion tests on launch day. Every visual on this page is raw model output. Every prompt is here for you to steal.*
+
+By Karo Zieminski · 12 min read · 7 plates · 8 prompts
+
+## Short answer
+
+- **Claude Fable 5.2 designs in code.** [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). No photos, no textures, no brushwork.
+- **It is at its best on anything a grid can describe.** Posters, marks, icon sets, charts, easing.
+- **It designs blind.** It writes coordinates without seeing the render. One screenshot back fixes most of it.
+- **It cannot watch motion.** It reviews stills. Ask for a frame strip.
+- **A plate costs cents.** The thinking around it is what you pay for.
+
+Everyone is reading [the launch post](https://www.anthropic.com/claude-fable-and-mythos-5-2) for the coding numbers.
+
+I wanted to know something no benchmark in it measures. *Can it design?*
+
+So I did what a designer does with a new tool. I gave it a brief, pinned the result to the light table, and got the loupe out.
+
+Hi, I'm Karo. I build AI products for a living and [write Product with Attitude](https://karozieminski.substack.com/), where we look at AI tools with a raised eyebrow. I still draw my covers by hand in [Procreate](https://procreate.com/), because I refuse to automate the fun part. That makes me exactly the wrong person to be impressed by a machine that draws.
+
+Here is what happened.
+
+## What is Claude Fable 5.2?
+
+**Claude Fable 5.2 is [Anthropic's most capable generally available model](https://platform.claude.com/docs/en/models/fable-5-2/overview), released on 9 November 2026.** It is the same underlying model as Claude Mythos 5.2, with [extra safeguards for cybersecurity and biology](https://www.anthropic.com/claude-fable-and-mythos-5-2).
+
+| Fact | Detail |
+| --- | --- |
+| Released | 9 November 2026, by Anthropic |
+| API price | $8 input and $40 output per million tokens. Fable 5.1 was $10 and $50. |
+| Fast mode | Up to 2.5x faster generation, at $16 and $80 |
+| Speed | [Up to 30% faster output than Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-2), per Anthropic |
+| Default effort | Medium, in the Claude apps and Claude Code |
+| Where | All paid Claude plans, the Claude Platform, AWS, Google Cloud, Microsoft Azure |
+| Output | Text. Visuals arrive as code a browser renders. |
+| Anthropic's advice | [Start with Opus 5.5 for most work](https://www.anthropic.com/claude-fable-and-mythos-5-2). Move up to Fable for the open-ended problems. |
+
+Read that last row twice. The vendor is telling you not to reach for its most expensive model first. I respect that.
+
+## How did I test Fable 5.2 for design?
+
+Seven briefs. Four static, three in motion. One made-up client for all of them, a festival called *Slow Signal*, so the model had no famous brand to imitate.
+
+1. **One brief per plate.** Written the way I would brief a junior designer. Numbers, not adjectives.
+2. **Code out, browser in.** Each answer is SVG or CSS, rendered as delivered.
+3. **Graded by eye.** Hierarchy, alignment, spacing, stroke consistency, timing.
+4. **Construction layers on request.** If it claims a grid, I want to see the grid.
+
+All of it ran inside Claude, on launch day. No plugins. No design tool in the loop.
+
+> If it claims a grid, I want to see the grid.
+
+---
+
+## The seven plates
+
+### Plate 01. Can it set a poster?
+
+The oldest test in the book. Type, a grid, one shape. Nowhere to hide.
+
+![Typographic poster designed by Claude Fable 5.2. Swiss style poster for a fictional festival called Slow Signal. Large white grotesque type on a dark ground, one cobalt blue circle, six column grid.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-01.png)
+
+*Plate 01 · Typographic poster · Static · Pass after 1 fix. Raw output. 600 × 800 SVG, 6 columns, 48 px margins.*
+
+**Prompt 01**
+
+```text
+Design a poster as one SVG, viewBox 0 0 600 800.
+
+Client: Slow Signal, a festival of unhurried technology. Aarhus, 12 to 14 June 2027. Fictional. Do not reference any real brand.
+
+Style: International Typographic Style.
+Grid: 6 columns, 48 px outer margins, 12 px gutters. Every text block starts on a column edge.
+Type: one grotesque family, two weights. One monospace for labels.
+Color: dark ground, white type, exactly one accent color.
+Shape: exactly one geometric shape. It may sit behind the type.
+Banned: gradients, shadows, centered text, decorative lines.
+
+Add a group with class "construction" that draws the columns and baselines so I can toggle it. Tell me the x position of every column edge.
+```
+
+**What I saw.** The grid is real. Turn on the construction layer and every label sits on a column edge: 48, 306 and 552.
+
+The detail I liked: the headline starts at x 42, not 48. It pulled the big type six pixels left so the curve of the *S* lines up optically with the small text above it. Nobody asked for that.
+
+**What it got wrong.** The first pass set the date range with an em dash. A range takes an en dash. One character, fixed on the second pass, and exactly what a tired junior would miss too.
+
+### Plate 02. Can it construct a mark?
+
+A logo is geometry with an opinion. I asked for the geometry first.
+
+![Geometric S monogram designed by Claude Fable 5.2. A letter S built from two three-quarter circle arcs of equal radius, shown large with its construction circles, then at 64, 32 and 16 pixels, with a wordmark.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-02.png)
+
+*Plate 02 · Monogram on a construction grid · Static · Pass after 1 fix. Raw output. One path, two arcs, one radius.*
+
+**Prompt 02**
+
+```text
+Design a monogram for Slow Signal as SVG.
+
+Build the letter S from circular arcs only. One radius, one stroke weight, no freehand curves. It must be a single path.
+
+Deliver, in one 600 x 400 SVG:
+1. The mark large, with a "construction" group showing every circle, centre line and tangent point you used.
+2. The same mark at 64, 32 and 16 px, reused with <use>, not redrawn.
+3. One lockup: mark plus wordmark, reversed out of the accent color.
+4. A clear space rule expressed in units of the radius.
+
+Then list the path data and explain each arc flag.
+```
+
+**What I saw.** One path, two 270 degree arcs, one radius of 60. The arcs meet at a true tangent point, so there is no kink in the spine. The small sizes are the same symbol reused, which is how a real identity file should work.
+
+It holds at 16 px. The counters stay open because the stroke is 60% of the radius, not more.
+
+**What it got wrong.** On the first pass the radius label sat underneath the stroke of the mark. Readable in the code, invisible on the page. It could not know. It never saw the page.
+
+### Plate 03. Can it hold a system across eight icons?
+
+One icon proves nothing. Eight icons prove whether there is a system or a mood.
+
+![Eight icon set for a motion design tool, drawn by Claude Fable 5.2. Eight line icons on a 24 pixel grid with a 1.5 pixel stroke: play, keyframe, ease, layers, timeline, loop, mask and export.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-03.png)
+
+*Plate 03 · Icon set, 24 px grid · Static · 6 of 8. Raw output. Shown at 3x, then at true 24 px along the bottom.*
+
+**Prompt 03**
+
+```text
+Draw 8 icons for a motion design tool: play, keyframe, ease, layers, timeline, loop, mask, export.
+
+System rules, non negotiable:
+- 24 x 24 grid, 3 px safe margin, live area 18 x 18.
+- Stroke 1.5, round caps, round joins, no fills.
+- Coordinates on whole or half pixels only.
+- Corner radius 2 where a corner is rounded.
+- Each icon in as few path commands as you can.
+
+Show them at 3x with a "construction" overlay (grid, live area, 20 px keyline circle), then once more in a row at true size.
+
+After drawing, audit your own set: which icon is optically heavier or lighter than the rest, and why?
+```
+
+**What I saw.** The system holds. Every stroke is 1.5. Every coordinate lands on a whole or half pixel. All eight stay inside the 18 px live area, and the true-size row survives.
+
+**What it got wrong.** Two icons. *Timeline* reads as a plus sign with extra lines. *Layers* carries three stacked strokes and looks heavier than its neighbours.
+
+Its own audit named both. I left them in so you can see what a first pass looks like. It knew. It shipped them anyway, because I asked for eight icons and not for eight good ones.
+
+### Plate 04. Does it understand weight?
+
+The bouncing ball is week one of animation school. It is also where every lazy animation gets caught.
+
+I asked for squash and stretch, and for the easing as numbers. Left is my control: same distance, same duration, the browser's default ease, nothing else. Right is what Fable delivered.
+
+![Two bouncing balls side by side. The control ball on the left moves with default easing and floats. The directed ball on the right accelerates like a falling object, squashes on contact and stretches on the way up.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-04.png)
+
+*Plate 04 · Bouncing ball, CSS only · Motion · Judge by eye. Raw output on the right. 1.1 s loop, 132 ms of contact, two easing curves.*
+
+**Prompt 04**
+
+```text
+Animate a ball bouncing in place. CSS keyframes only, no JavaScript, no libraries.
+
+- Loop: 1.1 s. Drop height: 150 px. Ball: 44 px.
+- The ball must feel heavy. Use squash and stretch. Squash only while it touches the floor. Keep volume roughly constant.
+- Add a contact shadow that tightens and darkens as the ball lands.
+- Do not use ease, ease-in or ease-out keywords. Give every segment its own cubic-bezier and derive the values from physics, not taste. Show the derivation.
+- Set transform-origin so the squash happens against the floor.
+- Respect prefers-reduced-motion.
+
+Then tell me what you cannot verify about this animation without watching it.
+```
+
+**What I saw.** Watch the top of each arc. The control ball drifts through it at an even pace. The Fable ball hangs for a moment, then drops. That hang is the whole illusion of weight.
+
+The squash only happens during the 132 ms of contact, and it happens against the floor because the transform origin is set to the bottom edge. Wider by 28%, shorter by 30%. Volume roughly kept.
+
+**What it could not do.** Tell me whether it feels right. Its answer to my last question was the most useful line in the test: it can check any frame, but not the rhythm between frames. That part is still mine.
+
+### Plate 05. Can it show its timing on paper?
+
+Motion designers do not trust a description of an animation. We trust spacing charts. So I asked for one.
+
+![Spacing chart and easing curves for a bouncing ball, by Claude Fable 5.2. Top: seven ghosted frames of a falling ball, with gaps that grow as time squared, ending in a squashed contact frame. Bottom: three plotted cubic-bezier curves for falling, rising and overshoot.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-05.png)
+
+*Plate 05 · Spacing chart · Motion, on paper · Pass. Raw output. The gaps between frames grow by 7 px each step. That is what gravity looks like on paper.*
+
+**Prompt 05**
+
+```text
+I cannot review motion from a description. Give me the animation on paper.
+
+1. Spacing chart: draw the falling ball as 7 evenly timed ghost frames in one SVG, left to right. Label the pixel gap between each frame and the next. Draw the contact frame squashed.
+2. Easing curves: plot every cubic-bezier you used as a real curve on a time by progress axis, with the four control values printed underneath. Put a dot on each plot that travels with that exact easing.
+3. Compute every position. Do not eyeball any of them. Show the formula.
+```
+
+**What I saw.** This is the plate I would show a sceptic. The gaps are 3.5, 10.5, 17.5, 24.5, 31.5 and 38.5 px. Each one is 7 px larger than the last. Constant acceleration, drawn.
+
+The three curves are plotted from the same four numbers that drive the dots. Nothing is traced. The overshoot curve rises about 10% past the target and settles back, which is the wobble you see in Plate 06.
+
+### Plate 06. Can it make type move?
+
+Kinetic type is where taste shows. Stagger too fast and it flickers. Too slow and it drags.
+
+![Kinetic type reading make it move. Each letter exits upward and re-enters from below a mask, staggered by 45 milliseconds, with a small overshoot.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-06.png)
+
+*Plate 06 · Kinetic type lockup · Motion · Judge by eye. Raw output. 45 ms stagger, masked lines, one overshoot curve. It rests fully visible.*
+
+**Prompt 06**
+
+```text
+Build a kinetic type lockup in HTML and CSS only. The words: "make it move", on two lines.
+
+- Each letter is its own inline-block. Each line is a mask (overflow hidden).
+- Letters exit up and re-enter from below. Stagger 45 ms per letter using a CSS custom property, not eleven hand-written delays.
+- Entry uses an overshoot curve. Exit uses an accelerating curve. Give me both as cubic-bezier and say why you chose each number.
+- The resting state is the fully readable lockup. A screenshot at any random moment should usually be legible.
+- Loop every 4.2 s. Respect prefers-reduced-motion.
+- Type: heavy grotesque, tight tracking, line-height under 0.9. Pad the mask so descenders and the overshoot are not clipped.
+```
+
+**What I saw.** Eleven letters, one custom property, one keyframe block. The stagger is arithmetic: index times 45 ms. No hand-written delays.
+
+The loop spends most of its time at rest. Freeze it at a random moment and you will usually get a readable lockup. That was in the brief, and it is the difference between a title card and a screensaver.
+
+**What I would change.** The exit and the entry share one stagger. A real title designer would run the exit faster than the entry. It did what I wrote. I should have written more.
+
+### Plate 07. Can it chart without lying?
+
+Last one. I gave it the launch numbers and asked for a chart a designer would sign.
+
+![Bar chart: FrontierCode 2.0 scores reported by Anthropic for Claude Fable 5.2. Horizontal bars from a zero baseline. Claude Fable 5.2 scored 49.1 percent, Claude Opus 5.5 scored 45.5 percent, GPT-6 Astra 42.8 percent and Claude Fable 5.1 32.4 percent on FrontierCode 2.0, as reported by Anthropic.](/assets/articles/claude-fable-5-2-design-motion-tests-prompts/plate-07.png)
+
+*Plate 07 · Data graphic · Static · Pass. Raw output. 7 px per percentage point, zero baseline, no legend.*
+
+**Prompt 07**
+
+```text
+Chart these four numbers as one SVG, 600 x 360.
+
+FrontierCode 2.0, percent solved, reported by Anthropic:
+Fable 5.2: 49.1. Opus 5.5: 45.5. GPT-6 Astra: 42.8. Fable 5.1: 32.4.
+
+- Horizontal bars. Zero baseline. One linear scale. State the pixels per percentage point.
+- Highlight one bar with the accent. Everything else neutral.
+- Direct labels on the bars. No legend. Three gridlines at most.
+- The title states the finding, not the topic.
+- Add a source line and one line of honest caveat.
+- No 3D, no gradients, no rounded bar ends, no truncated axis.
+
+Print the width you computed for each bar so I can check your arithmetic.
+```
+
+**What I saw.** I checked the arithmetic. 49.1 times 7 is 343.7. 45.5 gives 318.5. 42.8 gives 299.6. 32.4 gives 226.8. Every bar is the width it claims to be.
+
+Zero baseline. One accent. A title that states the finding. And it wrote the caveat I would have written myself: this is a coding benchmark, and it says nothing about design.
+
+---
+
+## What is nobody telling designers about Fable 5.2?
+
+Seven plates in, five things stood out. None of them come from a benchmark.
+
+### 1. It designs blind
+
+Fable does not see its SVG while it writes it. It predicts where the letters will land. It never measures them.
+
+That is why everything built on **numbers** held up. Columns, radii, bar widths, frame spacing. All correct on the first pass, because all of it is arithmetic.
+
+The slips were the things you only catch by looking. A label buried under a stroke. A wrong dash. An icon that reads as a plus sign. A column edge is arithmetic. The width of a word is a guess.
+
+The fix is one message. Send the screenshot back. Fable 5.2 reads images, and vision is one of the things Anthropic says improved in this release.
+
+> A column edge is arithmetic. The width of a word is a guess.
+
+### 2. It reviews stills, not motion
+
+This one changes how you brief animation. Fable can write a keyframe. It cannot watch one play.
+
+When it checks its own animation, it checks frozen frames. A 45 ms stagger and a 90 ms stagger look identical in a still. So timing errors survive review.
+
+Which is why Plate 05 exists. **Ask for the animation on paper.** A spacing chart turns timing into geometry, and geometry is something it can verify.
+
+### 3. Gravity has an easing curve, and it got close
+
+I banned the [easing keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier) and asked for physics.
+
+It came back with `cubic-bezier(.33, 0, .67, .33)` for the fall and `cubic-bezier(.33, .67, .67, 1)` for the rise. Those rounded values closely approximate constant acceleration. Distance under gravity grows with time squared. The exact normalized fall uses control points (1/3, 0) and (2/3, 1/3); the rise uses (1/3, 2/3) and (2/3, 1).
+
+Put it in your snippets. It is the difference between a ball that floats and a ball that drops.
+
+### 4. A plate costs cents. The thinking costs more.
+
+I weighed every plate. Bytes delivered, a rough token estimate at 3 characters per token, and the output price of $40 per million tokens.
+
+| Plate | Bytes | Est. tokens | Est. output cost |
+| --- | --- | --- | --- |
+| 01 Poster | 1,740 | 580 | $0.023 |
+| 02 Monogram | 1,981 | 660 | $0.026 |
+| 03 Icon set | 3,236 | 1,079 | $0.043 |
+| 04 Bouncing ball | 2,177 | 726 | $0.029 |
+| 05 Spacing chart | 3,383 | 1,128 | $0.045 |
+| 06 Kinetic type | 1,256 | 419 | $0.017 |
+| 07 Data graphic | 2,111 | 704 | $0.028 |
+| **All seven** | 15,884 | 5,295 | $0.21 |
+
+Small numbers. But they only count the code that was delivered. [Reasoning is billed as output too](https://platform.claude.com/docs/en/models/fable-5-2/overview), and on a hard brief it can be the bigger share.
+
+For scale: [Simon Willison's max-effort SVG pelican](https://feeds.simonwillison.net/2026/Sep/1/claude-fable-5-1/) on Fable 5.1 used 65,927 tokens and cost $3.30. Run that same token count at today's prices and you get $2.64. That is arithmetic, not a new measurement. It tells you where the money goes.
+
+### 5. Adjectives get you the average. Numbers get you design.
+
+Every prompt above has a viewBox, a margin, a stroke weight or a duration in it. Not one says *modern*, *clean* or *beautiful*.
+
+That is deliberate. A number can be checked. An adjective can only be averaged. And the most useful line in each prompt is the last one, where I ask it to audit itself or print its arithmetic.
+
+> **My [critical AI literacy](https://karozieminski.substack.com/s/critical-ai-literacy) read**
+>
+> The headline score for this launch is a **coding** benchmark, reported by the vendor. There is no public design benchmark for Fable 5.2 yet.
+>
+> The design number you may see quoted, [81% in Framer's evals](https://www.framer.com/updates/fable-5), belongs to Fable 5 from June. It is not a 5.2 result.
+>
+> Seven plates on one afternoon is a proof sheet. It is not a study. Rerun the prompts. Your render is the evidence.
+
+> **My PM read**
+>
+> Fable 5.2 is the expensive seat. Anthropic says so itself and points most people at Opus 5.5 first.
+>
+> For one icon or one loader, start there. Move up when the brief has many constraints that must all hold at once: a grid, a system, physics, a self-audit. That is where the extra reasoning shows up on the page.
+
+## What is the best prompt structure for design work in Fable 5.2?
+
+All seven prompts share one skeleton. Take it.
+
+**Prompt 08 · the master brief**
+
+```text
+ROLE: You are the designer. I am the art director. I will review the render, not your description of it.
+
+FORMAT: One [SVG / HTML + CSS] file. viewBox or canvas: [W x H].
+
+SYSTEM: Grid [columns, margins, gutters in px]. Type [families, weights, sizes]. Color [count, roles]. Stroke [weight, caps, joins].
+
+MOTION (if any): Duration [ms]. Stagger [ms]. Easing as cubic-bezier only, with the reason for each value. Resting state must be the readable state. Respect prefers-reduced-motion.
+
+BANNED: [gradients, shadows, centered text, easing keywords, anything you do not want].
+
+PROOF: Add a group or layer with class "construction" showing the grid, keylines and any geometry you built on. For motion, add a spacing chart.
+
+AUDIT: When you finish, list what you computed, what you estimated, and what you cannot verify without seeing it rendered or watching it play.
+
+I will send back a screenshot. Expect exactly one correction pass.
+```
+
+The last two blocks do the heavy lifting. **Proof** makes the structure visible. **Audit** makes the model tell you where to point the loupe.
+
+## What can Fable 5.2 not do for a designer?
+
+- **Pixels.** No photography, texture, grain or brushwork. It writes vectors and code.
+- **Your fonts.** It cannot load a licensed typeface it was not given. It designs for a stack and hopes.
+- **Watching.** It cannot feel whether 132 ms of squash reads as heavy. You can.
+- **Taste under ambiguity.** Give it a loose brief and you get the middle of everything it has seen.
+
+None of that is a flaw to fix. It is the shape of the tool.
+
+## FAQ
+
+### Is Claude Fable 5.2 good for graphic design?
+
+Yes, for design that can be expressed as code. Grid layouts, typographic posters, geometric marks, icon systems, charts and CSS motion. It writes SVG, HTML and CSS. It does not paint.
+
+### Can Claude Fable 5.2 generate images?
+
+Not raster images. Its output is text, so visuals arrive as SVG, HTML, CSS or canvas code that a browser renders. The upside is that everything is vector, editable and tiny.
+
+### Can Claude Fable 5.2 make animations?
+
+Yes, as CSS keyframes, SVG animation or JavaScript. It can derive physically correct easing. It cannot watch its animation play, so ask for a spacing chart and judge the timing yourself.
+
+### How much does Claude Fable 5.2 cost?
+
+$8 per million input tokens and $40 per million output tokens on the API, down 20% from Fable 5.1. Fast mode is $16 and $80. It is included in paid Claude plans.
+
+### Should designers use Fable 5.2 or Opus 5.5?
+
+Start with Opus 5.5. That is Anthropic's own recommendation. Move to Fable 5.2 when a brief stacks several hard constraints and the cheaper model drops one.
+
+### What is the best prompt for SVG design with Fable 5.2?
+
+Format and viewBox, grid and margins in numbers, a type stack, a color count, a banned list, a construction layer, and a self-audit. Then one screenshot back for one correction pass.
+
+---
+
+## From the community
+
+I am not the only one with a loupe out. These are worth your time.
+
+- [Simon Willison's pelican on a bicycle](https://feeds.simonwillison.net/2026/Sep/1/claude-fable-5-1/), run on Fable 5.1 at every effort level, with token counts and cost. The most useful SVG benchmark there is, because he publishes the bill.
+- [UX Planet's Fable 5 tests for product designers](https://uxplanet.org/claude-fable-5-for-product-designers-8858690a420a): prototyping, animation and a design audit, with the audit checklist included.
+- [Framer's notes on Fable 5](https://www.framer.com/updates/fable-5), where the team found it handled shaders and subtle animation better than Opus or Sonnet.
+
+Run a plate of your own and tell me what broke. The breaks are the interesting part.
+
+---
+
+**Product with Attitude** is where we test the tools before we trust them. If that is how you like to work too, [come and build with us](https://karozieminski.substack.com/subscribe).
+
+## You Might Also Enjoy
+
+- **[AI-assisted Craft: A Manifesto](https://karozieminski.substack.com/p/ai-assisted-craft-vs-ai-slop)**
+- **[How to Start Building with AI](https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026)**
+
+## Sources
+
+- [Anthropic: Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+- [Claude Platform: Fable 5.2 specifications and API pricing](https://platform.claude.com/docs/en/models/fable-5-2/overview)
+- [Simon Willison: Fable 5.1 animated pelican test](https://feeds.simonwillison.net/2026/Sep/1/claude-fable-5-1/)
+
+- [MacRumors: Anthropic Launches Claude Fable 5.2 and Mythos 5.2](https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2/)
+- [Yahoo Finance: Anthropic debuts Claude Fable 5.2 and Mythos 5.2](https://finance.yahoo.com/technology/article/anthropic-debuts-claude-fable-52-and-mythos-52-models-as-ipo-nears-190405087.html)
+- [The New Stack: Fable 5.2 price cut and coding scores](https://thenewstack.io/anthropic-fable-coding-upgrade/)
+- [The Next Web: launch, fast mode pricing, availability](https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price)
+- [Quartz: FrontierCode 2.0 scores and effort level](https://qz.com/anthropic-claude-fable-mythos-5-2-price-cut-110926)
+- [Claude on X: launch thread](https://x.com/claudeai/status/2119867114450268322)
+- [Artificial Analysis: Claude Fable 5.2 model page](https://artificialanalysis.ai/models/claude-fable-5-2)
+- [Framer community: Fable 5 eval scores](https://www.framer.com/community/posts/TUPifW1eHQEzoN2XDXcSgv/)
+
+#### Questions and answers (6)
+Q: Is Claude Fable 5.2 good for graphic design?
+A: Yes, for design that can be expressed as code. Grid layouts, typographic posters, geometric marks, icon systems, charts and CSS motion. It writes SVG, HTML and CSS. It does not paint.
+Q: Can Claude Fable 5.2 generate images?
+A: Not raster images. Its output is text, so visuals arrive as SVG, HTML, CSS or canvas code that a browser renders. The upside is that everything is vector, editable and tiny.
+Q: Can Claude Fable 5.2 make animations?
+A: Yes, as CSS keyframes, SVG animation or JavaScript. It can derive physically correct easing. It cannot watch its animation play, so ask for a spacing chart and judge the timing yourself.
+Q: How much does Claude Fable 5.2 cost?
+A: $8 per million input tokens and $40 per million output tokens on the API, down 20% from Fable 5.1. Fast mode is $16 and $80. It is included in paid Claude plans.
+Q: Should designers use Fable 5.2 or Opus 5.5?
+A: Start with Opus 5.5. That is Anthropic's own recommendation. Move to Fable 5.2 when a brief stacks several hard constraints and the cheaper model drops one.
+Q: What is the best prompt for SVG design with Fable 5.2?
+A: Format and viewBox, grid and margins in numbers, a type stack, a color count, a banned list, a construction layer, and a self-audit. Then one screenshot back for one correction pass.
 
 ### Jev AI pricing explained: $0.042 per million, free output
 

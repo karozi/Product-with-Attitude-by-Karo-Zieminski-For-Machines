@@ -2170,7 +2170,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-11-07"
+      "dateModified": "2026-11-09"
     },
     {
       "@type": "ItemList",
@@ -14228,11 +14228,43 @@
       "inLanguage": "en",
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 1,
+      "numberOfItems": 2,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
+          "item": {
+            "@type": "BlogPosting",
+            "@id": "https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts",
+            "headline": "Claude Fable 5.2 for Designers: 7 Tests, Every Prompt",
+            "url": "https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts",
+            "description": "I tested Claude Fable 5.2 on 7 graphic and motion design briefs. Poster, logo, icons, bounce, easing, kinetic type, chart. Raw output and all 8 prompts.",
+            "datePublished": "2026-11-09",
+            "dateModified": "2026-11-09",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "author": {
+              "@type": "Person",
+              "name": "Karo Zieminski",
+              "url": "https://productwithattitude.com/about"
+            },
+            "subjectOf": {
+              "@type": "CreativeWork",
+              "url": "https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts.json",
+              "encodingFormat": "application/json"
+            },
+            "keywords": [
+              "Claude Fable 5.2",
+              "AI design",
+              "Motion design",
+              "Design prompts"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
           "item": {
             "@type": "BlogPosting",
             "@id": "https://productwithattitude.com/articles/jev-pricing-cost-per-token",

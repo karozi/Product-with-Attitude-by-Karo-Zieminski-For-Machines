@@ -393,12 +393,20 @@ stackshelf: https://stackshelf.app
 # <<< auto:research-obsessions
 
 # >>> auto:articles — rendered from content/articles at build time; edits inside this block are overwritten
-## Articles (1 published page)
+## Articles (2 published pages)
 
 # AI, product thinking, and things worth building. Original articles by Karo Zieminski that didn't make it to Substack.
 # Section index: https://productwithattitude.com/articles/
 # Original articles use self-canonical URLs and BlogPosting + BreadcrumbList JSON-LD.
 # Articles show publication and update dates. Drafts and design samples are excluded.
+
+- [Claude Fable 5.2 for Designers: 7 Tests, Every Prompt](https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts)
+  url: https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts
+  evidence: [Claims and sources](https://productwithattitude.com/articles/claude-fable-5-2-design-motion-tests-prompts.json)
+  summary: I tested Claude Fable 5.2 on 7 graphic and motion design briefs. Poster, logo, icons, bounce, easing, kinetic type, chart. Raw output and all 8 prompts.
+  published: 2026-11-09
+  updated: 2026-11-09
+  topics: Claude Fable 5.2, AI design, Motion design, Design prompts
 
 - [Jev AI pricing explained: $0.042 per million, free output](https://productwithattitude.com/articles/jev-pricing-cost-per-token)
   url: https://productwithattitude.com/articles/jev-pricing-cost-per-token
