@@ -2170,7 +2170,7 @@
           ".faq__answer p:first-of-type"
         ]
       },
-      "dateModified": "2026-11-09"
+      "dateModified": "2026-11-10"
     },
     {
       "@type": "ItemList",
@@ -2189,7 +2189,7 @@
             "datePublished": "2026-11-05",
             "dateModified": "2026-11-05",
             "wordCount": 1023,
-            "isAccessibleForFree": true,
+            "isAccessibleForFree": false,
             "author": {
               "@id": "https://karozieminski.substack.com/#author"
             },
@@ -31915,6 +31915,6 @@
       "dateModified": "2026-09-14"
     }
   ],
-  "schemaVersion": "5.9.76",
-  "dateModified": "2026-11-06"
+  "schemaVersion": "5.9.77",
+  "dateModified": "2026-11-10"
 }

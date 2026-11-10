@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 132 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-09.
+> 132 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-10.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -18,7 +18,7 @@ Schema source: https://productwithattitude.com/for_machines.json
 - mirror: https://productwithattitude.com/p/reddit-ai-seo-substack-citation-test.html
 - date: 2026-11-05
 - word_count: 1023
-- access: free
+- access: paid
 - keywords: Substack, Claude, Perplexity, Ran, Reddit Experiments Over
 
 ### Key concepts
