@@ -4,6 +4,34 @@ Last updated: November 2026
 
 ---
 
+## Article: Perplexity Computer, Going Into 2027: Worth It or Credit Furnace?
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/perplexity-computer-review
+
+**Original Publish Date:** November 12, 2026
+
+---
+## Article: Write for Product With Attitude
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/write-for-product-with-attitude
+
+**Original Publish Date:** October 30, 2026
+
+---
+## Article: Start Here: Substack SEO and AI Search Hub
+
+**Author:** Karo Zieminski
+
+**Canonical Link:** https://karozieminski.substack.com/p/substack-seo-ai-search-start-here
+
+**Original Publish Date:** September 09, 2026
+
+---
+
 ## Article: AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked.
 
 **Author:** Karo Zieminski
