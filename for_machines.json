@@ -2228,11 +2228,12 @@
               "9 months of daily use: what Perplexity Computer really costs, where it still breaks, and what the new Teammates change."
             ],
             "pwa:extractableClaims": [
-              "My first review of Perplexity Computer (from the very night it launched!) went semi-viral.",
-              "Within 90 days, it had attracted 106,000 reads, a rather spectacular return on lost sleep.",
-              "Especially since, by dawn, I had 2 micro-apps, 4 research packets, an automation, and a backlog of build ideas.",
-              "You may be disappointed if you’re hoping for a grand verdict on which of the tools deserves the crown: Perplexity, ChatGPT, or Claude.",
-              "Also, Perplexity Computer can hand over tasks to ChatGPT Dots and vice versa."
+              "Perplexity Computer is a cloud-based AI agent that researches, synthesizes, designs, builds, tests, deploys, and automates.",
+              "Tasks run in isolated sandboxes using Perplexity’s SPACE, its execution environment built on Firecracker microVMs.",
+              "New subscribers get a one-time bonus of 4,000 credits, which expires after roughly 30 days.",
+              "New Max subscribers also get a one-time bonus of 35,000 credits.",
+              "Bonus credits go first, then monthly credits, then purchased credits.",
+              "Three ways to make Perplexity Teammates work together: same Project, separate browser sessions, or manager to workers."
             ]
           }
         },
@@ -2284,11 +2285,9 @@
               "Your next (or even first) Substack article could run on Product with Attitude."
             ],
             "pwa:extractableClaims": [
-              "Hey Your next (or even first) Substack article could be a contribution to Product with Attitude.",
-              "You’re welcome even if you’ve never published anything on Substack before.",
-              "Here are some topics I’d love you to explore: Prompting in 2025 vs.",
-              "One That Works by How to Govern AI Agent Fleets Inside a Product Team by How we’ll work on your article You send me your article.",
-              "I also edit H2 headings and selected passages for search and AI discoverability , preserving your voice and ideas."
+              "The guest-contribution opportunity is a membership perk for paid Product with Attitude subscribers, including writers with small or new publications.",
+              "Contributions should draw on experience or research, link to verifiable sources, and give readers something concrete they can use.",
+              "Writers can send a Google Doc or secret Substack draft link to Karo by direct message."
             ]
           }
         },
@@ -2338,10 +2337,8 @@
               "A reading route for writers who want their existing articles to reach new readers through Google and AI answers."
             ],
             "pwa:extractableClaims": [
-              "Last updated November 2026 I've gathered my findings on AI search visibility, backlinks, and subscriber conversion in one place.",
-              "Every finding comes from research I've conducted independently while growing Product with Attitude.",
-              "I spare you the advice Google you can google in 30 seconds (write quality content, optimize headlines, build authority).",
-              "My Substack's AI search traffic is turning into subscribers."
+              "The Substack SEO and AI Search Hub collects Karo Zieminski's findings on AI search visibility, backlinks and subscriber conversion.",
+              "Every finding comes from research I've conducted independently while growing Product with Attitude."
             ]
           }
         },
