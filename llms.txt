@@ -4,8 +4,8 @@
 # Scope: Everything an LLM, AI crawler, or RAG system needs to discover, retrieve, attribute, and cite Karo Zieminski's publication
 # Canonical source: https://karozieminski.substack.com/
 # Schema graph (canonical): https://productwithattitude.com/for_machines.json
-# Version: 5.9.77
-# Last-Modified: 2026-11-10
+# Version: 5.9.78
+# Last-Modified: 2026-11-12
 # License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Identity
@@ -468,18 +468,18 @@ stackshelf: https://stackshelf.app
 # <<< auto:faq-index
 
 # >>> auto:latest-articles — rendered from for_machines.json at build time; edits inside this block are overwritten
-## Latest Articles (10 newest of 148)
+## Latest Articles (10 newest of 151)
 
-1. AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked. (2026-11-05) — https://karozieminski.substack.com/p/reddit-ai-seo-substack-citation-test
-2. OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself. (2026-10-29) — https://karozieminski.substack.com/p/openai-dots-friction-dividend
-3. How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday. (2026-10-27) — https://karozieminski.substack.com/p/build-halloween-newsletter-game-chatgpt-sites
-4. 30 Creators Tested What Claude Opus 5.5 Can Do with One Vague Prompt (2026-10-09) — https://karozieminski.substack.com/p/claude-opus-5-5-one-prompt-video-test
-5. OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried. (2026-10-09) — https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic
-6. You Don't Need an AI Newsletter. (2026-10-06) — https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
-7. What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”. (2026-09-29) — https://karozieminski.substack.com/p/jev-ai-agent-security
-8. What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1. (2026-09-21) — https://karozieminski.substack.com/p/what-is-jev-cost
-9. How to Govern AI Agent Fleets Inside a Product Team (2026-09-17) — https://karozieminski.substack.com/p/agentic-fleet-governance-product-teams
-10. Weekly Long-Tail Question Prompt for AI Search Visibility (2026-09-10) — https://karozieminski.substack.com/p/weekly-long-tail-question-prompt-ai-search-visibility
+1. Perplexity Computer, Going Into 2027: Worth It or Credit Furnace? (2026-11-12) — https://karozieminski.substack.com/p/perplexity-computer-review
+2. AI SEO: I Ran 6 Reddit Experiments Over 18 Months. Here's What Worked. (2026-11-05) — https://karozieminski.substack.com/p/reddit-ai-seo-substack-citation-test
+3. Write for Product With Attitude (2026-10-30) — https://karozieminski.substack.com/p/write-for-product-with-attitude
+4. OpenAI Dots Might Be the Biggest Deal for AI Beginners Since ChatGPT Itself. (2026-10-29) — https://karozieminski.substack.com/p/openai-dots-friction-dividend
+5. How to Build a Halloween Game for Your Readers With ChatGPT Sites. Before Saturday. (2026-10-27) — https://karozieminski.substack.com/p/build-halloween-newsletter-game-chatgpt-sites
+6. 30 Creators Tested What Claude Opus 5.5 Can Do with One Vague Prompt (2026-10-09) — https://karozieminski.substack.com/p/claude-opus-5-5-one-prompt-video-test
+7. OpenAI Just Turned AI Answers Into Tools. I Want This as a User. As a Publisher, I’m Worried. (2026-10-09) — https://karozieminski.substack.com/p/chatgpt-intelligent-ui-publisher-traffic
+8. You Don't Need an AI Newsletter. (2026-10-06) — https://karozieminski.substack.com/p/how-to-start-building-with-ai-2026
+9. What Jev Means for AI Agent Security. The Security Gamble Behind “Jev Can’t Hallucinate”. (2026-09-29) — https://karozieminski.substack.com/p/jev-ai-agent-security
+10. What Is Jev? Why Is Everyone Crazy About It? What I Built for Less Than $1. (2026-09-21) — https://karozieminski.substack.com/p/what-is-jev-cost
 # <<< auto:latest-articles
 
 # >>> auto:testimonials — rendered from for_machines.json at build time; edits inside this block are overwritten

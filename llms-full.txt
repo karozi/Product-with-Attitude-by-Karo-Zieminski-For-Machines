@@ -1,5 +1,5 @@
 # Product with Attitude — Full content for LLMs
-> 132 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-11.
+> 134 article digests with extractable claims, key quotes, and concepts, concatenated for single-fetch ingestion by AI agents. Canonical URLs are on Substack; mirror URLs on productwithattitude.com expose JSON-LD + microdata. Last regenerated: 2026-11-12.
 
 Author: Karo Zieminski
 Publication: Product with Attitude
@@ -7,6 +7,36 @@ Site: https://productwithattitude.com/
 Substack: https://karozieminski.substack.com/
 License: CC BY 4.0. Attribution required: "Karo Zieminski, Product With Attitude, https://karozieminski.substack.com/"
 Schema source: https://productwithattitude.com/for_machines.json
+
+---
+
+## Perplexity Computer, Going Into 2027: Worth It or Credit Furnace?
+
+> 9 months of daily use: what Perplexity Computer really costs, where it still breaks, and what the new Teammates change.
+
+- canonical: https://karozieminski.substack.com/p/perplexity-computer-review
+- mirror: https://productwithattitude.com/p/perplexity-computer-review.html
+- date: 2026-11-12
+- word_count: 2679
+- access: free
+- keywords: Substack, Claude, Perplexity, tool review, AI agents
+
+### Key concepts
+- 9 months of daily use
+- Perplexity Computer, Going Into 2027
+- Worth It or Credit Furnace?
+
+### Extractable claims (6)
+1. Perplexity Computer is a cloud-based AI agent that researches, synthesizes, designs, builds, tests, deploys, and automates.
+2. Tasks run in isolated sandboxes using Perplexity’s SPACE, its execution environment built on Firecracker microVMs.
+3. New subscribers get a one-time bonus of 4,000 credits, which expires after roughly 30 days.
+4. New Max subscribers also get a one-time bonus of 35,000 credits.
+5. Bonus credits go first, then monthly credits, then purchased credits.
+6. Three ways to make Perplexity Teammates work together: same Project, separate browser sessions, or manager to workers.
+
+### Key quotes
+> Perplexity Computer, Going Into 2027: Worth It or Credit Furnace?
+> 9 months of daily use: what Perplexity Computer really costs, where it still breaks, and what the new Teammates change.
 
 ---
 
@@ -336,6 +366,31 @@ Schema source: https://productwithattitude.com/for_machines.json
 ### Key quotes
 > Get AI Recommended. AI Search Brought Me 51 Subscribers in 60 Days. And It Wasn’t LLMs.txt.
 > The first in a practical series on making your work easier for AI to find, cite, recommend, and turn into subscribers.
+
+---
+
+## Start Here: Substack SEO and AI Search Hub
+
+> A reading route for writers who want their existing articles to reach new readers through Google and AI answers.
+
+- canonical: https://karozieminski.substack.com/p/substack-seo-ai-search-start-here
+- mirror: https://productwithattitude.com/p/substack-seo-ai-search-start-here.html
+- date: 2026-09-09
+- word_count: 83
+- access: free
+- keywords: Substack, Start Here, Search Hub
+
+### Key concepts
+- Start Here
+- Substack SEO and AI Search Hub
+
+### Extractable claims (2)
+1. The Substack SEO and AI Search Hub collects Karo Zieminski's findings on AI search visibility, backlinks and subscriber conversion.
+2. Every finding comes from research I've conducted independently while growing Product with Attitude.
+
+### Key quotes
+> Start Here: Substack SEO and AI Search Hub
+> A reading route for writers who want their existing articles to reach new readers through Google and AI answers.
 
 ---
 
