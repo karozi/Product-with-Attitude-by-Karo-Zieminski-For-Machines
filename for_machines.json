@@ -796,6 +796,34 @@
       ]
     },
     {
+      "@type": "Product",
+      "@id": "#product-design-resource-library",
+      "name": "Newsletter Design Resource Library for AI Builders",
+      "alternateName": "PwA Design Resource Library",
+      "description": "One-off access code to 22 production-ready design resources by Karo Zieminski: 11 newsletter hero sections, 5 design and email tools (Silk Shader Background, Motion Icon Pack, SVG Backdrop Generator, Dispatch Weekly MJML Template, Lifecycle Email Set in React Email) and 6 code-only demo-video tools (Scripted Product Demo, AI Concepts as Little Machines, Cue Composer, Motion Sandbox, Launch Trailer Kit, Render Pipeline). Every resource ships with full code and a replication prompt for Claude, Cursor, Replit, Lovable and v0. Paid Product with Attitude members get the same library with the Premium Member code.",
+      "url": "https://productwithattitude.com/design-resources",
+      "image": "https://productwithattitude.com/assets/design-resources/frosted-cat-newsletter-hero/frosted-cat-newsletter-hero-reference.jpg",
+      "category": "Digital design resources",
+      "creator": {
+        "@id": "https://karozieminski.substack.com/#author"
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "Product with Attitude"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://productwithattitude.gumroad.com/l/newsletter-design-resources-ai-builders",
+        "price": "39.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "sameAs": [
+        "https://productwithattitude.gumroad.com/l/newsletter-design-resources-ai-builders"
+      ],
+      "dateCreated": "2026-11-12"
+    },
+    {
       "@type": "DefinedTermSet",
       "@id": "#glossary",
       "name": "Product with Attitude Glossary",
