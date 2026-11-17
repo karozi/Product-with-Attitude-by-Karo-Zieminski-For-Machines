@@ -15,6 +15,7 @@ author: Karo Zieminski
 author_id: https://karozieminski.substack.com/#author
 publication_id: https://karozieminski.substack.com/#publication
 url: https://karozieminski.substack.com/
+description: Product with Attitude is a bestselling AI newsletter for experienced professionals using AI to improve their work or build a business, including product builders, developers, founders, creators, and AI practitioners. It’s read by tens of thousands of people across 146 countries. We build critical AI literacy the only way it sticks: through practice.
 type: Newsletter
 platform: Substack
 language: en

@@ -433,7 +433,7 @@
       "name": "Product with Attitude",
       "alternateName": "PwA",
       "url": "https://karozieminski.substack.com/",
-      "description": "Don't just use AI. Build with it. Bend it to your needs. A collaborative hub for AI builders, product managers, and creators who care about building things that matter. Recognized Substack Bestseller in Technology.",
+      "description": "Product with Attitude is a bestselling AI newsletter for experienced professionals using AI to improve their work or build a business, including product builders, developers, founders, creators, and AI practitioners. It’s read by tens of thousands of people across 146 countries. We build critical AI literacy the only way it sticks: through practice.",
       "tagline": "I teach people to use AI to think deeper, not faster. And to keep judgment, taste, and responsibility where they belong: with the human.",
       "publisher": {
         "@id": "https://karozieminski.substack.com/#author"
@@ -2015,7 +2015,7 @@
           "name": "What is Product with Attitude?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Product with Attitude is an AI newsletter and community for people who want to build critical AI literacy through immersion, not just use AI. I'm Karo Zieminski, an AI Product Manager, and I started it to help 20,000+ readers build that literacy through honest tool reviews, builder interviews, structured learning paths, and a weekly community rhythm."
+            "text": "Product with Attitude is a bestselling AI newsletter for experienced professionals using AI to improve their work or build a business, including product builders, developers, founders, creators, and AI practitioners. It’s read by tens of thousands of people across 146 countries. We build critical AI literacy the only way it sticks: through practice."
           }
         },
         {
